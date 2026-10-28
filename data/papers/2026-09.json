@@ -3796,7 +3796,7 @@
   "via": "旧站本地库",
   "watch": [],
   "why": [
-   "nitrogen activation"
+   "nitrogen reduction reaction"
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
@@ -5318,37 +5318,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
- "10.1021/acs.langmuir.6c02719": {
-  "abstract": "Abstract Electrochemical urea synthesis through C–N bond formation under mild conditions has emerged as a promising alternative to the conventional energy-intensive Bosch–Meiser process, offering a sustainable pathway coupling carbon and nitrogen cycles. In this context, the coelectrolysis of CO2 with different nitrogen sources, N2 and NO3–, has attracted increasing attention. However, these routes present fundamentally distinct challenges and opportunities regarding substrate activation, intermediate formation, and product selectivity. This mini-review provides a comprehensive comparison between N2 + CO2 and NO3– + CO2 coelectrolysis, focusing on the key factors that drive C–N coupling. Intrinsically limitations associated with the high-energy activation for breaking the N≡N triple bond of N2 and its associated low solubility, in contrast with the higher reactivity and availability of NO3– species, were discussed. Mechanistic insights into C–N coupling pathways were critically analyzed, highlighting the role of adsorbed intermediates and competing reactions such as hydrogen evolution and side products from nitrogen-species reduction. Furthermore, recent advances regarding the catalyst design and operational conditions were evaluated in terms of their ability to enhance selectivity toward urea synthesis. Finally, we outline the current challenges and future perspectives for the rational development of next-generation catalytic systems for sustainable urea synthesis.",
-  "authors": [
-   "Leandro A. Faustino",
-   "Susana Inés Córdoba de Torresi"
-  ],
-  "cross": false,
-  "date": "2026-09-17",
-  "doi": "10.1021/acs.langmuir.6c02719",
-  "first_seen": "2026-09-28T19:38:42Z",
-  "id": "10.1021/acs.langmuir.6c02719",
-  "kind": "journal",
-  "old_tier": "background",
-  "origin": "旧站本地库",
-  "score": 6,
-  "source": "Langmuir",
-  "tier": "background",
-  "title": "From Inert N2 to Reactive Nitrate: A Comparative Analysis on Electrocatalytic Urea Synthesis via CO2 Coelectrolysis",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1021/acs.langmuir.6c02719",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "N≡N"
-  ],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应"
- },
  "10.1021/acs.langmuir.6c03089": {
   "abstract": "Abstract Despite the historical significance of ammonia synthesis, conventional models (which identify multi-atom ensembles as active sites) fail to rationalize periodic trends in catalytic activity. In this work, we propose a novel mechanistic framework governed by the valence electronic configuration of metal atoms, specifically the availability of exposed half-filled orbitals (HFOs). It is assumed that catalytic efficiency relies on single active site to simultaneously cleave H–H and N–N bonds while serving as templates to facilitate N–H bond formation, which is suggested here as the rate-determining step. The model suggests that Group 8 metals (Fe, Ru, Os), possessing four HFOs, may mediate the formation of two N–H bonds per N–H bond formation step. Conversely, Group 9 metals, with three HFOs, are proposed to be kinetically limited to forming a single N–H bond, while Groups 10–12 lack sufficient HFOs for supporting N–H bond formation. Furthermore, the inactivity of Groups 4–7 might be attributed to stable nitride formation occupying available orbitals. By correlating catalytic performance directly with intrinsic electronic configurations rather than empirical macroscopic descriptors, and by framing the catalyst as an orbital template that directs bond reorganization rather than merely a substrate for intermediate adsorption/desorption, this framework may explain the necessity of catalysts and offer a theoretical basis for a priori catalyst design tailored to specific atomic properties.",
   "authors": [
@@ -5720,9 +5689,9 @@
   "id": "10.1021/acscatal.6c05612",
   "kind": "journal",
   "origin": "旧站云端",
-  "score": 22,
+  "score": 13,
   "source": "ACS Catalysis",
-  "tier": "transferable",
+  "tier": "background",
   "title": "Contrasting Roles of Rare-Earth and Ga Oxide Additives in Spinel-Derived Water-Tolerant Ni-Co/Al2O3 Catalysts for Ammonia Decomposition",
   "top": true,
   "topics": [
@@ -8163,7 +8132,7 @@
   "via": "旧站本地库",
   "watch": [],
   "why": [
-   "N≡N"
+   "nitrogen reduction reaction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及碳材料"
@@ -9104,7 +9073,7 @@
   "via": "旧站公众号库",
   "watch": [],
   "why": [
-   "N≡N"
+   "合成氨"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "等离子体制氨"

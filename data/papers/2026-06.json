@@ -2662,9 +2662,9 @@
   "id": "10.1021/acssuschemeng.6c03768",
   "kind": "journal",
   "origin": "回填",
-  "score": 18,
+  "score": 9,
   "source": "ACS Sustainable Chemistry & Engineering",
-  "tier": "transferable",
+  "tier": "background",
   "title": "Histidine-Stabilized Cobalt Nanoparticles on Silica for Efficient Ammonia Cracking",
   "top": false,
   "topics": [
@@ -4364,37 +4364,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨；涉及碳材料"
- },
- "10.26434/chemrxiv.15004906/v1": {
-  "abstract": "In aqueous electrocatalytic environments, the protonation of stable *CO and *N2 to *COH/*CHO and *NNH is fundamentally challenged by the competing hydrogen evolution reaction (HER). In this context, direct dissociation of these molecules offers an alternative pathway, forming reactive *C or *N fragments that can be reduced further if surface bonding is not too strong. However, the strong C≡O and N≡N bonds make dissociation challenging under ambient electrochemical conditions, and the extent to which solvent, local field, and electrolyte ions can promote bond dissociation remains unclear. In this work, we quantify these dissociation path at a Co(B5) step site using density functional theory, implicit-solvent calculations, and explicit-solvent enhanced sampling with a machine-learned interatomic potential (MLIP). Implicitsolvent calculations reveal only weak sensitivity to dielectric constant, dipole moment and solvent radius, with barrier variations typically within ≤ 0.1 eV. In contrast, the local H-bonding network in explicit-solvent simulations lowers the dissociation barrier by ∼ 0.3 eV relative to vacuum by stabilising the dissociating atoms. Across different solvents and aqueous solutes, the barrier correlates qualitatively with hydrogen-bond donor strength, pKa, and the local H-coordination number near the transition-state region. Interfacial cations (Li+ and Cs+) modify the work function but do not significantly change the dissociation barrier compared with pure water, suggesting that solvent-mediated interactions dominate under the studied conditions.",
-  "authors": [
-   "Mohd Riyaz",
-   "Alexander Bagger",
-   "MOHD RIYAZ"
-  ],
-  "cross": false,
-  "date": "2026-06-18",
-  "doi": "10.26434/chemrxiv.15004906/v1",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.26434/chemrxiv.15004906/v1",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 6,
-  "source": "ChemRxiv",
-  "tier": "background",
-  "title": "Thermal Activation under Electrochemical Conditions: CO and N2 Bond Dissociation on Co(B5)",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.26434/chemrxiv.15004906/v1",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "N≡N"
-  ],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "析氢反应"
  },
  "10.26599/nre.2025.9120183": {
   "abstract": "Abstract Ammonia (NH3) is a versatile chemical, critical to agriculture and various industries. Today, ammonia is further regarded as one of the most promising carbon-free energy carriers in the net-zero hydrogen economy. Traditionally, the energy-intensive Haber–Bosch process has been mainly used for producing ammonia by the thermocatalytic conversion of high-purity nitrogen and hydrogen, while also contributing to major greenhouse gas emissions due to dependence on fossil fuels. The electrochemical nitrogen reduction reaction (e-NRR) is a highly promising and attractive alternative roadmap to achieving clean and sustainable ammonia production under conditions that are sufficiently mild to be fully powered by renewable energy sources. However, the industrial adoption of e-NRR is currently hindered by its low ammonia yields and poor selectivity resulting from the limited reactivity of nitrogen molecules and the competitive hydrogen evolution reaction (HER) in aqueous electrolyte, respectively. To overcome these barriers, the development of efficient electrocatalysts for e-NRR is essential to the actual realization of this emerging ammonia production technology. Among various types of promising materials, earth-abundant Fe element presents a competitive edge for developing high-performance electrocatalytic N2 reduction systems owing to its intrinsic activity, low cost, and ease of modification with other elements to form compounds with distinguished catalytic activity. Therefore, this review focuses on recent developments in Fe-based nanomaterials for ammonia synthesis through e-NRR. A detailed overview of the chemistry of e-NRR, its fundamentals, mechanisms, and experimental procedures is given, along with ammonia detection methods and catalyst evaluation metrics. The main part of this review explored various kinds of Fe-based catalysts encompassing the oxides, hydroxides, bimetallic catalysts, single atom catalysts (SACs), metal–organic frameworks (MOFs), and chalcogenides. The analysis and discussion revolved around key traits of the catalysts, including synthesis protocol, structural features, surface properties, and their correlation to catalytic activity based on experimental data and theoretical insights. Additionally, prevailing challenges and opportunities for further advancement of Fe-based e-NRR catalysts are provided.",
