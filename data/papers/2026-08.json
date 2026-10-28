@@ -6885,6 +6885,35 @@
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "过程待核实"
  },
+ "10.68732/cd8fc2e65a999f46": {
+  "abstract": "Traditional comminution and drilling of hard rock, being based on mechanical breakage, suffers from severe tool wear. This has spurred intensive search for advanced preconditioning methods to facilitate mechanical breakage. One of these method uses high voltage electric pulses to fracture rock. This can happen directly, via Joule heating, whereby a rapid rise of the pressure and temperature in the electric breakdown channel between electrodes break the rock. Alternatively, the quartz phase in quartz-bearing rocks can be actuated by the converse piezoelectric effect. In the present study, a numerical model to simulate both techniques, the Joule heating and the piezoelectric actuation of the quartz phase, is developed. This task involves developing a rock fracture model and a solution scheme for the underlying coupled piezoelectro-thermo-mechanical problem. As to the rock fracture model, the embedded discontinuity finite elements approach is chosen. In this approach, a crack with the normal parallel to the first principal direction is introduced into a finite element upon violation of the Rankine criterion. Moreover, random clusters of finite elements representing the constituent minerals with their respective mechanical, thermal and electrical properties describe the rock heterogeneity. A staggered approach, with explicit time marching for the mechanical equation of motion, is applied in solving the coupled system of equations at the global level. In the numerical examples, cracking of a heterogeneous granitic rock specimen under high voltage pulse boundary condition is simulated in axisymmetric conditions. The results demonstrate that at lower voltages cracking is mainly due to Joule heating while at higher level, say 500 kV, cracks are induced also by the piezoelectric effect. Such a modelling technique is an asset that facilitates geotechnical project risk management by allowing numerical investigation of different physical and operational factors influencing the electropulse based preconditioning of rock mass.",
+  "authors": [
+   "Timo Saksala"
+  ],
+  "cross": false,
+  "date": "2026-08-12",
+  "doi": "10.68732/cd8fc2e65a999f46",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.68732/cd8fc2e65a999f46",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Risk Management in Rock Engineering: EUROCK 2026 Proceedings, Volume 1",
+  "tier": "transferable",
+  "title": "Numerical modelling of cracking in granite due to Joule heating and piezoelectric actuation",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.68732/cd8fc2e65a999f46",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
  "url:http://hdl.handle.net/10138/637069": {
   "abstract": "Improvements in photolithography have enabled immense advancements in semiconductor devices over the decades. However, patterning of thin films via lithography suffers from alignment issues which can cause detrimental errors. Future semiconductor device architectures necessitate new and inventive fabrication techniques, especially when the conventional 2D architectures reach their physical limits, and complex 3D architectures must be adapted. Such complicated structures are difficult to make using traditional lithography techniques alone. A promising method to replace some of the lithography steps is area-selective deposition, which is a self-aligned technique where material is deposited only on surfaces where it is needed. Area-selective etching (ASE) of polymers is a novel method for achieving area-selectivity. In ASE, a polymer film is decomposed only from top of catalytic surfaces, but not from the non-catalytic surfaces. This means that ASE of polymers is a self-aligned patterning method which does not require any additional lithography steps. Once the catalytic surface is fully exposed, the ASE-patterned polymer film can be used as an inhibitor layer, e.g., for area-selective atomic layer deposition (AS-ALD). Alternatively, the ASE-patterned polymer layer can be exploited as a resist in lift-off or etching processes. The literature part of this thesis is a compilation of various aspects that must be considered for ASE of polymers. These aspects are discussed in three sections: polymer properties, catalytic decomposition of polymers, and polymers as inhibition layers in AS-ALD. Important polymer properties include gas permeability, melt behavior, and polymer decomposition mechanisms in different atmospheres. Next, potential heterogeneous catalysts for ASE of polymers in different atmospheres are reviewed. Finally, important aspects to consider when using polymers as inhibiting layers in AS-ALD are discussed. The first section of the experimental results presents summary of all the experiments conducted for screening catalytic and non-catalytic surfaces in different atmospheres with various polymers. The second section shows the polymer film patterning by ASE on different test structures, with different polymers, and in different atmospheres, selected based on the results obtained from the screening experiments. Finally, the feasibility of AS-ALD using the ASE-patterned polymer films as inhibition layers is demonstrated with three processes. Because ASE of polymers is not yet extensively researched, many challenges are unknown. Therefore, this thesis is, first and foremost, meant to give new ideas and guide the future research on ASE of polymers.",
   "authors": [

@@ -121,6 +121,41 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
+ "10.1002/adfm.78836": {
+  "abstract": "ABSTRACT Rechargeable electrochemical systems based on reversible NH 3 /NO 3 − conversion remain rarely explored because single catalysts capable of efficiently driving both electrocatalytic ammonia oxidation (AOR) and nitrate reduction (NO 3 RR) are still very limited. Here, we address this challenge through interfacial electronic regulation and develop a Co@Cu core–shell catalyst in which the Co core electronically modulates the exposed Cu shell. This core‐induced electronic regulation optimizes the surface electronic structure of Cu while the Cu shell spatially suppresses Co‐mediated N─N coupling, thereby reconciling the distinct catalytic requirements of AOR and NO 3 RR within a single catalyst. The optimized Co@Cu catalyst achieves a Faradaic efficiency of 92.6% for AOR and 98.2% for NO 3 RR, together with a nitrite/nitrate yield of 653.3 µmol·h −1 ·cm −2 and an NH 3 yield of 1.857 mmol·h −1 ·cm −2 , respectively. Benefiting from this reversible bifunctionality, a rechargeable Zn‐NO 3 − /NH 4 + battery was assembled with a peak power density of 57.5 mW·cm −2 . This work provides a design strategy for Core–Shell bifunctional catalysts toward reversible nitrogen‐based electrochemical energy systems.",
+  "authors": [
+   "Xinyu Zhao",
+   "Yuan Ma",
+   "Xiaoxiao Zou",
+   "Kai Yang",
+   "Ying Deng",
+   "Yunyu Zhao",
+   "Hong Guo"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.1002/adfm.78836",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1002/adfm.78836",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Interfacial‐Electronically‐Regulated Core–Shell Co@Cu Catalyst for Reversible Ammonia/Nitrate Electrocatalysis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.78836",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1002/adma.74612": {
   "abstract": "ABSTRACT Spin‐state engineering of active sites represents a key strategy for boosting catalytic performance, as demonstrated in thermal ammonia synthesis. However, conventional promoter‐mediated ground‐state spin modulation is inherently limited by the electronic structure of the catalyst, imposing a ceiling on achievable spin tuning efficacy and hindering further advances. In this work, we developed a series of cobalt (Co) nanoparticle‐based catalysts for photothermal ammonia synthesis. By introducing Ru single atom into the Co nanoparticles, along with the addition of barium as a promoter, spin‐state engineering of Co nanoparticles was optimized under light irradiation, boosting the production rate by 3 times compared to thermal catalytic conditions. In‐situ characterization studies revealed that the hot electrons accumulate on the catalyst surface and shift the Co active sites toward a lower‐spin configuration. Supported by density functional theory (DFT) calculations, we demonstrate that this light‐induced spin state change modulates the electronic interaction between Co and N 2 , weakening the N≡N bond and lowering its dissociation energy barrier, thereby facilitating N 2 activation. This work demonstrates that spin regulation in Co‐based catalysts is an innovative design principle for developing more efficient photothermal catalysts for ammonia synthesis and other applications.",
   "authors": [
@@ -424,6 +459,77 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.1002/ange.3346028": {
+  "abstract": "ABSTRACT The activation of dinitrogen (N 2 ) via heterobimetallic cooperation remains a compelling strategy for N 2 functionalization. Herein, we report the synthesis and reactivity of a well‐defined chromium–aluminum hydride dinitrogen complex, [(depe) 2 (H)Cr( μ ‐N 2 )AlH 2 ] 2 (depe = Et 2 PCH 2 CH 2 PEt 2 ). Crystallographic and spectroscopic analyses reveal substantial N 2 reduction driven by a “push–pull” interaction between the electron‐rich Cr centers and the electrophilic Al Lewis acid core. Upon stoichiometric protonation with [Ph 2 NH 2 ]OTf, the highly activated bridging N 2 units undergo selective proton‐coupled reduction to release hydrazine (N 2 H 4 ) in up to 97% yield. Crucially, structure–reactivity investigations reveal a clear correlation between the presence of the central Al─H bonds and the selective hydrazine formation. Furthermore, the central aluminum hydrides exhibit high regioselectivity toward silyl electrophiles, enabling the precise construction of fully and partially substituted derivatives; notably, in 5–8 the Cr─N 2– Al motif and terminal Cr─H units are retained. Subsequent redox investigations demonstrate that deep chemical reduction induces a core rearrangement into a unique complex, [(depe) 2 (H)Cr( μ ‐N 2 )] 2 ( μ ‐AlH 2 )( μ ‐Li), followed by multimetallic cleavage. These transformations underscore the essential role of the Lewis acidic Al(III) center in maintaining multimetallic structural integrity and sustaining N 2 activation. Overall, these findings define a heterobimetallic Cr─Al hydride framework in which the central Al─H motif governs stoichiometric hydrazine release and site‐selective hydride functionalization.",
+  "authors": [
+   "Xuan‐Xuan Zhao",
+   "Zhu‐Bao Yin",
+   "Biguo Liang",
+   "Zhenfeng Xi",
+   "Junnian Wei"
+  ],
+  "cross": false,
+  "date": "2026-09-28",
+  "doi": "10.1002/ange.3346028",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1002/ange.3346028",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 32,
+  "source": "Angewandte Chemie",
+  "tier": "direct",
+  "title": "Stoichiometric Reduction of Dinitrogen to Hydrazine Upon Protonation of Heterobimetallic Chromium–Aluminum Hydride Complexes",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/ange.3346028",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Reduction of Dinitrogen"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
+ "10.1002/ange.4217363": {
+  "abstract": "ABSTRACT Understanding how second metal species modulate catalytic performance remains a central challenge in bimetallic heterogeneous catalysis. Here, we report a controllable strategy to construct atomically contacted and spatially isolated structures between Pt 3 clusters and Cu atoms on γ‐Al 2 O 3 by atomic layer deposition (ALD), enabling direct interrogation of metal–metal synergy. By regulating anchoring sites around Pt clusters, Cu atoms can be selectively positioned either by bonding to Pt to form Pt 3 Cu 1 clusters or by separating into isolated Cu single atoms. Comprehensive characterizations and theoretical calculations reveal that Cu single atom can act as an effective promoter only when directly bonded to Pt 3 clusters. As electron donator, the bonded Cu atom can enhance the hydrogen dissociation ability of Pt clusters, weaken their strong acetylene adsorption, and facilitate ethylene desorption, thereby overcoming the activity‐selectivity trade‐off in selective hydrogenation of trace acetylene. In contrast, isolated Cu single atom fails to promote Pt 3 clusters and even deteriorate selectivity. These results demonstrate that Pt─Cu bond formation, rather than simple proximity, governs synergistic effects in bimetallic cluster catalysts. This work establishes a clear design principle for atomically engineered catalysts and offers a general strategy to independently optimize catalytic activity and selectivity.",
+  "authors": [
+   "Chuhan Gao",
+   "Linsen Li",
+   "Jian Zeng",
+   "Jiawei Yao",
+   "Yujing Ren",
+   "Jianxin Liu",
+   "Zhao Jiang",
+   "Yongquan Qu",
+   "Yong Qin",
+   "Huibin Ge"
+  ],
+  "cross": false,
+  "date": "2026-09-29",
+  "doi": "10.1002/ange.4217363",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1002/ange.4217363",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 19,
+  "source": "Angewandte Chemie",
+  "tier": "transferable",
+  "title": "Atomic Contact With Cu Single Atom Promoting Pt 3 Clusters for High‐Performance Acetylene Semihydrogenation",
+  "top": true,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1002/ange.4217363",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应；涉及原子层沉积"
  },
  "10.1002/anie.1975103": {
   "abstract": "ABSTRACT The performance of mesoporous metal oxides (MMOs) depends strongly on the composition, crystallinity, and size. However, soft‐templating synthesis of multicomponent systems is typically constrained by poor structural control arising from phase separation, uncontrolled nucleation, and structural collapse. Inspired by biomineralization, this study proposes a biomimetic confined crystallization strategy based on constructing a 3D continuous poly(acrylic acid) matrix. This matrix forms a flexible organic–inorganic network that stabilizes intermediate species, regulates crystallization kinetics, suppresses burst nucleation, and promotes integrated crystal growth, thereby playing a role analogous to the organic framework in natural biomineralization. In addition, the template directs mesostructure formation through its space‐occupying effect and decomposition‐induced gas evolution. As a result, large‐sized single‐crystalline multicomponent MMOs were successfully synthesized. More importantly, this strategy enables precise and tunable control of crystallinity and particle size and can be readily extended to more than ten multicomponent systems. As a representative example, La 2 FeCuO 6 exhibits a Faradaic efficiency of 98.2% for electrocatalytic nitrate reduction, benefiting from the synergistic effects of optimized electronic structure, mesoporosity, and single crystallinity. Overall, this work establishes a biomimetic route to overcome the intrinsic limitations of conventional soft‐templating approaches, particularly phase separation, polycrystallization, and the difficulty of achieving large‐sized crystal growth under high‐temperature calcination.",
@@ -794,6 +900,38 @@
   "watch": [],
   "why": [
    "producing ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
+ "10.1002/chem.71751": {
+  "abstract": "ABSTRACT Ammonia has recently emerged as a promising energy carrier in achieving carbon neutrality. Electrocatalytic nitrate/nitrite reduction reaction (NO x − RR) to ammonia offers a compelling alternative to the Haber–Bosch process, providing a viable pathway toward ambient ammonia production while simultaneously remediating environmental pollutants. However, balancing the adsorption and activation of reactant and stimulating the hydrogenation of key intermediates remain challenging during this complicated reaction, limiting the selectivity and ammonia yield rates. In this context, cobalt (Co)‐based electrocatalysts have emerged as one of the most promising catalysts for NO x − reduction owing to their versatile electronic structures and tunable active centers. In this review, we summarize recent progress of advanced Co‐based electrocatalysts in NO x − RR, introducing the correlation between electrochemical catalytic activity and their structural characteristics, with an emphasis on multiscale design of active centers, structural frameworks, and interfacial microenvironments. Additionally, we propose solutions to address the current challenges toward the practical ammonia synthesis. This review will provide valuable insights for the rational design of efficient and sustainable electrocatalysts for NO x − to ammonia.",
+  "authors": [
+   "Yanjun Han",
+   "Zhi Wang",
+   "Haixia Zhong",
+   "Xinbo Zhang"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.1002/chem.71751",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1002/chem.71751",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemistry – A European Journal",
+  "tier": "background",
+  "title": "Cobalt‐Based Electrocatalysts for Nitrate/Nitrite Reduction to Ammonia: Multiscale Design of Active Sites, Frameworks, and Interfaces",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/chem.71751",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
@@ -1982,6 +2120,77 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮"
  },
+ "10.1016/j.cej.2026.182568": {
+  "abstract": "",
+  "authors": [
+   "Özlem Uguz Neli",
+   "Anju Pal",
+   "Elnaz Tahavori",
+   "Danial Mazhar",
+   "Kanglei Pang",
+   "Anirban Sikdar",
+   "Xiang Liu",
+   "Zoltán Bacsik",
+   "Jiayin Yuan"
+  ],
+  "cross": false,
+  "date": "2026-09",
+  "doi": "10.1016/j.cej.2026.182568",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1016/j.cej.2026.182568",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Chemical Engineering Journal",
+  "tier": "transferable",
+  "title": "HKUST-1/polymer/carbon nanotube ternary composite adsorbents for high CO2 uptake and low-voltage joule heating capability",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.182568",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
+ "10.1016/j.cej.2026.182590": {
+  "abstract": "",
+  "authors": [
+   "Aleksandra Zamljen",
+   "Jurij Golobič",
+   "Anže Prašnikar",
+   "Stanislav Yakushkin",
+   "Katja Vodlan",
+   "Blaž Likozar"
+  ],
+  "cross": false,
+  "date": "2026-09",
+  "doi": "10.1016/j.cej.2026.182590",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1016/j.cej.2026.182590",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "Chemical Engineering Journal",
+  "tier": "direct",
+  "title": "Zeolite-supported metal chloride sorbent materials under sorption-enhanced ammonia synthesis reaction conditions for H2 storage: Mechanisms, micro-kinetics and modelling",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.182590",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.1016/j.ces.2026.125148": {
   "abstract": "",
   "authors": [
@@ -2879,6 +3088,45 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
+ "10.1016/j.joule.2026.102650": {
+  "abstract": "Chemical carriers can make hydrogen easier to store, transport, and release where it is needed. This review compares thermal, electrical, and light-driven catalytic routes for extracting hydrogen from ammonia, methane, methanol, and liquid organic hydrogen carriers. By linking carrier-specific reaction bottlenecks with active-site design, reactor engineering, purification, durability, and energy efficiency, it outlines how integrated carrier-to-hydrogen systems could support cleaner, safer, and more flexible hydrogen supply chains.",
+  "authors": [
+   "Shuai Yue",
+   "Guanshu Zhao",
+   "Zhiyong Zhao",
+   "Mengxue Yang",
+   "Fei Li",
+   "Tao Zhang",
+   "Chengliang Mao",
+   "Shufang Ji",
+   "Wenqiang Qu",
+   "Mingzheng Xie",
+   "Pengfei Wang",
+   "Sihui Zhan",
+   "Geoffrey Ozin"
+  ],
+  "cross": false,
+  "date": "2026-09-03",
+  "doi": "10.1016/j.joule.2026.102650",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1016/j.joule.2026.102650",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Joule",
+  "tier": "uncertain",
+  "title": "Catalytic strategies for hydrogen release from carriers",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.joule.2026.102650",
+  "via": "RSS·Joule",
+  "watch": [],
+  "why": [],
+  "zh_method": "光驱动",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.1016/j.jpowsour.2026.241555": {
   "abstract": "Atomic layer deposition (ALD) is a promising approach to stabilizing supported metal nanoparticles; however, conventional oxide overcoating often forms continuous layers that obstruct active sites and compromise catalytic performance. Here, we present a synthesis-integrated strategy for inherent area-selective ALD, in which the interfacial reactivity established during nanoparticle synthesis directs subsequent oxide nucleation. Using Ag/ZnO as a model system, we demonstrate that synthesis-programmed surface chemistry governs the nucleation and spatial distribution of ALD-grown ZnO. Microwave-assisted polyol synthesis generates oxygen-containing Ag surface species that serve as favorable nucleation sites, creating an intrinsic reactivity contrast between the Ag nanoparticles and carbon support. This promotes preferential ZnO nucleation on Ag without additional surface pretreatment or blocking agents. The resulting nucleation-dominated ZnO nanodomains help stabilize the electrochemical response of Ag and mitigate surface changes during repeated cycling in alkaline media while preserving catalytic accessibility. In H 2 /O 2 anion exchange membrane fuel cells, the selectively modified Ag/C cathode delivers improved performance and stability compared with its conventionally prepared counterpart. More broadly, this work demonstrates that synthesis-programmed surface chemistry provides a practical and versatile approach for controlling ALD nucleation and engineering metal–oxide interfaces, with broader applicability to other supported catalyst systems for electrochemical energy conversion.",
   "authors": [
@@ -3523,6 +3771,36 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应；涉及原子层沉积"
  },
+ "10.1021/accountsmr.6c00185": {
+  "abstract": "Conspectus Nanozymes have garnered substantial interest due to their intrinsic enzyme-like catalytic activities and their capacity to circumvent several inherent drawbacks of natural enzymes, including laborious purification, high production costs, stringent reaction conditions, and poor operational stability. These merits render nanozymes promising candidates for a wide array of applications, ranging from colorimetric analysis and the prevention of drug-resistant bacterial infections to tumor therapy. Despite the rapid expansion of the field and the development of thousands of nanozyme systems, only a limited subset exhibits catalytic efficacies on par with those of their natural counterparts. This performance gap has significantly restricted their broader practical deployment. The rational design of highly active nanozymes necessitates a comprehensive understanding of active-site engineering, encompassing three interrelated pillars: the structure–activity relationship of the catalytic site, site density, and site accessibility. In this context, single-atom nanozymes (SAzymes) offer an ideal platform to tackle these challenges, benefiting from maximal atom-utilization efficacy, atomically dispersed and structurally homogeneous active centers, and readily tunable electronic configurations. Considerable progress has been made in elucidating structure–activity relationships at the single-site level through coordination engineering, dimensionality regulation, functional-group modification, spin-state modulation, and related strategies. However, site density and site accessibility, which are equally important for determining overall catalytic output, have received comparatively less attention. In this Account, we summarize our recent endeavors, alongside representative studies from the literature, toward the rational design and construction of high-performance SAzymes and their applications across diverse fields. We begin with a brief overview of nanozyme development, followed by a focused discussion on site engineering strategies for the de novo synthesis of SAzymes. Emphasis is placed on three key optimization axes: enhancing the intrinsic activity of individual active sites, increasing site density, and improving the accessibility of catalytic centers. These three parameters thus address three fundamental questions: how active each site is, how many sites are present, and how many of them can participate in the reaction. We then discuss strategies for standardizing the quantification of accessible active-site density in SAzyme systems, focusing on two representative techniques: low-temperature CO adsorption combined with temperature-programmed desorption and nitrite adsorption followed by electrochemical reductive stripping. We critically compare their respective strengths, limitations, and application scopes. We then summarize recent progress in site engineering of SAzymes for biomedical applications, including colorimetric sensing, antibacterial therapy against drug-resistant pathogens, tumor therapy, and anti-inflammatory treatment. Finally, we highlight future research directions, including enhancement of catalytic activity and specificity, development of nonredox enzyme-mimetic systems, design of biodegradable supports, and the integration of emerging data-driven methodologies. We believe that optimizing the structure–activity relationship, site density, and site accessibility together is the way to close the performance gap between SAzymes and natural enzymes and to make them truly useful in practice.",
+  "authors": [
+   "Yanjun Ji",
+   "Longge Zhao",
+   "Huan Wang",
+   "Jinsong Ren"
+  ],
+  "cross": false,
+  "date": "2026-09-28",
+  "doi": "10.1021/accountsmr.6c00185",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1021/accountsmr.6c00185",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Accounts of Materials Research",
+  "tier": "background",
+  "title": "Site Engineering of Single-Atom Nanozymes: Designing Across Intrinsic Activity, Density, and Accessibility for Biomedical Applications",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/accountsmr.6c00185",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原"
+ },
  "10.1021/acs.cgd.6c00445": {
   "abstract": "Abstract The electrocatalytic nitrate reduction reaction (eNO3RR) offers an effective pathway for carbon-neutral ammonia synthesis; however, its efficiency is severely hampered by the intricate thermodynamics of proton-coupled electron transfer (PCET) and by competition from the hydrogen evolution reaction (HER). To address these challenges, we engineered two ternary composite catalysts (PMo12@Cu-BTC/Ti3C2Tx and PW12@Cu-BTC/Ti3C2Tx) incorporating distinct polyoxometalate anions (H3PMo12O40, noted as PMo12; H3PW12O40, noted as PW12) by integrating polyoxometalate-based metal−organic frameworks (POMOFs) with a Ti3C2Tx MXene scaffold. This architectural design synergistically couples redox-active POMOFs, facilitating optimized PCET, with a three-dimensionally interconnected porous MXene network, effectively mitigating the inherent inferior conductivity of POMOFs. Comparative studies reveal that the phosphomolybdate (PMo12)-based catalyst exhibits superior electrocatalytic activity, achieving an NH3 yield of 12.86 mg h−1 mgcat.−1 at −0.8 V vs RHE, alongside a large electrochemical active surface area (ECSA) and exceptional stability. This work validates the significant potential of the POMOF−MXene hybrid platform in reducing the competing HER and promoting eNO3RR, offering a viable strategy for decentralized wastewater treatment and green ammonia synthesis.",
   "authors": [
@@ -3562,6 +3840,44 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
+ },
+ "10.1021/acs.chemmater.6c00705": {
+  "abstract": "Abstract Electrochemical nitrate reduction reaction (NO3RR) and carbon dioxide reduction reactions (CO2RR) can serve as environmental remediation tools for pollution control and thus support a circular economy for sustainability. The electrochemical process relies heavily on electrode materials; thus, developing highly active and efficient electrocatalysts for these reactions in a green and cost-effective way is essential. In this study, we examined cobalt porphyrins with different modifications for electrochemical NO3RR and CO2RR to independently produce ammonia and acetic acid/formic acid. The carboxylic acid group-substituted cobalt tetrakis(p-tolyl) porphyrin showed a high Faradaic efficiency of 94% for ammonia, 33.8% for CH3COOH, and 21.1% for HCOOH at various potentials in a neutral pH (∼7) electrolyte. Computational results suggest enhanced binding of key NO3RR and CO2RR intermediates to the −COOH group-substituted cobalt porphyrin during electrocatalysis.",
+  "authors": [
+   "Kamal Dhakal",
+   "Alankar Kafle",
+   "Swatej Sabbarwal",
+   "Dili R. Subedi",
+   "Mohammad K. Altafi",
+   "Alireza Hajiseyedjavadi",
+   "Sayan Maiti",
+   "Shengqian Ma",
+   "Thomas R. Cundari",
+   "Francis D’Souza"
+  ],
+  "cross": false,
+  "date": "2026-09-29",
+  "doi": "10.1021/acs.chemmater.6c00705",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1021/acs.chemmater.6c00705",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Chemistry of Materials",
+  "tier": "background",
+  "title": "Cobalt Tritolylcarboxy Porphyrin-Carbon Black Composite Bifunctional Electrocatalyst for Nitrate and Carbon Dioxide Electroreduction to Ammonia and Formic/Acetic Acid",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.chemmater.6c00705",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "produce ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
  "10.1021/acs.est.6c07607": {
   "abstract": "Abstract Catalysis under nanoscale confinement is widely pursued, but practical systems remain limited by a persistent contradiction: maximizing confinement-enhanced reactivity usually increases the residence time and accelerates pore failure. Here we present a ceramic nanofiltration platform that resolves this trade-off by coupling subnanometer confinement with transient, flow-through ion dehydration. The membrane is constructed by atomic layer deposition on a hierarchical α-Al2O3/γ-Al2O3 scaffold, yielding a robust, ultrathin Al2O3 active layer with tunable nanochannels and minimized transport distance to the reaction interface. During transmembrane permeation, Fe2+ ions are partially dehydrated, exposing vacant coordination sites that immediately react with H2O2 upon emergence to degrade organic micropollutants (e.g., tetracycline). This synergistic process yields a kinetic enhancement ratio of 90.5% for the dehydration group relative to the corresponding rehydration group. The kinetic enhancement ratio obtained with the commercial polyamide nanofiltration membrane NF270 under the same comparison framework was substantially lower. Beyond activity, the inorganic architecture sustains 30 d of continuous backwashing with <3% fluctuation in pure-water permeability and exhibits a kinetic enhancement ratio of 89.6% after backwashing. Importantly, the reverse-mode configuration reduces reliance on prolonged reactant residence within nanopores, thereby lowering the risk of pore blockage. These results establish a membrane-enabled strategy for capturing nonequilibrium ionic states and thereby translate nanoconfinement chemistry into an operationally durable format, with broad implications for water treatment, electrochemical conversion, and selective resource recovery.",
@@ -4482,6 +4798,39 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
+ "10.1021/acssuschemeng.6c03434": {
+  "abstract": "Abstract This study presents an innovative ternary non-noble metal oxide/sulfide composite electrocatalyst, (Mn,V)4O7−x/Fe3S4−y, designed to enhance the efficiency and selectivity of the ambient-condition electrochemical nitrogen reduction reaction (N2RR). Synthesized on nickel foam via a hydrothermal method, this multidefective, bifunctional catalyst aims to replace the energy-intensive Haber Bosch process for ammonia (NH3) production. By incorporating manganese into an iron-vanadium system, the ternary catalyst achieves a remarkable NH3 yield rate of 5.041 mg cm−2 h−1 and a Faradaic efficiency (FE) of 31.7% at −0.7 V vs RHE in 0.5 M Na2SO4 electrolyte. This performance roughly doubles that of the binary V2O5/FeS2 baseline catalysts. In a single-stack N2RR||OER cell at 2.5 V, the system attained an NH3 yield of 3.505 mg cm−2 h−1, 45% FE, and 56.2% energy efficiency, consuming 29.1 kWh KgNH3−1. To further reduce electricity demands down to 16.1 kWh KgNH3−1, the conventional anodic oxygen evolution reaction was replaced with a glycerol oxidation reaction (N2RR||GOR). The catalyst's outstanding yield, selectivity, and overall stability stem from non-stoichiometry-derived multivalent defects acting as catalytically active centers. Specifically, metallic Lewis acids and nonmetallic Lewis bases work collaboratively to strongly trap, adsorb, and activate inert N2 molecules. Ultimately, this rational, defect-engineered catalyst design represents a highly significant, industrially viable advancement for ambient nitrogen fixation.",
+  "authors": [
+   "Kefyalew Hailemariam Woldeamanuel",
+   "Tsegaye Girma Eshetu",
+   "Meselu Eskezia Ayalew",
+   "Abambagade Abera Mitiku",
+   "Dong-Hau Kuo"
+  ],
+  "cross": false,
+  "date": "2026-09-29",
+  "doi": "10.1021/acssuschemeng.6c03434",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1021/acssuschemeng.6c03434",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Sustainable Chemistry & Engineering",
+  "tier": "background",
+  "title": "Defects-Rich Mn2V2O7/Fe3S4 Catalysts for Ammonia Synthesis via a Bifunctional N2-Glycerol Electrolysis Cell: Applying the Concept of Solid-State Lewis Acid/Base as Catalysis-Active Sites",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acssuschemeng.6c03434",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系"
+ },
  "10.1021/acssuschemeng.6c03627": {
   "abstract": "Abstract Polypropylene (PP), one of the most widely used plastics, is a major contributor to global plastic waste. H-mordenite (HM) zeolites impregnated with cobalt (Co) and zinc (Zn) were employed as catalysts for the thermo-catalytic pyrolysis of PP to generate light hydrocarbons and hydrogen. Comprehensive characterization of the catalysts shows that metal incorporation reduced the BET surface areas due to partial pore filling, while TEM and FESEM images confirm unchanged crystallinity with well-dispersed Co and Zn species. Temperature desorption studies with NH3 show abundant Brønsted and Lewis acid sites in HM, with Co and Zn further tuning the acidity of zeolite. The H2-TPR studies indicate that Co formed reducible oxide species capable of generating metallic Co sites under reaction conditions, while Zn remains primarily as framework-stabilized Zn2+ with limited reducibility. The XPS studies confirm the coexistence of metallic Co and cobalt oxides, promoting dehydrogenation and C–C bond scission, whereas Zn remained as Zn2+ and –O–Zn–OH species, enhancing Lewis acidity and limited secondary cracking. Catalytic pyrolysis experiments yielded over >90% PP conversion with 65% selectivity toward light olefins (C2=–C4=) at 450 °C for a 1:1 catalyst-to-polymer ratio with Co-HM, outperforming similar experiments with Zn-HM and pristine HM. The catalyst stability test performed for both Co-HM and Zn-HM catalysts showed propene selectivity to decrease slightly from 53 to 49% after 20 h time-on-stream (TOS) studies, while for the Zn-HM catalyst, a decrease from 45 to 40% was observed over the same period. Density functional theory (DFT) calculations are consistent with these observations, showing that Co sites strongly stabilize propene intermediates via π back-donation and lower dehydrogenation barriers, while Zn exhibits weaker binding and limited stabilization due to filled d-orbitals. These findings suggest that although Co-HM and Zn-HM yield comparable polypropylene conversion with similar activity, each catalyst operates through a different catalytic pathway to yield the final products. While Co-HM provides reducible Co species with Brønsted–Lewis acidic sites that favor olefin formation, Zn-HM primarily modifies Lewis acidity, resulting in different distribution of products.",
   "authors": [
@@ -4552,6 +4901,43 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+ },
+ "10.1021/acssuschemeng.6c07558": {
+  "abstract": "Abstract The electrocatalytic nitrate reduction reaction (NO3RR) offers significant promise for environmental protection and the production of valuable ammonia (NH3). However, the complexity of the NO3RR process, involving various intermediates and active hydrogen species (Hads), poses challenges to enhancing the selectivity and yield of NH3. Herein, we present a highly active and selective CuRu alloy electrocatalyst (Cu50Ru50) that converts nitrate to ammonia with outstanding performance: a 97.2% Faradaic efficiency and a production rate of 41.3 mg h−1 cm−2 at −0.78 V vs RHE in 0.01 M nitrate. The catalyst shows excellent durability (&gt;1000 h) and high efficiency in Zn-nitrate batteries, making it the benchmark electrocatalyst in this field. Ultraviolet photoelectron spectrometry results indicate the electron redistribution of Cu sites in Cu50Ru50, altering its electronic structure and optimizing its catalytic performance. Computational analysis and ultraviolet photoelectron spectrometry reveal that Cu atoms serve as active sites for NO3− adsorption, while Ru atoms enhance the dissociation of H2O, providing active Hads for the hydrogenation of intermediates, especially accelerating the rate-determining step of *NOH to form *NHOH.",
+  "authors": [
+   "Hong Huang",
+   "Lijuan Yu",
+   "Songhui Wan",
+   "Jing-Jing Lv",
+   "Qineng Xia",
+   "Yechuan Zhang",
+   "Longhua Guo",
+   "Zhengxiang Gu",
+   "Yongyong Cao"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.1021/acssuschemeng.6c07558",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1021/acssuschemeng.6c07558",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Sustainable Chemistry & Engineering",
+  "tier": "background",
+  "title": "Electron Redistribution of Copper/Ruthenium Catalysts for Efficient Synthesis of Ammonia via Accelerating the Hydrogenation of Intermediates",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acssuschemeng.6c07558",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Synthesis of Ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系"
  },
  "10.1021/jacs.6c04573": {
   "abstract": "Abstract The electrocatalytic ammonia oxidation reaction (AOR) has historically garnered significant interest, since ammonia could be used as a carbon-free fuel and convenient H2 carrier. Key challenges hindering its application are the high overpotentials and rapid catalyst poisoning, which remain poorly understood. Here, we study the overpotential-dependent formation of reaction species via temperature-dependent cyclic voltammetry and electrochemical Arrhenius analysis on polycrystalline Pt in conjunction with infrared spectroscopy. Further, we link the evolution of the kinetic parameters to the degree of polarization and excess charge via CO-displacement measurements. Strikingly, with increasing overpotential, we discover the parallel formation of a reaction species (not a direct intermediate) that modulates the electron chemical potential and, thus, the potential of zero charge. Due to this coupling, the parallel formation of this “poisoning” species appears to depolarize the surface with increasing overpotential. To recover the interfacial polarization, the overpotential needs to be increased further, before the activity can be restored and substantial Faradiac current can arise. What emerges is a new kinetic picture, where not only formation but also stabilization of interfacial excess charge are decisive for the catalyst activity. In general, the study demonstrates the utility of performing temperature-dependent cyclic voltammetry for revealing how transient changes in local chemicals modulate the overall inner-sphere kinetics.",
@@ -4976,6 +5362,39 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
+ "10.1051/epjconf/202638706009": {
+  "abstract": "The conversion of biomass waste into value-added carbon materials by utilizing rapid, sustainable procedures is becoming more essential for advanced material applications. This study presents a flash Joule heating (FJH)-based strategy to produce turbostratic graphene-like carbon (FGC) from palm charcoal waste (PCW) and evaluate its potential as a conductive additive for lithium-ion battery cathodes. Carbonized PCW was activated using KOH (biochar/KOH ratio of 1:1) prior to FJH treatment to investigate the role of chemical activation in structural evolution. Structural and compositional analyses confirmed the formation of activated FGC (FGC-Act) with improved carbon ordering, including an interlayer spacing of d 002 = 3.363A, increased crystallite dimensions (L c = 51.1 nm and L a = 110.3 nm), and carbon enrichment from 43.8 to 90.2 wt%. Raman analysis further supported the formation of turbostratic graphene-like carbon domains with I D /I G = 0.18 and I 2D /I G = 0.59. When applied as a 3 wt% conductive additive in NMC811 cathodes, FGC-Act increased the initial specific discharge capacity from 122.29 to 142.19 mAh g⁻¹ (16.3% improvement) and maintained 94.9% capacity retention after 50 cycles compared with 89.8% for pristine NMC. These findings demonstrate the potential of FJH-derived turbostratic graphene-like carbon as a conductive additive for lithium-ion battery cathodes.",
+  "authors": [
+   "Windhu Griyasti Suci",
+   "Agus Purwanto",
+   "Tantular Nurtono",
+   "Heru Setyawan",
+   "Widiyastuti"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.1051/epjconf/202638706009",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1051/epjconf/202638706009",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "EPJ Web of Conferences",
+  "tier": "transferable",
+  "title": "Preliminary Study on the Activation of Biomass-Derived Turbostratic Flash Graphene-Like Carbon via Flash Joule Heating for Improved Lithium-Ion Battery Performance",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1051/epjconf/202638706009",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控；涉及碳材料"
+ },
  "10.1088/1361-6463/aea33e": {
   "abstract": "Abstract Hybrid AC-RF discharges are a promising route for plasma-assisted ammonia synthesis, yet how hybrid waveforms redistribute energy into N 2 vibrational excitations and how this behavior depends on pressure and operation mode remain poorly understood. Here, a hybrid AC-RF N 2 ferroelectric barrier discharge driven by a 20 kHz AC voltage and a sub-breakdown 13.56 MHz RF waveform is investigated using synchronous ICCD imaging and time-resolved fs/ps N 2 vibrational and pure-rotational CARS. The ICCD images show that addition of RF broadens the AC discharge and distributes emission over a larger volume, whereas RF alone remains strictly sub-breakdown with no visible emission. Under pulsed AC with pulsed RF, hybrid plasmas over 13–40 torr populate vibrational levels up to v = 2 and yield vibrational temperatures systematically higher than those in the corresponding AC-only discharges, with the hybrid-induced enhancement becoming more pronounced with increasing pressure and reaching approximately 2300 K at 40 torr, compared with approximately 1100 K in the corresponding AC-only discharge. The corresponding rotational temperatures remain close to the room temperature, indicating that the enhanced vibrational excitation is not caused by gas heating and that the plasma retains strongly non-equilibrium. Comparison among hybrid operation modes at 40 torr further shows that, under pulsed AC, pulsed RF produces a larger increase in T vib than continuous RF, while continuous AC yields higher T vib than pulsed AC because of reduced interpulse decay. These results demonstrate that controlling AC-RF power coupling provides a tunable approach for regulating discharge morphology, vibrational excitation and gas heating in ferroelectric barrier discharges, with potential implications for plasma-assisted nitrogen activation and related electrified chemical processes.",
   "authors": [
@@ -5081,6 +5500,35 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+ },
+ "10.1115/omae2026-180970": {
+  "abstract": "Abstract In 2022, the European Council committed to phasing out Russian natural gas by 2030, accelerating the EU’s transition toward energy security and decarbonization. The EU currently consumes about 10 Mt/year gas for hydrogen production. Replacing this with green hydrogen from zero-carbon electrolysis would reduce fossil-fuel dependence, enable up to 120 GW of offshore wind capacity (at a 0.5 capacity factor), and drive demand for integrated offshore energy systems. To exploit remote wind resources and avoid costly subsea power export, offshore hydrogen and ammonia production concepts have evolved from early studies toward FPSO-based solutions. Ammonia is increasingly favored over hydrogen due to its higher volumetric energy density, lower storage and transport costs, and compatibility with existing infrastructure, though offshore production requires large deck areas, substantial storage, and motion-tolerant electrolyzers. This study extends a previously validated low-motion, turretless FPSO hull concept to green ammonia production under harsh North Sea conditions. The proposed FPSO combines semi-submersible-like motion performance with FPSO-class storage and topside capacity. A case study based on an 840 MW offshore wind farm supplying 420 MW of electrolyzers (0.5 capacity factor) achieves a production rate of approximately 780 t/day of green ammonia. Vessel motions, accelerations, air-gap performance, and survivability are evaluated under operational conditions and 100-yr and 10,000-yr storm events, providing engineering insight into scalable and reliable offshore ammonia production integrated with large offshore wind resources.",
+  "authors": [
+   "Jun Zou"
+  ],
+  "cross": false,
+  "date": "2026-09-28",
+  "doi": "10.1115/omae2026-180970",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1115/omae2026-180970",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Volume 1: Offshore Technology",
+  "tier": "background",
+  "title": "Conceptual Design of a Green Ammonia FPSO With a Low-Motion, Turretless Hull for North Sea Conditions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1115/omae2026-180970",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
  },
  "10.1116/6.0005630": {
   "abstract": "A fully self-aligned process integrating catalytic area-selective etching (ASE) of poly(methyl methacrylate) (PMMA) with PMMA-inhibited atomic layer deposition (ALD) of HfO2 was developed and demonstrated at 300 °C. CoOx was employed as a catalytic surface to promote the O2-driven etching of PMMA, while SiO2 does not show such behavior under identical conditions. In an oxygen atmosphere, PMMA on CoOx exhibited temperature-dependent thinning consistent with catalytic activation, enabling selective polymer removal without photolithography. The inhibition of HfO2 nucleation on PMMA increased strongly with temperature, extending the nucleation delay from fewer than 60 cycles at 200 °C to more than 190 cycles at 300 °C. Combining these two effects enabled a continuous, single-chamber sequence in which PMMA removal on CoOx was followed by selective HfO2 deposition. Ellipsometry and x-ray photoelectron spectroscopy confirmed 21 nm of HfO2 growth on CoOx and no measurable deposition on PMMA-covered SiO2. The process represents an all-oxide, high-temperature area-selective deposition route compatible with backend-of-line materials and demonstrates the use of catalytic polymer etching to achieve lithography-free self-alignment.",
@@ -5570,6 +6018,44 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原"
  },
+ "10.26434/chemrxiv.15009696/v1": {
+  "abstract": "Keywords: Joule heating; Complex hydrocarbon mixtures; Light olefins; Spatiotemporal reactor; Reaction-separation mechanism Introduction Light olefins are essential building blocks for the chemical industry, and expanding their production from diverse hydrocarbon mixtures is important for improving resource utilization and securing olefin supply. Complex carbonaceous resources, including waste plastics, petroleum, and coal liquefaction products, represent abundant feedstocks for light olefin production. Industrially, light olefins are produced mainly through steam cracking and catalytic pyrolysis.1, 2, 3 These processes rely heavily on fossil fuel combustion for heat supply, resulting in high energy consumption and carbon emissions.4 It poses a major challenge to the low-carbon transition of olefin production technology. Thus, developing low-carbon heat supply strategies while maintaining high olefin selectivity is critical for next-generation olefin production technologies.",
+  "authors": [
+   "Yaqi Wang",
+   "Zhengyu Chen",
+   "Ting Zheng",
+   "Yanfei Su",
+   "Shuofan Li",
+   "Yehua Han",
+   "Quan Shi",
+   "Chunming Xu",
+   "Linzhou Zhang",
+   "zhengyu chen"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.26434/chemrxiv.15009696/v1",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.26434/chemrxiv.15009696/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 18,
+  "source": "ChemRxiv",
+  "tier": "transferable",
+  "title": "Selective Olefin Production from Complex Hydrocarbons via Pulsed Joule Heating",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.26434/chemrxiv.15009696/v1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_method": "反应阶段焦耳/电阻供热",
+  "zh_obj": "过程待核实"
+ },
  "10.26599/jac.2026.9221361": {
   "abstract": "Abstract Multi-principal component diboride (MEB) ceramics are promising candidates for ultrahigh-temperature thermal protection systems. However, their intrinsic oxidation behavior above 2000 °C remains poorly understood because conventional testing methods have limitations. Here, an ultrafast heating oxidation test (UHOT) with a heating rate of 100 °C/s was applied to investigate the oxidation behavior of (Zr1/4Hf1/4Ta1/4Ti1/4)B2, (Zr1/4Hf1/4Ta1/4Nb1/4)B2, (Zr1/3Hf1/3Ta1/3)B2, and monolithic ZrB2 ceramics at 2300 °C under cyclic oxidation conditions. After five 1-min cyclic exposures at this temperature, totaling 5 min, MEB ceramics form multi-layered oxide scales, while ZrB2 ceramic develops only a porous and cracked single-layer scale. Among them, the Ti-containing composition exhibits the thinnest scale, the densest outer layer, the least mass loss, and intact scale integrity. Beyond the thermodynamic contribution of configurational entropy, this superior performance mainly arises from the dual role of the functional element Ti. First, it forms a liquid Ti-containing oxide phase that densifies the outer (Zr,Hf)O2-based layer derived from the structural elements Zr and Hf, enabling the outer layer to act as an effective oxygen diffusion barrier. Second, it promotes the formation of a porous needle-like Ta2O5 network in the inner layer during cooling, which can relieve thermal stress and prevent interfacial separation during cyclic heating and cooling. This work establishes a rapid-heating evaluation protocol and shows that oxidation resistance in these materials is governed by elemental functionality rather than entropy alone, offering a design principle for both equimolar and nonequimolar multiprincipal component nonoxide ceramics for reusable thermal protection applications.",
   "authors": [
@@ -5719,6 +6205,38 @@
   ],
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控"
+ },
+ "10.32964/tj25.9.577": {
+  "abstract": "As the global energy sector transitions toward net-zero emissions, kraft pulp mills present a compelling opportunity to produce green fuels and achieve net-negative emissions by capturing biogenic carbon, helping offset hard-to-abate sectors. This study explores the techno-economics of integrating biomass gasification for green ammonia production within kraft mills, using KraftSIM modeling to evaluate ammonia production, steam balance, emissions, and utility impacts. The proposed design enables energy and water system integration with the existing mill and allows for a gradual scale-up without disrupting the chemistry and operation of the recovery cycle. Across five scenarios representing different biomass gasification rates ranging from 100 to 1000 bone-dry metric tons per day (BDMT/d), the process yields ammonia at approximately 0.51 metric tons per bone-dry metric ton (t/ BDMT), while generating significant low- and medium-pressure steam and hot water that offset mill utility demands. The incineration of pressure swing adsorption tail gas and ammonia plant purge gas in the power boiler reduces biomass combustion and enhances power boiler efficiency. Economic analysis suggests a net revenue potential of approximately CA$380/BDMT, which could increase with the implementation of biogenic carbon pricing. Overall profitability is strongly influenced by biomass procurement costs, electricity prices, and prevailing green fuel and chemical market premium. This work outlines a practical, near-term decarbonization pathway for kraft mills by coupling green fuel production with potential opportunities for carbon removal.",
+  "authors": [
+   "ADAM ROGERSON",
+   "ETIENNE BERNIER",
+   "LUCIANA SAVULESCU",
+   "HAKIM GHEZZAZ"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.32964/tj25.9.577",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.32964/tj25.9.577",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "TAPPI Journal",
+  "tier": "direct",
+  "title": "Biomass gasification for green ammonia production in kraft mills",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.32964/tj25.9.577",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
  },
  "10.3389/fctls.2026.1920221": {
   "abstract": "The dual imperatives of carbon-neutral chemical manufacturing and advanced wastewater remediation require high-performance electrocatalysts capable of orchestrating complex, multi-electron reactions. However, pristine catalyst lattices are fundamentally bottlenecked by linear scaling relations. This critical review establishes defect engineering as the definitive strategy for bypassing these thermodynamic limitations, offering a unified mechanistic framework that bridges sustainable energy conversion and environmental remediation. Moving beyond empirical material catalogues, this work systematically interrogates how localized structural imperfections—vacancies, dopants, and synergistic interfaces—act as precision atomic-scale electronic regulators. By modulating the transition-metal d-band center and triggering spatial charge redistribution, defects successfully decouple intermediate binding energies to steer reaction pathways thermodynamically. A comprehensive analysis elucidates the electronic origins of defect-mediated performance across green ammonia synthesis (nitrogen and nitrate reduction) and advanced wastewater treatment (electro-Fenton, targeted non-radical persulfate activation, and priority pollutant electroreduction). Furthermore, this review challenges the pervasive assumption of static active sites, emphasizing how operando interrogation reveals the highly dynamic, transient nature of defect architectures under applied electrochemical bias. Finally, the frontier of artificial intelligence-guided discovery and multi-defect synergy is highlighted, charting a translational roadmap from atomic-level precision to robust industrial reactor integration. Ultimately, this review elevates defect electrocatalysis from a purely descriptive phenomenon into a predictive, quantitatively guided design discipline essential for achieving closed-loop global sustainability.",
@@ -5953,6 +6471,38 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.51885/3134-7983_catmsp_2026_3_13": {
+  "abstract": "A 0.5% Rh/13X catalyst was synthesized by incipient wetness impregnation, and its structural, physicochemical, and catalytic properties were investigated in the carbon dioxide hydrogenation reaction. The morphology, elemental composition, and phase composition of the catalyst were characterized by scanning electron microscopy, energy-dispersive X-ray spectroscopy, and X-ray diffraction analysis. The surface adsorption properties were studied using CO₂ temperature-programmed desorption (CO₂-TPD), while the reduction behavior was examined by H₂ temperature-programmed reduction (H₂-TPR). Catalytic activity was evaluated in a fixed-bed flow reactor over the temperature range of 180–700 °C. It was established that rhodium deposition did not disrupt the crystalline structure of the 13X zeolite, while the active phase was characterized by high dispersion and the presence of readily reducible surface species. The catalyst was shown to contain basic sites of different strengths that facilitate carbon dioxide adsorption. Catalytic tests demonstrated that CO₂ conversion increased with temperature, reaching a maximum value of 93.5%. The obtained results confirm the potential of the 0.5% Rh/13X catalyst for CO₂ hydrogenation to methane.",
+  "authors": [
+   "Akmaral Rakhym",
+   "Aliya Alimzhanova",
+   "Banu Sakhova",
+   "Gulzada Koishina",
+   "Anar Mukhametzhanova",
+   "Farida Kapsalamova"
+  ],
+  "cross": false,
+  "date": "2026-09-30",
+  "doi": "10.51885/3134-7983_catmsp_2026_3_13",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.51885/3134-7983_catmsp_2026_3_13",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Central Asian Transactions on Materials Structure and Properties",
+  "tier": "transferable",
+  "title": "PHYSICOCHEMICAL PROPERTIES AND CATALYTIC ACTIVITY OF A 0.5% RH/13X CATALYST IN THE CO₂ HYDROGENATION REACTION",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.51885/3134-7983_catmsp_2026_3_13",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
+  "zh_obj": "其他催化反应"
  },
  "10.5281/zenodo.22240984": {
   "abstract": "The data from the paper named Enhancing Ambient Ammonia Synthesis via Discharge Gap Optimization and Mesoporous MCM-41 Catalyst",

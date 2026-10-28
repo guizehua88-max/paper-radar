@@ -1,1 +1,19 @@
-{}
+{
+ "history": [
+  {
+   "at": "2026-10-28T22:00:02Z",
+   "errors": {
+    "RSS · ACS Catalysis (ASAP)": "FetchError: HTTP 403 @ https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=accacs",
+    "RSS · Energy & Environmental Science": "FetchError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)> @ https://feeds.rsc.org/rs",
+    "RSS · JACS (ASAP)": "FetchError: HTTP 403 @ https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"
+   },
+   "new": 164,
+   "push": [
+    "no-channel"
+   ]
+  }
+ ],
+ "initialized": true,
+ "last_run": "2026-10-28T22:00:02Z",
+ "welcome_pending": true
+}
