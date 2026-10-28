@@ -39,6 +39,10 @@ CATALYTIC_PROCESSES = {
 }
 
 _CATAL = re.compile(r"catal|催化", re.IGNORECASE)
+_NOT_A_PAPER = re.compile(r"^\s*(corrigendum|erratum|correction to|retraction|retracted|expression of concern|"
+                          r"(inside |outside )?(front|back) cover|cover (picture|feature|image|art)|frontispiece|"
+                          r"table of contents|graphical abstract)\b", re.IGNORECASE)
+_CHARACTERIZATION = re.compile(r"表征温程|材料温程|电化学驱动|电场辅助|光驱动|等离子体驱动")
 _DASHES = re.compile("[‐‑‒–—―−­]")  # ‐ ‑ ‒ – — ― − soft-hyphen -> "-"
 
 
@@ -105,6 +109,8 @@ class Classifier:
         title = _DASHES.sub("-", p.get("title", ""))
         abstract = _DASHES.sub("-", p.get("abstract", "") or "")
         text = f"{title} . {abstract}"
+        if _NOT_A_PAPER.search(title):
+            return None  # corrigenda, retractions, journal cover pages
         if p.get("kind") == "wechat":
             if any(r.search(title) for r in self.wx_noise):
                 return None
@@ -150,7 +156,9 @@ class Classifier:
         elif rejected:
             return None
         elif (old_tier == "transferable" and old.get("process") in CATALYTIC_PROCESSES
-              and any(t in METHOD_TOPICS for t in old.get("topics", []))):
+              and any(t in METHOD_TOPICS for t in old.get("topics", []))
+              and not _CHARACTERIZATION.search(old.get("heating_zh", ""))
+              and old.get("heating") in ("reaction_joule", "preparation_joule", "reaction_programmable")):
             tier = "transferable"
         elif old_tier in ("background", "uncertain") and any(t in LEGACY_TOPIC for t in old.get("topics", [])):
             tier = old_tier
@@ -159,6 +167,8 @@ class Classifier:
 
         topics = list(mine)
         for lt in old.get("topics", []):
+            if lt == "programmable_heating_quenching" and _CHARACTERIZATION.search(old.get("heating_zh", "")):
+                continue
             tid = LEGACY_TOPIC.get(lt)
             if tid and tid not in topics:
                 topics.append(tid)

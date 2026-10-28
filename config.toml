@@ -120,11 +120,11 @@ include = [
   'direct (electrical )?resistive', '焦耳热', '焦耳加热', '电阻加热', '电加热', '闪蒸', '碳热冲击', '高温热冲击',
   '程序升温(?!还原|脱附|氧化)', '快速淬冷',
 ]
-require_any = [
-  'catal', 'synthes', 'nanoparticle', 'nanocluster', 'single[- ]atom', 'alloy', 'graphene', 'carbon',
-  'oxide', 'metal', 'electrode', 'ammonia', 'conversion', 'recycl', 'upcycl', 'reactor',
-  'reforming', 'methane', 'CO2', 'hydrogenation', 'washcoat', 'foam', 'support', 'reaction', 'N2', 'Fe\(',
-  '催化', '合成', '制备', '纳米', '载体', '反应', '材料', '泡沫', '制氢', '氨', '驱动',
+require_any = [  # 必须像“材料制备/催化/反应”的研究，挡掉器件、力学、流体里的焦耳热
+  'catal', 'synthes', 'prepar', 'fabricat', 'reactor', 'reaction', 'ammonia', 'conversion', 'upcycl', 'recycl',
+  'nanoparticle', 'nanocluster', 'single[- ]atom', 'encapsulat', 'reforming', 'hydrogenation', 'hydrogen evolution',
+  'water splitting', 'electrocatal', 'pyrolys', 'graphitiz', 'graphene', 'N2',
+  '催化', '合成', '制备', '纳米', '反应', '泡沫', '制氢', '氨', '驱动',
 ]
 exclude = [
   'nanofluid', 'magnetohydrodynamic', '\bMHD\b', 'Casson', 'Riga plate', 'Jeffrey fluid', 'Williamson fluid',
@@ -141,6 +141,8 @@ exclude = [
   'UV[- ]curing', 'thermograph', 'electroshock', 'magnetoimpedance', 'thermoelectric',
   '\bEMI\b', 'austeniti', 'martensit', '\bsteels?\b', 'quenching and tempering',
   'cement', 'concrete', 'asphalt', 'pavement', 'exhaust', '\bengines?\b', 'vehicle',
+  'shape recovery', '4D print', 'diborides? oxidation', 'oxidation of .{0,40}(diboride|carbide|ceramic)', 'ablation resistance',
+  'radiative cooling', 'thermal management', 'wave absorb', 'microwave absorption', 'polarization (loss|response)', 'personal thermal', 'heat spreader',
 ]
 
 [[topics]]
@@ -190,6 +192,7 @@ title_noise = [
 
 # ------------------------------------------------------------
 #  期刊 RSS（比 Crossref 快几小时~几天，且带摘要）
+#  ACS、RSC 的 RSS 会拦截自动访问（403 / 断开），已去掉；这些期刊由 Crossref 覆盖
 #  公众号以后如果拿到 RSS 地址（比如自建 we-mp-rss），也可以照这个格式加进来，走同样的筛选
 # ------------------------------------------------------------
 [[rss]]
@@ -225,12 +228,3 @@ url = "https://onlinelibrary.wiley.com/feed/15213773/most-recent"
 [[rss]]
 name = "Advanced Materials"
 url = "https://onlinelibrary.wiley.com/feed/15214095/most-recent"
-[[rss]]
-name = "JACS (ASAP)"
-url = "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"
-[[rss]]
-name = "ACS Catalysis (ASAP)"
-url = "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=accacs"
-[[rss]]
-name = "Energy & Environmental Science"
-url = "https://feeds.rsc.org/rss/ee"

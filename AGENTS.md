@@ -1,5 +1,8 @@
 # 给 Codex：部署“文献雷达”
 
+> **部署状态（2026-10-28）：已经由 Claude 部署完成，不要重复部署。** 仓库 `guizehua88-max/paper-radar`，网页 https://guizehua88-max.github.io/paper-radar/ ，Pages、workflow 写权限、首次运行都已完成。
+> 唯一剩下的是用户自己在仓库 Secrets 里添加 `SERVERCHAN_SENDKEY`。下面的步骤只在需要**重新部署到新仓库**时参考。
+
 你的任务**只有部署**：把本文件夹发布成一个 GitHub 仓库，让 GitHub Actions 每天自动运行、推送微信、发布网页。程序已经写好并测试过，不需要重新设计，也不需要重新调研。
 
 ## 边界（必须遵守）

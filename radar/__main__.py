@@ -327,12 +327,25 @@ def main(argv=None) -> int:
     ap.add_argument("--import-cloud", metavar="URL")
     ap.add_argument("--import-export", metavar="legacy-export.json.gz")
     ap.add_argument("--render-only", action="store_true")
+    ap.add_argument("--reclassify", action="store_true", help="改了规则之后：用当前规则重新筛一遍整个资料库（不联网）")
     ap.add_argument("--auto-extras", action="store_true",
                     help="日常运行之后：旧云端站只导入一次；历史回填没做完就接着做（受 BACKFILL_MAX_MINUTES 限时）")
     a = ap.parse_args(argv)
     r = Radar()
     if a.render_only:
         r.finish([], {"模式": "仅生成网页"})
+    elif a.reclassify:
+        before = len(r.papers)
+        kept = {}
+        for k, p in r.papers.items():
+            c = r.clf.classify(p)
+            if c:
+                p.update(c)
+                kept[k] = p
+        r.papers = kept
+        r.link_mentions()
+        r.finish([], {"模式": "按当前规则重筛", "重筛前": before, "重筛后": len(kept)})
+        print(f"reclassify: {before} -> {len(kept)}")
     elif a.auto_extras:
         cloud = r.S.get("old_cloud_url", "").strip()
         if cloud and not r.state.get("cloud_imported"):

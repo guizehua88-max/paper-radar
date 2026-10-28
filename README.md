@@ -8,6 +8,9 @@
 
 全部免费。程序跑在 GitHub 的服务器上，不用开电脑，不用登录微信，也没有会过期的 cookie。
 
+> **已部署**（2026-10-28）：仓库 https://github.com/guizehua88-max/paper-radar ，网页 https://guizehua88-max.github.io/paper-radar/ 。
+> 还差一步：在 GitHub 仓库 Settings → Secrets and variables → Actions 新建 `SERVERCHAN_SENDKEY`（值是 Server酱 的 SendKey），填好后微信推送就开始工作。
+
 > **现在就能看**：双击 `打开文献雷达网页.cmd`（或直接打开 `docs\index.html`），能看到已经从旧网站导入的 709 条记录。不联网也能看。
 
 ---
