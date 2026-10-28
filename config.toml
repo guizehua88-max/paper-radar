@@ -1,0 +1,236 @@
+# ============================================================
+#  文献雷达配置（改这里就能调整追踪方向，不用动代码）
+#  正则写在单引号里；不区分大小写；匹配范围 = 标题 + 摘要
+# ============================================================
+
+[settings]
+site_title = "文献雷达 · 合成氨 / 焦耳热 / ALD"
+# 部署好 GitHub Pages 后，把网址填在这里，微信推送里会带上“查看全部”链接
+site_url = "https://guizehua88-max.github.io/paper-radar/"
+first_run_lookback_days = 30   # 第一次运行回溯多少天
+lookback_days = 5              # 之后每次回看几天（有重叠，靠去重保证不重复推送）
+min_push_score = 18            # 达到多少分推送到微信：交叉40 / 直接25 / 可迁移15 / 待核9 / 背景6；关键词在标题里 +3、顶刊 +4、关注作者 +8
+max_push_items = 25            # 单条推送最多列几篇，其余去网页看
+heartbeat_days = 7             # 连续多少天没有新增时，发一条“运行正常”的心跳消息
+archive_from = "2024-01"       # 资料库从哪个月开始（更早发表的不收）
+backfill_rows = 200            # 回填时每个检索词每月取多少条候选
+old_cloud_url = "https://paperresearch.de5.net"   # 旧云端站：首次部署时自动导入一次（导入后可删掉这行）
+
+# 给可选的 AI 复核用的研究背景（不配置 LLM 就不会用到）
+research_profile = """
+我是研究生，课题是“焦耳热（快速电加热/脉冲程序升温）驱动的热催化合成氨，并用原子层沉积（ALD）精准构筑和调控催化剂”。
+最关心：焦耳热/电加热/非平衡加热用于合成氨或催化剂制备；ALD 构筑的催化剂（尤其合成氨相关的 Ru、Fe、Co、Ni 等）；热催化合成氨的新催化剂与新机理。
+次要：电催化/光催化合成氨、氨分解、焦耳热制备其他催化剂。
+不关心：流体力学/电子器件里的焦耳热、氨燃烧与发动机、半导体器件里的 ALD、电池涂层 ALD。
+"""
+
+# 顶刊加分（期刊全名，大小写和 & / and 不敏感）
+top_journals = [
+  "Nature", "Science", "Science Advances", "Nature Catalysis", "Nature Energy", "Nature Chemistry",
+  "Nature Synthesis", "Nature Materials", "Nature Nanotechnology", "Nature Communications",
+  "Nature Chemical Engineering", "Joule", "Chem", "Journal of the American Chemical Society", "JACS",
+  "Angewandte Chemie International Edition", "Angewandte Chemie", "Energy & Environmental Science",
+  "Advanced Materials", "Advanced Energy Materials", "ACS Catalysis", "National Science Review",
+  "Chemical Reviews", "Chemical Society Reviews", "Accounts of Chemical Research",
+]
+
+# 关注的课题组 / 作者（论文命中任一方向且作者匹配时会标“关注作者”并加分）
+# 同名作者很常见，所以只给已经命中方向的论文加标签，不会单凭名字收录
+[watch]
+authors = [
+  "Junling Lu",       # 路军岭 USTC，ALD 催化
+  "Ping Chen",        # 陈萍 大连化物所，合成氨
+  "Tian-Nan Ye",      # 叶天南 上海交大，合成氨
+  "Lilong Jiang",     # 江莉龙 福州大学，合成氨
+  "Liangbing Hu",     # 胡良兵 Yale，高温热冲击/焦耳热
+  "James M. Tour",    # Rice，闪蒸焦耳热
+  "Hideo Hosono",     # 东工大，电子化合物合成氨
+]
+
+# ------------------------------------------------------------
+#  三个追踪方向
+#  include      ：至少命中一个才算这个方向
+#  require_any  ：（可选）还必须出现至少一个语境词，用来挡掉无关领域
+#  exclude      ：命中任一就不算这个方向
+#  secondary    ：（可选）命中则降为“次要”，默认只在网页显示、不推送
+# ------------------------------------------------------------
+
+[[topics]]
+id = "nh3"
+name = "合成氨"
+crossref_queries = [
+  "ammonia synthesis catalyst",
+  "Haber-Bosch ammonia synthesis",
+  "thermocatalytic ammonia synthesis ruthenium",
+  "ammonia synthesis iron cobalt catalyst",
+  "nitrogen activation ammonia synthesis mild conditions",
+  "ammonia synthesis electride hydride",
+]
+arxiv_query = 'abs:"ammonia synthesis" OR abs:"Haber-Bosch" OR abs:"nitrogen fixation"'
+include = [
+  'ammonia synthesis', 'synthesis of ammonia', 'NH3 synthesis', 'NH₃ synthesis', 'synthesi[sz]ing ammonia',
+  'Haber[- –]?Bosch', 'ammonia production', 'NH3 production', 'NH₃ production', 'produc\w* ammonia',
+  'nitrogen fixation', 'N2 fixation', 'N₂ fixation', 'dinitrogen (activation|reduction|fixation|cleavage)',
+  'N2 activation', 'N₂ activation', 'nitrogen activation', 'N≡N',
+  'nitrogen reduction reaction', 'N2 reduction', 'N₂ reduction', '\bNRR\b',
+  'nitrate[- ]to[- ]ammonia', 'nitrate reduction', 'nitrite reduction', '\bNO3RR\b', '\bNO3-RR\b',
+  'ammonia (decomposition|cracking)', 'NH3 (decomposition|cracking)', 'NH₃ (decomposition|cracking)',
+  'hydrogen (production|generation) from ammonia',
+  '(electro|photo|plasma)[- ]?(catalytic )?(synthesis of )?ammonia', 'ammonia (electro|photo)synthesis',
+  'reduction of (nitrogen|N2|N₂|dinitrogen)', 'nitrogen[- ]to[- ]ammonia', '\bN2[- ]to[- ]NH3\b',
+  '合成氨', '氨合成', '制氨', '固氮', '氮还原', '氮活化', '哈伯', '氨(分解|裂解)',
+]
+exclude = [
+  'ammonia[ -](combustion|flame|spray|engine|injection|slip|emission|sensor|sensing|leak|toxicity|borane)',
+  'flash[- ]boiling', 'ammonia[- ]fueled', 'ammonia/hydrogen (blend|combustion)', 'co-?firing',
+  'livestock', 'manure', 'poultry', '\bsoils?\b', 'urine', 'blood ammonia', 'hyperammon', 'hepatic',
+  'NH3 sensor', 'NH3-SCR', 'selective catalytic reduction', 'ammonium perchlorate',
+  'anammox', 'nitrification', 'denitrif', 'rhizob', 'legume', 'diazotroph', 'symbiotic', '\b(rice|wheat|maize|crops?)\b',
+]
+secondary = [
+  'electro(catal|chem|synth|reduc|lys)', 'photo(catal|chem|electro|synth|therm)', 'plasma',
+  'nitrate', 'nitrite', '\bNRR\b', 'NO3', 'decomposition', 'cracking', 'from ammonia',
+  '电催化', '电化学', '光催化', '等离子体', '硝酸', '分解', '裂解',
+  '(photo|light|solar|sunlight)[- ]driven', 'photothermal', 'visible light', '光驱动', '光热', '阳光',
+]
+
+[[topics]]
+id = "joule"
+name = "焦耳热"
+crossref_queries = [
+  "flash Joule heating",
+  "Joule heating synthesis catalyst",
+  "carbothermal shock synthesis",
+  "high-temperature shock synthesis nanoparticles",
+  "electrified heating catalysis reactor",
+  "pulsed heating catalytic reaction",
+  "programmable heating quenching catalysis",
+  "rapid Joule heating ammonia",
+]
+arxiv_query = '(abs:"Joule heating" OR abs:"electrified heating" OR abs:"pulsed heating") AND (abs:catalyst OR abs:catalysis OR abs:synthesis)'
+include = [
+  'joule[- ]?heat', 'flash[- ]joule', '\bFJH\b', 'carbothermal shock', 'high[- ]temperature shock',
+  'thermal shock synthesis', 'shock[- ]?heating', 'shock synthesis',
+  'electri(cal(ly)?|fied) heat', 'electrified (reactor|catalysis|catalytic|reaction|chemical)',
+  'resistive(ly)? heat', 'electrothermal (synthesis|catalysis|reactor|activation)',
+  'pulsed (electrical |electric )?heating', 'programmable (heating|temperature)', 'pulse[- ]heating',
+  'rapid (electrical |electric )?heating', 'ultrafast (high[- ]temperature )?(heating|synthesis|sintering)',
+  'non[- ]?equilibrium (heating|synthesis|catalysis)', 'flash (heating|sintering|annealing)',
+  'induction heating', 'magnetic(ally)? (induction )?heat',   # 同属“电驱动加热”，一并追踪
+  'direct (electrical )?resistive', '焦耳热', '焦耳加热', '电阻加热', '电加热', '闪蒸', '碳热冲击', '高温热冲击',
+  '程序升温(?!还原|脱附|氧化)', '快速淬冷',
+]
+require_any = [
+  'catal', 'synthes', 'nanoparticle', 'nanocluster', 'single[- ]atom', 'alloy', 'graphene', 'carbon',
+  'oxide', 'metal', 'electrode', 'ammonia', 'conversion', 'recycl', 'upcycl', 'reactor',
+  'reforming', 'methane', 'CO2', 'hydrogenation', 'washcoat', 'foam', 'support', 'reaction', 'N2', 'Fe\(',
+  '催化', '合成', '制备', '纳米', '载体', '反应', '材料', '泡沫', '制氢', '氨', '驱动',
+]
+exclude = [
+  'nanofluid', 'magnetohydrodynamic', '\bMHD\b', 'Casson', 'Riga plate', 'Jeffrey fluid', 'Williamson fluid',
+  'Maxwell fluid', 'peristaltic', 'electroosmotic', 'stretching (sheet|surface|cylinder)', 'boundary layer flow',
+  'viscous dissipation', 'thermophoresis', 'Brownian motion', 'porous microchannel',
+  'ionosphere', 'thermosphere', 'geomagnetic', 'magnetosphere', 'auroral', 'geospace',
+  'Josephson', 'transistor', 'interconnect', 'electromigration', 'self[- ]heating effect',
+  'microneedle', 'electroporation', 'tissue', 'tumou?r', 'ablation', '\bfoods?\b', 'de-?icing', 'anti-?icing',
+  'wearable heater', 'heating film', 'electromagnetic (interference )?shielding', 'thermotherapy',
+  'shape memory', 'battery thermal management', 'thermal runaway', 'thermal shock resistance',
+  'electroplastic', 'dislocation dynamics', 'crystal plasticity', '\bwelding\b', 'electrically assisted (forming|tension|deformation)',
+  'contact resistance', '\bfuses?\b', '\bbusbars?\b', '\bcables?\b', 'power lines?\b',
+  '\bheaters?\b', '\byarns?\b', '\btextiles?\b', '\bgait\b', 'gas sens', '\bsensors?\b', 'resistive[- ]switch',
+  'UV[- ]curing', 'thermograph', 'electroshock', 'magnetoimpedance', 'thermoelectric',
+  '\bEMI\b', 'austeniti', 'martensit', '\bsteels?\b', 'quenching and tempering',
+  'cement', 'concrete', 'asphalt', 'pavement', 'exhaust', '\bengines?\b', 'vehicle',
+]
+
+[[topics]]
+id = "ald"
+name = "ALD"
+crossref_queries = [
+  "atomic layer deposition catalyst",
+  "atomic layer deposition single-atom catalyst",
+  "atomic layer deposition overcoating nanoparticle catalyst",
+  "atomic layer deposition ammonia synthesis",
+  "area-selective atomic layer deposition catalyst",
+]
+arxiv_query = 'abs:"atomic layer deposition" AND (abs:catalyst OR abs:catalysis OR abs:catalytic)'
+include = [
+  'atomic[- ]layer[- ]deposit', '\bALD\b', 'molecular[- ]layer[- ]deposit', '\bMLD\b',
+  'atomic layer (coating|overcoat)', 'atomically precise (deposition|overcoat)', '原子层沉积',
+]
+require_any = [
+  'catal', 'nanoparticle', 'nanocluster', 'single[- ]atom', 'cluster', 'overcoat', 'hydrogenation',
+  'dehydrogenation', 'ammonia', 'CO2', 'methan', 'active site', 'selective oxidation',
+  'nucleation', 'ruthenium', '\bRu\b', 'platinum', '\bPt\b', 'palladium', '\bPd\b', 'nickel', 'cobalt',
+  'carbon nanotube', 'graphene', 'carbon support', 'electrocatal', 'hydrogen evolution', 'water splitting',
+  '催化', '成核', '包覆', '载体', '单原子', '团簇',
+]
+exclude = [
+  'gate (dielectric|oxide|stack)', 'transistor', '\bTFTs?\b', 'MOSFET', 'ferroelectric', 'memristor',
+  'resistive switching', 'DRAM', 'high[- ]k\b', 'perovskite solar', 'leukodystrophy',
+  'interconnect', 'back[- ]end[- ]of[- ]line', '\bBEOL\b', 'barrier layer', 'microchannel plate', 'photodetector',
+  'lithium', 'li[- ]ion', 'sodium[- ]ion', 'batter(y|ies)', 'nickel[- ]rich', 'solid[- ]state electrolyte',
+]
+
+# ------------------------------------------------------------
+#  公众号推文（来自旧站公众号库；以后接入公众号 RSS 也走这里）
+#  必须像科研报道（research_cues 至少一个，或文中带 DOI），且标题不能是行情/教学/会议/获奖类
+# ------------------------------------------------------------
+[wechat]
+research_cues = [
+  'JACS', 'Nature', 'Science', 'Angew', 'Adv\.? ?Mater', '\bAM\b', 'Nat\.', 'Chem', 'EES', 'Joule', 'ACS', 'Innovation',
+  'Commun', '子刊', '团队', '课题组', '研究员', '教授', '院士', '杰青', '最新', '成果', '进展', '突破', '机制', '机理',
+  '催化剂', '论文', '发表', '综述', 'DOI',
+]
+title_noise = [
+  '价格', '行情', '市场', '供应', '交投', '出口', '尿素', '化肥', '项目', '停建', '开工', '投产', '课例', '高中', '教材',
+  '真题', '选修', '人教版', '卷第', '工艺安全', '事故', '危险化工', '监管', '招聘', '讲坛', '报告会', '学术报告', '会议',
+  '获奖', '科技奖', '科学技术奖', '进步奖', '企业动态', '研究报告', '项目现状', '核心参数', '巾帼', '协会', '向心而生',
+]
+
+# ------------------------------------------------------------
+#  期刊 RSS（比 Crossref 快几小时~几天，且带摘要）
+#  公众号以后如果拿到 RSS 地址（比如自建 we-mp-rss），也可以照这个格式加进来，走同样的筛选
+# ------------------------------------------------------------
+[[rss]]
+name = "Nature"
+url = "https://www.nature.com/nature.rss"
+[[rss]]
+name = "Nature Catalysis"
+url = "https://www.nature.com/natcatal.rss"
+[[rss]]
+name = "Nature Energy"
+url = "https://www.nature.com/nenergy.rss"
+[[rss]]
+name = "Nature Synthesis"
+url = "https://www.nature.com/natsynth.rss"
+[[rss]]
+name = "Nature Chemistry"
+url = "https://www.nature.com/nchem.rss"
+[[rss]]
+name = "Nature Communications"
+url = "https://www.nature.com/ncomms.rss"
+[[rss]]
+name = "Science"
+url = "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+[[rss]]
+name = "Joule"
+url = "https://www.cell.com/joule/inpress.rss"
+[[rss]]
+name = "Chem"
+url = "https://www.cell.com/chem/inpress.rss"
+[[rss]]
+name = "Angewandte Chemie"
+url = "https://onlinelibrary.wiley.com/feed/15213773/most-recent"
+[[rss]]
+name = "Advanced Materials"
+url = "https://onlinelibrary.wiley.com/feed/15214095/most-recent"
+[[rss]]
+name = "JACS (ASAP)"
+url = "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"
+[[rss]]
+name = "ACS Catalysis (ASAP)"
+url = "https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=accacs"
+[[rss]]
+name = "Energy & Environmental Science"
+url = "https://feeds.rsc.org/rss/ee"

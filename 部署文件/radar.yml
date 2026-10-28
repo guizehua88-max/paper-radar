@@ -1,0 +1,66 @@
+name: 文献雷达
+
+on:
+  schedule:
+    - cron: "17 23 * * *"   # 北京时间 07:17
+    - cron: "17 11 * * *"   # 北京时间 19:17
+  workflow_dispatch:
+    inputs:
+      lookback_days:
+        description: "回看天数（留空 = 默认；首次运行自动回溯 30 天）"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      WXPUSHER_SPT: ${{ secrets.WXPUSHER_SPT }}
+      PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+      SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+      WECOM_WEBHOOK: ${{ secrets.WECOM_WEBHOOK }}
+      CONTACT_EMAIL: ${{ secrets.CONTACT_EMAIL }}
+      OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+      LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+      LLM_MODEL: ${{ secrets.LLM_MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 采集、筛选、推送
+        env:
+          LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days }}
+        run: python -m radar
+
+      - name: 保存
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "radar: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push
+
+      - name: 历史回填 / 导入旧云端站（没做完时自动接着做，做完后这一步几秒就结束）
+        env:
+          BACKFILL_MAX_MINUTES: "35"
+        run: python -m radar --auto-extras
+
+      - name: 保存回填结果
+        run: |
+          git add data docs
+          git diff --cached --quiet || git commit -m "radar backfill: $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase --autostash || true
+          git push

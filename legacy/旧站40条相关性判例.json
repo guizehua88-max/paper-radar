@@ -1,0 +1,1152 @@
+{
+  "schema_version": "1.0",
+  "dataset_id": "frontier-radar-relevance-frozen-v1",
+  "created_at": "2026-09-29T02:27:18+08:00",
+  "status": "frozen_before_product_implementation",
+  "purpose": "测试任务2业务验收C的定向回归集；非全库准确率基准、非独立盲测",
+  "count": 40,
+  "source_requirement": {
+    "path": "D:/Research/FrontierRadar/requirements/测试任务2.txt",
+    "sha256": "2a3ddbdd17305f9495ef94fc7ec2089cf5fca71b3f6b4ad3ea8077bb6a69822f"
+  },
+  "source_metadata": {
+    "path": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+    "sha256": "a7312e1856e22cc2047dbbb290058b0b9f38cb4283fc9bf64f582ba89e21a1ce"
+  },
+  "input_contract": {
+    "classifier_fields": [
+      "input.title",
+      "input.context"
+    ],
+    "excluded_from_classifier": [
+      "id",
+      "kind",
+      "citation",
+      "expected",
+      "rationale",
+      "traps"
+    ],
+    "notes": [
+      "curated_context是核查者摘要而非出版社摘要原文；必须保留标签。",
+      "synthetic_control为人工合成测试内容，没有真实论文或DOI，不得混入生产数据。",
+      "expected.use是该输入主用途，不宣称论文只有一种用途。",
+      "预期只依据提供的title/context，不能联网或通过DOI记忆补充输入未给事实。",
+      "本集合故意包含缺失摘要；uncertain是合法结果，不把未知默认阴性。",
+      "经典真实题名仅测试语义，不证明最近90天覆盖。"
+    ],
+    "real_title_count": 10,
+    "synthetic_control_count": 30
+  },
+  "taxonomy": {
+    "tier": {
+      "direct": "直接目标气相N₂/H₂热催化合成氨，尚无ALD/焦耳热交叉证据",
+      "cross": "明确目标气相合成氨与ALD、焦耳热制备/反应或明确程序供热交叉；制备/反应角色仍需另标",
+      "transferable": "非目标直接过程，但有具体可迁移的电热/ALD/载体/测量/反应器方法",
+      "background": "邻近反应或学习背景，不算直接命中与目标性能",
+      "exclude": "与研究无实质关系，应默认排除，但不删除原始来源",
+      "uncertain": "输入不足以安全判定路线或相关性，待补摘要/人工核查"
+    },
+    "heating": {
+      "not_stated": "本次输入未交代具体供热方式；不代表无加热",
+      "reaction_joule": "电阻热在反应进行期间供热",
+      "reaction_programmable": "明确反应温度的程序升降温/快速淬冷；不据此推定热源必为焦耳热",
+      "preparation_joule": "电阻热用于制备；后续反应不得自动继承",
+      "electrochemical_not_joule": "电极电位/电流驱动，未有床层焦耳供热证据",
+      "electric_field_not_joule": "已明确外炉控温/非焦耳热供热的电场辅助",
+      "light_driven": "光驱动",
+      "plasma_driven": "放电等离子体驱动",
+      "none_relevant": "不存在本任务相关热角色"
+    },
+    "use": {
+      "catalyst_preparation": "材料/催化剂制备与工作态调控",
+      "reaction_operation": "反应运行策略与性能",
+      "kinetics_model": "DFT/动力学/分子模拟等建模",
+      "reactor_design": "装置或流程设计",
+      "measurement_validation": "测温/定量/来源/证据验证",
+      "review_background": "综述/原理背景",
+      "research_optimization": "主动学习/贝叶斯等研究设计优化",
+      "unrelated": "无实质目标用途",
+      "unclear": "用途待定"
+    },
+    "process": {
+      "gas_n2_h2_ammonia_synthesis": "目标气相N₂/H₂热催化合成氨",
+      "ammonia_decomposition": "NH₃分解/裂解为N₂/H₂",
+      "methane_dry_reforming": "甲烷干重整",
+      "reverse_water_gas_shift": "逆水煤气变换",
+      "hydrogen_evolution": "析氢",
+      "general_catalysis": "一般催化，未锁定单一反应",
+      "ammonia_route_unspecified": "提到制氨但路线未明",
+      "unknown": "过程本身未明",
+      "electrochemical_n2_reduction": "N₂电化学还原",
+      "electrochemical_nitrate_reduction": "NO₃⁻电化学还原",
+      "ammonia_borane_hydrolysis": "氨硼烷水解放氢",
+      "other_catalytic_reaction": "其它已明确的催化反应",
+      "materials_synthesis_only": "只制备材料，未测试反应",
+      "no_target_chemical_process": "没有本课题相关化学过程",
+      "photocatalytic_n2_reduction": "光催化氮还原",
+      "plasma_ammonia_synthesis": "非热等离子体制氨"
+    }
+  },
+  "cases": [
+    {
+      "id": "T2REL-001",
+      "kind": "real_title",
+      "input": {
+        "title": "Atomic layer deposition of Ru nanoclusters on Ba–LaCeOx: a highly efficient catalyst for ammonia synthesis under mild conditions.",
+        "context": "核查者上下文摘要，非原文摘要引语：公开方法§2.2采用N₂/H₂=25/75 vol%进料，负载Ru由ALD制备；本输入没有指定反应器加热方式。",
+        "evidence_level": "title_plus_curated_context"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1039/d4su00350k",
+        "doi": "10.1039/d4su00350k",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 33,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文",
+        "context_source": "C:/Users/GZH/Desktop/综述完美版/工作记录/R003_85小时稳定性核查.md，方法§2.2进料行"
+      },
+      "expected": {
+        "tier": "cross",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "catalyst_preparation",
+        "topics": [
+          "ammonia_synthesis",
+          "ald",
+          "ru"
+        ]
+      },
+      "rationale": "气相N₂/H₂合成氨与ALD制备直接交叉；温度信息不等于焦耳热。",
+      "traps": [
+        "ald_vs_heating",
+        "heating_not_stated"
+      ]
+    },
+    {
+      "id": "T2REL-002",
+      "kind": "real_title",
+      "input": {
+        "title": "Numerical investigation of a Joule-heated catalytic reactor for enhanced ammonia decomposition to hydrogen.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1016/j.ces.2025.122403",
+        "doi": "10.1016/j.ces.2025.122403",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 28,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "transferable",
+        "process": "ammonia_decomposition",
+        "heating": "reaction_joule",
+        "use": "reactor_design",
+        "topics": [
+          "joule",
+          "reactor",
+          "ammonia_decomposition"
+        ]
+      },
+      "rationale": "标题明确是氨分解反应器模拟；可迁移电热设计，但不是N₂/H₂合成氨正例。",
+      "traps": [
+        "synthesis_vs_decomposition",
+        "model_vs_experiment"
+      ]
+    },
+    {
+      "id": "T2REL-003",
+      "kind": "real_title",
+      "input": {
+        "title": "Electrified dry reforming of methane via direct Joule heating of Ni/Al2O3 washcoated SiSiC foams towards ultra-high space velocity operation.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1016/j.cclet.2026.112936",
+        "doi": "10.1016/j.cclet.2026.112936",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 25,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "transferable",
+        "process": "methane_dry_reforming",
+        "heating": "reaction_joule",
+        "use": "reactor_design",
+        "topics": [
+          "joule",
+          "reactor",
+          "conductive_support"
+        ]
+      },
+      "rationale": "CH₄/CO₂干重整的直接焦耳供热与涂层床结构可迁移；不能当合成氨性能。",
+      "traps": [
+        "other_reaction",
+        "reaction_joule"
+      ]
+    },
+    {
+      "id": "T2REL-004",
+      "kind": "real_title",
+      "input": {
+        "title": "Electrified reverse water-gas shift via direct Joule heating of Mo-based conductive catalysts.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1016/j.jece.2026.123061",
+        "doi": "10.1016/j.jece.2026.123061",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 27,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "transferable",
+        "process": "reverse_water_gas_shift",
+        "heating": "reaction_joule",
+        "use": "reaction_operation",
+        "topics": [
+          "joule",
+          "conductive_catalyst"
+        ]
+      },
+      "rationale": "反向水煤气变换不是制氨；导电催化供热属可迁移方法。",
+      "traps": [
+        "other_reaction",
+        "joule_not_ammonia"
+      ]
+    },
+    {
+      "id": "T2REL-005",
+      "kind": "real_title",
+      "input": {
+        "title": "Enhanced C–O Functionality on Carbon Papers Ensures Lowering Nucleation Delay of ALD for Ru towards Unprecedented Alkaline HER Activity.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1002/smll.202300974",
+        "doi": "10.1002/smll.202300974",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 32,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "transferable",
+        "process": "hydrogen_evolution",
+        "heating": "not_stated",
+        "use": "catalyst_preparation",
+        "topics": [
+          "ald",
+          "ru",
+          "carbon",
+          "nucleation"
+        ]
+      },
+      "rationale": "Ru在碳上ALD成核对本课题可迁移，碱性HER不是合成氨；没有焦耳供热证据。",
+      "traps": [
+        "ald_related_non_ammonia",
+        "her_not_ammonia"
+      ]
+    },
+    {
+      "id": "T2REL-006",
+      "kind": "real_title",
+      "input": {
+        "title": "Experimental discovery of novel ammonia synthesis catalysts via active learning.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1039/d3ta05939a",
+        "doi": "10.1039/d3ta05939a",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 35,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "uncertain",
+        "process": "ammonia_route_unspecified",
+        "heating": "not_stated",
+        "use": "research_optimization",
+        "topics": [
+          "ammonia_synthesis",
+          "active_learning"
+        ]
+      },
+      "rationale": "仅这个标题能确认制氨催化剂主动学习，不能从DOI记忆补出气相/电化学及加热方式；待摘要明确反应路线。",
+      "traps": [
+        "title_insufficient",
+        "no_doi_oracle"
+      ]
+    },
+    {
+      "id": "T2REL-007",
+      "kind": "real_title",
+      "input": {
+        "title": "Machine-Learned Force Field for Molecular Dynamics Simulations of Nonequilibrium Ammonia Synthesis on Iron Catalysts.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1021/acs.jpcc.4c07596",
+        "doi": "10.1021/acs.jpcc.4c07596",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 36,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "uncertain",
+        "process": "ammonia_route_unspecified",
+        "heating": "not_stated",
+        "use": "kinetics_model",
+        "topics": [
+          "ammonia_synthesis",
+          "ml_force_field",
+          "iron"
+        ]
+      },
+      "rationale": "题名支持铁催化非平衡MD/MLFF，未明确进料路线；non-equilibrium不等于Joule或PHQ。",
+      "traps": [
+        "nonequilibrium_not_joule",
+        "title_insufficient",
+        "model_vs_experiment"
+      ]
+    },
+    {
+      "id": "T2REL-008",
+      "kind": "real_title",
+      "input": {
+        "title": "Joule-Heated Catalytic Reactors toward Decarbonization and Process Intensification: A Review.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1021/acsengineeringau.3c00045",
+        "doi": "10.1021/acsengineeringau.3c00045",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 21,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "transferable",
+        "process": "general_catalysis",
+        "heating": "reaction_joule",
+        "use": "review_background",
+        "topics": [
+          "joule",
+          "reactor",
+          "review"
+        ]
+      },
+      "rationale": "电热反应器综述直接帮助平台设计，但不能仅凭题名算气相合成氨交叉实证。",
+      "traps": [
+        "review_not_experiment",
+        "general_not_direct"
+      ]
+    },
+    {
+      "id": "T2REL-009",
+      "kind": "real_title",
+      "input": {
+        "title": "Operating envelope of Haber–Bosch process design for power-to-ammonia.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1039/c8ra06821f",
+        "doi": "10.1039/c8ra06821f",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 2,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "direct",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "reactor_design",
+        "topics": [
+          "ammonia_synthesis",
+          "haber_bosch",
+          "process_design"
+        ]
+      },
+      "rationale": "Haber–Bosch明确目标气相路线；power-to-ammonia不等于催化床焦耳加热。",
+      "traps": [
+        "power_to_not_joule"
+      ]
+    },
+    {
+      "id": "T2REL-010",
+      "kind": "real_title",
+      "input": {
+        "title": "Inherent strain and kinetic coupling determine the kinetics of ammonia synthesis over Ru nanoparticles.",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": {
+        "url": "https://doi.org/10.1038/s41467-025-56765-2",
+        "doi": "10.1038/s41467-025-56765-2",
+        "local_record": "C:/Users/GZH/Desktop/综述完美版/合成氨_焦耳热_ALD_融合综述.md",
+        "reference_number": 11,
+        "metadata_origin": "既有2026-09-28来源核验稿的真实题名/DOI；本轮未重新检索全文"
+      },
+      "expected": {
+        "tier": "uncertain",
+        "process": "ammonia_route_unspecified",
+        "heating": "not_stated",
+        "use": "kinetics_model",
+        "topics": [
+          "ammonia_synthesis",
+          "ru",
+          "kinetics"
+        ]
+      },
+      "rationale": "题名可确认Ru制氨动力学主题，未提供进料或过程细节；不依据R126编号或DOI反查补标签。",
+      "traps": [
+        "title_insufficient",
+        "no_doi_oracle"
+      ]
+    },
+    {
+      "id": "T2REL-011",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Promoter effects on Ru catalysts for gas-phase ammonia synthesis from N2 and H2",
+        "context": "合成控制句：热催化N₂/H₂进料，不涉及ALD或电加热方法。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "direct",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "catalyst_preparation",
+        "topics": [
+          "ammonia_synthesis",
+          "ru",
+          "promoter"
+        ]
+      },
+      "rationale": "直接目标反应；未交代加热器时不补推焦耳热或外炉。",
+      "traps": [
+        "gas_route_positive"
+      ]
+    },
+    {
+      "id": "T2REL-012",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "程序升温与快速淬冷调制Fe表面N₂/H₂气相合成氨的微观动力学",
+        "context": "合成控制句：对反应温度实施周期升温和快速淬冷，建模N₂/H₂气相催化速率与覆盖度；未说明热源，不是调制电极电位，也没有实测新催化剂。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "cross",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "reaction_programmable",
+        "use": "kinetics_model",
+        "topics": [
+          "ammonia_synthesis",
+          "iron",
+          "kinetics",
+          "programmable_heating_quenching"
+        ]
+      },
+      "rationale": "明确的温度程序与N₂/H₂气相路线形成交叉；不能只追Ru而漏Fe，也不能把程序加热擅自确定为焦耳供热或实验性能。",
+      "traps": [
+        "non_ru_positive",
+        "chinese",
+        "thermal_program_vs_electrochemical_pulse",
+        "temperature_program_not_heater_identity",
+        "model_not_experiment"
+      ]
+    },
+    {
+      "id": "T2REL-013",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Joule-heating synthesis of Ru/carbon catalysts for ammonia production",
+        "context": "合成控制句：先用焦耳热在氩气中制备催化剂；冷却后转移到普通外炉，以N₂/H₂进料评价合成氨；没有电流通过反应床。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "cross",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "preparation_joule",
+        "use": "catalyst_preparation",
+        "topics": [
+          "ammonia_synthesis",
+          "joule_preparation",
+          "ru",
+          "carbon"
+        ]
+      },
+      "rationale": "制备与反应两个阶段要分开，关联很强却不构成焦耳热驱动合成氨。",
+      "traps": [
+        "joule_preparation_not_reaction",
+        "pair_13_14"
+      ]
+    },
+    {
+      "id": "T2REL-014",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Joule-heated Ru/carbon catalysts for ammonia production",
+        "context": "合成控制句：连续N₂/H₂进料时电流直接通过导电床层供热；本文没有用焦耳热制备催化剂。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "cross",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "reaction_joule",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_synthesis",
+          "joule_reaction",
+          "ru",
+          "carbon"
+        ]
+      },
+      "rationale": "与上一例近似题名，但上下文明确反应时的供热。",
+      "traps": [
+        "joule_reaction_not_preparation",
+        "pair_13_14"
+      ]
+    },
+    {
+      "id": "T2REL-015",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "ALD alumina overcoats stabilize ruthenium during N2/H2 ammonia synthesis",
+        "context": "合成控制句：ALD全称atomic layer deposition；反应前构建薄包覆，气相N₂/H₂合成氨中考察稳定性，未说明供热方式。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "cross",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "catalyst_preparation",
+        "topics": [
+          "ammonia_synthesis",
+          "ald",
+          "encapsulation",
+          "stability"
+        ]
+      },
+      "rationale": "包覆/界面ALD直接交叉，未必都是负载金属。",
+      "traps": [
+        "ald_overcoat_positive",
+        "heating_not_stated"
+      ]
+    },
+    {
+      "id": "T2REL-016",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "ALD improves catalytic performance",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "uncertain",
+        "process": "unknown",
+        "heating": "not_stated",
+        "use": "unclear",
+        "topics": []
+      },
+      "rationale": "缩写和性能过于模糊，无进料、材料、ALD展开及用途；不能仅凭ALD三个字强行分类。",
+      "traps": [
+        "ald_unexpanded",
+        "title_insufficient"
+      ]
+    },
+    {
+      "id": "T2REL-017",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Electrochemical reduction of nitrogen to ammonia in aqueous electrolyte",
+        "context": "合成控制句：N₂在阴极与水/质子源反应，使用电位控制，非N₂/H₂热催化床。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "background",
+        "process": "electrochemical_n2_reduction",
+        "heating": "electrochemical_not_joule",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_adjacent",
+          "electrochemistry"
+        ]
+      },
+      "rationale": "产物同为NH₃，但过程不同；保留邻近背景，不进入直接气相池。",
+      "traps": [
+        "electro_nrr_not_gas",
+        "electricity_not_joule"
+      ]
+    },
+    {
+      "id": "T2REL-018",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Selective ammonia production by electrochemical nitrate reduction",
+        "context": "合成控制句：氮源为NO₃⁻而不是N₂，采用含水电解液和电极。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "background",
+        "process": "electrochemical_nitrate_reduction",
+        "heating": "electrochemical_not_joule",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_adjacent",
+          "nitrate_reduction"
+        ]
+      },
+      "rationale": "应同时排除N₂原料和气相热催化误认。",
+      "traps": [
+        "nitrate_not_nitrogen",
+        "electrochemistry"
+      ]
+    },
+    {
+      "id": "T2REL-019",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Bimetallic nanoparticles for hydrolytic hydrogen release from ammonia borane",
+        "context": "合成控制句：NH₃BH₃与水反应放氢，不是以N₂/H₂为原料制取氨；没有ALD或焦耳加热。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "background",
+        "process": "ammonia_borane_hydrolysis",
+        "heating": "not_stated",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_adjacent",
+          "hydrogen_release"
+        ]
+      },
+      "rationale": "ammonia borane不是ammonia synthesis，不能只匹配ammonia。",
+      "traps": [
+        "borane_not_ammonia_synthesis"
+      ]
+    },
+    {
+      "id": "T2REL-020",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "导电泡沫直接电阻加热驱动氨裂解制氢",
+        "context": "合成控制句：入口NH₃，出口N₂/H₂，电流通过催化床。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "transferable",
+        "process": "ammonia_decomposition",
+        "heating": "reaction_joule",
+        "use": "reactor_design",
+        "topics": [
+          "joule",
+          "ammonia_decomposition",
+          "reactor"
+        ]
+      },
+      "rationale": "中文氨裂解同分解，方向必须识别；电热装置可迁移。",
+      "traps": [
+        "reverse_direction",
+        "chinese",
+        "direct_resistive_synonym"
+      ]
+    },
+    {
+      "id": "T2REL-021",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Flash Joule heating prepares metal nanoparticles for aqueous dye degradation",
+        "context": "合成控制句：毫秒电热只用于纳米颗粒制备；污染物降解试验在另外的常温液相装置进行。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "transferable",
+        "process": "other_catalytic_reaction",
+        "heating": "preparation_joule",
+        "use": "catalyst_preparation",
+        "topics": [
+          "joule_preparation",
+          "rapid_heating"
+        ]
+      },
+      "rationale": "保留快速制备方法线索，不算电热反应或合成氨性能。",
+      "traps": [
+        "preparation_vs_operation",
+        "adjacent_material_method"
+      ]
+    },
+    {
+      "id": "T2REL-022",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Flash Joule conversion of waste carbon to conductive graphitic supports",
+        "context": "合成控制句：研究导电碳载体制备及石墨化，未进行任何催化反应。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "transferable",
+        "process": "materials_synthesis_only",
+        "heating": "preparation_joule",
+        "use": "catalyst_preparation",
+        "topics": [
+          "joule_preparation",
+          "carbon_support"
+        ]
+      },
+      "rationale": "用户关心导电碳和载体，属可迁移材料方法；不得虚构催化活性。",
+      "traps": [
+        "no_reaction_test",
+        "carbon_support"
+      ]
+    },
+    {
+      "id": "T2REL-023",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Pulsed-current electrochemical N2 reduction for ammonia synthesis",
+        "context": "合成控制句：调制电极电位/电流，电解液保持室温；没有热循环或焦耳供热分析。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "background",
+        "process": "electrochemical_n2_reduction",
+        "heating": "electrochemical_not_joule",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_adjacent",
+          "electrochemistry"
+        ]
+      },
+      "rationale": "pulse/current并不自动等于PHQ或焦耳热，需要热量证据。",
+      "traps": [
+        "pulsed_current_not_phq",
+        "electro_nrr_not_gas"
+      ]
+    },
+    {
+      "id": "T2REL-024",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Protein folding with neural networks",
+        "context": "合成控制句：元数据中的期刊字段为Joule，标题和正文研究蛋白结构，未涉及电阻加热、催化、氨或ALD。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "exclude",
+        "process": "no_target_chemical_process",
+        "heating": "none_relevant",
+        "use": "unrelated",
+        "topics": []
+      },
+      "rationale": "不能把来源名Joule当热方法；泛ML不能绕过领域过滤。",
+      "traps": [
+        "journal_name_joule",
+        "generic_ml"
+      ]
+    },
+    {
+      "id": "T2REL-025",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "ALD biomarkers in alcoholic liver disease",
+        "context": "合成控制句：ALD=alcoholic liver disease，研究肝病临床标志物。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "exclude",
+        "process": "no_target_chemical_process",
+        "heating": "none_relevant",
+        "use": "unrelated",
+        "topics": []
+      },
+      "rationale": "医学缩写不是atomic layer deposition。",
+      "traps": [
+        "ald_medical_acronym"
+      ]
+    },
+    {
+      "id": "T2REL-026",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Gene therapy for X-linked ALD",
+        "context": "合成控制句：ALD=adrenoleukodystrophy，讨论罕见遗传疾病。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "exclude",
+        "process": "no_target_chemical_process",
+        "heating": "none_relevant",
+        "use": "unrelated",
+        "topics": []
+      },
+      "rationale": "不同医学ALD也应排除，不能只硬编码一条liver disease。",
+      "traps": [
+        "ald_medical_acronym"
+      ]
+    },
+    {
+      "id": "T2REL-027",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Atomic layer deposition of gate dielectrics for a commercial memory-chip node",
+        "context": "合成控制句：仅报告存储芯片制程良率和栅电性能；没有一般成核/界面机制、催化剂、导电床或可迁移实验方法。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "exclude",
+        "process": "materials_synthesis_only",
+        "heating": "not_stated",
+        "use": "unrelated",
+        "topics": [
+          "ald"
+        ]
+      },
+      "rationale": "真ALD不等于对用户必然有用；此控制句明确无可迁移方法，主题词可保留但默认动态池排除。",
+      "traps": [
+        "ald_true_but_irrelevant",
+        "keyword_not_relevance"
+      ]
+    },
+    {
+      "id": "T2REL-028",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Self-limiting ALD nucleation of ruthenium on functionalized carbon nanotubes",
+        "context": "合成控制句：逐半反应测量饱和吸附、成核延迟与覆盖度，尚未测试任何催化反应。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "transferable",
+        "process": "materials_synthesis_only",
+        "heating": "not_stated",
+        "use": "catalyst_preparation",
+        "topics": [
+          "ald",
+          "ru",
+          "carbon",
+          "nucleation"
+        ]
+      },
+      "rationale": "有明确材料/自限制方法可迁移，不因缺合成氨关键词漏掉，也不伪称活性论文。",
+      "traps": [
+        "ald_method_positive",
+        "no_reaction_test"
+      ]
+    },
+    {
+      "id": "T2REL-029",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "原位红外结合15N2同位素验证Ru催化气相合成氨的氮来源",
+        "context": "合成控制句：N₂/H₂热催化；讨论空白、同位素与硝酸盐前驱体释氨排查，没有ALD或焦耳热。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "direct",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "measurement_validation",
+        "topics": [
+          "ammonia_synthesis",
+          "isotope_control",
+          "ammonia_quantification"
+        ]
+      },
+      "rationale": "真实氮源与定量对用户重要，不能只收性能突破或材料制备。",
+      "traps": [
+        "measurement_positive",
+        "chinese"
+      ]
+    },
+    {
+      "id": "T2REL-030",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "A new large language model beats stock-trading benchmarks",
+        "context": "合成控制句：通用模型、股价预测与商业新闻，无科研材料/催化用途。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "exclude",
+        "process": "no_target_chemical_process",
+        "heating": "none_relevant",
+        "use": "unrelated",
+        "topics": []
+      },
+      "rationale": "泛AI及股价资讯不进入科研主题动态。",
+      "traps": [
+        "generic_ai_exclusion"
+      ]
+    },
+    {
+      "id": "T2REL-031",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Bayesian optimization of promoter loading for gas-phase N2/H2 ammonia synthesis",
+        "context": "合成控制句：在相同温压条件下优化催化剂助剂组成，包含实验反馈；没有电热或ALD。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "direct",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "research_optimization",
+        "topics": [
+          "ammonia_synthesis",
+          "bayesian_optimization"
+        ]
+      },
+      "rationale": "AI确实服务目标实验，不应与泛AI一起排除。",
+      "traps": [
+        "relevant_ai_positive",
+        "fixed_conditions"
+      ]
+    },
+    {
+      "id": "T2REL-032",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Electric-field-assisted gas-phase ammonia synthesis over Ru",
+        "context": "合成控制句：作者明确外炉维持同温，施加弱电场，并不把输入电流作为床层热源；输入没有ALD制备。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "direct",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "electric_field_not_joule",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_synthesis",
+          "electric_field"
+        ]
+      },
+      "rationale": "电场效应不等于焦耳供热交叉，需保留供热角色区分。",
+      "traps": [
+        "electric_field_not_joule"
+      ]
+    },
+    {
+      "id": "T2REL-033",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Calibrating emissivity and hot spots in Joule-heated SiSiC catalytic foams",
+        "context": "合成控制句：在甲烷干重整电热床用热电偶/红外互校真实床温，重点是发射率误差和空间分辨率。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "transferable",
+        "process": "methane_dry_reforming",
+        "heating": "reaction_joule",
+        "use": "measurement_validation",
+        "topics": [
+          "joule",
+          "thermometry",
+          "reactor"
+        ]
+      },
+      "rationale": "测温方法可迁移，不能因不是NH₃而漏掉，也不能把温度图当合成氨成果。",
+      "traps": [
+        "metrology_positive",
+        "other_reaction"
+      ]
+    },
+    {
+      "id": "T2REL-034",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "DFT and microkinetics of N2 dissociation and hydrogen inhibition during gas-phase N2/H2 ammonia synthesis on Ru",
+        "context": "合成控制句：计算基元反应、覆盖度与气相稳态速率；没有ALD、电热或实测新催化剂。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "direct",
+        "process": "gas_n2_h2_ammonia_synthesis",
+        "heating": "not_stated",
+        "use": "kinetics_model",
+        "topics": [
+          "ammonia_synthesis",
+          "dft",
+          "microkinetics",
+          "ru"
+        ]
+      },
+      "rationale": "相关计算应进入直接池，但需保持模型证据不等于实验。",
+      "traps": [
+        "relevant_computation",
+        "model_not_experiment"
+      ]
+    },
+    {
+      "id": "T2REL-035",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Photocatalytic nitrogen fixation to ammonia using water under visible light",
+        "context": "合成控制句：可见光与水供质子，不是N₂/H₂气相热催化，未用ALD或焦耳热。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "background",
+        "process": "photocatalytic_n2_reduction",
+        "heating": "light_driven",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_adjacent",
+          "photocatalysis"
+        ]
+      },
+      "rationale": "光催化氮固定不能混为目标气相路线。",
+      "traps": [
+        "photo_not_gas"
+      ]
+    },
+    {
+      "id": "T2REL-036",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Non-thermal plasma synthesis of ammonia from nitrogen and hydrogen",
+        "context": "合成控制句：氮气和氢气经放电等离子体活化；题名的non-thermal不指周期焦耳热。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "background",
+        "process": "plasma_ammonia_synthesis",
+        "heating": "plasma_driven",
+        "use": "reaction_operation",
+        "topics": [
+          "ammonia_adjacent",
+          "plasma"
+        ]
+      },
+      "rationale": "即使N₂/H₂相同，非热等离子体仍须与目标热催化路线分开。",
+      "traps": [
+        "same_feed_different_process",
+        "plasma_not_joule"
+      ]
+    },
+    {
+      "id": "T2REL-037",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Ammonia refrigeration in a supermarket cold-storage system",
+        "context": "合成控制句：NH₃只是制冷剂，报告商用压缩机和库房温控，不发生制氨或分解。",
+        "evidence_level": "title_plus_synthetic_context"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "exclude",
+        "process": "no_target_chemical_process",
+        "heating": "none_relevant",
+        "use": "unrelated",
+        "topics": []
+      },
+      "rationale": "ammonia+temperature并不构成催化动态。",
+      "traps": [
+        "ammonia_keyword_false_positive"
+      ]
+    },
+    {
+      "id": "T2REL-038",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Recent advances in ammonia synthesis",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "uncertain",
+        "process": "ammonia_route_unspecified",
+        "heating": "not_stated",
+        "use": "review_background",
+        "topics": [
+          "ammonia_synthesis",
+          "review"
+        ]
+      },
+      "rationale": "无摘要的宽标题可能含多条路线，不能强贴气相正例；保留待核查而非直接丢弃。",
+      "traps": [
+        "title_insufficient",
+        "review_route_unknown"
+      ]
+    },
+    {
+      "id": "T2REL-039",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "Electrified ammonia production",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "uncertain",
+        "process": "ammonia_route_unspecified",
+        "heating": "not_stated",
+        "use": "unclear",
+        "topics": [
+          "ammonia_synthesis"
+        ]
+      },
+      "rationale": "electrified可能指上游制氢、外部供热、电化学或电热床，题名不足。",
+      "traps": [
+        "electrified_ambiguous",
+        "title_insufficient"
+      ]
+    },
+    {
+      "id": "T2REL-040",
+      "kind": "synthetic_control",
+      "input": {
+        "title": "ALD and AI for next-generation energy systems",
+        "context": null,
+        "evidence_level": "title_only"
+      },
+      "citation": null,
+      "expected": {
+        "tier": "uncertain",
+        "process": "unknown",
+        "heating": "not_stated",
+        "use": "unclear",
+        "topics": []
+      },
+      "rationale": "两个缩写与能源宽泛词不支持材料、过程及相关层级精确判断。",
+      "traps": [
+        "ald_unexpanded",
+        "generic_ai_ambiguous",
+        "title_insufficient"
+      ]
+    }
+  ]
+}

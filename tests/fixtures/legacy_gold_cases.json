@@ -1,0 +1,282 @@
+[
+ {
+  "id": "T2REL-001",
+  "title": "Atomic layer deposition of Ru nanoclusters on Ba–LaCeOx: a highly efficient catalyst for ammonia synthesis under mild conditions.",
+  "context": "",
+  "tier": "cross",
+  "rationale": "气相N₂/H₂合成氨与ALD制备直接交叉；温度信息不等于焦耳热。"
+ },
+ {
+  "id": "T2REL-002",
+  "title": "Numerical investigation of a Joule-heated catalytic reactor for enhanced ammonia decomposition to hydrogen.",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "标题明确是氨分解反应器模拟；可迁移电热设计，但不是N₂/H₂合成氨正例。"
+ },
+ {
+  "id": "T2REL-003",
+  "title": "Electrified dry reforming of methane via direct Joule heating of Ni/Al2O3 washcoated SiSiC foams towards ultra-high space velocity operation.",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "CH₄/CO₂干重整的直接焦耳供热与涂层床结构可迁移；不能当合成氨性能。"
+ },
+ {
+  "id": "T2REL-004",
+  "title": "Electrified reverse water-gas shift via direct Joule heating of Mo-based conductive catalysts.",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "反向水煤气变换不是制氨；导电催化供热属可迁移方法。"
+ },
+ {
+  "id": "T2REL-005",
+  "title": "Enhanced C–O Functionality on Carbon Papers Ensures Lowering Nucleation Delay of ALD for Ru towards Unprecedented Alkaline HER Activity.",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "Ru在碳上ALD成核对本课题可迁移，碱性HER不是合成氨；没有焦耳供热证据。"
+ },
+ {
+  "id": "T2REL-006",
+  "title": "Experimental discovery of novel ammonia synthesis catalysts via active learning.",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "仅这个标题能确认制氨催化剂主动学习，不能从DOI记忆补出气相/电化学及加热方式；待摘要明确反应路线。"
+ },
+ {
+  "id": "T2REL-007",
+  "title": "Machine-Learned Force Field for Molecular Dynamics Simulations of Nonequilibrium Ammonia Synthesis on Iron Catalysts.",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "题名支持铁催化非平衡MD/MLFF，未明确进料路线；non-equilibrium不等于Joule或PHQ。"
+ },
+ {
+  "id": "T2REL-008",
+  "title": "Joule-Heated Catalytic Reactors toward Decarbonization and Process Intensification: A Review.",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "电热反应器综述直接帮助平台设计，但不能仅凭题名算气相合成氨交叉实证。"
+ },
+ {
+  "id": "T2REL-009",
+  "title": "Operating envelope of Haber–Bosch process design for power-to-ammonia.",
+  "context": "",
+  "tier": "direct",
+  "rationale": "Haber–Bosch明确目标气相路线；power-to-ammonia不等于催化床焦耳加热。"
+ },
+ {
+  "id": "T2REL-010",
+  "title": "Inherent strain and kinetic coupling determine the kinetics of ammonia synthesis over Ru nanoparticles.",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "题名可确认Ru制氨动力学主题，未提供进料或过程细节；不依据R126编号或DOI反查补标签。"
+ },
+ {
+  "id": "T2REL-011",
+  "title": "Promoter effects on Ru catalysts for gas-phase ammonia synthesis from N2 and H2",
+  "context": "",
+  "tier": "direct",
+  "rationale": "直接目标反应；未交代加热器时不补推焦耳热或外炉。"
+ },
+ {
+  "id": "T2REL-012",
+  "title": "程序升温与快速淬冷调制Fe表面N₂/H₂气相合成氨的微观动力学",
+  "context": "",
+  "tier": "cross",
+  "rationale": "明确的温度程序与N₂/H₂气相路线形成交叉；不能只追Ru而漏Fe，也不能把程序加热擅自确定为焦耳供热或实验性能。"
+ },
+ {
+  "id": "T2REL-013",
+  "title": "Joule-heating synthesis of Ru/carbon catalysts for ammonia production",
+  "context": "",
+  "tier": "cross",
+  "rationale": "制备与反应两个阶段要分开，关联很强却不构成焦耳热驱动合成氨。"
+ },
+ {
+  "id": "T2REL-014",
+  "title": "Joule-heated Ru/carbon catalysts for ammonia production",
+  "context": "",
+  "tier": "cross",
+  "rationale": "与上一例近似题名，但上下文明确反应时的供热。"
+ },
+ {
+  "id": "T2REL-015",
+  "title": "ALD alumina overcoats stabilize ruthenium during N2/H2 ammonia synthesis",
+  "context": "",
+  "tier": "cross",
+  "rationale": "包覆/界面ALD直接交叉，未必都是负载金属。"
+ },
+ {
+  "id": "T2REL-016",
+  "title": "ALD improves catalytic performance",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "缩写和性能过于模糊，无进料、材料、ALD展开及用途；不能仅凭ALD三个字强行分类。"
+ },
+ {
+  "id": "T2REL-017",
+  "title": "Electrochemical reduction of nitrogen to ammonia in aqueous electrolyte",
+  "context": "",
+  "tier": "background",
+  "rationale": "产物同为NH₃，但过程不同；保留邻近背景，不进入直接气相池。"
+ },
+ {
+  "id": "T2REL-018",
+  "title": "Selective ammonia production by electrochemical nitrate reduction",
+  "context": "",
+  "tier": "background",
+  "rationale": "应同时排除N₂原料和气相热催化误认。"
+ },
+ {
+  "id": "T2REL-019",
+  "title": "Bimetallic nanoparticles for hydrolytic hydrogen release from ammonia borane",
+  "context": "",
+  "tier": "background",
+  "rationale": "ammonia borane不是ammonia synthesis，不能只匹配ammonia。"
+ },
+ {
+  "id": "T2REL-020",
+  "title": "导电泡沫直接电阻加热驱动氨裂解制氢",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "中文氨裂解同分解，方向必须识别；电热装置可迁移。"
+ },
+ {
+  "id": "T2REL-021",
+  "title": "Flash Joule heating prepares metal nanoparticles for aqueous dye degradation",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "保留快速制备方法线索，不算电热反应或合成氨性能。"
+ },
+ {
+  "id": "T2REL-022",
+  "title": "Flash Joule conversion of waste carbon to conductive graphitic supports",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "用户关心导电碳和载体，属可迁移材料方法；不得虚构催化活性。"
+ },
+ {
+  "id": "T2REL-023",
+  "title": "Pulsed-current electrochemical N2 reduction for ammonia synthesis",
+  "context": "",
+  "tier": "background",
+  "rationale": "pulse/current并不自动等于PHQ或焦耳热，需要热量证据。"
+ },
+ {
+  "id": "T2REL-024",
+  "title": "Protein folding with neural networks",
+  "context": "",
+  "tier": "exclude",
+  "rationale": "不能把来源名Joule当热方法；泛ML不能绕过领域过滤。"
+ },
+ {
+  "id": "T2REL-025",
+  "title": "ALD biomarkers in alcoholic liver disease",
+  "context": "",
+  "tier": "exclude",
+  "rationale": "医学缩写不是atomic layer deposition。"
+ },
+ {
+  "id": "T2REL-026",
+  "title": "Gene therapy for X-linked ALD",
+  "context": "",
+  "tier": "exclude",
+  "rationale": "不同医学ALD也应排除，不能只硬编码一条liver disease。"
+ },
+ {
+  "id": "T2REL-027",
+  "title": "Atomic layer deposition of gate dielectrics for a commercial memory-chip node",
+  "context": "",
+  "tier": "exclude",
+  "rationale": "真ALD不等于对用户必然有用；此控制句明确无可迁移方法，主题词可保留但默认动态池排除。"
+ },
+ {
+  "id": "T2REL-028",
+  "title": "Self-limiting ALD nucleation of ruthenium on functionalized carbon nanotubes",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "有明确材料/自限制方法可迁移，不因缺合成氨关键词漏掉，也不伪称活性论文。"
+ },
+ {
+  "id": "T2REL-029",
+  "title": "原位红外结合15N2同位素验证Ru催化气相合成氨的氮来源",
+  "context": "",
+  "tier": "direct",
+  "rationale": "真实氮源与定量对用户重要，不能只收性能突破或材料制备。"
+ },
+ {
+  "id": "T2REL-030",
+  "title": "A new large language model beats stock-trading benchmarks",
+  "context": "",
+  "tier": "exclude",
+  "rationale": "泛AI及股价资讯不进入科研主题动态。"
+ },
+ {
+  "id": "T2REL-031",
+  "title": "Bayesian optimization of promoter loading for gas-phase N2/H2 ammonia synthesis",
+  "context": "",
+  "tier": "direct",
+  "rationale": "AI确实服务目标实验，不应与泛AI一起排除。"
+ },
+ {
+  "id": "T2REL-032",
+  "title": "Electric-field-assisted gas-phase ammonia synthesis over Ru",
+  "context": "",
+  "tier": "direct",
+  "rationale": "电场效应不等于焦耳供热交叉，需保留供热角色区分。"
+ },
+ {
+  "id": "T2REL-033",
+  "title": "Calibrating emissivity and hot spots in Joule-heated SiSiC catalytic foams",
+  "context": "",
+  "tier": "transferable",
+  "rationale": "测温方法可迁移，不能因不是NH₃而漏掉，也不能把温度图当合成氨成果。"
+ },
+ {
+  "id": "T2REL-034",
+  "title": "DFT and microkinetics of N2 dissociation and hydrogen inhibition during gas-phase N2/H2 ammonia synthesis on Ru",
+  "context": "",
+  "tier": "direct",
+  "rationale": "相关计算应进入直接池，但需保持模型证据不等于实验。"
+ },
+ {
+  "id": "T2REL-035",
+  "title": "Photocatalytic nitrogen fixation to ammonia using water under visible light",
+  "context": "",
+  "tier": "background",
+  "rationale": "光催化氮固定不能混为目标气相路线。"
+ },
+ {
+  "id": "T2REL-036",
+  "title": "Non-thermal plasma synthesis of ammonia from nitrogen and hydrogen",
+  "context": "",
+  "tier": "background",
+  "rationale": "即使N₂/H₂相同，非热等离子体仍须与目标热催化路线分开。"
+ },
+ {
+  "id": "T2REL-037",
+  "title": "Ammonia refrigeration in a supermarket cold-storage system",
+  "context": "",
+  "tier": "exclude",
+  "rationale": "ammonia+temperature并不构成催化动态。"
+ },
+ {
+  "id": "T2REL-038",
+  "title": "Recent advances in ammonia synthesis",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "无摘要的宽标题可能含多条路线，不能强贴气相正例；保留待核查而非直接丢弃。"
+ },
+ {
+  "id": "T2REL-039",
+  "title": "Electrified ammonia production",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "electrified可能指上游制氢、外部供热、电化学或电热床，题名不足。"
+ },
+ {
+  "id": "T2REL-040",
+  "title": "ALD and AI for next-generation energy systems",
+  "context": "",
+  "tier": "uncertain",
+  "rationale": "两个缩写与能源宽泛词不支持材料、过程及相关层级精确判断。"
+ }
+]
