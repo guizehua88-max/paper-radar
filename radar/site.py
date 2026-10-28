@@ -384,7 +384,7 @@ function drawMonths(){
   const el = $('#months'); el.hidden = view !== 'month';
   if (view !== 'month') return;
   const years = {}; I.months.forEach(m => (years[m.m.slice(0,4)] = years[m.m.slice(0,4)] || []).push(m));
-  el.innerHTML = Object.keys(years).sort().reverse().map(y => `<div class="yr"><b>${y === 'unkn' ? '其他' : y}</b><div class="mm">` +
+  el.innerHTML = Object.keys(years).sort((a, b) => (a === 'unkn') - (b === 'unkn') || b.localeCompare(a)).map(y => `<div class="yr"><b>${y === 'unkn' ? '其他' : y}</b><div class="mm">` +
     years[y].map(m => `<button class="mon" data-m="${m.m}" aria-pressed="${m.m === month}" title="${esc(m.label)}：共 ${m.n} 条（其中公众号 ${m.wx || 0}），重点论文 ${m.key}，交叉 ${m.cross}">${m.m.endsWith('-00') ? '月份不详' : m.m === 'unknown' ? '日期不详' : (+m.m.slice(5)) + '月'}<small>${m.n}${m.cross ? '<span class="x"> ⭐' + m.cross + '</span>' : ''}</small></button>`).join('') + '</div></div>').join('');
 }
 $('#months').onclick = async e => { const b = e.target.closest('.mon'); if (!b) return; month = b.dataset.m; limit = 100; savePref(); drawMonths(); await loadMonth(month); draw(); };
