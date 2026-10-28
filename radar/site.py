@@ -102,7 +102,7 @@ def render(papers: list[dict], cfg: dict, status: dict, generated: str) -> None:
         for f in mdir.glob("*.js"):
             if f.stem not in by_month:
                 f.unlink()
-    months.sort(key=lambda x: x["m"], reverse=True)
+    months.sort(key=lambda x: ("0000" if x["m"] == "unknown" else x["m"]), reverse=True)  # 日期不详 last
 
     def recent(p, days):
         try:

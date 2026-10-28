@@ -152,7 +152,9 @@ class Classifier:
         elif old_tier in ("direct", "cross"):
             tier = "cross" if (old_tier == "cross" or my_tier == "cross") else "direct"
         elif my_tier:
-            tier = max(my_tier, old_tier, key=lambda x: TIER_RANK[x]) if old_tier == "transferable" else my_tier
+            old_method = (any(t in METHOD_TOPICS for t in old.get("topics", []))
+                          and not _CHARACTERIZATION.search(old.get("heating_zh", "")))
+            tier = max(my_tier, old_tier, key=lambda x: TIER_RANK[x]) if (old_tier == "transferable" and old_method) else my_tier
         elif rejected:
             return None
         elif (old_tier == "transferable" and old.get("process") in CATALYTIC_PROCESSES
