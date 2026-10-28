@@ -37,40 +37,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "析氢反应"
  },
- "10.1002/adsu.202470024": {
-  "abstract": "",
-  "authors": [
-   "Jasreet Kaur",
-   "Amandeep Singh Pannu",
-   "Muhammad J. A. Shiddiky",
-   "Xiaodong Wang",
-   "Paul Frasca",
-   "Jose Alarco"
-  ],
-  "cross": false,
-  "date": "2024-06-20",
-  "doi": "10.1002/adsu.202470024",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/adsu.202470024",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Advanced Sustainable Systems",
-  "tier": "transferable",
-  "title": "Sustainable Manufacturing of Graphitic Carbon from Bio‐Waste Using Flash Heating for Anode Material of Lithium‐Ion Batteries with Optimal Performance (Adv. Sustainable Syst. 6/2024)",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1002/adsu.202470024",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Flash Heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
- },
  "10.1002/aesr.202400083": {
   "abstract": "The Haber–Bosch process is a cornerstone in the field of ammonia production and represents a decisive advance in industrial chemistry. This method, developed in the early 20th century, revolutionizes agriculture and enables the mass production of fertilizers. As the world strives for sustainable energy and environmental protection, alternative methods such as the photo/photoelectrocatalytic nitrogen reduction reaction (NRR) are gaining momentum. By using sunlight, electricity, or a combination of both, these approaches promise sustainable ammonia production with renewable energy sources and innovative materials. Researchers are trying to understand the underlying principles, mechanisms, and advances of these methods to overcome the challenges and optimize their effectiveness. This research is a step toward sustainable energy and agriculture, and offers a greener and more efficient way forward. This review looks at advances in sustainable ammonia production, particularly through photo‐ and photoelectrocatalytic NRRs. It examines the hurdles in implementing these methods and provides an overview of the fundamentals of nitrogen fixation and a comparison of current mechanisms. In addition, thermodynamic, theoretical, and computational studies of these processes are summarized. Various photocatalysts and photoelectrocatalysts used for ammonia production are also presented.",
   "authors": [
@@ -2267,40 +2233,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及Fe/铁体系、碳材料、原子层沉积"
  },
- "10.1021/acsanm.4c02081": {
-  "abstract": "",
-  "authors": [
-   "Shegufta Upama",
-   "Luis Arevalo",
-   "Afshin Pendashteh",
-   "Anastasiia Mikhalchan",
-   "Micah J. Green",
-   "Juan Jose Vilatela"
-  ],
-  "cross": false,
-  "date": "2024-06-14",
-  "doi": "10.1021/acsanm.4c02081",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1021/acsanm.4c02081",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "ACS Applied Nano Materials",
-  "tier": "transferable",
-  "title": "Joule Heating in Controlled Atmospheres to Process Nanocarbon/Transition Metal Oxide Composites and Electrodes",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acsanm.4c02081",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1021/acscatal.4c01445": {
   "abstract": "",
   "authors": [
@@ -2963,33 +2895,6 @@
   "zh_method": "等离子体驱动",
   "zh_obj": "等离子体制氨"
  },
- "10.1126/science.adr1519": {
-  "abstract": "",
-  "authors": [],
-  "cross": false,
-  "date": "2024-06-28",
-  "doi": "10.1126/science.adr1519",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1126/science.adr1519",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 32,
-  "source": "Science",
-  "tier": "direct",
-  "title": "Erratum for the Research Article “Spin-mediated promotion of Co catalysts for ammonia synthesis” by K. Zhang et al .",
-  "top": true,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1126/science.adr1519",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "ammonia synthesis"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
- },
  "10.14447/jnmes.v27i2.a05": {
   "abstract": "",
   "authors": [
@@ -3418,66 +3323,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原"
  },
- "10.29137/umagd.1439051": {
-  "abstract": "The induction heating process is a highly nonlinear problem due to its connection with various factors. The complex nature of this issue presents a notable difficulty for mathematical analysis and requires a simplification. Additionally, deriving parameters from spatial geometry can be a challenging undertaking in most instances. This paper deals with a simulation model of the induction heating problemThe finite element method within COMSOL Multiphysics is utilized to simulate the induction heating characteristics of fragile metal sheets subjected to different currents and frequencies from an Archimedean spiral coil. This serves as an effective solution for intricate constructions. To distinguish between partial influences, the coil model is modified to closely mirror the actual coil's geometry. The simulation process includes two phases. The former situation is attained by evaluating heating process by gradually increasing the excitation current frequency in frequency domain analysis and the latter scenario is achieved by implementing constant frequency current in a frequency transient condition and assessing the heating procedure within the model. Therefore, in both instances, the simulation model offers crucial insights into the nonlinear electromagnetic and thermal properties of the the workpiece material. To confirm the results of the simulation model, a laboratory prototype is constructed, and comparison between experimental temperature measurements and simulation results is conducted.",
-  "authors": [
-   "Sude Hatem"
-  ],
-  "cross": false,
-  "date": "2024-06-11",
-  "doi": "10.29137/umagd.1439051",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.29137/umagd.1439051",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Uluslararası Muhendislik Arastirma ve Gelistirme Dergisi",
-  "tier": "transferable",
-  "title": "Simulation and Implementation of an Induction Heating System for Heating Brittle Thin Metal Sheets by Various Excitation Current Frequencies",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.29137/umagd.1439051",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Induction Heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
- "10.3390/app14114959": {
-  "abstract": "The extensive release of carbon dioxide (CO2) into the atmosphere is associated with the detrimental impacts of the global environmental crisis. Consequently, the valorization of CO2 from industrial processes holds great significance. Transforming CO2 into high added-value products (e.g., CH4, C1-C3 deoxygenated products) has attracted considerable attention. This is feasible through the reverse water–gas shift (RWGS) and Fischer–Tropsch synthesis (FTS) reactions; CO is initially formed and then hydrogenated, resulting in the production of hydrocarbons. Iron-based materials have a remarkable ability to catalyze both RWGS and FTS reactions, enhancing the olefinic nature of the resulting products. Within this context, iron-based nanoparticles, unsupported and supported on zeolite, were synthesized and physico-chemically evaluated, applying multiple techniques (e.g., BET, XRD, FT-IR, Raman, SEM/TEM, DLS, NH3-TPD, CO2-TPD). Preliminary experiments show the potential for the production of C2+ deoxygenated products. Among the tested samples, supported Fe3O4 and Na-Fe3O4 (A) nanoparticles on HZSM-5 are the most promising for promoting CO2 valorization into products with more than two carbon atoms. Results demonstrate that product distribution is highly affected by the presence of acid sites, as low-medium acid sites and medium acidity values enable the formation of C2+ hydrocarbons.",
-  "authors": [
-   "Alexandra Bakratsa",
-   "Vasiliki Zacharopoulou",
-   "George Karagiannakis",
-   "Vasileios Zaspalis",
-   "Georgia Kastrinaki"
-  ],
-  "cross": false,
-  "date": "2024-06-06",
-  "doi": "10.3390/app14114959",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/app14114959",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Applied Sciences",
-  "tier": "transferable",
-  "title": "Synthesis and Characterization of Iron-Based Catalysts for Carbon Dioxide Valorization",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/app14114959",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "逆水煤气变换；涉及Fe/铁体系"
- },
  "10.3390/buildings14071931": {
   "abstract": "This study examines the integration of epistemological principles into road infrastructure risk management, emphasizing the need for adaptive strategies in the face of inherent climate uncertainties, particularly flash floods. A systematic review of peer-reviewed articles, industry reports, and case studies from the past two decades was conducted, focusing on the application of epistemological approaches within the infrastructure sector. The research employs a mixed methods approach. Quantitatively, the risk of pavement failure is measured by analyzing the relationship between pavement serviceability rates and Intensity–Duration–Frequency (IDF) data in areas frequently affected by flash floods. For example, rainfall intensities during flood events on the BR-324 highway in Brazil were significantly higher than monthly averages, with maximum values reaching 235.73 mm for a 5 min duration over a 50-year return period. These intensities showed an increase of approximately 15% over 5 to 10 years and 8% over 50 to 75 years. Qualitatively, traditional risk management methods are combined with epistemological concepts. This integrated approach fosters reflective practice, encourages the use of both quantitative and qualitative data, promotes a dynamic management environment, and supports sustainable development goals by aligning risk management with environmental and social sustainability. This study finds that incorporating epistemological insights can lead to more fluid and continuously improving risk management practices in construction, design, and maintenance. It concludes with a call for future research to explore the integration of emerging technologies such as artificial intelligence to further refine these approaches and more effectively manage complexity and uncertainty.",
   "authors": [
@@ -3506,72 +3351,6 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "通用催化方法"
- },
- "10.3390/molecules29122753": {
-  "abstract": "The selective hydrogenation of the biomass platform molecule furfural (FAL) to produce furfuryl alcohol (FA) is of great significance to alleviate the energy crisis. Cu-based catalysts are the most commonly used catalysts, and their catalytic performance can be optimized by changing the preparation method. This paper emphasized the effect of calcination atmosphere on the performance of a Cu/Al2O3 catalyst for the selective hydrogenation of FAL. The precursor of the Cu/Al2O3 catalyst prepared by the ammonia evaporation method was treated with different calcination atmospheres (N2 and air). On the basis of the combined results from the characterizations using in situ XRD, TEM, N2O titration, H2-TPR and XPS, the Cu/Al2O3 catalyst calcined in the N2 atmosphere was more favorable for the dispersion and reduction of Cu species and the reduction process could produce more Cu+ and Cu0 species, which facilitated the selective hydrogenation of FAL to FA. The experimental results showed that the N2 calcination atmosphere improved the FAL conversion and FA selectivity, and the FAL conversion was further increased after reduction. Cu/Al2O3-N2-R exhibited the outstanding performance, with a high yield of 99.9% of FA after 2 h at 120 °C and an H2 pressure of 1 MPa. This work provides a simple, efficient and economic method to improve the C=O hydrogenation performance of Cu-based catalysts.",
-  "authors": [
-   "Yongzhen Gao",
-   "Wenjing Yi",
-   "Jingyi Yang",
-   "Kai Jiang",
-   "Tao Yang",
-   "Zhihan Li",
-   "Meng Zhang",
-   "Zhongyi Liu",
-   "Benlai Wu"
-  ],
-  "cross": false,
-  "date": "2024-06-09",
-  "doi": "10.3390/molecules29122753",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/molecules29122753",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Molecules",
-  "tier": "transferable",
-  "title": "Effect of Calcination Atmosphere on the Performance of Cu/Al2O3 Catalyst for the Selective Hydrogenation of Furfural to Furfuryl Alcohol",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/molecules29122753",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
- },
- "10.3390/molecules29122803": {
-  "abstract": "Ni-based catalysts have been widely used for the CO2 reforming of methane (CRM) process, but deactivation is their main problem. This study created an alternative electronic Ni-NiO-CeO2 interaction on the surface of 5 wt% Ni-5 wt% CeO2/Al2O3-MgO (5Ni5Ce(xh)/MA) catalysts to enhance catalytic potential simultaneously with coke resistance for the CRM process. The Ni-NiO-CeO2 network was developed on Al2O3-MgO through layered double hydroxide synthesis via our ammonia vapor diffusion impregnation method. The physical properties of the fresh catalysts were analyzed employing FESEM, N2 physisorption, and XRD. The chemical properties on the catalyst surface were analyzed employing H2-TPR, XPS, H2-TPD, CO2-TPD, and O2-TPD. The CRM performances of reduced catalysts were evaluated at 600 °C under ambient pressure. Carbon deposits on spent catalysts were determined quantitatively and qualitatively by TPO, FESEM, and XRD. Compared to 5 wt% Ni-5 wt% CeO2/Al2O3-MgO prepared by the traditional impregnation method, the electronic interaction of the Ni-NiO-CeO2 network with the Al2O3-MgO support was constructed along the time of ammonia diffusion treatment. The electronic interaction in the Ni-NiO-CeO2 nanostructure of the treated catalyst develops surface hydroxyl sites with an efficient pathway of OH* and O* transfer that improves catalytic activities and coke oxidation.",
-  "authors": [
-   "Sabaithip Tungkamani",
-   "Saowaluk Intarasiri",
-   "Wassachol Sumarasingha",
-   "Tanakorn Ratana",
-   "Monrudee Phongaksorn"
-  ],
-  "cross": false,
-  "date": "2024-06-12",
-  "doi": "10.3390/molecules29122803",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/molecules29122803",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Molecules",
-  "tier": "transferable",
-  "title": "Enhancement of Ni-NiO-CeO2 Interaction on Ni–CeO2/Al2O3-MgO Catalyst by Ammonia Vapor Diffusion Impregnation for CO2 Reforming of CH4",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/molecules29122803",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
  },
  "10.3390/nano14121008": {
   "abstract": "This study focuses on the influence of electrospray deposition parameters on the morphology, topography, optical and sensing properties of ZnO films deposited on gold electrodes of quartz crystal resonators. The substrate temperature, precursor feed rate and emitter’s voltage were varied. Zinc acetate dehydrate dissolved in a mixture of deionized water, ethanol and acetic acid was used as a precursor. The surface morphology and average roughness of the films were studied by scanning electron microscopy (SEM) and 3D optical profilometry, respectively, while the optical properties were investigated by diffuse reflectance and photoluminescence measurements. The sensing response toward ammonia was tested and verified by the quartz crystal microbalance (QCM) method. The studies demonstrated that electrospray deposition parameters strongly influence the surface morphology, roughness and gas sensing properties of the films. The deposition parameters were optimized in order for the highest sensitivity toward ammonia to be achieved. The successful implementation of the electrospray method as a simple, versatile and low-cost method for deposition of ammonia-sensitive and selective ZnO films used as a sensing medium in QCM sensors was demonstrated and discussed.",

@@ -217,45 +217,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
- "10.1002/anie.202525745": {
-  "abstract": "ABSTRACT Hydrogen activation is a key elementary step in catalytic hydrogenation. In heterogeneous catalysis, it usually proceeds through dissociative adsorption on metal nanoparticles followed by surface diffusion or spillover, whereas homogeneous catalysts activate H 2 through dihydride or dihydrogen intermediates at a single metal center. Here, we show that isolated Rh adatoms supported on Fe 3 O 4 (001) activate hydrogen through formation of a stable dihydride species without atomic H spillover. Temperature‐programmed desorption, x‐ray photoelectron spectroscopy, and scanning tunneling microscopy collectively reveal strong (≈1 eV) hydrogen adsorption exclusively at isolated Rh 1 sites, while isotope‐exchange experiments further demonstrate that hydrogen remains localized. Density‐functional theory‐based calculations indicate a barrierless conversion from molecular H 2 to the dihydride, and random‐phase approximation calculations further confirm the relative stability of the dihydride. Together, these results show that single‐atom Rh sites cleave hydrogen through a dihydride pathway analogous to homogeneous complexes, establishing a mechanistic bridge between homogeneous and heterogeneous catalysis.",
-  "authors": [
-   "Chunlei Wang",
-   "Panukorn Sombut",
-   "Lena Puntscher",
-   "Nail Barama",
-   "Maosheng Hao",
-   "Florian Kraushofer",
-   "Jiri Pavelec",
-   "Matthias Meier",
-   "Florian Libisch",
-   "Michael Schmid",
-   "Ulrike Diebold",
-   "Cesare Franchini",
-   "Gareth S. Parkinson"
-  ],
-  "cross": false,
-  "date": "2026-02-18",
-  "doi": "10.1002/anie.202525745",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/anie.202525745",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 19,
-  "source": "Angewandte Chemie International Edition",
-  "tier": "transferable",
-  "title": "Hydrogen Activation via Dihydride Formation on a Rh 1 /Fe 3 O 4 (001) Single‐Atom Catalyst",
-  "top": true,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1002/anie.202525745",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应；涉及Fe/铁体系"
- },
  "10.1002/aoc.70547": {
   "abstract": "ABSTRACT The rational design of highly active non‐precious metal catalysts remains a significant challenge in the field of heterogeneous catalysis. In this study, we developed a novel alkaline engineering two‐dimensional titanium carbide nitride (Ti 3 CN) support via aromatic base phenylenediamine (PDA) modification and subsequently immobilized ultrafine Co 0.9 Ni 0.1 nanoparticles (NPs) using a wet chemical reduction method. By virtue of alkaline coordinating configuration, PDA‐Ti 3 CN‐supported Co 0.9 Ni 0.1 nanocatalytic systems not only exhibited a high specific surface area and excellent metal dispersion, but also possessed an unique electron‐rich microenvironment due to abundant amine groups as Lewis base sites. Such a novel coordinating configuration significantly enhanced the adsorption and polarization of water molecules and optimized the adsorption–desorption processes of H 2 O and ammonia borane (AB). The optimized Co 0.9 Ni 0.1 /PDA‐Ti 3 CN catalyst demonstrated exceptional catalytic performance for AB hydrolysis, achieving a remarkable turnover frequency (TOF) of 2298 h −1 with 100% hydrogen selectivity. This study presents a versatile strategy for the rational design and development of efficient catalysts for hydrogen production.",
   "authors": [
@@ -1068,78 +1029,6 @@
   ],
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及碳材料"
- },
- "10.1016/j.carbon.2025.121049": {
-  "abstract": "",
-  "authors": [
-   "Cong Wang",
-   "Liangmiao Hua",
-   "Jingwei Li",
-   "Haolin Bai",
-   "Jianjun Li",
-   "Aziz Bakhtiyarovich Ibragimov",
-   "Umedjon Khalilov",
-   "Yakubov Yuldosh Yusupboyevich",
-   "Haibao Lu"
-  ],
-  "cross": false,
-  "date": "2026-02",
-  "doi": "10.1016/j.carbon.2025.121049",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.carbon.2025.121049",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Carbon",
-  "tier": "transferable",
-  "title": "Electromagnetic wave absorption and Joule heating of carbon fiber/carbon nanotube composites via solid carbon source-chemical vapor deposition method",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.carbon.2025.121049",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
- "10.1016/j.carbon.2025.121174": {
-  "abstract": "",
-  "authors": [
-   "Congli Zhou",
-   "Fangzhu Qing",
-   "Xiao Sun",
-   "Rongxuan Wu",
-   "Haodong Wang",
-   "Qiye Wen",
-   "Xuesong Li"
-  ],
-  "cross": false,
-  "date": "2026-02",
-  "doi": "10.1016/j.carbon.2025.121174",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.carbon.2025.121174",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Carbon",
-  "tier": "transferable",
-  "title": "Corrigendum to ‘Preparation of graphene-coated Cu particles with oxidation resistance by flash joule heating’ [Carbon 224 (2024) 119060/CARBON-D-24-00156]",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.carbon.2025.121174",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "joule heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "其他催化反应；涉及碳材料"
  },
  "10.1016/j.cej.2026.172859": {
   "abstract": "",
@@ -2175,71 +2064,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
- "10.1016/j.mcat.2026.115709": {
-  "abstract": "",
-  "authors": [
-   "Li Xing",
-   "Yuhong Wang",
-   "Ke Lin",
-   "Wei Liu",
-   "Rui Cao",
-   "Lei Song"
-  ],
-  "cross": false,
-  "date": "2026-02",
-  "doi": "10.1016/j.mcat.2026.115709",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.mcat.2026.115709",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 9,
-  "source": "Molecular Catalysis",
-  "tier": "background",
-  "title": "Corrigendum to “CuOx/CoOx tandem catalyst for effectively reducing nitrate to ammonia” [Molecular Catalysis 579 (2025) 115056]",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1016/j.mcat.2026.115709",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "nitrate to ammonia"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "通用催化方法"
- },
- "10.1016/j.mseb.2025.118932": {
-  "abstract": "",
-  "authors": [
-   "Utku Dereli",
-   "Ağah Yıldız",
-   "Murat Kılıç"
-  ],
-  "cross": false,
-  "date": "2026-02",
-  "doi": "10.1016/j.mseb.2025.118932",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.mseb.2025.118932",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Materials Science and Engineering: B",
-  "tier": "transferable",
-  "title": "Unlocking the potential of flash heating method for superior CO2 uptake performance: A novel way for high sorption capacity activated carbon production",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.mseb.2025.118932",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "flash heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1016/j.reactfunctpolym.2025.106562": {
   "abstract": "",
   "authors": [
@@ -3219,36 +3043,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系"
  },
- "10.1103/4hch-nm2m": {
-  "abstract": "Initial states of dense matter with nonzero electron chiral imbalance could potentially give rise to strong magnetic fields through chiral plasma instability. Previous work indicated that unless chiral chemical potential is as large as the electron vector chemical potential, the growth of magnetic fields due to the instability is washed out by chirality flipping rate enabled by electron mass. We reexamine this claim in a broader range of parameters and find that at higher temperatures the hierarchy is reversed supporting a growing magnetic field for an initial electron chiral chemical potential much smaller than the electron vector chemical potential. Further, we identify a qualitatively new effect relevant for magnetized hot and dense medium where chiral magnetic effect (CME) sourced by density fluctuation acts as a powerful source of Joule heating. Remarkably, even modest chiral chemical potentials (keV) in such environment can deposit energy densities set by the QCD scale in a relatively short time of the order of a few milliseconds or seconds. We speculate how this mechanism makes CME-driven Joule heating a potentially critical ingredient in the dynamics of turbulent density fluctuation of supernovae and neutron star mergers.",
-  "authors": [
-   "Srimoyee Sen",
-   "Varun Vaidya"
-  ],
-  "cross": false,
-  "date": "2026-02-09",
-  "doi": "10.1103/4hch-nm2m",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1103/4hch-nm2m",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Physical Review D",
-  "tier": "transferable",
-  "title": "Chiral effects and Joule heating in hot and dense matter",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1103/4hch-nm2m",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1116/6.0005092": {
   "abstract": "Uniform nickel nanoparticles (Ni NPs) on carbon black were synthesized by fluidized-bed reactor atomic layer deposition (FBR-ALD). ALD behavior was first established on SiO2 using Ni(dmamb)2 and NH3, yielding pure Ni films with a saturated growth rate as precursor and reactant pulse times increased and exhibiting linear thickness depending on ALD cycle. Based on this, a Ni catalyst was synthesized and its NP size was controlled by varying ALD cycles from 5 to 30. Thermogravimetric analysis demonstrated that Ni loading on carbon increased linearly with the ALD cycle. Transmission electron microscopy showed uniformly dispersed Ni NPs with size ranging from 2.08 to 3.95 nm, and a decrease in areal density from about 2000 to about 1400 counts/μm2 as cycles increased, without severe agglomeration. X-ray photoelectron spectroscopy indicated a size-dependent balance between metallic Ni and surface oxide. Small NPs were readily oxidized, and larger NPs displayed a stronger metallic binding state due to the lower surface-to-volume ratio. In 1 M KOH, hydrogen evolution reaction tests were conducted, indicating that the 20 cycle Ni/C catalyst showed the best performance, with an overpotential of 51 mV at 10 mA/cm2 and a Tafel slope of 114 mV/dec. This ALD route enables uniform Ni NPs with tunable size on carbon black supports, demonstrates the scalability of FBR-ALD, and provides a versatile platform for Ni-based alloy catalysts and atom-level control toward efficient hydrogen catalysis.",
   "authors": [
@@ -3728,40 +3522,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
- },
- "10.3390/ma19040710": {
-  "abstract": "With the rapid development of infrared detection methods and military surveillance technologies, flexible and wearable infrared stealth materials (ISM) have attracted increasing attention. Inspired by the layered structure of penguins’ fat–feather–oil, this study prepared a three-layer MXene/waterborne polyurethane (WPU)-foam rubber-phase change microcapsule (PCM)/WPU composite material (M-F-P) via the solution blending and doctor-blading method. The outermost layer of the M-F-P composite is an MXene/WPU conductive film, which features a low infrared emissivity and Joule heating performance to adapt to suddenly cold environments. The porous foam rubber in the middle layer provides excellent thermal insulation performance, which effectively inhibits heat conduction and enhances infrared stealth efficiency. Meanwhile, as a four-directional elastic material, it exhibits deformation recovery capability in both the warp and weft directions as well as the 45° direction. The bottom layer of the PCM/WPU film has a phase change enthalpy of 154.3 J/g and possesses efficient thermal management capability. It achieves dynamic thermal regulation through the cycle of heat absorption at high temperatures and heat release at low temperatures.",
-  "authors": [
-   "Haishuo Li",
-   "Xiaojie Chen",
-   "Yushu Wang",
-   "Yaozong Li",
-   "Junjie Jiang",
-   "Wentao Zhai"
-  ],
-  "cross": false,
-  "date": "2026-02-12",
-  "doi": "10.3390/ma19040710",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/ma19040710",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Materials",
-  "tier": "transferable",
-  "title": "Foam Rubber-Based Three-Layer Flexible Composite for High-Efficiency Infrared Stealth and Joule Heating",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/ma19040710",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
  },
  "10.3390/toxics14030200": {
   "abstract": "Ammonia nitrogen stands as a pivotal water quality indicator within the frameworks of aquatic ecological quality assessment and aquatic ecological governance systems. This study focuses on the adsorption method, selecting four inorganic adsorbents—clinoptilolite, volcanic rock, bentonite, and fly ash—as research subjects, and introduces rare earth modifiers for rare earth-loading modification. Various modifications were applied to the adsorbents to enhance their ammonia nitrogen adsorption efficacy. Combined with material characterization, the microscopic features and adsorption behaviors of the adsorbents were elucidated, aiming to provide a theoretical foundation for addressing practical engineering challenges and to screen out the optimal inorganic adsorbent and the most effective modification protocol. Based on the experimental findings, cerium chloride modification can significantly enhance the ammonia nitrogen adsorption performance of clinoptilolite. Under the optimal preparation conditions (cerium chloride concentration: 1.0%, solid–liquid ratio: 1:40, pH = 9), the ammonia nitrogen removal efficiency reaches 85.45%. This modification process leads to the formation of new substances: a large amount of cerium oxide and cerium hydroxide are loaded onto the surface of clinoptilolite, which contributes to the increases in specific surface area (21.92 m2/g), average pore diameter (12.27 nm), and total pore volume (0.07 cm3/g). Furthermore, during the modification, cerium hydroxide undergoes hydroxylation, rendering the clinoptilolite surface negatively charged—this facilitates the adsorption of ammonia nitrogen via electrostatic interaction. Notably, the characteristic structural peaks of clinoptilolite remain unchanged before and after modification, indicating that the modification primarily acts on the material surface. This not only improves the ammonia nitrogen adsorption efficiency but also preserves the structural stability of clinoptilolite.",

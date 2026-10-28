@@ -1,39 +1,4 @@
 {
- "10.1002/adem.71080": {
-  "abstract": "Addressing electromagnetic wave pollution requires lightweight absorbers with strong absorption, broad bandwidth, and small thickness. This work introduces a structural regulation strategy combining seed‐assisted in situ growth with rapid Joule heating (RJH) to fabricate C/Co composite nanofibers from ZIF‐67. The “cobalt seeds” enable high‐density, uniform ZIF‐67 loading, preventing nanoparticle agglomeration; the 5 s RJH process induces nonequilibrium carbonization, preserving abundant carbon defects and inhibiting cobalt particle coarsening. The optimized Co‐CNF‐2 exhibits high specific surface area, high defect density, and numerous C/Co heterointerfaces, leading to enhanced interface polarization, dipole polarization, and magnetic loss while maintaining moderate conduction loss. Remarkably, Co‐CNF‐2 achieves a minimum reflection loss of –60.11 dB at 2.47 mm and a maximum effective absorption bandwidth of 6.80 GHz at 2.46 mm, covering the entire Ku band. Mechanistic studies reveal that metallic Co is the primary contributor to magnetic loss, whereas surface‐trace CoO and carbon defects facilitate polarization relaxation and optimize impedance matching. This work provides new insights for the rapid construction of multi‐mechanism metal–organic frameworks (MOFs) derived one‐dimensional absorbers.",
-  "authors": [
-   "Cai Cheng",
-   "H G Wang",
-   "Ziyi Ou",
-   "Qiqi Deng",
-   "Yisong Pan",
-   "Weicheng Ou"
-  ],
-  "cross": false,
-  "date": "2026-07-27",
-  "doi": "10.1002/adem.71080",
-  "first_seen": "2026-09-28T19:19:30Z",
-  "id": "10.1002/adem.71080",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 18,
-  "source": "Advanced Engineering Materials",
-  "tier": "transferable",
-  "title": "Seed‐Assisted In Situ Growth Coupled With Rapid Joule Heating for Defect Engineering of ZIF‐67‐Derived Carbon Nanofibers Toward Broadband Microwave Absorption",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1002/adem.71080",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
- },
  "10.1002/adfm.77000": {
   "abstract": "ABSTRACT Stripe patterns provide profound insights into physicochemical properties governed by the structural characteristics of their constituent building blocks. However, simultaneously controlling the geometric shape, crystallographic features, and spatial arrangement of these building blocks remains challenging. Herein, we report the successful synthesis of stripe‐patterned concave single crystals (SP‐CSC) via a facile drying‐mediated process. The SP‐CSC structure consists of concave nanocrystal building blocks that are uniformly oriented and arranged into stripe‐patterned arrays on nanosheets, integrating concave geometry, uniform orientational alignment, and stripe‐patterned arrangement. The drying temperature is critical for coordinating supersaturation‐driven nucleation, oriented growth, and contact‐line stick‐slip motion on nanosheets, ultimately leading to the formation of SP‐CSC. This strategy demonstrates the potential to enhance electrocatalytic ammonia synthesis performance by regulating the structural features of building blocks in stripe‐based systems. It also provides inspiration for designing precise patterns that integrate multiple structural features to explore coupled functionalities.",
   "authors": [
@@ -1030,33 +995,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
- },
- "10.1002/cnl2.70197": {
-  "abstract": "",
-  "authors": [],
-  "cross": false,
-  "date": "2026-07-22",
-  "doi": "10.1002/cnl2.70197",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/cnl2.70197",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 28,
-  "source": "Carbon Neutralization",
-  "tier": "direct",
-  "title": "Correction to “Deciphering Catalytic Reaction Mechanisms for Low‐Temperature Ammonia Synthesis: Mechanism‐Guided Rational Design of Active Sites”",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1002/cnl2.70197",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Ammonia Synthesis"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
  },
  "10.1002/cphc.70480": {
   "abstract": "The development of heterogeneous catalysts for industrial reactions, such as ammonia synthesis and decomposition, is approaching the limits set by conventional design strategies that primarily aim to improve metal dispersion. In kinetically constrained reactions, however, catalytic performance is more strongly influenced by the structure and electronic properties at the interface between the metal and the support, or the metal and the promoter; thus, simply increasing metal dispersion does not necessarily lead to improved catalytic activity. This has spurred growing interest in inverse catalyst architectures, in which the traditional metal-on-support configuration is structurally inverted, and the metallic surface is loaded with promoters. Such architectures enable control of active-site structure, allowing high densities of efficient active sites even at lower specific surface areas. Importantly, inverse systems are especially attractive for catalysts based on earth-abundant metals, as they maximize metal utilization while requiring only a small amount of promoter species. In this perspective, we highlight and discuss the structural and electronic aspects of inverse catalyst design and outline interface engineering as a direction for next-generation catalysts.",
@@ -2282,43 +2220,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "通用催化方法；涉及Fe/铁体系、原子层沉积"
  },
- "10.1016/j.carbon.2026.121799": {
-  "abstract": "",
-  "authors": [
-   "Peng Zhang",
-   "Zeyu Liang",
-   "Xiang Lv",
-   "Mukun Xue",
-   "Huirong Zhang",
-   "Jinglei Cui",
-   "Haibin Wu",
-   "Baofeng Wang",
-   "Yanxia Guo"
-  ],
-  "cross": false,
-  "date": "2026-07",
-  "doi": "10.1016/j.carbon.2026.121799",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.carbon.2026.121799",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Carbon",
-  "tier": "transferable",
-  "title": "Ultrafast Joule heating-driven non-equilibrium K2FeO4 activation of corncob hydrochar: Synergistic regulation of porous and graphitic structures in carbon electrodes for supercapacitors",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.carbon.2026.121799",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
- },
  "10.1016/j.cclet.2025.111820": {
   "abstract": "",
   "authors": [
@@ -2720,43 +2621,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实"
  },
- "10.1016/j.cej.2026.179845": {
-  "abstract": "",
-  "authors": [
-   "Bingfu Chen",
-   "MuFei Li",
-   "T H Chen",
-   "Hanyang Sun",
-   "Binbin Yu",
-   "Yijing Xia",
-   "Qunxing Huang",
-   "Chen Sun"
-  ],
-  "cross": false,
-  "date": "2026-07-24",
-  "doi": "10.1016/j.cej.2026.179845",
-  "first_seen": "2026-09-28T19:19:30Z",
-  "id": "10.1016/j.cej.2026.179845",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 18,
-  "source": "Chemical Engineering Journal",
-  "tier": "transferable",
-  "title": "Selective precious metal recovery and in-situ upcycling of E-waste into advanced electromagnetic wave absorber via halogen-assisted indirect Joule heating",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.cej.2026.179845",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "过程待核实"
- },
  "10.1016/j.cej.2026.179862": {
   "abstract": "",
   "authors": [
@@ -3096,6 +2960,9 @@
   "id": "10.1016/j.checat.2026.101721",
   "kind": "journal",
   "origin": "回填",
+  "reported_by": [
+   "研之成理"
+  ],
   "score": 9,
   "source": "Chem Catalysis",
   "tier": "background",
@@ -3357,36 +3224,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控"
- },
- "10.1016/j.compositesb.2026.113689": {
-  "abstract": "",
-  "authors": [
-   "A. Sänger",
-   "E. Huber"
-  ],
-  "cross": false,
-  "date": "2026-07",
-  "doi": "10.1016/j.compositesb.2026.113689",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.compositesb.2026.113689",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Composites Part B: Engineering",
-  "tier": "transferable",
-  "title": "Correlation between electrical conductivity and Joule heating behaviour of unidirectional carbon fibre plies for direct current-assisted preform binder activation",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.compositesb.2026.113689",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
  },
  "10.1016/j.ecmx.2026.102150": {
   "abstract": "The electric-hydrogen-ammonia coupled system (EHAS) is a promising solution for mitigating multi-time-scale supply–demand imbalance under high renewable energy penetration. Existing optimal sizing methods rely on simplified models, limiting their ability to capture refined device characteristics. To bridge this gap, a two-layer optimal sizing method considering refined operating characteristics of devices and multi-scale power mapping is proposed. First, refined device models are established, which take into account the lifetime degradation cost of various devices and the multi-steady-state load operating characteristics of Haber-Bosch ammonia synthesis process (HB), providing an accurate basis for operation simulation. Second, a multi-stage operation simulation method based on multi-scale net power decomposition and mapping is proposed to capture multi-time-scale energy fluctuations and improve energy storage utilization and computational efficiency. Then, a two-layer optimal sizing framework is developed to minimize total system cost, integrating lifetime degradation and supply–demand balance, and solved via the elite-differential accelerated pattern search (EDAPS) algorithm. By enabling coordinated operation across multiple energy storage technologies, the framework effectively reduces lifetime degradation and overall system cost. Results show that it achieves notable error reductions of 12.3% and 8.0% against conventional time-scale feature extraction and typical week clustering methods, respectively. Compared to the baseline case disregarding device degradation, it reduces the total cost by 1.99%. Overall, the proposed method improves the computational efficiency while considering device operating characteristics and system economics, providing reliable methodological support for EHAS optimal sizing.",
@@ -4371,41 +4208,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
- },
- "10.1016/j.jmrt.2026.07.265": {
-  "abstract": "",
-  "authors": [
-   "Wenkai Xu",
-   "Hushan Li",
-   "Chaogang Ding",
-   "Chengxi Zhu",
-   "Jie Xu",
-   "Bin Guo",
-   "Debin Shan"
-  ],
-  "cross": false,
-  "date": "2026-07",
-  "doi": "10.1016/j.jmrt.2026.07.265",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.jmrt.2026.07.265",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Journal of Materials Research and Technology",
-  "tier": "transferable",
-  "title": "Joule-heating-dominated mechanical softening and dynamic recovery of 6061-T651 aluminum alloy under electric current",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.jmrt.2026.07.265",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule-heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
  },
  "10.1016/j.joule.2026.102548": {
   "abstract": "You et al. report a data-driven strategy that enables inexpensive lithium nitrate to serve as the main salt in a dilute lithium-ion battery electrolyte. The designed low-concentration electrolyte reduces cost while stabilizing battery interfaces, enabling all-climate operation in pouch cells.",
@@ -5732,39 +5534,6 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮"
  },
- "10.1021/acsami.6c06626": {
-  "abstract": "Designing sustainable catalysts requires maximizing atom efficiency while minimizing the use of critical raw materials. Driven by this challenge, the CuOx-CeO2 active phase was constructed on morphology-controlled SrTiO3 nanocubes using a low lanthanide loading (2, 4, and 8 Ce wt %). The catalysts were tested on the CO preferential oxidation in H2-rich streams (CO-PROX) and compared to a CuO/CeO2 reference. Advanced STEM characterization in combination with H2-TPR analyses revealed that Cu-based species increase their dispersion with increasing ceria loadings, thereby enhancing CuOx-CeO2 interfacial sites. This higher density of interfacial sites is associated with a larger population of Cu+ active centers involved in CO oxidation, thereby enhancing catalytic performance. The optimized catalyst containing only 8 wt % Ce closely matches the conversion of CuO/CeO2 up to 200 °C. However above this temperature the behavior diverges, accompanied by a significant decrease in activity. Further insight about the CuOx-CeO2 interface and the formation of Cu+ active sites promoted by increasing ceria loadings was obtained from XPS and DRIFTS measurements. These techniques suggest that the electronic state of ceria remains unaffected by the SrTiO3 support, while subtle changes in selectivity may also be influenced, in addition to ceria loading, by the crystallographic nature of the lanthanide nanostructure. Furthermore, in situ and identical-location STEM experiments reveal that copper species dynamically redisperse under reducing conditions without compromising catalytic performance. This work demonstrates that catalytic performance can be tuned through the rational design of nanointerfaces, providing a route toward atom-efficient catalysts with reduced critical raw material incorporation.",
-  "authors": [
-   "Carmen Mora-Moreno",
-   "Ramón Manzorro",
-   "José Antonio Pérez‐Omil",
-   "Arturo Martínez-Arias",
-   "José J. Calvino",
-   "Ana Belén Hungría"
-  ],
-  "cross": false,
-  "date": "2026-07-22",
-  "doi": "10.1021/acsami.6c06626",
-  "first_seen": "2026-09-28T19:19:30Z",
-  "id": "10.1021/acsami.6c06626",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 15,
-  "source": "ACS Applied Materials & Interfaces",
-  "tier": "transferable",
-  "title": "Toward Efficient Cerium Utilization in Sustainable CO-PROX Catalysts: Interfacial Engineering of Cu−Ce on SrTiO3",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acsami.6c06626",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
- },
  "10.1021/acsami.6c07254": {
   "abstract": "The development of efficient electrocatalysts for the ambient nitrogen reduction reaction (NRR) remains challenging due to sluggish N2 activation and the competing hydrogen evolution reaction (HER). Here, we report a defect-engineered FeMoO4/CeS2 diphase grown directly on nickel foam (NF) for efficient electrochemical ammonia synthesis under ambient conditions. Systematic tuning of the Fe/Mo/Ce molar ratio establishes a clear composition-activity relationship, with the optimized FeMoCe (2:4:1) (2-FeMoCe) catalyst delivering an NH3 yield rate of 5124 μg cm-2 h-1 (1139 μg mgcat-1 h-1) and a Faradaic efficiency (FE) of 46% at -0.70 V vs RHE in neutral 0.5 M Na2SO4. In a membrane-separated single stack-cell configuration, the catalyst maintains strong performance, achieving 2451 μg cm-2 h-1 (613 μg mgcat-1 h-1) with an FE of 35.01%, highlighting its practical relevance. Comprehensive structural and electronic analyses reveal a defect-rich oxide-sulfide diphase featuring abundant oxygen vacancies (VO2+), mixed-valence Fe2+/Fe3+ and Ce3+/Ce4+ species, and enhanced interfacial electronic coupling. Spectroscopic and electrochemical results confirm defect enrichment upon Fe incorporation, accompanied by increased electrochemically active surface area and lower charge-transfer resistance (Rct). In situ vibrational analysis identifies surface-bound -NHx intermediates, consistent with the sequential hydrogenation of adsorbed nitrogen species toward NH3 formation. The superior NRR performance is attributed to synergistic interfacial active sites that promote defect-mediated N2 activation, facilitate charge redistribution, and suppress HER. This work demonstrates that rational defects and diphase engineering are an effective strategy for advancing sustainable ammonia electrosynthesis.",
   "authors": [
@@ -6467,37 +6236,6 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化硝酸盐转化"
  },
- "10.1021/acsestengg.6c00534": {
-  "abstract": "Abstract The development of sustainable catalysts from secondary waste resources provides an attractive strategy for addressing both electronic-waste management and biomass valorization challenges. In this work, a multifunctional heterogeneous catalyst (ML@ATP1/CP2-60) was constructed by integrating copper recovered from a discarded motherboard, toner powder-derived iron oxide, and phosphorus-doped carbon derived from chitosan as a heteroatom-engineered support. Comprehensive structural and surface characterization using XRD, Raman spectroscopy, XPS, HR-TEM, EPR, and temperature-programmed desorption analyses confirmed the formation of mixed-valence Cu species anchored on a defect-rich spinel iron oxide framework with interfacial acidic sites associated with iron oxide and P–O functionalities. The catalyst exhibited excellent activity and selectivity for the hydrogenolysis of benzyl phenyl ether, achieving complete conversion with exclusive formation of phenol and toluene via selective cleavage of the benzylic C(sp3)–O bond without aromatic ring hydrogenation. Mechanistic investigations, including selective poisoning experiments, revealed a cooperative dual-site pathway involving Cu-mediated hydrogen activation and adjacent acidic centers responsible for ether bond polarization. Importantly, the catalyst demonstrated effective performance in the reductive catalytic fractionation of wheat straw, affording aromatic monomers with molecular-weight distributions comparable to those obtained using conventional 5 wt % Ru/C while suppressing deep aromatic hydrogenation. CHEM21 green metrics analysis confirms the near-ideal intrinsic reaction efficiency of the protocol (AE ≈ 100%, RME = 97.6%), with solvent usage identified as the primary contributor to process-level mass intensity. These results highlight a strategy for transforming multiple waste streams into efficient catalytic platforms for selective lignin valorization.",
-  "authors": [
-   "Arzoo Chauhan",
-   "Sonu Bhandari",
-   "Rajat Ghalta",
-   "Rajaram Bal",
-   "Rajendra Srivastava"
-  ],
-  "cross": false,
-  "date": "2026-07-21",
-  "doi": "10.1021/acsestengg.6c00534",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1021/acsestengg.6c00534",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "ACS ES&T Engineering",
-  "tier": "transferable",
-  "title": "Electronic Waste-to-Catalyst Upcycling: Selective Lignin C–O Bond Hydrogenolysis and RCF over a Cu–Iron Oxide/P-Doped Carbon Catalyst",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acsestengg.6c00534",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应；涉及Ru/钌体系、Fe/铁体系、碳材料"
- },
  "10.1021/acsmaterialslett.6c00317": {
   "abstract": "Abstract Metal-organic coordination materials have emerged as promising candidates for electrocatalytic nitrate reduction reaction (NITRR), but the molecular-level engineering required for constructing high-efficiency electrocatalysts remains challenging. This study addresses this gap by developing a class of metal-organic coordination nanotubes (MONTs) as atomically precise single-site electrocatalysts, including Fe-MONTs, Co-MONTs, and Ni-MONTs. Benefited from the unique coordination structure, the Co-MONT electrode exhibited superior electrocatalytic performances for the NITRR, achieving an ammonia production Faradaic efficiency of 89.9% at −0.7 V (vs reversible hydrogen electrode) and an ammonia yield rate of 231.3 mmol h−1 g−1cat. in pure nitrate solution. Through combining in situ characterizations and theoretical simulations, the electrocatalysis mechanisms and active site configurations were elucidated. This work establishes MONTs as an intriguing platform for electrochemical wastewater purification and sustainable ammonia synthesis, providing promising design principles for advanced electrocatalysts.",
   "authors": [
@@ -6661,43 +6399,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
- },
- "10.1021/acsomega.6c02254": {
-  "abstract": "Abstract Diesel particulate filters (DPFs) require catalysts with both high activity and durability to achieve efficient low-temperature soot oxidation under practical exhaust conditions. In this work, a hierarchically structured LaMnO3–Pt monolithic catalyst was constructed by growing aluminum borate whiskers on a cordierite substrate via a vapor-phase method to form a biomimetic tufted layer, followed by coating with LaMnO3 perovskite and subsequent Pt loading. The whisker-induced structure significantly improves catalyst dispersion and soot–catalyst contact efficiency, while the synergistic interaction between LaMnO3 and Pt effectively regulates surface oxygen species and their migration behavior. Temperature-programmed oxidation (TPO) tests demonstrate that the optimized C-LaMnO3–Pt0.9 wt % monolithic catalyst exhibits outstanding soot oxidation performance, with half-conversion temperature (T50) reduced to 453 °C (under loose contact) and 403 °C (under tight contact), respectively, which are significantly lower than those of bare cordierite (T50 = 610 °C). In addition, the catalyst maintains a CO2 selectivity exceeding 99% during soot oxidation and shows no obvious activity degradation during repeated TPO cycles, indicating excellent thermal and structural stability. This hierarchical structural design provides a viable strategy for developing efficient and durable monolithic catalysts for soot oxidation in DPF applications.",
-  "authors": [
-   "Zhibo Li",
-   "Hanming Wu",
-   "Fengbin Wang",
-   "Zhenguo Li",
-   "Xintao Yuan",
-   "Lingwei Meng",
-   "XiaoNing Ren",
-   "Chunqing Lei",
-   "Wei Wang",
-   "Yuankai Shao"
-  ],
-  "cross": false,
-  "date": "2026-07-14",
-  "doi": "10.1021/acsomega.6c02254",
-  "first_seen": "2026-09-28T19:19:30Z",
-  "id": "10.1021/acsomega.6c02254",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 15,
-  "source": "ACS Omega",
-  "tier": "transferable",
-  "title": "LaMnO3-Pt Whisker-Structured Cordierite Monoliths for Low-Temperature Soot Oxidation",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acsomega.6c02254",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
  },
  "10.1021/acsomega.6c02579": {
   "abstract": "Abstract The Haber–Bosch process (HBP) for the conversion of nitrogen into ammonia is arguably one of the most important chemical reactions in human history because it is the basis for the large-scale production of fertilizers and hence of global food production. Nevertheless, the HBP contributes in a decisive manner to the production of CO2 and other global warming gases, since it is an extremely energy-intensive process. Consequently, the development of alternative conditions to reduce its negative environmental impact is of the highest priority. In this study, we investigate the detailed mechanism of nitrogen fixation by molybdenum-doped tin clusters MoSn3 and MoSn5, building upon previous work that demonstrated the potential of these complexes for activating the nitrogen molecule (Inorg. Chim. Acta 2025, 577, 122493). Using a combination of density functional theory and wave function analyses, we explored the stepwise reduction of N2 into NH3 on the surface of the above-mentioned clusters. Our results reveal the role of molybdenum as an excellent catalytic center for the HBP and the properties of the surrounding tin atoms as scaffolds for hydrogen adsorption. We identified the intermediates and transition states along six different reaction pathways, providing insights into the kinetic aspects of the nitrogen fixation process using MoSn3 and MoSn5 as catalysts. We also demonstrated that (i) the ability of these clusters to form hydrides mimics the biological activity of the nitrogenase enzyme and (ii) how the strong triple bond in dinitrogen, N≡N, is successively weakened in key steps of the reaction pathways. Overall, this work deepens our understanding of nitrogen fixation via heterogeneous catalysis, and it provides valuable insights for the rational design of more efficient and sustainable catalysts for ammonia synthesis.",
@@ -9217,39 +8918,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
- },
- "10.3390/catal16070610": {
-  "abstract": "The selective gas-phase oxidation of γ-picoline (γ-P) to isonicotinic acid (INA)—a key precursor for the anti-tuberculosis drug isoniazid—was investigated over a V–Mn oxide catalyst as a solvent-free, waste-minimizing alternative to conventional liquid-phase synthesis routes. XRD and Raman spectroscopy confirmed the formation of a stable manganese vanadate crystalline phase with a high concentration of terminal vanadyl groups (V=O), providing well-defined redox-active sites. Water vapour proved essential for sustainable process performance: at an optimal H2O/substrate molar ratio of 98, γ-picoline conversion reached 94.8% with INA selectivity of 86.5%, eliminating the need for hazardous solvents or additives. NH3-TPD and kinetic analysis revealed that water vapour acts as a competitive adsorbent at vanadium Lewis acid sites, accelerating target product desorption and suppressing deep oxidation to COx—directly reducing carbon waste. Long-term stability was assessed over 96 h of continuous operation: the 23.4% decline in specific surface area correlated with an equivalent reduction in total acidity, while pore diameter expansion from 2.07 to 3.25 nm mitigated diffusion limitations, partially compensating for deactivation. These findings establish the V–Mn oxide system as a promising green catalytic platform for upgrading petrochemical fractions into high-value pharmaceutical intermediates with reduced environmental impact.",
-  "authors": [
-   "Kairat Kadirbekov",
-   "Nurdaulet Buzayev",
-   "Tileutai Abildin",
-   "Svetlana Yermukhanova",
-   "Mels Oshakbayev",
-   "Kamilla Khakimbolatova",
-   "Gulnara Seitkhal"
-  ],
-  "cross": false,
-  "date": "2026-07-03",
-  "doi": "10.3390/catal16070610",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/catal16070610",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Catalysts",
-  "tier": "transferable",
-  "title": "Selective Gas-Phase γ-Picoline Oxidation over V–Mn Oxide Catalyst: Feed Conditions and System Deactivation Resistance",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/catal16070610",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
  },
  "10.3390/catal16070642": {
   "abstract": "The insufficient durability of electrocatalysts constitutes a critical bottleneck for electrocatalytic nitrate-to-ammonium reduction (NRA), and most existing stabilization strategies are implemented under harsh modification conditions. Herein, a sequential polymerization substitution polymerization strategy is proposed to fabricate a porous NDI-PPy conductive hydrogel catalytic electrode on a self-supported Ag-FeOOH substrate. Initially, an ND hydrogel network is constructed through the copolymerization of N-acryloxysuccinimide (NAS) and N,N-dimethylacrylamide (DMA). Amine-rich aromatic units were subsequently introduced through mild substitution with 4,4′-iminodianiline (IDA) to form the NDI hydrogel, and conductive polypyrrole (PPy) is further grown via Fe3+-triggered in situ polymerization of pyrrole. This non-invasive strategy is designed to preserve the catalytic functionality of the Ag-FeOOH substrate, while the comparative electrochemical results suggest improved cycling durability and enhanced apparent electrode-level performance after hydrogel modification. The optimized NDI-PPy/Ag-FeOOH electrode exhibits excellent initial NRA performance, including 89.34% NO3−-N removal efficiency, 94.27% NH4+-N selectivity, 89.53% Faradaic efficiency, and an NH4+-N yield rate of 2.95 mg h−1 cm−2. Systematic comparative tests are conducted on identical substrates modified with conventional PAM, SA, PVA, and PAA hydrogels, as well as NDI- and PPy-containing hydrogel systems. The comparative results suggest that amine functionalization may contribute to improved electrode stability, while the incorporation of PPy is associated with enhanced ammonium production under the tested conditions. This study provides a novel and non-invasive hydrogel-modified paradigm for the durability optimization of electrocatalytic NRA catalysts.",

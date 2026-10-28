@@ -72,7 +72,7 @@ class Radar:
                 st["err"] = "" if st["fails"] == 0 else f"{st['fails']}/{st['calls']} 次请求失败（其余正常）"
 
     def ingest(self, items: list[dict], *, keep_first_seen=False, min_month: str | None = None,
-               origin: str | None = None, min_year: int | None = None) -> list[dict]:
+               origin: str | None = None, min_year: int | None = None, refresh_dates: bool = False) -> list[dict]:
         seen_titles = {title_key(p["title"]): pid for pid, p in self.papers.items()}
         new = []
         for p in items:
@@ -86,6 +86,8 @@ class Radar:
                     for k in ("old_fav", "old_read", "old_note"):
                         if p.get(k) and not old.get(k):
                             old[k] = p[k]
+                    if refresh_dates and sources.good_date(p.get("date")) and not sources.good_date(old.get("date")):
+                        old["date"] = p["date"]
                 continue
             d = p.get("date") or ""
             if min_month and d and d[:7] < min_month and not (len(d) == 4 and d >= min_month[:4]):
@@ -248,7 +250,10 @@ class Radar:
                     self.record("Crossref（回填）", lambda q=q: sources.crossref(
                         q, None, rows, 2000, pub_from=f"{mo}-01", pub_until=f"{mo}-{last_day:02d}"))
                     sources.polite_pause(1.0)
-            got = self.ingest(self.found, min_month=self.S.get("archive_from", "2024-01"), origin="回填")
+            for p in self.found:  # Crossref matched this month's publication window
+                if not sources.good_date(p.get("date"), self.now.date().isoformat()):
+                    p["date"] = mo
+            got = self.ingest(self.found, min_month=self.S.get("archive_from", "2024-01"), origin="回填", refresh_dates=True)
             added += len(got)
             completed.append(mo)
             if mo not in bf["done"]:

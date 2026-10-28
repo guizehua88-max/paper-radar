@@ -900,42 +900,6 @@
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "甲烷干重整；涉及碳材料"
  },
- "10.1002/cctc.71066": {
-  "abstract": "ABSTRACT Unlike temperature‐programmed desorption (TPD) of ammonia (NH 3 ‐TPD) and Fourier‐transform infrared spectroscopy of adsorbed pyridine (pyridine‐FTIR), where ammonia and pyridine adsorb and desorb without reaction, TPD of isopropylamine (IPAm‐TPD) relies on a Brønsted‐acid‐catalyzed decomposition of isopropylamine to propylene and ammonia to selectively probe Brønsted acidity. Prior studies have reported altered IPAm‐TPD responses for metals‐modified zeolites relative to pristine zeolites, yet hypotheses on the cause have diverged. This work examined the acidity characterization results of pristine and zinc‐modified H‐ZSM‐5 zeolites from IPAm‐TPD against those from NH 3 ‐TPD, and pyridine‐FTIR. For pristine zeolites, the IPAm‐TPD data exhibited the expected Brønsted‐site‐related propylene desorption feature, with propylene amounts proportional to framework aluminum, strongly adsorbed ammonia in NH 3 ‐TPD, and Brønsted‐associated pyridine in pyridine‐FTIR. However, the IPAm‐TPD data of the zinc‐modified zeolites was more complex, with multiple desorption features. The mass spectrometry data and comparison of the quantitative IPAm‐TPD results to those of NH 3 ‐TPD and pyridine‐FTIR suggested contributions from a Brønsted‐site‐related propylene release, an additional, likely Lewis‐site‐related propylene release, and unidentified side products overlapping with typical propylene responses, possibly from dehydrogenation and aromatization reactions. When the Brønsted‐site‐related propylene response was quantified and compared to quantitative pyridine‐FTIR results, the results seemed representative of Brønsted acidity despite the side reactions.",
-  "authors": [
-   "Ellen Järvinen",
-   "Francesco Sandri",
-   "Jorge A. Velasco",
-   "Joakim Kattelus",
-   "Hua Jiang",
-   "Narendra Kumar",
-   "Reetta S. Karinen",
-   "Dmitry Yu. Murzin",
-   "Riikka L. Puurunen"
-  ],
-  "cross": false,
-  "date": "2026-09-01",
-  "doi": "10.1002/cctc.71066",
-  "first_seen": "2026-09-28T19:19:30Z",
-  "id": "10.1002/cctc.71066",
-  "kind": "journal",
-  "old_tier": "exclude",
-  "origin": "旧站本地库",
-  "score": 15,
-  "source": "ChemCatChem",
-  "tier": "transferable",
-  "title": "On the Acidity Characterization of Pristine and Zinc‐Modified H‐ZSM‐5 Zeolites: Comparison of Adsorption‐Based Characterization Methods",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1002/cctc.71066",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
- },
  "10.1002/cey2.70320": {
   "abstract": "ABSTRACT The electrochemical nitrate reduction reaction (NO 3 − RR) offers an attractive route for removing NO 3 − pollution and sustainably producing ammonia (NH 3 ). Rational regulation of *H species supply and key intermediates adsorption is critical for enhancing NO 3 − RR performance. Herein, we design a heterostructured CoNi/MoN catalyst, where MoN nanosheets are decorated with CoNi nanoparticles, to optimize the interfacial water structure and intermediates adsorption. This heterostructured catalyst exhibits a high NH 3 Faradaic efficiency of 96.8% and an attractive NH 3 yield rate of 22.3 mg h −1 cm −2 , outperforming most of the reported electrocatalysts under same NO 3 − concentration. Furthermore, using CoNi/MoN/NF as both the anode and cathode, a two‐electrode system coupling NO 3 − RR with 5‐hydroxymethylfurfural oxidation reaction achieves highly effective co‐production of NH 3 and 2,5‐furandicarboxylic acid. Experimental and theoretical calculation results reveal that the strong metal‐support interaction between CoNi nanoparticles and MoN nanosheets induces electron transfer from CoNi species to MoN nanosheets. The electron‐enriched MoN sites at the CoNi/MoN interface can efficiently capture K + to form K + ‐hydrated water (K + ‐H 2 O), which facilitates H 2 O dissociation to generate *H for accelerating the hydrogenation steps of NO 3 − RR. Meanwhile, the electron‐deficient CoNi nanoparticles with the upshifted d‐band center enhance NO 3 − adsorption and reduce the free energy barrier of NO 3 − RR.",
   "authors": [
@@ -2663,40 +2627,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
- "10.1016/j.cej.2026.181931": {
-  "abstract": "",
-  "authors": [
-   "Abambagade Abera Mitiku",
-   "Meselu Eskezia Ayalew",
-   "Kefyalew Hailemariam Woldeamanuel",
-   "Nafikot Berhanu Bonka",
-   "Dong–Hau Kuo"
-  ],
-  "cross": false,
-  "date": "2026-09-01",
-  "doi": "10.1016/j.cej.2026.181931",
-  "first_seen": "2026-09-28T19:38:42Z",
-  "id": "10.1016/j.cej.2026.181931",
-  "kind": "journal",
-  "old_tier": "background",
-  "origin": "旧站本地库",
-  "score": 9,
-  "source": "Chemical Engineering Journal",
-  "tier": "background",
-  "title": "Corrigendum to “Energy-efficient ammonia synthesis through glycerol oxidation-assisted dinitrogen reduction with a bifunctional Cu3BiS3/CeO2 electrocatalyst: Solid-state Lewis acid-base defect chemistry” [Chem. Eng. J. 179966, Volume 546]",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1016/j.cej.2026.181931",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "ammonia synthesis"
-  ],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
- },
  "10.1016/j.cej.2026.182159": {
   "abstract": "The development of sustainable routes for ammonia production under ambient conditions is a critical challenge, driven by the high energy demand and carbon footprint of the Haber-Bosch process. Photocatalytic N 2 fixation has emerged as a promising alternative; however, conventional TiO 2 -based systems suffer from rapid charge-carrier recombination, resulting in poor efficiency. Herein, we report the design of a noble-metal-free In 2 S 3 /TiO 2 heterostructure photocatalyst for photocatalytic N 2 fixation to NH 4 + under mild conditions. The coupling of TiO 2 nanoparticles with In 2 S 3 aims to promote charge carrier separation and suppress electron-hole recombination, thereby overcoming the intrinsic limitations of bare TiO 2 . Structural, morphological, optical, and electronic characterizations confirmed the successful formation of the heterojunction and the strong interfacial interaction between the two semiconductors. UV–Vis diffuse reflectance spectroscopy revealed an extended light absorption toward the visible region, while photoluminescence and XPS analyses evidenced enhanced charge separation and interfacial charge redistribution. Among the investigated compositions, the In 2 S 3 (10%)/TiO 2 sample exhibited the best photocatalytic performance, achieving an NH 3 production of 214.0 μmol·g cat −1 after 3 h of irradiation, significantly higher than pristine TiO 2 . Experimental and DFT investigations demonstrated the formation of a type-II heterojunction, promoting electron migration from In 2 S 3 to TiO 2 and suppressing electron-hole recombination. The combined experimental and theoretical results highlight the potential of noble-metal-free In 2 S 3 /TiO 2 heterostructures as efficient photocatalysts for sustainable N 2 fixation under ambient conditions.",
   "authors": [
@@ -2778,43 +2708,6 @@
   ],
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮"
- },
- "10.1016/j.cej.2026.182568": {
-  "abstract": "",
-  "authors": [
-   "Özlem Uguz Neli",
-   "Anju Pal",
-   "Elnaz Tahavori",
-   "Danial Mazhar",
-   "Kanglei Pang",
-   "Anirban Sikdar",
-   "Xiang Liu",
-   "Zoltán Bacsik",
-   "Jiayin Yuan"
-  ],
-  "cross": false,
-  "date": "2026-09",
-  "doi": "10.1016/j.cej.2026.182568",
-  "first_seen": "2026-10-28T22:00:02Z",
-  "id": "10.1016/j.cej.2026.182568",
-  "kind": "journal",
-  "origin": "日常",
-  "score": 18,
-  "source": "Chemical Engineering Journal",
-  "tier": "transferable",
-  "title": "HKUST-1/polymer/carbon nanotube ternary composite adsorbents for high CO2 uptake and low-voltage joule heating capability",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.cej.2026.182568",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "joule heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
  },
  "10.1016/j.cej.2026.182590": {
   "abstract": "",
@@ -4087,43 +3980,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实"
  },
- "10.1016/j.jmapro.2026.06.068": {
-  "abstract": "",
-  "authors": [
-   "Jinge Li",
-   "Depeng Wang",
-   "Yangyu Huang",
-   "Guangyu Dong",
-   "Yanni Rao",
-   "Yong Peng",
-   "J.P.M. Correia",
-   "Said Ahzi",
-   "Kui Wang"
-  ],
-  "cross": false,
-  "date": "2026-09",
-  "doi": "10.1016/j.jmapro.2026.06.068",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.jmapro.2026.06.068",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Journal of Manufacturing Processes",
-  "tier": "transferable",
-  "title": "A novel printing path node elevation strategy for uniform Joule heating in 3D-printed continuous carbon fiber grids",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.jmapro.2026.06.068",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1016/j.jmgm.2026.109551": {
   "abstract": "",
   "authors": [
@@ -4436,75 +4292,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
- },
- "10.1016/j.msea.2026.150473": {
-  "abstract": "",
-  "authors": [
-   "Kai Wang",
-   "Junquan Yu",
-   "Xiaoxue Chen",
-   "Guoqun Zhao"
-  ],
-  "cross": false,
-  "date": "2026-09",
-  "doi": "10.1016/j.msea.2026.150473",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.msea.2026.150473",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Materials Science and Engineering: A",
-  "tier": "transferable",
-  "title": "Underlying mechanisms of deformation, microstructure and properties of ultra-high-strength 7034 aluminum alloy after rapid heating",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.msea.2026.150473",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "rapid heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
- "10.1016/j.mseb.2026.119844": {
-  "abstract": "",
-  "authors": [
-   "Xiaoyi Liu",
-   "Yuchen Yang",
-   "Bowen Li",
-   "Jing Wu",
-   "Zhilang Yang",
-   "Penglun Zheng",
-   "Xiaojuan Wan",
-   "Yun Zheng"
-  ],
-  "cross": false,
-  "date": "2026-09-10",
-  "doi": "10.1016/j.mseb.2026.119844",
-  "first_seen": "2026-09-28T19:19:30Z",
-  "id": "10.1016/j.mseb.2026.119844",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 18,
-  "source": "Materials Science and Engineering B",
-  "tier": "transferable",
-  "title": "Tailoring interfacial kinetics in N,P-co-doped carbon/silicon composite anodes for lithium-ion batteries via flash Joule heating",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.mseb.2026.119844",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
  },
  "10.1016/j.mser.2026.101288": {
   "abstract": "",
@@ -5492,39 +5279,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系"
  },
- "10.1021/acs.langmuir.6c03200": {
-  "abstract": "Abstract From the perspective of protecting the global environment, developing technologies to capture CO2 from emission sources (or the atmosphere) and efficiently convert it into useful substances is an urgent task. Among materials for the carbon capture and utilization, metal oxide-supported Au nanoparticles (Au/MOs) including Au/ZrO2 have attracted considerable attention in recent years. To achieve efficient CO2 conversion, it is essential to control the capacity and strength of CO2 adsorption on the catalyst surface, as well as to have a deep understanding of its adsorption modes. While many papers have been published on the CO2 adsorption properties of ZrO2, we could not find any papers on the effect of supporting Au nanoparticles (NPs) on ZrO2. In this study, the characteristics of Au/ZrO2 prepared by the conventional deposition precipitation (DP) method and a modified DP method for CO2 adsorption were investigated using temperature-programmed CO2 desorption and in situ diffuse reflectance Fourier-transformed infrared spectroscopy. We have shown that surface hydrolysis of ZrO2 significantly enhances the adsorption capacity and strength of CO2 to Au/ZrO2, while specific CO2 adsorbing species can stabilize surface oxygen vacancies around Au NPs.",
-  "authors": [
-   "Ryo Akashi",
-   "Yoshikazu Hirose",
-   "Fuminori Tamazaki",
-   "Shin-ichi Naya",
-   "Miwako Teranishi",
-   "Hiroaki Tada"
-  ],
-  "cross": false,
-  "date": "2026-09-23",
-  "doi": "10.1021/acs.langmuir.6c03200",
-  "first_seen": "2026-09-28T19:37:49Z",
-  "id": "10.1021/acs.langmuir.6c03200",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 15,
-  "source": "Langmuir",
-  "tier": "transferable",
-  "title": "Enhancement of Adsorption Capacity and Strength for Carbon Dioxide in Gold Nanoparticle-Loaded Zirconia Prepared by Surface Hydrolysis-Deposition Precipitation Method",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acs.langmuir.6c03200",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
- },
  "10.1021/acs.langmuir.6c04136": {
   "abstract": "Abstract The fabrication of highly uniform and dispersed catalysts is achievable through atomic layer deposition (ALD). However, the application of this method in porous materials is largely restricted by the size compatibility between the host and the guest molecules. In this study, we coupled ALD with different Cu-based catalysts to develop an interfacial engineering strategy for the selective catalytic oxidation of ammonia (NH3–SCO). Using Cu(hfac)2 as the precursor, it was demonstrated that the pore structure served as a critical steric gatekeeper. Unhindered mass transfer pathway was observed in mesoporous Al-SBA-15, which successfully accommodated the large precursors. This led to a high copper loading of 1.58 wt % along with high interfacial dispersion. On the contrary, the narrow pores of microporous zeolites caused significant pore-mouth blockage and external accumulation because of the size exclusion effect. Therefore, superior intrinsic catalytic activity was found in the Cu-Al-SBA-15, realizing complete NH3 conversion at 350 °C combined with excellent N2 selectivity. Comprehensive characterizations indicated that a large proportion (75.64%) of active mononuclear [Cu(OH)]+ species was stabilized by the abundant mesopores and numerous anchoring sites. These findings provide fundamental information regarding the size-exclusion mechanisms in ALD, suggesting a potential material design to precisely control metal–support interfaces for catalysis.",
   "authors": [
@@ -5843,42 +5597,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "通用催化方法"
  },
- "10.1021/acscatal.6c05444": {
-  "abstract": "Abstract Plasma-catalytic CO2 hydrogenation offers a promising route to methanol synthesis under near-ambient temperature and pressure by enabling nonequilibrium activation of CO2 and H2. However, the catalyst surface properties that govern methanol selectivity and yield under dielectric barrier discharge (DBD) plasma conditions remain insufficiently understood. Here, we investigate how support acidity and Cu functionality influence activity, selectivity, and surface reaction pathways over Cu-loaded silica–alumina catalysts. A series of silica–alumina supports containing 1–70 wt % SiO2 were evaluated under identical DBD plasma conditions. CO2 conversion and methanol formation exhibited a volcano-type dependence on silica content, with S30, a silica-alumina support containing 30 wt % SiO2, giving the highest single-pass methanol yield of 8.7% among the Cu-free supports. NH3 temperature-programmed desorption, CO2 temperature-programmed desorption, pyridine diffuse reflectance infrared Fourier transform spectroscopy, and acidity-perturbation experiments indicate that methanol formation is not governed by total acidity or CO2 uptake alone, but by a favorable acid environment combining predominantly Lewis acidity, relatively high medium-strength acid-site density, and low to moderate basicity. Introducing Cu increased both CO2 conversion and methanol selectivity across the silica–alumina series, while preserving S30 as the optimal support. Under optimized conditions, S30–5Cu achieved a single-pass methanol yield of approximately 12.4% at 30 °C and near-atmospheric pressure. In situ plasma-coupled Fourier transform infrared spectroscopy supports a surface pathway in which adsorbed carbonate or bicarbonate species are progressively hydrogenated to formate and methoxy-like intermediates prior to methanol formation. The optimized S30–5Cu catalyst maintained relatively stable performance over 30 h and showed slightly improved performance when the reactor size was more than doubled. These results establish support acidity and Cu-acid cooperation as key design parameters for selective plasma-catalytic CO2 hydrogenation to methanol.",
-  "authors": [
-   "Miao Miao",
-   "Ehsanul Hoque",
-   "Yaolin Wang",
-   "Samuel B. Portillo",
-   "Yuge Yao",
-   "Mathew Jon Rasmussen",
-   "Calvin Mukarakate",
-   "Xin Tu",
-   "Fanxing Li"
-  ],
-  "cross": false,
-  "date": "2026-09-28",
-  "doi": "10.1021/acscatal.6c05444",
-  "first_seen": "2026-09-29T09:35:19Z",
-  "id": "10.1021/acscatal.6c05444",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 19,
-  "source": "ACS Catalysis",
-  "tier": "transferable",
-  "title": "Influence of Acidic Sites and Cu Loading on Plasma-Catalytic CO2 Hydrogenation to Methanol",
-  "top": true,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acscatal.6c05444",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
- },
  "10.1021/acscatal.6c05612": {
   "abstract": "Abstract In this study, Ni-Co-Al mixed oxides were synthesized via continuous-flow hydrothermal synthesis (CFHS) in supercritical water (T ≥ 445 °C, p = 24 MPa) and combined with different loadings of La-, Ce-, and Ga-based oxides. From these precursors, catalysts for the decomposition of ammonia were generated through reductive pretreatment in hydrogen. The addition of Ga leads to less active catalysts that contain (Co,Ni)-Ga phases, which are transformed into (Co,Ni)4N during NH3 decomposition. In contrast, La- and Ce-based oxides strongly enhance the catalytic activity. The best performing catalysts, containing 13.7 at % La and 13.3 at % Ce, achieve H2 space-time yields of 25.1 and 21.5 mmol H2·gcat–1·min–1 at 500 °C, respectively, with only 22 wt % active (Co, Ni) metal. The Ce-containing catalyst shows a slightly higher turnover frequency of 0.13 s–1 at 400 °C and exhibits high stability and water tolerance under industrially relevant conditions, maintaining its performance after an accelerated aging test in NH3 that contains 2000 ppm H2O (p = 3 bar, GHSV = 1950 h–1) at temperatures ranging from 400 °C to 750 °C with a total time at 750 °C for 135 h. Operando XRD, in situ FTIR and temperature-programmed reduction and desorption experiments reveal that the promotional effect of La- and Ce-based oxides primarily originates from enhanced reducibility and increased metal dispersion rather than substantial electronic modification. This conclusion is supported by the similar TOF values observed under differential conditions and the unchanged onset temperature of surface NH3 decomposition (315 °C), despite large differences in catalytic activity.",
   "authors": [
@@ -5908,8 +5626,7 @@
   "title": "Contrasting Roles of Rare-Earth and Ga Oxide Additives in Spinel-Derived Water-Tolerant Ni-Co/Al2O3 Catalysts for Ammonia Decomposition",
   "top": true,
   "topics": [
-   "nh3",
-   "joule"
+   "nh3"
   ],
   "url": "https://doi.org/10.1021/acscatal.6c05612",
   "via": "旧站云端",
@@ -6205,38 +5922,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
- },
- "10.1021/acssuschemeng.6c03627": {
-  "abstract": "Abstract Polypropylene (PP), one of the most widely used plastics, is a major contributor to global plastic waste. H-mordenite (HM) zeolites impregnated with cobalt (Co) and zinc (Zn) were employed as catalysts for the thermo-catalytic pyrolysis of PP to generate light hydrocarbons and hydrogen. Comprehensive characterization of the catalysts shows that metal incorporation reduced the BET surface areas due to partial pore filling, while TEM and FESEM images confirm unchanged crystallinity with well-dispersed Co and Zn species. Temperature desorption studies with NH3 show abundant Brønsted and Lewis acid sites in HM, with Co and Zn further tuning the acidity of zeolite. The H2-TPR studies indicate that Co formed reducible oxide species capable of generating metallic Co sites under reaction conditions, while Zn remains primarily as framework-stabilized Zn2+ with limited reducibility. The XPS studies confirm the coexistence of metallic Co and cobalt oxides, promoting dehydrogenation and C–C bond scission, whereas Zn remained as Zn2+ and –O–Zn–OH species, enhancing Lewis acidity and limited secondary cracking. Catalytic pyrolysis experiments yielded over >90% PP conversion with 65% selectivity toward light olefins (C2=–C4=) at 450 °C for a 1:1 catalyst-to-polymer ratio with Co-HM, outperforming similar experiments with Zn-HM and pristine HM. The catalyst stability test performed for both Co-HM and Zn-HM catalysts showed propene selectivity to decrease slightly from 53 to 49% after 20 h time-on-stream (TOS) studies, while for the Zn-HM catalyst, a decrease from 45 to 40% was observed over the same period. Density functional theory (DFT) calculations are consistent with these observations, showing that Co sites strongly stabilize propene intermediates via π back-donation and lower dehydrogenation barriers, while Zn exhibits weaker binding and limited stabilization due to filled d-orbitals. These findings suggest that although Co-HM and Zn-HM yield comparable polypropylene conversion with similar activity, each catalyst operates through a different catalytic pathway to yield the final products. While Co-HM provides reducible Co species with Brønsted–Lewis acidic sites that favor olefin formation, Zn-HM primarily modifies Lewis acidity, resulting in different distribution of products.",
-  "authors": [
-   "Timilehin Adedeji",
-   "Sujoy Bepari",
-   "Zahidul Islam",
-   "Tianjun Xie",
-   "Debasish Kuila"
-  ],
-  "cross": false,
-  "date": "2026-09-11",
-  "doi": "10.1021/acssuschemeng.6c03627",
-  "first_seen": "2026-10-01T07:42:49Z",
-  "id": "10.1021/acssuschemeng.6c03627",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 15,
-  "source": "ACS Sustainable Chemistry & Engineering",
-  "tier": "transferable",
-  "title": "Thermo-Catalytic Pyrolysis of Polypropylene over Co- and Zn-Supported H-Mordenites: Mechanistic Insights into Upcycling",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acssuschemeng.6c03627",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
  },
  "10.1021/acssuschemeng.6c05957": {
   "abstract": "Abstract This study explores seven machine learning (ML) models to predict the performance of cost-effective Ni-based catalysts and assess the effects of various parameters on ammonia decomposition. A comprehensive database consisting of 6447 datapoints, with 16 input features describing catalyst composition, synthesis, reaction conditions, reactor geometry, and output ammonia conversion, was collated from the literature. Among the seven ML models investigated in the study, the Artificial Neural Network(Multilayer Perceptron) (ANN(MLP)) achieved superior performance, with R2 and standardized RMSE values of 0.978 and 0.149, respectively. This was followed closely by Light Gradient Boosting (LGBM) and Extreme Gradient Boosting (XGB), with R2 values of 0.972 and 0.970, respectively. While ANN(MLP), XGB, and LGBM showed consistently high performance across 5-fold and the leave-one-paper-out cross-validation, ANN(MLP) showed exceptional performance on structurally homogeneous data, and LGBM showed enhanced generalization on completely unseen data. SHapley Additive exPlanations (SHAP) analysis identified reaction temperature and gas hourly space velocity as major descriptors to ammonia conversion over Ni-based catalysts. The two factors collectively account for 57.18% of the output. The developed ML framework can effectively map highly dimensional data and provide a reliable methodology for sustainable catalyst design.",
@@ -6874,41 +6559,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
- "10.1038/s41598-026-67257-8": {
-  "abstract": "Abstract To address climate change and the transition to a low-carbon society, greenhouse horticulture must improve energy performance, as greenhouse facilities are energy-intensive systems requiring environmental control for crop cultivation. In particular, winter heating relies heavily on fossil-fuel-based systems, making improvements in efficiency and fuel switching critical challenges for greenhouse decarbonisation. This study presents the first full-scale parallel experimental comparison between a conventional greenhouse and a greenhouse designed according to the Net Zero Energy Greenhouse (ZEG) concept in Japan, operated under identical structural and climatic conditions. Here, ZEG refers to a greenhouse design that reduces primary energy consumption through electrification, improved efficiency, and renewable energy integration, drawing on the evaluation framework used for zero energy buildings (ZEB). The study evaluates a ZEG-type greenhouse equipped with a groundwater-source heat pump, double-layer thermal curtains, and an on-site photovoltaic system. Measurements were conducted during the heating season and compared with a conventional greenhouse under commercial strawberry cultivation conditions. Results show that integrating groundwater-source heat pumps and enhanced thermal insulation reduced primary energy consumption for heating by 58% and CO 2 emissions by 68% relative to the reference greenhouse, while maintaining comparable cultivation conditions. In addition, on-site photovoltaic generation supplied renewable electricity equivalent to 25% of the heating-related primary energy demand of the ZEG-type greenhouse. Furthermore, heating energy costs were reduced by 76%. These results provide field-based evidence supporting the use of integrated electrified heating, improved envelope performance, and on-site renewable generation as practical strategies for reducing energy use and CO 2 emissions in greenhouse systems.",
-  "authors": [
-   "Soma Sugano",
-   "Masahisa Ishii",
-   "Ryota Tsuchiya",
-   "Yuta Ohashi",
-   "Yasumasa Hayashi",
-   "Masakazu Kawanami",
-   "Shin-ichi Tanabe"
-  ],
-  "cross": false,
-  "date": "2026-09-07",
-  "doi": "10.1038/s41598-026-67257-8",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1038/s41598-026-67257-8",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Scientific Reports",
-  "tier": "transferable",
-  "title": "Full-scale field evaluation of a net zero energy greenhouse concept integrating electrified heating, envelope improvements, and on-site photovoltaics",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1038/s41598-026-67257-8",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "electrified heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1038/s44160-026-01161-x": {
   "abstract": "",
   "authors": [
@@ -7179,39 +6829,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
- },
- "10.1142/s0219455428500150": {
-  "abstract": "This paper investigates dynamic behavior and frequency characteristics of a nanocomposite curved beam subjected to two different cases of thermal shock loads. The structure is made of hybrid dual-FG (functionally graded) composite materials reinforced by GNPs (graphene nanoplatelets). The nanocomposite curved beam with different cases of end conditions is also supported by a two-parameter elastic substratum. The Halpin–Tsai procedure and the Voigt micromechanical rule are used to calculate the equivalent material characteristics of the nanocomposite media as a combination of the polymeric matrix and GNPs. The kinematic equations of the suddenly heated curved beam are established based on the Timoshenko theory by considering the von–Karman assumptions. The nonlinear equations of motion are also obtained for the nanocomposite curved beam supported over an elastic foundation using the energy principle of Hamilton. The system of equations of motion as well as the heat conduction problem is solved numerically utilizing the GDQ approach and also the Crank–Nicolson technique for three different cases of boundary conditions and also two different cases of thermal shock loads. A frequency analysis is also performed. After validation, several graphical examples are provided to estimate the thermally induced vibration response of the dual-FG nanocomposite curved beam. This study has theoretical value for the optimization of mechanical lightweight structures and intelligent thermal management.",
-  "authors": [
-   "ShaoGuo Zhang",
-   "Kang Zhao",
-   "Shoufa Liu",
-   "Lang Yu",
-   "Zhanbo Su"
-  ],
-  "cross": false,
-  "date": "2026-09-16",
-  "doi": "10.1142/s0219455428500150",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1142/s0219455428500150",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "International Journal of Structural Stability and Dynamics",
-  "tier": "transferable",
-  "title": "Nonlinear Dynamic Response and Frequency Characteristics of Hybrid Dual-FG Nanocomposite Curved Beams Subjected to Rapid Heating",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1142/s0219455428500150",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Rapid Heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
  },
  "10.1186/s12934-026-03118-3": {
   "abstract": "Abstract Background Alkylamine production depends on ammonium produced via the energy-intensive, fossil-based Haber-Bosch process. Diazotrophic bacteria could offer a biological alternative by supplying nitrogen directly from air to heterotrophic whole-cell biocatalysts for alkylamine production. However, their integration with yeast production systems remains largely unexplored. Results Here, we evaluated the use of an ammonium-excreting strain of Azotobacter vinelandii (AZBB664) to supply nitrogen to an engineered Saccharomyces cerevisiae biocatalyst for vanillylamine production using air as the sole nitrogen source. A modified Burk’s medium was developed to support S. cerevisiae growth and enable evaluation of biologically supplied nitrogen. Co-cultivation of both organisms was feasible under diazotrophic conditions, however, vanillin oxidation by A. vinelandii prevented effective vanillylamine production. To address this, a sequential process was implemented in which A. vinelandii was first used to generate ammonium in a modified Burk’s medium, followed by cell removal and use of the resulting medium (AZM1) for yeast cultivation. In this medium, the yeast strain CEN.PK 113-7d exhibited a growth rate of 0.27 h − 1 and reached higher final cell density compared to the control medium supplemented with synthetic ammonium. Cultivation in AZM1 was associated with a more stable pH profile, which may have contributed to the improved growth of the yeast. S. cerevisiae strain TMBNM033 expressing recombinant transaminase and alanine dehydrogenase was able to convert vanillin to vanillylamine, although a significant amount of vanillic alcohol was also observed due to competing endogenous reductase activity. Conclusions A. vinelandii- derived medium enables yeast growth and whole-cell reductive amination using air as the sole nitrogen source. This demonstrates that biologically fixed nitrogen can directly sustain heterotrophic whole-cell biotransformations, establishing a strategy for coupling diazotrophy with biocatalytic production systems.",
@@ -7802,42 +7419,6 @@
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "过程待核实"
  },
- "10.26599/jac.2026.9221361": {
-  "abstract": "Abstract Multi-principal component diboride (MEB) ceramics are promising candidates for ultrahigh-temperature thermal protection systems. However, their intrinsic oxidation behavior above 2000 °C remains poorly understood because conventional testing methods have limitations. Here, an ultrafast heating oxidation test (UHOT) with a heating rate of 100 °C/s was applied to investigate the oxidation behavior of (Zr1/4Hf1/4Ta1/4Ti1/4)B2, (Zr1/4Hf1/4Ta1/4Nb1/4)B2, (Zr1/3Hf1/3Ta1/3)B2, and monolithic ZrB2 ceramics at 2300 °C under cyclic oxidation conditions. After five 1-min cyclic exposures at this temperature, totaling 5 min, MEB ceramics form multi-layered oxide scales, while ZrB2 ceramic develops only a porous and cracked single-layer scale. Among them, the Ti-containing composition exhibits the thinnest scale, the densest outer layer, the least mass loss, and intact scale integrity. Beyond the thermodynamic contribution of configurational entropy, this superior performance mainly arises from the dual role of the functional element Ti. First, it forms a liquid Ti-containing oxide phase that densifies the outer (Zr,Hf)O2-based layer derived from the structural elements Zr and Hf, enabling the outer layer to act as an effective oxygen diffusion barrier. Second, it promotes the formation of a porous needle-like Ta2O5 network in the inner layer during cooling, which can relieve thermal stress and prevent interfacial separation during cyclic heating and cooling. This work establishes a rapid-heating evaluation protocol and shows that oxidation resistance in these materials is governed by elemental functionality rather than entropy alone, offering a design principle for both equimolar and nonequimolar multiprincipal component nonoxide ceramics for reusable thermal protection applications.",
-  "authors": [
-   "Yizhou Cao",
-   "Ji-Xuan Liu",
-   "Weiqiang Cheng",
-   "Jingyuan Wang",
-   "Wenbo Xie",
-   "Pai Peng",
-   "Guo-Jun Zhang"
-  ],
-  "cross": false,
-  "date": "2026-09-29",
-  "doi": "10.26599/jac.2026.9221361",
-  "first_seen": "2026-09-29T09:35:19Z",
-  "id": "10.26599/jac.2026.9221361",
-  "kind": "journal",
-  "old_tier": "exclude",
-  "origin": "旧站本地库",
-  "score": 18,
-  "source": "Journal of Advanced Ceramics",
-  "tier": "transferable",
-  "title": "Oxidation of multi-principal component diborides at 2300 °C under ultrafast heating",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.26599/jac.2026.9221361",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "ultrafast heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应"
- },
  "10.26599/nr.2026.94908724": {
   "abstract": "Abstract Single-atom catalysts (SACs) with a TM-N4-C structure, where a transition metal (TM) atom is embedded in nitrogen-doped graphene, have emerged as promising electrocatalysts for electrochemical nitrogen reduction reaction (eNRR). However, their performance is often limited by weak N2 adsorption and insufficient activation of the inert N≡N bond. In this work, we propose a novel bilayer catalyst architecture, Mn-N4-C/MoS2-TM, by vertically integrating the Mn-N4-C site with sulfur vacancies (Vs) on the MoS2 basal plane, where TM dopants are anchored at the Vs sites (denoted as MoS2-TM). Using first-principles simulations, we investigated the eNRR performance within the interlayer space of this hybrid system. Our results reveal that the confined interlayer region with the dual active site of Mn-N4-C and MoS2-TM acts as an efficient nano-reactor, working synergistically to enhance N2 adsorption and activation. Notably, during catalysis, the active site dynamically shifts between the Mn-N4-C and MoS2-TM sites for binding key reaction intermediates, significantly lowering the energy barrier of the potential-determining step, thereby promoting the conversion of N2 to NH3. Mechanistic analyses identify Mn-N4-C/MoS2-TM (TM = Mn, Tc, and Ag) as particularly promising eNRR catalysts, exhibiting a low limiting potential of −0.3 V and a maximum kinetic barrier of 0.75 eV. Furthermore, we developed a novel descriptor, φ=θd×XTM, based solely on intrinsic material properties (i.e., the number of d electrons ( θd) and the electronegativity ( XTM)) of the TM dopants, which accurately predict eNRR activity across the series. This work presents a unique strategy for rational design of dual site catalysts, opening a new avenue for efficient eNRR electrocatalysts.",
   "authors": [
@@ -7911,46 +7492,6 @@
   "why": [],
   "zh_method": "光驱动",
   "zh_obj": "氨硼烷水解"
- },
- "10.26599/nr.2026.94909048": {
-  "abstract": "Abstract Lightweight, broadband, and highly efficient electromagnetic wave absorbers (EWAs) are increasingly demanded, yet their development remains constrained by conventional equilibrium synthesis, which limits access to the high-energy structural states required for efficient electromagnetic attenuation. Flash Joule Heating (FJH), featuring rapid electrothermal heating followed by instantaneous quenching, provides an effective route to stabilize kinetically trapped structures that are difficult to obtain through traditional processing. This review presents FJH as a platform for non-equilibrium state engineering rather than simply an ultrafast synthesis technique. By interrupting thermodynamic relaxation, FJH preserves metastable phases, abundant defects, fragmented conductive networks, and complex heterointerfaces, thereby creating multiple pathways for electromagnetic energy dissipation. These non-equilibrium characteristics offer promising solutions to persistent challenges in EWAs, including conductivity-impedance imbalance, limited polarization centers, weak interfacial dissipation, and insufficient high-frequency magnetic response. The review further discusses emerging opportunities enabled by FJH, such as kinetic-state programming, structural genome engineering, adaptive electromagnetic materials, AI-assisted materials design, and scalable manufacturing. Finally, the key challenges that remain in achieving predictive and controllable non-equilibrium materials design are outlined. More importantly, FJH is highlighted as a strategy for writing programmable non-equilibrium states, opening new directions for the design of next-generation EWAs.",
-  "authors": [
-   "Minghao Jia",
-   "Mu Qiao",
-   "Shijie Zhang",
-   "Ruifeng Miao",
-   "Haifeng Quan",
-   "Zhenguo Gao",
-   "Yiqun Wang",
-   "Guanglei Wu"
-  ],
-  "cross": false,
-  "date": "2026-09-29",
-  "doi": "10.26599/nr.2026.94909048",
-  "first_seen": "2026-10-01T07:42:49Z",
-  "id": "10.26599/nr.2026.94909048",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "reported_by": [
-   "NanoResearch"
-  ],
-  "score": 18,
-  "source": "Nano Research",
-  "tier": "transferable",
-  "title": "Unlocking the potential of Flash Joule Heating for advanced electromagnetic wave absorbers: A non-equilibrium perspective",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.26599/nr.2026.94909048",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控"
  },
  "10.32964/tj25.9.577": {
   "abstract": "As the global energy sector transitions toward net-zero emissions, kraft pulp mills present a compelling opportunity to produce green fuels and achieve net-negative emissions by capturing biogenic carbon, helping offset hard-to-abate sectors. This study explores the techno-economics of integrating biomass gasification for green ammonia production within kraft mills, using KraftSIM modeling to evaluate ammonia production, steam balance, emissions, and utility impacts. The proposed design enables energy and water system integration with the existing mill and allows for a gradual scale-up without disrupting the chemistry and operation of the recovery cycle. Across five scenarios representing different biomass gasification rates ranging from 100 to 1000 bone-dry metric tons per day (BDMT/d), the process yields ammonia at approximately 0.51 metric tons per bone-dry metric ton (t/ BDMT), while generating significant low- and medium-pressure steam and hot water that offset mill utility demands. The incineration of pressure swing adsorption tail gas and ammonia plant purge gas in the power boiler reduces biomass combustion and enhances power boiler efficiency. Economic analysis suggests a net revenue potential of approximately CA$380/BDMT, which could increase with the implementation of biogenic carbon pricing. Overall profitability is strongly influenced by biomass procurement costs, electricity prices, and prevailing green fuel and chemical market premium. This work outlines a practical, near-term decarbonization pathway for kraft mills by coupling green fuel production with potential opportunities for carbon removal.",
@@ -8050,38 +7591,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
- "10.3390/app16199632": {
-  "abstract": "Thermally activated four-dimensional printing allows additively manufactured structures to change shape with temperature, providing potential for adaptive polymeric systems. In soft thermoplastic polyurethane (TPU) composites, this is hindered by inadequate thermal transitions, reliance in conductive fillers, solvent-based processing, and the poor printability of very soft TPUs. Here, a thermally reversible switching transition, Joule-heating capability, and pellet-extrusion printability were incorporated into a soft TPU through scalable, solvent-free melt compounding with a commercial masterbatch (MB) of single-walled carbon nanotubes (SWCNTs) in a polyol-ester blend. MB dilution produced composites containing approximately [range-units=single]13wt.% SWCNTs and [range-units=single]927wt.% polyol-ester blend. All composites were thermally stable with a polyol-ester-related melting transition near 54∘C identified by differential scanning calorimetry.ncreasing the MB content enhanced the complex viscosity and viscoelastic moduli while preserving shear-thinning behavior. Conductive atomic force microscopy showed heterogeneous surface-connected current pathways. And mean bulk electrical conductivity increased from 1.09S/m to 18.15S/m as MB content increased from the lowest to the highest loading. The most conductive formulation exhibited voltage-dependent Joule heating, reaching an initial heating rate of 61.8∘C/min at 22V. The cycle-averaged shape-fixity ratios for vacuum-molded samples were 87.290.7 over three cycles, whereas cycle-averaged shape-recovery ratios were 82.685.2 over the two reported recovery cycles. A deformable lattice was produced by fused granulate fabrication (FGF) and exhibited temporary-shape retention and recovery toward its original geometry during external reheating. Collectively, the results demonstrate a melt-processable route to conductive TPU composites, combining electrothermal heating capability with thermally activated shape-memory functionality for future 4D-printing applications.",
-  "authors": [
-   "Bahaa Shaqour",
-   "Vincent Berthé",
-   "Joamin Gonzalez-Gutierrez"
-  ],
-  "cross": false,
-  "date": "2026-09-28",
-  "doi": "10.3390/app16199632",
-  "first_seen": "2026-09-29T09:35:19Z",
-  "id": "10.3390/app16199632",
-  "kind": "journal",
-  "old_tier": "exclude",
-  "origin": "旧站本地库",
-  "score": 18,
-  "source": "Applied Sciences",
-  "tier": "transferable",
-  "title": "Melt-Compounded Thermoplastic Polyurethane/Single-Walled Carbon Nanotube Nanocomposites: Pellet-Based 4D Printing, Joule-Heating Capability, and Thermally Activated Shape Recovery",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/app16199632",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [
-   "Joule-Heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.3390/en19184407": {
   "abstract": "Against the backdrop of the global low-carbon transition, power-to-ammonia (PtA) has emerged as a pivotal direction for large-scale energy storage. Distributionally robust optimization can effectively address uncertainties in energy systems; however, traditional distributionally robust dispatch models generally suffer from over-conservatism that leads to increased operational costs, and existing PtA studies mostly focus on scenario-based adaptations of established optimization tools, lacking mechanistic and methodological innovations tailored to the electricity–hydrogen–ammonia coupling characteristics. To address these issues, this paper proposes a distributionally robust chance-constrained economic dispatch model (WMDRCC) based on the Wasserstein metric and first-order moment information, and introduces a logical mapping relationship that links hydrogen storage capacity with the operating modes of ammonia synthesis. This mechanism enables real-time optimization of the H2/N2 feed ratio, mitigates hydrogen source fluctuations, and avoids reactor instability and cost-ineffective shutdowns. Furthermore, by integrating Conditional Value at Risk (CVaR), duality theory, and big-M linearization, the complex robust chance-constrained problem is reformulated into a computationally tractable mixed-integer linear programming (MILP) model. Numerical results on the IEEE 33-bus system demonstrate that, compared with a distributionally robust model based solely on the Wasserstein distance, the proposed method effectively reduces system operating costs under the tested 24 h daily scenarios, while simultaneously improving renewable energy accommodation and reducing network losses, thereby providing a novel dispatch scheme for PtA systems that balances both economic efficiency and robustness.",
   "authors": [
@@ -8144,40 +7653,6 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
- },
- "10.3390/hydrogen7040141": {
-  "abstract": "Iron-based catalysts are widely investigated for CO2 hydrogenation to light olefins due to their low cost, abundance, and ability to form oxidic and carbidic phases involved in the RWGS-FTS pathway. However, supports and promoters can obscure the intrinsic role of iron phase evolution. Here, unsupported Fe nanoparticles with distinct morphological, compositional and structural characteristics were synthesized, CO-pretreated, and evaluated for CO2 hydrogenation toward C2-C4=. Their textural, structural, redox, and surface properties were examined to relate synthesis-induced differences to phase evolution and catalytic performance. CO pretreatment formed iron carbide phases in all samples, yet marked differences in catalytic behavior showed that the active state cannot be described solely by bulk phase composition. Iron oxide nanopolyhedra (Fe-NP) achieved 41.6% CO2 conversion, the highest C2-C4= selectivity of 27.7%, and the highest light-olefin yield of 11.5%. Surface analysis revealed notable differences in the relative contributions of carbidic and oxidic Fe species, suggesting that performance depends on the surface phase distribution established during activation and reaction. The coexistence of Fe3O4 and FexCy species appears to facilitate RWGS and subsequent Fischer-Tropsch pathways, as proposed in the literature. CO2-TPD further showed that maximum CO2 uptake did not correspond to superior performance, highlighting the combined influence of synthesis-induced structure, surface composition, and reduction-carburization behavior.",
-  "authors": [
-   "Evridiki Mandela",
-   "Eirini Marousiadou",
-   "Maria Lykaki",
-   "Agapi Orfanoudaki",
-   "Vassileios Kyriakou",
-   "George E. Marnellos",
-   "Michalis Konsolakis"
-  ],
-  "cross": false,
-  "date": "2026-09-25",
-  "doi": "10.3390/hydrogen7040141",
-  "first_seen": "2026-09-28T19:37:49Z",
-  "id": "10.3390/hydrogen7040141",
-  "kind": "journal",
-  "old_tier": "transferable",
-  "origin": "旧站本地库",
-  "score": 15,
-  "source": "Hydrogen",
-  "tier": "transferable",
-  "title": "Synthesis-Dependent Phase Evolution and Catalytic Behavior of Unsupported Iron Catalysts for CO2 Hydrogenation to C2-C4=",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/hydrogen7040141",
-  "via": "旧站本地库",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "逆水煤气变换；涉及Fe/铁体系"
  },
  "10.3390/molecules31183254": {
   "abstract": "Ammonia is a cornerstone chemical for global food security and an emerging carbon-free energy carrier, yet its industrial synthesis via the Haber–Bosch process remains energy-intensive and carbon-emitting. Non-thermal plasma catalysis offers a promising decentralized alternative for nitrogen fixation under milder conditions, though the long-term structural stability of supported metal catalysts under harsh plasma environments remains a key open challenge. Plasma-assisted NH3 synthesis was investigated using exsolution-derived Co-La2O3/Al2O3 and Ni-La2O3/Al2O3 catalysts in a pulsed (1 kHz at 50% duty cycle) microwave reactor operating at sub-atmospheric pressure (2–6 Torr) and 2.45 GHz. The catalysts were prepared by reductive H2 treatment of LaCoO3 and LaNiO3 perovskite precursors, deposited onto Al2O3 pellets, triggering metal exsolution and generating metallic Co0 and Ni0 nanoparticles embedded within a La2O3/Al2O3 matrix. Catalytic performance was evaluated across a range of H2/N2 flow rates (200–400 cm3/min each) and microwave power inputs (0.6–0.7 kW average), using bare Al2O3 as a reference. Co-La2O3/Al2O3 outperformed both Ni-La2O3/Al2O3 and the Al2O3 reference under all tested conditions, reaching a maximum H2 conversion of 2.39% and a peak productivity of 20.6 μmol/gcata.h, attributed to the finer metal dispersion and smaller nanoparticle size achieved during Co exsolution from the LaCoO3 lattice. Post-reaction characterization by TEM, XRD and N2 physisorption confirmed the structural integrity of both spent catalysts. No bulk phase transformations were detected by XRD, while specific surface areas were retained above 93% of the initial one. Metals’ particle size slightly increased after plasma exposure, confirming the structural durability of catalysts. These results demonstrate that the exsolution mechanism confers meaningful sintering resistance under microwave plasma conditions, establishing exsolution-derived perovskite catalysts as a promising and durable platform for plasma-assisted nitrogen fixation.",
@@ -8246,38 +7721,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
- },
- "10.51885/3134-7983_catmsp_2026_3_13": {
-  "abstract": "A 0.5% Rh/13X catalyst was synthesized by incipient wetness impregnation, and its structural, physicochemical, and catalytic properties were investigated in the carbon dioxide hydrogenation reaction. The morphology, elemental composition, and phase composition of the catalyst were characterized by scanning electron microscopy, energy-dispersive X-ray spectroscopy, and X-ray diffraction analysis. The surface adsorption properties were studied using CO₂ temperature-programmed desorption (CO₂-TPD), while the reduction behavior was examined by H₂ temperature-programmed reduction (H₂-TPR). Catalytic activity was evaluated in a fixed-bed flow reactor over the temperature range of 180–700 °C. It was established that rhodium deposition did not disrupt the crystalline structure of the 13X zeolite, while the active phase was characterized by high dispersion and the presence of readily reducible surface species. The catalyst was shown to contain basic sites of different strengths that facilitate carbon dioxide adsorption. Catalytic tests demonstrated that CO₂ conversion increased with temperature, reaching a maximum value of 93.5%. The obtained results confirm the potential of the 0.5% Rh/13X catalyst for CO₂ hydrogenation to methane.",
-  "authors": [
-   "Akmaral Rakhym",
-   "Aliya Alimzhanova",
-   "Banu Sakhova",
-   "Gulzada Koishina",
-   "Anar Mukhametzhanova",
-   "Farida Kapsalamova"
-  ],
-  "cross": false,
-  "date": "2026-09-30",
-  "doi": "10.51885/3134-7983_catmsp_2026_3_13",
-  "first_seen": "2026-10-28T22:00:02Z",
-  "id": "10.51885/3134-7983_catmsp_2026_3_13",
-  "kind": "journal",
-  "origin": "日常",
-  "score": 15,
-  "source": "Central Asian Transactions on Materials Structure and Properties",
-  "tier": "transferable",
-  "title": "PHYSICOCHEMICAL PROPERTIES AND CATALYTIC ACTIVITY OF A 0.5% RH/13X CATALYST IN THE CO₂ HYDROGENATION REACTION",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.51885/3134-7983_catmsp_2026_3_13",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
  },
  "10.5281/zenodo.22240984": {
   "abstract": "The data from the paper named Enhancing Ambient Ammonia Synthesis via Discharge Gap Optimization and Mesoporous MCM-41 Catalyst",

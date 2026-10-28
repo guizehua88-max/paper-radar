@@ -1823,42 +1823,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨硼烷水解"
  },
- "10.1016/j.jallcom.2025.183275": {
-  "abstract": "",
-  "authors": [
-   "Victoria Davis",
-   "Lilith Miller",
-   "James Cahill",
-   "Braden Goddard",
-   "Reza Mohammadi",
-   "Rajnikant V. Umretiya",
-   "Carlos E. Castano",
-   "Jessika V. Rojas"
-  ],
-  "cross": false,
-  "date": "2025-09",
-  "doi": "10.1016/j.jallcom.2025.183275",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.jallcom.2025.183275",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Journal of Alloys and Compounds",
-  "tier": "transferable",
-  "title": "Surface chemistry and microstructure of FeCrAl alloys after rapid heating in steam environments and quenching",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.jallcom.2025.183275",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "rapid heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1016/j.jallcom.2025.183496": {
   "abstract": "",
   "authors": [
@@ -2168,36 +2132,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
- },
- "10.1016/j.rinp.2025.108388": {
-  "abstract": "",
-  "authors": [
-   "Milad Yousefizad",
-   "Negin Manavizadeh"
-  ],
-  "cross": false,
-  "date": "2025-09",
-  "doi": "10.1016/j.rinp.2025.108388",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.rinp.2025.108388",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Results in Physics",
-  "tier": "transferable",
-  "title": "Carbon-based triboelectric and joule-heating architectures: toward battery-lean epidermal health patches",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.rinp.2025.108388",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "joule-heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
  },
  "10.1016/j.surfin.2025.107054": {
   "abstract": "",
@@ -2671,50 +2605,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
- "10.1021/acsami.5c13121": {
-  "abstract": "",
-  "authors": [
-   "Qiming Liu",
-   "Shichen Xu",
-   "Phelecia Scotland",
-   "Justin Sharp",
-   "Yi Cheng",
-   "Jaeho Shin",
-   "Nicholas Lowell Viscomi",
-   "Lucas Eddy",
-   "Shihui Chen",
-   "Bowen Li",
-   "Tengda Si",
-   "Carter Kittrell",
-   "Mine G. Ucak-Astarlioglu",
-   "James M. Tour"
-  ],
-  "cross": false,
-  "date": "2025-09-15",
-  "doi": "10.1021/acsami.5c13121",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1021/acsami.5c13121",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 26,
-  "source": "ACS Applied Materials & Interfaces",
-  "tier": "transferable",
-  "title": "Iron and Heavy Metal Removal from Bauxite Residues by Flash Joule Heating with Chlorination",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1021/acsami.5c13121",
-  "via": "Crossref",
-  "watch": [
-   "James M. Tour"
-  ],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及Fe/铁体系"
- },
  "10.1021/acscatal.5c05138": {
   "abstract": "",
   "authors": [
@@ -2921,42 +2811,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "机械化学制氨；涉及Fe/铁体系"
- },
- "10.1088/1742-6596/3104/1/012084": {
-  "abstract": "Abstract Sheet metal forming simulation plays a vital role in a wide range of industries, including automotive, aerospace and construction. These simulations allow detailed analysis and prediction of material behavior under different forming conditions, leading to improvements in efficiency, quality and performance. In this contribution an overview of the possibilities of coupled multiphysical numerical simulation with the FE solver Ansys LS-DYNA ® is provided. To illustrate the practical application of such simulations, the process of rapid resistance heating of a titanium alloy within the TISTRAQ ( Ti tanium S olution T eated & Ra pid Q uenching) research project is examined. The discussion includes the methodology used, the relevant input and output variables, and how the simulation results contribute to the broader research objectives. Through this example, the article highlights the versatility and importance of simulation in advanced manufacturing research. The main objective of the joint project TISTRAQ is the development of a forming process for energy- and material-efficient production of sheet metal parts made of α+β titanium alloys with increased mechanical properties by means of process-integrated heat treatment. For this purpose, a thermo-mechanically coupled simulation model was developed. This advanced simulation model can represent the entire forming process of a component, from initial heating to final forming and trimming. By accurately simulating these stages, the model provides valuable insights into process optimisation, material behavior and the potential for scaling up the process for industrial applications.",
-  "authors": [
-   "Werner Feix",
-   "Maximilian Alexander Kaiser",
-   "Leonard Witlake",
-   "David Stollburges",
-   "Mathias Merten",
-   "Thomas Meyer",
-   "Thomas Tröster",
-   "André Haufe"
-  ],
-  "cross": false,
-  "date": "2025-09-01",
-  "doi": "10.1088/1742-6596/3104/1/012084",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1088/1742-6596/3104/1/012084",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Journal of Physics: Conference Series",
-  "tier": "transferable",
-  "title": "Coupled simulation of resistance rapid heating in a newly developed TISTRAQ process for titanium alloys",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1088/1742-6596/3104/1/012084",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "rapid heating"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
  },
  "10.1134/s2517751625600190": {
   "abstract": "",
@@ -3583,36 +3437,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
- },
- "10.61187/ita.v3i2.209": {
-  "abstract": "At present, through the coking, gasification and liquefaction of low-rank coal such as lignite and long-flame coal in industry, many low-temperature tar samples containing a high proportion of phenolic compounds can be produced. Notably, phenolic compounds are the main raw materials in the chemical industry and can be used to produce many important materials. In particular, phenolic compounds are 3~4 times more expensive than coal tar. On the basis of the importance and economy of coal tar in the production of phenolic compounds, phenol, a phenolic product of coal tar, was studied. The selective hydrogenation of phenol to cyclohexanone plays an important role in the chemical industry. The performance of phenol hydrogenation is highly correlated with the surface properties of the catalyst carrier, and good carrier selection contributes to excellent catalytic activity and stability, leading to overall process improvement in industrial-scale applications. The diversity of the structure and composition of metal oxides is conducive to the development of high-performance catalysts to promote the selective hydrogenation of phenol. Currently, supported precious metal catalysts have been widely used in the hydrogenation of phenol. Although Pd-based catalysts have improved, the loss of active sites is still an inherent shortcoming of supported catalysts, and the catalyst cost needs to be further considered. After surface modification of the ZrO2 carrier, ascorbic acid (AA) was used to introduce a second metal to reduce the loading capacity of the precious metal Pd. The effects of adding a second metal (Fe, Co, or Ni) on the catalyst activity, hydrogenation product selectivity and stability during phenol hydrogenation were investigated. The surface physicochemical properties of the bimetallic Pd-X/ZrO2 catalysts were investigated via XRD, XPS, NH3-TPD, H2-TPR and other characterization methods. In addition, to optimize the hydrogenation of phenol, the effects of different solvents on the catalytic performance and selectivity of cyclohexanone were further investigated.",
-  "authors": [
-   "Yuze Wu",
-   "Qingshan Xiaolu",
-   "Xuan Liu",
-   "Hongkun Tian"
-  ],
-  "cross": false,
-  "date": "2025-09-04",
-  "doi": "10.61187/ita.v3i2.209",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.61187/ita.v3i2.209",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Innovation & Technology Advances",
-  "tier": "transferable",
-  "title": "Preparation of a Pd/Ni Bimetallic Catalyst and its Application in the Selective Hydrogenation of Phenol",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.61187/ita.v3i2.209",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应；涉及Fe/铁体系"
  },
  "10.71146/kjmr610": {
   "abstract": "Maize (Zea mays L.) is a major cereal crop in Pakistan, yet its productivity in semiarid regions is constrained by nutrient limitations, weed competition, and poor soil health. This study evaluated the combined effects of mulching sources and integrated nitrogen (N) management on maize phenology, growth, and weed dynamics at the Agronomy Research Farm, University of Agriculture Peshawar, during 2022 and 2023. A split-plot randomized complete block design with three replications was used, with mulching (control, sugarcane bagasse, chickpea residue, live mulch) as the main plot factor and nitrogen regimes (control, 100% urea, 100% farmyard manure, 100% poultry manure, and integrated combinations supplying 150 kg N ha⁻¹) as subplots. Results indicated that live mulch and chickpea residue delayed tasseling and silking, while 100% urea and 50% urea + 50% FYM prolonged physiological maturity. crop height and crop density were greatest under live mulch with 100% urea, reflecting improved crop vigor. Weed suppression was most effective with live mulch, which reduced weed density (15 m⁻²) and biomass compared with control plots (21.7 m⁻² and 191.4 g m⁻² fresh weight). Urea-based treatments promoted higher weed biomass, whereas integrated organic–inorganic combinations moderated weed growth while sustaining crop performance. It is concluded that the integration of live mulch with balanced nitrogen management is an effective strategy to improve crop phenology and suppress weeds under semiarid conditions of Peshawar.",

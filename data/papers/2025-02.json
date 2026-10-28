@@ -1651,40 +1651,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应"
  },
- "10.1016/j.jallcom.2025.178731": {
-  "abstract": "",
-  "authors": [
-   "Si-yao Liu",
-   "Ye Zhou",
-   "Xin-cheng Miao",
-   "Ji-yu Zhao",
-   "Xin-gang Ai",
-   "Sheng-li Li"
-  ],
-  "cross": false,
-  "date": "2025-02",
-  "doi": "10.1016/j.jallcom.2025.178731",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.jallcom.2025.178731",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Journal of Alloys and Compounds",
-  "tier": "transferable",
-  "title": "Synergistic mechanism of forced convection and Joule heating on microstructural evolution and mechanical properties improvement of Al-7 wt% Si casting alloy",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.jallcom.2025.178731",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule heat"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
- },
  "10.1016/j.jcis.2024.11.026": {
   "abstract": "",
   "authors": [
@@ -2091,44 +2057,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
- },
- "10.1016/j.pnucene.2024.105587": {
-  "abstract": "",
-  "authors": [
-   "Yue Ma",
-   "Qianfeng Liu",
-   "Yunjie Jiao",
-   "Zhu Cui",
-   "Debo Yang",
-   "Dongyu Wang",
-   "Xuanjiang Dong",
-   "Yongchang Zhu",
-   "Li Junfeng",
-   "Wang Jianlong"
-  ],
-  "cross": false,
-  "date": "2025-02",
-  "doi": "10.1016/j.pnucene.2024.105587",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1016/j.pnucene.2024.105587",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 18,
-  "source": "Progress in Nuclear Energy",
-  "tier": "transferable",
-  "title": "Numerical simulation of flow field and metal deposition of Joule-heated ceramic melter for vitrification of radioactive waste",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.1016/j.pnucene.2024.105587",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule-heat"
-  ],
-  "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "过程待核实"
  },
  "10.1016/j.seppur.2024.129202": {
   "abstract": "",
@@ -3197,8 +3125,7 @@
   "title": "Ni-Mg-Al Hydrotalcite-Derived Catalysts for Ammonia Decomposition—From Precursor to Effective Catalyst",
   "top": false,
   "topics": [
-   "nh3",
-   "joule"
+   "nh3"
   ],
   "url": "https://doi.org/10.3390/molecules30051052",
   "via": "Crossref",
@@ -3239,41 +3166,6 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢"
- },
- "10.3390/technologies13020063": {
-  "abstract": "In this work, combined experimental and modeling techniques were used to understand the bimetallic catalyst formation of Cu and Fe. The first part of this study aims to address this gap by employing analytical techniques such as X-ray diffraction (XRD), thermal and gravimetric (TGA), thermoprogrammed oxidation and reduction. These were used to track the evolution of the different crystalline phases formed for CuFe-Bulk and CuFe/Al2O3 catalysts, as well as hydrogen thermoprogrammed reduction (H2-TPR), to evaluate the reducibility of the oxide phases. Both bulk and supported catalysts were also studied in the hydrogenation of furfural at 170 °C, and 4 MPa of H2. The research provides insights into the thermal events and structural transformations that occur during oxidation and reduction processes, revealing the formation of multiple oxide and metallic phases. The proposed reaction mechanism obtained from XRD analysis and TG-based mathematical modeling provides valuable information about the chemical reaction and the diffusion control mechanisms. Furthermore, a catalytic test using furfural, a biomass-derived molecule, was conducted. This interconnects with the initial section of the study, in which we found that active Cu4Fe sites have superior performance in the CuFe/Al2O3 catalyst in the hydrogenation batch test.",
-  "authors": [
-   "Bárbara Jazmín Lino Galarza",
-   "Javier Rivera De la Rosa",
-   "Eduardo Maximino Sánchez Cervantes",
-   "Carlos J. Lucio-Ortiz",
-   "Marco Antonio Garza-Navarro",
-   "Carolina Solís Maldonado",
-   "Ramón Moreno-Tost",
-   "Juan Antonio Cecilia-Buenestado",
-   "Antonia Infantes Molina"
-  ],
-  "cross": false,
-  "date": "2025-02-03",
-  "doi": "10.3390/technologies13020063",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/technologies13020063",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Technologies",
-  "tier": "transferable",
-  "title": "Solid-State Kinetic Modeling and Experimental Validation of Cu-Fe Bimetallic Catalyst Synthesis and Its Application to Furfural Hydrogenation",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/technologies13020063",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "模型中的表征温程（TPR/TPD/TPO 等，不等于反应供热）；不等于实测温程或催化性能",
-  "zh_obj": "其他催化反应；涉及Fe/铁体系"
  },
  "10.3724/2097-213x.2024.jfct.0021": {
   "abstract": "",

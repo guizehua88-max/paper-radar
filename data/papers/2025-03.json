@@ -395,42 +395,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
- "10.1002/ange.202505571": {
-  "abstract": "",
-  "authors": [
-   "Kartick Chandra Majhi",
-   "Hongjiang Chen",
-   "Asma Batool",
-   "Qi Zhu",
-   "Yangxin Jin",
-   "Shengqin Liu",
-   "Patrick H.‐L. Sit",
-   "Jason Chun‐Ho Lam"
-  ],
-  "cross": false,
-  "date": "2025-03-21",
-  "doi": "10.1002/ange.202505571",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.202505571",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 13,
-  "source": "Angewandte Chemie",
-  "tier": "background",
-  "title": "Outside Back Cover: In‐tandem Electrochemical Reduction of Nitrate to Ammonia on Ultrathin‐Sheet‐Assembled Iron–Nickel Alloy Nanoflowers",
-  "top": true,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1002/ange.202505571",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Nitrate to Ammonia"
-  ],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
- },
  "10.1002/cctc.202401936": {
   "abstract": "Abstract Ammonia (NH 3 ) is pivotal for agriculture and energy storage, yet its efficient synthesis under ambient conditions remains challenging. This study presents an innovative method for NH 3 synthesis, utilizing molybdenum and iron nanostructures on carbon cloth (MoFe/CC) as catalysts for the nitrogen reduction reaction (NRR). Superior catalytic performance is achieved by optimizing the molar ratio of molybdenum (Mo) to iron (Fe) and adjusting the synthesis parameters. The catalytic activities are assessed under acidic, neutral, and alkaline conditions to ascertain the optimal pH for NH 3 production. Comprehensive characterization of the MoFe composite is conducted using scanning electron microscopy, transmission electron microscopy, X‐ray diffraction, and X‐ray photoelectron spectroscopy, confirming strong Fe–Mo interactions. Electrochemical assays in nitrogen‐saturated electrolytes highlight MoFe(7:3)/CC catalyst's exceptional performance, yielding 34.32 µg h⁻ 1 mg⁻ 1 of NH 3 with a Faradaic efficiency of 57.6% at −0.35 V versus reversible hydrogen electrode in 0.1 M phosphate‐buffered solution (PBS). Stability tests conducted over 20 h demonstrate over 95% retention of the initial current density, with no detectable hydrazine byproducts. This optimized MoFe/CC catalyst significantly improves the selectivity of the NRR, rendering it a viable candidate for scalable, sustainable ammonia production in future industrial applications.",
   "authors": [
@@ -658,39 +622,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
- },
- "10.1002/cssc.202580604": {
-  "abstract": "",
-  "authors": [
-   "Jinhua Lai",
-   "Tan Li",
-   "Liang‐Xin Ding",
-   "Gao‐Feng Chen",
-   "Haihui Wang"
-  ],
-  "cross": false,
-  "date": "2025-03-17",
-  "doi": "10.1002/cssc.202580604",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/cssc.202580604",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 9,
-  "source": "ChemSusChem",
-  "tier": "background",
-  "title": "Cover Feature: Two‐Dimensional Boridene Nanosheets for Efficient Electrochemical Nitrogen Fixation Under Ambient Conditions (ChemSusChem 6/2025)",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1002/cssc.202580604",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Nitrogen Fixation"
-  ],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
  },
  "10.1002/elsa.70001": {
   "abstract": "ABSTRACT Electrochemical nitrogen reduction reaction (eNRR) is an emerging field in sustainable chemistry. This review explores the advancements and challenges in both low‐temperature (LT) and high‐temperature (HT) eNRR methodologies, including aqueous systems, solid‐state synthesis, and molten salt techniques. The primary challenges in eNRR are sufficient selectivity and energy efficiency with reliable data acquisition, especially in terms of false positive results. This review explores the current state of eNRR research, emphasizing the ongoing difficulties in improving both the efficiency and reliability of low‐temperature aqueous systems. We highlight the potential of lithium‐mediated systems in molten salts and organic solvents, which currently demonstrate considerable promise for industrial application, although energy efficiency remains a significant challenge. The review underscores the need for rigorous testing and more consistent research methodologies. This comprehensive analysis places recent advances in eNRR in the broader context of sustainable ammonia synthesis. It emphasizes the importance of continued innovation, standardized research practices, and collaborative validation efforts across different laboratories. In conclusion, while the eNRR field is evolving, a unified approach in research and validation is essential to overcome existing challenges. The successful development and implementation of eNRR technologies, especially lithium‐mediated methods, could revolutionize global ammonia production, offering a sustainable alternative to the conventional Haber–Bosch process.",
@@ -2725,8 +2656,7 @@
   "title": "Iron-Based Alumina-Supported Catalysts for Clean Hydrogen Production from Ammonia",
   "top": false,
   "topics": [
-   "nh3",
-   "joule"
+   "nh3"
   ],
   "url": "https://doi.org/10.3390/catal15030242",
   "via": "Crossref",
@@ -2736,35 +2666,6 @@
   ],
   "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
   "zh_obj": "氨分解制氢；涉及Fe/铁体系"
- },
- "10.3390/catal15030290": {
-  "abstract": "MnO2 catalysts are recognized as highly efficient materials for ozone decomposition at room temperature. However, the conventional preparation methods, such as the hydrothermal method, typically require critical conditions (100–200 °C for 6–48 h). Moreover, the prepared catalysts are almost powders, which makes them difficult to apply as monolithic catalysts. In this work, a simple pH-adjusted method was developed to in situ prepare MnO2 with different crystal phases (α, amorphous, and δ) under ambient conditions. XRD analysis revealed that decreasing the pH from 13 to 3 induced a gradual phase transformation from δ-MnO2 to amorphous MnO2, while the α-phase appeared at pH = 1.5. The combination of XPS and O2-TPD results shows that amorphous MnO2 exhibited the lowest average oxidation state (AOS) and highest oxygen vacancy concentration. The optimized amorphous MnO2 catalyst (Cat. 2) achieved the highest ozone removal efficiency of 98% with a high relative humidity of 90%. Furthermore, in situ DRIFTS experiments further demonstrated that the prepared Cat. 2 maintained minimal OH accumulation under humid conditions, confirming its excellent water resistance. Finally, the preparation method of amorphous MnO2 was effectively applied to cordierite honeycomb carrier (CHC). The a(amorphous)-MnO2/CHC catalyst module (100 mm × 100 mm × 20 mm) showed stable ozone removal efficiency of 60% during a 60 h evaluation in an air duct (O3: 400 ± 30 ppb, T: 25 ± 5 °C, gas velocity: 1 m s−1). This study innovatively developed a simple pH-adjusted method to prepare MnO2 with different crystal phases under ambient conditions and successfully applied it to the cordierite honeycomb carrier for monolithic catalyst development.",
-  "authors": [
-   "Haoran Bian",
-   "Zukun Xie",
-   "Qi Zhang"
-  ],
-  "cross": false,
-  "date": "2025-03-19",
-  "doi": "10.3390/catal15030290",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.3390/catal15030290",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 15,
-  "source": "Catalysts",
-  "tier": "transferable",
-  "title": "Synthesis of MnO2 with Different Crystal Phases via Adjusting pH for Ozone Decomposition Under Various Humidity Conditions and Monolithic Catalyst Development",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.3390/catal15030290",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "其他催化反应"
  },
  "10.3390/nano15060468": {
   "abstract": "This study addresses the challenge of the scalable, cost-effective synthesis of high-quality turbostratic graphene from low-cost carbon sources, including biomass waste such as sugarcane leaves, bagasse, corncobs, and palm bunches, using the Direct Current Long Pulse Joule Heating (DC-LPJH) technique. By optimizing the carbonization process and blending biomass-derived carbon with carbon black and turbostratic graphene, the gram-scale production of turbostratic graphene was achieved in just a few seconds. The synthesis process involved applying an 18 kJ electrical energy pulse for 1.5 s, resulting in temperatures of approximately 3000 K that facilitated the transformation of the carbon atoms into well-ordered turbostratic graphene. Structural and morphological characterization via Raman spectroscopy revealed low-intensity or absent D bands, with a high I2D/IG ratio (~0.8–1.2), indicating monolayer turbostratic graphene formation. X-ray photoelectron spectroscopy (XPS) identified sp2-hybridized carbon and oxygenated functional groups, while NEXAFS spectroscopy confirmed the presence of graphitic features and both sp2 and sp3 bonding states. Energy consumption calculations for the DC-LPJH process demonstrated approximately 10 kJ per gram, demonstrating the potential for cost-effective production. This work presents an efficient approach for producing high-quality turbostratic graphene from low-cost carbon sources, with applications in enhancing the properties of composites, polymers, and building materials.",

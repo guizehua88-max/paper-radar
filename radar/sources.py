@@ -50,6 +50,22 @@ def _date_parts(obj) -> str | None:
         return None
 
 
+def good_date(d: str | None, today: str | None = None) -> bool:
+    """Month precision or better, and not in the future (print-issue dates are often months ahead)."""
+    today = today or dt.date.today().isoformat()
+    return bool(d) and len(d) >= 7 and d[:7] <= today[:7]
+
+
+def best_date(candidates: list[str | None], fallback: str | None) -> str | None:
+    """Earliest publication date with at least month precision; else the DOI creation date."""
+    ok = sorted(d for d in candidates if good_date(d))
+    if ok:
+        return ok[0]
+    if good_date(fallback):
+        return fallback
+    return next((d for d in candidates if d), None) or fallback
+
+
 def _doi_key(doi: str) -> str:
     doi = doi.strip().lower()
     doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi)
@@ -87,12 +103,8 @@ def crossref(query: str, since: dt.date | None, rows: int, min_year: int,
         title = clean((it.get("title") or [""])[0])
         if not title:
             continue
-        date = (
-            _date_parts(it.get("published-online", {}))
-            or _date_parts(it.get("posted", {}))
-            or _date_parts(it.get("issued", {}))
-            or _date_parts(it.get("created", {}))
-        )
+        date = best_date([_date_parts(it.get(k, {})) for k in ("published-online", "posted", "published-print", "issued")],
+                         _date_parts(it.get("created", {})))
         issued_year = int(((_date_parts(it.get("issued", {})) or date or "0000")[:4]) or 0)
         if issued_year and issued_year < min_year:
             continue  # old paper whose DOI record was (re)created recently
