@@ -1564,6 +1564,37 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化硝酸盐转化"
  },
+ "10.1016/j.jeurceramsoc.2024.03.034": {
+  "abstract": "",
+  "authors": [
+   "Yihan Liang",
+   "Siqi Xiang",
+   "Xinfang Zhang"
+  ],
+  "cross": false,
+  "date": "2024-08",
+  "doi": "10.1016/j.jeurceramsoc.2024.03.034",
+  "first_seen": "2026-10-28T22:23:23Z",
+  "id": "10.1016/j.jeurceramsoc.2024.03.034",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Journal of the European Ceramic Society",
+  "tier": "transferable",
+  "title": "Fabrication of highly conducting undoped ZnO ceramics by flash sintering",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jeurceramsoc.2024.03.034",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "flash sintering"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
  "10.1016/j.jmst.2023.11.067": {
   "abstract": "",
   "authors": [
@@ -2627,6 +2658,144 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
+ },
+ "10.1039/d4ee02775b": {
+  "abstract": "Strong p–d intermetallic hybridization was performed to construct an ordered antiperovskite via transient heating strategy, exhibiting high and stable electrochemical activity in both ammonia synthesis and zinc–nitrate battery.",
+  "authors": [
+   "Peifang Wang",
+   "Chongchong Liu",
+   "Lei Rao",
+   "Weixiang Tao",
+   "Rong Huang",
+   "Peilin Huang",
+   "Gang Zhou"
+  ],
+  "cross": false,
+  "date": "2024-08-01",
+  "doi": "10.1039/d4ee02775b",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4ee02775b",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 13,
+  "source": "Energy & Environmental Science",
+  "tier": "background",
+  "title": "Transient heating synthesis of a highly ordered Ga–Cu intermetallic antiperovskite for efficient ammonia electrosynthesis and ultrastable zinc–nitrate fuel cells",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4ee02775b",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
+ "10.1039/d4nr02852j": {
+  "abstract": "Electrochemical ammonia synthesis presents a sustainable alternative, offering the potential for enhanced energy efficiency and environmental benefits compared to the conventional Haber-Bosch process.",
+  "authors": [
+   "Peiyan Lin",
+   "Fang Zhao",
+   "Xuefeng Ren",
+   "Yumeng Lu",
+   "Xiaoying Dong",
+   "Liguo Gao",
+   "Tingli Ma",
+   "Junjiang Bao",
+   "Anmin Liu"
+  ],
+  "cross": false,
+  "date": "2024-08-27",
+  "doi": "10.1039/d4nr02852j",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4nr02852j",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Nanoscale",
+  "tier": "background",
+  "title": "Recent progress on Ti-based catalysts in the electrochemical synthesis of ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4nr02852j",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.1039/d4ta03130j": {
+  "abstract": "A facile, rapid Joule heating protocol for forming amorphous-structured transition metal phosphate electrocatalysts with low overpotentials, fast kinetics, and long-term stability for oxygen evolution reaction (OER).",
+  "authors": [
+   "Junhao Ma",
+   "Chonghan Xia",
+   "Teddy Salim",
+   "Yee Yan Tay",
+   "Lydia H. Wong",
+   "Kwan W. Tan"
+  ],
+  "cross": false,
+  "date": "2024-08-07",
+  "doi": "10.1039/d4ta03130j",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4ta03130j",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "transferable",
+  "title": "Ultrafast Joule heating-induced formation of amorphous CoFeNi phosphate for efficient and stable oxygen evolution reaction",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1039/d4ta03130j",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "过程待核实"
+ },
+ "10.1039/d4tc01736f": {
+  "abstract": "This review summarizes the transformative impact of Joule heating on the synthesis of energy storage materials and their applications in battery electrodes, supercapacitors, solid-state electrolytes, electrode recycling and current collectors.",
+  "authors": [
+   "Jiahui Yuan",
+   "Yizi Zhang",
+   "Fuzhou Chen",
+   "Zhengrong Gu"
+  ],
+  "cross": false,
+  "date": "2024-08-07",
+  "doi": "10.1039/d4tc01736f",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4tc01736f",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Journal of Materials Chemistry C",
+  "tier": "transferable",
+  "title": "An overview of Joule heating in energy storage materials and applications",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1039/d4tc01736f",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "材料制备/结构调控"
  },
  "10.1088/1361-6528/ad64d9": {
   "abstract": "Abstract Ammonia (NH 3 ) is a versatile and important compound with a wide range of uses, which is currently produced through the demanding Haber-Bosch process. Electrocatalytic nitrate reduction into ammonia (NRA) has recently emerged as a sustainable approach for NH 3 synthesis under ambient conditions. However, the NRA catalysis is a complex multistep electrochemical process with competitive hydrogen evolution reaction that usually results in poor selectivity and low yield rate for NH 3 synthesis. With maximum atom utilization and well-defined catalytic sites, single atom catalysts (SACs) display high activity, selectivity and stability toward various catalytic reactions. Very recently, a number of SACs have been developed as promising NRA electrocatalysts, but systematical discussion about the key factors that affect their NRA performance is not yet to be summarized to date. This review focuses on the latest breakthroughs of SACs toward NRA catalysis, including catalyst preparation, catalyst characterization and theoretical insights. Moreover, the challenges and opportunities for improving the NRA performance of SACs are discussed, with an aim to achieve further advancement in developing high-performance SACs for efficient NH 3 synthesis.",
@@ -4049,6 +4218,172 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨硼烷水解；涉及Fe/铁体系"
  },
+ "10.2139/ssrn.4928295": {
+  "abstract": "Accurate detection of hydrogen peroxide (H2O2) is crucial in health, food and environmental monitoring. In this research, 3D nanostructured indium tin oxide (ITO) electrodes, prepared by the glancing angle deposition technique, were coated with a thin layer of platinum via atomic layer deposition (ALD), and the novel core/shell structure was used for electrochemical detection of H2O2. X-ray diffraction analysis confirmed the presence of crystalline Pt, and morphological assessments via scanning electron microscopy and energy dispersive x-ray spectroscopy revealed conformal deposition of Pt across the micron long ITO columns. The electrode prepared under optimized ALD conditions exhibited two contiguous ranges of linear H2O2 sensitivity: a low concentration range from 1-10 μM H2O2 with an outstanding sensitivity of 5400 ± 260 μA mM−1 cm−2 leading to a 0.9 µM limit of detection, and a higher concentration linear range from 10 μM – 8 mM H2O2 with 330 μA mM−1 cm−2 sensitivity. The sensor was selective to H2O2 in the presence of potential interferents found in tap water, and it maintained consistent sensing performance over a prolonged period of 50 days with a relative standard deviation of 3.5%. This promising performance underscores the effectiveness of the deposition techniques employed in this study.",
+  "authors": [
+   "Elham Kamali Heidari",
+   "Dipesh Aggarwal",
+   "Kenneth Bosnick",
+   "Abebaw B. Jemere",
+   "Ken D. Harris"
+  ],
+  "cross": false,
+  "date": "2024-08-19",
+  "doi": "10.2139/ssrn.4928295",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4928295",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 18,
+  "source": "SSRN",
+  "tier": "transferable",
+  "title": "Nanocolumnar Platinum-Coated Ito Electrodes Prepared by Atomic Layer Deposition and Glancing Angle Deposition for Electrocatalytic Hydrogen Peroxide Determination",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4928295",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Atomic Layer Deposit"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "其他催化反应；涉及原子层沉积"
+ },
+ "10.2139/ssrn.4930391": {
+  "abstract": "In addition to its main use in agriculture as the main feedstock for fertilizer production, ammonia is investigated as a prospective energy vector in several sectors. This, however, presupposes an environmentally friendly synthesis alternative to the Haber-Bosch process. Plasma-catalytic systems seem to be the perfect candidate, as they are well suited to utilize intermittent renewable energy sources and for small-scale on-site production. Despite extensive research, plasma-catalytic systems still face challenges, particularly the low energy yield, which falls short of the Haber-Bosch process. Most research used to be based on trial-and-error testing of different catalysts and reaction conditions but recent efforts have focused on uncovering the underlying mechanisms through various computational methods. In this review, the development of 0D plasma kinetic models is highlighted, and other modeling approaches across different scales, crucial for further advances in system efficiency and catalyst design, are analyzed.",
+  "authors": [
+   "Katja Vodlan",
+   "Blaž Likozar",
+   "Matej Huš"
+  ],
+  "cross": false,
+  "date": "2024-08-19",
+  "doi": "10.2139/ssrn.4930391",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4930391",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 9,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Modeling of Plasma-Activated Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4930391",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "等离子体驱动",
+  "zh_obj": "等离子体制氨"
+ },
+ "10.2139/ssrn.4935985": {
+  "abstract": "",
+  "authors": [
+   "Siyu Qiang",
+   "Sijuan Zeng",
+   "Hualei Liu",
+   "Jin Dai",
+   "Shuyu Liu",
+   "Yihe Yin",
+   "Fei Wang",
+   "Jianyong Yu",
+   "Yi-Tao Liu",
+   "Bin Ding"
+  ],
+  "cross": false,
+  "date": "2024-08-24",
+  "doi": "10.2139/ssrn.4935985",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4935985",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 9,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Boosting Electrochemical Ammonia Synthesis Via Dynamic Nitrogen Carriers Coupled with Electron-Rich Lewis Acidic Sites on Tio2–X Nanofiber",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4935985",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "化学链/晶格氮循环制氨"
+ },
+ "10.2139/ssrn.4938861": {
+  "abstract": "",
+  "authors": [
+   "Jeong Keun Kim",
+   "Hong Gun Kim",
+   "Lee Ku Kwac",
+   "Jihyung Han",
+   "Namjo Jeong",
+   "Kyosik Hwang"
+  ],
+  "cross": false,
+  "date": "2024-08-27",
+  "doi": "10.2139/ssrn.4938861",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4938861",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Enhanced Ammonia Nitrogen Removal and Recovery Through Intermembrane Distance and Stack Length Optimization in Bipolar Membrane Electrodialysis Systems",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4938861",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.2139/ssrn.4940087": {
+  "abstract": "",
+  "authors": [
+   "Alessandro Magnino",
+   "Paolo Marocco",
+   "Massimo Santarelli",
+   "Marta Gandiglo"
+  ],
+  "cross": false,
+  "date": "2024-08-29",
+  "doi": "10.2139/ssrn.4940087",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4940087",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 28,
+  "source": "SSRN",
+  "tier": "direct",
+  "title": "Economic Viability and Co2 Emissions of Hydrogen Production for Ammonia Synthesis: A Comparative Analysis Across Europe",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4940087",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.26434/chemrxiv-2024-34hhn": {
   "abstract": "Developing non-noble metal catalysts with excellent NH3 synthesis activity at mild conditions is a long-term objective. The reported best catalysts require either laborious multiple steps and controlled environments to fabricate the catalysts or high temperatures and long times to activate the catalysts. This work reports a facile one-pot method to fabricate carbon-based Ba-promoted Co catalysts via the citric acid sol-gel method using metal nitrates as precursors and water as the solvent, which allows the metal ions to be incorporated into the carbon framework homogeneously. The obtained (Ba/Co)0.3/C catalyst shows an outstanding NH3 synthesis activity of 34 mmol gcat−1 h−1 (350 oC, 1.0 MPa) with excellent stability. In-depth characterizations reveal that Ba exists as BaO, which is homogeneously distributed on the carbon framework and around the Co metal nanoparticles. We uncover that by retarding the BaCO3 formation in the fresh catalyst, the reduction temperature and time can be greatly decreased (485 oC/4 h), which is a fundamental advantage in this method. Density functional theory and molecular dynamics simulations indeed support the experimental observations. We anticipate that this facile and economical strategy will resolve the issues in a broad field of heterogeneous catalyst research.",
   "authors": [
@@ -4327,5 +4662,69 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.48130/cas-0024-0014": {
+  "abstract": "",
+  "authors": [
+   "Sharhabil Musa Yahaya",
+   "Nafiu Abdu",
+   "Ibrahim Abubakar Aliyu",
+   "Bello Mukhtar"
+  ],
+  "cross": false,
+  "date": "2024-08-29",
+  "doi": "10.48130/cas-0024-0014",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.48130/cas-0024-0014",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Circular Agricultural Systems",
+  "tier": "background",
+  "title": "Revolutionizing nitrogen fixation: communicating the potentials of nanostructured photocatalysts for sustainable ammonia/nitrate synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.48130/cas-0024-0014",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen fixation"
+  ],
+  "zh_method": "光驱动",
+  "zh_obj": "光催化硝酸盐转化"
+ },
+ "10.59717/j.xinn-mater.2024.100085": {
+  "abstract": "",
+  "authors": [
+   "Qingye Li",
+   "Yeping Xie",
+   "Jiayue Tang",
+   "Jinxing Chen"
+  ],
+  "cross": false,
+  "date": "2024-08-09",
+  "doi": "10.59717/j.xinn-mater.2024.100085",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.59717/j.xinn-mater.2024.100085",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "The Innovation Materials",
+  "tier": "transferable",
+  "title": "Revolutionary spatiotemporal joule heating for closed-loop plastics recycling",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.59717/j.xinn-mater.2024.100085",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
  }
 }

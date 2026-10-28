@@ -2576,6 +2576,151 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮"
  },
+ "10.1039/d4gc01422g": {
+  "abstract": "Magnesium single atoms derived from natural leaves for sustainable ammonia production.",
+  "authors": [
+   "Kanhai Kumar",
+   "Pragyan Tripathi",
+   "Gokul Raj",
+   "Dova Kalyan",
+   "Demudu Babu Gorle",
+   "Nikhil George Mohan",
+   "Surendra Kumar Makineni",
+   "Kothandaraman Ramanujam",
+   "Abhishek Kumar Singh",
+   "Karuna Kar Nanda"
+  ],
+  "cross": false,
+  "date": "2024-05-31",
+  "doi": "10.1039/d4gc01422g",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4gc01422g",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Green Chemistry",
+  "tier": "background",
+  "title": "Green synthesis of a magnesium single-atom catalyst from Spinacia oleracea chlorophyll extracts for sustainable electrocatalytic nitrate reduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4gc01422g",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
+ "10.1039/d4nj01662a": {
+  "abstract": "This study via the synthesis of in situ exsolved CoFe alloy NPs for use as NRR catalysts for electrochemical synthesis of ammonia. Good results have been obtained.",
+  "authors": [
+   "Yufeng Du",
+   "Xiang Su",
+   "Xin Wang",
+   "Lingting Ye",
+   "Kui Xie"
+  ],
+  "cross": false,
+  "date": "2024-05-17",
+  "doi": "10.1039/d4nj01662a",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4nj01662a",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "New Journal of Chemistry",
+  "tier": "background",
+  "title": "In situ exsolved CoFe alloys over perovskite toward enhanced ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4nj01662a",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.1039/d4nr01510j": {
+  "abstract": "Fundamentals of the CJH technique and its application in preparing a wide range of materials.",
+  "authors": [
+   "Xinrui Ding",
+   "Zihan He",
+   "Jiasheng Li",
+   "Xiaolin Xu",
+   "Zongtao Li"
+  ],
+  "cross": false,
+  "date": "2024-05-24",
+  "doi": "10.1039/d4nr01510j",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4nr01510j",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Nanoscale",
+  "tier": "transferable",
+  "title": "Carbon carrier-based rapid Joule heating technology: a review on the preparation and applications of functional nanomaterials",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1039/d4nr01510j",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控"
+ },
+ "10.1039/d4se00411f": {
+  "abstract": "A Ba-doped Fe/MgO catalyst pre-reduced at 700 °C, much higher than that of conventional Fe catalysts, forms an Fe 0 -core and BaO-shell structure. This enhances ammonia synthesis activity due to electron donation from BaO to N 2 via Fe 0 .",
+  "authors": [
+   "Kohei Era",
+   "Katsutoshi Sato",
+   "Shin-ichiro Miyahara",
+   "Takahiro Naito",
+   "Kanishka De Silva",
+   "Saeid Akrami",
+   "Hiroshi Yamada",
+   "Takaaki Toriyama",
+   "Takehiro Tamaoka",
+   "Tomokazu Yamamoto",
+   "Yasukazu Murakami",
+   "Koji Inazu",
+   "Katsutoshi Nagaoka"
+  ],
+  "cross": false,
+  "date": "2024-05-08",
+  "doi": "10.1039/d4se00411f",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4se00411f",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 28,
+  "source": "Sustainable Energy & Fuels",
+  "tier": "direct",
+  "title": "Barium-doped iron nanoparticles supported on MgO as an efficient catalyst for ammonia synthesis under mild reaction conditions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4se00411f",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+ },
  "10.1063/5.0207496": {
   "abstract": "Small molecule inhibitors (SMIs) have been gaining attention in the field of area-selective atomic layer deposition (ALD) because they can be applied in the vapor-phase. A major challenge for SMIs is that vapor-phase application leads to a disordered inhibitor layer with lower coverage as compared to self-assembled monolayers, SAMs. A lower coverage of SMIs makes achieving high selectivity for area-selective ALD more challenging. To overcome this challenge, mechanistic understanding is required for the formation of SMI layers and the resulting precursor blocking. In this study, reflection adsorption infrared spectroscopy measurements are used to investigate the performance of aniline as an SMI. Our results show that aniline undergoes catalytic surface reactions, such as hydrogenolysis, on a Ru non-growth area at substrate temperatures above 250 °C. At these temperatures, a greatly improved selectivity is observed for area-selective TaN ALD using aniline as an inhibitor. The results suggest that catalytic surface reactions of the SMI play an important role in improving precursor blocking, likely through the formation of a more carbon-rich inhibitor layer. More prominently, catalytic surface reactions can provide a new strategy for forming inhibitor layers that are otherwise very challenging or impossible to form directly through vapor-phase application.",
   "authors": [
@@ -2788,6 +2933,209 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢；涉及Ru/钌体系、碳材料"
+ },
+ "10.2139/ssrn.4816860": {
+  "abstract": "",
+  "authors": [
+   "Alison Elizabeth Cox",
+   "Cigdem Eskicioglu"
+  ],
+  "cross": false,
+  "date": "2024-05-03",
+  "doi": "10.2139/ssrn.4816860",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4816860",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Ammonia Stripping of Hydrothermal Liquefaction Aqueous Phase from Municipal Sludge for Anaerobic Co-Digestion Pretreatment and Ammonia Recovery",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4816860",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.2139/ssrn.4824366": {
+  "abstract": "",
+  "authors": [
+   "Jae Hyung Kim",
+   "Jung-Eun Cha",
+   "HyungKuk Ju",
+   "Young-Woo Choi",
+   "Justin Albers",
+   "Joonmok Shim",
+   "Sun Hyung Kim",
+   "Kyungho Lee",
+   "Hyung-Chul Yoon"
+  ],
+  "cross": false,
+  "date": "2024-05-11",
+  "doi": "10.2139/ssrn.4824366",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4824366",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 9,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Utilizing Water as a Proton Source for Sustainable Li-Mediated Electrochemical Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4824366",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.2139/ssrn.4831009": {
+  "abstract": "",
+  "authors": [
+   "Qiuyan Xue",
+   "Ziheng Han",
+   "Tuo Guo",
+   "Zhuxian Gao",
+   "Jingjing Ma",
+   "Xiude Hu",
+   "Qingjie Guo"
+  ],
+  "cross": false,
+  "date": "2024-05-16",
+  "doi": "10.2139/ssrn.4831009",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4831009",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 28,
+  "source": "SSRN",
+  "tier": "direct",
+  "title": "High Activity of Nickel-Promoted Mn4n in Chemical Looping Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4831009",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "化学链/晶格氮循环制氨"
+ },
+ "10.2139/ssrn.4831307": {
+  "abstract": "",
+  "authors": [
+   "Jianyue Yan",
+   "Peng Liu",
+   "Jiawen Li",
+   "Hao Huang",
+   "Shengfu Tong",
+   "Wenbo Song"
+  ],
+  "cross": false,
+  "date": "2024-05-16",
+  "doi": "10.2139/ssrn.4831307",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4831307",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 9,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "A Bioinspired Fe/Mo Bimetallic Nitride Catalyst for Efficient Electrochemical Ammonia Synthesis and Zn-Nitrate Battery",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4831307",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+ },
+ "10.2139/ssrn.4832959": {
+  "abstract": "",
+  "authors": [
+   "Yaru Zhou",
+   "Qiming Wu",
+   "Wenwu Xu",
+   "Yangyang Wang",
+   "Yangyang Liu",
+   "Yinglong Wang",
+   "Peizhe Cui",
+   "Sheng Yang",
+   "Bo Wang",
+   "Xiaolei Zhao"
+  ],
+  "cross": false,
+  "date": "2024-05-18",
+  "doi": "10.2139/ssrn.4832959",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4832959",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 28,
+  "source": "SSRN",
+  "tier": "direct",
+  "title": "Sustainable Analysis of Ammonia Synthesis Process Integrated with Liquefied Natural Gas Cold Energy Utilization Based on Carbon and Water Footprint",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4832959",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.2139/ssrn.4839781": {
+  "abstract": "",
+  "authors": [
+   "Erhan Onat",
+   "Fatih Ahmet ÇELİK",
+   "Ömer Şahin",
+   "Ezman Karabulut",
+   "Mehmet Sait İZGİ"
+  ],
+  "cross": false,
+  "date": "2024-05-23",
+  "doi": "10.2139/ssrn.4839781",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4839781",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "H2 Production from Ammonia Borane Hydrolysis with Catalyst Effect of Titriplex® Iii Carbon Quantum Dots Supported by Ruthenium Under Different Reactant Conditions: Experimental Study and Predictions with Molecular Modelling",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4839781",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解；涉及Ru/钌体系"
  },
  "10.2320/matertrans.mt-m2023212": {
   "abstract": "",
@@ -3444,6 +3792,40 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+ },
+ "10.3866/pku.dxhx202312081": {
+  "abstract": "",
+  "authors": [
+   "Jiapei Zou",
+   "Junyang Zhang",
+   "Xuming Wu",
+   "Cong Wei",
+   "Simin Fang",
+   "Yuxi Wang"
+  ],
+  "cross": false,
+  "date": "2024-05-17",
+  "doi": "10.3866/pku.dxhx202312081",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.3866/pku.dxhx202312081",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Daxue Huaxue",
+  "tier": "background",
+  "title": "A Comprehensive Experiment Based on Electrocatalytic Nitrate Reduction into Ammonia: Synthesis, Characterization, Performance Exploration, and Applicable Design of Copper-based Catalysts",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3866/pku.dxhx202312081",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.53964/id.2024009": {
   "abstract": "Ammonia, being a vital chemical compound, has made substantial contributions to the progress of society. It addresses not only the issue of nitrogen fixation from the atmosphere but also helps alleviate the food crisis. Nevertheless, the conventional Haber-Bosch process for synthesizing ammonia is frequently associated with substantial greenhouse gas emissions and the consumption of fossil fuels. Consequently, in response to significant environmental challenges, the prospective trajectory for the synthetic ammonia sector involves the adoption of strategies such as carbon reduction, energy-efficient conversions, and the exploration of environmentally friendly and sustainable approaches to ammonia synthesis. Among the various methods for green ammonia synthesis, chemical looping ammonia synthesis (CLAS) technology is regarded as one of the most promising alternatives to conventional ammonia synthesis methods in the upcoming years. This can be attributed to the relatively mild operating conditions and the flexible and distributed characteristics of its processes. In this paper, the thermodynamic and kinetic properties of nitridation and ammoniation reactions were examined through the lens of CLAS. The design and regulation strategies of nitrogen carriers (NCs) are summarized based on various types of NCs. The process of CLAS was summarized in relation to various NCs. This paper serves as a foundational resource for the prospective advancement of the CLAS framework.",

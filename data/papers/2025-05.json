@@ -2377,6 +2377,82 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
+ "10.1039/d4nr05370b": {
+  "abstract": "This study uses DFT to show that hydrogen passivation raises energy barriers for Pt, Cu, and Au ALD on silicon, suggesting selective deposition. Gold shows the largest barrier shift; platinum has the most controlled pathways.",
+  "authors": [
+   "Giorgia Barile",
+   "Federico Ravera",
+   "Yuri Ardesi",
+   "Fabrizio Mo",
+   "Gianluca Piccinini",
+   "Mariagrazia Graziano"
+  ],
+  "cross": false,
+  "date": "2025-05-21",
+  "doi": "10.1039/d4nr05370b",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4nr05370b",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Nanoscale",
+  "tier": "transferable",
+  "title": "First principles investigation of hydrogen passivation for selective atomic layer deposition of Pt, Cu, and Au metals",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1039/d4nr05370b",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+ },
+ "10.1039/d5ee01585e": {
+  "abstract": "This work highlights the potential of nitrate reduction as a viable and sustainable alternative for green ammonia production, bridging the gap between fundamental research and industrial application.",
+  "authors": [
+   "Longcheng Zhang",
+   "Yuan Liu",
+   "Ling Li",
+   "Tianze Wu",
+   "Qian Wu",
+   "Justin Zhu Yeow Seow",
+   "Xiu Lin",
+   "Shirong Sun",
+   "Leonhard Tannesia",
+   "Kai Tang",
+   "Dongsheng Shao",
+   "Shibo Xi",
+   "Xiaodong Guo",
+   "Zhichuan J. Xu"
+  ],
+  "cross": false,
+  "date": "2025-05-13",
+  "doi": "10.1039/d5ee01585e",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d5ee01585e",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 13,
+  "source": "Energy & Environmental Science",
+  "tier": "background",
+  "title": "High-efficiency ammonia electrosynthesis from nitrate on ruthenium-induced trivalent cobalt sites",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d5ee01585e",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系"
+ },
  "10.1088/1742-6596/3013/1/012012": {
   "abstract": "Abstract This study employs density functional theory (DFT) to demonstrate the feasibility of nitrate reduction reaction (NO 3 RR) to ammonia on covalent organic frameworks (COFs) functionalized with single-atom catalysts. Experimental data reveal that the Aza-CMP-Cu catalyst demonstrates superior catalytic activity in the electrochemical NO 3 RR, achieving a thermodynamic limiting potential of -0.54 V. Moreover, the formation of by-products such as NO 2 and NO is energetically unfavorable, ensuring high selectivity towards NH 3 . These findings provide valuable insights into the development of catalysts for NO 3 RR.",
   "authors": [
@@ -2538,6 +2614,238 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控"
  },
+ "10.2139/ssrn.5245105": {
+  "abstract": "",
+  "authors": [
+   "Serdar Akbayrak",
+   "Saim Özkar"
+  ],
+  "cross": false,
+  "date": "2025-05-07",
+  "doi": "10.2139/ssrn.5245105",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5245105",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Palladium Nanoparticles Supported on Nickel Ferrite: Highly Efficient Catalyst for Hydrogen Generation from the Hydrolysis of Ammonia Borane",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5245105",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解"
+ },
+ "10.2139/ssrn.5249430": {
+  "abstract": "",
+  "authors": [
+   "Shaoshuang Zhu",
+   "Kaiyu Liu",
+   "Lu Pan",
+   "Huimin Jiang",
+   "Jianjian Lin"
+  ],
+  "cross": false,
+  "date": "2025-05-10",
+  "doi": "10.2139/ssrn.5249430",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5249430",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 28,
+  "source": "SSRN",
+  "tier": "direct",
+  "title": "Iron-Doped Sns2/Sno2 Heterostructures Modulate Interfacial Electric Field for Efficient Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5249430",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "电场辅助，未证实焦耳供热",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+ },
+ "10.2139/ssrn.5256350": {
+  "abstract": "",
+  "authors": [
+   "Jiahao Huang",
+   "Shixian Zhang",
+   "Qing Wang",
+   "Lei Zhu"
+  ],
+  "cross": false,
+  "date": "2025-05-15",
+  "doi": "10.2139/ssrn.5256350",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5256350",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 18,
+  "source": "SSRN",
+  "tier": "transferable",
+  "title": "Synthesis and Induction Heating-Induced Self-Healing of Epoxy Vitrimer Nanocomposites",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5256350",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Induction Heating"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
+ "10.2139/ssrn.5263655": {
+  "abstract": "",
+  "authors": [
+   "Lei Miao",
+   "xiaojiang mu",
+   "Congjie Hong",
+   "Zhongmei Yang",
+   "Xiaoyang Wang"
+  ],
+  "cross": false,
+  "date": "2025-05-21",
+  "doi": "10.2139/ssrn.5263655",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5263655",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 9,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Efficient One-Step Electrochemical Synthesis of Ammonia-Hydrogen Fuel for Clean Energy Applications",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5263655",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Synthesis of Ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.2139/ssrn.5269490": {
+  "abstract": "",
+  "authors": [
+   "Lei Guo",
+   "Zhongrui Li",
+   "Tong Zhang",
+   "Juan Qiu",
+   "Zongyao Duan",
+   "Yunhua Xu",
+   "Jing Bai",
+   "Jinling Cao",
+   "Lingna Liu",
+   "Haijun Yan",
+   "Santosh Kumar Kumar Verma"
+  ],
+  "cross": false,
+  "date": "2025-05-26",
+  "doi": "10.2139/ssrn.5269490",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5269490",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 9,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Low Ruthenium Loading Ru/Coxalo Hydrotalcite-Derived Catalyst Design for Ammonia Decomposition",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5269490",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系"
+ },
+ "10.2139/ssrn.5271499": {
+  "abstract": "",
+  "authors": [
+   "Shijie Zheng",
+   "jie hu",
+   "Zhenguo Li",
+   "Yuankai Shao",
+   "Hanming Wu",
+   "Maoxuan Wang",
+   "Zhizhou Cai",
+   "Fuwu Yan"
+  ],
+  "cross": false,
+  "date": "2025-05-27",
+  "doi": "10.2139/ssrn.5271499",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5271499",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Temperature-Dependent Ammonia Adsorption-Desorption Dynamics in Cu-Ssz-13 Catalyst: Experimental Insights and Multi-Site Kinetic Model Validation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5271499",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.2139/ssrn.5275735": {
+  "abstract": "",
+  "authors": [
+   "Chengyu Li",
+   "Jianjun Chen",
+   "Xiaohong Li",
+   "Jinyu Guo",
+   "Hao Chen"
+  ],
+  "cross": false,
+  "date": "2025-05-30",
+  "doi": "10.2139/ssrn.5275735",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.5275735",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 18,
+  "source": "SSRN",
+  "tier": "transferable",
+  "title": "Flash Joule Heating Enables Rapid Synthesis of Silicon Carbide Nanowires",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.5275735",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控"
+ },
  "10.26034/roadsides-202501310": {
   "abstract": "The essay rethinks the industrial infrastructures of ammonia synthesis and develops a notion of specific associated toxicities. Particular interest is put on the “openness” of this infrastructure. High pressure plant facilities only work as cleary defined, controlled environments. But the reactors and visible tubular structures of an ammonia plant only form the core of a technical structure which - if one chooses the right angle of analysis - puts all systemic spheres of the planet into communication.",
   "authors": [
@@ -2695,6 +3003,47 @@
   "why": [],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
+ },
+ "10.26599/jac.2025.9221074": {
+  "abstract": "",
+  "authors": [
+   "Yingjun Liu",
+   "Song Liu",
+   "Yuhan Yao",
+   "Yimeizhi Sun",
+   "Yang Zhang",
+   "Hongfeng Dong",
+   "Xiaolei Wang",
+   "Yating Zhao",
+   "Wenhu Li",
+   "Taotao Ai",
+   "Luyi Zhu",
+   "Zhaozhao Lv",
+   "Xuefeng Wang"
+  ],
+  "cross": false,
+  "date": "2025-05",
+  "doi": "10.26599/jac.2025.9221074",
+  "first_seen": "2026-10-28T22:23:23Z",
+  "id": "10.26599/jac.2025.9221074",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Journal of Advanced Ceramics",
+  "tier": "transferable",
+  "title": "Ultrafast preparation of dense textured ZrB 2 -based ceramics via heavy continuous DC Joule heating and pressing",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.26599/jac.2025.9221074",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
  },
  "10.31635/ccschem.024.202404299": {
   "abstract": "",

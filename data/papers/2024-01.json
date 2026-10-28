@@ -395,6 +395,43 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积"
  },
+ "10.1016/j.cej.2023.148045": {
+  "abstract": "",
+  "authors": [
+   "Wei Zhu",
+   "Hai Su",
+   "Panxing Bai",
+   "Zhenfei Li",
+   "Jingchao Zhang",
+   "Jinfeng Zhang",
+   "Mengjie Li",
+   "Yanan Chen",
+   "Yunhua Xu"
+  ],
+  "cross": false,
+  "date": "2024-01",
+  "doi": "10.1016/j.cej.2023.148045",
+  "first_seen": "2026-10-28T22:23:23Z",
+  "id": "10.1016/j.cej.2023.148045",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Chemical Engineering Journal",
+  "tier": "transferable",
+  "title": "A layered/spinel heterostructured cathode for Li-ion batteries prepared by ultrafast Joule heating",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2023.148045",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
  "10.1016/j.cej.2023.148302": {
   "abstract": "",
   "authors": [
@@ -1725,6 +1762,213 @@
   "zh_method": "焦耳热用于制备",
   "zh_obj": "通用催化方法；涉及Fe/铁体系、碳材料"
  },
+ "10.1039/d3gc04399a": {
+  "abstract": "The catalyst-free CO 2 reduction with ammonia borane in the solid state is reported. Close to 40 mmol of CO 2 per gram of ammonia borane can be reduced at 0.5 MPa and 60 °C to formamide in high yield, achieving a highly atom-economical process.",
+  "authors": [
+   "Loris Lombardo",
+   "Taichi Nishiguchi",
+   "Youngdon Ko",
+   "Liping Zhong",
+   "Nao Horike",
+   "Andreas Züttel",
+   "Satoshi Horike"
+  ],
+  "cross": false,
+  "date": "2024-01-05",
+  "doi": "10.1039/d3gc04399a",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d3gc04399a",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "Green Chemistry",
+  "tier": "background",
+  "title": "Solvent- and catalyst-free reduction of CO 2 with ammonia borane",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d3gc04399a",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解"
+ },
+ "10.1039/d3nr05331h": {
+  "abstract": "A “top down” strategy for the transformation of Co NPs to Co SAs was proposed and the synthesized Co SAs/CNF electrocatalyst exhibited excellent electrocatalytic NO 3 RR activity with a FE of 91.30% at −0.70 V vs. RHE.",
+  "authors": [
+   "Xuan Zheng",
+   "Jiace Hao",
+   "Zechao Zhuang",
+   "Qi Kang",
+   "Xiaofan Wang",
+   "Shuanglong Lu",
+   "Fang Duan",
+   "Mingliang Du",
+   "Han Zhu"
+  ],
+  "cross": false,
+  "date": "2024-01-31",
+  "doi": "10.1039/d3nr05331h",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d3nr05331h",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Nanoscale",
+  "tier": "background",
+  "title": "Emerging electrospinning platform toward nanoparticle to single atom transformation for steering selectivity in ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d3nr05331h",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+ },
+ "10.1039/d3sc05447k": {
+  "abstract": "A molybdenum halide cluster complex is converted to an angstrom-size metal cluster on HY zeolite. The cluster efficiently catalyzes ammonia synthesis owing to high N 2 activation ability brought by cooperation of the multiple molybdenum sites.",
+  "authors": [
+   "Satoshi Kamiguchi",
+   "Kiyotaka Asakura",
+   "Tamaki Shibayama",
+   "Tomoko Yokaichiya",
+   "Tatsushi Ikeda",
+   "Akira Nakayama",
+   "Ken-ichi Shimizu",
+   "Zhaomin Hou"
+  ],
+  "cross": false,
+  "date": "2024-01-22",
+  "doi": "10.1039/d3sc05447k",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d3sc05447k",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 28,
+  "source": "Chemical Science",
+  "tier": "direct",
+  "title": "Catalytic ammonia synthesis on HY-zeolite-supported angstrom-size molybdenum cluster",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d3sc05447k",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.1039/d3se01527k": {
+  "abstract": "A new electrochemical cell with a hydrogen-permeable membrane, carbon-supported Ru catalysts, and CsH 2 PO 4 /SiP 2 O 7 electrolytes synthesizes NH 3 from N 2 and steam at 10 mA cm −2 , 250 °C, and 1.0 MPa with an impressive 28% current efficiency, marking a significant leap in sustainable ammonia production.",
+  "authors": [
+   "Shintaroh Nagaishi",
+   "Rika Hayashi",
+   "Aika Hirata",
+   "Raisei Sagara",
+   "Jun Kubota"
+  ],
+  "cross": false,
+  "date": "2024-01-17",
+  "doi": "10.1039/d3se01527k",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d3se01527k",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Sustainable Energy & Fuels",
+  "tier": "background",
+  "title": "Ammonia synthesis from nitrogen and steam using electrochemical cells with a hydrogen-permeable membrane and Ru/Cs + /C catalysts",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d3se01527k",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Ru/钌体系、碳材料"
+ },
+ "10.1039/d3ta05939a": {
+  "abstract": "Active learning based on literature and experimental data enabled the discovery of highly active novel catalysts for ammonia synthesis. Pathway analysis implies that these activities have been achieved by both structural and electronic promotion.",
+  "authors": [
+   "Rasika Jayarathna",
+   "Thossaporn Onsree",
+   "Samuel Drummond",
+   "Jennifer Naglic",
+   "Jochen Lauterbach"
+  ],
+  "cross": false,
+  "date": "2024-01-02",
+  "doi": "10.1039/d3ta05939a",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d3ta05939a",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 28,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "direct",
+  "title": "Experimental discovery of novel ammonia synthesis catalysts via active learning",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d3ta05939a",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.1039/d3ta07311d": {
+  "abstract": "N 2 can be activated via s–d orbital synergy of AE metal active centers, i.e. , AE metals's orbitals share electrons with their empty d orbitals, and then the partially occupied d orbitals exchange electrons with the σ and π* orbitals of N 2 .",
+  "authors": [
+   "Donghai Wu",
+   "Jiarui Wu",
+   "Haobo Li",
+   "Wenjing Lv",
+   "Yanhao Song",
+   "Dongwei Ma",
+   "Yu Jia"
+  ],
+  "cross": false,
+  "date": "2024-01-08",
+  "doi": "10.1039/d3ta07311d",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d3ta07311d",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 28,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "direct",
+  "title": "Unlocking the potential of alkaline-earth metal active centers for nitrogen activation and ammonia synthesis: the role of s–d orbital synergy",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d3ta07311d",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.1073/pnas.2318408121": {
   "abstract": "We synthesized ammonia (NH 3 ) by bubbling nitrogen (N 2 ) gas into bulk liquid water (200 mL) containing 50 mg polytetrafluoroethylene (PTFE) particles (~5 µm in diameter) suspended with the help of a surfactant (Tween 20, ~0.05 vol.%) at room temperature (25 °C). Electron spin resonance spectroscopy and density functional theory calculations reveal that water acts as the proton donor for the reduction of N 2 . Moreover, isotopic labeling of the N 2 gas shows that it is the source of nitrogen in the ammonia. We propose a mechanism for ammonia generation based on the activation of N 2 caused by electron transfer and reduction processes driven by contact electrification. We optimized the pH of the PTFE suspension at 6.5 to 7.0 and employed ultrasonic mixing. We found an ammonia production rate of ~420 μmol L −1 h −1 per gram of PTFE particles for the conditions described above. This rate did not change more than 10% over an 8-h period of sustained reaction.",
   "authors": [
@@ -1852,6 +2096,35 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
+ "10.12677/ms.2024.141008": {
+  "abstract": "",
+  "authors": [
+   "胜虎 李"
+  ],
+  "cross": false,
+  "date": "2024-01-25",
+  "doi": "10.12677/ms.2024.141008",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.12677/ms.2024.141008",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Material Sciences",
+  "tier": "background",
+  "title": "Exploration of Ce-Doped CuO Catalyst for Ammonia Decomposition to Produce Hydrogen",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.12677/ms.2024.141008",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢"
+ },
  "10.21203/rs.3.rs-3792425/v1": {
   "abstract": "Abstract Atomic layer deposition (ALD) is a method to grow thin metal oxide layers on a variety of materials for applications spanning from electronics to catalysis. Extending ALD to colloidally stable nanocrystals promises to combine the benefits of thin metal oxide coatings with the solution processability of nanocrystals. However, challenges persist in applying this method, which relate to finding precursors that promote growth of the metal oxide while preserving colloidal stability throughout the process. Herein, we introduce a colloidal ALD method to coat nanocrystals with amorphous metal oxide shells using metal and oxygen precursors that act as colloidally stabilizing ligands. Our scheme, involves metal-amide precursors modified with solubilizing groups and oleic acid as the oxygen source. The growth of the oxide is self-limiting and proceeds in a layer-by-layer fashion. Our protocol is generalizable and intrinsically scalable. Potential applications in display, light detection and catalysis are envisioned.",
   "authors": [
@@ -1889,6 +2162,142 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "通用催化方法；涉及原子层沉积"
+ },
+ "10.2139/ssrn.4698546": {
+  "abstract": "",
+  "authors": [
+   "Simon Doherty",
+   "Adhwa A. Alharbi",
+   "Corinne Wills",
+   "Casey Dixon",
+   "Elisabetta Arca",
+   "Thomas W. Chamberlain",
+   "Anthony Griffiths",
+   "Sean M. Collins",
+   "Kejun Wu",
+   "Han Yan",
+   "Richard A. Bourne",
+   "Julian G. Knight"
+  ],
+  "cross": false,
+  "date": "2024-01-17",
+  "doi": "10.2139/ssrn.4698546",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4698546",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Efficient Hydrogen Evolution from Dimethylamine Borane, Ammonia Borane and Sodium Borohydride Catalyzed by Ruthenium and Platinum Nanoparticles Stabilized by an Amine Modified Polymer Immobilized Ionic Liquid: A Comparative Study*",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4698546",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解；涉及Ru/钌体系"
+ },
+ "10.2139/ssrn.4705676": {
+  "abstract": "",
+  "authors": [
+   "ASHWATH NARAYANA",
+   "Mahendra Prashanth K V",
+   "veerabhadraswamy BN",
+   "SANTOSH Y Khatavi",
+   "CV YELAMAGGAD"
+  ],
+  "cross": false,
+  "date": "2024-01-24",
+  "doi": "10.2139/ssrn.4705676",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4705676",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 6,
+  "source": "SSRN",
+  "tier": "background",
+  "title": "Facile Green Synthesis of Zinc Oxide Nanoparticles and Their Excellent Ammonia Sensing Behaviour at Room Temperature",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4705676",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.2139/ssrn.4709925": {
+  "abstract": "",
+  "authors": [
+   "Deniz Uner",
+   "Mustafa Yasin Aslan",
+   "Serdar Akbayrak",
+   "Saim Özkar"
+  ],
+  "cross": false,
+  "date": "2024-01-30",
+  "doi": "10.2139/ssrn.4709925",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4709925",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 28,
+  "source": "SSRN",
+  "tier": "direct",
+  "title": "Adsorption Intensified Ammonia Synthesis Over Zeolite-Y and Hydroxyapatite Supported Ru",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4709925",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+ },
+ "10.2139/ssrn.4711587": {
+  "abstract": "",
+  "authors": [
+   "Jiaqi Zheng",
+   "Shihan Liu",
+   "Lijuan Xiang",
+   "Junda Kuang",
+   "Jing Guo",
+   "Lin Wang",
+   "Nan Li"
+  ],
+  "cross": false,
+  "date": "2024-01-31",
+  "doi": "10.2139/ssrn.4711587",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.2139/ssrn.4711587",
+  "kind": "preprint",
+  "origin": "回填",
+  "score": 28,
+  "source": "SSRN",
+  "tier": "direct",
+  "title": "Constructing a Interfacial Electric Field for Efficient Reduction of Nitrogen to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2139/ssrn.4711587",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Reduction of Nitrogen"
+  ],
+  "zh_method": "电场辅助，未证实焦耳供热",
+  "zh_obj": "制氨路线未明确"
  },
  "10.22541/au.170663514.45088221/v1": {
   "abstract": "Electrochemical conversion of NO3- to NH3 production is of great environmental significance for water pollution treatment and can artificially close the nitrogen cycle. However, direct nine proton and eight electron transfer leads to low Faraday efficiency (FE) and yield. Herein, the single copper site immobilized on N, P co-doped carbon substrates (Cu-N4/P) was prepared for efficient NO3–to-NH3 conversion. Benefiting from electronic redistribution of Cu site induced by the introduction of the less electronegative element P, Cu-N4/P catalyst has superior catalytic properties to the comparison sample, including 100% NO3- conversion, high FE (96.12%) and NH3 yield (124.22 mmol/(h·gcat)). Density functional theory (DFT) explains the effective operation mechanism that P doping can promote the spontaneous hydrogenation of *NO to form *NOH, thus promoting the formation of NH3 from NO3- reduction reaction. The heteroatom doping strategy mentioned proposes a new approach for promoting NO3–to-NH3 conversion at atomic level catalytic sites.",
