@@ -173,12 +173,18 @@ class Radar:
                           key=lambda p: (-TIER_RANK[p["tier"]], -p["score"]))
         results: list[str] = []
         site_url = S.get("site_url", "")
-        if first_run and not pushable:
+        welcome = first_run or (self.state.get("welcome_pending") and push.channels())
+        if welcome and not first_run:
+            # push channel was added after the first run: send the start-up message now
+            recent = sorted([p for p in self.papers.values() if p.get("tier") in ("cross", "direct", "transferable")
+                             and p.get("kind") != "wechat"], key=lambda p: (p.get("date") or "", p.get("score", 0)), reverse=True)
+            pushable = pushable or recent[:10]
+        if welcome and not pushable:
             results = push.send("文献雷达已启动", f"日常追踪已开始运行，资料库里现有 {len(self.papers)} 篇（{S.get('archive_from', '2024-01')} 起）。"
                                 "以后每天检查两次，有新论文就推送到这里。" + (f"\n\n[打开文献雷达]({site_url})" if site_url else ""))
-        elif first_run:
-            head = (f"首次运行成功：回溯 {days} 天找到相关论文 {len(new_items)} 篇，达到推送标准 {len(pushable)} 篇。"
-                    "以后只推送新出现的论文。最靠前的几篇：")
+        elif welcome:
+            head = (f"文献雷达已开始运行：资料库现有 {len(self.papers)} 篇（{S.get('archive_from', '2024-01')} 起）。"
+                    "以后每天检查两次，只推送新出现的论文。最近的重点论文：")
             results = push.send(f"文献雷达已启动：重点 {len(pushable)} 篇", push.digest(pushable[:10], site_url, head))
         elif pushable:
             top = pushable[: S["max_push_items"]]
@@ -205,7 +211,9 @@ class Radar:
                 results += push.send("⚠️ 文献雷达：主数据源异常",
                                      f"Crossref 本次全部请求失败：{cr['err']}\n\n通常是临时故障，下次运行会自动重试；连续几天收到再看 GitHub Actions 日志。")
                 self.state["last_alert_at"] = iso(now)
-        if results and any(r.endswith(":ok") or r == "dry-run" for r in results):
+        if welcome:
+            self.state["welcome_pending"] = not push.delivered(results)
+        if results and push.delivered(results):
             self.state["last_push_at"] = iso(now)
         self.state["initialized"] = True
         self.state["last_run"] = iso(now)
@@ -262,7 +270,7 @@ class Radar:
                 msg += f"\n\n[打开文献雷达]({self.S['site_url']})"
             if not bf.get("announced"):
                 results = push.send("文献雷达：历史回填完成", msg)
-                bf["announced"] = True
+                bf["announced"] = push.delivered(results)
         self.finish(results, {"模式": "回填", "本次完成月份": f"{completed[0]}…{completed[-1]}" if completed else "无",
                               "本次新增": added, "剩余月份": len(remaining)})
         if remaining:
@@ -342,6 +350,8 @@ def main(argv=None) -> int:
             y, mo = (y + 1, 1) if mo == 12 else (y, mo + 1)
         if any(x not in bf.get("done", []) for x in months_needed):
             r.backfill(start, (r.now.replace(day=1) - dt.timedelta(days=1)).strftime("%Y-%m"))
+        elif not bf.get("announced") and push.channels():
+            r.backfill(start, (r.now.replace(day=1) - dt.timedelta(days=1)).strftime("%Y-%m"))  # nothing left: only sends the summary
         else:
             print("历史回填已完成，旧云端站已导入，无需额外工作")
     elif a.import_sqlite or a.import_cloud or a.import_export:

@@ -16,15 +16,22 @@ TIER_HEAD = {"cross": "⭐ 交叉（合成氨 × 焦耳热/ALD）", "direct": "�
 TOPIC_NAMES: dict[str, str] = {}
 
 
+def delivered(results: list[str]) -> bool:
+    return any(r.endswith(":ok") or r == "dry-run" for r in results)
+
+
 def channels() -> list[str]:
     return [k for k in ("WXPUSHER_SPT", "PUSHPLUS_TOKEN", "SERVERCHAN_SENDKEY", "WECOM_WEBHOOK") if os.environ.get(k, "").strip()]
 
 
 def send(title: str, markdown: str) -> list[str]:
     results = []
-    if os.environ.get("RADAR_DRY_RUN") or not channels():
+    if os.environ.get("RADAR_DRY_RUN"):
         print("=" * 60 + f"\n[dry-run push] {title}\n{markdown}\n" + "=" * 60)
         return ["dry-run"]
+    if not channels():
+        print(f"[push skipped: no channel configured] {title}")
+        return ["no-channel"]
     spt = os.environ.get("WXPUSHER_SPT", "").strip()
     if spt:
         try:
