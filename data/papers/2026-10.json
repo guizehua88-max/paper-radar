@@ -6505,6 +6505,43 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
+ "10.1021/acscatal.6c06098": {
+  "abstract": "Abstract The low-temperature high-efficient decomposition of ammonia, a carbon-free hydrogen carrier, is essential to the promising hydrogen energy storage. However, the decomposition is hindered by slow reaction kinetics due to dynamically hydrogen poisoning and thermodynamically high nitrogen recombination barrier in ordinary thermocatalysis. Herein, we propose a photothermocatalytic strategy to resolve these kinetic issues and achieve enhanced hydrogen production. Under full-spectrum light irradiance of 20 kW m–2, a hydrogen production rate of 4.2 mmol g–1 min–1 at 300 °C has been achieved over the Ru/CeO2–x catalyst, significantly outperforming conventional thermocatalysis. Insights from in situ characterizations and density functional theory calculations indicate that the enhanced performance is ascribed to photopromoted hydrogen spillover and nitrogen recombination, which are mediated by the strong metal–support interaction. On one hand, the photogenerated electrons promote the H dissociation over sub-nm Ru clusters and migration across the metal–support interface, and the photoinduced oxygen-vacancy-rich CeO2–x surface favors to spread the active H· species. On the other hand, the photogenerated electrons reduce the activation energy for Ru–N bond cleavage, which is beneficial for N–N recombination. This study has demonstrated the distinct advantage of photothermocatalytic hydrogen production as an energy-saving, high-efficient, and carbon-free route.",
+  "authors": [
+   "Jian Guan",
+   "Hui Su",
+   "Bo Lin",
+   "Lei Luo",
+   "Jie Sun"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "cross": false,
+  "date": "2026-10-29",
+  "doi": "10.1021/acscatal.6c06098",
+  "first_seen": "2026-10-29T20:30:24Z",
+  "id": "10.1021/acscatal.6c06098",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "ACS Catalysis",
+  "tier": "background",
+  "title": "Achieving Low-Temperature High-Efficient Ammonia Decomposition Over sub-nm Ru Cluster with CeO2– x Support via Photopromoted Hydrogen Spillover and Nitrogen Recombination",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.6c06098",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_brief": "针对氨分解动力学受阻问题，提出光热催化策略。在 20 kW m-2 全光谱光照下，Ru/CeO2-x 催化剂在 300 °C 下实现了 4.2 mmol g-1 min-1 的产氢率。机理研究表明，光生电子促进 H 解离与迁移，并降低 Ru-N 键断裂能垒，从而提升催化性能。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系",
+  "zh_title": "基于光热协同效应的亚纳米 Ru 团簇 CeO2-x 催化剂低温高效氨分解"
+ },
  "10.1021/acscatal.6c07016": {
   "abstract": "Abstract Ammonia synthesis under mild conditions remains challenging because of the inertness of the N≡N bond and the limited ability of conventional catalysts to couple efficient dinitrogen activation with rapid hydrogenation. Here, we report a LiH/FePcG catalyst in which strong interfacial coupling between LiH and Fe–N–C sites enable efficient ammonia synthesis. Comprehensive characterization, including structural analysis, kinetic study, isotopic-labelling, gas-phase mass spectrometry, and in situ diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS) reveal that the catalytic activity originates from interfacial active sites. Under reaction conditions, structural nitrogen atoms within the Fe–Nx moieties undergo reversible consumption and reconstruction, demonstrating the dynamic participation of the Fe–N–C framework in ammonia synthesis. Concurrently, hydridic hydrogen supplied by LiH directly participates in the initial hydrogenation steps, while the LiH/Fe–N–C interface generates Fe-centered multicomponent hydride species essential for N2 binding and activation. An inverse H/D kinetic isotope effect, an H2-promoted 28N2/30N2 exchange rate, in situ spectroscopic evidence, and density functional theory (DFT) calculations collectively support a non-classical, hydrogen-assisted pathway for dinitrogen activation rather than the conventional direct N≡ bond cleavage. These findings establish interfacial hydride chemistry as a cooperative mechanism for efficient ammonia synthesis and provide a strategy for designing advanced catalysts under mild conditions.",
   "authors": [
