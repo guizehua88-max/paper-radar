@@ -65,6 +65,7 @@ crossref_queries = [
   "ammonia synthesis iron cobalt catalyst",
   "nitrogen activation ammonia synthesis mild conditions",
   "ammonia synthesis electride hydride",
+  "lithium-mediated nitrogen reduction ammonia",
 ]
 arxiv_query = 'abs:"ammonia synthesis" OR abs:"Haber-Bosch" OR abs:"nitrogen fixation"'
 include = [
@@ -74,6 +75,8 @@ include = [
   '(N2|N₂|nitrogen|dinitrogen|N≡N) (activation|dissociation|cleavage).{0,120}(ammonia|NH3|NH₃|hydrazine|nitride)',
   '(ammonia|NH3|NH₃).{0,120}(N2|N₂|nitrogen|dinitrogen|N≡N) (activation|dissociation|cleavage)',
   'nitrogen reduction reaction', 'N2 reduction', 'N₂ reduction', '\bNRR\b',
+  'lithium[- ]mediated (nitrogen|N2|N₂|dinitrogen|ammonia)', '\bLi[- ]?(NRR|mediated)\b',
+  '(electrochemical|electrocatalytic|photocatalytic|photoelectrochemical|plasma[- ]?(catalytic|assisted|driven)?) (nitrogen|N2|N₂|dinitrogen) (reduction|fixation|conversion)',
   'nitrate[- ]to[- ]ammonia', 'nitrate reduction', 'nitrite reduction', '\bNO3RR\b', '\bNO3-RR\b',
   'ammonia (decomposition|cracking)', 'NH3 (decomposition|cracking)', 'NH₃ (decomposition|cracking)',
   'hydrogen (production|generation) from ammonia',
@@ -86,11 +89,35 @@ exclude = [
   'flash[- ]boiling', 'ammonia[- ]fueled', 'ammonia/hydrogen (blend|combustion)', 'co-?firing',
   'livestock', 'manure', 'poultry', '\bsoils?\b', 'urine', 'blood ammonia', 'hyperammon', 'hepatic',
   'NH3 sensor', 'NH3-SCR', 'selective catalytic reduction', 'ammonium perchlorate',
+  '(reduction|removal) of (nitrogen oxides|NOx|NO|NO2)\b.{0,30}\b(by|with|using) (ammonia|NH3|NH₃)', 'nitrogen dioxide to nitric oxide',
   'anammox', 'nitrification', 'denitrif', 'rhizob', 'legume', 'diazotroph', 'symbiotic', '\b(rice|wheat|maize|crops?)\b',
+  'signal(l)?ing pathway', '\bflesh\b', '\bdiets?\b', 'dietary', 'digestib', 'rumen', 'ruminal', '\bfish\b', 'broiler',
+  '\b(pigs?|cattle|cows?|sheep|goats?)\b', 'intestin', 'microbio(ta|me)',
+]
+# 标题只讲工艺流程、能源系统、控制、经济性、安全（标题里又没有催化剂/材料/机理字眼）时，降为“背景”：不推送，网页里仍可查
+context = [
+  'techno[- ]?economic', 'economic', '\bcosts?\b', 'life[- ]cycle', '\bLCA\b', 'supply chain', 'energy (systems?|storage|carriers?|hubs?)',
+  'power (systems?|plants?|grids?|cycles?)', '\bgrid\b', 'scheduling', 'dispatch', 'predictive control', 'controller', '\bPID\b',
+  'control (systems?|strateg)', 'renewable', '\bwind\b', 'photovoltaic', 'tidal', 'nuclear', 'power[- ]to[- ]', '\bships?\b',
+  '\bports?\b', 'maritime', 'safety', 'policy', 'market', 'decarboni[sz]', 'digital twin', 'flowsheet', '\bAspen\b', 'exergy',
+  'process (design|simulation|synthesis|integration|intensification|modell?ing|optimi[sz]ation|control|systems?)',
+  'heat (integration|exchanger network)', 'multi[- ]generation', 'curtailment', 'load (regulation|flexib|following)', 'part[- ]load',
+  'flexible (operation|ammonia|production)', 'dynamic (simulation|operation|characteristics|modell?ing)', 'machine learning',
+  'optimal (design|planning|operation)', 'planning', '\bplants?\b', 'case study', 'database', '\bpumps?\b', 'compressors?',
+  'instability', 'causality', 'natural gas', 'cold energy', 'liquid air', 'oxy[- ]combustion', '\bsCO2\b', 'decentrali[sz]ed',
+  'carbon capture', 'emissions?\b', 'hydrogen (production|economy|supply)', 'green hydrogen', 'electroly[sz]er',
+]
+material_cues = [
+  'catal', '\bRu\b', 'rutheni', '\bFe\b', '\biron\b', 'cobalt', '\bCo\b', 'nickel', '\bNi\b', '\bMo\b', 'molybden', 'nitride',
+  'hydride', 'electride', 'imide', 'amide', 'adsor', 'dissociat', 'mechanis', 'kinetic', '\bDFT\b', 'first[- ]principles',
+  'active sites?', 'support', 'promot', 'surface', 'alloy', 'oxide', 'metal', 'single[- ]atom', 'nanopartic', 'cluster', 'zeolite',
+  'perovskite', 'nitrogen carrier', 'vacanc', 'interface', '催化', '载体',
 ]
 secondary = [
   'electro(catal|chem|synth|reduc|lys)', 'photo(catal|chem|electro|synth|therm)', 'plasma',
   'nitrate', 'nitrite', '\bNRR\b', 'NO3', 'decomposition', 'cracking', 'from ammonia',
+  'lithium[- ]mediated', '\bLi[- ]?mediated', '(nitrogen|N2|N₂|dinitrogen) reduction', 'reduction of (nitrogen|N2|N₂|dinitrogen)',
+  'solid electrolyte interphase', 'electrode', 'electrolyt', 'batter(y|ies)', 'plasmon', 'aprotic', 'faradaic',
   '电催化', '电化学', '光催化', '等离子体', '硝酸', '分解', '裂解',
   '(photo|light|solar|sunlight)[- ]driven', 'photothermal', 'visible light', '光驱动', '光热', '阳光',
 ]
@@ -120,6 +147,12 @@ include = [
   'induction heating', 'magnetic(ally)? (induction )?heat',   # 同属“电驱动加热”，一并追踪
   'direct (electrical )?resistive', '焦耳热', '焦耳加热', '电阻加热', '电加热', '闪蒸', '碳热冲击', '高温热冲击',
   '程序升温(?!还原|脱附|氧化)', '快速淬冷',
+]
+# 标题本身就点明是闪蒸焦耳热/碳热冲击这类“合成方法”时，即使用途在排除词里（如吸波材料、电磁屏蔽），也收进网页，归“背景”、不推送
+title_keep = [
+  'flash[- ]joule', '\bFJH\b', 'carbothermal shock', 'high[- ]temperature (thermal )?shock', '焦耳热', '闪蒸', '碳热冲击',
+  'joule[- ]heat\w*[- ]?(enabled |assisted |driven |induced |based )?(synthes|prepar|fabricat|growth|anneal|sinter|graphiti[sz]|recycl|upcycl|convers|activat)',
+  'ultrafast (high[- ]temperature )?(synthesis|sintering|annealing) ',
 ]
 require_any = [  # 必须像“材料制备/催化/反应”的研究，挡掉器件、力学、流体里的焦耳热
   'catal', 'synthes', 'prepar', 'fabricat', 'reactor', 'reaction', 'ammonia', 'conversion', 'upcycl', 'recycl',
@@ -215,8 +248,29 @@ url = "https://www.nature.com/nchem.rss"
 name = "Nature Communications"
 url = "https://www.nature.com/ncomms.rss"
 [[rss]]
+name = "Nature Chemical Engineering"
+url = "https://www.nature.com/natchemeng.rss"
+[[rss]]
+name = "Nature Reviews Chemistry"
+url = "https://www.nature.com/natrevchem.rss"
+[[rss]]
+name = "Nature Materials"
+url = "https://www.nature.com/nmat.rss"
+[[rss]]
+name = "Nature Nanotechnology"
+url = "https://www.nature.com/nnano.rss"
+[[rss]]
+name = "Nature Sustainability"
+url = "https://www.nature.com/natsustain.rss"
+[[rss]]
+name = "Communications Chemistry"
+url = "https://www.nature.com/commschem.rss"
+[[rss]]
 name = "Science"
 url = "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=science"
+[[rss]]
+name = "Science Advances"
+url = "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
 [[rss]]
 name = "Joule"
 url = "https://www.cell.com/joule/inpress.rss"
@@ -229,3 +283,9 @@ url = "https://onlinelibrary.wiley.com/feed/15213773/most-recent"
 [[rss]]
 name = "Advanced Materials"
 url = "https://onlinelibrary.wiley.com/feed/15214095/most-recent"
+[[rss]]
+name = "Advanced Energy Materials"
+url = "https://onlinelibrary.wiley.com/feed/16146840/most-recent"
+[[rss]]
+name = "Advanced Functional Materials"
+url = "https://onlinelibrary.wiley.com/feed/16163028/most-recent"

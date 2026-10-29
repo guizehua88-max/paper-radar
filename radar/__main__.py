@@ -5,19 +5,25 @@
   python -m radar --import-sqlite 旧库.sqlite3   导入旧本地站数据库（含收藏/已读/笔记）
   python -m radar --import-cloud https://paperresearch.de5.net   导入旧云端站
   python -m radar --render-only           只重新生成网页
+  python -m radar --maintain              补摘要、写中文简介（有 ZHIPU_API_KEY 时）
 """
 from __future__ import annotations
 
 import argparse
 import calendar
 import datetime as dt
+import json
 import os
 import sys
 import time
 import tomllib
 
-from . import legacy_import, llm, push, site, sources, store
+from . import legacy_import, llm, net, push, site, sources, store
 from .filters import TIER_RANK, TIER_ZH, Classifier, title_key
+
+
+def net_offline() -> bool:
+    return bool(net.FIXTURES) and not os.environ.get("RADAR_FIXTURE_ENRICH")
 
 
 def now_utc() -> dt.datetime:
@@ -81,13 +87,19 @@ class Radar:
                 continue
             tk = title_key(p["title"])
             if pid in self.papers or tk in seen_titles:
-                old = self.papers.get(pid) or self.papers.get(seen_titles.get(tk, ""), None)
+                old_id = pid if pid in self.papers else seen_titles.get(tk, "")
+                old = self.papers.get(old_id)
                 if old is not None:  # carry over old-site favourites/notes onto an existing record
                     for k in ("old_fav", "old_read", "old_note"):
                         if p.get(k) and not old.get(k):
                             old[k] = p[k]
                     if refresh_dates and sources.good_date(p.get("date")) and not sources.good_date(old.get("date")):
                         old["date"] = p["date"]
+                    if not llm.usable_abstract(old) and llm.usable_abstract(p):
+                        old["abstract"] = p["abstract"]
+                    if (old_id != pid and old.get("kind") == "preprint" and p.get("kind") == "journal"
+                            and str(pid).startswith("10.") and pid not in self.papers):
+                        seen_titles[tk] = self.promote(old_id, p)
                 continue
             d = p.get("date") or ""
             if min_month and d and d[:7] < min_month and not (len(d) == 4 and d >= min_month[:4]):
@@ -107,6 +119,49 @@ class Radar:
             new.append(p)
         return new
 
+    def promote(self, old_id: str, p: dict) -> str:
+        """A preprint we already have came out in a journal: keep one record, pointing at the journal version."""
+        rec = self.papers.pop(old_id)
+        rec["preprint"] = {"id": old_id, "source": rec.get("source", ""), "url": rec.get("url", "")}
+        for k in ("id", "doi", "url", "source", "date", "kind", "via"):
+            if p.get(k):
+                rec[k] = p[k]
+        if p.get("authors"):
+            rec["authors"] = p["authors"]
+        if len(p.get("abstract") or "") > len(rec.get("abstract") or ""):
+            rec["abstract"] = p["abstract"]
+        c = self.clf.classify(rec)
+        if c:
+            rec.update(c)
+        rec["published_seen"] = iso(self.now)
+        self.papers[rec["id"]] = rec
+        return rec["id"]
+
+    def fill_abstracts(self, items: list[dict], deadline: float, *, epmc_cap: int = 300, label: str = "补摘要") -> dict:
+        """Look up abstracts for papers that came without one (Semantic Scholar / Europe PMC / OpenAlex)."""
+        want = {}
+        for p in items:
+            doi = str(p.get("doi") or p.get("id") or "")
+            if p.get("kind") != "wechat" and doi.startswith("10.") and not llm.usable_abstract(p):
+                want.setdefault(doi, []).append(p)
+        if not want or net_offline():
+            return {"查询": 0}
+        found, st = sources.find_abstracts(list(want), epmc_cap=epmc_cap, deadline=deadline)
+        for doi, ab in found.items():
+            for p in want.get(doi, []):
+                p["abstract"] = ab
+        self.status["sources"][label] = {"n": len(found), "err": "" if not any("失败" in v for v in st.values()) else
+                                         "；".join(f"{k} {v}" for k, v in st.items() if "失败" in v),
+                                         "calls": 1, "fails": 0}
+        print(f"  abstracts: asked {len(want)} found {len(found)} {st}")
+        return {"查询": len(want), "找到": len(found), **st}
+
+    def brief(self, items: list[dict], deadline: float) -> dict:
+        st = llm.summarize(items, deadline=deadline)
+        if st["done"] or st["err"]:
+            print(f"  中文简介: {st}")
+        return st
+
     def ordered(self):
         return sorted(self.papers.values(),
                       key=lambda p: (p["first_seen"], TIER_RANK.get(p.get("tier", "exclude"), 0), p.get("score", 0)),
@@ -121,9 +176,15 @@ class Radar:
         self.status.update(extra or {})
         self.status["push"] = results or []
         self.status["at"] = iso(self.now)
+        status = self.status
+        if (extra or {}).get("模式") == "日常":
+            self.state["last_daily_status"] = self.status
+        elif self.state.get("last_daily_status"):  # page footer keeps the last daily run's source table
+            status = dict(self.state["last_daily_status"])
+            status["补充运行"] = "；".join(f"{k} {v}" for k, v in (extra or {}).items() if k != "模式") or "—"
         store.save_papers(self.papers)
         store.save("state.json", self.state)
-        site.render(self.ordered(), self.cfg, self.status, iso(self.now))
+        site.render(self.ordered(), self.cfg, status, iso(self.now))
         summary = os.environ.get("GITHUB_STEP_SUMMARY")
         if summary:
             with open(summary, "a", encoding="utf-8") as f:
@@ -163,6 +224,14 @@ class Radar:
             sources.polite_pause(0.5)
         self.settle_status()
 
+        t0 = time.time()
+        fresh = [p for p in {p["id"]: p for p in self.found if p.get("id")}.values() if p["id"] not in self.papers]
+        ab = self.fill_abstracts(fresh, t0 + 240, epmc_cap=200)
+        for p in self.found:  # same DOI may appear several times in self.found
+            if not llm.usable_abstract(p):
+                q = next((x for x in fresh if x["id"] == p.get("id") and llm.usable_abstract(x)), None)
+                if q:
+                    p["abstract"] = q["abstract"]
         new_items = self.ingest(self.found, min_year=min_year, origin="日常")
         print(f"  candidates={len(self.found)} relevant_new={len(new_items)}")
         if llm.enabled():
@@ -173,6 +242,8 @@ class Radar:
 
         pushable = sorted([p for p in new_items if p["score"] >= S["min_push_score"] and p.get("llm_score") != 0],
                           key=lambda p: (-TIER_RANK[p["tier"]], -p["score"]))
+        rest = sorted([p for p in new_items if p not in pushable], key=lambda p: (-TIER_RANK[p["tier"]], -p["score"]))
+        bst = self.brief(pushable[: S["max_push_items"]] + rest, time.time() + 480)
         results: list[str] = []
         site_url = S.get("site_url", "")
         welcome = first_run or (self.state.get("welcome_pending") and push.channels())
@@ -181,6 +252,7 @@ class Radar:
             recent = sorted([p for p in self.papers.values() if p.get("tier") in ("cross", "direct", "transferable")
                              and p.get("kind") != "wechat"], key=lambda p: (p.get("date") or "", p.get("score", 0)), reverse=True)
             pushable = pushable or recent[:10]
+            self.brief(pushable[:10], time.time() + 240)
         if welcome and not pushable:
             results = push.send("文献雷达已启动", f"日常追踪已开始运行，资料库里现有 {len(self.papers)} 篇（{S.get('archive_from', '2024-01')} 起）。"
                                 "以后每天检查两次，有新论文就推送到这里。" + (f"\n\n[打开文献雷达]({site_url})" if site_url else ""))
@@ -223,7 +295,12 @@ class Radar:
         hist.append({"at": iso(now), "new": len(new_items), "push": results,
                      "errors": {k: v["err"] for k, v in self.status["sources"].items() if v["err"]}})
         self.state["history"] = hist[-60:]
-        self.finish(results, {"模式": "日常", "新增相关": len(new_items), "达到推送标准": len(pushable)})
+        extra = {"模式": "日常", "新增相关": len(new_items), "达到推送标准": len(pushable)}
+        if ab.get("查询"):
+            extra["补摘要"] = f"{ab.get('找到', 0)}/{ab['查询']}"
+        if llm.provider():
+            extra["中文简介"] = f"新写 {bst['done']} 篇" + (f"（出错：{bst['err']}）" if bst["err"] else "")
+        self.finish(results, extra)
 
     def backfill(self, start: str, until: str | None) -> None:
         """Month-by-month Crossref backfill by publication date. Resumable within a time budget."""
@@ -281,6 +358,88 @@ class Radar:
         if remaining:
             print(f"  还剩 {len(remaining)} 个月没回填，再运行一次会接着做：{remaining[0]} 起")
 
+    def rules_hash(self) -> str:
+        import hashlib
+        h = hashlib.sha1(json.dumps(self.cfg.get("topics"), sort_keys=True, ensure_ascii=False).encode())
+        for f in ("filters.py", "legacy_rules.py"):
+            h.update((store.ROOT / "radar" / f).read_bytes())
+        return h.hexdigest()[:12]
+
+    def reclassify(self) -> dict:
+        """Apply the current rules to the whole library. Papers the rules now reject are removed,
+        except ones carrying the user's marks (old-site favourites/notes) or a 公众号 report."""
+        moved, dropped = {}, 0
+        for k, p in list(self.papers.items()):
+            before = p.get("tier")
+            c = self.clf.classify(p)
+            if c:
+                p.update(c)
+                if before != p["tier"]:
+                    moved[f"{TIER_ZH.get(before, before)}→{TIER_ZH[p['tier']]}"] = moved.get(f"{TIER_ZH.get(before, before)}→{TIER_ZH[p['tier']]}", 0) + 1
+            elif not (p.get("old_fav") or p.get("old_note") or p.get("reported_by")):
+                del self.papers[k]
+                dropped += 1
+        return {"调整": moved, "移除": dropped}
+
+    def maintain(self, minutes: float) -> None:
+        """Slow background work, a slice per run: fix duplicate DOIs, find missing abstracts, write Chinese briefs."""
+        deadline = time.time() + minutes * 60
+        self.status = {"sources": {}}
+        extra: dict = {"模式": "维护"}
+        # Angewandte German-edition DOIs -> international edition (same suffix)
+        moved = 0
+        for k in [k for k in self.papers if k.startswith("10.1002/ange.")]:
+            p = self.papers.pop(k)
+            nk = "10.1002/anie." + k.split("10.1002/ange.", 1)[1]
+            p.update({"id": nk, "doi": nk, "url": f"https://doi.org/{nk}"})
+            if (p.get("source") or "").lower().startswith("angewandte"):
+                p["source"] = sources.ANGEW_INT
+            if nk in self.papers:
+                for kk, v in p.items():
+                    self.papers[nk].setdefault(kk, v)
+            else:
+                self.papers[nk] = p
+            moved += 1
+        if moved:
+            extra["Angewandte 德文版 DOI 合并"] = moved
+        rh = self.rules_hash()
+        if self.state.get("rules_hash") != rh:  # rules changed since the library was classified
+            rc = self.reclassify()
+            self.state["rules_hash"] = rh
+            extra["按新规则重筛"] = (f"移除 {rc['移除']} 篇；" + "，".join(f"{k} {v}" for k, v in rc["调整"].items())) or "无变化"
+            print(f"  reclassify: {rc}")
+        # abstracts for stored papers (each paper is looked up at most once a month)
+        today = self.now.date()
+        def tried_recently(p):
+            try:
+                return (today - dt.date.fromisoformat(p.get("ab_try", "")[:10])).days < 30
+            except ValueError:
+                return False
+        cands = [p for p in self.papers.values() if p.get("kind") != "wechat" and not llm.usable_abstract(p)
+                 and str(p.get("doi") or p["id"]).startswith("10.") and not tried_recently(p)]
+        cands.sort(key=lambda p: (TIER_RANK.get(p.get("tier"), 0), p.get("date") or ""), reverse=True)
+        cands = cands[:1200]
+        if cands:
+            before = {p["id"]: p.get("tier") for p in cands}
+            ab = self.fill_abstracts(cands, min(deadline, time.time() + 300), epmc_cap=300)
+            changed = 0
+            for p in cands:
+                p["ab_try"] = today.isoformat()
+                if llm.usable_abstract(p):
+                    c = self.clf.classify(p)
+                    if c:  # refine the tier with the abstract; never drop a stored paper here
+                        p.update(c)
+                        changed += before[p["id"]] != p.get("tier")
+            extra["补摘要"] = f"查 {ab.get('查询', 0)} 篇，找到 {ab.get('找到', 0)} 篇，相关度随之调整 {changed} 篇"
+        # Chinese briefs, most relevant + newest first
+        todo = [p for p in self.papers.values() if llm.needs_brief(p)]
+        todo.sort(key=lambda p: (TIER_RANK.get(p.get("tier"), 0), p.get("date") or ""), reverse=True)
+        if llm.provider():
+            st = self.brief(todo, deadline)
+            extra["中文简介"] = f"本次 {st['done']} 篇，还剩 {st.get('left', len(todo))} 篇" + (f"（{st['err']}）" if st["err"] else "")
+        extra["公众号报道关联"] = f"{self.link_mentions()} 处"
+        self.finish([], extra)
+
     def link_mentions(self) -> int:
         """公众号推文里提到的 DOI -> 给对应论文打上“公众号报道”标签。"""
         n = 0
@@ -333,6 +492,7 @@ def main(argv=None) -> int:
     ap.add_argument("--import-export", metavar="legacy-export.json.gz")
     ap.add_argument("--render-only", action="store_true")
     ap.add_argument("--reclassify", action="store_true", help="改了规则之后：用当前规则重新筛一遍整个资料库（不联网）")
+    ap.add_argument("--maintain", action="store_true", help="补摘要、写中文简介（受 MAINTAIN_MAX_MINUTES 限时）")
     ap.add_argument("--auto-extras", action="store_true",
                     help="日常运行之后：旧云端站只导入一次；历史回填没做完就接着做（受 BACKFILL_MAX_MINUTES 限时）")
     a = ap.parse_args(argv)
@@ -341,17 +501,15 @@ def main(argv=None) -> int:
         r.finish([], {"模式": "仅生成网页"})
     elif a.reclassify:
         before = len(r.papers)
-        kept = {}
-        for k, p in r.papers.items():
-            c = r.clf.classify(p)
-            if c:
-                p.update(c)
-                kept[k] = p
-        r.papers = kept
+        rc = r.reclassify()
+        r.state["rules_hash"] = r.rules_hash()
         r.link_mentions()
-        r.finish([], {"模式": "按当前规则重筛", "重筛前": before, "重筛后": len(kept)})
-        print(f"reclassify: {before} -> {len(kept)}")
+        r.finish([], {"模式": "按当前规则重筛", "重筛前": before, "重筛后": len(r.papers)})
+        print(f"reclassify: {before} -> {len(r.papers)} {rc}")
+    elif a.maintain:
+        r.maintain(float(os.environ.get("MAINTAIN_MAX_MINUTES", "20")))
     elif a.auto_extras:
+        t_start = time.time()
         cloud = r.S.get("old_cloud_url", "").strip()
         if cloud and not r.state.get("cloud_imported"):
             r.import_old(None, cloud)
@@ -371,7 +529,11 @@ def main(argv=None) -> int:
         elif not bf.get("announced") and push.channels():
             r.backfill(start, (r.now.replace(day=1) - dt.timedelta(days=1)).strftime("%Y-%m"))  # nothing left: only sends the summary
         else:
-            print("历史回填已完成，旧云端站已导入，无需额外工作")
+            print("历史回填已完成，旧云端站已导入")
+        busy = (time.time() - t_start) / 60
+        minutes = float(os.environ.get("MAINTAIN_MAX_MINUTES", "20"))
+        minutes = min(minutes, max(2.0, 45 - busy)) if busy > 1 else minutes
+        Radar().maintain(minutes)
     elif a.import_sqlite or a.import_cloud or a.import_export:
         r.import_old(a.import_sqlite, a.import_cloud, a.import_export)
     elif a.backfill:

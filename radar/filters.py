@@ -72,6 +72,9 @@ class Classifier:
                 "require": _rx(t.get("require_any")),
                 "exclude": _rx(t.get("exclude")),
                 "secondary": _rx(t.get("secondary")),
+                "keep": _rx(t.get("title_keep")),
+                "context": _rx(t.get("context")),
+                "material": _rx(t.get("material_cues")),
             })
         wx = cfg.get("wechat", {})
         self.wx_cues = _rx(wx.get("research_cues"))
@@ -95,14 +98,18 @@ class Classifier:
         inc = next((m.group(0) for r in t["include"] if (m := r.search(text))), None)
         if not inc:
             return None, False
-        if t["require"] and not any(r.search(text) for r in t["require"]):
-            return None, True
-        if any(r.search(text) for r in t["exclude"]):
-            return None, True
         in_title = any(r.search(title) for r in t["include"])
+        if ((t["require"] and not any(r.search(text) for r in t["require"]))
+                or any(r.search(text) for r in t["exclude"])):
+            if any(r.search(title) for r in t["keep"]):  # the title itself says it is this method -> keep, as 背景
+                return {"id": t["id"], "level": "keep", "in_title": True, "kw": inc}, False
+            return None, True
         if t["id"] in ("joule", "ald") and not in_title and not _CATAL.search(text):
             return None, True  # method keyword only in the abstract, with no catalysis context -> incidental mention
         level = "secondary" if any(r.search(text) for r in t["secondary"]) else "core"
+        if (level == "core" and t["context"] and any(r.search(title) for r in t["context"])
+                and not any(r.search(title) for r in t["material"])):
+            level = "context"  # plant / energy-system / control / economics paper: ammonia is the product, not the research object
         return {"id": t["id"], "level": level, "in_title": in_title, "kw": inc}, False
 
     def classify(self, p: dict) -> dict | None:
@@ -125,14 +132,15 @@ class Classifier:
         mine = {h["id"]: h for h in hits}
 
         nh3_core = "nh3" in mine and mine["nh3"]["level"] == "core"
-        method = [k for k in ("joule", "ald") if k in mine]
+        method = [k for k in ("joule", "ald") if k in mine and mine[k]["level"] != "keep"]
+        kept_only = bool(mine) and all(h["level"] == "keep" for h in mine.values())
         if nh3_core and method:
             my_tier = "cross"
         elif nh3_core:
             my_tier = "direct"
         elif method:
             my_tier = "transferable"
-        elif "nh3" in mine:
+        elif mine:
             my_tier = "background"
         else:
             my_tier = None
@@ -154,7 +162,8 @@ class Classifier:
         elif my_tier:
             old_method = (any(t in METHOD_TOPICS for t in old.get("topics", []))
                           and not _CHARACTERIZATION.search(old.get("heating_zh", "")))
-            tier = max(my_tier, old_tier, key=lambda x: TIER_RANK[x]) if (old_tier == "transferable" and old_method) else my_tier
+            upgrade = old_tier == "transferable" and old_method and not kept_only
+            tier = max(my_tier, old_tier, key=lambda x: TIER_RANK[x]) if upgrade else my_tier
         elif rejected:
             return None
         elif (old_tier == "transferable" and old.get("process") in CATALYTIC_PROCESSES
@@ -177,7 +186,7 @@ class Classifier:
         if not topics:
             topics = ["nh3"]  # legacy-only ammonia-adjacent items
 
-        score = TIER_SCORE[tier] + sum(3 for h in hits if h["in_title"])
+        score = TIER_SCORE[tier] + sum(3 for h in hits if h["in_title"] and h["level"] != "keep")
         watch_hits = sorted({self.watch[k] for a in p.get("authors", []) if (k := _norm_name(a)) in self.watch})
         if watch_hits:
             score += 8

@@ -66,10 +66,16 @@ def best_date(candidates: list[str | None], fallback: str | None) -> str | None:
     return next((d for d in candidates if d), None) or fallback
 
 
+ANGEW_INT = "Angewandte Chemie International Edition"
+
+
 def _doi_key(doi: str) -> str:
     doi = doi.strip().lower()
     doi = re.sub(r"^https?://(dx\.)?doi\.org/", "", doi)
-    return re.sub(r"^doi:\s*", "", doi)
+    doi = re.sub(r"^doi:\s*", "", doi)
+    # Angewandte publishes every paper twice (German edition ange.X / international edition anie.X, same suffix):
+    # keep the international edition so the two never show up as separate papers
+    return re.sub(r"^10\.1002/ange\.", "10.1002/anie.", doi)
 
 
 # ---------------------------------------------------------------- Crossref
@@ -115,6 +121,8 @@ def crossref(query: str, since: dt.date | None, rows: int, min_year: int,
         else:
             source = clean((it.get("container-title") or [""])[0]) or clean(it.get("publisher", ""))
             kind = "journal"
+            if doi.startswith("10.1002/anie."):
+                source = ANGEW_INT
         authors = []
         for a in it.get("author", [])[:30]:
             name = " ".join(x for x in (a.get("given"), a.get("family")) if x) or a.get("name", "")
@@ -234,6 +242,21 @@ def _parse_date(s: str | None) -> str | None:
         return None
 
 
+_RSS_PREFIX = re.compile(
+    r"^(.{0,90}?(Published online|Volume \d+, Issue)[^;]{0,60};\s*(<?a[^>]*>)?\s*doi:\s*\S+\s*"   # Nature: "Nature Catalysis, Published online: 28 October 2026; doi:10.1038/..."
+    r"|.{0,90}?Page \w+-?\w*, \w+ \d+\.?\s*"                                              # Science / Wiley issue lines
+    r"|Publication date:.{0,80}?Source:.{0,120}?Author\(s\):[^.]{0,400}\.?\s*)",              # ScienceDirect
+    re.IGNORECASE)
+
+
+def rss_abstract(text: str, title: str) -> str:
+    """Strip feed boilerplate ("Journal, Published online: …; doi:…") and drop it if nothing but the title is left."""
+    text = _RSS_PREFIX.sub("", text or "", count=1).strip()
+    if text.lower().startswith(title.lower()[:60]) and len(text) < len(title) + 40:
+        return ""
+    return text if len(text) >= 20 else ""
+
+
 def rss(name: str, url: str) -> list[dict]:
     root = ET.fromstring(net.get(url, accept="application/rss+xml, application/xml, text/xml, */*"))
     out = []
@@ -262,7 +285,7 @@ def rss(name: str, url: str) -> list[dict]:
         title = clean(f.get("title"))
         if not title:
             continue
-        abstract = clean(f.get("encoded") or f.get("description") or f.get("summary") or f.get("content"))
+        abstract = rss_abstract(clean(f.get("encoded") or f.get("description") or f.get("summary") or f.get("content")), title)
         authors = [a.strip() for a in re.split(r",|;| and ", clean(f.get("creator", ""))) if a.strip()][:30]
         out.append({
             "id": doi or f"url:{link}",
@@ -277,6 +300,90 @@ def rss(name: str, url: str) -> list[dict]:
             "via": f"RSS·{name}",
         })
     return out
+
+
+# ---------------------------------------------------------------- abstracts for records that came without one
+# Crossref only has an abstract when the publisher deposits it (Elsevier, ACS and Springer Nature often don't).
+# These free services fill some of the gaps; none needs a key (OpenAlex is used only if OPENALEX_API_KEY is set).
+def _strip_abstract(text: str) -> str:
+    text = clean(text)
+    return re.sub(r"^(abstract|summary)[\s:.\-–]+", "", text, flags=re.IGNORECASE).strip()
+
+
+def abstracts_semantic_scholar(dois: list[str]) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for i in range(0, len(dois), 400):
+        chunk = dois[i:i + 400]
+        res = net.post_json_retry("https://api.semanticscholar.org/graph/v1/paper/batch?fields=abstract,externalIds",
+                                  {"ids": [f"DOI:{d}" for d in chunk]}, timeout=90)
+        if not isinstance(res, list):
+            raise net.FetchError(f"unexpected answer: {str(res)[:120]}")
+        for d, r in zip(chunk, res):
+            ab = _strip_abstract((r or {}).get("abstract") or "")
+            if len(ab) >= 150:
+                out[d] = ab
+        if i + 400 < len(dois):
+            polite_pause(3)
+    return out
+
+
+def abstracts_europepmc(dois: list[str]) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for i in range(0, len(dois), 20):
+        chunk = dois[i:i + 20]
+        q = " OR ".join(f'DOI:"{d}"' for d in chunk)
+        url = ("https://www.ebi.ac.uk/europepmc/webservices/rest/search?"
+               + urllib.parse.urlencode({"query": q, "resultType": "core", "format": "json", "pageSize": "100"}))
+        data = net.get_json(url, timeout=60)
+        for r in (data.get("resultList") or {}).get("result", []):
+            d = _doi_key(r.get("doi") or "")
+            ab = _strip_abstract(r.get("abstractText") or "")
+            if d in chunk and len(ab) >= 150:
+                out[d] = ab
+        polite_pause(0.4)
+    return out
+
+
+def abstracts_openalex(dois: list[str], api_key: str) -> dict[str, str]:
+    out: dict[str, str] = {}
+    for i in range(0, len(dois), 50):
+        chunk = dois[i:i + 50]
+        params = {"filter": "doi:" + "|".join(chunk), "select": "doi,abstract_inverted_index", "per_page": "50",
+                  "api_key": api_key}
+        data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params), timeout=60)
+        for w in data.get("results", []):
+            d = _doi_key(w.get("doi") or "")
+            ab = _strip_abstract(_undo_inverted(w.get("abstract_inverted_index")))
+            if d in chunk and len(ab) >= 150:
+                out[d] = ab
+        polite_pause(0.3)
+    return out
+
+
+def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | None = None) -> tuple[dict[str, str], dict]:
+    """Try each free service in turn on the DOIs still missing. Returns (doi -> abstract, per-service stats)."""
+    import os
+    todo = [d for d in dict.fromkeys(dois) if d.startswith("10.")]
+    found: dict[str, str] = {}
+    stats: dict[str, str] = {}
+    steps = [("Semantic Scholar", abstracts_semantic_scholar, None), ("Europe PMC", abstracts_europepmc, epmc_cap)]
+    key = os.environ.get("OPENALEX_API_KEY", "").strip()
+    if key:
+        steps.insert(1, ("OpenAlex", lambda ds: abstracts_openalex(ds, key), None))
+    for name, fn, cap in steps:
+        rest = [d for d in todo if d not in found][: cap or None]
+        if not rest:
+            break
+        if deadline and time.time() > deadline:
+            stats[name] = "跳过（时间用完）"
+            continue
+        try:
+            got = fn(rest)
+            found.update(got)
+            stats[name] = f"查 {len(rest)} 得 {len(got)}"
+        except Exception as e:
+            stats[name] = f"失败 {type(e).__name__}: {str(e)[:100]}"
+    return found, stats
 
 
 def polite_pause(seconds: float) -> None:

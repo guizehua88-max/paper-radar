@@ -32,6 +32,8 @@ def _fixture_for(url: str) -> bytes:
         cand = [base / "openalex.json"]
     elif "/api/items" in url:
         cand = [base / "cloud.json"]
+    elif "ebi.ac.uk" in host:
+        cand = [base / "europepmc.json"]
     else:
         slug = "".join(c if c.isalnum() else "_" for c in host)
         cand = [base / f"rss_{slug}.xml", base / "rss_missing.xml"]
@@ -64,7 +66,13 @@ def get_json(url: str, **kw):
     return json.loads(get(url, accept="application/json", **kw).decode("utf-8"))
 
 
-def post_json(url: str, payload: dict, *, timeout: int = 30, headers: dict | None = None) -> dict:
+def post_json(url: str, payload: dict, *, timeout: int = 30, headers: dict | None = None):
+    if FIXTURES:  # offline tests: tests/fixtures/post_<host>.json, else behave like an unreachable host
+        host = "".join(c if c.isalnum() else "_" for c in urllib.parse.urlparse(url).netloc)
+        f = Path(FIXTURES) / f"post_{host}.json"
+        if f.exists():
+            return json.loads(f.read_text("utf-8"))
+        raise FetchError(f"fixture missing for POST {url}")
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     h = {"Content-Type": "application/json; charset=utf-8", "User-Agent": UA}
     h.update(headers or {})
@@ -75,6 +83,29 @@ def post_json(url: str, payload: dict, *, timeout: int = 30, headers: dict | Non
         return json.loads(body)
     except json.JSONDecodeError:
         return {"raw": body[:500]}
+
+
+def post_json_retry(url: str, payload: dict, *, timeout: int = 60, headers: dict | None = None, retries: int = 3):
+    """POST with back-off on throttling / server errors. Raises FetchError with the HTTP status and body excerpt."""
+    last = None
+    for attempt in range(retries):
+        try:
+            return post_json(url, payload, timeout=timeout, headers=headers)
+        except FetchError:
+            raise
+        except urllib.error.HTTPError as e:
+            try:
+                body = e.read().decode("utf-8", "replace")[:300]
+            except Exception:
+                body = ""
+            last = f"HTTP {e.code} {body}".strip()
+            if e.code not in (429, 500, 502, 503, 504):
+                break
+            time.sleep(8 * (attempt + 1))
+        except Exception as e:
+            last = f"{type(e).__name__}: {e}"
+            time.sleep(4 * (attempt + 1))
+    raise FetchError(last or "POST failed")
 
 
 def post_form(url: str, fields: dict, *, timeout: int = 30) -> dict:

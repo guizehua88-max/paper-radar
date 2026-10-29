@@ -2,9 +2,10 @@
 
 追踪这三个方向的新论文和公众号科研报道：
 
-- **每天自动查新两次**（北京时间 07:17、19:17），有新论文就**推送到微信**
+- **每天自动查新两次**（北京时间 07:17、19:17），有新论文就**推送到微信**：每篇带中文标题和 2–3 句中文简介（需要一个免费的智谱 API Key，见下文；没配时显示英文摘要开头）
 - **网页资料库**：从 2024 年 1 月起，**按年、按月归档**，可以搜索、筛选、收藏、标记已读，导出到 Zotero
 - **RSS**：可以加进 Zotero 的“订阅”，在 Zotero 里直接看新论文
+- **只盯文献源头，不再抓公众号**：公众号报道的论文都来自期刊和预印本，直接盯源头更早、更稳。旧站的 124 篇公众号科研报道留在网站里
 
 全部免费。程序跑在 GitHub 的服务器上，不用开电脑，不用登录微信，也没有会过期的 cookie。
 
@@ -95,13 +96,42 @@ Name 填 `SERVERCHAN_SENDKEY`（用 WxPusher 就填 `WXPUSHER_SPT`），Secret �
 - 筛选：相关度（默认“重点” = 交叉 + 直接 + 可迁移）、类型（论文 / 公众号推文）、方向、顶刊、关注作者、预印本、未读、公众号报道过
 - **导出**：当前列表导出为 RIS（Zotero 里：文件 → 导入）或 CSV（Excel）
 
+## 中文简介（免费，需要做一次设置）
+
+推送和网页卡片上的“简介”由大模型根据**标题 + 摘要**写成：中文标题，加 2–3 句话说明研究对象、方法和主要结果。没有摘要的论文只写一句主题概括，并标注“仅据标题”，不会编结果。
+
+用的是智谱开放平台的免费模型 **GLM-4.7-Flash**（不行时自动换 GLM-4-Flash-250414），不花钱：
+1. 打开 [bigmodel.cn](https://bigmodel.cn)，手机号注册登录（如果要求实名认证就按提示做，不收费）
+2. 控制台 → **API Key** → 新建，复制
+3. GitHub 仓库 → **Settings → Secrets and variables → Actions → New repository secret**，Name 填 `ZHIPU_API_KEY`，粘贴 → Add secret
+
+之后每次运行：先给本次新论文写简介再推送；然后用剩余时间给资料库里已有的论文补写（重点论文优先，每次约 20 分钟，几天内补完）。网页底部会显示“重点论文已写 X/Y 篇”。
+
+没配置时：推送里显示英文摘要的前一两句（“摘要：…”），网页卡片上显示“摘要节选”。
+
+> 也可以换成任意 OpenAI 兼容接口：设置 `LLM_API_KEY` + `LLM_BASE_URL` + `LLM_MODEL`（会优先使用）。
+
 ## 推送规则
 
 只推送**新出现**、分数达到 `min_push_score`（默认 18）的论文：
 - 交叉 40 分、直接 25 分、可迁移 15 分、待核 9 分、背景 6 分
 - 关键词出现在标题里 +3，顶刊 +4，关注作者 +8
 
-所以默认会推送交叉、直接，以及标题里就有焦耳热/ALD 的可迁移论文；电催化/光催化制氨、氨分解这类“背景”只放网页。一天最多两条消息；连续 7 天没有新论文发一条“运行正常”的心跳；主数据源出故障时发提醒。导入和回填的论文不会逐篇推送。
+所以默认会推送交叉、直接，以及标题里就有焦耳热/ALD 的可迁移论文；电催化/光催化/锂介导制氨、氨分解、只讲工厂流程/能源系统/经济性的论文归“背景”，只放网页。一天最多两条消息；**推过的不会再推**；连续 7 天没有新论文发一条“运行正常”的心跳；主数据源出故障时发提醒。导入和回填的论文不会逐篇推送。
+
+## 覆盖面：会不会漏？
+
+**来源**
+- **Crossref**：几乎所有正规期刊（ACS、Elsevier、Wiley、RSC、Springer Nature、Science、中文期刊里有 DOI 的）和 ChemRxiv 等预印本，论文上线后一般当天就能查到。每次用 20 多组检索词查最近 5 天
+- **arXiv**、**期刊 RSS**（Nature 系列 12 本、Science / Science Advances、Joule、Chem、Angew、AM、AEM、AFM）：比 Crossref 早几个小时，且带摘要
+- **补摘要**：Crossref 常缺摘要（Elsevier、ACS 尤其多），会再去 Semantic Scholar、Europe PMC 查；有 `OPENALEX_API_KEY` 时也查 OpenAlex。摘要越全，筛选越准、简介越好
+
+**用旧公众号库检验过（2026-10-29）**：旧站公众号推文里写明 DOI 的论文，2024 年以后的共 19 篇：
+- **14 篇资料库里有**。其中几篇乍看对不上，是因为同一篇 Angew 有德文版/国际版两个 DOI（已合并）、先收了预印本后来正式发表（现在会自动换成正式版）、推文里的 DOI 写错或写残
+- **3 篇是规则有意不收的**：半导体/电子器件用的 ALD 薄膜 2 篇，焦耳热做吸波材料 1 篇。后一类现在改为：**标题明确写了闪蒸焦耳热/碳热冲击的，也收进网页，归“背景”**
+- **2 篇真漏了**：一篇 Nature Chemical Engineering 的闪蒸焦耳热论文（标题只写 “Flash-encapsulated fluorination”，出版社也没交摘要，关键词规则看不到）；一篇 Nature Reviews Chemistry 的锂介导电化学制氨综述（检索词偏热催化）。现在加了 Nature 系列 RSS（带摘要）、补摘要、锂介导检索词来补这两类
+
+**仍然可能漏的**：只有中文、没有 DOI 的期刊论文；标题和摘要都不出现这些关键词的论文（比如只在正文里用了焦耳热）；会议摘要和专利。想多盯某个方向，在 `config.toml` 里加检索词或关键词即可。
 
 ## 调整方向
 
@@ -118,7 +148,8 @@ Name 填 `SERVERCHAN_SENDKEY`（用 WxPusher 就填 `WXPUSHER_SPT`），Secret �
 |---|---|
 | `CONTACT_EMAIL` | 你的邮箱。Crossref 对带邮箱的请求服务更稳定（只发给 Crossref） |
 | `OPENALEX_API_KEY` | 在 [openalex.org/settings/api](https://openalex.org/settings/api) 免费申请。多一个带摘要的来源，筛选更准，用量远低于免费额度 |
-| `LLM_API_KEY` + `LLM_BASE_URL` + `LLM_MODEL` | AI 复核，并给每篇写一句中文要点。任意 OpenAI 兼容接口都行（比如 DeepSeek：`https://api.deepseek.com/v1` + `deepseek-chat`），按量付费，每天几十篇，费用很低 |
+| `ZHIPU_API_KEY` | **推荐**。智谱免费模型写中文标题和简介（见上文“中文简介”） |
+| `LLM_API_KEY` + `LLM_BASE_URL` + `LLM_MODEL` | 换成其他 OpenAI 兼容接口写简介（比如 DeepSeek：`https://api.deepseek.com/v1` + `deepseek-chat`，按量付费），同时开启 AI 相关度复核 |
 | `WECOM_WEBHOOK` | 企业微信群机器人，作为另一种推送方式 |
 
 **Zotero 订阅**：Zotero → 文件 → 新建订阅 → 从网址 → `https://你的用户名.github.io/paper-radar/feed.xml`
@@ -131,10 +162,14 @@ python -m radar --backfill 2024-01                按月回填（可中断，再
 python -m radar --import-export legacy/legacy-export.json.gz   重新导入旧站数据（改了规则之后）
 python -m radar --import-cloud https://paperresearch.de5.net   导入旧云端站
 python -m radar --render-only                     只重新生成网页
+python -m radar --maintain                        补摘要、写中文简介、规则改过时重筛资料库
+python tests/test_pipeline.py                     离线跑一遍完整流程（不联网、不推送）
 python tests/test_rules.py && python tests/eval_sets.py         规则自检
 ```
 
 ## 常见问题
+
+**简介准不准？** 简介只根据标题和摘要写，提示词要求不准编数字和结论；没有摘要时只概括主题并标明。但它是 AI 写的，可能有误，引用前请看原文。
 
 **为什么不直接监控公众号？** 微信没有开放接口，免费办法都得靠一个登录着的账号去抓，登录态会过期，抓得多了还会被风控。旧项目在 TikHub、微信读书、电脑微信三条路上都卡在这里。WeWe RSS 走的就是微信读书这条路，2026 年 5 月已经归档停更。公众号报道的论文基本都来自期刊，直接盯期刊和预印本通常更早、更全。以后如果拿到某个公众号的 RSS 地址，按 `config.toml` 里 `[[rss]]` 的格式加进来，就会走同样的筛选。
 

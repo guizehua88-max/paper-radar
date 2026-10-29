@@ -11,7 +11,7 @@ import re
 
 from . import net
 
-TIER_HEAD = {"cross": "⭐ 交叉（合成氨 × 焦耳热/ALD）", "direct": "直接相关（合成氨）", "transferable": "可迁移方法（焦耳热 / ALD）",
+TIER_HEAD = {"cross": "⭐ 交叉（合成氨 × 焦耳热/ALD）", "direct": "直接相关（热催化合成氨）", "transferable": "可迁移方法（焦耳热 / ALD 用于其他体系）",
              "uncertain": "待核", "background": "邻近背景"}
 TOPIC_NAMES: dict[str, str] = {}
 
@@ -70,6 +70,30 @@ def send(title: str, markdown: str) -> list[str]:
     return results
 
 
+def excerpt(text: str, n: int = 200) -> str:
+    """First sentence(s) of an English abstract, about n characters."""
+    text = re.sub(r"^\s*(abstract|summary)[\s:.\-–]+", "", (text or "").strip(), flags=re.IGNORECASE)
+    if len(text) <= n + 40:
+        return text
+    cut = text[: n + 60]
+    ends = [m.end() for m in re.finditer(r"[.!?。](\s|$)", cut)]
+    good = [e for e in ends if e >= n * 0.5]
+    return (cut[: good[0]] if good else text[:n].rsplit(" ", 1)[0] + " …").strip()
+
+
+def brief_line(p: dict) -> str:
+    """中文简介 if we have one, else the start of the English abstract, else the rule label."""
+    if p.get("zh_brief"):
+        return p["zh_brief"] + ("（仅据标题，未见摘要）" if p.get("brief_from") == "title" else "")
+    ab = (p.get("abstract") or "").strip()
+    if len(ab) >= 80 and p.get("kind") != "wechat":
+        return "摘要：" + excerpt(ab)
+    if ab and p.get("kind") == "wechat":
+        return excerpt(ab, 120)
+    from .site import _useful
+    return "｜".join(x for x in (_useful(p.get("zh_obj", "")), _useful(p.get("zh_method", ""))) if x)
+
+
 def _line(i: int, p: dict) -> str:
     tags = "+".join(TOPIC_NAMES.get(t, t) for t in p["topics"])
     extra = []
@@ -82,14 +106,14 @@ def _line(i: int, p: dict) -> str:
     meta = f"{p.get('source') or '未知来源'} · {p.get('date') or ''} · {tags}"
     if extra:
         meta += " · " + " · ".join(extra)
-    s = f"{i}. [{p['title']}]({p['url']})\n   {meta}"
-    if p.get("zh"):
-        s += f"\n   {p['zh']}"
+    if p.get("zh_title"):
+        s = f"**{i}. {p['zh_title']}**  \n[{p['title']}]({p['url']})"
     else:
-        from .site import _useful
-        label = "｜".join(x for x in (_useful(p.get("zh_obj", "")), _useful(p.get("zh_method", ""))) if x)
-        if label:
-            s += f"\n   {label}"
+        s = f"**{i}.** [{p['title']}]({p['url']})"
+    s += f"  \n{meta}"
+    b = brief_line(p)
+    if b:
+        s += f"\n> {b}"
     return s
 
 
@@ -100,7 +124,7 @@ def digest(items: list[dict], site_url: str, header: str = "") -> str:
         group = [p for p in items if p.get("tier") == tier]
         if not group:
             continue
-        parts.append(f"**{TIER_HEAD[tier]}**")
+        parts.append(f"### {TIER_HEAD[tier]}")
         for p in group:
             parts.append(_line(n, p))
             n += 1
