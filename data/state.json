@@ -75,10 +75,168 @@
    "push": [
     "serverchan:ok"
    ]
+  },
+  {
+   "at": "2026-10-29T07:55:24Z",
+   "errors": {},
+   "new": 15,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
- "last_push_at": "2026-10-29T05:19:11Z",
- "last_run": "2026-10-29T05:19:11Z",
+ "last_daily_status": {
+  "at": "2026-10-29T07:55:24Z",
+  "push": [
+   "serverchan:ok"
+  ],
+  "sources": {
+   "Crossref": {
+    "calls": 20,
+    "err": "",
+    "fails": 0,
+    "n": 1214
+   },
+   "RSS · Advanced Energy Materials": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 181
+   },
+   "RSS · Advanced Functional Materials": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 570
+   },
+   "RSS · Advanced Materials": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 594
+   },
+   "RSS · Angewandte Chemie": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 247
+   },
+   "RSS · Chem": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 53
+   },
+   "RSS · Communications Chemistry": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Joule": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 77
+   },
+   "RSS · Nature": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 75
+   },
+   "RSS · Nature Catalysis": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Chemical Engineering": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Chemistry": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Communications": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Energy": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Materials": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Nanotechnology": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Reviews Chemistry": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Sustainability": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Nature Synthesis": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 8
+   },
+   "RSS · Science": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 41
+   },
+   "RSS · Science Advances": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 39
+   },
+   "arXiv": {
+    "calls": 3,
+    "err": "",
+    "fails": 0,
+    "n": 0
+   },
+   "补摘要": {
+    "calls": 1,
+    "err": "",
+    "fails": 0,
+    "n": 35
+   }
+  },
+  "新增相关": 15,
+  "模式": "日常",
+  "补摘要": "35/534",
+  "达到推送标准": 1
+ },
+ "last_push_at": "2026-10-29T07:55:24Z",
+ "last_run": "2026-10-29T07:55:24Z",
  "welcome_pending": false
 }

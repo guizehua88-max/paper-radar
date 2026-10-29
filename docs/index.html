@@ -64,6 +64,12 @@ input[type=search]{flex:1;min-width:160px}
 .card h2 a:hover{color:var(--link);text-decoration:underline}
 .meta{color:var(--muted);font-size:12.5px;margin-top:4px}
 .zh{margin-top:6px;font-size:13px;color:var(--ink);opacity:.85}
+.zt{font:500 14.5px/1.45 var(--serif);margin-top:3px;color:var(--ink);opacity:.88}
+.brief{margin:8px 0 0;font-size:14px;line-height:1.7;color:var(--ink)}
+.brief.en{opacity:.82;font-size:13.5px}
+.bl{display:inline-block;font:600 11px/1 var(--sans);color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:2px 5px;margin-right:6px;vertical-align:1px}
+.dim{color:var(--muted);font-size:12.5px}
+.lab{margin-top:5px;font-size:12px;color:var(--muted)}
 .note{margin-top:6px;font-size:13px;background:var(--hi);border-radius:6px;padding:5px 8px}
 .acts{display:flex;gap:12px;margin-top:6px;align-items:center;flex-wrap:wrap}
 .act{border:0;background:none;color:var(--muted);font:12.5px var(--sans);cursor:pointer;padding:0}
@@ -107,7 +113,7 @@ footer td{padding:3px 6px 3px 0;border-bottom:1px dashed var(--line);vertical-al
     <select id="sort" aria-label="排序">
       <option value="seen">按收录时间</option><option value="date">按发表日期</option><option value="score">按相关度</option>
     </select>
-    <input type="search" id="q" placeholder="搜索标题、摘要、期刊、作者…" aria-label="搜索">
+    <input type="search" id="q" placeholder="搜索标题、简介、摘要、期刊、作者…" aria-label="搜索">
     <span class="menu"><button class="tool" id="exp">导出 ▾</button>
       <span class="menu-list" id="expmenu">
         <button data-f="ris">RIS（导入 Zotero / EndNote）</button>
@@ -129,6 +135,9 @@ if (!I){ $('#list').innerHTML = '<div class="empty">还没有数据。到 GitHub
 const T = I.topics, DAY = 864e5, now = Date.now();
 const TIERS = {cross:'⭐ 交叉', direct:'直接', transferable:'可迁移', uncertain:'待核', background:'背景'};
 const RANK = {cross:5, direct:4, transferable:3, uncertain:2, background:1};
+const excerpt = (t, n) => { t = String(t || '').replace(/^\s*(abstract|summary)[\s:.\-–]+/i, '').trim(); if (t.length <= n + 40) return t;
+  const cut = t.slice(0, n + 60), m = [...cut.matchAll(/[.!?。](\s|$)/g)].map(x => x.index + 1).filter(e => e >= n * 0.5);
+  return m.length ? cut.slice(0, m[0]) : t.slice(0, n).replace(/\s+\S*$/, '') + ' …'; };
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const store = { get(k, d){ try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch(e){ return d; } },
                 set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch(e){} } };
@@ -186,7 +195,7 @@ function filtered(list, skipTier){
   if (topic !== 'all') ps = ps.filter(p => p.tp.includes(topic));
   if (kind === 'paper') ps = ps.filter(p => !p.wx); else if (kind === 'wx') ps = ps.filter(p => p.wx);
   for (const [k,,f] of flagFilters) if (flags[k]) ps = ps.filter(f);
-  if (q) ps = ps.filter(p => (p.t + ' ' + (p.ab||'') + ' ' + p.s + ' ' + p.au.join(' ') + ' ' + (p.zh||'') + ' ' + (p.ob||'') + ' ' + (p.n||'')).toLowerCase().includes(q));
+  if (q) ps = ps.filter(p => (p.t + ' ' + (p.ab||'') + ' ' + p.s + ' ' + p.au.join(' ') + ' ' + (p.zh||'') + ' ' + (p.zt||'') + ' ' + (p.zb||'') + ' ' + (p.ob||'') + ' ' + (p.n||'')).toLowerCase().includes(q));
   const s = sort || (view === 'month' ? 'date' : 'seen');
   const key = s === 'date' ? (p => p.d) : s === 'seen' ? (p => p.f) : (p => String(1000 + p.sc));
   return ps.slice().sort((a, b) => key(b) < key(a) ? -1 : key(b) > key(a) ? 1 : (RANK[b.tr] - RANK[a.tr]) || (b.sc - a.sc));
@@ -224,6 +233,11 @@ async function setView(v){
   draw();
 }
 
+function brief(p){
+  if (p.zb) return `<p class="brief"><span class="bl">简介</span>${esc(p.zb)}${p.bt ? '<span class="dim">（仅据标题，未见摘要）</span>' : ''}</p>`;
+  if (p.ab) return `<p class="brief${p.wx ? '' : ' en'}"><span class="bl">${p.wx ? '摘要' : '摘要节选'}</span>${esc(excerpt(p.ab, 220))}</p>`;
+  return '';
+}
 function card(p){
   const c = p.tr === 'cross' ? 'var(--star)' : `var(--${p.tp[0] || 'line'})`;
   const isNew = p.f && now - Date.parse(p.f) < 3*DAY && !(p.o||'').startsWith('旧站') && p.o !== '回填';  // imported items keep their old dates
@@ -233,6 +247,7 @@ function card(p){
   p.tp.forEach(t => b.push(`<span class="b t-${esc(t)}">${esc(T[t]||t)}</span>`));
   if (p.top) b.push('<span class="b">顶刊</span>');
   if (p.pre) b.push('<span class="b">预印本</span>');
+  if (p.pp) b.push(`<span class="b" title="之前收录的是预印本版本">已正式发表（原 ${esc(p.pp)}）</span>`);
   if (p.wx) b.push('<span class="b">公众号</span>');
   if (p.rb) b.push(`<span class="b fav" title="${esc(p.rb.join('、'))}">公众号报道 ×${p.rb.length}</span>`);
   (p.w || []).forEach(w => b.push(`<span class="b">关注 · ${esc(w)}</span>`));
@@ -244,13 +259,15 @@ function card(p){
   return `<article class="card${reads[p.id] ? ' read' : ''}" style="--c:${c}">
     <div class="badges">${b.join('')}</div>
     <h2><a href="${esc(p.u)}" target="_blank" rel="noopener" data-read="${esc(p.id)}">${esc(p.t)}</a></h2>
+    ${p.zt ? `<div class="zt">${esc(p.zt)}</div>` : ''}
     <div class="meta">${p.wx ? '公众号「' + esc(p.s) + '」' : esc(p.s || '未知来源')}${p.d ? (p.wx ? ' · 发布 ' : ' · 发表 ') + esc(p.d) : ''}${au}${seen}${p.mt ? ' · 原论文 ' + p.mt.map(d => `<a href="https://doi.org/${esc(d)}" target="_blank" rel="noopener">${esc(d)}</a>`).join(' ') : ''}</div>
-    ${p.zh ? `<div class="zh">${esc(p.zh)}</div>` : ''}${p.ob ? `<div class="zh">${esc(p.ob)}</div>` : ''}
+    ${brief(p)}
+    ${p.zh && !p.zb ? `<div class="zh">${esc(p.zh)}</div>` : ''}${p.ob ? `<div class="lab">规则标签：${esc(p.ob)}</div>` : ''}
     ${p.n ? `<div class="note">旧站笔记：${esc(p.n)}</div>` : ''}
     <div class="acts">
       <button class="act${fav ? ' on' : ''}" data-fav="${esc(p.id)}">${fav ? '★ 已收藏' : '☆ 收藏'}</button>
       <button class="act" data-rd="${esc(p.id)}">${reads[p.id] ? '标为未读' : '标为已读'}</button>
-      ${p.ab ? `<details><summary>摘要</summary><p>${esc(p.ab)}</p></details>` : ''}
+      ${p.ab && (p.zb || excerpt(p.ab, 220).length < p.ab.length) ? `<details><summary>${p.wx ? '全文摘要' : '英文摘要'}</summary><p>${esc(p.ab)}</p></details>` : ''}
     </div>
   </article>`;
 }
@@ -302,16 +319,18 @@ function exportList(fmt){
       const doi = p.id.startsWith('10.') ? p.id : ''; if (doi) l.push(`DO  - ${doi}`);
       l.push(`UR  - ${p.u}`);
       if (p.ab) l.push(`AB  - ${p.ab}`);
+      if (p.zt) l.push(`TT  - ${p.zt}`);
       l.push(`KW  - 文献雷达:${TIERS[p.tr] || p.tr}`); p.tp.forEach(t => l.push(`KW  - ${T[t] || t}`));
+      if (p.zb) l.push(`N1  - 中文简介（AI）：${p.zb}`);
       if (p.ob) l.push(`N1  - ${p.ob}`);
       if (p.n) l.push(`N1  - 旧站笔记：${p.n}`);
       l.push('ER  - '); return l.join('\r\n');
     }).join('\r\n\r\n');
     download(`文献雷达-${stamp}.ris`, out, 'application/x-research-info-systems');
   } else {
-    const cols = ['相关度','方向','标题','期刊','发表日期','收录时间','DOI/链接','作者','规则说明','旧站笔记'];
+    const cols = ['相关度','方向','标题','中文标题','中文简介','期刊','发表日期','收录时间','DOI/链接','作者','规则说明','旧站笔记'];
     const cell = v => { let s = String(v ?? ''); if (/^[=+\-@]/.test(s)) s = "'" + s; return '"' + s.replace(/"/g,'""') + '"'; };
-    const rows = ps.map(p => [TIERS[p.tr]||p.tr, p.tp.map(t => T[t]||t).join('+'), p.t, p.s, p.d, p.f, p.u, p.au.join('; '), p.ob||'', p.n||''].map(cell).join(','));
+    const rows = ps.map(p => [TIERS[p.tr]||p.tr, p.tp.map(t => T[t]||t).join('+'), p.t, p.zt||'', p.zb||'', p.s, p.d, p.f, p.u, p.au.join('; '), p.ob||'', p.n||''].map(cell).join(','));
     download(`文献雷达-${stamp}.csv`, '﻿' + cols.join(',') + '\r\n' + rows.join('\r\n'), 'text/csv;charset=utf-8');
   }
 }
@@ -322,6 +341,7 @@ function foot(){
     `<tr><td>${esc(k)}</td><td class="${v.err ? 'err' : 'ok'}">${v.err ? '失败 ' + esc(v.err) : '正常'}</td><td>${v.n ?? 0} 条</td></tr>`).join('');
   const ex = Object.entries(s).filter(([k]) => !['sources','push','at','llm'].includes(k)).map(([k,v]) => `${esc(k)}：${esc(v)}`).join('；');
   $('#foot').innerHTML = `<div>最近一次运行（${s.at ? new Date(s.at).toLocaleString('zh-CN',{hour12:false}) : '—'}）：${ex || '—'}；推送：${esc((s.push||[]).join(', ') || '无')}。</div>
+    <div style="margin-top:6px">中文简介：${I.briefs ? `重点论文已写 ${I.briefKey}/${I.keyTotal} 篇，全库 ${I.briefs} 篇；由 AI 只根据标题和摘要生成，可能有误，请以原文为准` : '未开启（在 GitHub 仓库 Secrets 里添加 ZHIPU_API_KEY 后自动生成）；现在卡片上显示的是英文摘要的开头'}。</div>
     <div style="margin-top:6px">相关度：⭐交叉＝合成氨同时涉及焦耳热/程序升温或 ALD；直接＝热催化合成氨；可迁移＝焦耳热/ALD 用于其他反应或材料；待核＝路线不明；背景＝电/光/等离子体制氨、氨分解等。规则筛选，未读全文，请以原文为准。</div>
     ${rows ? `<table>${rows}</table>` : ''}`;
 }
