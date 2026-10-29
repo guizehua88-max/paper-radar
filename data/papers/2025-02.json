@@ -423,6 +423,9 @@
    "Koji Inazu",
    "Katsutoshi Nagaoka"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02-25",
   "doi": "10.1002/aenm.202570038",
@@ -444,8 +447,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "通过与 Co 同时掺入碳保护框架，实现了 Ba 助剂理想状态。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "通过与 Co 同时掺入碳保护框架实现 Ba 助剂理想状态"
  },
  "10.1002/aic.18789": {
   "abstract": "Abstract Molybdenum (Mo) serves as the key site in the nitrogenase enzyme, catalyzing the conversion of N 2 into NH 3 under ambient conditions. However, the strong affinity of Mo sites for N 2 hinders H 2 adsorption due to the competitive nature of N 2 and H 2 on a single site, resulting in an unsatisfactory ammonia synthesis performance. Here, we propose an approach of intervening C 60 layer as a second site for H 2 adsorption on two‐dimensional Mo 2 CT x . The C 60 layer thickness is readily tunable by varying its loading content. An optimal C 60 layer significantly enhances the electronic interaction between the C 60 layer and the Mo 2 CT x layer, leading to a remarkable decrease in the work function and an increase in the electron density of Mo atoms. Therefore, the separate adsorption of N 2 and H 2 on distinct sites is substantially facilitated. The present work offers insights into the correlation between structure and performance in NH 3 synthesis catalysts.",
@@ -1193,6 +1198,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.apsusc.2024.161648",
@@ -1214,7 +1220,7 @@
   "why": [
    "nitrogen fixation"
   ],
-  "zh_brief": "基于 g-C3N5 研究双原子催化剂用于高效固氮的第一性原理。",
+  "zh_brief": "研究利用第一性原理计算了基于 g-C3N5 的双原子催化剂在高效固氮方面的性能。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "基于 g-C3N5 的双原子催化剂固氮的第一性原理研究"
@@ -1825,6 +1831,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.enconman.2024.119434",
@@ -1846,10 +1853,10 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_brief": "利用 Mn-Fe 和 Mn-Fe-BaH2 氮载体进行微波加热辅助的化学循环合成氨。",
+  "zh_brief": "研究采用微波加热辅助化学循环法，利用 Mn-Fe 和 Mn-Fe-BaH2 氮载体进行氨合成。",
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
-  "zh_title": "微波加热辅助化学循环合成氨"
+  "zh_title": "微波加热辅助化学循环氨合成"
  },
  "10.1016/j.envres.2024.120422": {
   "ab_try": "2026-10-29",
@@ -1928,6 +1935,7 @@
   "authors": [],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.focat.2025.02.010",
@@ -1949,7 +1957,7 @@
   "why": [
    "ammonia production"
   ],
-  "zh_brief": "利用合成气催化剂线实现节能氨生产。",
+  "zh_brief": "研究开发了合成气催化剂线以实现节能的氨生产。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "合成气催化剂线实现节能氨生产"
@@ -2098,6 +2106,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.fuel.2024.133668",
@@ -2119,10 +2128,10 @@
   "why": [
    "ammonia production"
   ],
-  "zh_brief": "针对石油焦和煤直接化学循环制氨过程进行建模、优化与系统评估。研究分析了不同原料对反应过程的影响，并评估了系统的整体性能。",
+  "zh_brief": "研究对石油焦/煤直接化学循环生产氨的过程进行了建模、优化与系统评估。",
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨",
-  "zh_title": "石油焦/煤直接化学循环制氨过程的建模、优化与系统评估"
+  "zh_title": "石油焦/煤直接化学循环生产氨过程的建模、优化与系统评估"
  },
  "10.1016/j.fuel.2024.133716": {
   "ab_try": "2026-10-29",
@@ -2237,6 +2246,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.ijhydene.2025.01.029",
@@ -2258,7 +2268,7 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_brief": "比较了轴向有效导热模型，并分析了其对氨合成过程的影响。研究评估了不同模型在模拟反应器传热行为中的适用性。",
+  "zh_brief": "比较了轴向有效导热模型，分析了其对氨合成过程的影响。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "轴向有效导热模型比较及其对氨合成过程的影响"
@@ -2276,6 +2286,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.ijhydene.2025.01.039",
@@ -2297,10 +2308,10 @@
   "why": [
    "Haber-Bosch"
   ],
-  "zh_brief": "对高负荷柔性哈伯-博施工厂进行了动态模拟。研究分析了工厂在不同负荷变化下的运行性能和稳定性。",
+  "zh_brief": "对高负荷柔性哈伯-博施工厂进行了动态模拟。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
-  "zh_title": "高负荷柔性哈伯-博施工厂的动态模拟"
+  "zh_title": "高负荷柔性哈伯-博施工厂动态模拟"
  },
  "10.1016/j.jallcom.2025.178694": {
   "ab_try": "2026-10-29",
@@ -2532,6 +2543,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.jclepro.2025.145026",
@@ -2553,10 +2565,10 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_brief": "制备了掺杂过渡金属的高活性钒基氮载体用于化学循环氨合成。研究考察了过渡金属掺杂对催化剂性能的影响。",
+  "zh_brief": "制备了掺杂过渡金属的高活性钒基氮载体用于化学链氨合成。",
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨",
-  "zh_title": "化学循环氨合成中掺杂过渡金属的高活性钒基氮载体"
+  "zh_title": "化学链氨合成中掺杂过渡金属的高活性钒基氮载体"
  },
  "10.1016/j.jece.2024.115144": {
   "ab_try": "2026-10-29",
@@ -2932,6 +2944,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.mcat.2024.114781",
@@ -2959,10 +2972,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_brief": "提出了先进哈伯-博施氨合成工艺下一代催化剂开发的关键工程准则。研究涵盖了从实验室研究到商业化的全流程考量。",
+  "zh_brief": "提出了从实验室研究到商业化开发先进哈伯-博施氨合成催化剂的关键工程准则。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
-  "zh_title": "先进哈伯-博施氨合成工艺下一代催化剂开发的关键工程准则"
+  "zh_title": "先进哈伯-博施氨合成过程中开发下一代催化剂的关键工程准则"
  },
  "10.1016/j.mcat.2024.114794": {
   "ab_try": "2026-10-29",
@@ -3395,6 +3408,7 @@
   ],
   "brief_by": "glm-4.7-flash",
   "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02-27",
   "doi": "10.1021/acs.jpcc.4c07596",
@@ -3416,10 +3430,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_brief": "开发用于铁催化剂非平衡氨合成分子动力学模拟的机器学习力场。该力场能准确描述反应动力学。",
+  "zh_brief": "开发了用于铁催化剂非平衡合成氨分子动力学模拟的机器学习力场。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
-  "zh_title": "铁催化剂非平衡氨合成分子动力学模拟的机器学习力场"
+  "zh_title": "铁催化剂非平衡合成氨分子动力学模拟的机器学习力场"
  },
  "10.1021/acs.jpclett.4c03298": {
   "ab_try": "2026-10-29",
@@ -3744,6 +3758,9 @@
    "Kyungho Lee",
    "Minkee Choi"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02-24",
   "doi": "10.1038/s41929-025-01302-z",
@@ -3765,8 +3782,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究构建了介电低功函数碳负载的 Ru 和 BaO 催化剂，利用 DFT 计算发现碳层能有效分离电子和质子储存位点，显著降低了氨合成能垒…",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "介电低功函数碳促进分离的 Ru 和 BaO 域储存电子和质子以加速氨合成"
  },
  "10.1038/s43016-025-01125-y": {
   "ab_try": "2026-10-29",
@@ -4451,6 +4470,9 @@
    "Arpit Dutta",
    "Prof. Arijit Bag"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 2,
   "cross": false,
   "date": "2025-02-21",
   "doi": "10.2139/ssrn.5147453",
@@ -4472,8 +4494,10 @@
   "why": [
    "Ammonia Production"
   ],
+  "zh_brief": "研究探索了原始碳同素异形体在常温下作为氨合成催化剂的潜力。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "探索原始碳同素异形体作为常温氨合成催化剂"
  },
  "10.3311/ppch.38862": {
   "abstract": "The present paper investigates the energy intensity of ammonia production by a freely oscillating microbubble placed in an infinite liquid domain. The spherical bubble initially contains a mixture of nitrogen and hydrogen. The bubble is expanded from its equilibrium size to a specific maximum radius via an isothermal expansion. The work needed to expand the bubble is its potential energy calculated by the sum of the work done by the internal gas, the work needed to displace the mass of the surrounding liquid, and the work needed to increase the area of the bubble against the surface tension. During the radial pulsation of the freely oscillating bubble, the internal temperature can reach several thousands of kelvin inducing chemical reactions. The chemical yield is computed by solving a set of ordinary differential equations describing the radial dynamics of the bubble (Keller—Miksis equation), the temporal evolution of the internal temperature (first law of thermodynamics), and the concentrations of the chemical species (reaction mechanism). The control parameters during the simulations were the equilibrium bubble size, the initial expansion ratio, the ambient pressure, and the initial concentration ratio of nitrogen and hydrogen. In the best-case scenario, the energy requirement in terms of GJ/t is 18.4 times higher than the best available facility of the Haber—Bosch process (assuming that the hydrogen is produced via the electrolysis of water).",
