@@ -560,33 +560,6 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
- "10.1002/cctc.202500768": {
-  "abstract": "Abstract Ammonia is a potential fuel for use in engines. Burning of ammonia does not result in the CO x formation, and therefore, ammonia could be classified as a sustainable fuel. On the other hand, in this case, exhaust gases may contain significant amounts of unburned ammonia and nitrogen oxides (including N 2 O) as pollutants. The problem of the possible catalytic systems for exhaust gases purification is analyzed and discussed, mainly with respect to the application of catalytic processes for NO x , N 2 O, and ammonia conversions. The various types of catalysts operating under condtions of exhaust gases (e.g., temperature and composition) were compared and the most promissing catalytic systems were proposed. Attention was mainly focused on the use of pure ammonia as a fuel, although some issues relating to the combustion of mixed fuels, such as ammonia ‐ hydrocarbon fuels as well as ammonia ‐ hydrogen (H 2 obtained by catalytic decomposition of ammonia) were also presented and discussed.",
-  "authors": [
-   "Lucjan Chmielarz"
-  ],
-  "cross": false,
-  "date": "2025-08-15",
-  "doi": "10.1002/cctc.202500768",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/cctc.202500768",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 6,
-  "source": "ChemCatChem",
-  "tier": "background",
-  "title": "Catalytic Methods for Purification of Exhaust Gases Produced by Ammonia‐Fueled Engines",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1002/cctc.202500768",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢"
- },
  "10.1002/cctc.202501005": {
   "abstract": "Abstract Herein, we report the synthesis of an air‐stable, phosphine‐free NNN‐based nickel(II) pincer complex that catalyzed the generation of diverse hydrogenated products from azoarenes using ammonia borane (AB) as a transfer hydrogenating source, facilitating at room temperature. The synthetic protocol tolerates the transfer hydrogenation (TH) of various azo‐derived substrates, especially bearing reducible functional groups. The preliminary mechanistic investigation studies revealed the crucial role of nickel catalyst in the TH of the azo‐substrates using AB and ethanol, which generates the boron‐alkoxide by‐products. The significant advantage of this study highlights the utilization of nickel catalyst for the complete N═N cleavage of azoarenes to generate aminoarenes, assisted at base‐free, mild reaction conditions.",
   "authors": [
@@ -2783,7 +2756,7 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
  "10.1016/j.jwpe.2025.108284": {
   "ab_try": "2026-10-29",
@@ -5169,42 +5142,6 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
- },
- "10.3390/plants14152425": {
-  "abstract": "The ecological rice–eel co-culture system is not only beneficial for enhancing productivity and sustainability in agriculture but also plays a crucial role in promoting environmental health. In the present study, based on the long-term positioning trial of the rice–eel co-culture system that began in 2016 and was sampled in 2023, the effects of reduced nitrogen fertilizer application on soil physico-chemical properties and the bacterial community were investigated. Treatments included a conventional regular fertilization treatment (RT), rice–eel co-culture system regular fertilization (IT), and nitrogen-reduction 10%, 30%, and 50% fertilization treatments (IT90, IT70, and IT50). Our research demonstrated the following: (1) Compared to RT, IT significantly increased soil water-stable macroaggregates (R0.25), mean weight diameter (MWD), geometric mean diameter (GMD), and available phosphorus content, with the increases of 15.66%, 25.49%, 36.00%, and 18.42%, respectively. Among the nitrogen-reduction fertilization treatments, IT90 showed the most significant effect. Compared to IT, IT90 significantly increased R0.25, MWD, GMD, and available nitrogen content, with increases of 4.4%, 7.81%, 8.82%, and 28.89%, respectively. (2) Compared to RT, at the phylum level, the diversity of Chloroflexi was significantly increased under IT and IT50, and the diversity of Gemmatimonadota was significantly increased under IT90, IT70, and IT50. The diversity of Acidobacteriota was significantly higher in IT90 and IT70 compared to IT. It was shown that the rice–eel co-culture system and nitrogen fertilizer reduction could effectively improve the degradation capacity of organic matter and promote soil nitrogen cycling. In addition, redundancy analysis (RDA) identified total phosphorus, total nitrogen, and available nitrogen (p = 0.007) as the three most important environmental factors driving changes in the bacterial community. (3) The functional prediction analysis of soil microbiota showed that, compared to RT, the diversity of pathways related to biosynthesis (carbohydrate biosynthesis and cell structure biosynthesis) and metabolism (L-glutamate and L-glutamine biosynthesis) was significantly higher under IT70, IT90, IT, and IT50 (in descending order). However, the diversity of pathways associated with degradation/utilization/assimilation (secondary metabolite degradation and amine and polyamine degradation) was significantly lower under all the rice–eel co-culture treatments. In conclusion, the rice–eel co-culture system improved soil physicochemical properties and the soil microbial environment compared with conventional planting, and the best soil improvement was achieved with 10% less N fertilizer application.",
-  "authors": [
-   "Mengqian Ma",
-   "Weiguang Lv",
-   "Yu Huang",
-   "Juanqin Zhang",
-   "Shuangxi Li",
-   "Naling Bai",
-   "Haiyun Zhang",
-   "Xianpu Zhu",
-   "Chenglong Xu",
-   "Hanlin Zhang"
-  ],
-  "cross": false,
-  "date": "2025-08-05",
-  "doi": "10.3390/plants14152425",
-  "first_seen": "2026-10-29T08:07:55Z",
-  "id": "10.3390/plants14152425",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 9,
-  "source": "Plants",
-  "tier": "uncertain",
-  "title": "Nitrogen Fertilizer Reduction in Rice–Eel Co-Culture System Improves the Soil Microbial Diversity and Its Functional Stability",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.3390/plants14152425",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
  },
  "10.3390/pr13082457": {
   "abstract": "The synthesis of “green ammonia” from “green hydrogen” represents a critical pathway for renewable energy integration and industrial decarbonization. This study investigates the green ammonia synthesis process using an axial–radial fixed-bed reactor equipped with three catalyst layers. A simplified two-dimensional physical model was developed, and a multiscale simulation approach combining computational fluid dynamics (CFD) with physics-informed neural networks (PINNs) employed. The simulation results demonstrate that the majority of fluid flows axially through the catalyst beds, leading to significantly higher temperatures in the upper bed regions. The reactor exhibits excellent heat exchange performance, ensuring effective preheating of the feed gas. High-pressure zones are concentrated near the top and bottom gas outlets, while the ammonia mole fraction approaches 100% near the bottom outlet, confirming superior conversion efficiency. By integrating PINNs, the prediction accuracy was substantially improved, with flow field errors in the catalyst beds below 4.5% and ammonia concentration prediction accuracy above 97.2%. Key reaction kinetic parameters (pre-exponential factor k0 and activation energy Ea) were successfully inverted with errors within 7%, while computational efficiency increased by 200 times compared to traditional CFD. The proposed CFD–PINN integrated framework provides a high-fidelity and computationally efficient simulation tool for green ammonia reactor design, particularly suitable for scenarios with fluctuating hydrogen supply. The reactor design reduces energy per unit ammonia and improves conversion efficiency. Its radial flow configuration enhances operational stability by damping feed fluctuations, thereby accelerating green hydrogen adoption. By reducing fossil fuel dependence, it promotes industrial decarbonization.",

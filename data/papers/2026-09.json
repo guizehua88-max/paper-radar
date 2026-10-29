@@ -1647,40 +1647,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
- "10.1007/s00271-026-01181-7": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
-  "authors": [
-   "Shuaishuai Deng",
-   "Haofang Yan",
-   "Chuan Zhang",
-   "Biyu Wang",
-   "Guoqing Wang",
-   "Jianyun Zhang",
-   "Desheng Zhang"
-  ],
-  "cross": false,
-  "date": "2026-09-16",
-  "doi": "10.1007/s00271-026-01181-7",
-  "first_seen": "2026-10-29T08:07:55Z",
-  "id": "10.1007/s00271-026-01181-7",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 9,
-  "source": "Irrigation Science",
-  "tier": "uncertain",
-  "title": "Optimizing irrigation and nitrogen reduction with organic fertilizer for enhanced greenhouse cucumber production",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1007/s00271-026-01181-7",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
- },
  "10.1007/s10562-026-05521-2": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -8819,7 +8785,7 @@
   "kind": "journal",
   "old_tier": "background",
   "origin": "旧站本地库",
-  "score": 6,
+  "score": 9,
   "source": "Microbial Cell Factories",
   "tier": "background",
   "title": "Coupling bacterial nitrogen fixation to yeast whole-cell biocatalysis enables amine production using air as the sole nitrogen source",
@@ -8830,39 +8796,11 @@
   "url": "https://doi.org/10.1186/s12934-026-03118-3",
   "via": "旧站本地库",
   "watch": [],
-  "why": [],
+  "why": [
+   "Haber-Bosch"
+  ],
   "zh_method": "未交代供热方式",
   "zh_obj": "生物固氮（非气相热催化）"
- },
- "10.13031/33297285": {
-  "abstract": "<p dir=\"ltr\">Supporting tables, figures, and complete R code for a synthesis of published nitrogen load data from 43 constructed surface-flow wetlands treating rainfed cropland runoff and drainage in the U.S. Midwest and Europe. Includes the full wetland dataset with data-extraction notes, a list of studies excluded from the analysis with reasons, equations for model evaluation metrics, supplemental regression and diagnostic figures, and cross-validated performance metrics. The annotated R script reproduces all data processing, the four estimation models, statistical analyses, and all figures. All data were compiled from previously published sources; no new field data collection was involved.</p>",
-  "authors": [
-   "Christopher Hay",
-   "Jane Frankenberger",
-   "Sara McMillan",
-   "Tyler Groh"
-  ],
-  "cross": false,
-  "date": "2026-09-08",
-  "doi": "10.13031/33297285",
-  "first_seen": "2026-10-29T08:07:55Z",
-  "id": "10.13031/33297285",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 9,
-  "source": "预印本",
-  "tier": "uncertain",
-  "title": "Supplemental information for \"Nitrogen Reduction Estimation for Wetlands Treating Runoff and Drainage from Rainfed Cropland\"",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.13031/33297285",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
  },
  "10.1364/ao.606160": {
   "abstract": "Electrically controlled solid propellants (ECSPs) are promising candidates for electrically driven energy conversion systems where electrical conduction, Joule heating, phase transition, and combustion processes are strongly coupled. However, the transient evolution of the solid–liquid phase transition and its interaction with electrical energy deposition remain insufficiently understood due to the lack of effective in situ diagnostic approaches. In this study, a laser-based optical diagnostic method combined with synchronized electrical measurements was developed to visualize and quantitatively characterize the transient phase transition and combustion surface evolution of ECSPs under electrical excitation. A controlled end-face energy-release configuration was established to regulate the electrical conduction pathway and achieve localized energy deposition. The proposed optical diagnostic method enables real-time observation of molten-phase formation, liquid-phase interconnection, and surface regression behaviors during the energy-release process. The results reveal that electrical activation initially induces the formation and expansion of a molten layer on the propellant surface, followed by rapid energy release triggered by the establishment of a continuous conductive pathway. Contact pressure significantly influences the phase transition and energy-release characteristics by modifying the interfacial contact conditions and electrical transport behavior. Furthermore, the surface regression process exhibits a strong correlation with the electrical response, demonstrating the coupling between energy deposition and material regression. This study provides an effective optical diagnostic approach for investigating transient phase transitions and electrothermal coupling behaviors in ECSPs, offering valuable insights into the design and control of electrically activated energy conversion systems.",
@@ -10092,37 +10030,6 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
- },
- "10.3389/fmicb.2026.1928083": {
-  "abstract": "Reducing synthetic nitrogen (N) fertilizer while maintaining soil fertility and crop productivity is a major challenge for sustainable rice production. Straw return has been widely adopted to enhance soil organic carbon (SOC) sequestration; however, the mechanisms by which reduced N input interacts with straw return to regulate SOC stabilization remain poorly understood. Here we evaluated graded N reduction (0, 20, and 30%) under continuous straw return in a nine-year rice-wheat double-cropping experiment in central China. Soil carbon pools, aggregate stability, organic carbon functional groups, and microbial community structure and function were assessed using carbon fractionation, wet-sieving, FTIR spectroscopy, and metagenomic analyses. We found that 20% N reduction (80%NR) maintained grain yield comparable to conventional N fertilization while significantly increasing readily oxidizable organic carbon (ROOC, +18–26%), water-soluble organic carbon (WSOC, +12–21%), microbial biomass carbon (MBC, +15–24%), and carbon management index (CMI, +42–58% relative to NR). Moderate N reduction also enhanced macroaggregate-associated SOC and the relative abundance of aliphatic and aromatic carbon functional groups. Metagenomic analyses revealed that 80%NR enriched Firmicutes (+26%), Actinobacteria (+50%), and Nitrospira, reduced methanogenic archaea, and triggered a metabolic shift from CO oxidation (coxL/cutL, −15 to −22%) toward reductive carbon fixation via the Wood–Ljungdahl pathway (hdrA2, +6 to +19%). In contrast, 30% N reduction (70%NR) undermined subsurface aggregate stability and eroded microbial functional diversity, identifying 20% N reduction as an optimal threshold within the tested gradients. These findings provide a mechanistic basis for optimizing nitrogen management in sustainable rice production systems.",
-  "authors": [
-   "Guohan Si",
-   "Huanqi Jiang",
-   "Chenglin Peng",
-   "Dabing Xu",
-   "Shujun Zhao"
-  ],
-  "cross": false,
-  "date": "2026-09-14",
-  "doi": "10.3389/fmicb.2026.1928083",
-  "first_seen": "2026-10-29T08:07:55Z",
-  "id": "10.3389/fmicb.2026.1928083",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 9,
-  "source": "Frontiers in Microbiology",
-  "tier": "uncertain",
-  "title": "A 20% nitrogen reduction threshold optimizes soil carbon stability and microbial functional resilience under long-term straw return in a rice–wheat rotation",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.3389/fmicb.2026.1928083",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
  },
  "10.3390/app16199528": {
   "abstract": "A two-stage system combining biofilm denitrification and iron electrocoagulation was evaluated for treatment of real hydroponic wastewater from soilless tomato cultivation. Biofilm reactors received sodium acetate (train A) or acetic acid (train B) at a C/N ratio of 1.5, followed by electrocoagulation with iron electrodes at 1.25 A/m2; hydraulic retention time was 12 h per stage. The biological stage removed 76.9–77.5% of total nitrogen (TN) and 94.3–95.7% of total phosphorus (TP), with elevated pH promoting phosphate precipitation with naturally occurring calcium and magnesium. After electrocoagulation, overall TN removal reached 83.6–86.7% and nitrogen speciation shifted from nitrite to nitrate dominance, although residual nitrite remained 21.9–22.1 mg N/L. Residual TN remained 96.7–126.8 mg N/L, above the 30 mg N/L discharge limit. Final TP decreased to 1.5–2.5 mg P/L, below the discharge limit. Overall TOC removal reached 96.3–97.0%. The cumulative sludge had a low volatile fraction (20.0–24.2% VSS) and was enriched in phosphorus and potassium, indicating potential for nutrient recovery. Thus, the sequential system achieved phosphorus compliance and substantial nitrogen reduction, but additional nitrogen treatment is required before discharge.",

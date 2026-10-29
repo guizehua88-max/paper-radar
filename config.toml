@@ -87,14 +87,21 @@ include = [
 exclude = [  # 标题或摘要里出现就排除
   'ammonia[ -](combustion|flame|spray|engine|injection|slip|emission|sensor|sensing|leak|toxicity|borane)',
   'flash[- ]boiling', 'ammonia[- ]fueled', 'ammonia/hydrogen (blend|combustion)', '\bco-?firing',
-  'livestock', '\bmanure', 'poultry', '\burine\b', 'blood ammonia', 'hyperammon', 'hepatic',
   'NH3 sensor', 'NH3-SCR', 'selective catalytic reduction', 'ammonium perchlorate',
   '(reduction|removal) of (nitrogen oxides|NOx|NO|NO2)\b.{0,30}\b(by|with|using) (ammonia|NH3|NH₃)', 'nitrogen dioxide to nitric oxide',
+]
+exclude_bio = [  # 农业、生物里的“固氮/产氨/氮减量”：标题或摘要里出现、且标题不像催化/合成研究时排除（旧规则判进来的也排除）
+  'livestock', '\bmanure', 'poultry', '\burine\b', 'blood ammonia', 'hyperammon', 'hepatic',
   'anammox', '\bnitrification', 'denitrif', 'rhizob', 'legume', 'diazotroph', 'symbiotic',
   'signal(l)?ing pathway', '\bflesh\b', 'digestib', '\brumen\b', 'ruminal', 'broiler', 'intestin', 'microbio(ta|me)',
+  'nodulat', 'nitrogenase activity', 'acetylene reduction', 'biocrust', 'rhizosphere', 'cyanobacteri', 'microbial communit',
+  'nitrogen use efficiency', 'fertili[sz]ation (rates?|levels?|regimes?|treatments?|management)', 'soil (acidification|fertility|microb|nitrogen|propert|organic)',
+  'grain yield', '\bpaddy', 'endophyt', 'ammonia volatili[sz]ation',
 ]
 exclude_title = [  # 只看标题（这些词常出现在合成氨论文摘要的“背景介绍”里，比如“化肥、粮食”）
   '\bsoils?\b', '\b(rice|wheat|maize|crops?)\b', '\bdiets?\b', '\bdietary\b', '\bfish\b', '\b(pigs?|cattle|cows?|sheep|goats?)\b',
+  'soybean', 'sorghum', 'potato', 'cotton', 'cultivar', 'seedling', 'irrigat', 'amendment', 'grassland', '\bforests?\b', 'wetland', 'straw',
+  '\bdiesel\b', '\bengines?\b', 'wastewater treatment plant', '\bsewage\b', 'aquaculture',
 ]
 # 标题只讲工艺流程、能源系统、控制、经济性、安全（标题里又没有催化剂/材料/机理字眼）时，降为“背景”：不推送，网页里仍可查
 context = [

@@ -39,6 +39,7 @@ CATALYTIC_PROCESSES = {
 }
 
 _CATAL = re.compile(r"catal|催化", re.IGNORECASE)
+_CHEM_TITLE = re.compile(r"catal|electro|photo|plasma|haber|synthes|reactor|催化|合成", re.IGNORECASE)
 _NOT_A_PAPER = re.compile(r"^\s*(corrigendum|erratum|correction to|retraction|retracted|expression of concern|"
                           r"(inside |outside )?(front|back) cover|cover (picture|feature|image|art)|frontispiece|"
                           r"table of contents|graphical abstract)\b", re.IGNORECASE)
@@ -72,6 +73,7 @@ class Classifier:
                 "require": _rx(t.get("require_any")),
                 "exclude": _rx(t.get("exclude")),
                 "exclude_title": _rx(t.get("exclude_title")),
+                "exclude_bio": _rx(t.get("exclude_bio")),
                 "secondary": _rx(t.get("secondary")),
                 "keep": _rx(t.get("title_keep")),
                 "context": _rx(t.get("context")),
@@ -94,6 +96,16 @@ class Classifier:
                 self.watch[_norm_name(g + family)] = a
                 self.watch[_norm_name(family + g)] = a
 
+    def _excluded(self, text: str, title: str) -> bool:
+        """Any topic's exclusion list fires (used for items only the old rules accept)."""
+        return any(self._bio(t, text, title) or any(r.search(title) for r in t["exclude_title"])
+                   for t in self.topics if t["id"] == "nh3")
+
+    @staticmethod
+    def _bio(t, text: str, title: str) -> bool:
+        """Agriculture / biology wording, unless the title itself is about catalysis or synthesis."""
+        return not _CHEM_TITLE.search(title) and any(r.search(text) for r in t["exclude_bio"])
+
     # ---- my topic rules
     def _topic(self, t, text: str, title: str):
         """Returns (hit-dict | None, rejected: bool). rejected = keyword present but ruled out."""
@@ -102,7 +114,7 @@ class Classifier:
             return None, False
         in_title = any(r.search(title) for r in t["include"])
         if ((t["require"] and not any(r.search(text) for r in t["require"]))
-                or any(r.search(text) for r in t["exclude"])
+                or any(r.search(text) for r in t["exclude"]) or self._bio(t, text, title)
                 or any(r.search(title) for r in t["exclude_title"])):
             if any(r.search(title) for r in t["keep"]):  # the title itself says it is this method -> keep, as 背景
                 return {"id": t["id"], "level": "keep", "in_title": True, "kw": inc}, False
@@ -178,7 +190,8 @@ class Classifier:
               and not _CHARACTERIZATION.search(old.get("heating_zh", ""))
               and old.get("heating") in ("reaction_joule", "preparation_joule", "reaction_programmable")):
             tier = "transferable"
-        elif old_tier in ("background", "uncertain") and any(t in LEGACY_TOPIC for t in old.get("topics", [])):
+        elif (old_tier in ("background", "uncertain") and any(t in LEGACY_TOPIC for t in old.get("topics", []))
+              and not self._excluded(text, title)):
             tier = old_tier
         else:
             return None
