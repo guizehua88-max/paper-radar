@@ -21,7 +21,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 75
     env:
       WXPUSHER_SPT: ${{ secrets.WXPUSHER_SPT }}
       PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
@@ -32,6 +32,7 @@ jobs:
       LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
       LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
       LLM_MODEL: ${{ secrets.LLM_MODEL }}
+      ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -53,9 +54,10 @@ jobs:
           git pull --rebase --autostash || true
           git push
 
-      - name: 历史回填 / 导入旧云端站（没做完时自动接着做，做完后这一步几秒就结束）
+      - name: 补摘要、写中文简介、历史回填（没做完时下次接着做）
         env:
           BACKFILL_MAX_MINUTES: "35"
+          MAINTAIN_MAX_MINUTES: "20"
         run: python -m radar --auto-extras
 
       - name: 保存回填结果
