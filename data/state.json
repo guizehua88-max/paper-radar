@@ -83,14 +83,20 @@
    "push": [
     "serverchan:ok"
    ]
+  },
+  {
+   "at": "2026-10-29T08:04:46Z",
+   "errors": {
+    "补摘要": "Europe PMC 失败 FetchError: HTTP 503 @ https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3850%2Fesrel202"
+   },
+   "new": 1,
+   "push": []
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-10-29T07:55:24Z",
-  "push": [
-   "serverchan:ok"
-  ],
+  "at": "2026-10-29T08:04:46Z",
+  "push": [],
   "sources": {
    "Crossref": {
     "calls": 20,
@@ -226,18 +232,18 @@
    },
    "补摘要": {
     "calls": 1,
-    "err": "",
+    "err": "Europe PMC 失败 FetchError: HTTP 503 @ https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3850%2Fesrel202",
     "fails": 0,
-    "n": 35
+    "n": 32
    }
   },
-  "新增相关": 15,
+  "新增相关": 1,
   "模式": "日常",
-  "补摘要": "35/534",
-  "达到推送标准": 1
+  "补摘要": "32/531",
+  "达到推送标准": 0
  },
  "last_push_at": "2026-10-29T07:55:24Z",
- "last_run": "2026-10-29T07:55:24Z",
+ "last_run": "2026-10-29T08:04:46Z",
  "rules_hash": "7d0f5dbac944",
  "welcome_pending": false
 }
