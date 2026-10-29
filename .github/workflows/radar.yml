@@ -21,7 +21,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 75
     env:
       WXPUSHER_SPT: ${{ secrets.WXPUSHER_SPT }}
       PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
