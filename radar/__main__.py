@@ -22,6 +22,11 @@ from . import legacy_import, llm, net, push, site, sources, store
 from .filters import TIER_RANK, TIER_ZH, Classifier, title_key
 
 
+# Bump this when a rule fix means old candidates were wrongly rejected: the whole archive is searched again once
+# (spread over several runs). 2026-10-29: exclusion words were matching inside other words ("cement" in "enhancement").
+REBACKFILL_ID = "2026-10-29"
+
+
 def net_offline() -> bool:
     return bool(net.FIXTURES) and not os.environ.get("RADAR_FIXTURE_ENRICH")
 
@@ -302,15 +307,15 @@ class Radar:
             extra["中文简介"] = f"新写 {bst['done']} 篇" + (f"（出错：{bst['err']}）" if bst["err"] else "")
         self.finish(results, extra)
 
-    def backfill(self, start: str, until: str | None) -> None:
+    def backfill(self, start: str, until: str | None, *, state_key: str = "backfill", label: str = "回填") -> None:
         """Month-by-month Crossref backfill by publication date. Resumable within a time budget."""
         end = until or self.now.strftime("%Y-%m")
         months, y, m = [], int(start[:4]), int(start[5:7])
         while f"{y:04d}-{m:02d}" <= end:
             months.append(f"{y:04d}-{m:02d}")
             y, m = (y + 1, 1) if m == 12 else (y, m + 1)
-        bf = self.state.setdefault("backfill", {"done": []})
-        todo = [mo for mo in months if mo not in bf["done"] or mo >= self.now.strftime("%Y-%m")]
+        bf = self.state.setdefault(state_key, {"done": []})
+        todo = [mo for mo in months if mo not in bf["done"] or (state_key == "backfill" and mo >= self.now.strftime("%Y-%m"))]
         budget = float(os.environ.get("BACKFILL_MAX_MINUTES", "100")) * 60
         rows = int(self.S.get("backfill_rows", 200))
         t0, added, completed = time.time(), 0, []
@@ -324,7 +329,7 @@ class Radar:
             self.found = []
             for t in self.cfg["topics"]:
                 for q in t.get("crossref_queries", []):
-                    self.record("Crossref（回填）", lambda q=q: sources.crossref(
+                    self.record(f"Crossref（{label}）", lambda q=q: sources.crossref(
                         q, None, rows, 2000, pub_from=f"{mo}-01", pub_until=f"{mo}-{last_day:02d}"))
                     sources.polite_pause(1.0)
             for p in self.found:  # Crossref matched this month's publication window
@@ -341,7 +346,9 @@ class Radar:
         self.settle_status()
         remaining = [mo for mo in months if mo not in bf["done"]]
         results = []
-        if not remaining:
+        if not remaining and state_key != "backfill":
+            bf["finished"] = iso(self.now)
+        elif not remaining:
             by = {}
             for p in self.papers.values():
                 by[p["tier"]] = by.get(p["tier"], 0) + 1
@@ -353,7 +360,7 @@ class Radar:
             if not bf.get("announced"):
                 results = push.send("文献雷达：历史回填完成", msg)
                 bf["announced"] = push.delivered(results)
-        self.finish(results, {"模式": "回填", "本次完成月份": f"{completed[0]}…{completed[-1]}" if completed else "无",
+        self.finish(results, {"模式": label, "本次完成月份": f"{completed[0]}…{completed[-1]}" if completed else "无",
                               "本次新增": added, "剩余月份": len(remaining)})
         if remaining:
             print(f"  还剩 {len(remaining)} 个月没回填，再运行一次会接着做：{remaining[0]} 起")
@@ -528,6 +535,11 @@ def main(argv=None) -> int:
             r.backfill(start, (r.now.replace(day=1) - dt.timedelta(days=1)).strftime("%Y-%m"))
         elif not bf.get("announced") and push.channels():
             r.backfill(start, (r.now.replace(day=1) - dt.timedelta(days=1)).strftime("%Y-%m"))  # nothing left: only sends the summary
+        elif REBACKFILL_ID and r.state.get("rebackfill", {}).get("id") != REBACKFILL_ID:
+            r.state["rebackfill"] = {"id": REBACKFILL_ID, "done": []}
+            r.backfill(start, r.now.strftime("%Y-%m"), state_key="rebackfill", label="规则修正后重新回填")
+        elif REBACKFILL_ID and not r.state["rebackfill"].get("finished"):
+            r.backfill(start, r.now.strftime("%Y-%m"), state_key="rebackfill", label="规则修正后重新回填")
         else:
             print("历史回填已完成，旧云端站已导入")
         busy = (time.time() - t_start) / 60

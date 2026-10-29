@@ -84,15 +84,17 @@ include = [
   'reduction of (nitrogen|N2|N₂|dinitrogen)', 'nitrogen[- ]to[- ]ammonia', '\bN2[- ]to[- ]NH3\b',
   '合成氨', '氨合成', '制氨', '固氮', '氮还原', '氮活化', '哈伯', '氨(分解|裂解)',
 ]
-exclude = [
+exclude = [  # 标题或摘要里出现就排除
   'ammonia[ -](combustion|flame|spray|engine|injection|slip|emission|sensor|sensing|leak|toxicity|borane)',
-  'flash[- ]boiling', 'ammonia[- ]fueled', 'ammonia/hydrogen (blend|combustion)', 'co-?firing',
-  'livestock', 'manure', 'poultry', '\bsoils?\b', 'urine', 'blood ammonia', 'hyperammon', 'hepatic',
+  'flash[- ]boiling', 'ammonia[- ]fueled', 'ammonia/hydrogen (blend|combustion)', '\bco-?firing',
+  'livestock', '\bmanure', 'poultry', '\burine\b', 'blood ammonia', 'hyperammon', 'hepatic',
   'NH3 sensor', 'NH3-SCR', 'selective catalytic reduction', 'ammonium perchlorate',
   '(reduction|removal) of (nitrogen oxides|NOx|NO|NO2)\b.{0,30}\b(by|with|using) (ammonia|NH3|NH₃)', 'nitrogen dioxide to nitric oxide',
-  'anammox', 'nitrification', 'denitrif', 'rhizob', 'legume', 'diazotroph', 'symbiotic', '\b(rice|wheat|maize|crops?)\b',
-  'signal(l)?ing pathway', '\bflesh\b', '\bdiets?\b', 'dietary', 'digestib', 'rumen', 'ruminal', '\bfish\b', 'broiler',
-  '\b(pigs?|cattle|cows?|sheep|goats?)\b', 'intestin', 'microbio(ta|me)',
+  'anammox', '\bnitrification', 'denitrif', 'rhizob', 'legume', 'diazotroph', 'symbiotic',
+  'signal(l)?ing pathway', '\bflesh\b', 'digestib', '\brumen\b', 'ruminal', 'broiler', 'intestin', 'microbio(ta|me)',
+]
+exclude_title = [  # 只看标题（这些词常出现在合成氨论文摘要的“背景介绍”里，比如“化肥、粮食”）
+  '\bsoils?\b', '\b(rice|wheat|maize|crops?)\b', '\bdiets?\b', '\bdietary\b', '\bfish\b', '\b(pigs?|cattle|cows?|sheep|goats?)\b',
 ]
 # 标题只讲工艺流程、能源系统、控制、经济性、安全（标题里又没有催化剂/材料/机理字眼）时，降为“背景”：不推送，网页里仍可查
 context = [
@@ -106,6 +108,13 @@ context = [
   'optimal (design|planning|operation)', 'planning', '\bplants?\b', 'case study', 'database', '\bpumps?\b', 'compressors?',
   'instability', 'causality', 'natural gas', 'cold energy', 'liquid air', 'oxy[- ]combustion', '\bsCO2\b', 'decentrali[sz]ed',
   'carbon capture', 'emissions?\b', 'hydrogen (production|economy|supply)', 'green hydrogen', 'electroly[sz]er',
+]
+# 其中偏“经济性/能源系统/政策/安全”的（旧规则把这类论文也判成“直接”时，以这里为准降为背景；只讲工艺设计、动态操作的不在此列）
+context_strong = [
+  'techno[- ]?economic', 'economic', '\bcosts?\b', 'life[- ]cycle', '\bLCA\b', 'supply chain', 'energy (systems?|hubs?)',
+  'power (systems?|grids?)', '\bgrid\b', 'scheduling', 'dispatch', 'renewable', '\bwind\b', 'photovoltaic', 'tidal', 'nuclear',
+  '\bships?\b', '\bports?\b', 'harbou?r', 'maritime', 'safety', 'HAZOP', 'policy', 'market', 'decarboni[sz]', 'planning', 'emissions?\b',
+  'teaching', 'chemistry laboratory', 'education',
 ]
 material_cues = [
   'catal', '\bRu\b', 'rutheni', '\bFe\b', '\biron\b', 'cobalt', '\bCo\b', 'nickel', '\bNi\b', '\bMo\b', 'molybden', 'nitride',
@@ -160,23 +169,24 @@ require_any = [  # 必须像“材料制备/催化/反应”的研究，挡掉�
   'water splitting', 'electrocatal', 'pyrolys', 'graphitiz', 'graphene', 'N2',
   '催化', '合成', '制备', '纳米', '反应', '泡沫', '制氢', '氨', '驱动',
 ]
-exclude = [
-  'nanofluid', 'magnetohydrodynamic', '\bMHD\b', 'Casson', 'Riga plate', 'Jeffrey fluid', 'Williamson fluid',
+exclude = [  # 标题或摘要里出现就排除：流体/空间物理/器件里的焦耳热
+  'nanofluids?\b', 'magnetohydrodynamic', '\bMHD\b', 'Casson', 'Riga plate', 'Jeffrey fluid', 'Williamson fluid',
   'Maxwell fluid', 'peristaltic', 'electroosmotic', 'stretching (sheet|surface|cylinder)', 'boundary layer flow',
   'viscous dissipation', 'thermophoresis', 'Brownian motion', 'porous microchannel',
   'ionosphere', 'thermosphere', 'geomagnetic', 'magnetosphere', 'auroral', 'geospace',
-  'Josephson', 'transistor', 'interconnect', 'electromigration', 'self[- ]heating effect',
-  'microneedle', 'electroporation', 'tissue', 'tumou?r', 'ablation', '\bfoods?\b', 'de-?icing', 'anti-?icing',
-  'wearable heater', 'heating film', 'electromagnetic (interference )?shielding', 'thermotherapy',
+  'Josephson', 'electromigration', 'self[- ]heating effect', 'microneedle', 'electroporation', 'thermotherapy',
+  'de-?icing', 'anti-?icing', 'wearable heater', 'heating film', 'electrothermal (film|heater)s?', 'electromagnetic (interference )?shielding', '\bEMI\b',
   'shape memory', 'battery thermal management', 'thermal runaway', 'thermal shock resistance',
-  'electroplastic', 'dislocation dynamics', 'crystal plasticity', '\bwelding\b', 'electrically assisted (forming|tension|deformation)',
-  'contact resistance', '\bfuses?\b', '\bbusbars?\b', '\bcables?\b', 'power lines?\b',
-  '\bheaters?\b', '\byarns?\b', '\btextiles?\b', '\bgait\b', 'gas sens', '\bsensors?\b', 'resistive[- ]switch',
-  'UV[- ]curing', 'thermograph', 'electroshock', 'magnetoimpedance', 'thermoelectric',
-  '\bEMI\b', 'austeniti', 'martensit', '\bsteels?\b', 'quenching and tempering',
-  'cement', 'concrete', 'asphalt', 'pavement', 'exhaust', '\bengines?\b', 'vehicle',
+  'electroplastic', 'dislocation dynamics', 'crystal plasticity', 'electrically assisted (forming|tension|deformation)',
+  'resistive[- ]switch', 'UV[- ]curing', 'electroshock', 'magnetoimpedance', 'quenching and tempering',
   'shape recovery', '4D print', 'diborides? oxidation', 'oxidation of .{0,40}(diboride|carbide|ceramic)', 'ablation resistance',
-  'radiative cooling', 'thermal management', 'wave absorb', 'microwave absorption', 'polarization (loss|response)', 'personal thermal', 'heat spreader',
+  'radiative cooling', 'wave absorb', 'microwave absorption', 'personal thermal', 'heat spreader',
+]
+exclude_title = [  # 只看标题（这些词在催化论文摘要里也常作为“应用前景”出现）
+  'transistor', '\binterconnects?\b', '\btissues?\b', 'tumou?r', '\bablation\b', '\bfoods?\b', '\bwelding\b', 'contact resistance',
+  '\bfuses?\b', '\bbusbars?\b', '\bcables?\b', 'power lines?\b', '\bheaters?\b', '\byarns?\b', '\btextiles?\b', '\bgait\b',
+  'gas sens', '\bsensors?\b', 'thermograph', '\baustenit', 'martensit', '\bsteels?\b', '\bcement', '\bconcrete\b', 'asphalt', 'pavement',
+  '\bexhaust\b', '\bengines?\b', '\bvehicles?\b', 'thermal management', 'polarization (loss|response)', 'thermoelectric',
 ]
 
 [[topics]]
@@ -201,11 +211,13 @@ require_any = [
   'carbon nanotube', 'graphene', 'carbon support', 'electrocatal', 'hydrogen evolution', 'water splitting',
   '催化', '成核', '包覆', '载体', '单原子', '团簇',
 ]
-exclude = [
-  'gate (dielectric|oxide|stack)', 'transistor', '\bTFTs?\b', 'MOSFET', 'ferroelectric', 'memristor',
-  'resistive switching', 'DRAM', 'high[- ]k\b', 'perovskite solar', 'leukodystrophy',
-  'interconnect', 'back[- ]end[- ]of[- ]line', '\bBEOL\b', 'barrier layer', 'microchannel plate', 'photodetector',
-  'lithium', 'li[- ]ion', 'sodium[- ]ion', 'batter(y|ies)', 'nickel[- ]rich', 'solid[- ]state electrolyte',
+exclude = [  # 标题或摘要里出现就排除：半导体器件里的 ALD
+  'gate (dielectric|oxide|stack)', 'MOSFET', 'ferroelectric', 'memristor', 'resistive switching', '\bDRAM\b',
+  'high[- ]k\b', 'perovskite solar', 'leukodystrophy', 'back[- ]end[- ]of[- ]line', '\bBEOL\b', 'microchannel plate',
+]
+exclude_title = [  # 只看标题：器件、电池涂层
+  'transistor', '\bTFTs?\b', '\binterconnects?\b', 'barrier layer', 'photodetector',
+  'lithium', '\bli[- ]ion', 'sodium[- ]ion', 'batter(y|ies)', 'nickel[- ]rich', 'solid[- ]state electrolyte',
 ]
 
 # ------------------------------------------------------------

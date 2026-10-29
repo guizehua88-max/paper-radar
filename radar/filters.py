@@ -71,9 +71,11 @@ class Classifier:
                 "include": _rx(t.get("include")),
                 "require": _rx(t.get("require_any")),
                 "exclude": _rx(t.get("exclude")),
+                "exclude_title": _rx(t.get("exclude_title")),
                 "secondary": _rx(t.get("secondary")),
                 "keep": _rx(t.get("title_keep")),
                 "context": _rx(t.get("context")),
+                "context_strong": _rx(t.get("context_strong")),
                 "material": _rx(t.get("material_cues")),
             })
         wx = cfg.get("wechat", {})
@@ -100,7 +102,8 @@ class Classifier:
             return None, False
         in_title = any(r.search(title) for r in t["include"])
         if ((t["require"] and not any(r.search(text) for r in t["require"]))
-                or any(r.search(text) for r in t["exclude"])):
+                or any(r.search(text) for r in t["exclude"])
+                or any(r.search(title) for r in t["exclude_title"])):
             if any(r.search(title) for r in t["keep"]):  # the title itself says it is this method -> keep, as 背景
                 return {"id": t["id"], "level": "keep", "in_title": True, "kw": inc}, False
             return None, True
@@ -110,6 +113,8 @@ class Classifier:
         if (level == "core" and t["context"] and any(r.search(title) for r in t["context"])
                 and not any(r.search(title) for r in t["material"])):
             level = "context"  # plant / energy-system / control / economics paper: ammonia is the product, not the research object
+            if any(r.search(title) for r in t["context_strong"]):
+                level = "context_strong"
         return {"id": t["id"], "level": level, "in_title": in_title, "kw": inc}, False
 
     def classify(self, p: dict) -> dict | None:
@@ -157,6 +162,8 @@ class Classifier:
             my_tier = "transferable" if method else "uncertain"
         if context_only and old_tier == "background":
             tier = "background"
+        elif old_tier == "direct" and "nh3" in mine and mine["nh3"]["level"] == "context_strong" and not method:
+            tier = "background"  # plant / cost / energy-system study: the old rules see "Haber-Bosch + N2/H2" and call it direct
         elif old_tier in ("direct", "cross"):
             tier = "cross" if (old_tier == "cross" or my_tier == "cross") else "direct"
         elif my_tier:
