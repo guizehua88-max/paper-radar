@@ -148,6 +148,51 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
+ "10.1002/admi.202400270": {
+  "abstract": "Abstract The development of deposition processes for metal carbide thin films is rapidly advancing, driven by their potential for applications including catalysis, batteries, and semiconductor devices. Within this landscape, atomic layer deposition (ALD) offers exceptional conformality, uniformity, and thickness control on spatially complex structures. This paper presents a comprehensive study on the thermal ALD of MoC x with MoCl 5 and 1,4‐bis(trimethylgermyl)‐1,4‐dihydropyrazine [(Me 3 Ge) 2 DHP] as precursors, focusing on the functional properties and characterization of the films. The depositions are conducted at 200–300 °C and very smooth films with RMS Rq ≈0.3–0.6 nm on Si, TiN, and HfO 2 substrates are obtained. The process has a high growth rate of 1.5 Å cycle −1 and the films appear to be continuous already after 5 cycles. The films are conductive even at thicknesses below 5 nm, and films above 18 nm exhibit superconductivity up to 4.4 K. In lieu of suitable references, Raman modes for molybdenum carbides and nitrides are calculated and X‐ray diffraction and X‐ray photoelectron spectroscopy are used for phase analysis.",
+  "authors": [
+   "Paloma Ruiz Kärkkäinen",
+   "Georgi Popov",
+   "Timo Hatanpää",
+   "Antti Kemppinen",
+   "Katja Kohopää",
+   "Mohammad Bagheri",
+   "Hannu‐Pekka Komsa",
+   "Mikko Heikkilä",
+   "Kenichiro Mizohata",
+   "Mykhailo Chundak",
+   "Petro Deminskyi",
+   "Anton Vihervaara",
+   "Mário Ribeiro",
+   "Joel Hätinen",
+   "Joonas Govenius",
+   "Matti Putkonen",
+   "Mikko Ritala"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1002/admi.202400270",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1002/admi.202400270",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Advanced Materials Interfaces",
+  "tier": "transferable",
+  "title": "Atomic Layer Deposition of Molybdenum Carbide Thin Films",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1002/admi.202400270",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Atomic Layer Deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "通用催化方法；涉及原子层沉积"
+ },
  "10.1002/adts.202400536": {
   "abstract": "Abstract The electrochemical nitrogen reduction reaction (NRR) is a key process for the energy transition. Transition metal atoms atomically dispersed on a solid support represent a promising approach to the design of new catalytic materials. The interest for single‐ (SACs) and dual‐atom catalysts (DACs) is steadily growing. In general, DACs are considered more active than SACs for NRR. In this work, the complex chemistry behind NRR is investigated on a set of SACs and DACs by means of density functional theory (DFT) calculations. The results indicate that self‐interaction corrected exchange‐correlation functionals must be adopted, at variance with several studies in the literature. Furthermore, it is not possible to extrapolate results obtained on conventional extended catalytic surfaces to SACs and DACs, due to a richer scenario of possible reaction paths. In general, the results show a positive effect on the catalytic activity moving from 3d to 5d metals, and from SACs and DACs. However, if the two effects work together, that is, 5d metals in DACs, the reaction intermediates may be too strongly bound, thus resulting in reduced catalytic activity. In this respect, the fact that DACs are expected to be superior to SACs in NRR is not always verified.",
   "authors": [
@@ -248,6 +293,45 @@
   ],
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及碳材料"
+ },
+ "10.1002/aenm.202402294": {
+  "abstract": "Abstract Drawing inspiration from the nitrate reductase enzymes, which catalyze nitrate to nitrite in nature, here a bio‐inspired, reduced molybdenum oxide (MoO x ) shell is introduced that is grown on top of a dendritic nickel foam core (Ni NF ). The resulting MoO x /Ni NF material is prepared via a facile, two‐step electrodeposition strategy using commercially available, low‐cost precursors. This catalytic material displays a remarkable faradaic efficiency (FE) of 99% at −0.5 V versus RHE and a high ammonia (NH 3 ) yield rate of up to 4.29 mmol h −1 cm −2 at −1.0 V versus RHE in neutral media. Most importantly, MoO x /Ni NF exhibits exceptional stability for the nitrate reduction reaction (NO 3 RR), maintaining operation for over 3100 h at a high current density of −650 mA cm −2 , with a yield rate of 2.6 mmol h −1 cm −2 and a stable average NH 3 FE of ≈83%. Through combined XPS and in situ Raman spectroscopy it is shown that the pronounced affinity of MoO x /Ni NF for nitrate is associated with a substantial presence of oxygen vacancies within the material.",
+  "authors": [
+   "Yuan‐Zi Xu",
+   "Daniel F. Abbott",
+   "Robin N. Dürr",
+   "Tran Ngoc Huan",
+   "Victor Mougel"
+  ],
+  "cross": false,
+  "date": "2024-07-24",
+  "doi": "10.1002/aenm.202402294",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1002/aenm.202402294",
+  "kind": "journal",
+  "origin": "回填",
+  "preprint": {
+   "id": "10.26434/chemrxiv-2024-4gxn8",
+   "source": "ChemRxiv",
+   "url": "https://doi.org/10.26434/chemrxiv-2024-4gxn8"
+  },
+  "published_seen": "2026-10-29T08:07:55Z",
+  "score": 13,
+  "source": "Advanced Energy Materials",
+  "tier": "background",
+  "title": "A Bio-inspired Dendritic MoOx Electrocatalyst for Efficient Electrochemical Nitrate Reduction to Ammonia",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/aenm.202402294",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1002/aenm.202402301": {
   "abstract": "Abstract In this paper, an exceptional nitrate reduction to ammonia catalyst is reported, enabled by BO 2 − anion induction effects combining heterogeneous branching architecture‐driven mass transport enhancement strategies. The implantation of the BO 2 − anion can inductively enhance the electron cloud density and electron transmission paths of intrinsic catalysts, makes electron more active to improve the conductivity, regulates the adsorption and desorption rates of intermediates by space barrier effect, reduces the binding energy of the electron and 3d orbital of Ni in NiFe(BO 2 )O(OH), thereby lowing the transform free energy of the determining * NO 3 to * HNO 3 step. 3D hollow sea urchin lattice heterogeneous branching structure can self‐drive generate differentiated micro convection intervals, which will be beneficial for improving mass transfer dynamics especially localized disturbance mass transfer effect of catalyst for nitrate reduction reaction (NO 3 RR) catalysis process. Amazingly, the as‐prepared 3D NiFe metaborate oxyhydroxide hollow bionic sea urchins lattice catalyst has a high NH 3 rate 6.27mmol·h −1 ·cm −2 with 98.7% Faradaic efficiency at low ‐0.25V(vs RHE) NO 3 RR potential. Moreover, the catalytic activity of this highly stable catalyst decreases only slightly over 100 h at ultra‐high 1500mA·cm −2 current. This work breaks through the bottleneck that plagues the performance improvement of non Cu‐based high‐current NO 3 RR catalysts.",
@@ -831,6 +915,40 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
  },
+ "10.1002/smll.202470225": {
+  "abstract": "",
+  "authors": [
+   "Talshyn Begildayeva",
+   "Jayaraman Theerthagiri",
+   "Wanwisa Limphirat",
+   "Ahreum Min",
+   "Soorathep Kheawhom",
+   "Myong Yong Choi"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1002/smll.202470225",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1002/smll.202470225",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Small",
+  "tier": "background",
+  "title": "Deciphering Indirect Nitrite Reduction to Ammonia in High‐Entropy Electrocatalysts Using In Situ Raman and X‐ray Absorption Spectroscopies (Small 29/2024)",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/smll.202470225",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrite Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原"
+ },
  "10.1002/smtd.202400530": {
   "abstract": "Abstract Lattice‐confined single‐atom catalyst (LC SAC), featuring exceptional activity, intriguing stability and prominent selectivity, has attracted extensive attention in the fields of various reactions (e.g., hydrogen evolution reaction (HER), oxygen evolution reaction (OER), oxygen reduction reaction (ORR), etc.). To design a “smart” LC SAC for catalytic applications, one must systematically comprehend updated advances in the preparation, the application, and especially the peculiar electron regulation mechanism of LC SAC. In this review, the specific preparation methods of LC SAC based on general coordination strategy are updated, and its applications in HER, OER, ORR, N 2 reduction reaction (NRR), advanced oxidation processes (AOPs) and so forth are summarized to display outstanding activity, stability and selectivity. Uniquely, the electron regulation mechanisms are first and deeply discussed and can be primarily categorized as electron transfer bridge with monometallic active sites, novel catalytic centers with polymetallic active sites, and positive influence by surrounding environments. In the end, the existing issues and future development directions are put forward with a view to further optimize the performance of LC SAC. This review is expected to contribute to the in‐depth understanding and practical application of highly efficient LC SAC.",
   "authors": [
@@ -868,6 +986,117 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "通用催化方法"
+ },
+ "10.1002/sus2.226": {
+  "abstract": "Abstract Electrochemical nitrogen reduction reaction (NRR) is a sustainable alternative to the Haber‒Bosch process for ammonia (NH 3 ) production. However, the significant uphill energy in the multistep NRR pathway is a bottleneck for favorable serial reactions. To overcome this challenge, we designed a vanadium oxide/nitride (V 2 O 3 /VN) hybrid electrocatalyst in which V 2 O 3 and VN coexist coherently at the heterogeneous interface. Since single‐phase V 2 O 3 and VN exhibit different surface catalytic kinetics for NRR, the V 2 O 3 /VN hybrid electrocatalyst can provide alternating reaction pathways, selecting a lower energy pathway for each material in the serial NRR pathway. As a result, the ammonia yield of the V 2 O 3 /VN hybrid electrocatalyst was 219.6 µg h −1 cm −2 , and the Faradaic efficiency was 18.9%, which is much higher than that of single‐phase VN, V 2 O 3 , and VN x O y solid solution catalysts without heterointerfaces. Density functional theory calculations confirmed that the composition of these hybrid electrocatalysts allows NRR to proceed from a multistep reduction reaction to a low‐energy reaction pathway through the migration and adsorption of intermediate species. Therefore, the design of metal oxide/nitride hybrids with coherent heterointerfaces provides a novel strategy for synthesizing highly efficient electrochemical catalysts that induce steps favorable for the efficient low‐energy progression of NRR.",
+  "authors": [
+   "Tae‐Yong An",
+   "Chengkai Xia",
+   "Minyeong Je",
+   "Hyunjung Lee",
+   "Seulgi Ji",
+   "Min‐Cheol Kim",
+   "Subramani Surendran",
+   "Mi‐Kyung Han",
+   "Jaehyoung Lim",
+   "Dong‐Kyu Lee",
+   "Joon Young Kim",
+   "Tae‐Hoon Kim",
+   "Heechae Choi",
+   "Jung Kyu Kim",
+   "Uk Sim"
+  ],
+  "cross": false,
+  "date": "2024-07-11",
+  "doi": "10.1002/sus2.226",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1002/sus2.226",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "SusMat",
+  "tier": "background",
+  "title": "V 2 O 3 /VN electrocatalysts with coherent heterogeneous interfaces for selecting low‐energy nitrogen reduction pathways",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/sus2.226",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Haber-Bosch"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
+ },
+ "10.1007/s10562-024-04772-1": {
+  "abstract": "",
+  "authors": [
+   "Yijin Ma",
+   "Yinpeng Lu",
+   "Chang Li",
+   "Liangqing Hu",
+   "Hexin Zhang",
+   "Jing Feng"
+  ],
+  "cross": false,
+  "date": "2024-07-08",
+  "doi": "10.1007/s10562-024-04772-1",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1007/s10562-024-04772-1",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Catalysis Letters",
+  "tier": "background",
+  "title": "Effective Electrochemical Nitrogen Reduction through π Back-donation Process in Mn3+ of Mn-doped g-C3N4",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s10562-024-04772-1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Electrochemical Nitrogen Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
+ },
+ "10.1007/s10750-024-05626-y": {
+  "ab_try": "2026-10-29",
+  "abstract": "",
+  "authors": [
+   "Scott L. Rollins",
+   "Charles Ritz",
+   "Pam Krone",
+   "R. Jan Stevenson",
+   "Yangdong Pan",
+   "Nadia Gillett",
+   "Marc Los Huertos"
+  ],
+  "cross": false,
+  "date": "2024-07-09",
+  "doi": "10.1007/s10750-024-05626-y",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1007/s10750-024-05626-y",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Hydrobiologia",
+  "tier": "uncertain",
+  "title": "Development and application of an algae multi-metric index to inform ecologically relevant nitrogen reduction targets",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s10750-024-05626-y",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
  },
  "10.1007/s10853-024-09966-x": {
   "abstract": "",
@@ -965,6 +1194,81 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
+ },
+ "10.1007/s12598-024-02836-0": {
+  "abstract": "Abstract Single‐atom catalysts (SACs) have been widely utilized in electrochemical nitrogen reduction reactions (NRR) due to their high atomic utilization and selectivity. Owing to the unique sp/sp 2 co‐hybridization, graphyne materials can offer stable adsorption sites for single metal atoms. To investigate the influence of the sp/sp 2 hybrid carbon ratio on the electrocatalytic NRR performance of graphyne, a high‐throughput screening of 81 catalysts, with 27 transition metals loaded on graphyne (GY1), graphdiyne (GY2), and graphtriyne (GY3), was conducted using first‐principles calculations. The results of the screening revealed that Ti@GY3 exhibits the lowest energy barrier for the rate‐determining step (0.32 eV) in NRR. Further, to explore the impact of different sp/sp 2 ‐hybridized carbon ratios on the catalytic activity of SACs, the mechanism of nitrogen (N 2 ) adsorption, activation, and the comprehensive pathway of NRR on Ti@GY1, Ti@GY2, and Ti@GY3 was systematically investigated. It was found that the ratio of sp/sp 2 ‐hybridized carbon can significantly modulate the d ‐band center of the metal, thus affecting the energy barrier of the rate‐determining step in NRR, decreasing from Ti@GY1 (0.59 eV) to Ti@GY2 (0.49 eV), and further to Ti@GY3 (0.32 eV). Additionally, the Hall conductance was found to increase with the bias voltage in the range of 0.4–1 V, as calculated by Nanodcal software, demonstrating an improvement in the conductivity of the SAC. In summary, this work provides theoretical guidance for modulating the electrocatalytic nitrogen reduction activity of SACs by varying the ratio of sp/sp 2 hybrid carbon, with Ti@GY3 showing potential as an excellent NRR catalyst.",
+  "authors": [
+   "Ze‐Xiang Yin",
+   "Yu‐Dan Li",
+   "Yu‐Huan Ye",
+   "Yuan Liu",
+   "Mian‐Feng Li",
+   "Zi‐Jun Yang",
+   "Xue‐Rong Zheng",
+   "Hao‐Zhi Wang",
+   "Yang Wang",
+   "Yi‐Da Deng"
+  ],
+  "cross": false,
+  "date": "2024-07-02",
+  "doi": "10.1007/s12598-024-02836-0",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1007/s12598-024-02836-0",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Rare Metals",
+  "tier": "background",
+  "title": "Sp/sp 2 carbon ratio‐driven high‐throughput screening of electrocatalytic nitrogen reduction performance on transition metal single‐atom catalysts",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s12598-024-02836-0",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen reduction reaction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
+ },
+ "10.1016/j.apcatb.2024.123810": {
+  "abstract": "",
+  "authors": [
+   "Qiao Gou",
+   "Yini Mao",
+   "Shengmei Lv",
+   "Fenglin Gou",
+   "Yimin Jiang",
+   "Wei Shen",
+   "Ming Li",
+   "Yun Wang",
+   "Rongxing He"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.apcatb.2024.123810",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.apcatb.2024.123810",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Applied Catalysis B: Environment and Energy",
+  "tier": "background",
+  "title": "Enhancing nitrate reduction to ammonia by synergistic and interface coupling effects of binary metal sites",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apcatb.2024.123810",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
  },
  "10.1016/j.apcatb.2024.123836": {
   "abstract": "",
@@ -1272,6 +1576,41 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
+ "10.1016/j.electacta.2024.144348": {
+  "abstract": "",
+  "authors": [
+   "Shang-Cheng Yang",
+   "Balaganesh Muthiah",
+   "Jhe-Wei Chang",
+   "Meng-Dian Tsai",
+   "Yi-Ching Wang",
+   "Yi-Pei Li",
+   "Chung-Wei Kung"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.electacta.2024.144348",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.electacta.2024.144348",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Electrochimica Acta",
+  "tier": "background",
+  "title": "Support effect in metal–organic framework-derived copper-based electrocatalysts facilitating the reduction of nitrate to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.electacta.2024.144348",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate to ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1016/j.electacta.2024.144415": {
   "abstract": "",
   "authors": [
@@ -1337,6 +1676,78 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.1016/j.ese.2023.100383": {
+  "abstract": "",
+  "authors": [
+   "Jinshan Wei",
+   "Yi Li",
+   "Hexing Lin",
+   "Xihui Lu",
+   "Chucheng Zhou",
+   "Ya-yun Li"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.ese.2023.100383",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.ese.2023.100383",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Environmental Science and Ecotechnology",
+  "tier": "background",
+  "title": "Copper-based electro-catalytic nitrate reduction to ammonia from water: Mechanism, preparation, and research directions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ese.2023.100383",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
+ "10.1016/j.fcr.2024.109488": {
+  "ab_try": "2026-10-29",
+  "abstract": "",
+  "authors": [
+   "Pengfei Wang",
+   "Aizhong Yu",
+   "Feng Wang",
+   "Yulong Wang",
+   "Hanqiang Lyu",
+   "Yongpan Shang",
+   "Xuehui Yang",
+   "Yalong Liu",
+   "Bo Yin",
+   "Dongling Zhang",
+   "Qiang Chai"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.fcr.2024.109488",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.fcr.2024.109488",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Field Crops Research",
+  "tier": "uncertain",
+  "title": "Nitrogen reduction by 20 % with green manure retention reduces soil evaporation, promotes maize transpiration and improves water productivity in arid areas",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.fcr.2024.109488",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
@@ -1473,6 +1884,43 @@
   "zh_method": "等离子体驱动",
   "zh_obj": "等离子体制氨"
  },
+ "10.1016/j.ijhydene.2024.06.024": {
+  "abstract": "",
+  "authors": [
+   "Hongliang Dai",
+   "Lijing Liu",
+   "Huaiquan Zhao",
+   "Pengjie Zhou",
+   "Yulong Ying",
+   "Mengyang Yin",
+   "Xiaohong Wang",
+   "Weiqiang Fan",
+   "Hongye Bai"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.ijhydene.2024.06.024",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.ijhydene.2024.06.024",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Efficient electrocatalytic reduction of nitrate to ammonia using Cu–CeO2 solid solution",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2024.06.024",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate to ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1016/j.ijhydene.2024.06.038": {
   "abstract": "",
   "authors": [
@@ -1539,6 +1987,38 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.1016/j.ijhydene.2024.06.128": {
+  "abstract": "",
+  "authors": [
+   "Fengjuan Guo",
+   "Junwei Ma",
+   "Xiaoyan Deng",
+   "Hongtao Gao"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.ijhydene.2024.06.128",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.ijhydene.2024.06.128",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "The dual-transition-metal dichalcogenide monolayers anchored with Mn dimer: Promising electrocatalysts for efficient nitrogen reduction reaction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2024.06.128",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen reduction reaction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
  },
  "10.1016/j.ijoes.2024.100585": {
   "ab_try": "2026-10-29",
@@ -1609,6 +2089,45 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控"
  },
+ "10.1016/j.jallcom.2024.174489": {
+  "ab_try": "2026-10-29",
+  "abstract": "",
+  "authors": [
+   "Xianyong Guo",
+   "Fan Gao",
+   "Guangjing Xu",
+   "Haiyan Liu",
+   "Wenchao Teng",
+   "Cuiya Zhang"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.jallcom.2024.174489",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1016/j.jallcom.2024.174489",
+  "kind": "journal",
+  "origin": "回填",
+  "preprint": {
+   "id": "10.2139/ssrn.4740109",
+   "source": "SSRN",
+   "url": "https://doi.org/10.2139/ssrn.4740109"
+  },
+  "published_seen": "2026-10-29T08:07:55Z",
+  "score": 9,
+  "source": "Journal of Alloys and Compounds",
+  "tier": "uncertain",
+  "title": "Preparation of a Novel Znfe2o4 /Oyster Shell Powder Composite Photocatalyst for Visible-Light-Driven Photocatalytic Degradation of Ammonia Nitrogen Wastewater",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jallcom.2024.174489",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "光驱动",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.1016/j.jeurceramsoc.2024.01.077": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -1674,6 +2193,43 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "通用催化方法"
+ },
+ "10.1016/j.jpowsour.2024.234621": {
+  "abstract": "",
+  "authors": [
+   "Liangqing Hu",
+   "Yanming Guo",
+   "Yinpeng Lu",
+   "Jin Chang",
+   "Xiaojiang Su",
+   "Xinyi Zhang",
+   "Tong Wei",
+   "Hexin Zhang",
+   "Jing Feng"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.jpowsour.2024.234621",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.jpowsour.2024.234621",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Journal of Power Sources",
+  "tier": "background",
+  "title": "The intermediate valence state Mo5+ in Fe doping La2(MoO4)3 boosting electrochemical nitrogen reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jpowsour.2024.234621",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "electrochemical nitrogen reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系"
  },
  "10.1016/j.jpowsour.2024.234644": {
   "abstract": "",
@@ -1779,6 +2335,47 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "材料制备/结构调控"
  },
+ "10.1016/j.mattod.2024.05.007": {
+  "abstract": "",
+  "authors": [
+   "Thi Kim Cuong Phu",
+   "Won Tae Hong",
+   "Hyungu Han",
+   "Young In Song",
+   "Jong Hun Kim",
+   "Seung Hun Roh",
+   "Min-Cheol Kim",
+   "Jai Hyun Koh",
+   "Byung-Keun Oh",
+   "Jun Young Kim",
+   "Chan-Hwa Chung",
+   "Dong Hyun Lee",
+   "Jung Kyu Kim"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.mattod.2024.05.007",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.mattod.2024.05.007",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Materials Today",
+  "tier": "background",
+  "title": "Conformal surface intensive doping of low-valence Bi on Cu2O for highly efficient electrochemical nitrate reduction to ammonia production",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.mattod.2024.05.007",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1016/j.mcat.2024.114280": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -1813,6 +2410,38 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.1016/j.mssp.2024.108368": {
+  "abstract": "",
+  "authors": [
+   "Shengyan Wang",
+   "Jiansheng Tian",
+   "Abulikemu Abulizi",
+   "Kenji Okitsu"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.mssp.2024.108368",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.mssp.2024.108368",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Materials Science in Semiconductor Processing",
+  "tier": "background",
+  "title": "One-dimensional biomass-based carbon nanotubes loaded with MoS2 as catalysts for the electrocatalytic nitrogen reduction reaction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.mssp.2024.108368",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen reduction reaction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及碳材料"
  },
  "10.1016/j.nxener.2024.100125": {
   "abstract": "",
@@ -1978,6 +2607,44 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢"
  },
+ "10.1016/j.susmat.2024.e00917": {
+  "abstract": "",
+  "authors": [
+   "Thi Hong Chuong Nguyen",
+   "Cong Hong Nhat Nguyen",
+   "Trung Hieu Le",
+   "Pardeep Singh",
+   "Pankaj Raizada",
+   "Sakar Mohan",
+   "Vandung Dao",
+   "Tuan Van Nguyen",
+   "Soo Young Kim",
+   "Phuong Nguyen-Tri",
+   "Quyet Van Le",
+   "Chinh Chien Nguyen"
+  ],
+  "cross": false,
+  "date": "2024-07",
+  "doi": "10.1016/j.susmat.2024.e00917",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.susmat.2024.e00917",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "Sustainable Materials and Technologies",
+  "tier": "background",
+  "title": "Insights into the state-of-the-art developments in active-sites engineering for electrocatalytic reduction of nitrate (NO3−) to green ammonia (NH3)",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.susmat.2024.e00917",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1021/acs.est.4c02445": {
   "abstract": "",
   "authors": [
@@ -2015,6 +2682,39 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
+ "10.1021/acs.inorgchem.4c01924": {
+  "abstract": "",
+  "authors": [
+   "Xu Liu",
+   "Xuetao Cheng",
+   "Huilin Zhao",
+   "Pengfei Liu",
+   "Yan-Qin Wang"
+  ],
+  "cross": false,
+  "date": "2024-07-12",
+  "doi": "10.1021/acs.inorgchem.4c01924",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/acs.inorgchem.4c01924",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Inorganic Chemistry",
+  "tier": "background",
+  "title": "CuCo 2 O 4 /CuO Heterostructure with Oxygen Vacancies Induced by Plasma for Electrocatalytic Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.inorgchem.4c01924",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1021/acs.jpcc.4c01112": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -2045,6 +2745,40 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.1021/acs.langmuir.4c00951": {
+  "ab_try": "2026-10-29",
+  "abstract": "The creation of ordered collective vacancies in experiment proves challenging within a two-dimensional lattice, resulting in a limited understanding of their impact on catalyst performance. Motivated by the successful experimental synthesis of monolayer molybdenum borides with precisely ordered metal vacancies [Zhou et al. Science 2021, 373, 801-805] through dealloying, the nitrogen reduction reaction (NRR) in monolayer borides was systematically investigated to elucidate the influence of such ordered metal vacancies on catalytic reactions and the underlying mechanisms. The results reveal that the N-containing intermediates tend to dissociate, facilitating the NRR process with reduced UL. The emergence of ordered metal vacancies modulates the electronic properties of the catalyst and partially facilitates the decomposition of N-containing intermediates. However, the UL for NRR in Mo4/3B2 and W4/3B2 exhibits a significant increase. The compromised electrochemical performance is explained through the development of a simple electronic descriptor of the d-p band center (ΔdM-pB). Among these materials, Mo4/3Sc2/3B2 exhibits the most superior catalytic activity with a UL of -0.5 V and favorable NRR selectivity over the HER. Our results provide mechanistic insights into the role of ordered metal vacancies in transition-metal boride for the NRR and highlight a novel avenue toward the rational design of superior NRR catalysts.",
+  "authors": [
+   "Linghuan Ma",
+   "Xianfei Chen",
+   "Yi Huang",
+   "Peicong Zhang",
+   "Beibei Xiao"
+  ],
+  "cross": false,
+  "date": "2024-07-04",
+  "doi": "10.1021/acs.langmuir.4c00951",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/acs.langmuir.4c00951",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "Langmuir",
+  "tier": "background",
+  "title": "Density Functional Theory Investigation on the Nitrogen Reduction Mechanism in Two-Dimensional Transition-Metal Boride with Ordered Metal Vacancies",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.langmuir.4c00951",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen reduction reaction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
  },
  "10.1021/acs.nanolett.4c00576": {
   "abstract": "",
@@ -2077,6 +2811,41 @@
   "why": [],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
+ },
+ "10.1021/acs.nanolett.4c01904": {
+  "abstract": "",
+  "authors": [
+   "Ruikai Qi",
+   "Linfeng Zhang",
+   "Siyu Ren",
+   "Bingyan Shi",
+   "Mengxiao Zhong",
+   "Zheng-jie Chen",
+   "Xiaofeng Lu"
+  ],
+  "cross": false,
+  "date": "2024-07-10",
+  "doi": "10.1021/acs.nanolett.4c01904",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/acs.nanolett.4c01904",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Nano Letters",
+  "tier": "background",
+  "title": "Interface Engineering of the Cu 1.5 Mn 1.5 O 4 /CeO 2 Heterostructure for Highly Efficient Electrocatalytic Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.nanolett.4c01904",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.1021/acs.nanolett.4c02127": {
   "abstract": "",
@@ -2263,6 +3032,48 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原"
  },
+ "10.1021/acscatal.4c01510": {
+  "abstract": "",
+  "authors": [
+   "Ming Zhang",
+   "Zhipeng Ma",
+   "Shujie Zhou",
+   "Chen Han",
+   "Varun Kundi",
+   "Priyank V. Kumar",
+   "Lars Thomsen",
+   "Bernt Johannessen",
+   "Lingyi Peng",
+   "Yihao Shan",
+   "Constantine Tsounis",
+   "Yuwei Yang",
+   "Jian Pan",
+   "Rose Amal"
+  ],
+  "cross": false,
+  "date": "2024-07-12",
+  "doi": "10.1021/acscatal.4c01510",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/acscatal.4c01510",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 13,
+  "source": "ACS Catalysis",
+  "tier": "background",
+  "title": "Surface Engineering on Ag-Decorated Co 3 O 4 Electrocatalysts for Boosting Nitrate Reduction to Ammonia",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.4c01510",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1021/acscatal.4c02430": {
   "abstract": "",
   "authors": [
@@ -2337,6 +3148,41 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原"
  },
+ "10.1021/acscatal.4c03245": {
+  "abstract": "",
+  "authors": [
+   "Hongmei Li",
+   "Shiping Li",
+   "Renjun Guan",
+   "Zhaoyu Jin",
+   "Dan Xiao",
+   "Yong Guo",
+   "Panpan Li"
+  ],
+  "cross": false,
+  "date": "2024-07-29",
+  "doi": "10.1021/acscatal.4c03245",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/acscatal.4c03245",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 13,
+  "source": "ACS Catalysis",
+  "tier": "background",
+  "title": "Modulating the Surface Concentration and Lifetime of Active Hydrogen in Cu-Based Layered Double Hydroxides for Electrocatalytic Nitrate Reduction to Ammonia",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.4c03245",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1021/acsenergylett.4c01438": {
   "abstract": "",
   "authors": [
@@ -2402,6 +3248,86 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.1021/acsmaterialslett.4c00652": {
+  "abstract": "For programmable catalysis applications, nanolaminates composed of thin alternating layers of alumina and titania (ATO) were engineered using atomic layer deposition (ALD) as the dielectric material for a Pt-on-carbon catalytic condenser. Systematic investigation assessed synthesis parameters such as deposition temperature, alumina and titania layer thicknesses, the total number of layers (and interfaces), and the presence of a capping alumina layer on the maximum achievable charge accumulation in the Pt catalyst layer. The highest capacitance ATO configuration demonstrated a specific capacitance of ~1,200 nF/cm2 with working voltages of ±5 V, enabling the storage of 4×10^13 electrons or holes per cm2 at room temperature. Adsorption of carbon monoxide on the Pt/C-ATO device characterized by grazing incidence infrared spectroscopy showed changes in the surface binding energy of 13.1 ± 0.8 kJ/mol for an applied external voltage bias of ±1 V. The results enhance our understanding of nanolaminate structures and provide a method for increasing charge condensation strength for higher temperature surface chemistries.",
+  "authors": [
+   "Kyung-Ryul Oh",
+   "Amber Walton",
+   "Jason A. Chalmers",
+   "Justin A. Hopkins",
+   "Jesse R. Canavan",
+   "Tzia Ming Onn",
+   "Susannah L. Scott",
+   "C. Daniel Frisbie",
+   "Paul J. Dauenhauer"
+  ],
+  "cross": false,
+  "date": "2024-07-03",
+  "doi": "10.1021/acsmaterialslett.4c00652",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1021/acsmaterialslett.4c00652",
+  "kind": "journal",
+  "origin": "回填",
+  "preprint": {
+   "id": "10.26434/chemrxiv-2024-bzr4j",
+   "source": "ChemRxiv",
+   "url": "https://doi.org/10.26434/chemrxiv-2024-bzr4j"
+  },
+  "published_seen": "2026-10-29T08:07:55Z",
+  "score": 15,
+  "source": "ACS Materials Letters",
+  "tier": "transferable",
+  "title": "Alumina-Titania Nanolaminate Condensers for Hot Programmable Catalysis",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1021/acsmaterialslett.4c00652",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "通用催化方法；涉及碳材料、原子层沉积"
+ },
+ "10.1021/acsnano.4c03995": {
+  "abstract": "",
+  "authors": [
+   "Wenjing Huang",
+   "Wenyu Luo",
+   "Jiawei Liu",
+   "Bei-Er Jia",
+   "Carmen Lee",
+   "Jinfeng Dong",
+   "Lan Yang",
+   "Bin Liu",
+   "Qingyu Yan"
+  ],
+  "cross": false,
+  "date": "2024-07-29",
+  "doi": "10.1021/acsnano.4c03995",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/acsnano.4c03995",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "ACS Nano",
+  "tier": "background",
+  "title": "Cascade Electrocatalytic Nitrate Reduction Reaching 100% Nitrate-N to Ammonia-N Conversion over Cu 2 O@CoO Yolk–Shell Nanocubes",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acsnano.4c03995",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.1021/acsnano.4c05568": {
   "abstract": "",
@@ -2541,6 +3467,50 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+ },
+ "10.1021/jacs.4c04023": {
+  "abstract": "",
+  "authors": [
+   "Chaoqun Ma",
+   "Huaifang Zhang",
+   "Jing Xia",
+   "Xiaojuan Zhu",
+   "Kaiyu Qu",
+   "Fukai Feng",
+   "Sumei Han",
+   "Caihong He",
+   "Xiao Ma",
+   "Gang Lin",
+   "Wenbin Cao",
+   "Xiangmin Meng",
+   "Lijie Zhu",
+   "Yifu Yu",
+   "An-Liang Wang",
+   "Qipeng Lu"
+  ],
+  "cross": false,
+  "date": "2024-07-10",
+  "doi": "10.1021/jacs.4c04023",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1021/jacs.4c04023",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 13,
+  "source": "Journal of the American Chemical Society",
+  "tier": "background",
+  "title": "Screening of Intermetallic Compounds Based on Intermediate Adsorption Equilibrium for Electrocatalytic Nitrate Reduction to Ammonia",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.4c04023",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.1021/jacs.4c06098": {
   "abstract": "",
@@ -2751,6 +3721,37 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实"
  },
+ "10.1039/d4nj02343a": {
+  "abstract": "Cu–Sn alloy attains an NH 3 yield rate and faraday efficiency up to 293.12 μmol h −1 cm −2 and 78.57% at −1.2 V versus reversible hydrogen electrode in 0.1 M Na 2 SO 4 (containing 0.01 M NaNO 3 ) electrolyte.",
+  "authors": [
+   "Jinxiu Zhao",
+   "Jingyi Xu",
+   "Liyi Shi"
+  ],
+  "cross": false,
+  "date": "2024-07-09",
+  "doi": "10.1039/d4nj02343a",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1039/d4nj02343a",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "New Journal of Chemistry",
+  "tier": "background",
+  "title": "Electrodeposition of a 3D dendritic Cu–Sn bimetallic alloy for electrocatalytic nitrate reduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4nj02343a",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1039/d4nr01984a": {
   "abstract": "A Cu 6 (SMPP) 6 nanocluster is synthesized and supported on graphene oxide for electrocatalytic nitrogen reduction to ammonia, showing decent NH 3 yield rate and faradaic efficiency.",
   "authors": [
@@ -2818,6 +3819,128 @@
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
+ },
+ "10.1039/d4ta03098b": {
+  "abstract": "A non-equilibrium high-temperature shock (HTS) strategy, accompanied with the processes of rapid heating and cooling, is reported to introduce twin boundaries (TBs) into Li 1.2 Ni 0.13 Co 0.13 Mn 0.54 O 2 .",
+  "authors": [
+   "Zhedong Liu",
+   "Cuihua Zeng",
+   "Jingchao Zhang",
+   "Jiawei Luo",
+   "Zhaoxin Guo",
+   "Zekun Li",
+   "Rui Liu",
+   "Wei-Di Liu",
+   "Jia Ding",
+   "Yanan Chen",
+   "Wenbin Hu"
+  ],
+  "cross": false,
+  "date": "2024-07-29",
+  "doi": "10.1039/d4ta03098b",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1039/d4ta03098b",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "Twin boundaries induced by high-temperature shock boost the structural stability of Li-rich layered-oxide",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1039/d4ta03098b",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "high-temperature shock"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
+ "10.1039/d4ta03350g": {
+  "abstract": "Coupled plasmon triggering significantly enhanced the NRR efficiency on the surface of semiconductor heterostructure (2D/2D) gC 3 N 4 @MoS 2 .",
+  "authors": [
+   "Denis Zabelin",
+   "Anastasiia Tulupova",
+   "Anna Zabelina",
+   "Andrea Tosovska",
+   "Rashid Valiev",
+   "Ruslan Ramazanov",
+   "David Mares",
+   "Vitezslav Jerabek",
+   "Vasilii Burtsev",
+   "Mariia Erzina",
+   "Alena Michalcová",
+   "Anastasiia Skvortsova",
+   "Vaclav Svorcik",
+   "Oleksiy Lyutakov"
+  ],
+  "cross": false,
+  "date": "2024-07-11",
+  "doi": "10.1039/d4ta03350g",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1039/d4ta03350g",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "Enhanced photoelectrochemical nitrogen reduction to ammonia by a plasmon-active Au grating decorated with the gC 3 N 4 @MoS 2 heterosystem and plasmon-active nanoparticles",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d4ta03350g",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "NRR"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
+ },
+ "10.1039/d4tc01867b": {
+  "abstract": "Aluminum nitride (AlN) is a semiconductor with a very wide band gap and a potential dielectric material. Deposition of thin AlN films is routinely done by several techniques, including atomic layer deposition (ALD). In this study, we deposited AlN using ALD with trimethylaluminum (TMA) as the Al precursor and ammonia (NH3) with and without plasma activation as the N precursor in the temperature range from 100 to 400 °C while monitoring the surface reactions using mass spectrometry. Our results, combined with recent quantum chemical modelling, suggest that the surface chemistry of the deposition process is chemisorption of TMA followed by reductive elimination of the methyl groups to render mono methyl aluminum species. The NH3 chemisorption is done by ligand exchange to form CH4 and an -NH2 terminated surface.",
+  "authors": [
+   "Pamburayi Mpofu",
+   "Houyem Hafdi",
+   "Pentti Niiranen",
+   "Jonas Lauridsen",
+   "Oscar Alm",
+   "Tommy Larsson",
+   "Henrik Pedersen"
+  ],
+  "cross": false,
+  "date": "2024-07-17",
+  "doi": "10.1039/d4tc01867b",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1039/d4tc01867b",
+  "kind": "journal",
+  "origin": "回填",
+  "preprint": {
+   "id": "10.26434/chemrxiv-2024-z0bgc",
+   "source": "ChemRxiv",
+   "url": "https://doi.org/10.26434/chemrxiv-2024-z0bgc"
+  },
+  "published_seen": "2026-10-29T08:07:55Z",
+  "score": 18,
+  "source": "Journal of Materials Chemistry C",
+  "tier": "transferable",
+  "title": "Surface chemistry in atomic layer deposition of AlN thin films from Al(CH3)3 and NH3 studied by mass spectrometry",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1039/d4tc01867b",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1088/1361-6463/ad5f3d": {
   "abstract": "Abstract Low-temperature plasma technology is a promising technological route to achieve green and efficient ammonia synthesis at ambient temperature and pressure. In this work, a Laval nozzle type gliding arc plasma reactor was designed for the direct synthesis of ammonia from N 2 and H 2 discharges ignited by a high voltage nanosecond pulsed power supply to investigate the effect of different electrode gaps, pulse voltages, and V N2 : V H2 on ammonia synthesis. The nanosecond pulsed plasma discharges were characterized through oscilloscope and optical emission spectroscopy (OES). The maximum rate of NH 3 synthesis was 538.12 μ mol·h −1 at 1.5 mm electrode gap, 16 kV peak pulse voltage, 6 kHz pulse repetition frequency, 100 ns pulse width, 100 ns pulse rising edge, 100 ns pulse falling edge, and 200 mL·min −1 total gas flow rate with V N2 : V H2 = 1:1. It was demonstrated that the discharge mode of the nanosecond pulsed gliding arc plasma can transit from a unipolar state to a bipolar state determined by the duty cycle accompanied with higher discharge power and vibrational temperature. Bipolar discharge mode is beneficial to improve the efficiency of plasma ammonia synthesis because of it can strengthen the plasma discharge and increase the vibrational temperature. The ammonia synthesis rate and N 2 conversion rate increased with the increase of the discharge power and vibrational temperature.",
@@ -2977,6 +4100,109 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.1115/es2024-131382": {
+  "abstract": "Abstract For the increasing demand for fuel flexibility in H2 production for fuel cells, the process intensification of fuel reforming using micro-reactors has become crucial. While prior literature has seen substantial progress in hydrocarbon fuel reforming within micro-reactors employing micro-channels, the supply of thermal energy for these endothermic reactions has faced limitations, relying on external heating, or operating in autothermal mode through partial combustion. This paper explores a novel approach by investigating the use of a thin-film catalytic heater for the development of micro-reactors. The study specifically focuses on dry methane reforming, showcasing a simplified micro-reactor where thermal energy is supplied through electric resistive heating of a thin carbon sheet with a catalyst applied to its surface. The thin catalytic heated layer resides inside the reactor, minimizing energy losses and significantly reducing the overall reactor footprint. Power input was varied from 90 W to 225 W to understand its impact on the temperature achieved inside the reactor, extent of CH4 conversion, H2 and CO yields. Fast thermal response times were achieved due to the use of carbon paper as thin film for heating. Ni/MgO impregnated onto the carbon paper was utilized as the catalytic heating element which resulted in CH4 conversions greater than 60% at temperature greater than 750 K. Influence of operating conditions such as the input molar ratio of CO2/CH4, and gas hourly space velocity (GHSV) were also investigated to understand the scope of the catalyst in this setup. High GHSVs (592,885 and 948,617 mL/(hr.gcatalyst)) were tested to understand the extent of throughput achievable using this setup. This approach demonstrates improved scope and feasibility for further intensification compared to conventionally heated microreactors. The research paves the way for more efficient and compact micro-reactors, addressing challenges associated with thermal energy supply in the context of fuel reforming processes.",
+  "authors": [
+   "Kiran Raj Goud Burra",
+   "Murat Sahin",
+   "Ashwani Gupta"
+  ],
+  "cross": false,
+  "date": "2024-07-15",
+  "doi": "10.1115/es2024-131382",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1115/es2024-131382",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "ASME 2024 18th International Conference on Energy Sustainability",
+  "tier": "transferable",
+  "title": "Resistive Heating Catalytic Micro-Reactor Design for Process Intensified Fuel Reforming to Hydrogen",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1115/es2024-131382",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Resistive Heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应"
+ },
+ "10.1116/6.0003769": {
+  "abstract": "As devices continue to scale down in size, new patterning and deposition techniques are growing in interest. Atomic layer deposition (ALD) has shown to have promising results in selective and low-temperature deposition processes with high conformality and atomic layer control. These properties have led to the increased dependence on ALD process for device fabrication. To further achieve low-temperature deposition, electron enhanced ALD (EE-ALD) has been introduced. EE-ALD is shown to be a viable option for depositing films at room temperature as a way to supplement the thermal energy otherwise needed to overcome activation energies in the deposition process. Furthermore, metals such as Co and Ru are shown to have promising results in replacing Cu lines while using smaller barriers and liners, thus increasing the effective cross section of the conducting interconnect. The reduction in the barrier and liner needed to inhibit dielectric diffusion is responsible for an improved conductivity in Co and Ru lines when compared to Cu with total cross sections below 250 nm2. This work focuses on first principles and atomistic modeling studies on the reaction processes which occur in the deposition of Co films using the precursor Co(CO)3NO and how EE-ALD is used to reduce the deposition temperature. The roles of electron enhancement are investigated for possible electronic excitations of precursor molecules and local surface heating mechanisms.",
+  "authors": [
+   "Nickolas M. Ashburn",
+   "Xiuyao Lang",
+   "Youhwan Jo",
+   "Yeonghun Lee",
+   "Xiaolong Yao",
+   "Kyeongjae Cho"
+  ],
+  "cross": false,
+  "date": "2024-07-29",
+  "doi": "10.1116/6.0003769",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1116/6.0003769",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Journal of Vacuum Science & Technology A",
+  "tier": "transferable",
+  "title": "First principles reaction processes of Co(CO)3NO as an atomic layer deposition precursor on SiO2 and Co surfaces",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1116/6.0003769",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积"
+ },
+ "10.1149/1945-7111/ad60f8": {
+  "abstract": "The electrochemical reduction of nitrate to ammonia is of interest as an energy/environmentally friendly source of ammonia for agriculture and energy applications and as a route toward groundwater purification. We report in situ photoemission data, electrochemical results, and density functional theory calculations that demonstrate vanadium oxide—prepared by ambient exposure of V metal, with a distribution of surface V 3+ and V 4+ oxidation states—specifically adsorbs and reduces nitrate to ammonia at pH 3.2 at cathodic potentials. Negligible cathodic activity in the absence of NO 3 − indicates high selectivity with respect to non-nitrate reduction processes. In situ photoemission data indicate that nitrate adsorption and reduction to adsorbed NO 2 is a key step in the reduction process. NO 3 RR activity is also observed at pH 7, albeit at a much slower rate. The results indicate that intermediate (non-d 0 ) oxidation states are important for both molecular nitrogen and nitrate reduction to ammonia.",
+  "authors": [
+   "Qasim Adesope",
+   "Mohammad K. Altafi",
+   "Stella C. Amagbor",
+   "Kabirat Balogun",
+   "Manan Guragain",
+   "Alankar Kafle",
+   "Vitaly Mesilov",
+   "Francis D’Souza",
+   "Thomas R. Cundari",
+   "Jeffry A. Kelber"
+  ],
+  "cross": false,
+  "date": "2024-07-01",
+  "doi": "10.1149/1945-7111/ad60f8",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1149/1945-7111/ad60f8",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Journal of The Electrochemical Society",
+  "tier": "background",
+  "title": "Electrocatalytic Reduction of Nitrate to Ammonia at Oxidized Vanadium Surfaces with V(3 + ) and V(4 + ) Oxidation States",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1149/1945-7111/ad60f8",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate to Ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.18573/jae.33": {
   "abstract": "A 100W scale indirect ammonia solid oxide fuel cell (IA-SOFC) system called REACH was designed, built and tested at the Rutherford Appleton Laboratory, with an off-the-shelf 100W solid oxide fuel cell at its core. IA-SOFCs with thermal integration of cracking have been modelled at a large scale, and there have been single cell studies focusing on the degradation and NOx emissions while running on ammonia. REACH addresses the gap of demonstrating an integrated system and only a few stack-scale demonstrators to have been tested in academia. The purpose of this work was to present an engineering design that demonstrates the practical possibilities of using the waste heat from high-temperature SOFCs to perform ammonia cracking, and to demonstrate a real-world efficiency of above 45% for such a system. Tests were conducted in a fume hood with gaseous supplies of air and ammonia. The start-up testing proved that the proposed design is capable of autothermal cracking. The performance mapping of the fuel cell, that is the sweeping of fuel rates at differing air-fuel ratios, revealed a system efficiency of 14%. Upon diagnosis, this was due to low fuel utilisation of the off-the-shelf SOFC at its intended operating condition, which the supplier’s anode reduction process is likely to have caused. This illustrated that the commercial availability of reliable SOFC stacks can be an obstacle to research in this field. However, an effective design was delivered that has practically demonstrated the use of waste heat and unconverted fuel to pre-crack for high temperature SOFCs (autothermal cracking without power input for heating), thus a direct ammonia to power system that avoids the need for upstream purification steps was delivered. Questions remain around the precise composition of its exhaust, and suggestions for a follow up prototype are to remove the vacuum vessel and scale-up the power rating of the system to the 1-10kW scale.",
@@ -3141,73 +4367,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
- "10.2139/ssrn.4898661": {
-  "abstract": "",
-  "authors": [
-   "Yue Pang",
-   "Guorui Tang",
-   "Shulin Zhao",
-   "Yijie Yang",
-   "Cheng-Peng Li"
-  ],
-  "cross": false,
-  "date": "2024-07-18",
-  "doi": "10.2139/ssrn.4898661",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.2139/ssrn.4898661",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 9,
-  "source": "SSRN",
-  "tier": "background",
-  "title": "Electrocatalytic Ammonia Synthesis on Bimetallic Aupd Porous Structures",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.2139/ssrn.4898661",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Ammonia Synthesis"
-  ],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
- },
- "10.2139/ssrn.4900001": {
-  "abstract": "",
-  "authors": [
-   "Qin Wu",
-   "Dexing Li",
-   "Zhili Yin",
-   "peixian Wang",
-   "Ziqing Wang",
-   "Zhong Wei"
-  ],
-  "cross": false,
-  "date": "2024-07-20",
-  "doi": "10.2139/ssrn.4900001",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.2139/ssrn.4900001",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 9,
-  "source": "SSRN",
-  "tier": "background",
-  "title": "Highly Effective Ruthenium Catalyst Support on La2zr2o7 For Ammonia Decomposition to Cox-Free Hydrogen",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.2139/ssrn.4900001",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Ammonia Decomposition"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢；涉及Ru/钌体系"
- },
  "10.2139/ssrn.4900035": {
   "abstract": "",
   "authors": [
@@ -3232,72 +4391,6 @@
    "nh3"
   ],
   "url": "https://doi.org/10.2139/ssrn.4900035",
-  "via": "Crossref",
-  "watch": [],
-  "why": [],
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
- },
- "10.2139/ssrn.4901911": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
-  "authors": [
-   "Quan Zhang",
-   "Zikang Li",
-   "Lingxiang Peng",
-   "Cuiru Wang",
-   "Zhiqiang YAO"
-  ],
-  "cross": false,
-  "date": "2024-07-22",
-  "doi": "10.2139/ssrn.4901911",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.2139/ssrn.4901911",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 28,
-  "source": "SSRN",
-  "tier": "direct",
-  "title": "A High-Throughput Screening of Catalyst for Efficient Nitrogen Fixation: Transition Metal Single-Atom Anchored on an Emerging Synthesized Biphenyl Network",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.2139/ssrn.4901911",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Nitrogen Fixation"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
- },
- "10.2139/ssrn.4903720": {
-  "abstract": "",
-  "authors": [
-   "sadeeq ullah",
-   "Aftab Ahmad",
-   "Majeed ur Rehman",
-   "Ashfaq Ahmad",
-   "Daxiang Cui",
-   "Lu Li"
-  ],
-  "cross": false,
-  "date": "2024-07-24",
-  "doi": "10.2139/ssrn.4903720",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.2139/ssrn.4903720",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 6,
-  "source": "SSRN",
-  "tier": "background",
-  "title": "Two-Dimensional Bi2-Se3 Nanosheets Synthesis for Efficient Electrocatalytic Production of Ammonia from Nitrate",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.2139/ssrn.4903720",
   "via": "Crossref",
   "watch": [],
   "why": [],
@@ -3399,48 +4492,6 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
- "10.26434/chemrxiv-2024-nfnc9": {
-  "abstract": "Flash Joule heating has been used as a versatile solid-state synthesis method in the production of a wide range of products, including organic, inorganic, and ceramic products. Conventional flash Joule heating systems are large and customized, presenting significant barriers in the cost of assembly, the expertise needed to operate, and attaining uniformity of results between different systems. Even laboratory-scale flash Joule heating systems struggle to operate above 10-gram capacity, and they suffer poor temperature controllability. We present here the use of commercial off-the-shelf arc welders as a superior alternative to standard flash Joule heating systems due to their low cost ($120), ease of use, compact size, high temperature controllability, and tunability. We demonstrate gram-scale synthesis of a variety of organic and ceramic species using these systems. With the addition of a new reactor configuration for only $260, we scale up synthesis of these products to record rates for laboratory scale, achieving a production rate of 3 kg/h for graphene, and kg/day production rates for SiC, carbon nanotubes, SnSe2, and SnS¬2.",
-  "authors": [
-   "Lucas Eddy",
-   "Jaeho Shin",
-   "Yi Cheng",
-   "Chi Choi",
-   "Carolyn Teng",
-   "Phelecia Scotland",
-   "Shichen Xu",
-   "Alexander Lathem",
-   "Shihui Chen",
-   "Carter Kittrell",
-   "Yimo Han",
-   "James Tour"
-  ],
-  "cross": false,
-  "date": "2024-07-31",
-  "doi": "10.26434/chemrxiv-2024-nfnc9",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.26434/chemrxiv-2024-nfnc9",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 26,
-  "source": "ChemRxiv",
-  "tier": "transferable",
-  "title": "Kilogram Flash Joule Heating Synthesis with an Arc Welder",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.26434/chemrxiv-2024-nfnc9",
-  "via": "Crossref",
-  "watch": [
-   "James M. Tour"
-  ],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
- },
  "10.26434/chemrxiv-2024-p9ntc": {
   "abstract": "The electrochemical ammonia oxidation reaction (AOR) has applications in hydrogen storage and ammonia waste remediation. Using density functional theory, we investigate the mechanism of AOR on Ir, Rh, and their alloys at varied atomic ratios Ir75Rh25, Ir50Rh50, and Ir25Rh75 towards N2(g), NO2–(aq) and NO3–(aq) formation. This work introduces a method for computational alloy design by considering both electronic energy and configurational entropy. The structures considered are selective to N2(g) formation and all favoured *N-N coupling. An Ir50Rh50 alloy was found to reduce the theoretical onset potential for N2(g) formation relative to pure Ir while not exhibiting a downhill coupling step corresponding to catalyst poisoning by *N as shown for pure Rh, consistent with previous experimental work. The formation of NO2–(aq) and NO3–(aq) demand significantly higher potentials, typically limited by the final hydroxylation step before desorption.",
   "authors": [
@@ -3469,6 +4520,97 @@
   "why": [],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
+ },
+ "10.3390/agriculture14071073": {
+  "abstract": "The application of excessive nitrogen fertiliser has been found to have a detrimental impact on the growth and development of cotton in Xinjiang, China. This has resulted in a reduction in cotton yield and economic benefit. The aim of this study was to investigate the potential for reducing the input of inorganic N fertiliser while maintaining the quality and yield formation of cotton. The objective of this study was to examine the growth, photosynthesis, and yield of cotton crops subjected to varying fertiliser treatments. The experiment was conducted in 2021–2022 with eight treatments in the experiment: no fertiliser (CK); conventional application of inorganic nitrogen fertiliser (T0); T1–T3, with 8%, 16%, and 24% reduction in inorganic nitrogen fertiliser application, respectively; and T4–T6, with organic fertilisers replacing the reduced inorganic nitrogen fertiliser application of T1–T3, respectively. In comparison to T0, T5 demonstrated the most notable agronomical performance and yield components across both years. This is attributable to the spatial distribution of cotton bolls, which was more conducive to the net photosynthetic rate and yield formation. This, in turn, led to an augmented photosynthetic capacity, enhanced biomass accumulation, and an elevated harvesting index. The results of the economic benefit analysis demonstrated that in comparison to the control treatment (T0), the net profit of all treatments except T3 increased. In conclusion, the economic benefit reached its maximum in the range of a 9.90–14.10% reduction in nitrogen and a 16.60–17.60% substitution of organic fertiliser.",
+  "authors": [
+   "Huangcheng He",
+   "Xuemei Lou",
+   "Jianguo Liu"
+  ],
+  "cross": false,
+  "date": "2024-07-03",
+  "doi": "10.3390/agriculture14071073",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.3390/agriculture14071073",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Agriculture",
+  "tier": "uncertain",
+  "title": "Nitrogen Reduction and Organic Fertiliser Application Benefits Growth, Yield, and Economic Return of Cotton",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/agriculture14071073",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
+ "10.3390/agronomy14081651": {
+  "abstract": "Water and nitrogen are the primary constraints on improving agricultural productivity. The aims of this study are to investigate the synergistic effects of water and nitrogen, optimize their combination schemes under mulched drip irrigation systems in the northwest region of China, and offer scientific insight into enhancing water and nitrogen use efficiency in potato cultivation. The traditional cultivar “Qing Shu 10” was chosen for the test material. A two-year field study on potato water–nitrogen interaction was conducted in the central Hexi Corridor, within Ganzhou District of Zhangye City, with three irrigation levels (W1 (336 mm), W2 (408 mm), and W3 (480 mm)) and three nitrogen application rates (N1 (44 kg ha−1), N2 (192 kg ha−1), and N3 (240 kg ha−1)) using a fully randomized combination design, resulting in nine treatments. This study examined the varying responses in potato yield and water–nitrogen use efficiency to different water–nitrogen combinations in the Hexi Corridor region, developed a mathematical regression model to predict the economic benefit of potatoes based on water–nitrogen interactions, and refined the application strategy. The results indicated that both the volume of irrigation water and the rate of nitrogen application significantly influenced potato yield and water–nitrogen utilization efficiency. A distinct interactive effect was observed between irrigation volume and nitrogen application rate. The reduced irrigation volume restricted nitrogen uptake, with an average increase of 31.87% in nitrogen fertilizer partial productivity and 31.54% in potato yield when moving from W1 to W2 over two years and only a 6.02% and 5.48% increase from W2 to W3, respectively. Similarly, reduced nitrogen application rates also hindered water uptake by potatoes, with increases of 9.05% in water use efficiency, 12.14% in irrigation water use efficiency, 12.12% in yield from N1 to N2, and only 1.98% and 1.69% increases in irrigation water use efficiency and yield from N2 to N3, while water use efficiency decreased by 1.17%. The highest yield values over the two-year period were observed in the N2W3 treatment, with 43,493.54 and 43,082.19 kg ha−1. The irrigation volume, nitrogen application rate, and potato economic benefit were well modeled by a quadratic regression, with an R2 of 0.996 for both predicted and actual economic benefit over two years, indicating a trend of initial increase followed by a decrease as water and nitrogen levels increased. Through simulation optimization and a thorough analysis of multiple indicators, the N2W3 treatment yielded an economic benefit exceeding 25,391.13 CNY ha−1 and demonstrated a high water–nitrogen utilization efficiency. This treatment not only enhances potato economic benefit but also minimizes agricultural resource inputs, establishing it as the optimal water and fertilizer management strategy for this study.",
+  "authors": [
+   "Zhiqiang Ju",
+   "Dongrong Li",
+   "Yanqiang Cui",
+   "Dongyuan Sun"
+  ],
+  "cross": false,
+  "date": "2024-07-27",
+  "doi": "10.3390/agronomy14081651",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.3390/agronomy14081651",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "Agronomy",
+  "tier": "background",
+  "title": "Optimizing the Water and Nitrogen Management Scheme to Enhance Potato Yield and Water–Nitrogen Use Efficiency",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/agronomy14081651",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.3390/ma17143502": {
+  "abstract": "Semiconductor oxides belonging to various families are ideal candidates for application in photocatalytic processes. One of the challenges facing photocatalytic processes today is improving their efficiency under sunlight irradiation. In this study, the growth and characterization of semiconductor oxide nanostructures and composites based on the ZnO and CuO families are proposed. The selected growth method is the resistive heating of Zn and Cu wires to produce the corresponding oxides, combined with galvanic corrosion of Zn. An exhaustive characterization of the materials obtained has been carried out using techniques based on scanning electron microscopy and optical spectroscopies. The method we have followed and the conditions used in this study present promising results, not only from a degradation efficiency point of view but also because it is a cheap, easy, and fast growth method. These characteristics are essential in order to scale the process beyond the laboratory.",
+  "authors": [
+   "Adrián Fernández-Calzado",
+   "Aarón Calvo-Villoslada",
+   "Paloma Fernández",
+   "Belén Sotillo"
+  ],
+  "cross": false,
+  "date": "2024-07-15",
+  "doi": "10.3390/ma17143502",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.3390/ma17143502",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 18,
+  "source": "Materials",
+  "tier": "transferable",
+  "title": "ZnO:CuO Composites Obtained by Rapid Joule Heating for Photocatalysis",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.3390/ma17143502",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "通用催化方法"
  },
  "10.3390/molecules29143276": {
   "abstract": "The present study proposes an atomistic molecular dynamics model system of a magnetite (Fe3O4) {111} surface. The effect of temperature on the adsorption process of ammonia (NH3) at low concentrations in the aqueous phase has been considered. The molecular dynamics simulations were carried out using the Clay force field (Clay FF) with a modification for the iron atoms in the NPT ensemble at a pressure of 90 bar. The considered system was heated in a temperature range from 293 to 473 K, and additional relaxations were performed at temperatures of interest. Within the scope of this study, the basic parameters of the magnetite surface were calculated and the distances between the ammonia molecules and the surface were determined. A general idea of the degree and rate of adsorption at specific temperatures was obtained. The calculation results were compared to the experimental data where possible and to other available simulations of adsorption processes on metal oxides.",
@@ -3499,6 +4641,67 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及Fe/铁体系"
+ },
+ "10.3390/molecules29143314": {
+  "abstract": "The electrochemical nitrogen reduction reaction (NRR) is an attractive pathway for producing ammonia under ambient conditions. The development of efficient catalysts for nitrogen fixation in electrochemical NRRs has become increasingly important, but it remains challenging due to the need to address the issues of activity and selectivity. Herein, using density functional theory (DFT), we explore ten kinds of triple transition metal atoms (M3 = Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, and Zn) anchored on the C2N monolayer (M3-C2N) as NRR electrocatalysts. The negative binding energies of M3 clusters on C2N mean that the triple transition metal clusters can be stably anchored on the N6 cavity of the C2N structure. As the first step of the NRR, the adsorption configurations of N2 show that the N2 on M3-C2N catalysts can be stably adsorbed in a side-on mode, except for Zn3-C2N. Moreover, the extended N-N bond length and electronic structure indicate that the N2 molecule has been fully activated on the M3-C2N surface. The results of limiting potential screen out the four M3-C2N catalysts (Co3-C2N, Cr3-C2N, Fe3-C2N, and Ni3-C2N) that have a superior electrochemical NRR performance, and the corresponding values are −0.61 V, −0.67 V, −0.63 V, and −0.66 V, respectively, which are smaller than those on Ru(0001). In addition, the detailed NRR mechanism studied shows that the alternating and enzymatic mechanisms of association pathways on Co3-C2N, Cr3-C2N, Fe3-C2N, and Ni3-C2N are more energetically favorable. In the end, the catalytic selectivity for NRR on M3-C2N is investigated through the performance of a hydrogen evolution reaction (HER) on them. We find that Co3-C2N, Cr3-C2N, Fe3-C2N, and Ni3-C2N catalysts possess a high catalytic activity for NRR and exhibit a strong capability of suppressing the competitive HER. Our findings provide a new strategy for designing NRR catalysts with high catalytic activity and selectivity.",
+  "authors": [
+   "Shifa Xiao",
+   "Daoqing Zhang",
+   "Guangzhao Wang",
+   "Tianhang Zhou",
+   "Ning Wang"
+  ],
+  "cross": false,
+  "date": "2024-07-13",
+  "doi": "10.3390/molecules29143314",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.3390/molecules29143314",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 9,
+  "source": "Molecules",
+  "tier": "background",
+  "title": "Density Functional Theory Study of Triple Transition Metal Cluster Anchored on the C2N Monolayer for Nitrogen Reduction Reactions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/molecules29143314",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "producing ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系"
+ },
+ "10.3390/molecules29153611": {
+  "abstract": "Besides outstanding catalytic performance, the stability of nitrogen-doped carbon materials during storage is equally crucial for practical applications. Therefore, we conducted the first investigation into the stability of highly nitrogen-doped activated carbon (AC-NC-T) obtained by modifying activated carbon with CO2/NH3 in different storage media (air, vacuum and N2). The results of the catalysis of the oxygen reduction reaction and the activation of peroxymonosulfate for degrading bisphenol A by AC-NC-T show that the catalytic activity of AC-NC-T stored in air decays most prominently, while the performance attenuated only marginally when stored in vacuum and N2. The results from N2 adsorption isotherms, Raman spectroscopy, elemental and X-ray photoelectron spectroscopy indicate that the decline in catalytic activity is due to the presence of oxygen in the environment, causing a decrease in absolute contents of pyridinic N (N-6) and graphitic nitrogen (N-Q). After being stored in an air atmosphere for 28 days, the absolute contents of N-6 and N-Q in AC-NC-950 decreased by 19.3% and 12.1%, respectively. However, when stored in a vacuum or N2, the reduction in both was less than 7%. This study demonstrates that reducing oxygen concentration during storage is crucial for preserving high catalytic activity of nitrogen-containing carbon materials.",
+  "authors": [
+   "Tao Zhang",
+   "Songlin Zuo"
+  ],
+  "cross": false,
+  "date": "2024-07-30",
+  "doi": "10.3390/molecules29153611",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.3390/molecules29153611",
+  "kind": "journal",
+  "origin": "回填",
+  "score": 6,
+  "source": "Molecules",
+  "tier": "background",
+  "title": "Stability of Nitrogen-Doped Activated Carbon as an Electrocatalyst for the Oxygen Reduction Reaction in Various Storage Media",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/molecules29153611",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及碳材料"
  },
  "10.3390/nano14141212": {
   "abstract": "Area selective deposition (ASD) is a promising IC fabrication technique to address misalignment issues arising in a top–down litho-etch patterning approach. ASD can enable resist tone inversion and bottom–up metallization, such as via prefill. It is achieved by promoting selective growth in the growth area (GA) while passivating the non-growth area (NGA). Nevertheless, preventing undesired particles and defect growth on the NGA is still a hurdle. This work shows the selectivity of Ru films by passivating the Si oxide NGA with self-assembled monolayers (SAMs) and small molecule inhibitors (SMIs). Ru films are deposited on the TiN GA using a metal-organic precursor tricarbonyl (trimethylenemethane) ruthenium (Ru TMM(CO)3) and O2 as a co-reactant by atomic layer deposition (ALD). This produces smooth Ru films (<0.1 nm RMS roughness) with a growth per cycle (GPC) of 1.6 Å/cycle. Minimizing the oxygen co-reactant dose is necessary to improve the ASD process selectivity due to the limited stability of the organic molecule and high reactivity of the ALD precursor, still allowing a Ru GPC of 0.95 Å/cycle. This work sheds light on Ru defect generation mechanisms on passivated areas from the detailed analysis of particle growth, coverage, and density as a function of ALD cycles. Finally, an optimized ASD of Ru is demonstrated on TiN/SiO2 3D patterned structures using dimethyl amino trimethyl silane (DMA-TMS) as SMI.",
