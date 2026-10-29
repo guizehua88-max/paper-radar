@@ -310,10 +310,19 @@ def _strip_abstract(text: str) -> str:
     return re.sub(r"^(abstract|summary)[\s:.\-–]+", "", text, flags=re.IGNORECASE).strip()
 
 
-def abstracts_semantic_scholar(dois: list[str]) -> dict[str, str]:
+def _chunks(dois: list[str], size: int, fn, errs: list[str]) -> None:
+    """Run fn on each chunk; a failing chunk is recorded and skipped (partial results are kept)."""
+    for i in range(0, len(dois), size):
+        try:
+            fn(dois[i:i + size])
+        except Exception as e:
+            errs.append(f"{type(e).__name__}: {str(e)[:80]}")
+
+
+def abstracts_semantic_scholar(dois: list[str], errs: list[str]) -> dict[str, str]:
     out: dict[str, str] = {}
-    for i in range(0, len(dois), 400):
-        chunk = dois[i:i + 400]
+
+    def one(chunk):
         res = net.post_json_retry("https://api.semanticscholar.org/graph/v1/paper/batch?fields=abstract,externalIds",
                                   {"ids": [f"DOI:{d}" for d in chunk]}, timeout=90)
         if not isinstance(res, list):
@@ -322,15 +331,15 @@ def abstracts_semantic_scholar(dois: list[str]) -> dict[str, str]:
             ab = _strip_abstract((r or {}).get("abstract") or "")
             if len(ab) >= 150:
                 out[d] = ab
-        if i + 400 < len(dois):
-            polite_pause(3)
+        polite_pause(3)
+    _chunks(dois, 400, one, errs)
     return out
 
 
-def abstracts_europepmc(dois: list[str]) -> dict[str, str]:
+def abstracts_europepmc(dois: list[str], errs: list[str]) -> dict[str, str]:
     out: dict[str, str] = {}
-    for i in range(0, len(dois), 20):
-        chunk = dois[i:i + 20]
+
+    def one(chunk):
         q = " OR ".join(f'DOI:"{d}"' for d in chunk)
         url = ("https://www.ebi.ac.uk/europepmc/webservices/rest/search?"
                + urllib.parse.urlencode({"query": q, "resultType": "core", "format": "json", "pageSize": "100"}))
@@ -341,13 +350,14 @@ def abstracts_europepmc(dois: list[str]) -> dict[str, str]:
             if d in chunk and len(ab) >= 150:
                 out[d] = ab
         polite_pause(0.4)
+    _chunks(dois, 20, one, errs)
     return out
 
 
-def abstracts_openalex(dois: list[str], api_key: str) -> dict[str, str]:
+def abstracts_openalex(dois: list[str], api_key: str, errs: list[str]) -> dict[str, str]:
     out: dict[str, str] = {}
-    for i in range(0, len(dois), 50):
-        chunk = dois[i:i + 50]
+
+    def one(chunk):
         params = {"filter": "doi:" + "|".join(chunk), "select": "doi,abstract_inverted_index", "per_page": "50",
                   "api_key": api_key}
         data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params), timeout=60)
@@ -357,6 +367,7 @@ def abstracts_openalex(dois: list[str], api_key: str) -> dict[str, str]:
             if d in chunk and len(ab) >= 150:
                 out[d] = ab
         polite_pause(0.3)
+    _chunks(dois, 50, one, errs)
     return out
 
 
@@ -369,7 +380,7 @@ def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | No
     steps = [("Semantic Scholar", abstracts_semantic_scholar, None), ("Europe PMC", abstracts_europepmc, epmc_cap)]
     key = os.environ.get("OPENALEX_API_KEY", "").strip()
     if key:
-        steps.insert(1, ("OpenAlex", lambda ds: abstracts_openalex(ds, key), None))
+        steps.insert(1, ("OpenAlex", lambda ds, errs: abstracts_openalex(ds, key, errs), None))
     for name, fn, cap in steps:
         rest = [d for d in todo if d not in found][: cap or None]
         if not rest:
@@ -377,12 +388,12 @@ def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | No
         if deadline and time.time() > deadline:
             stats[name] = "跳过（时间用完）"
             continue
-        try:
-            got = fn(rest)
-            found.update(got)
-            stats[name] = f"查 {len(rest)} 得 {len(got)}"
-        except Exception as e:
-            stats[name] = f"失败 {type(e).__name__}: {str(e)[:100]}"
+        errs: list[str] = []
+        got = fn(rest, errs)
+        found.update(got)
+        stats[name] = f"查 {len(rest)} 得 {len(got)}"
+        if errs:
+            stats[name] += f"（{len(errs)} 批请求失败：{errs[-1][:60]}）"
     return found, stats
 
 

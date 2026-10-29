@@ -155,9 +155,9 @@ class Radar:
         for doi, ab in found.items():
             for p in want.get(doi, []):
                 p["abstract"] = ab
-        self.status["sources"][label] = {"n": len(found), "err": "" if not any("失败" in v for v in st.values()) else
-                                         "；".join(f"{k} {v}" for k, v in st.items() if "失败" in v),
-                                         "calls": 1, "fails": 0}
+        bad = [k for k, v in st.items() if "失败" in v]
+        self.status["sources"][label] = {"n": len(found), "calls": 1, "fails": 0,
+                                         "err": ("部分请求失败（其余正常）：" + "、".join(bad)) if bad else ""}
         print(f"  abstracts: asked {len(want)} found {len(found)} {st}")
         return {"查询": len(want), "找到": len(found), **st}
 
