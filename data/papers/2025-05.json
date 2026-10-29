@@ -355,6 +355,8 @@
    "Hai‐Long Jiang",
    "Xinhe Bao"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-05-05",
   "doi": "10.1002/anie.202501190",
@@ -376,8 +378,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "基于金属有机框架前驱体，采用后金属替换策略将单原子 Zn 替换为 Fe，显著提高 Fe 负载量至 2.39 wt%。该 Fe HL–N–C 催化剂在 300 °C 和常压下表现出 558 µmol·g cat −1 ·h −1 的催化速率，性能优于传统熔铁催化剂和 Ru 基贵金属催化剂。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系、碳材料"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系、碳材料",
+  "zh_title": "单原子 Fe 催化剂：提高金属负载量以实现温和条件下的高效氨合成"
  },
  "10.1002/anie.202502333": {
   "abstract": "Abstract High‐entropy alloys (HEAs), composed of five or more elements in similar proportions, exhibit unique physicochemical properties, but their disordered atomic structures pose challenges in the precise control of active sites. In contrast, high‐entropy intermetallic compounds (HEIs), with an ordered atomic arrangement and well‐defined atomic positions, provide clear active site configurations, making them particularly advantageous for complex electrocatalytic reactions like the nitrate reduction reaction (NO 3 RR). Herein, we present the FeCoNiGeSb‐HEI with precisely controlled elemental distributions, leading to the formation of distinct active sites. The FeCoNiGeSb‐HEI catalyst exhibits high activity for NO 3 RR, achieving a high NH 3 yield rate of 7.5 mg h −1 cm −2 at −0.4 V and a faradaic efficiency (FE) of 97.6% at −0.30 V, along with excellent stability. Density functional theory (DFT) calculations and experimental results reveal that Co sites act as key active sites, whereas Fe and Ni atoms contribute a synergistic effect. Additionally, the FeCoNiGeSb‐HEI catalyst functions in a bifunctional system coupling NH 3 production with the glycerol oxidation reaction (GOR), achieving an NH 3 yield of 9.8 mg h −1 cm −2 at 1.8 V, maintaining stable performance for 100 h.",
@@ -1869,6 +1873,8 @@
    "Mads Pagh Nielsen",
    "Vincenzo Liso"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-05",
   "doi": "10.1016/j.fuel.2025.134423",
@@ -1890,8 +1896,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "评估丹麦绿色氨生产的未来潜力与面临挑战。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "丹麦绿色氨生产：评估未来潜力与挑战"
  },
  "10.1016/j.fuel.2025.134491": {
   "ab_try": "2026-10-29",
@@ -2075,6 +2083,8 @@
    "Jinjun Li",
    "Zhixiong You"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-05",
   "doi": "10.1016/j.ijhydene.2025.04.193",
@@ -2096,8 +2106,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "采用低共熔体系制备 Cs 掺杂 Ru/ZrO2 催化剂用于高效催化氨合成。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "利用低共熔体系制备 Cs 掺杂 Ru/ZrO2 催化剂实现高效催化氨合成"
  },
  "10.1016/j.ijhydene.2025.04.336": {
   "ab_try": "2026-10-29",
@@ -4143,6 +4155,8 @@
   "authors": [
    "Masaaki KITANO"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-05-01",
   "doi": "10.1627/jpi.68.91",
@@ -4164,8 +4178,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "研究非贵金属在氮化物载体上的催化氨合成性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "氮化物负载非贵金属催化氨合成"
  },
  "10.21203/rs.3.rs-6539415/v1": {
   "abstract": "Abstract Electromagnetic induction technology enables rapid, non-contact heating of conductive polymer nanocomposites, yet uncontrolled localized heating during this process can induce significant thermomechanical damage. Key influencing factors include nanoparticle dispersion, agglomeration, magnetic field frequency, and coil geometry. This study presents a multiphysics computational model to simulate the induction heating of acrylonitrile butadiene styrene (ABS) reinforced with iron oxide (Fe₃O₄) nanoparticles, assessing the impact of these variables on heating efficiency. Numerical predictions were validated against experimental data at four Fe₃O₄ weight concentrations, demonstrating strong agreement and confirming a positive correlation between nanoparticle content and heating rate. Additionally, higher frequencies substantially enhanced heating, while nanoparticle agglomeration was found to promote localized overheating, posing a risk of material degradation. Although parameters such as particle size, coil design, and polymer positioning influenced heating rates, their effects were comparatively minor. The developed computational framework, experimentally validated, proves reliable and adaptable for modeling induction heating in diverse polymer nanocomposite systems.",
@@ -4268,6 +4284,8 @@
   "authors": [
    "Benjamin Steininger"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-05-01",
   "doi": "10.26034/roadsides-202501310",
@@ -4289,8 +4307,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "重新思考氨合成的工业基础设施，探讨其特定的毒性及开放性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "氨合成"
  },
  "10.26434/chemrxiv-2025-2cp91": {
   "abstract": "A non-heme iron complex bearing a ligand with secondary sphere hydrogen bond (H-bond) donors, (tris(6-phenylaminopyridylmethyl)amine, TPANHPhFe(II), reduces nitrite (NO2-) to nitric oxide (NO) in the absence of H+donors, pro-ducing a dimeric Fe(III)2(μ-O)2 diamond core. The electronically analogous complex without H-bonds (tris(6-methylpyridylmethylamine), TPAMeFe(II) provides identical reactivity to also reduce NO2- to NO and produce an Fe(III)2(μ-O)2 core, but it is approximately four orders of magnitude slower than TPANHPhFe(II). This highlights the key roles of H-bonds to promote NO2- reduction. Further, we detail the structural and spectroscopic differences of the two Fe(III)2(μ-O)2 complexes to provide insight into the effects that H-bonding interactions have on Fe2O2 cores.",
@@ -4336,6 +4356,8 @@
    "Faraj Hasanayn",
    "Alan Goldman"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-05-22",
   "doi": "10.26434/chemrxiv-2025-40qzq",
@@ -4357,8 +4379,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "报道了一种具有π8 Mo2(μ-N2)核心的双氮桥连二钼配合物。在室温下，该配合物与Cp*2Co和三氟甲磺酸鎓盐反应催化N2转化为NH3。DFT计算表明，该过程通过质子化μ-N2配体生成重氮化物桥，随后发生N-N键断裂，计算能垒为20 kcal/mol。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "通过质子诱导断裂双氮桥连二钼配合物催化氨合成"
  },
  "10.26434/chemrxiv-2025-492xf": {
   "abstract": "Hydrogen is expected to be used as a fuel additive to ammonia, a non-flammable and carbon-free fuel, to improve combustion efficiency. However, the design strategies for developing highly active, non-precious metal catalysts for ammonia decomposition are not yet well understood. Here, we show that Co/Ba/MgO exhibits high activity, with an ammonia conversion of 94.4% and an ammonia decomposition rate of 63 mmol gcat-1 h-1 at 500 °C with a WHSV of 60000 mL gcat-1 h-1. Comparison of the dopant effect of alkaline earth metal elements elucidates that high activity of the Co/Ba/MgO is ascribed to the strong basicity of BaO, formation of Co-BaO core-shell structure, and their synergistic effect to donating electrons from accumulated BaO to N-Co bond to promote N2 formation which is the rate determining step for ammonia decomposition. Our findings will contribute to the development of cost-effective core-shell type metal catalysts for hydrogen production by ammonia decomposition and lead to the realization of a carbon neutral society in which ammonia plays a key role.",
@@ -4669,6 +4693,8 @@
    "Helder M. Marques",
    "Ireneusz Grabowski"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-05-13",
   "doi": "10.3390/ijms26104670",
@@ -4690,8 +4716,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "综述了过渡金属催化剂上氨合成的反应机理、决速步及面临的挑战。文章指出传统的N2解离吸附为决速步的观点受到挑战，探讨了替代机理路径对催化剂设计的重要性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨"
+  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_title": "过渡金属催化剂上氨合成：反应机理、决速步与挑战"
  },
  "10.3390/membranes15050149": {
   "abstract": "The electrochemical nitrogen reduction reaction (eNRR) for electrochemical ammonia (NH3) synthesis is considered a promising alternative to the energy-intensive and highly CO2-emitting Haber-Bosch process. In numerous experiments, the Nafion membrane has been used as an electrolyte or separator. However, Nafion adsorbs and desorbs NH3, leading to erroneous measurements and making reproducibility extremely difficult. This study systematically investigates the interaction between NH3 and Nafion, underscoring the strength of the interaction between ammonium-ions (NH4+) and protons (H+). We found that minute quantities of synthesized NH3 are prone to persist within the membrane, albeit without affecting the ion conductivity and resistivity of Nafion. Consequently, the removal of NH3 from the membrane can occur under conditions where synthesis is not viable. The objective of this work is to heighten awareness regarding the interaction between NH3 and Nafion and contribute to the attainment of reliable and reproducible outcomes in eNRRs.",
@@ -4770,6 +4798,8 @@
    "Xu Ji",
    "Ge He"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-05-12",
   "doi": "10.3390/pr13051480",
@@ -4791,8 +4821,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "针对可再生能源耦合绿色氨合成系统的强耦合与非线性特征，提出了一种双层注意力LSTM模型。该模型通过输入层和时序层注意力机制筛选关键指标并动态捕捉特征权重，在模拟平台上验证了其在预测氨产率和优化能效方面的有效性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨"
+  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_title": "基于双层注意力机制LSTM的绿色氨生产过程自适应深度学习建模"
  },
  "10.3390/s25113312": {
   "abstract": "The world urgently needs new methods to quickly and efficiently detect mutated viruses. An RNA-AuNP-based colorimetric biosensor is a highly sensitive, specific, and cost-effective tool that enables rapid, visual detection of target molecules for applications in disease diagnostics, environmental monitoring, and forensic analysis. An RNA-AuNP-based colorimetric biosensor requires precise control over nanoparticle dispersion and aggregation, which can be achieved using temperature regulation. A novel on-chip microelectrode is proposed to induce and monitor the aggregation of RNA-attached gold nanoparticles (AuNPs) through Joule heating and impedance spectroscopy. The proposed platform is implemented based on printed circuit board (PCB) technology, which has many advantages, such as fast and easy design and fabrication, low power consumption, and low costs. Joule heating is the process in which the energy of an electric current is converted into heat as it flows through a resistance. Impedance spectroscopy is an analytical technique that measures a system’s electrical response to an applied AC signal across a range of frequencies, providing insights into a sample’s dielectric properties. The results validate that the fabricated microelectrode is capable of heating a 20 µL droplet to 75 °C within 30 s, utilizing a low power input of only 3.75 watts and successfully inducing a color change based on the presence of hepatitis C virus (HCV) RNA, while impedance readings are used to monitor the aggregation.",

@@ -904,6 +904,8 @@
    "Marc Figueras‐Valls",
    "Manos Mavrikakis"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": true,
   "date": "2025-07-09",
   "doi": "10.1002/ceur.202500030",
@@ -925,8 +927,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "研究评估了多种交换关联密度泛函对铁催化氨合成体系的描述准确性。通过对比实验参考值与DFT计算值，发现RPBE泛函能可靠预测Fe和γ′-Fe4N的晶格常数及结合能，并最好地捕捉了N和NH3的吸附行为。",
   "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "N₂/H₂气相合成氨；涉及Fe/铁体系"
+  "zh_obj": "N₂/H₂气相合成氨；涉及Fe/铁体系",
+  "zh_title": "评估交换关联密度泛函在描述铁催化氨合成体系中的性能"
  },
  "10.1002/chem.202501809": {
   "abstract": "Abstract Metal‐organic frameworks (MOFs) have been widely studied for various complex electrocatalytic reactions, such as nitrate reduction reaction (NO 3 RR) to ammonia. Currently, their real active sites are controversial due to the inevitable structure transformations of MOFs during the catalytic process, limiting the rational design of effective electrocatalysts. Here, we clarified the structural evolution of zeolitic imidazole framework‐67 (ZIF‐67) with Co‐N units and Co 3 (hexahydroxytriphenylene) 2 (Co‐HHTP) with Co‐O units on carbon paper (CP) toward enhancing NO 3 RR. Both ZIF‐67/CP and Co‐HHTP/CP achieve NH 3 Faradaic efficiencies more than 95% within the wide potential range of ‐0.2 to ‐1.0 V versus reversible hydrogen electrode (RHE). At ‐1.0 V versus RHE, they deliver NH 3 yield rates of 87.41 and 79.11 mg h −1 cm −2 , respectively, which outperform the most reported MOF‐based electrocatalysts. Combining with in‐situ Raman and ex‐situ X‐ray diffraction analysis, we verified the faster transformation of ZIF‐67 into Co(OH) 2 compared to Co‐HHTP. The newly generated Co(OH) 2 was recognized as the catalytic species and presented more favorable hydrogenation as elucidated by in‐situ Fourier transform infrared and differential electrochemical mass spectroscopy. This work offers insightful understanding on the active phase of MOFs for designing reasonable active units toward different electrochemical reactions.",
@@ -1005,6 +1009,8 @@
    "Jan‐Dierk Grunwaldt",
    "Dmitry E. Doronkin"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-24",
   "doi": "10.1002/cssc.202501035",
@@ -1026,8 +1032,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用原位X射线吸收光谱（XAS）研究19 bar(a)压力下RuCs/MgO催化剂中Ru和Cs物种的结构，以及含25 ppm氧气的非纯气进料时的失活行为。Cs助剂促进金属Ru的形成并提高出口NH3浓度；微量氧导致Cs+转化为水合物种[Cs(H2O)x]+，引发铯物种流失，造成催化剂不可逆失活。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "氨合成过程中RuCs/MgO催化剂的结构-活性关系"
  },
  "10.1002/ese3.70217": {
   "abstract": "ABSTRACT The role of magnetic induction is declared fundamental in many technological systems, including electric generators, inductors, transformers, and so on. This is an important source for converting energy from one form to another while utilizing electromagnetic induction. This phenomenon is efficient when the induced magnetic field is introduced in the materials' wavy motion affected by mass and heat gradients. The complex, wavy dynamics of the materials become more useful if the heat transfer is effectively enhanced via the external thermal radiation. These aspects are explicitly studied in this study. The mathematical equations formulated in the presence of these aforementioned effects are based on the low Reynolds number. Every physical trend is validated through a test of the relevant parameter while plotting its graphical view. The results offer valuable insights for the design and control of advanced fluid systems where these effects play a crucial role in system performance. Flow, thermal, and mass transfer analyses are comprehensively addressed. An explicit and significant influence of the induced magnetic factor on the flow pattern is noticed. The material factor reduces the surface drag force, and the Dufour and Soret numbers both reduce the heat and mass flows, respectively. The reciprocal magnetic Prandtl number uplifted the wavy flow speed of the material, and an opposite conduct is detected through the magnetic factor. The radiation effect enhanced the material temperature, and a reduction in the concentration was noticed while plotting the behavior of the chemical reaction factor.",
@@ -1343,6 +1351,8 @@
    "Xiancan Jiang",
    "Zhixiong You"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-18",
   "doi": "10.1007/s11243-025-00675-1",
@@ -1364,8 +1374,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究通过氢溢流机制调控 MgO 的氢接受能力，以增强 Cs–Ru/MgO 催化剂的氨合成速率。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "通过氢溢流调控 MgO 氢接受能力以增强 Cs–Ru/MgO 氨合成速率"
  },
  "10.1007/s11705-025-2595-5": {
   "ab_try": "2026-10-29",
@@ -1447,6 +1459,8 @@
    "Tieliang Li",
    "Yifu Yu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-22",
   "doi": "10.1007/s12209-025-00436-2",
@@ -1468,8 +1482,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "研究 CeO2 氧空位对 Fe 基催化剂低温氨合成性能的影响，探讨其促进机制。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "CeO2 氧空位增强 Fe 基催化剂低温氨合成"
  },
  "10.1007/s40843-025-3476-4": {
   "ab_try": "2026-10-29",
@@ -1479,6 +1495,8 @@
    "Chunhong Chen",
    "Haiyan Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-25",
   "doi": "10.1007/s40843-025-3476-4",
@@ -1500,8 +1518,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究Ru基催化剂上电子与质子的分离机制，探讨其对氨合成反应的促进作用。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "Ru基催化剂上的电子与质子分离促进氨合成"
  },
  "10.1016/j.apsusc.2025.163015": {
   "ab_try": "2026-10-29",
@@ -1562,6 +1582,8 @@
    "Le-Xing You",
    "Feng Zhao"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.biortech.2025.132436",
@@ -1589,8 +1611,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "构建了增强氨合成的工程化 Ag2Se@Pani 核壳纳米酶与克氏杆菌混合系统。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "工程化 Ag2Se@Pani 核壳纳米酶与克氏杆菌混合系统"
  },
  "10.1016/j.cej.2025.163467": {
   "ab_try": "2026-10-29",
@@ -2271,6 +2295,8 @@
    "Qingjie Guo",
    "Zhongbin Liu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.ijhydene.2025.06.168",
@@ -2292,8 +2318,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究了化学链合成氨过程中钨基载氮剂晶格氮的迁移与转化行为。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "化学链/晶格氮循环制氨"
+  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_title": "化学链合成氨中钨基载氮剂晶格氮的迁移与转化行为"
  },
  "10.1016/j.ijhydene.2025.150090": {
   "ab_try": "2026-10-29",
@@ -2308,6 +2336,8 @@
    "Hyung Chul Yoon",
    "Jong-Ho Moon"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.ijhydene.2025.150090",
@@ -2329,8 +2359,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "比较了灰、蓝、绿氨在低压 Ru 基和高压 Fe 基 Haber-Bosch 工艺下的能源、经济和环境性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系、Fe/铁体系"
+  "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系、Fe/铁体系",
+  "zh_title": "灰、蓝、绿氨的 3E（能源、经济、环境）比较研究"
  },
  "10.1016/j.ijhydene.2025.150112": {
   "ab_try": "2026-10-29",
@@ -2343,6 +2375,8 @@
    "Hitoshi Saima",
    "Takayuki Ichikawa"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.ijhydene.2025.150112",
@@ -2364,8 +2398,10 @@
   "why": [
    "Ammonia synthesis"
   ],
+  "zh_brief": "利用钠-氮固溶体介导的催化与化学循环过程合成氨。该研究通过钠-氮固溶体作为介质，在特定条件下实现氨的合成。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "化学链/晶格氮循环制氨"
+  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_title": "钠-氮固溶体介导的催化与化学循环合成氨"
  },
  "10.1016/j.jallcom.2025.181654": {
   "ab_try": "2026-10-29",
@@ -2485,6 +2521,8 @@
    "Rahat Javaid",
    "Jochen Lauterbach"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.jcat.2025.116136",
@@ -2512,8 +2550,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用可解释机器学习解析钌基催化剂中金属氧化物载体的作用。研究发现金属氧化物载体对钌基催化剂的活性有显著影响。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "可解释机器学习解析钌基催化剂中金属氧化物载体的作用"
  },
  "10.1016/j.jcis.2025.02.210": {
   "ab_try": "2026-10-29",
@@ -3197,6 +3237,8 @@
    "Tuhin Suvra Khan",
    "Sushant Kumar"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-29",
   "doi": "10.1021/acs.energyfuels.5c02533",
@@ -3218,8 +3260,10 @@
   "why": [
    "Ammonia Production"
   ],
+  "zh_brief": "研究负载Ru催化剂在氧化物载体上的氢跳跃行为，以增强氨合成性能。通过调节载体性质优化氢的迁移过程，从而提高反应活性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "氧化物载体上调节的氢跳跃促进负载Ru催化剂氨合成"
  },
  "10.1021/acs.iecr.5c02153": {
   "ab_try": "2026-10-29",
@@ -3726,6 +3770,8 @@
    "Seong Ho Lee",
    "Kwan-Young Lee"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-24",
   "doi": "10.1021/acsami.5c10234",
@@ -3747,8 +3793,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "在400 °C、0.1 MPa温和条件下，研究Sm掺杂Ru/La2Ce2O7（Ru/La2Ce2-xSmxO7）催化剂的氨合成性能。最优Sm掺杂比（x=0.75）的催化剂氨合成活性最高，达4563 μmol h-1 g-1。主要归因于Sm引入导致晶体结构从萤石型向C型转变，增加了氧空位，促进了电子转移至活性Ru金属并增强了氢溢流。然而，Sm掺杂也会阻塞活性位点并促进氧空位有序化，降低电子迁移率，表明氧空位的排列比浓度更关键。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "Sm掺杂Ru/La2Ce2O7催化剂增强氨合成：结构分析与氧空位研究"
  },
  "10.1021/acsanm.5c02418": {
   "ab_try": "2026-10-29",
@@ -3829,6 +3877,8 @@
    "Huihui Liu",
    "P. Hu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-19",
   "doi": "10.1021/acscatal.5c03006",
@@ -3850,8 +3900,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "通过 Fe/γ-Al2O3 体系探讨 Al2O3 对 Fe 催化剂的强促进作用机制。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "Fe/γ-Al2O3 中 Al2O3 对 Fe 催化剂的强促进作用"
  },
  "10.1021/acsnano.5c03593": {
   "ab_try": "2026-10-29",
@@ -4020,6 +4072,8 @@
    "Masaaki Kitano",
    "Genki Kobayashi"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-01",
   "doi": "10.1021/jacs.5c04467",
@@ -4041,8 +4095,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用机械合成法将 BaTiO3-xHx 的 H− 溶解度极限扩展至约 1，制备的 Ru/BaTiO2H 催化剂在 400 °C 和 0.9 MPa 下表现出 34 mmol g-1 h-1 的显著活性。Bragg-CDI 技术显示机械合成产物具有显著的晶格应变，其活性约为同 H− 浓度下热化学合成样品的三倍。",
   "zh_method": "机械力驱动",
-  "zh_obj": "机械化学制氨；涉及Ru/钌体系"
+  "zh_obj": "机械化学制氨；涉及Ru/钌体系",
+  "zh_title": "机械合成氢化物材料：具有晶格应变的富氢钙钛矿氧氢化物作为氨合成催化剂"
  },
  "10.1021/jacs.5c04852": {
   "ab_try": "2026-10-29",
@@ -4181,6 +4237,8 @@
    "Sang Soo Han",
    "Jong-Beom Baek"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-01",
   "doi": "10.1038/s41467-025-60715-3",
@@ -4202,8 +4260,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用氮化硅作为缺陷诱导物理促进剂，提出了一种机械化学氨合成新方法。掺入 3.0 at% Si3N4 的 Fe 催化剂在近常温条件下实现了氨浓度比未掺杂 Fe 高 5.6 倍的显著提升，同时保持了良好的稳定性。",
   "zh_method": "机械力驱动",
-  "zh_obj": "机械化学制氨；涉及Fe/铁体系"
+  "zh_obj": "机械化学制氨；涉及Fe/铁体系",
+  "zh_title": "氮化硅作为缺陷诱导物理促进剂的机械化学氨合成"
  },
  "10.1038/s41467-025-61069-6": {
   "ab_try": "2026-10-29",
@@ -4337,6 +4397,8 @@
    "Stephen T. Liddle",
    "Marinella Mazzanti"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-16",
   "doi": "10.1038/s41557-025-01867-z",
@@ -4358,8 +4420,10 @@
   "why": [
    "nitrogen to ammonia"
   ],
+  "zh_brief": "利用铀三氨基胺配合物报道了涉及侧向结合 N2 的催化 N2 到 NH3 转化。化学计量反应揭示了 N2 从游离态到桥式侧向结合形式再到桥式氮化物的分步还原过程，揭示了不同氮物种在催化转化中的作用。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "铀配合物介导的侧向结合二氮分子分步催化与化学计量转化"
  },
  "10.1038/s41598-025-03390-0": {
   "ab_try": "2026-10-29",
@@ -4509,6 +4573,8 @@
    "Hideo Hosono",
    "Masaaki Kitano"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-23",
   "doi": "10.1039/d5dt01036e",
@@ -4532,8 +4598,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "采用机械化学法制备了 BaLnO2H (Ln = Tb–Lu) 新型钙钛矿型氧氢化物，作为 Ru 催化剂的载体。该材料因强电子给体作用表现出高效的氨合成催化活性。",
   "zh_method": "机械力驱动",
-  "zh_obj": "机械化学制氨；涉及Ru/钌体系"
+  "zh_obj": "机械化学制氨；涉及Ru/钌体系",
+  "zh_title": "机械法制备 BaLnO2H 钙钛矿型氧氢化物及其氨合成催化活性"
  },
  "10.1039/d5nj01449b": {
   "abstract": "The deposition of ZnO over-coating on the Pd catalysts facilitated the hydrogenation of BYD to BED, and the blocked Pd sites prevented the adsorption of BED, thereby improving the selectivity for BED.",
@@ -4787,6 +4855,8 @@
    "Lijun Fu",
    "Yuping Wu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-07",
   "doi": "10.1039/d5ta02005k",
@@ -4808,8 +4878,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "机械球磨 LaNi5 合金显著增强氨合成，合成速率从 77.38 μmol NH3 g−1 h−1 提升至 2080 μmol NH3 g−1 h−1，归因于 H*、H− 和表面氮化物之间的协同作用。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "AB5 型金属间化合物作为氨合成催化剂"
  },
  "10.1109/imsa65733.2025.11167649": {
   "ab_try": "2026-10-29",
@@ -5677,6 +5749,8 @@
    "Othman El Kssiri",
    "Abdessamad FAIK"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-21",
   "doi": "10.2139/ssrn.5359935",
@@ -5698,8 +5772,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用第一性原理计算研究温和条件下铁基催化剂的氨合成机理与性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "温和条件下铁基催化剂可持续氨合成的第一性原理研究"
  },
  "10.23919/acc63710.2025.11107844": {
   "ab_try": "2026-10-29",
@@ -5740,6 +5816,8 @@
    "Ferenc Hegedűs",
    "Péter Csizmadia"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-21",
   "doi": "10.24425/ame.2025.154740",
@@ -5761,8 +5839,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "基于 Keller–Miksis 方程和热力学模型，模拟非牛顿流体中声化学氨合成，最低能量强度达 682.6 GJ/t。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨"
+  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_title": "非牛顿流体中声化学氨合成优化"
  },
  "10.26434/chemrxiv-2025-29c2x": {
   "abstract": "The electrochemical reduction of nitrogen species offers a sustainable route to mitigate environmental nitrogen pollution while enabling the production of value-added chemicals such as ammonia, hydroxylamine, and C–N coupled organonitrogen compounds. However, the practical implementation of conventional potentio-static methods is limited by poor product selectivity and competing hydrogen evolution. Pulsed electrolysis has emerged as a transformative strategy to address these challenges by synchronizing catalyst surface dynamics with reaction kinetics and microenvironmental changes. This mini-review highlights recent advances in pulsed electrolysis for nitrogen species reduction, with a particular emphasis on how dynamic potentials influence electrocatalyst modulation and the reaction microenvironment. Key mechanistic insights and cutting-edge research findings are discussed, followed by an outlook on current challenges and future directions toward scalable, energy-efficient nitrogen activation.",
@@ -5926,6 +6006,8 @@
    "Søren Bredmose Simonsen",
    "Wolff-Ragnar Kiebach"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
   "cross": false,
   "date": "2025-07-21",
   "doi": "10.29363/nanoge.matsusfall.2025.261",
@@ -5947,8 +6029,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "对 FeRu 溶出催化剂进行原位表征，研究其在合成氨过程中的动态行为。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "FeRu 溶出催化剂合成氨原位研究"
  },
  "10.29363/nanoge.matsusfall.2025.327": {
   "ab_try": "2026-10-29",
@@ -6255,6 +6339,8 @@
   "authors": [
    "Rajiv Khalkho"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-31",
   "doi": "10.53469/jrve.2025.7(07).08",
@@ -6276,8 +6362,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "基于马尔可夫生灭过程和一阶微分方程，评估合成氨工艺单元的稳态可用性。通过分析不同失效和修复率，识别系统瓶颈并提出可靠性维护优化策略，以提升制造系统的效率与可用性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "连续流氨合成中的可靠性工程：半马尔可夫建模方法"
  },
  "10.69997/sct.105384": {
   "abstract": "Dynamic or Programmable Catalysis is an innovative strategy to improve heterogeneous catalysis processes by modulating the binding energies (BE) of adsorbates on a catalytic surface. The technique enables the periodic favoring of different reaction steps, overcoming limitations imposed by the Sabatier Principle and allowing for higher overall reaction rates, otherwise unattainable. Previously, we implemented a simultaneous simulation approach using the algebraic modeling language Pyomo and the solver IPOPT to obtain cyclic steady state results for a unimolecular reactive system with up to four-order of magnitude increases in computational performance compared to the previously reported sequential approach. The flexibility of the method allowed for the investigation of the influence of forcing signal parameters on system behavior and provided a framework for waveform design. In this study, we use a hybrid framework that combines the sequential and the simultaneous simulation approaches to find the cyclic steady state of a more complex system, of ammonia synthesis, comprising 19 reversible elementary reaction steps. The framework allowed us to investigate sine wave parameters with approximately 220 times less computational effort compared to the sequential approach alone. With the parameters studied, our findings indicate that frequencies exceeding 1000 Hz and compressive strains greater than 2% can negatively impact the system performance. Future work will focus on expanding the model to include lateral interactions between molecules, using other waveform as forcing signals, and integrating systematic mathematical optimization approaches. These advancements pave the way to establishing a general framework for identifying optimal waveforms across diverse dynamic catalysis systems.",
@@ -6286,6 +6374,8 @@
    "John R. Kitchin",
    "Carl D. Laird"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-01",
   "doi": "10.69997/sct.105384",
@@ -6307,8 +6397,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "提出了一种结合顺序和同时模拟方法的混合框架，用于模拟包含 19 个可逆基元反应步骤的氨合成动态系统。该框架在研究正弦波参数时比仅使用顺序方法节省了约 220 倍的计算工作量，发现频率超过 1000 Hz 和压缩应变大于 2% 会影响系统性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "动态催化系统循环稳态模拟的计算框架：应用于氨合成"
  },
  "10.69997/sct.122254": {
   "abstract": "This work presents a plantwide model of a Haber-Bosch ammonia synthesis loop (HB-loop) in a PtA plant, consisting of heat exchangers, compressors, steam turbines, flash separators and catalytic reactor beds. The total electrical power utility of the HB-loop is a combination of compressor power, refrigeration power, and steam turbine power. We optimise the HB-loop operating parameters, subject to constraints for maximum reactor temperatures, compressor choke and stall, minimum steam temperature, and maximum loop pressure. The loop features six degrees of freedom (DOFs) for the optimisation: three reactor temperatures, reactor N2/H2-ratio, separator temperature, and loop pressure. The optimisation minimises the total loop power utility for a given hydrogen make-up feed flow, with the PtA load varied by ranging the hydrogen make-up feed flow from 10 % to 120 % of the nominal. Across this load range, different constraints become active, with the compressor surge limit being particularly critical at low loads, significantly increasing HB-loop power consumption. To address this, we investigate configurations with two, three, and four compressor trains operating in parallel. Reductions in total power of 55%, 74%, and 84% are achieved at reduced plant loads, with two, three, and four parallel trains, respectively. In terms of total compressor capital and operating cost, we demonstrated savings of 8.06%, 8.29%, and 7.11% in total cost after ten years of operation with two, three, and four parallel compressor trains compared to a single train configuration.",
@@ -6319,6 +6411,8 @@
    "Sigurd Skogestad",
    "Jakob. K. Huusom"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-01",
   "doi": "10.69997/sct.122254",
@@ -6340,8 +6434,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "针对 PtA 工厂构建了包含换热器、压缩机等组件的 Haber-Bosch 氨合成回路模型。通过优化六个自由度（反应器温度、比例、分离器温度和回路压力），在 10%-120% 负荷范围内，采用多台并联压缩机配置可显著降低总功耗，分别为 55%、74% 和 84%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨"
+  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_title": "PtA Haber-Bosch 合成回路优化"
  },
  "10.69997/sct.128811": {
   "abstract": "This work presents an improved thermodynamic model, an equilibrium model, and a unified kinetic model for ammonia synthesis. The thermodynamic model accurately describes the non-ideality of the reaction system up to 1000 bar using a modified Soave-Redlich-Kwong Equation-of-State. The developed Langmuir-Hinshelwood kinetic model accurately describes ammonia synthesis on iron-based catalysts by incorporating N* and H* surface species, whereas H* species are mainly relevant below 400�C. The model fits an extensive dataset across diverse conditions (251-550�C, 1-324 bar, H2/N2 ratios 0.33-8.5, and space velocities of 1-1800 Nm3 kg-cat-1 h-1) and accounts for catalyst activity variations through a Relative Catalytic Activity factor.",
@@ -6351,6 +6447,8 @@
    "Kevin H.R. Rouwenhorst",
    "Derk W.F. Brilman"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-01",
   "doi": "10.69997/sct.128811",
@@ -6372,8 +6470,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "提出改进的热力学模型（修正 Soave-Redlich-Kwong 状态方程）和统一的 Langmuir-Hinshelwood 动力学模型，用于描述铁基催化剂合成氨。该模型拟合了 251-550°C、1-324 bar 等宽范围条件下的数据，并引入相对催化活性因子以考虑催化剂活性变化。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "百年数据：各类商业铁基催化剂合成氨的热力学与动力学"
  },
  "10.69997/sct.158817": {
   "abstract": "Power-to-Ammonia technology offers sustainable pathways for energy storage and chemical production, with fixed-bed reactors being critical components for efficient synthesis. Understanding reactor dynamics under varying conditions is essential for optimizing these systems, particularly when integrated with intermittent renewable energy sources. This study aims to develop and validate a 2D axisymmetric CFD model for analysing the dynamic response of a ruthenium-catalysed ammonia synthesis reactor to thermal perturbations. The model incorporates detailed reaction kinetics, multicomponent mass transport, and heat transfer mechanisms to predict system behaviour under transient conditions. Results reveal that a step increase in wall temperature from 400�C to 430�C enhances NH3 concentration by 136% (from 2.2 to 5.1 vol.%), with rapid system stabilization achieved within 0.5 seconds. The thermals response maintains consistent heat transfer patterns, exhibiting ~400K differentials between inlet and maximum temperature zones",
@@ -6383,6 +6483,8 @@
    "Martha Cobo",
    "Manuel Figueredo"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "cross": false,
   "date": "2025-07-01",
   "doi": "10.69997/sct.158817",
@@ -6404,7 +6506,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "建立了 Ru 催化氨合成反应器的二维轴对称 CFD 模型，用于分析对热扰动的动态响应。模拟显示，壁温从 400°C 升至 430°C 可使 NH3 浓度增加 136%（2.2% 至 5.1% vol.%），系统在 0.5 秒内快速稳定，入口与最高温度区温差约 400K。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "氨合成固定床反应器二维轴对称瞬态 CFD 模型"
  }
 }
