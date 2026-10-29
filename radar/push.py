@@ -84,14 +84,15 @@ def excerpt(text: str, n: int = 200) -> str:
 def brief_line(p: dict) -> str:
     """中文简介 if we have one, else the start of the English abstract, else the rule label."""
     if p.get("zh_brief"):
-        return p["zh_brief"] + ("（仅据标题，未见摘要）" if p.get("brief_from") == "title" else "")
+        return p["zh_brief"]
     ab = (p.get("abstract") or "").strip()
     if len(ab) >= 80 and p.get("kind") != "wechat":
         return "摘要：" + excerpt(ab)
     if ab and p.get("kind") == "wechat":
         return excerpt(ab, 120)
     from .site import _useful
-    return "｜".join(x for x in (_useful(p.get("zh_obj", "")), _useful(p.get("zh_method", ""))) if x)
+    label = "｜".join(x for x in (_useful(p.get("zh_obj", "")), _useful(p.get("zh_method", ""))) if x)
+    return "出版社没有提供摘要，请点标题看原文" + (f"（规则标签：{label}）" if label else "")
 
 
 def _line(i: int, p: dict) -> str:

@@ -42,7 +42,7 @@ def slim(p: dict) -> dict:
     label = "｜".join(x for x in (_useful(p.get("zh_obj", "")), _useful(p.get("zh_method", ""))) if x)
     if label:
         o["ob"] = label
-    if p.get("zh_brief") and p.get("brief_from") == "title":
+    if p.get("brief_from") == "title" and not p.get("zh_brief"):
         o["bt"] = 1
     if p.get("preprint"):
         o["pp"] = p["preprint"].get("source", "预印本")
@@ -132,8 +132,9 @@ def render(papers: list[dict], cfg: dict, status: dict, generated: str) -> None:
         "latest": [slim(p) for p in latest], "favs": [slim(p) for p in favs],
         "imported": {o: sum(1 for p in papers if p.get("origin") == o) for o in IMPORTED},
         "wechat": sum(1 for p in papers if p.get("kind") == "wechat"),
-        "briefs": sum(1 for p in papers if p.get("zh_brief")),
-        "briefKey": sum(1 for p in papers if p.get("zh_brief") and p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
+        "briefs": sum(1 for p in papers if p.get("zh_brief") or p.get("zh_title")),
+        "briefKey": sum(1 for p in papers if (p.get("zh_brief") or p.get("zh_title")) and p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
+        "noAbstractKey": sum(1 for p in papers if p.get("brief_from") == "title" and p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
         "keyTotal": sum(1 for p in papers if p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
         "status": status,
     }
@@ -420,7 +421,8 @@ async function setView(v){
 }
 
 function brief(p){
-  if (p.zb) return `<p class="brief"><span class="bl">简介</span>${esc(p.zb)}${p.bt ? '<span class="dim">（仅据标题，未见摘要）</span>' : ''}</p>`;
+  if (p.zb) return `<p class="brief"><span class="bl">简介</span>${esc(p.zb)}</p>`;
+  if (p.bt) return `<p class="brief dim">出版社没有提供摘要，请点标题看原文</p>`;
   if (p.ab) return `<p class="brief${p.wx ? '' : ' en'}"><span class="bl">${p.wx ? '摘要' : '摘要节选'}</span>${esc(excerpt(p.ab, 220))}</p>`;
   return '';
 }
@@ -527,7 +529,7 @@ function foot(){
     `<tr><td>${esc(k)}</td><td class="${v.err ? 'err' : 'ok'}">${v.err ? '失败 ' + esc(v.err) : '正常'}</td><td>${v.n ?? 0} 条</td></tr>`).join('');
   const ex = Object.entries(s).filter(([k]) => !['sources','push','at','llm'].includes(k)).map(([k,v]) => `${esc(k)}：${esc(v)}`).join('；');
   $('#foot').innerHTML = `<div>最近一次运行（${s.at ? new Date(s.at).toLocaleString('zh-CN',{hour12:false}) : '—'}）：${ex || '—'}；推送：${esc((s.push||[]).join(', ') || '无')}。</div>
-    <div style="margin-top:6px">中文简介：${I.briefs ? `重点论文已写 ${I.briefKey}/${I.keyTotal} 篇，全库 ${I.briefs} 篇；由 AI 只根据标题和摘要生成，可能有误，请以原文为准` : '未开启（在 GitHub 仓库 Secrets 里添加 ZHIPU_API_KEY 后自动生成）；现在卡片上显示的是英文摘要的开头'}。</div>
+    <div style="margin-top:6px">中文简介：${I.briefs ? `重点论文已处理 ${I.briefKey}/${I.keyTotal} 篇（其中 ${I.noAbstractKey || 0} 篇出版社没给摘要，只翻译了标题），全库 ${I.briefs} 篇；由 AI 只根据摘要生成，可能有误，请以原文为准` : '未开启（在 GitHub 仓库 Secrets 里添加 ZHIPU_API_KEY 后自动生成）；现在卡片上显示的是英文摘要的开头'}。</div>
     <div style="margin-top:6px">相关度：⭐交叉＝合成氨同时涉及焦耳热/程序升温或 ALD；直接＝热催化合成氨；可迁移＝焦耳热/ALD 用于其他反应或材料；待核＝路线不明；背景＝电/光/等离子体制氨、氨分解等。规则筛选，未读全文，请以原文为准。</div>
     ${rows ? `<table>${rows}</table>` : ''}`;
 }

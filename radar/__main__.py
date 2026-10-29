@@ -438,6 +438,7 @@ class Radar:
                         p.update(c)
                         changed += before[p["id"]] != p.get("tier")
             extra["补摘要"] = f"查 {ab.get('查询', 0)} 篇，找到 {ab.get('找到', 0)} 篇，相关度随之调整 {changed} 篇"
+        llm.drop_title_briefs(self.papers.values())
         # Chinese briefs, most relevant + newest first
         todo = [p for p in self.papers.values() if llm.needs_brief(p)]
         todo.sort(key=lambda p: (TIER_RANK.get(p.get("tier"), 0), p.get("date") or ""), reverse=True)

@@ -5,7 +5,7 @@
 或者任意 OpenAI 兼容接口
   LLM_API_KEY + LLM_BASE_URL + LLM_MODEL    （只填 LLM_API_KEY 时按智谱处理）
 
-summarize()  给每篇论文写中文标题 + 2–3 句中文简介（只依据标题和摘要；没有摘要时只概括主题并标明“仅据标题”）
+summarize()  给每篇论文写中文标题 + 2–3 句中文简介（只依据摘要；出版社没给摘要时只翻译标题，不写简介）
 review()     旧功能：给相关度打 0–3 分（只在配置了 LLM_BASE_URL + LLM_MODEL 时启用）
 """
 from __future__ import annotations
@@ -19,7 +19,7 @@ from . import net
 
 ZHIPU_BASE = "https://open.bigmodel.cn/api/paas/v4"
 ZHIPU_MODELS = ["glm-4.7-flash", "glm-4-flash-250414"]
-BRIEF_V = 2  # bump to rewrite briefs made with an older prompt (v2: element symbols kept, title-only = one sentence)
+BRIEF_V = 3  # v2: element symbols kept; v3: no brief at all when there is no abstract (only the title is translated)
 _CJK = re.compile(r"[一-鿿]")
 
 
@@ -104,7 +104,7 @@ INSTRUCTIONS = """为下面每篇论文写两项：
   元素符号和化学式一律照抄原文（Ru 就写 Ru、CeO2 就写 CeO2），不要改写成中文元素名
 - b：中文简介
   · 有摘要：2–3 句，80–150 字。依次说明研究对象/体系、关键方法（制备、加热方式、表征或计算）、主要结果；摘要里有关键数字（温度、压力、产率、选择性、稳定时长等）就写上
-  · 摘要写着“（无摘要）”：只写 1 句、不超过 50 字，只说标题里写明的内容，不要补充标题里没有的方法、结果、意义
+  · 摘要写着“（无摘要）”：b 写空字符串 ""（只看标题写简介容易编内容，宁可不写）
   · 直接写内容，不要用“本文”“该研究”“作者”开头，不要加评价
 只输出 JSON 数组，不要任何其他文字，格式：[{"i":0,"t":"…","b":"…"}]
 """
@@ -133,14 +133,15 @@ def _parse(text: str) -> list[dict]:
 def _apply(p: dict, r: dict, model: str) -> bool:
     t = re.sub(r"\s+", " ", str(r.get("t", ""))).strip().strip("“”\"")
     b = re.sub(r"\s+", " ", str(r.get("b", ""))).strip().strip("“”\"")
-    if not _CJK.search(b) or len(b) < 8:
-        return False
     from_title = not usable_abstract(p)
-    if from_title:  # one sentence only: anything after it would be guesswork
-        b = re.split(r"(?<=[。！？])", b, maxsplit=1)[0]
-        if len(b) > 70:
-            b = b[:68].rstrip("，、；") + "…"
-    p["zh_brief"] = b[:400]
+    if from_title:  # no abstract: translate the title only; a "brief" from a title is mostly guesswork
+        if not _CJK.search(t):
+            return False
+        p.pop("zh_brief", None)
+    else:
+        if not _CJK.search(b) or len(b) < 8:
+            return False
+        p["zh_brief"] = b[:400]
     if _CJK.search(t):
         p["zh_title"] = t[:200]
     p["brief_from"] = "title" if from_title else "abstract"
@@ -152,11 +153,19 @@ def _apply(p: dict, r: dict, model: str) -> bool:
 def needs_brief(p: dict) -> bool:
     if p.get("kind") == "wechat":
         return False
-    if not p.get("zh_brief"):
-        return True
-    if p.get("brief_from") == "title" and p.get("brief_v", 1) < BRIEF_V:
-        return True  # title-only briefs from the first prompt sometimes added guesses
-    return p.get("brief_from") == "title" and bool(usable_abstract(p))  # an abstract turned up later -> redo
+    if usable_abstract(p):  # (re)write when an abstract is available but the brief is missing or title-based
+        return not p.get("zh_brief") or p.get("brief_from") == "title"
+    return not p.get("zh_title")
+
+
+def drop_title_briefs(papers) -> int:
+    """Older versions wrote a brief from the title alone; those sometimes added claims. Keep only the title translation."""
+    n = 0
+    for p in papers:
+        if p.get("brief_from") == "title" and p.get("zh_brief"):
+            p.pop("zh_brief")
+            n += 1
+    return n
 
 
 def summarize(papers: list[dict], *, deadline: float, batch: int = 6) -> dict:
