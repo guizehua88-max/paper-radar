@@ -19,6 +19,7 @@ from . import net
 
 ZHIPU_BASE = "https://open.bigmodel.cn/api/paas/v4"
 ZHIPU_MODELS = ["glm-4.7-flash", "glm-4-flash-250414"]
+BRIEF_V = 2  # bump to rewrite briefs made with an older prompt (v2: element symbols kept, title-only = one sentence)
 _CJK = re.compile(r"[一-鿿]")
 
 
@@ -99,10 +100,11 @@ def usable_abstract(p: dict) -> str:
 SYSTEM = ("你是催化、材料与化工方向的科研助理，给研究生写论文速览。只依据给出的标题和摘要，"
           "不得编造摘要里没有的方法、数据或结论。")
 INSTRUCTIONS = """为下面每篇论文写两项：
-- t：标题的中文译名，准确简洁；常见缩写保留英文（如 NH3、ALD、FJH、DFT、Ru、MOF）
+- t：标题的中文译名，准确简洁；常见缩写保留英文（如 NH3、ALD、FJH、DFT、MOF）
+  元素符号和化学式一律照抄原文（Ru 就写 Ru、CeO2 就写 CeO2），不要改写成中文元素名
 - b：中文简介
   · 有摘要：2–3 句，80–150 字。依次说明研究对象/体系、关键方法（制备、加热方式、表征或计算）、主要结果；摘要里有关键数字（温度、压力、产率、选择性、稳定时长等）就写上
-  · 摘要写着“（无摘要）”：只写 1 句、不超过 50 字，概括标题反映的研究主题，不要推测结果或数据
+  · 摘要写着“（无摘要）”：只写 1 句、不超过 50 字，只说标题里写明的内容，不要补充标题里没有的方法、结果、意义
   · 直接写内容，不要用“本文”“该研究”“作者”开头，不要加评价
 只输出 JSON 数组，不要任何其他文字，格式：[{"i":0,"t":"…","b":"…"}]
 """
@@ -134,13 +136,16 @@ def _apply(p: dict, r: dict, model: str) -> bool:
     if not _CJK.search(b) or len(b) < 8:
         return False
     from_title = not usable_abstract(p)
-    if from_title and len(b) > 90:
-        b = b[:88].rstrip("，、；") + "…"
+    if from_title:  # one sentence only: anything after it would be guesswork
+        b = re.split(r"(?<=[。！？])", b, maxsplit=1)[0]
+        if len(b) > 70:
+            b = b[:68].rstrip("，、；") + "…"
     p["zh_brief"] = b[:400]
     if _CJK.search(t):
         p["zh_title"] = t[:200]
     p["brief_from"] = "title" if from_title else "abstract"
     p["brief_by"] = model
+    p["brief_v"] = BRIEF_V
     return True
 
 
@@ -149,6 +154,8 @@ def needs_brief(p: dict) -> bool:
         return False
     if not p.get("zh_brief"):
         return True
+    if p.get("brief_from") == "title" and p.get("brief_v", 1) < BRIEF_V:
+        return True  # title-only briefs from the first prompt sometimes added guesses
     return p.get("brief_from") == "title" and bool(usable_abstract(p))  # an abstract turned up later -> redo
 
 
