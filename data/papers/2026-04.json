@@ -108,7 +108,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "等离子体制氨"
  },
- "10.1002/ange.9755292": {
+ "10.1002/anie.9755292": {
   "abstract": "ABSTRACT Electrocatalytic nitrate (NO 3 − ) reduction to ammonia (NH 3 ) represents a sustainable pathway for resource recovery and wastewater treatment. However, its application in neutral media typical of real wastewater sources is constrained by weak NO 3 − adsorption and proton scarcity, which necessitate high overpotentials that promote the competing hydrogen evolution reaction (HER) and lower selectivity. Here, we overcome this dilemma through a dynamic phase‐transition strategy using a defect‐engineered Co 3 O 4‐x catalyst, which achieves ∼100% Faradaic efficiency with a high NH 3 yield rate of 11.6 mg h −1 cm −2 at −0.5 V versus RHE in neutral electrolyte. Operando spectroscopy and theoretical calculations reveal an electrochemically reversible phase transition, wherein cathodic potential reduces Co 3+ to Co 2+ , forming a Co(OH) 2 intermediate that spontaneously reverts upon potential removal. This dynamic restructuring spatiotemporally decouples NO 3 − adsorption and hydrogenation: the Co 3+ ‐rich phase captures NO 3 − , while the transient Co(OH) 2 activates water to supply active hydrogen for hydrogenation steps. This self‐adaptive process suppresses HER and ensures remarkable stability during 300 h of operation. The catalyst further demonstrates robust performance across diverse real wastewaters without supporting electrolytes and enables efficient NH 3 recovery. This work establishes dynamic phase engineering as a transformative design paradigm for adaptive electrocatalysts, paving the way for practical sustainable nitrogen management.",
   "authors": [
    "Li Xu",
@@ -121,20 +121,20 @@
   ],
   "cross": false,
   "date": "2026-04-02",
-  "doi": "10.1002/ange.9755292",
+  "doi": "10.1002/anie.9755292",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.9755292",
+  "id": "10.1002/anie.9755292",
   "kind": "journal",
   "origin": "回填",
   "score": 13,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "Dynamic Cobalt Phase Transition Enables Self‐Adaptive Electrocatalytic Nitrate‐to‐Ammonia Conversion in Neutral Media",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.9755292",
+  "url": "https://doi.org/10.1002/anie.9755292",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -427,43 +427,8 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
- "10.1007/s00248-026-02771-w": {
-  "abstract": "Abstract Biologically provided nitrogen (from diet or symbionts) is overwhelmingly vital to animal life on Earth. Biological nitrogen provisioning (BNP), mainly via nitrogen fixation and recycling, is a well-established function of the gut microbiomes of various terrestrial insects but remains less well-studied in freshwater insects. One possible route for BNP in freshwater insects is microbial nitrate reduction to ammonium (NRA), which produces the same intermediate metabolite, ammonium, as microbial nitrogen fixation in terrestrial insects. In this study, we characterized gut microbiome composition using 16S amplicon sequencing, followed by compound-specific stable isotope analyses (CSIA), to examine gut microbial NRA as a possible function in nymphs of the herbivorous, filter-feeding mayfly ( Hexagenia bilineata ) and the predatory dragonfly ( Tetragoneuria spinigera) . We first uncovered significant differences in microbiome community composition and elevated NRA potential in mayflies compared with dragonflies. We subsequently determined significantly greater 15 N-signatures across essential amino acids (δ 15 N EAA ) and non-essential amino acids (δ 15 N NEAAs ) in the herbivorous mayfly than the predatory dragonfly, after incubation in K 15 NO 3 for 5 days. This is interpreted as insect host uptake and incorporation of microbe-derived 15 NH 4 into amino acids following NRA. Taken together, the results presented here suggest that gut microbial NRA may be a potential mechanism for supplying biological nitrogen to freshwater insects, potentially helping alleviate nitrogen limitations. This work advances our understanding of freshwater insect host-gut microbe associations (nature and function) and the potential impacts of these associations on host and ecosystem processes.",
-  "authors": [
-   "Kiera Nelson",
-   "Nick Peterson",
-   "Rozlyn Olson",
-   "Hanna Castillo",
-   "Charles Antwi",
-   "Stephanie Cromwell",
-   "M. Eric Benbow",
-   "Paul Ayayee"
-  ],
-  "cross": false,
-  "date": "2026-04-18",
-  "doi": "10.1007/s00248-026-02771-w",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1007/s00248-026-02771-w",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 9,
-  "source": "Microbial Ecology",
-  "tier": "background",
-  "title": "Gut Microbial Nitrate Reduction to Ammonia: A Possible Pathway of Biological Nitrogen Provisioning in Freshwater Insects",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1007/s00248-026-02771-w",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "nitrogen fixation"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
- },
  "10.1007/s10598-026-09697-5": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "S. Rekhviashvili",
@@ -554,6 +519,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1007/s42768-026-00292-3": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Shengxuan Luo",
@@ -602,9 +568,9 @@
   "id": "10.1007/s42797-026-00140-x",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Safety in Extreme Environments",
-  "tier": "direct",
+  "tier": "background",
   "title": "Safety challenges and risk mitigation in ammonia production, storage, and transport under extreme environments",
   "top": false,
   "topics": [
@@ -620,6 +586,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1007/s42832-026-0429-0": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wei Hang",
@@ -672,9 +639,9 @@
   "id": "10.1007/s44211-026-00903-3",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Analytical Sciences",
-  "tier": "direct",
+  "tier": "background",
   "title": "Design of a green ammonia production process by machine learning",
   "top": false,
   "topics": [
@@ -761,6 +728,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.apcatb.2025.126083": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jacqueline Ngu",
@@ -794,6 +762,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.apcatb.2025.126092": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Shijie Zhang",
@@ -868,6 +837,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apmt.2026.103140": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jinling Li",
@@ -903,6 +873,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apsusc.2025.165638": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zhichao Yu",
@@ -951,9 +922,9 @@
   "id": "10.1016/j.apsusc.2025.165734",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Applied Surface Science",
-  "tier": "direct",
+  "tier": "background",
   "title": "Synergistic effect of curvature and coordination environment on the catalytic performance of single-atom catalysts for nitrogen reduction reaction",
   "top": false,
   "topics": [
@@ -969,6 +940,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apsusc.2026.165920": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Lihui Xiao",
@@ -1137,6 +1109,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及Fe/铁体系"
  },
  "10.1016/j.cej.2026.174947": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Pengcheng Deng",
@@ -1178,6 +1151,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.cej.2026.174964": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xinhao Zhang",
@@ -1216,6 +1190,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/j.cej.2026.175063": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Sergey Girshevich",
@@ -1283,6 +1258,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.ceramint.2026.02.093": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Junbo Xia",
@@ -1316,6 +1292,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.ceramint.2026.02.132": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Tia Maria Howayek",
@@ -1353,6 +1330,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/j.desal.2026.119919": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Tiantian Xu",
@@ -1393,6 +1371,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.electacta.2026.148358": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Soo Hwan Min",
@@ -1568,6 +1547,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1016/j.jallcom.2026.187631": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Qinshan Xie",
@@ -1710,6 +1690,7 @@
   "zh_obj": "光催化固氮"
  },
  "10.1016/j.jece.2026.121200": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Haris Ishaq",
@@ -1811,6 +1792,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.jpowsour.2026.239490": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xi Chen",
@@ -1847,6 +1829,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.matt.2026.102664": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yi Cheng",
@@ -1932,6 +1915,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.micrna.2026.208563": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Van Thanh Pham",
@@ -2055,9 +2039,9 @@
   "id": "10.1016/j.oneear.2026.101661",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "One Earth",
-  "tier": "direct",
+  "tier": "background",
   "title": "Toward sustainable and stable lithium-mediated ammonia synthesis",
   "top": false,
   "topics": [
@@ -2102,6 +2086,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.pnsc.2026.02.002": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jixing Liu",
@@ -2136,6 +2121,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.polymer.2026.129786": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Soheil Layazali",
@@ -2172,6 +2158,7 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料"
  },
  "10.1016/j.scitotenv.2026.181702": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Nian Liu",
@@ -2236,6 +2223,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.surfin.2026.108825": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Soojin Kim",
@@ -2270,6 +2258,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/s1872-2067(26)64983-2": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xuanbei Peng",
@@ -2311,6 +2300,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acs.chemmater.5c03380": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zachary C. Sobell",
@@ -2358,7 +2348,7 @@
   "id": "10.1021/acs.iecr.6c00312",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Industrial & Engineering Chemistry Research",
   "tier": "background",
   "title": "Rational Regulation of the Linkage Polarity in Imine-Linked Covalent Organic Frameworks for Efficient Photocatalytic Nitrogen Reduction to Ammonia",
@@ -2369,11 +2359,14 @@
   "url": "https://doi.org/10.1021/acs.iecr.6c00312",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Photocatalytic Nitrogen Reduction"
+  ],
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮"
  },
  "10.1021/acsaelm.5c02124": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yerim Choi",
@@ -2410,6 +2403,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acsaem.6c00329": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Alireza Sharifi Rad",
@@ -2446,7 +2440,8 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acsami.5c25914": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "The integration of ultrathin dielectrics on two-dimensional (2D) semiconductors is essential for advancing beyond-Si electronics. However, the intrinsic inertness of van der Waals 2D basal planes remains a primary bottleneck to achieving uniform dielectric nucleation and growth. Here, we introduce a small molecule inhibitor (SMI)-modulated thermal atomic layer deposition (ALD) strategy, exemplified by aluminum oxide (Al2O3) ALD on monolayer molybdenum disulfide (1L MoS2) with acetic acid (HAc) SMI. The ABC-type sequence comprises HAc inhibitor (A), trimethylaluminum (TMA) precursor (B), and deionized H2O coreactant (C). In situ quartz crystal microbalance (QCM) studies reveal robust HAc adsorption on Al2O3 and suppression of subsequent oxide growth on HAc-passivated surfaces. When applied to 1L MoS2, this inhibitory pathway enables HAc to selectively passivate nascent Al2O3 nuclei formed on the MoS2 surface, limiting their three-dimensional (3D) island coarsening and redirecting precursor adsorption toward the uncovered basal plane. Consequently, nearly continuous ultrathin (∼1.5 nm) Al2O3 films are achieved on 1L MoS2 with markedly improved uniformity compared to standard Al2O3 ALD using TMA and H2O, as validated by atomic force microscopy (AFM), cross-sectional scanning transmission electron microscopy (STEM), and energy-dispersive X-ray spectroscopy (EDS). Density functional theory (DFT) calculations further provide atomistic insight into HAc-modulated Al2O3 nucleation, corroborating the energetic preference of HAc for Al2O3 over MoS2 and attenuated TMA adsorption on HAc-passivated surfaces. Spatially resolved Raman spectroscopy also confirms that the HAc-modulated process preserves the structural integrity of 1L MoS2, with only minimal strain and doping perturbations observed after dielectric deposition. This SMI-modulated approach offers a broadly applicable framework for controlling ALD nucleation across various inhibitors, ALD chemistries, and 2D materials, opening opportunities for reliable dielectric integration in next-generation nanoelectronics.",
   "authors": [
    "Hwan Oh",
    "Qin Wu",
@@ -2479,7 +2474,8 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acsami.6c02154": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Rare-earth oxide-supported Ru metal catalysts are promising for NH3 synthesis owing to a strong metal-support interaction. Modifying rare-earth oxides with a second metal offers an effective approach to tuning support properties, while systematic support engineering to enhance NH3 synthesis performance remains scarce. In this work, a series of Ru/Ce1-aLaaOx catalysts with varying Ce-to-La molar ratios were synthesized and evaluated for NH3 synthesis. The NH3 synthesis rate of Ru/Ce1-aLaaOx exhibits a volcano relationship with an increase in the La content. The optimal Ru/Ce0.7La0.3Ox catalyst exhibits a remarkable NH3 synthesis rate of 34.13 mmolNH3 gcat-1 h-1 with over 500 h long-term stability at 400 °C and 1 MPa, which is 1.65-fold that of Ru/CeO2. Various characterizations reveal that La doping is beneficial to increase the charge density of Ru sites via facilitation of oxygen vacancy formation, which consequently ensures fast N2 cleavage. In addition, the La doping can avoid hydrogen poisoning more effectively through enhanced hydrogen spillover, which together with promoted N2 activation are responsible for high-performance NH3 synthesis over Ru/Ce0.7La0.3Ox catalyst under mild conditions.",
   "authors": [
    "Xiaohu Hu",
    "Linkun Chen",
@@ -2726,7 +2722,8 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1021/jacs.6c01425": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Catalytic efficiency can be generally enhanced by cultivating active atoms on a catalyst, while reaction channel manipulation is extremely challenging. Here, we employ a 2,5-pyrazinedicarboxylic acid (denoted as pdc) linker to construct a Cu5-pdc-Cu5 catalyst (that is, Cu5Cu5(TC4A)4(pdc)Cl2) by bridging two Cu5(TC4A)2Cl2 (TC4A = 4-tert-butylthiacalix[4]arene) clusters, and propose blocking only two active atoms on this catalyst to achieve exceptionally catalytic performance for ammonia synthesis. This unforeseen performance of the catalyst, which deviates from the pursuit of more active sites, arises from the mobility adjustment of the reaction species among adjacent active sites by dredging the jammed sites for water activation. The specially designed linker of the Cu5-pdc-Cu5 catalyst purposefully shields two sites for nitrate activation, thereby enabling three protons originating from water activation to react with nitrate awaited on the inverted contraposition of the two sites. Consequently, the reduction steps from nitrate to ammonia over the Cu5-pdc-Cu5 catalyst are minimized, naturally promoting the efficiency of ammonia production and outperforming other Cu-based catalysts reported. The blocking-active-site approach offers a novel conceptual perspective for designing high-performance catalysts.",
   "authors": [
    "Yiqi Tian",
    "Chenyang Shen",
@@ -2743,9 +2740,9 @@
   "id": "10.1021/jacs.6c01425",
   "kind": "journal",
   "origin": "回填",
-  "score": 32,
+  "score": 13,
   "source": "Journal of the American Chemical Society",
-  "tier": "direct",
+  "tier": "background",
   "title": "Elevating the Efficiency of Ammonia Synthesis by Dredging the Migration Hinges of Reactive Species",
   "top": true,
   "topics": [
@@ -3198,7 +3195,8 @@
   "zh_obj": "氨分解制氢；涉及Ru/钌体系"
  },
  "10.1039/d6re00038j": {
-  "abstract": "This paper presents a dual-OSDA approach for the ultrafast synthesis of AFX zeolite, addressing challenges in terms of cost and synthesis efficiency.",
+  "ab_try": "2026-10-29",
+  "abstract": "This paper presents a dual- OSDA approach for ultrafast synthesis of AFX zeolite, addressing challenges in terms of cost and synthesis efficiency. By partially replacing the expensive organic structure-directing agent,...",
   "authors": [
    "Y. Qin",
    "M. Takemoto",
@@ -3264,6 +3262,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1103/physics.19.s40": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Rachel Berkowitz"
@@ -3293,6 +3292,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1103/w9zg-y11n": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xinyan Zhang",
@@ -3430,7 +3430,8 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1360/csb-2025-6023": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "The exponential accumulation of anthropogenic plastic waste constitutes one of the most critical environmental challenges of the Anthropocene. With global plastic production exceeding 400 million tons annually and projected to double by 2050, the current recycling system remains critically insufficient. Traditional disposal methods, such as landfilling and incineration, exacerbate greenhouse gas emissions and micro-plastic pollution, while conventional mechanical recycling is severely constrained by polymer degradation and contaminants intolerance. Although chemical recycling offers a pathway to plastic upcycling, traditional thermochemical processes are often hindered by low energy efficiency, slow heat transfer, and poor product selectivity due to broad temperature gradients. In this context, flash Joule heating (FJH) has emerged as a transformative, electrification-based technology capable of valorizing mixed and contaminated plastic waste into high-performance carbon nanomaterials and chemical feedstocks. This review provides a comprehensive state-of-the-art analysis of the fundamental principles, reactor engineering, and diverse upcycling applications of FJH. Fundamentally, FJH distinguishes itself from conventional heating through direct electrical resistance, which enables ultra-high temperatures (>3000 K) and extreme heating and cooling rates (10 2 –10 4 K/s) within milliseconds. We elucidate the thermodynamic and kinetic principles underpinning this process, emphasizing how the FJH",
   "authors": [
    "Zhenyu Ren",
    "Fan Gao",
@@ -3477,9 +3478,9 @@
   "id": "10.15587/1729-4061.2026.359439",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Eastern-European Journal of Enterprise Technologies",
-  "tier": "direct",
+  "tier": "background",
   "title": "Identifying the operational characteristics of an ammonia synthesis column, taking into account changes in the operating parameters of the process plant",
   "top": false,
   "topics": [
@@ -3625,9 +3626,9 @@
   "id": "10.20527/k.v15i1.25112",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Konversi",
-  "tier": "direct",
+  "tier": "background",
   "title": "Process simulation of green ammonia production from oil palm frond (OPF) waste via gasification: a technical feasibility study",
   "top": false,
   "topics": [
@@ -3755,7 +3756,7 @@
   "id": "10.2139/ssrn.6521055",
   "kind": "preprint",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "SSRN",
   "tier": "background",
   "title": "Synergistic Effect of 2D/2D BiOBr/g-C3N4 for enhancing photoelectrochemical nitrogen reduction under ambient conditions",
@@ -4490,9 +4491,9 @@
   "id": "10.4043/36820-ms",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Offshore Technology Conference",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Fossil Fuel to Blue Sky Economics Technical and Commercial Evaluation of Blue Ammonia Systems",
   "top": false,
   "topics": [

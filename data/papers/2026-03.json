@@ -74,7 +74,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "制氨路线未明确；涉及碳材料"
  },
- "10.1002/ange.2543286": {
+ "10.1002/anie.2543286": {
   "abstract": "ABSTRACT Direct electrochemical conversion of nitrate to ammonia (NH 3 ) represents a sustainable route for NH 3 production while simultaneously mitigating nitrate pollution. Carbon nitrides (CNs) have emerged as promising supports for transition‐metal single‐atom catalysts due to their high nitrogen content and abundant coordination sites. However, conventional CNs generally suffer from poor electrical conductivity and difficulty in stabilizing high densities of atomically dispersed metal centers, which limits catalytic efficiency and selectivity in the nitrate reduction reaction. Herein, we overcome these limitations by constructing cobalt poly(heptazine imides) ( Co PHI), an ionic carbon nitride in which Co 2+ species are coordinated to negatively charged imide‐bridging nitrogen atoms. This coordination environment enables a high density of isolated Co active sites (1.092 wt.%) while enhancing charge transport through the PHI framework. As a result, Co PHI achieves a Faradaic efficiency of 93.5% and an NH 3 yield rate of 46.1 mg·h −1 ·mg cat. −1 at −0.8 V versus RHE, outperforming conventional Co─N─C and Co ─C 3 N 4 systems. Combined experimental and theoretical studies show that Co PHI promotes strong nitrate adsorption, facilitates water dissociation to supply protons, and stabilizes key intermediates, collectively enabling efficient and selective nitrate‐to‐ammonia conversion.",
   "authors": [
    "Nana Gao",
@@ -95,20 +95,20 @@
   ],
   "cross": false,
   "date": "2026-03-09",
-  "doi": "10.1002/ange.2543286",
+  "doi": "10.1002/anie.2543286",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.2543286",
+  "id": "10.1002/anie.2543286",
   "kind": "journal",
   "origin": "回填",
   "score": 10,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "Atomically Dispersed Cobalt on Ionic Carbon Nitrides for Selective and Efficient Nitrate Electroreduction to Ammonia",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.2543286",
+  "url": "https://doi.org/10.1002/anie.2543286",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -117,7 +117,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
- "10.1002/ange.7688164": {
+ "10.1002/anie.7688164": {
   "abstract": "ABSTRACT Copper‐based catalysts are widely regarded as promising candidates for electrocatalytic nitrate reduction (NO 3 RR), an environmentally benign route to ammonia synthesis, yet their efficiency is often constrained by nitrite accumulation and insufficient active hydrogen (*H) supply at high current densities. Here, isolated Cu atoms were anchored into a hollow Co 3 S 4 polyhedral framework (Cu‐Co 3 S 4 ), generating a sulfur bridged asymmetric active center. Electrochemical and computational studies reveal that Co 3 S 4 functions as an efficient *H donor, transferring hydrogen species to Cu sites through a sulfur bridge mediated reverse hydrogen spillover process, thereby accelerating the hydrogenation of nitrogen intermediates. By precisely tuning the Cu site density to balance nitrogen intermediate adsorption with *H supply, the optimized Cu 1.01wt% ‐Co 3 S 4 catalyst delivers an exceptional NH 3 yield rate of 94.52 mg h −1 mg cat. −1 (18.90 mg h −1 cm −2 ) and a Faradaic efficiency (FE) of 95.18% at −0.8 V vs reversible hydrogen electrode. The catalyst also exhibits remarkable durability over 300 h at −200 mA cm −2 and performs effectively in zinc‐nitrate batteries. These findings highlight the importance of coupling intermediate activation with hydrogenation kinetics and provide guiding principles for the rational design of high efficiency NO 3 RR electrocatalysts.",
   "authors": [
    "Ruonan Li",
@@ -128,20 +128,20 @@
   ],
   "cross": false,
   "date": "2026-03-18",
-  "doi": "10.1002/ange.7688164",
+  "doi": "10.1002/anie.7688164",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.7688164",
+  "id": "10.1002/anie.7688164",
   "kind": "journal",
   "origin": "回填",
   "score": 13,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "Sulfur‐Bridge Engineering Enables Reverse Hydrogen Spillover to Atomic Cu for Nitrate‐to‐Ammonia Electrocatalysis",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.7688164",
+  "url": "https://doi.org/10.1002/anie.7688164",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -526,6 +526,7 @@
   "zh_obj": "氨硼烷水解；涉及Ru/钌体系"
  },
  "10.1007/s11664-026-12745-w": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Dhammika Rathnayaka",
@@ -600,6 +601,7 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积"
  },
  "10.1016/j.apcatb.2025.125981": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xuanbei Peng",
@@ -743,7 +745,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.biortech.2026.133950": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Nitrate pollution and mounting textile/biomass waste are coupled environmental challenges. This study assesses a flash Joule heating-induced (FJHI) route that converts ball-milled wool/biomass blends into sulfur-doped flash biochar (S@FB) using a layered \"biochar-boat/feed\" assembly under vacuum. Millisecond pulses (∼3200 °C) drive ultrafast carbonization and in-situ S incorporation, yielding an amorphous, defect-rich, microporous carbon with ∼2-4 nm mesopores and uniformly embedded S/O functionalities. Compared with undoped FB, S@FB shows ∼35 % higher electrochemically active surface area (7.10 vs 5.26 mF cm-2) despite lower BET area. In 1 M KOH + 0.1 M KNO3, S@FB delivers -110 mA cm-2 at -1.0 V vs RHE, achieves a peak Faradaic efficiency of 90.7 % at -0.63 V, and reaches an NH3 production rate of 259.41 μmol h-1 cm-2 at -0.93 V; 15N labeling confirms NO3- as the sole N source. In-situ Raman (-0.33 to -0.73 V) shows no irreversible changes, and 22 h chronoamperometry retains >95 % current with FE (88-93 %). Density-functional theory attributes the activity gain to S-induced local polarization and covalent SN interaction that stabilizes *NOH and lowers the *NO → *NOH barrier (1.512 → 1.148 eV). FJHI thus offers a rapid, waste-agnostic route to stable, metal-free NO3RR catalysts.",
   "authors": [
    "Xin Chen",
    "Zhaoyu Wang",
@@ -771,7 +774,7 @@
   "id": "10.1016/j.biortech.2026.133950",
   "kind": "journal",
   "origin": "回填",
-  "score": 21,
+  "score": 18,
   "source": "Bioresource Technology",
   "tier": "transferable",
   "title": "Flash joule heating-induced synthesis of biowaste-derived metal-free catalysts for nitrate reduction reaction",
@@ -784,11 +787,11 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction",
+   "NH3 production",
    "joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料"
  },
  "10.1016/j.cattod.2025.115608": {
   "abstract": "",
@@ -823,6 +826,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.cattod.2025.115609": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Sol Ahn",
@@ -854,6 +858,7 @@
   "zh_obj": "甲烷干重整；涉及原子层沉积"
  },
  "10.1016/j.cattod.2025.115611": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wojciech Patkowski",
@@ -893,6 +898,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cattod.2025.115613": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Aida Younis",
@@ -958,6 +964,7 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1016/j.cclet.2026.112578": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Liqiong Zhang",
@@ -1160,6 +1167,7 @@
   "zh_obj": "过程待核实；涉及Ru/钌体系"
  },
  "10.1016/j.cherd.2026.02.022": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Vladimir P. Zhdanov"
@@ -1189,6 +1197,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.diamond.2026.113408": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Chao Gu",
@@ -1220,6 +1229,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.ecoleng.2025.107888": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Weili Duan",
@@ -1282,6 +1292,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.electacta.2026.148256": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jhonatan Rodriguez-Pereira",
@@ -1336,9 +1347,9 @@
   "id": "10.1016/j.energy.2026.140471",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Robust planning with multiple timescale dynamic adaptability for the green hydrogen ammonia synthesis system",
   "top": false,
   "topics": [
@@ -1354,6 +1365,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ensm.2026.104929": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Fenqiang Luo",
@@ -1390,6 +1402,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.ensm.2026.104956": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "D.R. Lan",
@@ -1430,6 +1443,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.fuel.2025.137663": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Huanying Chi",
@@ -1470,6 +1484,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.fuel.2025.137711": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Feiyue Guan",
@@ -1598,6 +1613,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ijhydene.2026.154018": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Onder Kizilkan",
@@ -1628,6 +1644,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ijhydene.2026.154065": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Rong Ma",
@@ -1668,6 +1685,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.jallcom.2026.186678": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Guo-Feng Qiu",
@@ -1842,6 +1860,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.jwpe.2026.109729": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yueping Ren",
@@ -1876,6 +1895,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.matdes.2026.115640": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Anastasiia Efremova",
@@ -1913,6 +1933,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/j.matlet.2025.139876": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xin Yan",
@@ -1987,6 +2008,7 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.mcat.2026.115768": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Mostafa El-Shafie"
@@ -2016,6 +2038,7 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系"
  },
  "10.1016/j.micromeso.2025.114019": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jiahang Fan",
@@ -2054,6 +2077,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.mssp.2025.110283": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Hongfei Chen",
@@ -2161,6 +2185,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1016/j.mtnano.2026.100761": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Lu Wang",
@@ -2264,6 +2289,7 @@
   "zh_obj": "等离子体制氨；涉及Ru/钌体系"
  },
  "10.1016/j.seta.2026.104894": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Lauren Oleksy",
@@ -2295,6 +2321,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acs.chemmater.5c03255": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jae Hun Hwang",
@@ -2416,7 +2443,7 @@
   "id": "10.1021/acs.langmuir.6c00006",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Langmuir",
   "tier": "background",
   "title": "Computational Screening and Mechanistic Study of Transition Metal Single Atoms on WS 2 for Electrocatalytic Nitrogen Reduction to Ammonia",
@@ -2427,7 +2454,9 @@
   "url": "https://doi.org/10.1021/acs.langmuir.6c00006",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Electrocatalytic Nitrogen Reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -2448,9 +2477,9 @@
   "id": "10.1021/acs.organomet.5c00492",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Organometallics",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Synthesis of Cobaltocenes Bearing 4-(2,6-Dimethylpyridin-1-ium-4-yl)phenyl Moiety and Their Stoichiometric and Catalytic Reactivity toward Ammonia Formation",
   "top": false,
   "topics": [
@@ -2533,7 +2562,8 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1021/acsnano.5c22728": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Developing a controlled, defect-free, and spatially selective deposition of molecular and hybrid thin films on 2D materials remains a key challenge for their integration into multifunctional optoelectronic systems due to their surface inertness. Here, we demonstrate area-selective atomic/molecular layer deposition of europium-organic (Eu-BDC) thin films on graphene utilizing direct femtosecond laser two-photon oxidation. The laser dose defines the density of nucleation sites and precisely controls Eu-BDC film thickness and uniformity. By optimizing the deposition parameters and carefully choosing a transfer polymer, we achieve over 90% selectivity and high film homogeneity in the activated areas with submicron resolution. Upon 532 nm excitation, graphene/Eu-BDC exhibits strong emission at 612 nm with additional lines at 579, 592, and 652 nm. It also shows a green band at ∼566 nm, which is not observed on Si/SiO2. Photoluminescence quenching on graphene shortens lifetimes due to energy and charge transfer at the graphene/Eu-organic interface. Moreover, the Eu-organic layer lowers the graphene work function and shifts the Dirac point, indicating a controllable n-type doping. The same laser modification strategy is also demonstrated on other 2D materials, as shown for MoS2 and WS2. This resist-free approach enables area-selective growth on 2D surfaces with tunable optical and electronic properties, providing compact integration of patterned emitters and photodetectors on a single chip.",
   "authors": [
    "Aleksei V. Emelianov",
    "Kamila K. Mentel",
@@ -2612,7 +2642,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/jacs.6c01112": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Developing catalysts for ammonia synthesis under mild conditions is of paramount importance but remains a grand challenge, primarily due to the trade-off between efficient dinitrogen activation and hydrogen poisoning. Nitride-supported metal catalysts exhibit remarkably low-temperature activity, yet the atomic origin of their synergy remains a subject of intense debate. Building on our recently established generalized theories of strong metal-metal interaction (SMMI) and encapsulation, we combine ab initio atomistic thermodynamics and machine-learning potential-driven molecular dynamics simulations to systematically construct a unified mechanistic framework for these highly active systems. Using lanthanum nitride (LaN)-supported cobalt (Co) nanoparticles as a prototypical model, we reveal that, driven by SMMI and facilitated by nitrogen vacancies, the nitride support spontaneously restructures to encapsulate metal nanoparticles via the formation of subnitride overlayers. This thermodynamically stable encapsulated architecture constructs contiguous perimeter sites─involving both low-valent La cations and electron-rich cobalt metal─that fundamentally alter the catalytic landscape, while intrinsically securing the antisintering stability of small Co nanoparticles. First-principles calculations reveal that these perimeter sites cooperatively facilitate N2 activation while simultaneously suppressing H-poisoning. Consequently, microkinetic simulations yield an apparent activation energy of 50 kJ mol-1, in good agreement with experimental values. By naturally accounting for a diverse array of experimental observations, this work establishes SMMI-driven encapsulation as a robust physical framework for understanding and designing nitride-based catalysts for ammonia synthesis under mild conditions.",
   "authors": [
    "Jie Luo",
    "Junyi Yang",
@@ -2659,9 +2690,9 @@
   "id": "10.1021/prechem.5c00284",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Precision Chemistry",
-  "tier": "direct",
+  "tier": "background",
   "title": "BSr3 Superalkali as a Promising Catalyst for Ambient Nitrogen Reduction: A Pathway toward Efficient Ammonia Synthesis",
   "top": false,
   "topics": [
@@ -2793,6 +2824,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1038/s44160-026-01013-8": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wen-Qian Li",
@@ -2842,6 +2874,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1038/s44160-026-01026-3": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wei Liu",
@@ -2985,7 +3018,8 @@
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积"
  },
  "10.1039/d6cc00201c": {
-  "abstract": "A millisecond-resolved flash-pulse heating strategy generates densely dispersed CoNiO x nanoclusters on gel-derived carbon.",
+  "ab_try": "2026-10-29",
+  "abstract": "A millisecond-resolved flash-pulse heating strategy generates densely dispersed CoNiOx nanoclusters on gel-derived carbon. CoNiOx (Ni/Co = 4 : 1) delivers 88.9% H2O2 selectivity in neutral electrolyte, which is attributed to a maximum H2O2 production rate of 1.40 mol h-1 g-1 in a gas-diffusion flow cell, as supported by regulated *OOH adsorption on Ni-Co-O sites.",
   "authors": [
    "Siyi Lin",
    "Xiaotong Liu",
@@ -3314,7 +3348,8 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1109/icaim69488.2026.11601494": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "With the rapid development of electronic information and military stealth technologies, electromagnetic interference and pollution have become increasingly critical, creating an urgent need for nextgeneration high-performance microwave absorbers. However, conventional carbon-based absorbers exhibit limited loss mechanisms, while magnetic metal nanoparticles suffer from agglomeration, oxidation, and high density. To overcome these limitations, an ultrafast synthesis strategy assisted by urea gas expansion and Joule heating is proposed. Gas expansion induced by urea pyrolysis ensures the homogeneous dispersion of CoFe alloy precursors within the phenolic resin matrix. Subsequently, the instantaneous high temperature generated by Joule heating enables rapid nucleation, leading to the formation of uniformly distributed CoFe nanocrystals with strong interfacial coupling to the porous carbon matrix (CF-C). The CF-C composite achieves full absorption in the $\\mathbf{X}$ band, offering a promising route toward high-performance microwave absorbers.",
   "authors": [
    "Jie Huang",
    "Liuying Wang",
@@ -3328,9 +3363,9 @@
   "id": "10.1109/icaim69488.2026.11601494",
   "kind": "journal",
   "origin": "回填",
-  "score": 18,
+  "score": 6,
   "source": "2026 International Conference on Artificial Intelligence and Materials (ICAIM)",
-  "tier": "transferable",
+  "tier": "background",
   "title": "Ultrafast Joule–Heating-Enabled Fabrication of CoFe/Porous Carbon Composites for Uniform Nanocrystal Dispersion and Efficient Electromagnetic Wave Absorption",
   "top": false,
   "topics": [
@@ -3343,10 +3378,11 @@
    "Joule-Heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "其他催化反应"
  },
  "10.1109/led.2026.3653018": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "The blue light spectrum (415–455 nm) penetrates the ocular media to the retina and causes damage to photoreceptor cells, however artificial visual nociceptors specifically responsive to harmful blue light are rarely reported. In this letter, an optoelectronic artificial synapse based on Pd nanoparticles (NPs) in-situ embedded in 20 nm-thick TiO2 thin film was constructed via atomic layer deposition (ALD). Precise energy band matching enables efficient photo-generated carrier separation and directional transport under blue/green light, leading to enhanced wavelength-selective photoresponse for harmful blue light-responsive visual nociceptors. Furthermore, some key bio-synaptic functions could be also realized in this device with low electrical energy consumption of ~56 fJ per spike. ALD-derived optoelectronic synapse directly couples environmental stimulus perception and injury recognition, paving a competitive avenue for next-generation neuromorphic vision sensors and low-power wearable health-monitoring devices due to its scalable manufacturing capability.",
   "authors": [
    "Song Sun",
    "Shuai Zhang",
@@ -3376,7 +3412,7 @@
    "Atomic Layer Deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1116/6.0005244": {
   "abstract": "In molecular layer deposition (MLD), the growth per cycle (GPC) depends on process conditions with no well-defined temperature window. During MLD of polyurea using toluene diisocyanate (TDIC) and ethylendiamine (ED) as MLD precursors, the GPC decreased with deposition temperature from 0.22 nm at 0 °C to 0.022 nm at 45 °C. While we observed the reaction of toluene diisocyanate with the underlying SiO2 at 45 °C, at 22 °C, in situ infrared spectroscopy indicates that the MLD film is not anchored to the substrate via covalent bonds. TDIC and ED displayed different temperature-dependent interactions with the growing polyurea film during MLD. Specifically, at lower temperatures, ED was more likely to be added to the film via physisorption, and as a consequence, TDIC was more likely to double react with both its functional groups to –NH2 sites within the film. While the lower GPC at higher temperature is driven predominantly by a decrease in ED physisorption, the rate of TDIC double reaction must also decrease due to the lower density of available reactive sites. As a result, at higher temperatures, both ED physisorption and TDIC double reactions are suppressed, and the ratio of polyurea linkages formed in each half-cycle was closer to unity. While the GPC was the highest at 0 °C, we also show that the films deposited at a lower temperature were unstable in both vacuum and the ambient and showed up to ∼15% decrease in thickness, most likely due to the desorption of physisorbed precursor molecules.",
@@ -3412,6 +3448,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1627/jpi.69.99": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yuichi MANAKA",
@@ -4029,6 +4066,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.48158/mecce-16.t2-o-49": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Andrés Alberto García Blanco",
@@ -4108,7 +4146,7 @@
   "id": "10.53941/see.2026.100001",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Science for Energy and Environment",
   "tier": "background",
   "title": "Electrochemical N2 Conversion: Reduction and Oxidation Pathways under Mild Conditions",

@@ -615,7 +615,8 @@
   "zh_obj": "生物固氮（非气相热催化）"
  },
  "10.1007/s11814-024-00035-2": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Ru is extensively used in electrical and energy applications because of its high electrical conductivity and catalytic activity. This study reports the H2 plasma-enhanced atomic layer deposition (PEALD) of Ru thin films using a novel carbonyl cyclohexadiene ruthenium precursor. The optimized process conditions for depositing Ru thin films by PEALD were established based on the growth per cycle (GPC), chemical formation, crystallinity, conformality, and resistivity, according to process parameters such as precursor pulse time, H2 plasma pulse time, purge time, and deposition temperature. Pure Ru thin films (low carbon and oxygen) were deposited with low resistivity (30.8 μΩ cm) and showed high conformality (> 95%) on the Si trenches. The oxidant-free PEALD Ru process reported in this study may have implications on the fabrication of high-quality interfaces between Ru and easily-oxidized substrates.",
   "authors": [
    "Geonwoo Park",
    "Keunhoi Kim",
@@ -834,7 +835,7 @@
   "id": "10.1016/j.apcatb.2023.123299",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Applied Catalysis B: Environmental",
   "tier": "background",
   "title": "Porous TiWO3/SrWO4 with high titanium molar ratio for efficient photoelectrocatalytic nitrogen reduction under mild conditions",
@@ -845,7 +846,9 @@
   "url": "https://doi.org/10.1016/j.apcatb.2023.123299",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "electrocatalytic nitrogen reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -885,6 +888,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.carbon.2024.118826": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Siyoung Byun",
@@ -954,6 +958,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.cej.2023.147988": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Shu Dong",
@@ -1054,6 +1059,7 @@
   "zh_obj": "电化学亚硝酸盐还原"
  },
  "10.1016/j.cej.2024.148811": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yanxu Wang",
@@ -1085,6 +1091,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.colsurfa.2023.132900": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Qiang Li",
@@ -1248,6 +1255,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.fuel.2023.129858": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Emre Kucuk",
@@ -1471,6 +1479,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ijhydene.2023.12.162": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xueyu Wei",
@@ -1507,6 +1516,7 @@
   "zh_obj": "析氢反应"
  },
  "10.1016/j.jcou.2024.102699": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wojciech Patkowski",
@@ -1544,6 +1554,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.mcat.2024.113841": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Qihang Li",
@@ -1596,7 +1607,7 @@
   "id": "10.1016/j.mcat.2024.113879",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Molecular Catalysis",
   "tier": "background",
   "title": "First-principles screening of Cu-based single-atom alloys for highly efficient electrocatalytic nitrogen reduction",
@@ -1607,11 +1618,14 @@
   "url": "https://doi.org/10.1016/j.mcat.2024.113879",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "electrocatalytic nitrogen reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.mseb.2023.117085": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Bao Lin",
@@ -1715,6 +1729,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.seppur.2023.125393": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zehui Zhao",
@@ -1748,6 +1763,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.vacuum.2023.112843": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jaehwan Lee",
@@ -2051,6 +2067,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1021/acscatal.3c05989": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Alexander Adogwa",
@@ -2307,9 +2324,9 @@
   "id": "10.1039/d3ta06666e",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Journal of Materials Chemistry A",
-  "tier": "direct",
+  "tier": "background",
   "title": "A Mo–salicylaldehyde-linker (Mo–Tp) based 2D MOF as a single-atom catalyst for the nitrogen reduction reaction",
   "top": false,
   "topics": [
@@ -2360,7 +2377,8 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1080/1536383x.2024.2312164": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "In this study, a novel BiOCl/g-C3N4 heterojunction photocatalyst was successfully prepared. The resulting BiOCl/g-C3N4 catalyst can degrade NH3 effectively to N2 under visible-light irradiation. We used BiOCl-modified g-C3N4 nanoparticles to improve the activity of photochemically produced oxygen species. Photocurrent showed excellent photocatalysis performance of BiOCl/g-C3N4. The deposition of BiOCl resulted in a fatal decrease in the surface part and pore volume of the BiOCl/g-C3N4 samples. It was found that the photocurrent density increased with g-C3N4. Experimental results indicate that heterogeneous catalysts achieved 89.7 % degradation under visible light irradiation. The NH3 degradation product was N2 and neither NO2− nor NO3− were detected.",
   "authors": [
    "Qingqing Yao",
    "Kai Chen",
@@ -2373,9 +2391,9 @@
   "id": "10.1080/1536383x.2024.2312164",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Fullerenes, Nanotubes and Carbon Nanostructures",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Direct Z-scheme photocatalytic removal of ammonia via the narrow band gap BiOCl/g-C 3 N 4 hybrid catalyst upon visible light irradiation",
   "top": false,
   "topics": [
@@ -2386,7 +2404,7 @@
   "watch": [],
   "why": [],
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "光催化固氮"
  },
  "10.1107/s1600576723011020": {
   "abstract": "In situ X-ray scattering provides valuable insights into the mechanisms and kinetics of reactions and structural transformations. For reactions and structural transformations primarily driven by temperature, and not coupled to chemical/electrochemical triggers, our ability to initiate and quench processes thermally is a practical limit for probing fast reactive phenomena. Meaningful quantitative analysis requires the dynamic phenomena to be triggered on fast time scales relative to the reaction/transformation kinetics. This article describes a new sample furnace, the Rapid-Actuating Pneumatic Thermal Reactor or RAPTR, for time-resolved in situ X-ray scattering studies initiated by temperature. The RAPTR quickly heats and cools samples by translating them into and out of a pre-heated hot zone. Using diffraction thermometry, it is shown that the samples can be heated/cooled in 10 s or less, with temperatures up to ∼1000°C being accessible. The application of the RAPTR furnace is demonstrated by exploring a fast solid-state reaction: the synthesis of scheelite-type lead tungstate, PbWO 4 , from PbO and WO 3 for which Pb 3 WO 6 is identified as a previously unrecognized reaction intermediate.",
@@ -2528,6 +2546,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.15541/jim20230433": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Honglan LI",
@@ -2644,9 +2663,9 @@
   "id": "10.21203/rs.3.rs-3779506/v1",
   "kind": "preprint",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Research Square",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Boosting the cost competitiveness of low-carbon ammonia by expanding emission trading system coverage in China",
   "top": false,
   "topics": [
@@ -2698,6 +2717,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.2139/ssrn.4725676": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Luxuan Wang",
@@ -2733,6 +2753,7 @@
   "zh_obj": "其他催化反应"
  },
  "10.2139/ssrn.4728402": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wei Bi",
@@ -2765,6 +2786,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.2139/ssrn.4740109": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xianyong Guo",
@@ -2829,6 +2851,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.2139/ssrn.4743770": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Tanabat Promjun",

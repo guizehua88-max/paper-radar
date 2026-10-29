@@ -108,7 +108,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "氨分解制氢"
  },
- "10.1002/ange.202405746": {
+ "10.1002/anie.202405746": {
   "abstract": "Abstract Developing stable electrocatalysts with accessible isolated sites is desirable but highly challenging due to metal agglomeration and low surface stability of host materials. Here we report a general approach for synthesis of single‐site Fe electrocatalysts by integrating a solvated Fe complex in conductive macroporous organic networks through redox‐active coordination linkages. Electrochemical activation of the electrode exposes high‐density coordinately unsaturated Fe sites for efficient adsorption and conversion of reaction substrates such as NO 3 − and H 2 O. Using the electrode with isolated active Fe sites, electrocatalytic NO 3 − reduction and H 2 O oxidation can be coupled in a single cell to produce NH 3 and O 2 at Faradaic efficiencies of 97 % and 100 %, respectively. The electrode exhibits excellent robustness in electrocatalysis for 200 hours with small decrease in catalytic efficiencies. Both the maximized Fe‐site efficiency and the microscopic localization effect of the conductive organic matrix contribute to the high catalytic performances, which provides new understandings in tuning the efficiencies of metal catalysts for high‐performance electrocatalytic cells.",
   "authors": [
    "Mengjie Li",
@@ -118,20 +118,20 @@
   ],
   "cross": false,
   "date": "2024-06-07",
-  "doi": "10.1002/ange.202405746",
+  "doi": "10.1002/anie.202405746",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.202405746",
+  "id": "10.1002/anie.202405746",
   "kind": "journal",
   "origin": "回填",
   "score": 13,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "Molecular Wiring of Electrocatalytic Nitrate reduction to Ammonia and Water Oxidation by Iron‐Coordinated Macroporous Conductive Networks",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.202405746",
+  "url": "https://doi.org/10.1002/anie.202405746",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -140,7 +140,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
- "10.1002/ange.202406441": {
+ "10.1002/anie.202406441": {
   "abstract": "Abstract Transition‐metal carbides with metallic properties have been extensively used as electrocatalysts due to their excellent conductivity and unique electronic structures. Herein, NbC nanoparticles decorated carbon nanofibers (NbC@CNFs) are proposed as an efficient and robust catalyst for electrochemical synthesis of ammonia from nitrate/nitrite reduction, which achieves a high Faradaic efficiency (FE) of 94.4 % and a large ammonia yield of 30.9 mg h −1 mg −1 cat. . In situ electrochemical tests reveal the nitrite reduction at the catalyst surface follows the *NO pathway and theoretical calculations reveal the formation of NbC@CNFs heterostructure significantly broadens density of states nearby the Fermi energy. Finite element simulations unveil that the current and electric field converge on the NbC nanoparticles along the fiber, suggesting the dispersed carbides are highly active for nitrite reduction.",
   "authors": [
    "Zhihao Zhang",
@@ -155,20 +155,20 @@
   ],
   "cross": false,
   "date": "2024-06-19",
-  "doi": "10.1002/ange.202406441",
+  "doi": "10.1002/anie.202406441",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.202406441",
+  "id": "10.1002/anie.202406441",
   "kind": "journal",
   "origin": "回填",
   "score": 13,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "NbC Nanoparticles Decorated Carbon Nanofibers as Highly Active and Robust Heterostructural Electrocatalysts for Ammonia Synthesis",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.202406441",
+  "url": "https://doi.org/10.1002/anie.202406441",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -380,6 +380,7 @@
   "zh_obj": "电化学亚硝酸盐还原；涉及Ru/钌体系"
  },
  "10.1007/s11356-024-33891-w": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Huining Zhang",
@@ -532,7 +533,7 @@
   "id": "10.1007/s12598-024-02729-2",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Rare Metals",
   "tier": "background",
   "title": "Promoting electrocatalytic nitrogen reduction to ammonia via dopant boron on two‐dimensional materials",
@@ -550,6 +551,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.apcatb.2024.123725": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Shih-Yuan Chen",
@@ -632,6 +634,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apcatb.2024.123795": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Huiying Yang",
@@ -733,6 +736,7 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.apsusc.2024.159827": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yongfeng Li",
@@ -764,7 +768,8 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.biortech.2024.130844": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "In this study, a novel magnetic Ni-Fe2O3-C catalyst combined with electromagnetic induction heating in bioamass steam gasification was proposed to enhance H2 production. Better catalytic performance for H2 production was observed with the Ni-Fe2O3-C catalyst under induction heating, resulting in an increase in H2 yield from 735.1 to 2271.2 mL/g-biomass (a 209.1 % enhancement). SEM, TGA and XRD analysis demonstrated a significant decrease in coking deposition, caking, and particle agglomeration of the Ni-Fe2O3-C catalyst under induction heating, while maintaining more active sites. Importantly, the benefits of induction heating were also applicable to different magnetic catalysts like Ni-Al2O3-C, Ni-ZrO2-C, and Ni-MgO-C. Experimental results revealed a logarithmic correlation between the increase in H2 yields due to induction heating and the magnetic saturation (Ms) of the catalysts. The Ni-Fe2O3-C catalyst, with a high Ms of 50.9 emu/g, showed the highest catalytic activity for H2 production under induction heating in this study.",
   "authors": [
    "Long Wu",
    "Zhijun Yan",
@@ -797,6 +802,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.cartre.2024.100348": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Simon Hettler",
@@ -827,6 +833,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.cattod.2024.114723": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Laura Valenzuela",
@@ -858,6 +865,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cattod.2024.114767": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wangjun Shi",
@@ -961,6 +969,7 @@
   "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系"
  },
  "10.1016/j.ceramint.2024.03.244": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Qianshan Xia",
@@ -998,6 +1007,7 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积"
  },
  "10.1016/j.ces.2024.120021": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xuanbei Peng",
@@ -1055,9 +1065,9 @@
   "id": "10.1016/j.chempr.2024.04.015",
   "kind": "journal",
   "origin": "回填",
-  "score": 32,
+  "score": 13,
   "source": "Chem",
-  "tier": "direct",
+  "tier": "background",
   "title": "Solvent engineering enables long-term continuous lithium-mediated ammonia synthesis",
   "top": true,
   "topics": [
@@ -1165,6 +1175,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.enconman.2024.118488": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Liangrui Lin",
@@ -1251,9 +1262,9 @@
   "id": "10.1016/j.ijhydene.2024.05.022",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "International Journal of Hydrogen Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Unlocking potential in renewable energy curtailment for green ammonia production",
   "top": false,
   "topics": [
@@ -1304,6 +1315,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ijhydene.2024.05.176": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jin-Jian Pan",
@@ -1411,6 +1423,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.jallcom.2024.174446": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Chengxiang Li",
@@ -1445,6 +1458,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.jcat.2024.115530": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kyungho Lee",
@@ -1662,6 +1676,7 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1016/j.joule.2024.05.017": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Rong Yang",
@@ -1815,9 +1830,9 @@
   "id": "10.1016/j.renene.2024.120487",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Renewable Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Thermo-economic analysis of an innovative multi-generation system based on ammonia synthesis",
   "top": false,
   "topics": [
@@ -1833,6 +1848,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.seppur.2024.126356": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wenting Zhou",
@@ -2007,9 +2023,9 @@
   "id": "10.1021/acs.iecr.4c00340",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Industrial & Engineering Chemistry Research",
-  "tier": "direct",
+  "tier": "background",
   "title": "Learning-Based Model Reduction and Predictive Control of an Ammonia Synthesis Process",
   "top": false,
   "topics": [
@@ -2025,6 +2041,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acs.jpcc.4c01512": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yanwei Wen",
@@ -2061,6 +2078,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acs.jpcc.4c02655": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Feiyang Tian",
@@ -2114,9 +2132,9 @@
   "id": "10.1021/acs.jpclett.4c01328",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "The Journal of Physical Chemistry Letters",
-  "tier": "direct",
+  "tier": "background",
   "title": "Cu(N 2 )-Li Battery for Ammonia Synthesis",
   "top": false,
   "topics": [
@@ -2183,7 +2201,7 @@
   "id": "10.1021/acsami.4c01096",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "ACS Applied Materials & Interfaces",
   "tier": "background",
   "title": "Controllable Construction of a Mo 2 C/MoO 2 Interface with an Ideal Mo 2 C/MoO 2 Ratio for Efficient Electrocatalytic Nitrogen Reduction to Ammonia",
@@ -2194,12 +2212,15 @@
   "url": "https://doi.org/10.1021/acsami.4c01096",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Electrocatalytic Nitrogen Reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
  "10.1021/acsami.4c06105": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Metal single-site catalysts have recently played an essential role in catalysis due to their enhanced activity, selectivity, and precise reaction control compared to those of conventional metal cluster catalysts. However, the rational design and catalytic application of metal single-site catalysts are still in the early stages of development. In this contribution, we report the rational design of Fe single sites incorporated in a hierarchical ZSM-5 via atomic layer deposition (ALD). The designer catalysts demonstrated highly dispersed Fe species, predominantly stabilized by oxygen atoms in the zeolite framework at terminal, isolated, and vicinal silanol groups within the micropores and external surfaces of the zeolite. The successful incorporation of highly thermally stable and uniform Fe single sites into hierarchical zeolite through ALD represents a significant advancement in few-walled carbon nanotube production. The inner and outer diameters of produced CNTs are approximately 4.4 ± 2.4 and 8.6 ± 1.8 nm, respectively, notably smaller than those produced via traditional impregnated catalysts. This example emphasizes the concept of rational design of a single Fe site dispersed on a hierarchical ZSM-5 surface, which is anticipated to be a promising catalyst for advancing catalytic applications.",
   "authors": [
    "Peeranat Chaipornchalerm",
    "Watinee Nunthakitgoson",
@@ -2231,10 +2252,11 @@
    "Atomic Layer Deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及Fe/铁体系、碳材料、原子层沉积"
+  "zh_obj": "通用催化方法；涉及Fe/铁体系、碳材料、原子层沉积"
  },
  "10.1021/acscatal.4c01445": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Molybdenum sulfides (MoSx) in both crystalline and amorphous forms are promising earth-abundant electrocatalysts for hydrogen evolution reaction (HER) in acid. Plasma-enhanced atomic layer deposition was used to prepare thin films of both amorphous MoSx with adjustable S/Mo ratio (2.8–4.7) and crystalline MoS2 with tailored crystallinity, morphology, and electrical properties. All the amorphous MoSx films transform into highly HER-active amorphous MoS2 (overpotential 210–250 mV at 10 mA/cm2 in 0.5 M H2SO4) after electrochemical activation at approximately −0.3 V vs reversible hydrogen electrode. However, the initial film stoichiometry affects the structure and consequently the HER activity and stability. The material changes occurring during activation are studied using ex situ and quasi in situ X-ray photoelectron spectroscopy. Possible structures of as-deposited and activated catalysts are proposed. In contrast to amorphous MoSx, no changes in the structure of crystalline MoS2 catalysts are observed. The overpotentials of the crystalline films range from 300 to 520 mV at 10 mA/cm2, being the lowest for the most defective catalysts. This work provides a practical method for deposition of tailored MoSx HER electrocatalysts as well as new insights into their activity and structure.",
   "authors": [
    "Miika Mattinen",
    "Wei Chen",
@@ -2265,7 +2287,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "析氢反应；涉及原子层沉积"
  },
  "10.1021/acscatal.4c02313": {
@@ -2301,6 +2323,7 @@
   "zh_obj": "氨分解制氢；涉及Ru/钌体系"
  },
  "10.1021/acscatal.4c02690": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jiujun Deng",
@@ -2338,7 +2361,8 @@
   "zh_obj": "其他催化反应"
  },
  "10.1021/acssuschemeng.4c02464": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Concentrating solar power systems are crucial for capturing solar energy. However, the intermittent nature of sunlight necessitates effective energy storage solutions. Ammonia-based thermochemical energy storage systems have emerged as a promising option, utilizing solar energy to dissociate ammonia into hydrogen and nitrogen gas. This gaseous mixture is then employed for exothermic ammonia synthesis, releasing energy for a continuous thermal power cycle. This study focuses on the optimal design of a novel ammonia synthesis process, which uses absorption for ammonia separation instead of condensation, for solar thermochemical energy recovery. A comprehensive first-principles model of the system, encompassing ammonia synthesis and absorption, heat exchange, and gas compression and storage, was developed. An optimization problem was formulated considering standard materials and design constraints, and a nested optimization/simulation approach was employed to integrate transient absorption behavior with steady-state design. The results provide optimal dimensions and operating",
   "authors": [
    "Oswaldo Andrés-Martínez",
    "Mahdi Malmali",
@@ -2437,7 +2461,8 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1039/d4ra03301a": {
-  "abstract": "Ba- or Cs–Ru/Ba 5 Nb 4 O 15 catalysts demonstrated a significant improvement of the ammonia synthesis rate.",
+  "ab_try": "2026-10-29",
+  "abstract": "Barium niobates with different crystalline structures and morphologies were prepared via a hydrothermal method and applied as a support for a ruthenium catalyst in ammonia synthesis. The sample synthesized with a nominal Ba/Nb ratio = 2.0, having a pure Ba5Nb4O15 crystalline phase and uniform flake-like structure, exhibited the best performance as a support in ammonia synthesis. The flake-like substrate favored the uniform distribution of ruthenium on its surface, which could promote ruthenium to expose more B5 sites. Addition of a Ba- or Cs-promoter enhanced the activity of the Ru/Ba5Nb4O15 catalyst markedly. The highest rate of ammonia synthesis over 2Cs- and 1Ba-4 wt% Ru/Ba5Nb4O15 was 4900 and 3720 (μmol g−1cat h−1) at 0.1 MPa and 623 K, respectively. Both catalysts were stable during the reaction for 72 h at 673 K and 0.1 MPa. Thus, the synthesized Ba5Nb4O15 is expected to be a promising oxide support for ruthenium catalysts for ammonia synthesis.",
   "authors": [
    "Minxuan Chen",
    "Qiang Zhang",
@@ -2468,7 +2493,8 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
  },
  "10.1039/d4re00114a": {
-  "abstract": "Heat recirculation in Joule-heated reactors.",
+  "ab_try": "2026-10-29",
+  "abstract": "Joule-heated reactors have shown the potential to drive high-temperature endothermic reactions without heat transfer limitations to the catalyst and with high energy efficiency and fast dynamics under suitable conditions. However,...",
   "authors": [
    "Arnav Mittal",
    "Marianthi Ierapetritou",
@@ -2661,7 +2687,8 @@
   "zh_obj": "其他催化反应；涉及Fe/铁体系、原子层沉积"
  },
  "10.1109/cefc61729.2024.10585856": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "In the paper an induction heating problem is considered. The Finite Element analysis is used to evaluate the temperature along a line on a graphite disk heated by a power inductor. Subsequently, a fully-connected Neural Network (NN) is trained with the aim of implementing a surrogate model able to compute the temperature profile on the disk, given the amplitude and frequency of the supply current.",
   "authors": [
    "Paolo Di Barba",
    "Arash Ghafoorinejad",
@@ -2708,9 +2735,9 @@
   "id": "10.1109/eem60825.2024.10608489",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "2024 20th International Conference on the European Energy Market (EEM)",
-  "tier": "direct",
+  "tier": "background",
   "title": "Economic Viability Analysis of a Renewable Energy System for Green Hydrogen and Ammonia Production",
   "top": false,
   "topics": [
@@ -3003,9 +3030,9 @@
   "id": "10.14447/jnmes.v27i2.a05",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Journal of New Materials for Electrochemical Systems",
-  "tier": "direct",
+  "tier": "background",
   "title": "A Sustainable Green Ammonia Synthesis by Renewable Route: A Condensed Research with Design Aspects",
   "top": false,
   "topics": [
@@ -3036,9 +3063,9 @@
   "id": "10.15587/2706-5448.2024.307213",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Technology audit and production reserves",
-  "tier": "direct",
+  "tier": "background",
   "title": "Creation of an identifier database for the ammonia synthesis computer control system",
   "top": false,
   "topics": [
@@ -3169,9 +3196,9 @@
   "id": "10.2139/ssrn.4851106",
   "kind": "preprint",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "SSRN",
-  "tier": "direct",
+  "tier": "background",
   "title": "Peak Shaving System of Nuclear Power Plant Based on the New Energy Storage Scheme of Hydrogen Production and Ammonia Synthesis",
   "top": false,
   "topics": [
@@ -3216,6 +3243,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.2139/ssrn.4855962": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Sašo Gyergyek",
@@ -3321,6 +3349,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.2139/ssrn.4875166": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Su Ha",

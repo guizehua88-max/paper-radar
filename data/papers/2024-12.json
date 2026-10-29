@@ -355,7 +355,7 @@
   "id": "10.1002/aic.18654",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "AIChE Journal",
   "tier": "background",
   "title": "A five‐fold twin structure copper for enhanced electrocatalytic nitrogen reduction to sustainable ammonia",
@@ -372,7 +372,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "等离子体制氨"
  },
- "10.1002/ange.202422072": {
+ "10.1002/anie.202422072": {
   "abstract": "Abstract Electrosynthesis of ammonia (NH 3 ) from nitrate (NO 3 − ) using renewable energy holds promise as a supplementary alternative to the Haber−Bosch process for NH 3 production. Most research focuses on tuning the catalytic activity of metal catalysts by modification of the catalyst structures. However, the electrode supports which could influence the catalytic activity have not been well‐explored. The state‐of‐the‐art electrocatalysts for NO 3 − reduction to NH 3 still exhibit limited energy efficiency at ampere‐level current density. Herein, we report a polyaniline‐based molecular electrode with Cu catalyst for selective and energy‐efficient NO 3 − reduction to NH 3 . In the electrode, the polyaniline promotes protonation of the key intermediate formed during NO 3 − reduction at Cu, which circumvents the limitation of the Cu catalyst in the efficiency‐limiting proton transfer step. The molecular electrode produces NH 3 at a partial current density of 2.7 A cm −2 with an energy efficiency of 62 %, demonstrating much better electrochemical performance than common Cu‐based electrocatalysts and indicating the great potential in molecular engineering of electrode supports for selective NO 3 − reduction.",
   "authors": [
    "Xinhao Su",
@@ -383,20 +383,20 @@
   ],
   "cross": false,
   "date": "2024-12-19",
-  "doi": "10.1002/ange.202422072",
+  "doi": "10.1002/anie.202422072",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.202422072",
+  "id": "10.1002/anie.202422072",
   "kind": "journal",
   "origin": "回填",
   "score": 13,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "Molecular Conjugated‐Polymer Electrode Enables Rapid Proton Conduction for Electrosynthesis of Ammonia from Nitrate",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.202422072",
+  "url": "https://doi.org/10.1002/anie.202422072",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -834,6 +834,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1007/s40042-024-01245-x": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Young-Wan Kim",
@@ -912,9 +913,9 @@
   "id": "10.1016/j.apcatb.2024.124434",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Applied Catalysis B: Environment and Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Exploring dynamics in single atom catalyst research: A comprehensive DFT-kMC study of nitrogen reduction reaction with focus on TM aggregation",
   "top": false,
   "topics": [
@@ -1074,6 +1075,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ceramint.2024.10.044": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yiwen Pu",
@@ -1108,6 +1110,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.ces.2024.120613": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kiarash Bastani",
@@ -1177,6 +1180,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.clce.2024.100119": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Masaki Yoshida",
@@ -1242,6 +1246,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cogsc.2024.100965": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Juliette C. Verschoor",
@@ -1273,6 +1278,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.cogsc.2024.100980": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Souma Yoshida",
@@ -1304,6 +1310,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.csite.2024.105512": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zhaobin Zhang",
@@ -1435,6 +1442,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ijhydene.2024.07.047": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Fiammetta Rita Bianchi",
@@ -1465,6 +1473,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.ijhydene.2024.11.053": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kiyoshi Yamazaki",
@@ -1538,6 +1547,7 @@
   "zh_obj": "氨分解制氢；涉及Ru/钌体系"
  },
  "10.1016/j.ijhydene.2024.11.178": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yoshihiro Goto",
@@ -1645,6 +1655,7 @@
   "zh_obj": "电化学氮还原；涉及碳材料"
  },
  "10.1016/j.inoche.2024.113349": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Hong Tang",
@@ -1673,6 +1684,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.jallcom.2024.176640": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Huining Zhang",
@@ -1741,7 +1753,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.jcis.2024.07.020": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Regulating the electron structure and precise loading sites of metal-active sites within the highly conjugated and porous covalent-triazine frameworks (CTFs) is essential to promoting the nitrogen reduction reaction (NRR) performance for electrocatalytic ammonia (NH3) synthesis under ambient conditions. Herein, experimental method and density functional theory (DFT) calculations were conducted to deeply probe the effect on NRR of the modulation of modulating the electron structure and the loading site of gold nanoparticles (Au NPs) in a two-dimensional (2D) CTF. 2D CTF synthesized using melem and hexaketocyclohexane octahydrate as building blocks (denoted as M-HCO-CTF) served as a robust scaffold for loading Au NPs to form an M-HCO-CTF@AuNP hybrid. DFT results uncovered that well-defined Au sites with tunable local structure were the active site for driving the NRR, which can significantly suppress the conversion of H+ into *H adsorption and enhance the nitrogen (N2) adsorption/activation. The overlapped Au (3d) and *N2 (2p) orbitals lowered the free energy of the rate-determining step to form *NNH, thereby accelerating the NRR. The M-HCO-CTF@AuNPs electrocatalyst exhibited a large NH3 yield rate of 66.3 μg h-1 mg-1cat. and a high Faraday efficiency of 31.4 % at - 0.2 V versus reversible hydrogen electrode in 0.1 M HCl, superior to most reported CTF-based ones. This work can provide deep insights into the modulation of the electron structure of metal atoms within a porous organic framework for artificial NH3 synthesis through NRR.",
   "authors": [
    "Chuanpan Guo",
    "Mingyang Xu",
@@ -1759,9 +1772,9 @@
   "id": "10.1016/j.jcis.2024.07.020",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Journal of Colloid and Interface Science",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Understanding electron structure of covalent triazine framework embraced with gold nanoparticles for nitrogen reduction to ammonia",
   "top": false,
   "topics": [
@@ -1770,9 +1783,11 @@
   "url": "https://doi.org/10.1016/j.jcis.2024.07.020",
   "via": "Crossref",
   "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "why": [
+   "NH3 synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
  },
  "10.1016/j.jcis.2024.07.134": {
   "abstract": "",
@@ -2133,6 +2148,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.jtice.2024.105817": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ping-Chieh Cheng",
@@ -2167,6 +2183,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.mtcata.2024.100066": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Charlotte Croisé",
@@ -2307,6 +2324,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.mtsust.2024.101043": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Khadijeh Pournemati",
@@ -2372,6 +2390,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.pnsc.2024.09.005": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Koua Alain Jesus Koua",
@@ -2403,6 +2422,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.pnsc.2024.11.002": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ru Wang",
@@ -2481,9 +2501,9 @@
   "id": "10.1016/j.surfin.2024.105401",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Surfaces and Interfaces",
-  "tier": "direct",
+  "tier": "background",
   "title": "Prediction of holey graphyne-supported single atom catalyst for nitrogen reduction reaction by interpretable machine learning and first-principles calculations",
   "top": false,
   "topics": [
@@ -2541,6 +2561,7 @@
   "zh_obj": "氨分解制氢；涉及Ru/钌体系"
  },
  "10.1021/acs.jpcc.4c06422": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Lan-Anh T. Le",
@@ -2573,7 +2594,8 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积"
  },
  "10.1021/acs.jpcc.4c07091": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Nanopowders or films of pure and mixed oxides in nanoparticulate form have gained specific interest due to their applicability in functionalizing high-surface-area substrates. Among various other applications, our presented work primarily focuses on the behavior of TiO2 as a photocatalyst deposited by atomic layer deposition (ALD) on a quartz particle. The photocatalytic activity of TiO2 on quartz particles grown by ALD was studied in terms of ALD growth temperature and post-treatment heating rate. Amorphous TiO2 thin films (30 nm) were grown from tetrakis(dimethylamido)titanium (TDMAT) at 100 and 200 °C on quartz particles (0.35–3.5 μm) and crystallized using oxidative heat treatment at 500 °C with variable heating rates. The growth temperature was found to affect the TiO2 defect structure: TiO2 grown at 200 °C is black due to Ti3+ defects, whereas the film grown at 100 °C is white but contains some traces of the TDMAT ALD precursor. During the oxidative heat treatment, precursor traces desorbed and Ti3+ defects were oxidized. ALD TiO2 grown at 100 °C crystallized as anatase, whereas the rutile-to-anatase ratio of 200 °C grown TiO2 increased with the heating rate. The hydrogen production rate of mixed-phase TiO2 was found to outperform that of anatase TiO2.",
   "authors": [
    "Bela D. Bhuskute",
    "Harri Ali-Löytty",
@@ -2665,7 +2687,7 @@
   "id": "10.1021/acsami.4c17137",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "ACS Applied Materials & Interfaces",
   "tier": "background",
   "title": "Ketjenblack-Supported and Unsupported ZrO 2 –ZrN Nanoparticle Systems for Enabling Efficient Electrochemical Nitrogen Reduction to Ammonia",
@@ -2676,7 +2698,9 @@
   "url": "https://doi.org/10.1021/acsami.4c17137",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Electrochemical Nitrogen Reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -2709,9 +2733,9 @@
   "id": "10.1021/acsanm.4c05392",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "ACS Applied Nano Materials",
-  "tier": "direct",
+  "tier": "background",
   "title": "Nitrogen-Doped Porous Carbon-Supported Cu–Ni Single-Atom Catalysts for Green Ammonia Synthesis via Renewable-Powered Nitrogen Reduction Reaction",
   "top": false,
   "topics": [
@@ -2759,7 +2783,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acsnano.4c10387": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Photocatalytic water splitting is a promising route to low-cost, green H2. However, this approach is currently limited in its solar-to-hydrogen conversion efficiency. One major source of efficiency loss is attributed to the high rates of undesired side and back reactions, which are exacerbated by the proximity of neighboring oxidation and reduction sites. Nanoscopic oxide coatings have previously been used to selectively block undesired reactants from reaching active sites; however, a coating encapsulating the entire photocatalyst particle limits activity as it cannot facilitate both half-reactions. In this work, area selective atomic layer deposition (AS-ALD) was used to selectively deposit semipermeable TiO2 films onto model metallic cocatalysts for enhancing reaction selectivity while maintaining a high overall activity. Pt and Au were used as exemplary reduction and oxidation cocatalyst sites, respectively, where Au was deactivated toward ALD growth through self-assembled thiol monolayers while TiO2 was coated onto Pt sites. Electroanalytical measurements of monometallic thin film electrodes showed that the TiO2-encapsulated Pt effectively suppressed undesired H2 oxidation and Fe(II)/Fe(III) redox reactions while still permitting the desired hydrogen evolution reaction (HER). A planar model photocatalyst platform containing patterned interdigitated arrays of Au and Pt microelectrodes was further assessed using scanning electrochemical microscopy (SECM), demonstrating the successful use of AS-ALD to enable local reaction selectivity in a dual-reaction-site (photo)electrocatalytic system. Finally, interdigitated microelectrodes having independent potential control were used to show that selectively deposited TiO2 coatings can suppress the rate of back reactions on neighboring active sites by an order of magnitude compared with uncoated control samples.",
   "authors": [
    "W. Wilson McNeary",
    "William D. H. Stinson",
@@ -2791,10 +2816,11 @@
    "Atomic Layer Deposit"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "析氢反应；涉及Fe/铁体系、原子层沉积"
  },
  "10.1021/acsnano.4c13787": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "The seamless integration of electrocatalysts onto the electrode is crucial for enhancing water electrolyzers, yet it is especially challenging when scaled up to large manufacturing. Despite thorough investigation, there are few reports that tackle this integration through roll-to-roll (R2R) methodology, a technique crucial for fulfilling industrial-scale demands. Here, we develop an R2R flash Joule heating (R2R-FJH) system to process catalytic electrodes with superior performance. The electrodes exhibited improved stability and activity, showcasing an exceptional performance within an alkaline water electrolysis (AWE) system. They achieved a low operation potential of 1.66 V at 0.5 A cm-2, coupled with outstanding durability over the operation of 800 h. We further demonstrated a prototype of a rolled-up water splitting apparatus, illustrating the efficiency of R2R-FJH electrodes in producing high-purity hydrogen through advanced water oxidation. Our study emphasized the practicality and scalability of the R2R-FJH strategy in the industrial manufacturing of high-performance electrodes for water electrolysis.",
   "authors": [
    "Peng Du",
    "Bohan Deng",
@@ -2831,10 +2857,11 @@
    "Joule Heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "其他催化反应"
  },
  "10.1021/acsomega.4c06606": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Thermal atomic layer deposition (TALD) and plasma atomic layer deposition (PALD) were used for producing thin NiOx films from nickel(II) acetylacetonate Ni(acac)2, employing different oxidizing agents (deionized water H2O, ozone O3, and molecular oxygen O2). The films were deposited at 300 °C (TALD) and 220 °C (PALD) over glass substrates; their physical and chemical properties were considerably influenced by the choice of oxidizing agents. In particular, ALD(H2O) samples had a low growth per cycle (GPC) and a high concentration of defects. The best NiOx parameters were achieved with PALD(O2), featuring high GPC (0.07 nm/cycle), high optical transparency in the visible region, electrical resistivity (1.18 × 104 Ω·cm), good carrier concentration (8.82 × 1013 cm–3), and common mobility (5.98 cm2/V·s). The resulting NiOx films are polycrystalline and homogeneous in thickness and composition. According to ultraviolet photoelectron spectroscopy (UPS), work function φ and the valence band maximum EV can be tuned by the choice of the coreactant employed, with variations of up to ∼1 eV between TALD and PALD synthesis. Our results suggest that PALD permits one to achieve a better energy band alignment of NiOx and CsFAMAPbBrI perovskite, which is promising for solar cell applications.",
   "authors": [
    "Mario Alberto Hidrogo-Rico",
    "Nicola Nedev",
@@ -2888,7 +2915,7 @@
   "id": "10.1021/acsomega.4c09193",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "ACS Omega",
   "tier": "background",
   "title": "TiO 2 –Mo 2 C Heterostructure for Enhanced Electrocatalytic Nitrogen Reduction to Ammonia",
@@ -2899,7 +2926,9 @@
   "url": "https://doi.org/10.1021/acsomega.4c09193",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Electrocatalytic Nitrogen Reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -3229,7 +3258,8 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1109/icpe64565.2024.10929196": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Driven by China's “dual carbon” policy, microgrid technology has developed rapidly. Promoting the consumption of renewable energy in microgrids is gradually attracting widespread attention. This paper studies the optimization and dispatching of microgrids coupled with wind energy, photothermal power generation, electricity to ammonia and energy storage systems. By optimizing the energy storage capacity configuration, the economic benefits and operating efficiency of the system are improved. The study adopts a two-layer optimization model. The upper layer maximizes economic benefits by reducing the investment and operating costs of the microgrid, while the lower layer focuses on the coordinated operation of the system. This article compares three scenarios. The results show that the introduction of electro-amination technology and modified particle swarm optimization algorithm (MPSO) can significantly reduce system costs, reduce wind and light abandonment and improve the economic benefits of ammonia, ultimately achieving the optimal microgrid Economical and sustainable.",
   "authors": [
    "Juzhong Ma",
    "Hongmei Wu",
@@ -3244,9 +3274,9 @@
   "id": "10.1109/icpe64565.2024.10929196",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "2024 5th International Conference on Power Engineering (ICPE)",
-  "tier": "direct",
+  "tier": "background",
   "title": "A Two-Layer Optimization Strategy for Multi-Energy Microgrid in Green Power-Based Ammonia Synthesis",
   "top": false,
   "topics": [
@@ -3262,7 +3292,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1109/icst62759.2024.10992029": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Here, we present the surface functionalization of two-dimensional (2D) WS2 with Pt nanoparticles (NPs) via atomic layer deposition (ALD) to enhance sensing properties towards amino acids (AAs). Monolayer (1L) WS2 was synthesized through chemical vapor deposition (CVD), followed by Pt functionalization on the WS2 surface using ALD. To ensure process stability, Pt films were first deposited on SiO2/Si substrates. The ALD window for Pt films was confirmed to be between 200 °C and 250 °C, with a growth per cycle (GPC) was ∼1.2 Å/cycle at 200 °C. After surface functionalization, an enhanced n-type doping effect induced by lysine (LYS) molecules was observed, as evidenced by peak shifts in photoluminescence (PL) and X-ray photoelectron spectroscopy (XPS). Additionally, the Pt-WS2 system exhibited improved concentration-dependent linearity, with the limit of detection (LOD) enhanced by approximately two orders of magnitude (∼100 times). Selectivity toward other interfering biomarker molecules also improved. Our results highlight the potential of surface-functionalized 2D transition metal dichalcogenides (TMDSs) with noble metals (NMs) to significantly enhance sensing properties for AAs.",
   "authors": [
    "Jisang Yoo",
    "Sangyoon Lee",
@@ -3388,6 +3419,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1360/ssc-2024-0143": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Guoqing Cui",
@@ -3486,6 +3518,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.2139/ssrn.5044652": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Enas sameer alkhawaja",
@@ -3613,6 +3646,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.2139/ssrn.5054913": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jianfeng Gao",
@@ -3654,6 +3688,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.2139/ssrn.5055047": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Armando Diaz-Motta",
@@ -3721,6 +3756,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.2139/ssrn.5074950": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Lucy Nyambura Karanja",
@@ -3770,9 +3806,9 @@
   "id": "10.2139/ssrn.5076347",
   "kind": "preprint",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "SSRN",
-  "tier": "direct",
+  "tier": "background",
   "title": "Strain Engineering of Mo2c Mxene to Steer the Selectivity in the Nitrogen Reduction Reaction Toward Ammonia",
   "top": false,
   "topics": [
@@ -4248,6 +4284,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.29363/nanoge.matsusspring.2025.283": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Dirk Ziegenbalg",
@@ -4329,7 +4366,7 @@
   "id": "10.3390/molecules29246025",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Molecules",
   "tier": "background",
   "title": "Efficient Electrocatalytic Nitrogen Reduction to Ammonia with Electrospun Hierarchical Carbon Nanofiber/TiO2@CoS Heterostructures",
@@ -4407,6 +4444,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.3724/s1004-0277.20240045": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ji-an WU",
@@ -4451,9 +4489,9 @@
   "id": "10.47512/meujmaf.1589195",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Mersin University Journal of Maritime Faculty",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "A REVIEW OF AMMONIA AS A SUSTAINABLE FUEL FOR MARITIME TRANSPORTATION",
   "top": false,
   "topics": [
@@ -4504,6 +4542,7 @@
   "zh_obj": "过程待核实；涉及Ru/钌体系"
  },
  "10.7467/ksae.2024.32.12.943": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Seongsu Kim",

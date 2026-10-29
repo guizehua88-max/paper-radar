@@ -128,9 +128,9 @@
   "id": "10.1002/aic.18621",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "AIChE Journal",
-  "tier": "direct",
+  "tier": "background",
   "title": "Machine learning‐aided process design using limited experimental data: A microwave‐assisted ammonia synthesis case study",
   "top": false,
   "topics": [
@@ -145,7 +145,7 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
- "10.1002/ange.202413369": {
+ "10.1002/anie.202413369": {
   "abstract": "Abstract The rational design of carbon‐supported transition metal single‐atom catalysts necessitates precise atomic positioning within the precursor. However, structural collapse during pyrolysis can occlude single atoms, posing significant challenges in controlling both their utilization and coordination environment. Herein, we present a surface atom adsorption‐flash heating (FH) strategy, which ensures that the pre‐designed carbon nanofiber structure remains intact during heating, preventing unforeseen collapse effects and enabling the formation of metal atoms in nano‐environments with either tetra‐nitrogen or penta‐nitrogen coordination at different flash heating temperatures. Theoretical calculations and in situ Raman spectroscopy reveal that penta‐nitrogen coordinated cobalt atoms (Co‐N 5 ) promote a lower energy pathway for oxygen reduction and oxygen evolution reactions compared to the commonly formed Co‐N 4 sites. This strategy ensures that Co‐N 5 sites are fully exposed on the surface, achieving exceptionally high atomic utilization. The turnover frequency (65.33 s −1 ) is 47.4 times higher than that of 20 % Pt/C under alkaline conditions. The porous, flexible carbon nanofibers significantly enhance zinc‐air battery performance, with a high peak power density (273.8 mW cm −2 ), large specific capacity (784.2 mAh g −1 ), and long‐term cycling stability over 600 h. Additionally, the flexible fiber‐shaped zinc‐air battery can power wearable devices, demonstrating significant potential in flexible electronics applications.",
   "authors": [
    "Qingliang Luo",
@@ -160,20 +160,20 @@
   ],
   "cross": false,
   "date": "2024-10-17",
-  "doi": "10.1002/ange.202413369",
+  "doi": "10.1002/anie.202413369",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.202413369",
+  "id": "10.1002/anie.202413369",
   "kind": "journal",
   "origin": "回填",
   "score": 22,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "transferable",
   "title": "Tailoring Single‐Atom Coordination Environments in Carbon Nanofibers via Flash Heating for Highly Efficient Bifunctional Oxygen Electrocatalysis",
   "top": true,
   "topics": [
    "joule"
   ],
-  "url": "https://doi.org/10.1002/ange.202413369",
+  "url": "https://doi.org/10.1002/anie.202413369",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -232,7 +232,7 @@
   "id": "10.1002/cctc.202401262",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "ChemCatChem",
   "tier": "background",
   "title": "Hydrogenation‐Driven Metal Dispersion and Catalytic Enhancement of Borophane‐Supported Single‐Atom Catalysts for Electrochemical Nitrogen Reduction",
@@ -650,6 +650,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1007/s40843-024-3161-x": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ziyue Zeng",
@@ -715,6 +716,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.apsusc.2024.160481": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xiang Li",
@@ -747,6 +749,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.carbon.2024.119542": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Chang-Hyun Cho",
@@ -782,6 +785,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.cej.2024.154733": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Richard J. Ciora",
@@ -847,6 +851,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.cej.2024.154925": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yajie Shu",
@@ -877,6 +882,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cep.2024.109962": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Navid Erfani",
@@ -1040,6 +1046,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.energy.2024.132554": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ahmad K. Sleiti",
@@ -1071,6 +1078,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.focat.2024.10.001": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Tom Degnan"
@@ -1133,6 +1141,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.ijhydene.2024.08.408": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Gaetano Anello",
@@ -1328,6 +1337,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jece.2024.113844": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jiaying Zang",
@@ -1377,7 +1387,7 @@
   "id": "10.1016/j.jechem.2024.05.045",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Journal of Energy Chemistry",
   "tier": "background",
   "title": "Two-dimensional C2N-based single-atom catalyst with complex microenvironment for enhanced electrochemical nitrogen reduction: A descriptor-based design",
@@ -1388,12 +1398,15 @@
   "url": "https://doi.org/10.1016/j.jechem.2024.05.045",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "electrochemical nitrogen reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.jhazmat.2024.135417": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Microbe-driven ammonia nitrogen removal plays a crucial role in the nitrogen cycle and wastewater treatment. However, the rational methods and mechanisms for boosting nitrogen conversion through microbial domestication are still limited. Herein, a combined alkali-photocatalytic stimulation strategy was developed to activate the Halomonas shizuishanensis DWK9 for efficient ammonia nitrogen removal. The strain DWK9 selected from saline-alkaline soil in Northwestern China possessed strong resistance to stress of saline-alkaline environment and free radicals, and was abundant in nitrogen conversion genes, thus is an ideal model for advanced microbial domestication. Bacterial in the combined alkali-photocatalytic stimulation group achieved a high ammonia nitrogen conversion rate of 67.5 %, 10 times outperforming the non-stimulated and single alkali/photocatalytic stimulation control groups. Morphology analysis revealed that the bacteria in the alkali-photocatalytic stimulated group formed a favorable structure for bioelectric transfer. Remarkably, the domesticated bacteria demonstrated improved electrochemical properties, including increased current capacity and lower overpotentials and impedance. Prokaryotic transcription genetic analysis together with qPCR analysis showed upregulation of denitrification-related metabolic pathway genes. A novel FAD dependent and NAD(P)H independent energy mode has been proposed. The universality and effectiveness of the as-developed combined alkali-photocatalytic microbial domestication strategy were further validated through indicator fish survival experiments. This work provides unprecedented degrees of freedom for the exploration of rational microbial engineering for optimized and controllable biogeochemical conversion.",
   "authors": [
    "Zhen Sun",
    "Mingzhu Du",
@@ -1428,6 +1441,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.matlet.2024.137172": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yixiao Zhang",
@@ -1465,6 +1479,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.pnsc.2024.08.005": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xindong Zhu",
@@ -1504,6 +1519,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.ssi.2024.116622": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Mengyue Yuan",
@@ -1597,6 +1613,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.tsf.2024.140552": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Marta A. Forte",
@@ -1630,6 +1647,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/s1872-2067(24)60114-2": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ziyuan Xiu",
@@ -1660,6 +1678,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系、碳材料"
  },
  "10.1021/accountsmr.4c00103": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zhe Meng",
@@ -1707,9 +1726,9 @@
   "id": "10.1021/acs.iecr.4c02410",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Industrial & Engineering Chemistry Research",
-  "tier": "direct",
+  "tier": "background",
   "title": "Dynamic Simulation and Optimization for Load Regulation Strategies of the Green Ammonia Synthesis Process",
   "top": false,
   "topics": [
@@ -1757,6 +1776,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1021/acs.jpcc.4c04018": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kaoru Hisama",
@@ -1789,7 +1809,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acs.jpclett.4c02196": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "In recent years, significant research has been conducted on supported clusters due to their high dispersion, atomic efficiency, and unsaturated coordination, particularly in ammonia synthesis. This study investigates the catalytic performance of flexible iron clusters embedded in two-dimensional carbon-nitrogen materials for ammonia synthesis. Using density functional theory and ab initio molecular dynamics simulations, we demonstrate that the structural flexibility of these clusters significantly enhances their catalytic activity. The flexibility coefficient, derived from the full width at half maximum of the Fe-Fe radial distribution function, is introduced as a novel descriptor for N2 bond cleavage. Our findings reveal that flexible Fe clusters adaptively modify their structures during the reaction process, lowering energy barriers for N2 activation and subsequent hydrogenation. This study opens new avenues for designing advanced catalytic systems based on structural flexibility to meet the growing demand for sustainable and energy-efficient ammonia production.",
   "authors": [
    "Qiantong Meng",
    "Lili Liu",
@@ -1892,6 +1913,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acsanm.4c03416": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Bo Liu",
@@ -2026,6 +2048,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1021/acssuschemeng.4c06031": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jung Woo Shim",
@@ -2058,6 +2081,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acssuschemeng.4c06241": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Mingxing Nie",
@@ -2091,7 +2115,8 @@
   "zh_obj": "其他催化反应；涉及Fe/铁体系"
  },
  "10.1021/jacs.4c10851": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "The advantages of ammonia as a hydrogen carrier have led to proposals for on-site hydrogen production through its decomposition. Rapid cold start of ammonia decomposition is crucial for applications such as ammonia-powered vehicles, but conventional heating methods are challenged by the high decomposition temperature of ammonia. In this study, we successfully achieved the rapid cold start of ammonia decomposition using Co nanoparticle catalysts driven by magnetic induction heating, demonstrating excellent catalytic performance and stability. The magnetic induction heating-driven ammonia decomposition system was integrated with a hydrogen fuel cell, proving its ability to achieve the cold start of ammonia decomposition within 10 s, as demonstrated by comparative experiments using 75% H2-25% N2 from a gas cylinder as the control. This study provides a deeper understanding of hysteresis heating catalysis, promoting the practical use of ammonia as a hydrogen carrier for rapid hydrogen production in the energy industry.",
   "authors": [
    "Ruiqi Zhang",
    "Xingwu Liu",
@@ -2112,21 +2137,19 @@
   "id": "10.1021/jacs.4c10851",
   "kind": "journal",
   "origin": "回填",
-  "score": 25,
+  "score": 13,
   "source": "Journal of the American Chemical Society",
-  "tier": "transferable",
+  "tier": "background",
   "title": "Magnetic Induction Heating-Driven Rapid Cold Start of Ammonia Decomposition for Hydrogen Production",
   "top": true,
   "topics": [
-   "nh3",
-   "joule"
+   "nh3"
   ],
   "url": "https://doi.org/10.1021/jacs.4c10851",
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Decomposition",
-   "Induction Heating"
+   "Ammonia Decomposition"
   ],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢"
@@ -2242,7 +2265,8 @@
   "zh_obj": "氨硼烷水解；涉及Fe/铁体系"
  },
  "10.1038/s41557-024-01641-7": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Although supported metal catalysts are active for ammonia synthesis, there is a need for catalysts that are active under milder reaction conditions. Now, fullerenes are shown to be convenient and multifunctional promoters for ammonia production that also eliminate hydrogen poisoning.",
   "authors": [
    "A. Daisley",
    "J. S. J. Hargreaves"
@@ -2272,6 +2296,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1038/s41929-024-01236-y": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Seongmin Jin",
@@ -2311,7 +2336,8 @@
   "zh_obj": "其他催化反应；涉及原子层沉积"
  },
  "10.1038/s44160-024-00661-y": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Transition metal-catalysed mechanochemical reactions using ball milling have emerged as important tools to realize unique organic transformations. Mechanochemical reactions have advantages over conventional homogeneous reactions, such as using a small amount of organic solvent, having a broad substrate scope and being generally fast and selective reactions. An increasing number of mechanochemical reactions between solid substrates have been examined, but only a few examples of mechanochemical reactions involving gaseous substrates, such as nitrogen fixation to convert dinitrogen into ammonia, have been reported until now. Here we develop catalytic mechanochemical nitrogen fixation using molybdenum complexes as molecular catalysts. An atmospheric pressure of dinitrogen was reacted with samarium diiodide as a reductant and water or alcohols as proton sources in the presence of the molybdenum catalysts, using ball milling under solvent-free and near-ambient reaction conditions to afford up to 860 equivalents of ammonia based on the catalyst. In addition, we demonstrated that even insoluble cellulose can be applied as the proton source. Further, we revealed that the molybdenum-catalysed mechanochemical nitrogen fixation proceeds via nitrogen–nitrogen bond cleavage at the gas–solid interface and nitrogen–hydrogen bond formation in the solid phase. The use of large amounts of solvents is an obstacle to the practical application of nitrogen fixation using transition metal complexes. Here catalytic ammonia synthesis is achieved by reacting dinitrogen (1 atm) with samarium diiodide and proton sources, including cellulose, in the presence of molybdenum catalysts under solvent-free ball-milling conditions.",
   "authors": [
    "Shun Suginome",
    "Kurumi Murota",
@@ -2338,10 +2364,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrogen fixation"
+   "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "机械力驱动",
+  "zh_obj": "机械化学制氨"
  },
  "10.1039/d4cc04112g": {
   "abstract": "Fe 3 O 4 film is composed of dispersed nanoparticles and irregular nanopores, where photons can be trapped by multi-reflection. The solar-thermal temperature can raise to above 350 °C and meet the temperature requirement for ammonia synthesis.",
@@ -2412,7 +2438,8 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1039/d4cp03553d": {
-  "abstract": "Investigation of the effect of varying nickel pulse numbers in atomic layer deposition (ALD) on the performance of prepared NiO x thin films.",
+  "ab_try": "2026-10-29",
+  "abstract": "The paper describes the preparation of NiOx films using atomic layer deposition (ALD) and analyzes their hole transport properties. During the ALD process, NiOx films with varying properties were fabricated by adjusting the number of nickel pulses in the reaction. Various characterization techniques were employed to investigate the morphology, composition, optical, and electrical properties of the films prepared with different numbers of nickel pulses. The study reveals that as the number of Ni pulses increases, the content of Ni metal and Ni(OH)2 in the NiOx films changes, and post-annealing treatment can significantly enhance the performance of the NiOx films. Finally, NiOx was used as a hole transport layer to successfully fabricate silicon solar cells, resulting in an increase in power conversion efficiency (PCE) from 17.89% to 18.89% compared to untreated cells.",
   "authors": [
    "Xuanfei Kuang",
    "Zongtao Liu",
@@ -2586,7 +2613,8 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积"
  },
  "10.1039/d4ra06077f": {
-  "abstract": "The potential for N 2 fixation of the heteronuclear CuCo dual-atom catalyst (DAC) was investigated by DFT calculations.",
+  "ab_try": "2026-10-29",
+  "abstract": "Developing low-cost catalysts for highly efficient nitrogen reduction reaction (NRR) in industrial applications is a great challenge. Dual-atom catalysts (DACs) have also aroused scientific interest as potential NRR catalysts due to their possible higher activity and atom utilization than single atom catalysts. Using density functional theory, we have investigated the NRR performances of heteronuclear CuCo DACs with different coordination configurations. Comparisons with the possible Cu or Co SACs and homonuclear dual-atom catalysts for the NRR performance were also made. We find that O-CuCo-N DAC has superior NRR performance, where the NRR easily takes place through the alternating pathway from the side-on N2 adsorption mode and the potential limiting step is the first hydrogenation step (*NN* → *NHN*) with a Gibbs free energy change of 0.55 eV. The good activity of O-CuCo-N DAC benefits from the regulation provided by Cu and the coordination environment. In addition, O-CuCo-N DAC also exhibits good selectivity and durability.",
   "authors": [
    "Miaomiao Han",
    "Yu Zhang",
@@ -2599,9 +2627,9 @@
   "id": "10.1039/d4ra06077f",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "RSC Advances",
-  "tier": "direct",
+  "tier": "background",
   "title": "Theoretical study of a CuCo dual-atom catalyst for nitrogen fixation",
   "top": false,
   "topics": [
@@ -2915,6 +2943,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.2139/ssrn.4974971": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Swati SINGH",
@@ -2993,6 +3022,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.2139/ssrn.4978449": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jeong Woo Shin",
@@ -3027,6 +3057,7 @@
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积"
  },
  "10.2139/ssrn.4978471": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kyungho Lee",
@@ -3061,6 +3092,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.2139/ssrn.4991238": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Botagoz Zhakisheva",
@@ -3092,6 +3124,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.2139/ssrn.4995031": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xiaofei Mao",
@@ -3650,9 +3683,9 @@
   "id": "10.3390/pr12102204",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Processes",
-  "tier": "direct",
+  "tier": "background",
   "title": "Optimisation of Ammonia Production and Supply Chain from Sugarcane Ethanol and Biomethane: A Robust Mixed-Integer Linear Programming Approach",
   "top": false,
   "topics": [
@@ -3668,6 +3701,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.46855/energy-proceedings-11470": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Javad Jeddizahed",

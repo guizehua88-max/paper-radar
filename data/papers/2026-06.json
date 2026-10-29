@@ -272,7 +272,7 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "过程待核实"
  },
- "10.1002/ange.7866851": {
+ "10.1002/anie.7866851": {
   "abstract": "ABSTRACT Electrocatalytic nitrate reduction to ammonia presents a promising route for sustainable nitrogen utilization; however, current efforts remain largely confined to optimizing synthesis efficiency, with insufficient attention paid to the concurrent challenge of ammonia separation—a key bottleneck for scalable deployment. Here, we report carbon‐shell‐encapsulated cobalt nanoparticles (Co@C), which uniquely enable integrated ammonia synthesis and in situ gas‐phase purification under strongly alkaline conditions. In both sequencing batch and continuous‐flow electrolyzers, Co@C delivers a robust nitrate‐to‐ammonia Faradaic efficiency of 92.4%, maintaining performance even in the presence of exogenous ammonia. Critically, the high‐pH environment shifts the NH 3 /NH 4 + equilibrium toward volatile NH 3 , enabling spontaneous volatilization and direct gaseous collection. Combined experimental and theoretical analyses demonstrate that the carbon shells confer dual functionality: they physically suppress Co leaching while electronically modulating surface adsorption to weaken NH 3 binding and accelerate desorption. Our work establishes a catalyst design principle centered on ammonia resistance and introduces an electrochemical platform that unifies synthesis, separation, and purification in a single step.",
   "authors": [
    "Jingwen Ba",
@@ -287,20 +287,20 @@
   ],
   "cross": false,
   "date": "2026-06-11",
-  "doi": "10.1002/ange.7866851",
+  "doi": "10.1002/anie.7866851",
   "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/ange.7866851",
+  "id": "10.1002/anie.7866851",
   "kind": "journal",
   "origin": "回填",
   "score": 13,
-  "source": "Angewandte Chemie",
+  "source": "Angewandte Chemie International Edition",
   "tier": "background",
   "title": "Ammonia‐Resistant Carbon‐Encapsulated Cobalt Catalyst for Electrocatalytic Nitrate Reduction to Volatile Ammonia",
   "top": true,
   "topics": [
    "nh3"
   ],
-  "url": "https://doi.org/10.1002/ange.7866851",
+  "url": "https://doi.org/10.1002/anie.7866851",
   "via": "Crossref",
   "watch": [],
   "why": [
@@ -345,38 +345,6 @@
   ],
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "其他催化反应"
- },
- "10.1002/chem.71267": {
-  "abstract": "ABSTRACT Nitrogen dioxide (NO 2 ) is a highly toxic gas and a notorious respiratory irritant that contributes to the greenhouse effect and acid rain. Herein, we study the catalyst‐free reduction of NO 2 with boranes, silanes, and the hydrogen surrogates 1,4‐cyclohexadiene and isopropyl alcohol, resulting in the selective formation of nitric oxide (NO). Selective NO generation was confirmed by electron paramagnetic resonance spectroscopy and low‐temperature 15 N{ 1 H} nuclear magnetic resonance spectroscopy. Additionally, density functional theory calculations have been employed to probe the mechanism of these reductions.",
-  "authors": [
-   "Awais W. Seyyad",
-   "Agamemnon E. Crumpton",
-   "Reece Lister‐Roberts",
-   "Meera Mehta"
-  ],
-  "cross": false,
-  "date": "2026-06-18",
-  "doi": "10.1002/chem.71267",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.1002/chem.71267",
-  "kind": "journal",
-  "origin": "回填",
-  "score": 28,
-  "source": "Chemistry – A European Journal",
-  "tier": "direct",
-  "title": "Catalyst‐Free Selective Reduction of Nitrogen Dioxide to Nitric Oxide",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.1002/chem.71267",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Reduction of Nitrogen"
-  ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
  },
  "10.1002/cnl2.70181": {
   "abstract": "ABSTRACT Ammonia serves as a dual‐purpose nitrogen and hydrogen carrier, essential for global food security and the ongoing renewable energy transition. The century‐old industrial Haber‐Bosch process, however, is limited by considerable energy consumption and massive carbon emissions, necessitating efficient catalysts for low‐temperature ammonia synthesis. Despite recent progress in diverse catalytic systems, including electrides, nitrides, hydrides, and engineered transition‐metal sites, differences in active‐site architecture give rise to distinct reaction routes, and a unified mechanistic framework remains absent. This review systematically summarizes recently developed catalytic systems based on a mechanism‐driven classification covering dissociative, hydrogen‐assisted, and associative routes, with emphasis on structure–activity relationships and mechanistic insights revealed through advanced characterization techniques. By critically evaluating state‐of‐the‐art catalysts, this review establishes strategic design principles to guide the rational development of next‐generation ammonia synthesis catalysts.",
@@ -597,7 +565,7 @@
   "id": "10.1002/smll.74213",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Small",
   "tier": "background",
   "title": "Electrochemical Nitrogen Reduction for Green Ammonia: Mechanistic Insights and Advanced Materials Design",
@@ -651,6 +619,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1007/s13762-026-07306-x": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "A. M. Maksumova",
@@ -683,6 +652,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/j.apcata.2026.120978": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yaqi Yang",
@@ -717,6 +687,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.apcatb.2025.126374": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Danim Yun",
@@ -760,6 +731,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.apcatb.2026.126507": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Pengfei Liu",
@@ -793,6 +765,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.apmate.2025.100370": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Hao Liang",
@@ -824,6 +797,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apsusc.2026.166423": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Marwa Tariq",
@@ -852,6 +826,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ccr.2026.217726": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Théo Personeni",
@@ -884,6 +859,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.cej.2026.176626": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Anusha Yajurvedi",
@@ -917,6 +893,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.cej.2026.176655": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kumar Vikrant",
@@ -951,6 +928,7 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.cej.2026.176741": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Younghun Kim",
@@ -987,6 +965,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/j.cej.2026.176774": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xin Zeng",
@@ -1023,6 +1002,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.cej.2026.176932": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xuehui Duan",
@@ -1060,6 +1040,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ceramint.2026.04.094": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zijue Zhou",
@@ -1100,6 +1081,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.ceramint.2026.04.328": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Aiyang Wang",
@@ -1136,6 +1118,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.chempr.2025.102884": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ying Hou",
@@ -1179,6 +1162,7 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
  },
  "10.1016/j.coelec.2026.101859": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Hao Xue",
@@ -1209,6 +1193,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.colsurfa.2026.139945": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xin Chen",
@@ -1248,6 +1233,7 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.colsurfa.2026.140069": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xuyun Zhang",
@@ -1281,6 +1267,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.energy.2026.140918": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xinyi Chen",
@@ -1298,9 +1285,9 @@
   "id": "10.1016/j.energy.2026.140918",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Synergistic integration of liquid air energy storage and ammonia synthesis: Enabling flexible, low-carbon industry with enhanced energy storage",
   "top": false,
   "topics": [
@@ -1316,6 +1303,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.fuel.2025.138209": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Geonwoo Jeong",
@@ -1346,6 +1334,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.hydromet.2026.106716": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Spencer Cunningham",
@@ -1374,6 +1363,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.ijhydene.2026.155354": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Silvia-Iustina Pintilie",
@@ -1406,6 +1396,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1016/j.ijhydene.2026.155494": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Stefania Wolff",
@@ -1445,6 +1436,7 @@
   "zh_obj": "析氢反应；涉及原子层沉积"
  },
  "10.1016/j.ijhydene.2026.155679": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Javier Arroyo-Caire",
@@ -1479,6 +1471,7 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
  },
  "10.1016/j.ijhydene.2026.155691": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xueyan Dai",
@@ -1513,6 +1506,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1016/j.jaap.2026.107759": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xiaofei Mao",
@@ -1550,6 +1544,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.jallcom.2026.188454": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ji Sang Ahn",
@@ -1582,6 +1577,7 @@
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积"
  },
  "10.1016/j.jece.2026.122504": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Li Wu",
@@ -1617,6 +1613,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.jece.2026.122911": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Huaiyu Zhou",
@@ -1651,6 +1648,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jece.2026.123061": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yunfeng Jiang",
@@ -1686,6 +1684,7 @@
   "zh_obj": "逆水煤气变换"
  },
  "10.1016/j.jes.2026.06.017": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xingyu Jiang",
@@ -1721,6 +1720,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.jiec.2025.11.035": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Xiaoyan Ma",
@@ -1756,6 +1756,7 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料"
  },
  "10.1016/j.jphotochem.2026.117035": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Chunxiang Tang",
@@ -1787,6 +1788,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.jpowsour.2026.240044": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Umar M. Jafar",
@@ -1821,6 +1823,7 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.matdes.2026.116126": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Milan Vukšić",
@@ -1858,6 +1861,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.matt.2026.102753": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Lu Li",
@@ -1878,9 +1882,9 @@
   "id": "10.1016/j.matt.2026.102753",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Matter",
-  "tier": "direct",
+  "tier": "background",
   "title": "Hierarchical superwetting electrodes with tunable triphase interface for efficient ammonia synthesis",
   "top": false,
   "topics": [
@@ -1896,6 +1900,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.mcat.2026.115992": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Caiyu Yang",
@@ -1927,6 +1932,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.oceram.2026.100986": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Erik Ščasnovič",
@@ -1960,6 +1966,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.procir.2026.05.275": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Sohan Acharya",
@@ -1993,7 +2000,8 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.watres.2026.125648": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "This work presents a cradle-to-gate life cycle assessment of ammonia (NH₃) recovery, quantified as ammonium nitrogen (NH₄-N, as N), from wastewater using membrane electrochemical systems (MES). Five lab-scale configurations, including three single-membrane configurations (2V-1 N, 5V-1 N, and 10V-1 N) along with two multi-stack configurations (5V-11 N and 10V-20 N), were evaluated for environmental impact, energy intensity, and recovery performance per functional unit of 1 kg NH₄-N recovered. The different configurations presented in this work use a variation of energy and material inputs per functional unit to illustrate the trade-offs among the different scenarios and to explore a sustainable balance between recovery rate, energy intensity, and environmental performance. The multi-stack membrane configuration (10V-20 N) not only demonstrated technical feasibility, but also competitive environmental performance, with a lowest GWP of 1.756 CO₂-eq per kg NH₄-N, lowest energy requirement (0.3 kWh per kg NH₄-N), and a net eutrophication potential of -0.767 kg N-eq per kg NH₄-N. Additionally, this work presents a comparative analysis encompassing (1) conventional NH₃ synthetic production, (2) established nitrogen (N)-removal processes such as air stripping and nitrification-denitrification, and (3) NH₄-N recovery using the configurations developed in this study. The findings aim to provide a foundation for scaling these systems to pilot and eventually commercial applications, while guiding decision-makers to recognize the environmental and economic opportunity of N recovery and the typically overlooked trade-offs that conventional synthetic production requires, such as additional energy and cost required to remove nutrients from wastewater.",
   "authors": [
    "Fadhel H. Alrabiah",
    "Kai Yang",
@@ -2023,6 +2031,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.xcrp.2026.103333": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Bin Chen",
@@ -2055,6 +2064,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/s1872-2067(26)64978-9": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yuxi Ren",
@@ -2073,7 +2083,7 @@
   "id": "10.1016/s1872-2067(26)64978-9",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Chinese Journal of Catalysis",
   "tier": "background",
   "title": "Homojunction-driven d-band engineering in NiMoO4 for selective electrochemical nitrogen reduction to ammonia",
@@ -2084,11 +2094,14 @@
   "url": "https://doi.org/10.1016/s1872-2067(26)64978-9",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "electrochemical nitrogen reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
  "10.1021/acs.iecr.6c01380": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zuyang Zhang",
@@ -2120,6 +2133,7 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acs.jchemed.6c00111": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Luís Gustavo Marcolan",
@@ -2153,7 +2167,8 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1021/acs.joc.6c00611": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "A facile and selective room-temperature deoxygenation of both aromatic and aliphatic sulfoxides to thioethers has been achieved by using a TiCl4-AB reduction system in good to excellent yields. This first, practical titanium-mediated ammonia borane reduction process is compatible with various potentially sensitive functional groups. The successful execution of a gram-scale reaction confirms the practical utility of this reduction system. Moreover, its effective application to the synthesis and modification of diverse pharmaceutical molecules further demonstrates its versatility. This work also expands the application scope of ammonia borane in the reduction chemistry.",
   "authors": [
    "Xincheng Liu",
    "Junzheng Sun",
@@ -2188,6 +2203,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1021/acsaem.6c01033": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Sweta Bastia",
@@ -2256,7 +2272,8 @@
   "zh_obj": "光催化固氮"
  },
  "10.1021/acsami.6c04372": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Ammonia synthesis via lithium-mediated nitrogen reduction reaction (Li-NRR) has emerged as a promising electrochemical alternative to the Haber–Bosch process, enabling decentralized, sustainable ammonia production under ambient conditions. Despite this, barriers linger in advancing its efficiency, reaction kinetics, and sustainable operational stability. In this context, we present a high-performance Li-NRR system characterized by a recyclable NiCu1Ru100h foam cathode and a pulsed-voltage operation within a single-cell reactor configuration. Constructed from a Ni foam coated with Cu and Ru, the NiCu1Ru100 electrode presents a large active surface area and catalytic spots, enabling strong lithium plating, nitridation, and protonation functions. Under potentiostatic operation at an optimal cathode potential (−12 V vs Ag/Ag+), the NiCu1Ru100 cathode attained an ammonia yield rate approaching ca. 24 nmol s–1 cmgeo –2 at a current density of −80.5 mA cm–2, alongside a Faradaic efficiency of ca. 9% reaching 20% after constant potentiostatic recycling. The single-compartment cell design, in contrast to a conventional H-cell, indicated that ammonia crossover and anodic ammonia oxidation could substantially influence the apparent performance; we verified this by incorporating an ion-exchange separator and conducting control experiments focused on ammonia oxidation. Significantly, a pulsed operational technique that alternates rapid, intense negative cathodic pulses with anodic stripping pulses markedly reduced the rate of current density loss during recycling of the working electrode, suggesting improved control of solid–electrolyte interphase stability in the Li-NRR process. The cathode was successfully recycled across seven consecutive Li-NRR cycles with minimal structural degradation. This study provides insights into cell configurations and operational strategies that could improve the lifespan and selectivity of lithium-mediated ammonia synthesis.",
   "authors": [
    "Ojo Friday Abraham",
    "Brenden M. Arndt",
@@ -2283,11 +2300,12 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Ru/钌体系"
  },
  "10.1021/acsami.6c08744": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Photothermal ammonia synthesis has emerged as a promising route to couple nitrogen fixation with solar energy, yet the mechanistic origin of light-assisted activity remains difficult to establish because illumination can contribute through heat generation, photoexcited carriers, or both simultaneously. This Review examines recent photothermal NH3 synthesis systems from a diagnostic perspective. Representative Ru- and Fe-based materials are discussed within four photothermal regimes: photo-driven thermocatalysis, photo-assisted thermocatalysis, photothermal co-catalysis, and thermally assisted photocatalysis; and are evaluated according to two complementary questions: what is the most likely dominant photothermal regime under the reported reaction conditions, and how strong is the mechanistic evidence supporting that assignment? Particular attention is given to temperature-normalized light/dark comparisons, apparent activation energy and reaction-order analysis, wavelength- and intensity-dependent activity, isotopic validation, operando spectroscopy, and methods for constraining local thermal gradients. Across the strongest cases, the clearest mechanistic effects emerge when light-responsive functionality overlaps with the kinetically relevant elementary step at a catalytically active interface. The analysis also shows that photothermal co-catalysis should be assigned more restrictively than the other regimes and only when simultaneous and cooperative thermo-photochemical contributions are supported by sufficiently robust mechanistic evidence. By comparing Ru- and Fe-based systems through this evidence-based framework, this Review identifies structure-, interface-, and kinetic-constraint-dependent trends, proposes practical criteria for mechanistic assignment, and outlines priorities for catalyst design, reporting standards, and reactor development in photothermal ammonia synthesis.",
   "authors": [
    "Javier Fermoso",
    "Meryem Farchado",
@@ -2314,11 +2332,12 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮；涉及Ru/钌体系、Fe/铁体系"
  },
  "10.1021/acsami.6c10038": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Ammonia synthesis is a cornerstone of the modern chemical industry and emerging energy technologies, yet its catalytic efficiency remains fundamentally limited by the intrinsic linear scaling relationships. Here, we address this challenge by constructing a triphase heterostructure comprising a Ni2Mo3N host integrated with Mo2N domains and metallic Ni nanoparticles via a solid-solution reaction. Mechanistic studies reveal that metallic Ni activates H2 and supplies spillover hydrogen to the Ni2Mo3N host, thereby promoting surface hydrogenation and generating nitrogen vacancies within the host lattice. These vacancies drive lattice nitrogen migration from the Mo2N reservoir to the host, simultaneously creating surface vacancies on Mo2N that serve as efficient N2 activation centers. Through this spatially separated activation-conversion pathway, the catalyst effectively decouples conflicting elementary steps, achieving a high ammonia synthesis rate of 32.5 mmol·gNi2Mo3N-1·h-1 at 500 °C under 1.0 MPa, which is nearly three times that of the Ni2Mo3N reference and superior to most reported Mo-based catalysts. This work establishes a general design paradigm for constructing tandem catalytic architectures based on a spatial-synergy strategy, providing a viable route to overcome the intrinsic Sabatier limitation imposed by scaling relationships.",
   "authors": [
    "Yu Ji",
    "Xingda An",
@@ -2363,9 +2382,10 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "化学链/晶格氮循环制氨"
  },
  "10.1021/acsanm.6c01356": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kenan Shen",
@@ -2404,6 +2424,7 @@
   "zh_obj": "析氢反应"
  },
  "10.1021/acscatal.6c01546": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kaixi Deng",
@@ -2573,6 +2594,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1021/acssuschemeng.6c01024": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Kanhai Kumar",
@@ -2716,7 +2738,8 @@
   "zh_obj": "等离子体制氨；涉及Ru/钌体系"
  },
  "10.1021/jacs.6c01159": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Decomposing ammonia to produce hydrogen is a promising approach to address challenges in hydrogen storage and transport. While Ru-based catalysts have demonstrated high activity, their long-term stability under industrial conditions remains a critical hurdle. Here, we develop a reductive synthesis strategy to fabricate rod-shaped ceria (CeO2-RodRed) featuring high-density oxygen vacancy clusters, where Ru clusters are effectively anchored via robust Ru-O-Ce3+ linkages formed at 450 °C under N2 atmosphere. The resulting Ru/CeO2-RodRed-450N2 catalyst achieves an impressive 99.0% NH3 conversion at 450 °C, approaching the thermodynamic equilibrium (99.6%), and shows exceptional stability over 1000 h of operation. Integrated experimental characterization and density functional theory calculations reveal that the abundant Ce3+ species and oxygen vacancy clusters create an electron-rich surface with high electron conductivity, which facilitates hydrogen spillover from Ru clusters onto CeO2 to form dynamic Ce-OH groups. The reversible formation and dehydrogenation of these hydroxyl groups accelerate H2 release while suppressing hydrogen poisoning of Ru active sites. By continuously removing adsorbed H atoms via spillover, this mechanism promotes N-N coupling and lowers the energy barrier for the rate-limiting N2 desorption step. This work offers a general strategy for designing highly efficient and stable ammonia decomposition catalysts through rational construction of interfacial active sites.",
   "authors": [
    "Jiyang Xie",
    "Lei Zeng",
@@ -2797,7 +2820,8 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系、碳材料"
  },
  "10.1021/jacs.6c07459": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Ammonia (NH3) synthesis is among the greatest discoveries in human history. While dinitrogen (N2) is converted in nature under ambient conditions to NH3 through an associative mechanism at the FeMoco active site of nitrogenase, the industrialized Haber-Bosch process involves an N2 dissociative mechanism on the C7 site of iron or the B5 site of ruthenium, which requires harsh conditions of high temperatures (430-500 °C) and high pressures (10-30 MPa). Here, we report a new active site of Ru1Mo6 bimetallic single-cluster anchored on Mo2CTx MXene for efficient NH3 synthesis. This highly stable catalyst can achieve N2-to-NH3 thermal synthesis under mild conditions (T = 50 °C and P = 0.1 MPa). An exceptionally high NH3 production rate of 3230 mmol gRu-1 h-1 with >1000 h of long-term stability has been achieved at 400 °C and 1 MPa, which is roughly three times higher than those of highly dispersed Ru catalysts ever reported. This new catalyst featuring an atomically precise single-cluster active site holds promise for designing robust catalytic systems for N2-to-NH3 thermal conversion under mild conditions.",
   "authors": [
    "Yanliang Zhou",
    "Cong Zhang",
@@ -2838,9 +2862,10 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系"
  },
  "10.1038/d41586-026-01914-w": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jianjun Wu"
@@ -2915,7 +2940,8 @@
   "zh_obj": "氨分解制氢；涉及Ru/钌体系"
  },
  "10.1038/s41467-026-74322-3": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Sub-nanoclusters (sub-NCs) hold promise for the alkaline hydrogen oxidation reaction yet struggle with precise atomic dispersion and structural stability. Here, we report an ammonia-mediated electrostatic adsorption strategy that enables the synthesis of tunable paired metal-metal oxide sub-NCs, exemplified by PtSARuRh-MOx (SA represents single-atom sites, M = Cr, Mo, V, Ti, Ta, Zr). Electrostatic interactions between cationic PtRuRhδ+ and oxo-/fluoro-anions (e.g., CrO42−, MoO42-, VO3−, TiF62-, TaF72− and ZrF62−) control phase pairing during pyrolysis. The optimized PtSARuRh-CrOx demonstrates competitive mass activity (13.81 A mg−1, 58-fold that of commercial Pt/C) and delivers a peak power density of 1.43 W cm−2 in an alkaline membrane fuel cell, with stable operation exceeding 200 h. In situ spectroscopy and simulations reveal that the synergistic Ru/Rh sites, electronically modulated by the paired CrOx, collectively optimize H*/OH* adsorption and weaken CO* binding. This work establishes a generalizable synthetic route for the precise construction of paired sub-NCs for advanced energy conversion applications. Sub-nanoclusters hold great promise for alkaline hydrogen oxidation, yet achieving precise atomic control remains challenging. Here, the authors report an ammonia-mediated adsorption strategy to fabricate tunable paired sub-nanoclusters exhibiting good fuel cell performance and long-term durability.",
   "authors": [
    "Xinwei Li",
    "Xin Zhang",
@@ -2947,10 +2973,11 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及Ru/钌体系、碳材料"
  },
  "10.1038/s41467-026-74563-2": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Activating the nitrogen molecule under mild conditions remains a great challenge in ammonia synthesis. Electron-rich active sites are highly sought after to lower the activation barrier and enable efficient ammonia formation. In this work, we engineer electron-rich dianion vacancies using rare-earth carbide (LaC2) as a platform, where N2 undergoes horizontal adsorption and lattice embedding at the C2 dianion vacancy sites. In situ experimental characterization, combined with computational calculations, reveals that the adsorbed N2 molecules accept electrons from the C2 dianion vacancies, forming highly reactive (N = N)δ− intermediates. These species are crucial for promoting ammonia synthesis via an associative pathway. Utilizing the chemical looping ammonia synthesis process, LaC2 emerges as an optimal candidate for N2 activation and the Ni/LaC2 catalyst demonstrates exceptional performance, achieving 6.9 mmol·g⁻1·h⁻1 at 400 °C and 0.1 MPa, exceeding the activity of previously reported metal catalysts for chemical looping ammonia synthesis process and even surpasses the performance of the state-of-the-art 3d transition metal catalyst for catalytic ammonia synthesis under identical conditions. These findings provide new insights into electron-rich, defect-mediated activation processes and offer a promising strategy for the design of efficient and stable catalysts for ammonia synthesis under mild conditions. Activating dinitrogen under mild conditions remains a central challenge in ammonia synthesis, driving the search for electron-rich active sites that can facilitate N₂ activation and lower reaction barriers. Here, the authors create electron-rich dianion vacancies in a rare-earth carbide catalyst, providing a promising route to efficient and stable ammonia synthesis under mild conditions.",
   "authors": [
    "Jiaqi Wang",
    "Bo Dai",
@@ -2999,7 +3026,8 @@
   "zh_obj": "化学链/晶格氮循环制氨"
  },
  "10.1038/s41467-026-74661-1": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Primary amines are one of the most versatile synthetic intermediates, but current methods rely on protecting groups in multistep reactions or corrosive reducing agents. Herein, we report an innovative synthetic method for primary amines based on accelerated microdroplet chemistry. The electrospray process allows in-situ ammonia generation from atmospheric nitrogen, reacting with alcohols of various properties (aliphatic and aromatic) to produce the corresponding amine. The alcohol to amine conversion rate improves (> 10×) when hydrazine is introduced as an ammonia source. Electronic and steric effects are also investigated. Overall, three spray conditions are investigated: (1) co-axial spray with hydrazine, (2) single emitter spray without hydrazine at high flowrates, and (3) single emitter spray without hydrazine at low flowrates. Material collection allowed NMR characterization of products, confirming ipso substitution. Our results suggest this method is a useful alternative to bulk synthesis, achieving primary amines under mild reaction conditions without corrosive reagents and exotic catalysts. Primary amines are one of the most versatile intermediates in synthetic chemistry but current methods for their production rely on the use of protecting groups in multistep reactions or the use of corrosive reducing agents. Herein, the authors report a synthetic method for primary amines that is based on accelerated microdroplet chemistry.",
   "authors": [
    "Rebekah Erin Strong",
    "Owen L. Looker",
@@ -3030,7 +3058,8 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1038/s41467-026-74820-4": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Electrenes are unique materials characterized by a surface floating electron layer, which results in an ultra-low work function, making them ideal candidates for catalyzing chemical reactions via electron donation. However, these materials are extremely sensitive to air and moisture, thereby limiting their potential applications. Here, we demonstrate that oxygen-doped BaSiN2 is an air-stable surface electrene. Its highly active surface, with an ultra-low WF of approximately 1.5 eV, can donate surface floating electrons to adsorbed N2, forming an N2-passivated surface, which can be constantly regenerated through hydrogenation of surface-activated N2. This alternating pathway, particularly with the assistance of Ru loading, effectively produce ammonia: the Ru/BaSiN2:O catalyst exhibits high ammonia synthesis rate of 43 mmol gcat−1 h−1 at 300 °C and 0.9 MPa, and much superior air stability compared to the most active electrides and hydrides-based heterogeneous catalysts reported to date. This discovery opens a new way for electrene-driven heterogeneous catalysis. Air- and moisture-sensitive electrenes have shown promise for catalysis but remain challenging to apply in practice. Here, the authors report oxygen-doped BaSiN2 as the first air-stable surface electrene and demonstrate its application in ammonia synthesis.",
   "authors": [
    "Zhujun Zhang",
    "Shiyao Wang",
@@ -3063,10 +3092,11 @@
    "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
  },
  "10.1039/d6cc01707j": {
-  "abstract": "Flash-Joule heating enables ultrafast, scalable synthesis of Cu 2 Mo 6 S 8 , demonstrating its first application in Chevrel phases.",
+  "ab_try": "2026-10-29",
+  "abstract": "Achieving rapid, energy-efficient, and scalable synthesis of multinary chalcogenides remains challenging. Here, we demonstrate Flash-Joule Heating (FJH) for the ultrafast synthesis of the model Chevrel phase, Cu2Mo6S8. Step-heating offers controlled and phase-pure synthesis, while flash-heating enables sub-second reaction timescales at temperatures >2000 °C, highlighting complementary routes toward faster and more sustainable solid-state synthesis.",
   "authors": [
    "Pranay Ninawe",
    "Cocoro A. Nagasaka",
@@ -3093,7 +3123,7 @@
   "why": [
    "Joule heat"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "过程待核实"
  },
  "10.1039/d6cc02017h": {
@@ -3243,7 +3273,8 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1039/d6gc02381a": {
-  "abstract": "Trace Cu doping promotes the adsorption of NO 3 − and the dissociation of *H by the reaction of Co 3 O 4 with water.",
+  "ab_try": "2026-10-29",
+  "abstract": "Electrocatalytic nitrate reduction reaction (NO3RR) holds significant promise for both sustainable ammonia (NH3) synthesis and industrial wastewater treatment. However, its efficiency in neutral electrolytes is severely limited by the insufficient...",
   "authors": [
    "Dongqi Liu",
    "Chunqi Yang",
@@ -3261,9 +3292,9 @@
   "id": "10.1039/d6gc02381a",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Green Chemistry",
-  "tier": "direct",
+  "tier": "background",
   "title": "Long-Term Efficient Ammonia Synthesis by Cu–Co Tandem Active Sites at High Current Density",
   "top": false,
   "topics": [
@@ -3275,8 +3306,8 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.1039/d6mh00812g": {
   "abstract": "This critical review presents the recent progress of efficient catalysts and reaction mechanisms on ammonia synthesis, identifies key challenges and recommends the novel way to move forward.",
@@ -3380,6 +3411,7 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1039/d6ta02240e": {
+  "ab_try": "2026-10-29",
   "abstract": "This study successfully prepared a novel LaCeO x /Ni catalyst with an inverse structure using a stepwise precipitation method.",
   "authors": [
    "Junjie Lu",
@@ -3545,7 +3577,8 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1109/icops53334.2026.11660084": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Nonthermal plasma provides a unique environment for activating nitrogen molecules at low gas temperatures, offering new possibilities for ammonia synthesis beyond conventional thermal routes. However, the energy cost varies widely among different plasma devices, and the underlying controlling mechanisms remain unclear [1]–[2]. In this work, a comparative data-driven study is conducted to clarify how key non-equilibrium plasma characteristics influence both the production rate and the energy cost of ammonia synthesis in four typical atmospheric-pressure nonequilibrium plasma sources. Experimental datasets from gliding arc, microwave plasma, DBD, and APPJ are integrated into a machine learning regression framework to establish quantitative relationships between plasma temperature parameters and ammonia yield and energy cost. Feature analysis shows that vibrational excitation is the dominant reaction pathway in plasma-assisted ammonia synthesis. More than half of the variation in synthesis performance can be attributed to vibrational temperature in all four plasma systems. Electron energy distribution calculations confirm that, within a reduced electric field range of 20 to 100 Td, most electron energy is transferred into molecular vibrational excitation, establishing this pathway as the primary energy channel. Elevated electron temperature enhances electron impact excitation and dissociation, shifting the energy deposition toward high-energy channels, which weakens the selectivity for vibrational activation, particularly in gliding arc and microwave plasma systems. In contrast, rotational temperature primarily affects the reversibility of ammonia formation at elevated temperatures, where increased gas temperature promotes ammonia decomposition and accelerates vibrational relaxation. In addition, catalyst-assisted DBD systems exhibit substantially enhanced ammonia yield and reduced energy cost, highlighting the strong synergy between plasma activation and surface catalysis. These findings clarify the reaction mechanisms of plasma-assisted ammonia synthesis and provide guidance for reactor design and optimization.",
   "authors": [
    "Shuning Yang",
    "Lanlan Nie",
@@ -3573,11 +3606,12 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_method": "电场辅助，未证实焦耳供热",
+  "zh_obj": "氨分解制氢"
  },
  "10.1109/icops53334.2026.11660297": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Ammonia is a critical chemical for global fertilizer production and is increasingly explored as a carbon-free fuel and energy carrier, motivating the development of sustainable and decentralized synthesis routes. The conventional Haber-Bosch process, while industrially dominant, is energy-intensive, carbon-emissive, and inherently centralized, limiting its applicability for distributed ammonia production. Nanosecond pulsed plasma based production offers a promising alternative[1].",
   "authors": [
    "Jayani H. Edirisooriyage",
    "Olga Pakhomova",
@@ -3590,9 +3624,9 @@
   "id": "10.1109/icops53334.2026.11660297",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "2026 IEEE International Conference on Plasma Science (ICOPS)",
-  "tier": "direct",
+  "tier": "background",
   "title": "Nanosecond Pulsed Discharges Over Water for Atmospheric-Pressure Ammonia Synthesis",
   "top": false,
   "topics": [
@@ -3604,8 +3638,8 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "等离子体驱动",
+  "zh_obj": "等离子体制氨"
  },
  "10.1116/6.0005458": {
   "abstract": "Atomic layer deposition (ALD) shows promise for purposefully modifying the surface chemistry of powders because it has excellent control over the thickness of the applied coatings. ALD can precisely deposit coatings with a resolution approaching 0.1 nm, providing intricate control over surface properties. However, few studies have investigated the potential to systematically vary the surface potential of powders using this precision in ALD’s deposition process. In this work, titanium oxide thin films are deposited onto silicon oxide nanoparticles via ALD to create silica–titania core-shell nanoparticles. The change in the isoelectric points of the particles is investigated as a function of the thickness of the ALD deposited TiO2 layer. For films deposited at 1 nm thickness and below, the isoelectric point changes approximately linearly with coating thickness. For films thicker than 1 nm, the isoelectric point no longer changes, indicating that the surface potential is no longer influenced by the underlying silicon oxide core. We investigate the conformality of the coating with electron microscopy, x-ray photoelectron spectroscopy, and energy-dispersive x-ray (EDX) analysis. Additionally, we introduce a model to estimate layer thickness from the EDX measurements based on simple geometric and stoichiometry assumptions.",
@@ -3946,7 +3980,7 @@
   "id": "10.2139/ssrn.6963134",
   "kind": "preprint",
   "origin": "回填",
-  "score": 15,
+  "score": 18,
   "source": "SSRN",
   "tier": "transferable",
   "title": "Hydrophobic graphene-like from coal tar coated Fe2O3 for efficient electrocatalytic nitrogen reduction to ammonia",
@@ -4147,7 +4181,7 @@
   "id": "10.2139/ssrn.6985010",
   "kind": "preprint",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "SSRN",
   "tier": "background",
   "title": "Structural and Morphological Effects of Cu-Based Alloy Nanoparticles on Electrochemical Nitrogen Reduction under Ambient Conditions",
@@ -4316,9 +4350,9 @@
   "id": "10.26434/chemrxiv.15004730/v1",
   "kind": "preprint",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "ChemRxiv",
-  "tier": "direct",
+  "tier": "background",
   "title": "Technoeconomic and Geospatial Analysis of Biogas Utilization for Enhancing Ammonia Production Competitiveness of the United States",
   "top": false,
   "topics": [
@@ -4350,7 +4384,7 @@
   "id": "10.26599/nre.2025.9120183",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Nano Research Energy",
   "tier": "background",
   "title": "Recent advances in high performance Fe-based catalysts for electrocatalytic nitrogen reduction to ammonia: A review",
@@ -4599,6 +4633,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.3724/2097-213x.2026.jfct.0016": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yu BAI",
@@ -4634,6 +4669,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.3724/2097-213x.2026.jfct.0140": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Linlin XIAN",
@@ -4932,9 +4968,9 @@
   "id": "10.69997/sct.185245",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "Systems and Control Transactions",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Modeling and Simulation of Nitrogen Generation by Pressure Swing Adsorption for Power-to-Ammonia",
   "top": false,
   "topics": [
@@ -4950,6 +4986,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.7498/aps.75.20260042": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "ZOU Haoyu",

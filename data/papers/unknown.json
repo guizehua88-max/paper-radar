@@ -225,6 +225,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.apcatb.2026.126917": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Huibin Ge",
@@ -261,6 +262,7 @@
   "zh_obj": "其他催化反应；涉及原子层沉积"
  },
  "10.1016/j.ces.2026.124350": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Shunlong Yan",
@@ -297,6 +299,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.cplett.2026.142950": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yongfeng Li",
@@ -377,7 +380,7 @@
   "id": "10.1016/j.ijhydene.2026.157496",
   "kind": "journal",
   "origin": "旧站云端",
-  "score": 6,
+  "score": 9,
   "source": "International Journal of Hydrogen Energy",
   "tier": "background",
   "title": "Off-grid electrochemical nitrogen reduction to ammonia I: Optimal design and operation",
@@ -388,7 +391,9 @@
   "url": "https://doi.org/10.1016/j.ijhydene.2026.157496",
   "via": "旧站云端",
   "watch": [],
-  "why": [],
+  "why": [
+   "electrochemical nitrogen reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -461,6 +466,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jece.2026.124688": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yuxin Liao",
@@ -535,6 +541,7 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1016/j.nxmate.2026.102562": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Amjed Sabah Kamil Janabi",
@@ -568,7 +575,8 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料"
  },
  "10.1016/j.xinn.2026.101435": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Potassium (K) has long been employed as a key catalyst promoter for ammonia synthesis. Its chemical state and promoting mechanism, however, remain elusive. Here, we study the influence of different anionic counterparts of K (i.e., H− and OH−) on its promoting capability and function in ammonia synthesis catalysis. When potassium is in the form of hydride (KH), it can enhance the ammonia formation rate of the Fe/carbon nanotube (CNT) catalyst by two orders of magnitude; while it is in the form of hydroxide (KOH), the rate increment is only ∼5 times. We show that both KH and KOH can promote N removal from Fe nitride under a hydrogen atmosphere, where an intermediate KNH2 species may form and further be hydrogenated to NH3. Isotopic measurements show that H atoms in KH and KOH are involved in the formation of NH3. For the KH-Fe catalyst, the hydridic H of KH is reductive and may undergo a redox reaction with adsorbed N (Nad) on Fe to form KNHx species and further be hydrogenated to NH3 and create a clean Fe surface for further nitrogen activation. For the KOH-Fe catalyst, the protonic H of KOH may protonate Nad on Fe to form NH3 through the intermediate species of K–Fe–O and KNH2. This work reveals the crucial role of hydrogen in ammonia synthesis catalysis and, moreover, could inspire revisiting of the role of alkali promoters in industrial ammonia synthesis catalysts.",
   "authors": [
    "Peikun Wang",
    "Wenbo Gao",
@@ -603,10 +611,10 @@
    "Ping Chen"
   ],
   "why": [
-   "NH3 synthesis"
+   "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系、碳材料"
  },
  "10.1039/d6mh01029f": {
   "abstract": "Design of 3d transition metal catalysts toward electrocatalytic nitrate reduction.",
@@ -666,9 +674,9 @@
   "id": "10.1109/tste.2026.3693213",
   "kind": "journal",
   "origin": "旧站云端",
-  "score": 28,
+  "score": 9,
   "source": "IEEE Transactions on Sustainable Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Bilevel Optimization for Green Hydrogen-to-Ammonia Synthesis System Considering Complex Dynamic Processes and Uncertainties",
   "top": false,
   "topics": [

@@ -359,9 +359,9 @@
   "id": "10.1002/anie.202402777",
   "kind": "journal",
   "origin": "回填",
-  "score": 13,
+  "score": 10,
   "source": "Angewandte Chemie International Edition",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Bypassing Ammonia: From N 2 to Nitrogen Heterocycles without N 1 Intermediates or Transition Metals",
   "top": true,
   "topics": [
@@ -742,6 +742,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.apsusc.2023.159238": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Jiaying Jiang",
@@ -777,6 +778,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.carbon.2024.119060": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Congli Zhou",
@@ -827,7 +829,7 @@
   "id": "10.1016/j.cclet.2023.108550",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "Chinese Chemical Letters",
   "tier": "background",
   "title": "Recent progress and prospects of electrolytes for electrocatalytic nitrogen reduction toward ammonia",
@@ -838,7 +840,9 @@
   "url": "https://doi.org/10.1016/j.cclet.2023.108550",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "electrocatalytic nitrogen reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -914,6 +918,7 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.cej.2024.150006": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Ahmed Essyed",
@@ -984,6 +989,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cej.2024.150160": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Chao Huang",
@@ -1167,6 +1173,7 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1016/j.diamond.2024.111009": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Elyes Dhaouadi",
@@ -1265,6 +1272,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ijhydene.2024.03.078": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Keju Yan",
@@ -1327,6 +1335,7 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ijhydene.2024.03.256": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Pintu Kumar Roy",
@@ -1456,7 +1465,8 @@
   "zh_obj": "电化学亚硝酸盐还原"
  },
  "10.1016/j.jcis.2024.01.090": {
-  "abstract": "",
+  "ab_try": "2026-10-29",
+  "abstract": "Due to the challenges involved in achieving high metal load, uniform metal dispersion and nanosized metal particles simultaneously, it is difficult to develop a simple protocol for the rapid and efficient synthesis of Pt-based composites for electrocatalytic ethanol oxidation reaction (EOR). In this study, a facile ultrafast thermal shock strategy via Joule heating was applied to fabricate a series of PtCoCu ternary nanoalloys decorated carbon nanotube composites (TS-PtCoCu/CNTs), without the need for a reducing agent or surfactant. The TS-PtCoCu/CNTs with optimal Pt content (∼15 %) exhibited excellent EOR activity, with mass and specific activity of 3.58 A mgPt-1 and 5.79 mA cm-2, respectively, which are 3.8 and 13.5 times higher than those of Pt/C. Compared with the control prepared through the traditional furnace annealing, the catalyst also showed excellent activity and stability. DFT calculations revealed that the TS-PtCoCu/CNTs possesses a downshifted d-band center, weakened CO adsorption and higher OH affinity compared with monometallic Pt, all of which lead to the preferred C1 pathway for EOR. This study demonstrates an ultrafast construction of a highly efficient Pt-Co-Cu ternary catalyst for EOR. Additionally, it provides insights into the reaction mechanism based on structural characterization, electrochemical characterization, and theoretical calculations.",
   "authors": [
    "Mingxing Nie",
    "Zhengyu Xu",
@@ -1490,7 +1500,7 @@
    "Joule heat"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应；涉及碳材料"
  },
  "10.1016/j.jclepro.2024.141959": {
   "abstract": "",
@@ -1698,6 +1708,7 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.jwpe.2024.105170": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Tetiana Tatarchuk",
@@ -1731,6 +1742,7 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.powtec.2024.119613": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Wei Liu",
@@ -1825,6 +1837,7 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/s1872-5813(23)60397-4": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Zhouting GONG",
@@ -1876,9 +1889,9 @@
   "id": "10.1021/acs.est.3c10751",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Environmental Science & Technology",
-  "tier": "direct",
+  "tier": "background",
   "title": "Achieving Decentralized, Electrified, and Decarbonized Ammonia Production",
   "top": false,
   "topics": [
@@ -1947,9 +1960,9 @@
   "id": "10.1021/acs.iecr.3c04629",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Industrial & Engineering Chemistry Research",
-  "tier": "direct",
+  "tier": "background",
   "title": "Causality Analysis of the Green Ammonia Synthesis Process Using the Convergent Cross Mapping Algorithm",
   "top": false,
   "topics": [
@@ -1998,6 +2011,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1021/acs.jpcc.4c01107": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Chunli Liu",
@@ -2030,6 +2044,7 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1021/acsaem.3c03109": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Congcong Ni",
@@ -2081,7 +2096,7 @@
   "id": "10.1021/acsanm.4c01571",
   "kind": "journal",
   "origin": "回填",
-  "score": 6,
+  "score": 9,
   "source": "ACS Applied Nano Materials",
   "tier": "background",
   "title": "Boron-Doped PdRh Mesoporous Nanotubes for Electrocatalytic Nitrogen Reduction to Ammonia",
@@ -2092,7 +2107,9 @@
   "url": "https://doi.org/10.1021/acsanm.4c01571",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Electrocatalytic Nitrogen Reduction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -2137,6 +2154,7 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
  },
  "10.1021/acscatal.4c00830": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yihao Jiang",
@@ -2278,6 +2296,7 @@
   "zh_obj": "光催化固氮"
  },
  "10.1021/acssuschemeng.4c01335": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yaru Wang",
@@ -2484,7 +2503,8 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1039/d4se00254g": {
-  "abstract": "Reaction kinetics for the synthesis of NH 3 from renewable H 2 under mild reaction conditions.",
+  "ab_try": "2026-10-29",
+  "abstract": "Ammonia (NH3) production using green hydrogen and its emerging application as carbon-free energy carrier or fuel is predicted to play an important role for the global energy transition. Yet, the...",
   "authors": [
    "T. Cholewa",
    "B. Steinbach",
@@ -2630,9 +2650,9 @@
   "id": "10.1109/ceepe62022.2024.10586499",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "2024 7th International Conference on Energy, Electrical and Power Engineering (CEEPE)",
-  "tier": "direct",
+  "tier": "background",
   "title": "Reviewing the Current State of Development on Renewable Energy Electrolytic Water Hydrogen Production and Ammonia Synthesis Systems",
   "top": false,
   "topics": [
@@ -2686,9 +2706,9 @@
   "id": "10.12968/s0262-1762(24)70079-0",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "World Pumps",
-  "tier": "direct",
+  "tier": "background",
   "title": "Pumps & Compressors for Ammonia Production",
   "top": false,
   "topics": [
@@ -2738,6 +2758,7 @@
   "zh_obj": "电化学氮还原"
  },
  "10.2139/ssrn.4793493": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Yanfei Zheng",
@@ -2788,9 +2809,9 @@
   "id": "10.2139/ssrn.4795633",
   "kind": "preprint",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "SSRN",
-  "tier": "direct",
+  "tier": "background",
   "title": "High Catalytic Activity and Abundant Active Sites in M2c12 Monolayer for Nitrogen Reduction Reaction",
   "top": false,
   "topics": [
@@ -2806,6 +2827,7 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.2139/ssrn.4805742": {
+  "ab_try": "2026-10-29",
   "abstract": "",
   "authors": [
    "Arash Tajik",
