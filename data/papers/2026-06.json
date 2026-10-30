@@ -51,6 +51,9 @@
    "Ao Wang",
    "Kang Sun"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-08",
   "doi": "10.1002/adfm.76424",
@@ -72,8 +75,10 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "生物质衍生的硬碳 (HC) 已成为钠离子电池 (SIBs) 的有前景的低成本负极材料。然而，传统的热解通常导致较窄的石墨层间距和无序的微观结构，这阻碍了 Na + 扩散动力学并限制了低电压平台容量。本研究开发了一种铁介导的焦耳加热策略，以超快时间尺度精确设计竹衍生 HC 的微观结构。快速碳原子重构，结合 Fe-催化的石墨化，同时实现了增大的层间距、发育良好的封闭孔隙和具有长程有序的扩展石墨微晶，共同促进了更快的 Na + 扩散和存储。值得注意的是，微量的残留 Fe 通过降低电解液分解势垒来调节界面化学，促进形成薄、均匀且富含无机物的固体电解质界面。受益于这种微观结构和界面化学的双重调节，所得 HC 交付 395 mAh g −1 的可逆容量 (在 0.05 A g −1 下)，包括 297 mAh g −1 的高平台容量，并在 5000 次循环后保留了 84% 的初始容量，优于报道的生物质",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "焦耳加热触发的生物质硬碳界面工程用于高性能钠离子电池"
  },
  "10.1002/adfm.76580": {
   "abstract": "ABSTRACT Amorphous metal‐organic frameworks ( a ‐MOFs) hold great promise for expanding the functional and structural landscape of traditional MOFs, yet their fabrication and local structural investigations remain a significant challenge. Herein, we propose a partial coordination bond disruption strategy for preparing a ‐MOFs from mixed‐ligand complexes. The M 2 (trz) 2 sq family ( M = Co, Zn, Cd; trz = 1,2,4‐triazolate; sq = squarate) features two different types of linkage: stronger M–trz–M connections that assemble into a flexible “wine‐rack” framework, and comparatively weaker M–sq–M connections that act as the supporting pillars. A comprehensive analysis combining synchrotron‐based powder X‐ray diffraction, X‐ray absorption fine structure (XAFS) spectroscopy, pair distribution function (PDF) analysis, and density functional theory (DFT) calculations reveals that, under thermal dehydration, the M–sq–M linkages are selectively broken. Meanwhile, the wine‐rack M–trz–M framework undergoes geometric distortion, ultimately leading to the loss of long‐range order. Benefiting from the abundance of coordinatively unsaturated cobalt sites, the a ‐Co 2 (trz) 2 sq shows remarkable electrocatalytic performance toward the nitrate reduction reaction (NO 3 RR) to ammonia, achieving a Faraday efficiency (FE) of up to 96.32%. This work unambiguously reveals the synergistic effect of partial coordination disruption in mixed‐ligand MOFs, potentially opening a new avenue for the rational design of functional a ‐MOFs.",
@@ -185,6 +190,9 @@
    "Michael Krause",
    "Luis Velásquez"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-17",
   "doi": "10.1002/adhm.71329",
@@ -206,8 +214,10 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "本研究探索了锌官能化的壳聚糖 (CS) 通过三种原子级技术（蒸汽相金属化 (VPM)、多次脉冲蒸汽相浸润 (MPI) 和 O2 放电增强原子层沉积 (PEALD)）工程生物多功能界面。X 射线光电子能谱 (XPS) 分析和集成的能量色散 X 射线 (EDX) 元素映射的扫描电子显微镜 (SEM) 确认了所有范围内 Zn 分布的均匀性，而原子力显微镜 (AFM) 揭示了从 VPM 中的平面化（Rq = 5.6 nm）到 MPI 中的高表面积成核（Rq = 123.9 nm）的形貌转变。X 射线衍射 (XRD) 分析表明结构重新配置，VPM 减少了水合相晶粒尺寸（7.4 到 4.6 nm），而 MPI 实现了最细的纳米晶粒度（1.83 nm）。值得注意的是，PEALD 改性的界面表现出最高的界面能（0.102 J/m 2 ）和增强的溶胀。物理化学表征表明，功能化方法决定了半导体特性，而生物实验",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "原子层沉积过程：用于工程 ZnO–壳聚糖生物界面的多功能平台"
  },
  "10.1002/adma.73603": {
   "abstract": "ABSTRACT The development of efficient catalysts for nitrogen conversion to ammonia is critical for a sustainable alternative to the energy‐intensive Haber–Bosch process. Yet, rational catalyst design remains highly challenging, compounded by complex structure–function relationships within realistic conditions. Herein, we present an integrated computational framework combining quantum chemical calculations with 27 machine learning models to predict experimental catalytic metrics in metal–ligand complexes. The models are trained and validated on a large experimental database and demonstrate high predictive accuracy across multiple tasks. For classification, family 1 and family 2 catalysts achieved test accuracies up to 1. Regression models yield test R 2 values of 0.91 and 0.88 for turnover frequency (TOF) and turnover number (TON) predictions in family 1, and 0.96 and 0.99 in family 2. Notably, the models accurately capture time‐dependent variability of TOF and TON for new complexes, with predicted values closely matching experimental results. Moreover, strong transfer learning capability is observed for structurally distinct coordination architectures. Feature interpretation reveals clear design principles for optimal catalysts involving metal spin state, ligand geometry, charge distribution, and experimental conditions. Together, this study established an efficient and practical framework for discovery and inverse design of high‐performance catalysts under realistic conditions, with broader relevance to electrocatalysis.",
@@ -321,6 +331,9 @@
    "Yuxiao Lin",
    "Xiaoxiao Li"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-18",
   "doi": "10.1002/advs.76184",
@@ -342,8 +355,10 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "包含两种不同赝电容电极的非对称超级电容器 (ASC) 为提高能量密度提供了有希望的途径，但严重的自放电行为和较差的循环寿命阻碍了其更广泛的应用。本文提出了一种基于快速焦耳热煅烧的可控碳壳包覆策略来构建具有抑制自放电和稳健循环稳定性的高性能 ASC。结果，组装的 ASC (H‐Fe 3 O 4 @C‐15//H‐NiCo 2 S 4 @C‐40) 在 749 W kg −1 的功率密度下表现出 105.6 W h kg −1 的最大能量密度，并在 25 000 次循环后保留了 93.7% 的电容。此外，当前 ASC 还表现出温和的自放电，其开路电压在 31102 s 后从 1.48 降至 0.75 V。理论上，密度泛函理论 (DFT) 结果充分揭示了自放电性能的显著改善应源于电极与电解质离子之间吸附能的增加。有意义的是，这种可控碳壳包覆策略代表了一种通用的可行方法，可有效抑制自放电并延长 A",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "通过快速焦耳热煅烧实现可控碳壳包覆用于具有抑制自放电和稳健循环稳定性的高性能非对称超级电容器"
  },
  "10.1002/anie.4927761": {
   "abstract": "ABSTRACT The photocatalytic nitric oxide reduction reaction (NORR) to NH 3 offers a promising route for ammonia (NH 3 ) synthesis, addressing environmental issues and mitigating the carbon footprint associated with the energy‐intensive Haber‐Bosch process. However, conventional sluggish multi‐proton‐coupled electron transfer (PCET) and poor regulation of valence states at active sites hinder the efficiency of NORR. Herein, we propose a hydrogenation pathway driven by hydrogen radicals ( • H) utilizing ethylene glycol (EG) as a hydrogen donor, which effectively bypasses the limitations of the conventional PCET process. By precisely modulating the valence states of Pd cocatalysts, we construct synergistic Pd 0 /Pd 2+ dual active sites, where Pd 2+ sites facilitate the dissociation of C‐H bonds from EG to supply adsorbed H species (*H), which are subsequently activated into highly reactive • H by photogenerated electrons at Pd 0 sites. This synergistic effect of Pd 0 /Pd 2+ guarantees a steady flux of • H for deep NORR. Optimizing the Pd 0 /Pd 2+ ratio to unity (Pd 1.0 /TiO 2 ‐50) enabled a superior NH 3 yield rate of 31.61 ± 1.61 mmol∙g cat −1 ∙h −1 with high NO conversion (91.54% ± 1.82%) and NH 3 selectivity (90.14% ± 1.38%) in a single pass flow. Comprehensive in situ characterizations elucidate the causality between Pd valence states and radical generation, offering a new paradigm for designing and understanding the radical‐mediated chemistry.",
@@ -505,6 +520,9 @@
    "Yejian Xue",
    "Wei Luo"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-22",
   "doi": "10.1002/cey2.70278",
@@ -526,8 +544,10 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "C1 分子（CO、CO2、CH4、CH3OH、CH2O 等）的催化转化是通往碳中和和可持续能源未来的关键途径。传统的热催化依赖于化石燃料燃烧来供热，但这种方法存在传热效率低、能耗高和催化剂失活等问题。相比之下，焦耳热催化直接用电流激励导电催化剂，实现原位、空间均匀加热，并耦合电场和热场，从而提高 C1 分子转化率和整体能源效率。本综述系统地阐明了焦耳热催化的基本原理，并重点介绍了其在 CO2 甲烷化、重整制氢以及甲醛和 CO 氧化方面的应用进展。从增强传热、电子动力学和能带结构调控的角度，全面分析了电热协同作用的机制。此外，从理论理解、材料设计和工业应用等方面讨论了焦耳热催化的现有挑战和未来前景。这项工作旨在为推进焦耳热催化技术的根本研究和大规模应用提供见解和指导。",
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "超越炉子：利用原位焦耳热实现高效的 C1 催化"
  },
  "10.1002/cjoc.70586": {
   "abstract": "Comprehensive Summary Electrochemical lithium–mediated nitrogen reduction (LiNR) offers a sustainable alternative to the Haber‐Bosch process for ammonia synthesis but faces hurdles in reaction mechanisms and component optimization. This review critically analyzes recent advancements of LiNR, categorizing them into intermittent (ILiNR) and continuous (CLiNR) modes based on the operational strategies of proton sources. CLiNR is further classified by anode mechanisms: electrolyte oxidation, H 2 oxidation (HOR), and Li oxidation (LiOR). Integrating the lithium–nitrogen cell (Li–N 2 ) concept into LiNR highlights its distinct advantages, particularly in lithium sourcing, side reaction suppression, and lithium cycling. We comprehensively examine electrode materials, cell configurations, and electrolytes. The relationship between Li–N 2 and LiNR is analyzed. Divergences in cell design, operating voltage, cathode reaction mechanisms, and lithium cycling strategies are discussed to offer guidance for integrating Li–N 2 cells into LiNR. Future research should focus on elucidating the nitrogen fixation mechanism at low current densities, increasing current density to accelerate N 2 reaction rates, investigating the evolution of nitrogen‐fixing lithium‐containing interfaces, and introducing controlled trace proton sources to enhance interface permeability, in order to enable sustainable ammonia synthesis coupled with lithium cycling. Key Scientists Lithium‐mediated nitrogen reduction (LiNR) for ammonia synthesis has experienced remarkable development. The field witnessed its inception in 2017 with the pioneering report of the Li‐N 2 battery by Zhang et al. and intermittent ammonia synthesis (ILiNR) via a lithium‐cycling mechanism by Jens Nørskov and Ib Chorkendorff et al. In 2019, a protocol for continuous ammonia synthesis (CLiNR) was established and 15 N 2 isotope experiment confirmed its success. The development of kinetic models played a crucial role in this domain, contributions emerging in 2019, 2020, and 2022. The investigation of hydrogen oxidation (HOR) as the anode reaction garnered attention, due to its potential to mitigate electrolyte oxidation. Manthiram et al. were the first to incorporate the HOR in 2020, employing gas diffusion electrodes. In 2022, they explored the influence of proton sources on the reaction. MacFarlane et al. introduced the concept of the proton shuttle in 2021. In 2023, Fu et al. utilized a continuous flow reactor and D 2 isotope experiments to validate the source of protons. Zhang and Cai et al. explored the solvents and applied the membrane electrode. In 2024, Li et al. achieved long‐term continuous ammonia synthesis. Since 2022, Sun and Ma et al. focused on integrating Li‐N 2 and LiNR methodologies. In 2024, they highlighted the advantages of lithium anode and proposed that both lithium oxidation reduction (LiOR) and HOR could suppress electrolyte oxidation, potentially enabling continuous lithium‐cycling‐based ammonia synthesis. This review synthesizes the mechanistic insights at both the cathode and anode. It also focuses on common themes related to electrodes, cells, and electrolytes. Finally, the manuscript offers a perspective on the future research directions for Li‐N 2 cell and LiNR.",
@@ -1066,6 +1086,9 @@
    "M. N. Gafurova",
    "A. M. Pashaeva"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-09",
   "doi": "10.1007/s13762-026-07306-x",
@@ -1088,7 +1111,8 @@
    "atomic layer deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "通过原子层沉积制备可见光激活的钼掺杂 TiO2 薄膜用于环境光催化应用"
  },
  "10.1016/j.aoas.2026.100413": {
   "ab_try": "2026-10-29",
@@ -1133,6 +1157,9 @@
    "Yarong Huang",
    "Xiwen Song"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.apcata.2026.120978",
@@ -1155,7 +1182,8 @@
    "Joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "通过超快焦耳热构建Co6Mo6C2/Mo2C/Co/CC异质结构用于析氧反应"
  },
  "10.1016/j.apcatb.2025.126374": {
   "ab_try": "2026-10-29",
@@ -1388,6 +1416,9 @@
    "Chi Zhang",
    "Songyuan Ding"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.cej.2026.176432",
@@ -1416,7 +1447,8 @@
    "Joule-heat"
   ],
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "阵列碳纤维反应器通过脉冲焦耳热提升甲烷热解乙炔产率"
  },
  "10.1016/j.cej.2026.176626": {
   "ab_try": "2026-10-29",
@@ -1463,6 +1495,9 @@
    "Anh-Tuan Le",
    "Manh-Huong Phan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.cej.2026.176655",
@@ -1485,7 +1520,8 @@
    "Joule heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "焦耳热驱动的电催化氧化挥发性有机化合物"
  },
  "10.1016/j.cej.2026.176741": {
   "ab_try": "2026-10-29",
@@ -1500,6 +1536,9 @@
    "Jina Kim",
    "Hyung-Ho Park"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.cej.2026.176741",
@@ -1522,7 +1561,8 @@
    "atomic layer deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "通过原子层沉积引导的钴磷酸气凝胶尖晶石重构，实现动力学和本征活性的解耦调控用于析氧"
  },
  "10.1016/j.cej.2026.176774": {
   "ab_try": "2026-10-29",
@@ -1616,6 +1656,9 @@
    "Dong Tian",
    "Daofu Liu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.ceramint.2026.04.094",
@@ -1638,7 +1681,8 @@
    "Joule heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "快速焦耳热制备及性能的 LaB6 颗粒强化银基电接触材料"
  },
  "10.1016/j.ceramint.2026.04.328": {
   "ab_try": "2026-10-29",
@@ -1653,6 +1697,9 @@
    "Weimin Wang",
    "Zhengyi Fu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.ceramint.2026.04.328",
@@ -1675,7 +1722,8 @@
    "rapid heating"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "燃烧合成化学炉快速加热制备的 Al2O3–Y3Al5O12 共晶陶瓷的微观结构和晶体学取向关系"
  },
  "10.1016/j.chempr.2025.102884": {
   "ab_try": "2026-10-29",
@@ -1772,6 +1820,9 @@
    "Lvzhou Li",
    "Yao Hu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.colsurfa.2026.139945",
@@ -1794,7 +1845,8 @@
    "joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "闪焦耳热合成 N-P 共掺杂分级生物炭用于超快亚甲基蓝吸附"
  },
  "10.1016/j.colsurfa.2026.140069": {
   "ab_try": "2026-10-29",
@@ -1973,6 +2025,9 @@
    "Mihaela Iordache",
    "Adriana Marinoiu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.ijhydene.2026.155354",
@@ -1995,7 +2050,8 @@
    "atomic layer deposit"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "原子层沉积技术制备的用于质子交换膜燃料电池和电解槽的电催化剂"
  },
  "10.1016/j.ijhydene.2026.155494": {
   "ab_try": "2026-10-29",
@@ -2013,6 +2069,9 @@
    "Natalia Anna Wójcik",
    "Katarzyna Siuzdak"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.ijhydene.2026.155494",
@@ -2035,7 +2094,8 @@
    "Atomic layer deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "析氢反应；涉及原子层沉积"
+  "zh_obj": "析氢反应；涉及原子层沉积",
+  "zh_title": "Pd 和 SnO2 在 TiO2 纳米管上的原子层沉积：高效制氢的途径"
  },
  "10.1016/j.ijhydene.2026.155517": {
   "ab_try": "2026-10-29",
@@ -2157,6 +2217,9 @@
    "Nan Zhao",
    "Bo Xie"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.jaap.2026.107759",
@@ -2179,7 +2242,8 @@
    "Joule heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "焦耳热制备的石墨烯结构生物炭增强土壤功能、微生物群落和植物生长"
  },
  "10.1016/j.jallcom.2026.188454": {
   "ab_try": "2026-10-29",
@@ -2190,6 +2254,9 @@
    "Kazuharu Suzuki",
    "Jeong Hwan Han"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.jallcom.2026.188454",
@@ -2212,7 +2279,8 @@
    "atomic layer deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
+  "zh_title": "配体反应介导的原子层沉积 Ru 掺杂 MoCx 薄膜用于双功能铜扩散屏障和种子层"
  },
  "10.1016/j.jcat.2026.116823": {
   "ab_try": "2026-10-29",
@@ -2388,6 +2456,9 @@
    "Yarong Huang",
    "Xiwen Song"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.jece.2026.122504",
@@ -2410,7 +2481,8 @@
    "joule heat"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "快速焦耳热合成富氧空位的高熵氧化物作为高效氧析出电催化剂"
  },
  "10.1016/j.jece.2026.122549": {
   "ab_try": "2026-10-29",
@@ -2526,6 +2598,9 @@
    "Jun Zhang",
    "Wei Wei"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.jece.2026.123061",
@@ -2548,7 +2623,8 @@
    "Joule heat"
   ],
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "逆水煤气变换"
+  "zh_obj": "逆水煤气变换",
+  "zh_title": "Mo 基导电催化剂直接焦耳热电解制逆水煤气变换"
  },
  "10.1016/j.jenvman.2026.129972": {
   "ab_try": "2026-10-29",
@@ -2630,6 +2706,9 @@
    "Yijun Cao",
    "Chongqing Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.jiec.2025.11.035",
@@ -2652,7 +2731,8 @@
    "Joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_title": "闪焦耳热在可持续制备石墨烯中的应用：原理、发展与储能应用综述"
  },
  "10.1016/j.jphotochem.2026.117035": {
   "ab_try": "2026-10-29",
@@ -2770,6 +2850,9 @@
    "Andraž Kocjan",
    "Aljaž Iveković"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.matdes.2026.116126",
@@ -2792,7 +2875,8 @@
    "magnetic heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "通过增材制造制备具有磁加热能力的聚合物衍生 SiOC(Fe) 陶瓷复合材料催化剂载体"
  },
  "10.1016/j.matt.2026.102753": {
   "ab_try": "2026-10-29",
@@ -2915,6 +2999,9 @@
    "J. Ilja Siepmann",
    "Michael Tsapatsis"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.memsci.2026.125562",
@@ -2942,8 +3029,10 @@
   "why": [
    "ALD"
   ],
+  "zh_brief": "利用原子/分子层沉积 (ALD/MLD) 的二乙锌 (DEZ) 和 2-甲基咪唑 (2mIm) 直接在 γ-氧化铝涂层 α-氧化铝载体上合成超薄非晶态沸石咪唑酯骨架 (aZIF) 沉积。随着 ALD/MLD 周期从 10 增加到 50，气体渗透率降低而理想选择性增加。C3H6/C3H8、CO2/N2 和 H2/C3H8 的混合物分离因子分别高达 4、37 和 194。在 200 °C 和 2.5 bar 下，H2 和 C3H8 等摩尔进料时，H2/C3H8 混合物分离因子为 185，H2 渗透率为约 4.15x10-8 mol/m2-s-Pa (124 GPU)。此外，膜在 25 °C 和 1 bar 下实现 CO2/N2 混合物分离因子为 37，CO2 渗透率为 3.96x10-8 mol/m2-s-Pa (118 GPU)。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "原子/分子层沉积制备的非晶态沸石咪唑酯骨架膜气体渗透性能"
  },
  "10.1016/j.oceram.2026.100986": {
   "ab_try": "2026-10-29",
@@ -2955,6 +3044,9 @@
    "Václav Pouchlý",
    "Salvatore Grasso"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.oceram.2026.100986",
@@ -2977,7 +3069,8 @@
    "ultrafast high-temperature sintering"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "超快速高温烧结 (UHS) 配置的对比研究用于加速合成 (MgCoNiCuZn)O 高熵氧化物"
  },
  "10.1016/j.procir.2026.05.275": {
   "ab_try": "2026-10-29",
@@ -3264,6 +3357,9 @@
    "Daoyin Liu",
    "J. Ruud van Ommen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-26",
   "doi": "10.1021/acs.iecr.6c01380",
@@ -3286,7 +3382,8 @@
    "Atomic Layer Deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "通过扩展双流体-种群平衡模型解析纳米颗粒流化床原子层沉积反应器中的多尺度扩散"
  },
  "10.1021/acs.inorgchem.6c01852": {
   "ab_try": "2026-10-29",
@@ -3698,6 +3795,9 @@
    "Xiaotong Zhao",
    "Peng Du"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-05",
   "doi": "10.1021/acsanm.6c01356",
@@ -3720,7 +3820,8 @@
    "Joule-Heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "析氢反应"
+  "zh_obj": "析氢反应",
+  "zh_title": "脉冲焦耳热激活的N掺杂介孔碳上PtRu纳米团簇促进碱性析氢"
  },
  "10.1021/acscatal.5c08350": {
   "abstract": "Abstract Programmable catalysis can provide a more energy-efficient and cost-effective route to enhancing commercial ammonia production, a key process in the advancement of renewable energy technologies and the manufacture of fertilizers and basic chemicals. This work explores the computational discovery of optimal forcing protocols to drive such dynamic catalysis models. By employing matrix-free time-stepper methods, coupled with an optimization approach, that integrates Bayesian optimization with a Bayesian continuation strategy to efficiently discover the periodic steady states of such periodically forced systems, we enable the discovery of complex optimal catalyst strain waveforms, while ensuring robust solver convergence. We demonstrate the flexibility of our approach to discover optimized forcing protocols under varying physical constraints on strain modulation or other catalyst operating parameters. We show that these can have a temporal structure more complex than simple step functions. In order to detect undesirable catalytic loops that may correlate with overall reduced performance, we perform a study using graph-theoretical analysis to investigate the dynamics of catalytic kinetic networks formed.",
@@ -3990,6 +4091,9 @@
    "Jingwei Xue",
    "Fulei Liu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-12",
   "doi": "10.1021/acssuschemeng.6c02576",
@@ -4011,8 +4115,10 @@
   "why": [
    "Joule-Heat"
   ],
+  "zh_brief": "钠金属负极具有高理论容量 (1166 mA h g−1) 和低氧化还原电位，但实际应用受库仑效率和枝晶引起的安全生产风险限制。本研究通过超快焦耳加热 (≤1s, &gt;1500 °C) 设计了装饰有银纳米粒子的木质素衍生碳纤维载体 (Ag@LCF)，深化了碳基质中的石墨化程度 (IG/ID = 0.815)，并均匀种下了亲钠 Ag 位点。Ag 纳米粒子起双重作用：它们催化 Na 成核，并提供降低界面阻抗的渗透导电网络。密度泛函理论揭示 Ag@LCF 实现了热力学稳定的 Na 吸附 (低至 –1.73 eV)，并最小化了枝晶和平面生长路径之间的能隙 (0.27 eV)。这归因于 Ag-C 轨道杂化，它调节了局部电子环境，确保了适度的电荷转移和稳定结合 (ICOHP = 0.877 eV)，从而消除了形成枝晶的电子驱动力。这导致了无枝晶的钠沉积、长循环寿命 (对称电池 &gt;250 h，全",
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_title": "焦耳加热 Ag 纳米粒子功能化的木质素衍生碳纤维实现均匀钠沉积"
  },
  "10.1021/acssuschemeng.6c03768": {
   "abstract": "Abstract Ammonia cracking is a key reaction for hydrogen storage and release, offering a promising route toward a hydrogen economy. Herein, a robust silica-supported cobalt (Co) catalyst is developed using a histidine-assisted dispersion strategy to mitigate sintering. Histidine (His), a naturally occurring amino acid, is codissolved with the Co(II) precursor to produce uniformly dispersed Co nanoparticles on silica via incipient wetness impregnation (2, 6, and 10 wt %). The resulting particles exhibit sizes of ∼2−3 nm, significantly smaller than those prepared without histidine. Thermogravimetric analysis confirms complete removal of histidine after treatment at 250 °C for 48 h. Synchrotron powder X-ray diffraction reveals that the histidine-assisted method suppresses Co3O4 formation, favoring smaller CoO species during the initial synthesis stage. H2 temperature-programmed reduction confirms the corresponding differences of Co3O4 and CoO in reducibility and further shows that histidine-assisted samples possess smaller nanoparticles. The 10 wt % Co-His/SiO2 catalyst demonstrates superior activity and stability in ammonia cracking at 500 °C, achieving 30.5% NH3 conversion compared to 13.5% for the nonhistidine-assisted counterpart. These findings confirm the use of histidine as a biodegradable ligand to conveniently prepare supported metal catalysts that are less prone to sintering and remain catalytically active in reactions critical to sustainability.",
@@ -4544,6 +4650,9 @@
    "Cocoro A. Nagasaka",
    "Jesús M. Velázquez"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-02",
   "doi": "10.1039/d6cc01707j",
@@ -4565,8 +4674,10 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "该研究展示了闪光焦耳热（FJH）用于模型切夫rel相Cu2Mo6S8的超快合成。分步加热提供可控和单相合成，而闪光加热在>2000 °C下实现亚秒反应时间尺度，突出了更快、更可持续固态合成的互补途径。",
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "闪光焦耳热实现多元硫族化合物快速固态合成：以Cu2Mo6S8为例"
  },
  "10.1039/d6cc02017h": {
   "abstract": "High-entropy oxide electrocatalysts synthesized via ultrafast Joule heating successfully replace the sluggish oxygen evolution reaction with efficient methanol oxidation, leveraging multi-metal synergies for energy-efficient biomass upgrading.",
@@ -4582,6 +4693,9 @@
    "Na Liu",
    "Hainan Sun"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-16",
   "doi": "10.1039/d6cc02017h",
@@ -4603,8 +4717,10 @@
   "why": [
    "Joule-heat"
   ],
+  "zh_brief": "通过超快焦耳热合成的高熵氧化物电催化剂成功地用高效的甲醇氧化反应取代了缓慢的析氧反应，利用多金属协同作用进行能量高效的生物质升级。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "焦耳热合成高熵氧化物作为高效的电化学甲醇氧化催化剂"
  },
  "10.1039/d6cc02221a": {
   "abstract": "This review summarizes plasma-based ammonia synthesis using water as a hydrogen source, covering advanced catalyst design, reactor optimization, and electro/photocatalysis coupling to boost green ammonia's efficiency and selectivity.",
@@ -4653,6 +4769,9 @@
    "Peng Du",
    "Jiacheng Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-22",
   "doi": "10.1039/d6cc03157a",
@@ -4674,8 +4793,10 @@
   "why": [
    "Joule-heat"
   ],
+  "zh_brief": "在镍泡沫上合成的自支撑 RuNiFeO x 电催化剂通过快速脉冲焦耳热处理表现出在碱性电解质中优异的析氧反应活性和耐久性。",
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "焦耳热辅助构建 RuNiFeO x /Ni 基板用于高效耐用的析氧"
  },
  "10.1039/d6ee01570k": {
   "abstract": "Anodic activation creates a specific CoFe-(oxy)hydroxide interface on spinel CoFe 0.25 Cr 1.75 O 4 , enabling spontaneous lattice-proton supply for fast nitrate hydrogenation and broad-window ammonia electrosynthesis.",
@@ -4833,6 +4954,9 @@
    "Kelei Huang",
    "Xiangchao Meng"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-05",
   "doi": "10.1039/d6qi00745g",
@@ -4854,8 +4978,10 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "该研究探索了一种可扩展的焦耳热方法，通过优化的NiMoO4/MoO2异质结构实现高性能、稳定的RO海水电解，在较低电压和能耗下达到工业电流密度。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "快速焦耳热可扩展工程NiMoO4/MoO2催化剂用于工业预处理海水电解"
  },
  "10.1039/d6sc02866g": {
   "abstract": "In recent years, photocatalytic hydrogenation of metal-nitrides to ammonia using solar energy as a renewable energy source and dihydrogen as both an electron and a proton source has been intensively investigated to achieve one of the most desirable next-generation scientific techniques, i.e., atom-economical ammonia production from dinitrogen and dihydrogen, thereby contributing to a carbon-neutral society. In this study, we have successfully developed visi-ble-light-driven photocatalytic hydrogenation of manganese-nitride complexes to ammonia at room temperature un-der 1 atm of dihydrogen in the presence of diruthenium complexes as dihydrogen oxidation catalysts and iridium complexes as photosensitizers. The turnover numbers based on the catalyst and the yield of ammonia based on the manganese-nitride complex reached up to 150 equiv. and 91%, respectively, indicating the high durability and effi-ciency of this photocatalytic system. Moreover, this hydrogenation proceeded photocatalytically even under 0.05 atm of dihydrogen, which was a much lower partial pressure compared to the previous systems reported by other re-search groups.",
@@ -5038,6 +5164,9 @@
    "Dmytro Nykypanchuk",
    "Xiao Tong"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-01",
   "doi": "10.1063/5.0337162",
@@ -5059,8 +5188,10 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "该研究报道了利用等离子体增强原子层沉积低温合成氮化镓（GaN）薄膜，并制造AlN/GaN场效应晶体管用于微电子应用。使用三甲基镓[Ga(CH3)3]和三甲基铝[Al2(C2H5)6]分别作为Ga源和Al源，氨（NH3）气作为N源。高分辨率透射电子显微镜分析显示GaN薄膜具有多晶结构，X射线衍射分析显示GaN薄膜具有主导的(002)六方纤锌矿晶体结构。X射线光电子能谱研究GaN薄膜的原子浓度，表明相对原子浓度与GaN的预期化学计量比密切相关。制造了AlN（4 nm）/GaN（9 nm）场效应晶体管，其中9 nm厚的GaN薄膜作为有源沟道材料，并制造了环形振荡器。制造的AlN/GaN晶体管表现出优异的n沟道场效应晶体管的电学性能，制造的振荡器每级传播延迟（tp）为6.3 ns。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "利用等离子体增强原子层沉积低温合成氮化镓薄膜用于纳米电子学"
  },
  "10.1088/1361-6668/ae7033": {
   "abstract": "Abstract Ultrafast joule heating (UJH) has emerged as a powerful non-equilibrium processing strategy for rapid ceramic synthesis, yet its applicability to superconducting materials remains largely unexplored. Here, we systematically investigate the ultrafast sintering behavior of Ba 1− x K x Fe 2 As 2 (BaK122) precursor bulks under extreme heating rates (10 3 –10 4 °C s -1 ) and sub-minute processing times. By precisely controlling the input energy and peak temperature, we reveal a distinct temperature-dependent evolution of phase formation, microstructure, elemental redistribution, and superconducting properties. High-purity BaK122 can be synthesized within only 20 s at temperatures as low as 500 °C–600 °C. Further thermal input primarily promotes grain coarsening without improving phase purity. However, excessive temperatures above ∼900 °C induce potassium evaporation, leading to BaK122 decomposition and FeAs segregation along grain boundaries. The superconducting performance exhibits a non-monotonic dependence on sintering temperature, with better superconductivity achieved within a narrow kinetic window that balances rapid phase formation and chemical stability. These results establish UJH as a viable route for rapid synthesis of iron-based superconductors and provide fundamental insights into the non-equilibrium processing limits imposed by volatile dopants.",
@@ -5069,6 +5200,9 @@
    "Zhenguo Zhang",
    "Chiheng Dong"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-09",
   "doi": "10.1088/1361-6668/ae7033",
@@ -5090,8 +5224,10 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "超快焦耳加热 (UJH) 已成为快速陶瓷合成的强大非平衡处理策略，但其对超导材料的应用仍 largely unexplored。本研究系统地调查了 Ba 1− x K x Fe 2 As 2 (BaK122) 前驱体块在极端加热速率 (10 3 –10 4 °C s -1 ) 和亚分钟处理时间下的超快烧结行为。通过精确控制输入能量和峰值温度，揭示了相形成、微观结构、元素重新分布和超导性能的温度依赖性演变。可以在仅 20 s 内合成高纯度的 BaK122，温度低至 500 °C–600 °C。进一步的热输入主要促进晶粒粗化，而未提高相纯度。然而，超过 ~900 °C 的过高温度会导致钾蒸发，导致 BaK122 分解和 FeAs 沿晶界偏析。超导性能对烧结温度表现出非单调依赖性，在平衡快速相形成和化学稳定性的狭窄动力学窗口内实现了更好的超导性。这些结果建立了 UJH 作为铁基超导体快速合成可行",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "Ba 1− x K x Fe 2 As 2 的相形成和结晶：超快焦耳加热"
  },
  "10.1088/2058-6272/ae6b26": {
   "abstract": "Abstract This work systematically investigates the role of catalyst Oxygen Vacancies (O V ) in plasma-catalyzed ammonia synthesis over MnO x /MgAl Layered Double Hydroxide (LDH). Experiments show that the MnO x /LDH-500 catalyst (where -500 indicates calcination at 500 °C) with the highest surface oxygen vacancy concentration achieves an ammonia concentration of 12056 parts per million (ppm), which is 1.54 times that obtained with the bare LDH support possessing the lowest vacancy content, 1.27 times that of MnO x /LDH-300 and 1.33 times that of MnO x /LDH-700. Meanwhile, the energy yield increased significantly with increase in oxygen vacancies. The MnO x /LDH-500 catalyst achieved an energy yield of 1.10 g·kWh −1 , which is 1.54 times that of the bare LDH support. In situ optical diagnostics reveal that the key intermediate, excited N 2 , is first generated in the gas phase and then adsorbed onto the catalyst surface to form NH x species for ammonia formation. The benefit of oxygen vacancies lies in providing surface sites for excited N 2 adsorption. These findings offer scientific guidance and a practical strategy for designing efficient catalysts compatible with plasma processes.",
@@ -5236,6 +5372,9 @@
    "Aaron K. Vannucci",
    "Mark D. Losego"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-29",
   "doi": "10.1116/6.0005458",
@@ -5257,8 +5396,10 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "通过原子层沉积（ALD）在二氧化硅纳米颗粒上沉积二氧化钛薄膜以创建二氧化硅-二氧化钛核壳纳米颗粒。研究了颗粒等电点随 ALD 沉积 TiO2 层厚度的变化。对于 1 纳米厚度及以下的薄膜，等电点随涂层厚度近似线性变化。对于 1 纳米以上的薄膜，等电点不再变化，表明表面电位不再受下方的二氧化硅核影响。使用电子显微镜、X 射线光电子能谱和能量色散 X 射线（EDX）分析研究了涂层的致密性。此外，基于简单的几何和化学计量学假设，引入了一个从 EDX 测量中估计层厚度的模型。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "通过原子层沉积纳米级氧化物涂层来调节二氧化硅颗粒的 zeta 电位"
  },
  "10.1126/sciadv.aee9634": {
   "abstract": "Photoelectrochemical nitrogen (N) fixation to ammonia (NH 3 ) is a sustainable route for hydrogen storage yet limited by the stubborn N≡N bond and competitive interfacial reaction kinetics. Inspired by nitrogenase, we design single-atom iron (Fe)–doped tungsten oxide (WO 3 ) subnanowires as a bioinspired, dynamically integrated catalytic platform to systematically overcome these challenges: (i) The distorted lattice and asymmetric sites create a dynamically responsive catalytic center, where photoinduced valence-lattice oscillation drives electron delocalization, shifting the conventional N 2 adsorption mode and reaction pathway; (ii) the unique self-adhesive and film-forming properties enable robust, binder-free electrodes with maximized active-site exposure; and (iii) surface ligand engineering establishes a bioinspired microenvironment that selectively enriches N 2 and regulates proton access. This system achieves an NH 3 yield of 286 micrograms per milligram of catalyst per hour, a 24-fold improvement over conventional Fe-WO 3 nanowires, with stable performance over 30 cycles. This work demonstrates functionally integrated, bioinspired catalysis at the subnanoscale, offering a paradigm for efficient molecular conversion.",
@@ -5454,6 +5595,9 @@
    "Xiaoyu Ji",
    "Junxiang Guo"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-01",
   "doi": "10.2139/ssrn.6864494",
@@ -5475,8 +5619,10 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "该研究开发了一种原位焦耳热PVDF复合膜，具有亲水-疏水异质结构，通过静电纺丝和真空沉积制造。通过掺入PEG和还原氧化石墨烯（rGO）导电网络，膜表现出快速电热响应，在50 V下15 s内达到178.8 ℃。除沫由主动物理化学机制控制，其中局部焦耳热急剧降低重油粘度并动态降低热力学润湿势垒，而原位极化的PVDF基质强烈压缩带负电液滴的双电层（EDL）。这种热-电-结构协同作用从根本上打破了胶体热力学平衡，驱动小分散液滴快速碰撞和聚结成大油簇以实现瞬时分离，达到98.4%的除沫效率。此外，通过主动减轻界面胶体污染，该膜在100小时连续分离中保持约120 KL/(m2·h)的优异累积通量，为复杂、高粘度废水修复提供了一种高度耐用的范例。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "焦耳热驱动PVDF膜具有协同增强的亲水-疏水异质结构用于高效除沫"
  },
  "10.2139/ssrn.6886851": {
   "abstract": "This study presents a computational fluid dynamics (CFD) framework for analyzing coupled heat transfer, flow distribution, and catalytic reaction in low temperature ammonia decomposition fixed bed reactors packed with Ru/Al₂O₃ catalysts. Unlike conventional porous medium approaches, the present model explicitly resolves catalyst packing geometries generated using Blender based rigid body packing simulations. To improve model reliability, kinetic parameters of the Temkin-Pyzhev ammonia decomposition model were estimated using experimental data through a one-dimensional (1D) gPROMS model and implemented into ANSYS Fluent through a user defined function (UDF).The developed CFD framework was applied to sphere, 1-hole, and 7-hole catalyst geometries to investigate the effects of catalyst shape on heat transfer, flow distribution, and ammonia decomposition performance. The sphere catalyst exhibited the highest ammonia conversion of approximately 83%, whereas the 7-hole and 1-hole catalysts showed lower conversions of approximately 73% and 66%, respectively, despite their larger surface to volume ratio. The hole-type catalysts induced nonuniform flow penetration and reduced convective heat transfer inside the catalyst bed, limiting effective utilization of the enlarged internal surfaces. In contrast, the sphere catalyst formed more continuous heat transfer pathways and maintained a larger fraction of surface area within high reaction rate regions. These results indicate that, contrary to the common expectation that larger catalyst surface areas improve reactor performance, the results reveal that catalyst geometries promoting superior thermal accessibility and flow penetration can achieve substantially higher ammonia conversion under endothermic operating conditions.",
@@ -5586,6 +5732,9 @@
    "Ryosuke Harada",
    "Seong Keun Kim"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-15",
   "doi": "10.2139/ssrn.6945723",
@@ -5607,8 +5756,10 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "Ru 是一种很有前景的超薄互连和电容器电极材料。然而，由于介电表面上的成核限制，在原子层沉积 (ALD) 中实现超薄、连续的金属膜且表面粗糙度最小仍然具有挑战性。本研究展示了使用 [Ru(TMM)(CO)3] 前驱体和 O3 进行的 Ru 膜的 ALD 过程。基于 O3 的工艺在 220 °C 下表现出 0.17 nm/周期的生长速率，在 SiO2 上的潜伏期可以忽略不计。特别是，即使在亚纳米厚度下也实现了电连续性，表明成核密度高且有效地抑制了岛状物融合。这导致即使在膜扩展到实际厚度时也具有超光滑的表面形貌。此外，研究发现相演变受瞬时 O3 分压的关键控制。高 O3 分压抑制与 RuO4 等挥发性物种形成相关的膜生长，而中等通量下的延长脉冲持续时间促进逐步氧化形成 RuO2。这些发现表明，相演变不仅受总氧化剂剂量控制，还受氧化剂供应条件控制，为控制基于 Ru 的 ALD 中的成核、表面形貌",
   "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应；涉及Ru/钌体系、原子层沉积"
+  "zh_obj": "其他催化反应；涉及Ru/钌体系、原子层沉积",
+  "zh_title": "连续和超薄钌膜的相演变与成核控制：通过氧化剂控制的原子层沉积"
  },
  "10.2139/ssrn.6959998": {
   "abstract": "The direct coupling of carbon dioxide and nitrates into urea powered by renewable electricity offers a promising alternative to the conventional Bosch-Meiser process, enabling integrated carbon reduction, energy storage, and high-value nitrates conversion. However, the intrinsically complex multi-step reaction pathways and kinetically demanding C–N bond formation result in limited urea activity and selectivity. Herein, we propose a distance-regulated cooperative C–N coupling strategy in urea electrosynthesis by tuning the inter-site spacing of atomically dispersed iron catalysts supported on carbon nitride (Fe1/C3N4). The interatomic distance of Fe/Fe sites is precisely controlled from 103.1 to 6.3 Å. Excessive separation (≥14.2 Å) impedes the second C–N coupling step, whereas overly short distances (≤1.8 Å) alter the adsorption of *CO and *NH from linear to bridged configurations, hindering the first C–N bond formation. An optimal Fe/Fe distance (~8.3 Å) balances electronic modulation and spatial proximity, enabling efficient C–N coupling. The optimized catalyst delivers a urea yield rate of 46.1 mmol g-1 h-1 with a Faradaic efficiency of 38.6% at -0.9 V versus RHE, and achieves 65.2% under pulsed electrolysis. In situ spectroscopy and theoretical calculations indicate that the regulated inter-site distance optimizes adsorption configurations and promotes C–N coupling. This study provides insight into distance-dependent synergistic effects in single-atom catalysts and offers a strategy for designing efficient electrocatalysts for complex reactions.",
@@ -5761,6 +5912,9 @@
    "Jordi Arbiol",
    "Jordi Guilera"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-19",
   "doi": "10.2139/ssrn.6967300",
@@ -5782,8 +5936,10 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "原子层沉积 (ALD) 能够以原子精度设计金属-载体界面，但促进剂空间分布对催化性能的影响尚未充分理解。在介孔 Al₂O₃ 上沉积微量 TiO₂，并使用前驱体剂量和暴露时间的不同来将 Ti 负载与其空间分布分离。低剂量/高暴露策略导致 TiO₂ 在外表面富集，由 XPS、HAADF-STEM-EDS、H₂-TPR 和 WDS 确认。尽管 CO 吸附显示总暴露钴表面积减少，但改性催化剂在费托合成 (FTS) 应用中表现出 TOF、CO 转化率、碳氢化合物产率和 C₅₊ 选择性的显著增加。CO-DRIFTS 分析揭示了 CO 吸附带的明显红移，表明通过 Co-TiOx 界面的电子扰动增强了 CO 活化。这些发现突出了促进剂空间分布在高效金属-氧化物催化剂设计中的重要性。",
   "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "原子层沉积的空间控制用于调节 Co–TiOₓ 界面以用于费托合成"
  },
  "10.2139/ssrn.6983090": {
   "abstract": "Al2O3–Y3Al5O12 (Al2O3–YAG) eutectic ceramic with a three-dimensionally continuous interpenetrating network structure was successfully fabricated via a rapidly heated combustion synthesis chemical furnace. The effects of combustion agent mass on the microstructural evolution and solidification behavior of Al2O3–YAG eutectic ceramics were systematically investigated. The results indicate that the combustion agent mass determines the undercooling degree, melt viscosity and solidification velocity, thereby regulating the eutectic morphology from conventional ”Chinese script” structure to uniform cellular structure. When the combustion agent mass is 180 g, the inter-lamellar spacing of Al2O3–YAG eutectic reaches 1.19 μm, and the growth rate of Al2O3–YAG eutectic is up to 70.62 μm/s. Meanwhile, the Al2O3–YAG eutectic ceramic achieves excellent comprehensive mechanical properties, with a Vickers hardness of 21.58 GPa and a fracture toughness of 3.36 MPa·m1/2. This is attributed to the ultra-fine homogeneous microstructure and multiple synergistic toughening mechanisms, including crack deflection, crack bridging and crack arrest. This work demonstrates that the combustion synthesis rapid heating method is an efficient approach to fabricate high-performance Al2O3–YAG eutectic ceramics, providing a feasible strategy for rapid preparation of fine-structured high-temperature structural ceramics.",
@@ -5794,6 +5950,9 @@
    "Man Xu",
    "Weimin Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-23",
   "doi": "10.2139/ssrn.6983090",
@@ -5815,8 +5974,10 @@
   "why": [
    "rapid heating"
   ],
+  "zh_brief": "Al2O3–Y3Al5O12 (Al2O3–YAG) 共晶陶瓷通过快速加热的燃烧合成化学炉成功制备。系统地研究了燃烧剂质量对 Al2O3–YAG 共晶陶瓷微观结构演变和凝固行为的影响。结果表明，燃烧剂质量决定了过冷度、熔体粘度和凝固速度，从而调节共晶形貌从传统的“汉字”结构到均匀的蜂窝结构。当燃烧剂质量为 180 g 时，Al2O3–YAG 共晶的层间间距达到 1.19 μm，Al2O3–YAG 共晶的生长速率高达 70.62 μm/s。同时，Al2O3–YAG 共晶陶瓷具有优异的综合力学性能，维氏硬度为 21.58 GPa，断裂韧性为 3.36 MPa·m1/2。这归因于超细均匀的微观结构和多种协同增韧机制，包括裂纹偏转、裂纹桥接和裂纹阻滞。这项工作表明，燃烧合成快速加热方法是一种制备高性能 Al2O3–YAG 共晶陶瓷的有效方法，为快速制备细结构高温结构陶瓷提供了一种可行策略。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "燃烧剂质量对燃烧合成化学炉快速加热制备的 Al2O3–YAG 共晶陶瓷微观结构的影响"
  },
  "10.2139/ssrn.6985010": {
   "abstract": "Copper-based alloy nanoparticle catalysts, including Cu-Ni, Cu-Zn, Cu-Fe, and Cu-Pd systems, were synthesized and evaluated for electrochemical nitrogen reduction reaction (NRR) under ambient conditions. The alloy nanoparticles were prepared using hydrothermal and thermal decomposition methods and characterized by X-ray diffraction (XRD), extended X-ray absorption fine structure (EXAFS), and transmission electron microscopy (TEM). The synthesized nanoparticles exhibited spherical morphologies with particle sizes ranging from 5.6 to 33.4 nm depending on alloy composition and preparation conditions. Electrochemical NRR measurements were conducted in 0.1 mol L⁻¹ Na₂SO₄ electrolyte using an H-type electrochemical cell under continuous N₂ flow. Among the investigated catalysts, Cu₁Fe₃ exhibited enhanced catalytic performance, achieving an NH₃ yield rate of 29.13 μg mg⁻¹cat h⁻¹ with a Faradaic efficiency (FE) of 2.94% at −0.3 V. In addition, Cu₁Pd₂ achieved the highest FE of 5.23%, accompanied by an NH₃ yield rate of 24.57 μg mg⁻¹cat h⁻¹, while Cu₂Pd₁ showed the highest NH₃ production rate of 30.47 μg mg⁻¹cat h⁻¹. These performances exceeded those of the corresponding monometallic Cu, Fe, and Pd catalysts prepared in this study. Control experiments conducted under open-circuit conditions and under Ar flow produced no detectable NH₃, confirming that the observed ammonia formation originated from electrochemical nitrogen reduction rather than environmental contamination or catalyst decomposition. The enhanced NRR activity of the Cu-Fe and Cu-Pd alloy nanoparticles is attributed to alloy-induced electronic structure modulation together with increased active surface area associated with reduced nanoparticle size. These findings demonstrate that alloy engineering of Cu-based nanoparticles is an effective strategy for improving catalytic activity and selectivity toward electrochemical ammonia synthesis under ambient conditions.",
@@ -6139,6 +6300,9 @@
    "Willy Satrio Nugroho",
    "Abdul Mudjib Sulaiman Wahid"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-10",
   "doi": "10.31603/mesi.14658",
@@ -6160,8 +6324,10 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "本研究调查了使用闪光焦耳加热 (FJH) 方法从香蕉叶废弃物中合成的多孔氧化石墨烯 (GO) 用于超级电容器电极应用。在输入电压 5、10 和 15 VA 下进行 2 s 的碳化，然后用 0.3 M KOH 进行活化。结构表征 (SEM、EDX、FTIR 和 XRD) 确认形成了分级多孔碳，具有含氧官能团。电化学评估表明，在 10 VA 下合成的样品表现出最佳性能，实现了 345 F g⁻¹ 的比电容、0.65 Ω 的低内阻和 500 次循环后的 95% 电容保持率。相比之下，5 VA 样品由于其非晶结构表现出较低的导电性，而 15 VA 样品由于其过多的宏观孔形成而表现出降低的电容。这些结果表明，控制的 FJH 电压在优化孔结构和电化学性能方面起着关键作用，突出了香蕉叶衍生的 GO 作为高性能超级电容器电极材料的潜力。",
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_title": "闪光焦耳加热合成香蕉叶废弃物中的多孔氧化石墨烯用于高性能超级电容器电极"
  },
  "10.3390/app16115481": {
   "abstract": "The separation of synthesised ammonia from unreacted nitrogen and hydrogen is a crucial step in producing high-purity ammonia and enabling the efficient recycling of unreacted gases in the ammonia synthesis process. The separation of ammonia from nitrogen and hydrogen was studied using zeolite 13X. Experiments were performed using a custom-designed experimental apparatus developed specifically for this study. Adsorption isotherm data for ammonia, hydrogen, and nitrogen were obtained over a temperature range of 293–313 K and pressures up to 5 bar. The results show that the adsorption capacity of zeolite 13X for ammonia is significantly higher than for nitrogen and hydrogen. This indicates a substantially stronger affinity toward ammonia molecules, enabling highly selective adsorption. The experimental isotherm data were successfully fitted using the Sips model, which accurately described the adsorption behaviour of the gases and showed good agreement with the measured data. The adsorption performance of zeolite 13X was further evaluated through a series of dynamic breakthrough experiments under varying pressures and gas compositions. The results confirmed the high selectivity of zeolite 13X for ammonia, with negligible adsorption of nitrogen and hydrogen. Ammonia breakthrough time was found to increase with system pressure, reflecting enhanced adsorption capacity. These findings highlight zeolite 13X as an effective and reusable adsorbent for selective ammonia separation in multi-component gas streams, with promising potential for industrial applications.",
@@ -6417,6 +6583,9 @@
    "Shichao ZHAO",
    "Yong QIN"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-27",
   "doi": "10.3724/2097-213x.2026.jfct.0140",
@@ -6439,7 +6608,8 @@
    "atomic layer deposit"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应；涉及原子层沉积"
+  "zh_obj": "其他催化反应；涉及原子层沉积",
+  "zh_title": "支撑体尺寸对原子层沉积构建的 Pt/Fe2O3 催化剂 CO 氧化性能的影响"
  },
  "10.54254/2755-2721/2026.ad34258": {
   "abstract": "Ammonia, a crucial chemical in global industrial production, plays an indispensable role in agricultural fertilizers as well as in emerging energy areas. The conventional Haber-Bosch method converts nitrogen and hydrogen into ammonia under high temperatures and high pressures, but it depends heavily on fossil fuels together with high operational conditions which results in large amounts of energy being consumed and serious carbon emissions. To overcome this issue, alternative production methods are required. This study explored the use of zeolite to advance the production method of ammonia. Zeolite is a molecular sieve and is widely used in various applications: as a catalyst in the chemical industry owing to its pore size, as a soil conditioner in agriculture, and as a water softener through ion exchange. However, these properties do not make it incompatible with modern sustainable development requirements. (Or: This versatility makes it compatible with modern sustainable development requirements.)",
@@ -6612,6 +6782,9 @@
    "Samuel Mercer",
    "Michael Baldea"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-06-19",
   "doi": "10.69997/sct.125437",
@@ -6633,8 +6806,10 @@
   "why": [
    "Electrified Chemical"
   ],
+  "zh_brief": "涉及完全关闭和启动的灵活启停操作策略在某些电网条件下（如可调度需求响应）可能对电化学工厂有益。本文介绍了一种多周期哈密顿-雅可比可达性框架，用于探索工厂关闭和启动的状态轨迹空间。关闭定义为导致无物质流或能量输入的待机状态的操作，以及安全约束内的变量。通过从期望的稳态操作点构建反向可达性管来识别候选待机状态。候选关闭/待机状态在快速和慢速区域之间被划分。为快速区域确定了允许的控制输入轨迹，从中选择最小时间轨迹作为快速启动的最优解。使用反应/分离/回收工厂的概念验证模拟。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "用于电化学化工过程的灵活启停操作框架"
  },
  "10.69997/sct.126160": {
   "abstract": "An optimized flowsheet can be generated by numerous approaches. Process optimization via superstructure is one of the methods used to provide solutions that consider the interactions between different decision layers. A process simulator-based optimization is considered in this work, as it offers a reliable and rigorous modeling environment. It is then coupled with a P-graph-based framework to reduce the tedious mathematical writing of the logical constraints to guarantee the structural coherence of a sequence of unit operations.The developed framework consists of three algorithms. The first algorithm transforms the superstructure flowsheet into a P-graph. The second algorithm gets process sub-structures from the superstructure by searching for active units corresponding to a set of decisions made, for example, by an optimizer. The third one checks structural feasibility by verifying that the resulting structure satisfies the five axioms of the original P-graph framework and two additional connectivity tests proposed in this work.The proposed methodology is then applied to an ammonia synthesis process. The results obtained in this work enable a reduction in structural logical constraints while achieving outcomes equivalent to those of a previous study, proving the methodology’s efficacy.",
