@@ -1596,6 +1596,42 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
+ "10.1002/ejic.70342": {
+  "abstract": "A practical nickel platform for transfer hydrogenation (TH) of alkenes using ammonia borane (AB) is described. With NiCl 2 ·6H 2 O/ethylenediamine ( L2 ) at 25–50 °C, aromatic and aliphatic alkenes reduce rapidly and α,β‐unsaturated esters undergo chemoselective C═C hydrogenation; at low loading the system achieves turnover number up to 3960. Discrete Ni(II) complexes, C1–C4 , mirror the behavior of in situ Ni/ L systems, indicating common active species. Mechanistic studies reveal that AB initiates catalysis by converting Ni(II) to Ni(0), while AB dehydrogenation supplies H 2 required for hydrogenation. Ni–H signatures appear only under specific ligand environments ( L1 ) and are transient on the NMR timescale; L2 promotes efficient initiation without detectable hydride resting states. Hg‐drop tests, observation of ligand dissociation/nickel black, AB‐purity effects, DLS, and TEM analyses confirm catalyst evolution to nickel‐containing particulate material after catalysis, while the collective mechanistic data support AB‐mediated activation of Ni(II) precatalysts and hydrogenation in the presence of H 2 generated from AB. The method uses earth‐abundant nickel, bench‐stable AB, and simple ligands to deliver fast, scalable TH under mild conditions.",
+  "authors": [
+   "Vincent Vermaak",
+   "M. Cassiem Joseph",
+   "Pamela Moyo",
+   "Hermanus C. M. Vosloo",
+   "Andrew J. Swarts"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1002/ejic.70342",
+  "first_seen": "2026-10-30T17:01:46Z",
+  "id": "10.1002/ejic.70342",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "European Journal of Inorganic Chemistry",
+  "tier": "background",
+  "title": "Highly Efficient Transfer Hydrogenation of Alkenes With Ammonia Borane Mediated by a Simple Ni(II) Catalyst System",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/ejic.70342",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "描述了使用氨硼烷 (AB) 进行烯烃转移氢化的实用镍平台。在 NiCl2·6H2O/乙二胺 (L2) 体系下，芳香族和脂肪族烯烃快速还原，在低负载下达到 3960 的周转数。机理研究证实 AB 将 Ni(II) 活化为 Ni(0) 并提供 H2。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解",
+  "zh_title": "Ni(II) 催化体系介导氨硼烷高效烯烃转移氢化"
+ },
  "10.1002/open.70305": {
   "abstract": "This review takes a structure mechanism perspective on active site dynamics and charge transfer pathways governing ammonia selectivity in metal–organic frameworks (MOFs). This review aims to summarize the progress of MOF‐based electrocatalysts for nitrate to ammonia conversion, with a focus on structural characteristics, charge transfer behavior, and catalytic activity. The basic principles of nitrate reduction reaction (NO 3 − RR) such as reaction thermodynamics, reduction process, and important activity descriptors are presented. The recent developments on pristine MOFs, conductive MOFs, MOF‐derived materials and hybrid architectures are summarized and the roles of metal centers, ligand functionalization, defect engineering, heterometallic interactions and interfacial coupling in controlling nitrate adsorption, intermediate stabilization and hydrogenation processes in MOFs are highlighted. Representative MOF based systems achieve NH 3 Faradaic efficiencies (FEs) up to about 99% with production rates near 22.5 mg h −1 cm −2 and nitrate conversion approaching 99%. The contribution of theoretical calculations and operando characterization techniques toward understanding reaction mechanisms is discussed. Key bottlenecks include low‐intrinsic conductivity, limited structural stability under reducing conditions, uncertain identification of the true active phase during reconstruction, and inconsistent testing protocols across studies. Finally, the current limitations and future research directions for developing stable, conductive, and practically relevant MOF‐based NO 3 − RR catalysts are critically evaluated.",
   "authors": [
@@ -1769,6 +1805,60 @@
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+ },
+ "10.1002/smll.76585": {
+  "abstract": "ABSTRACT The rapid accumulation of spent lithium‐ion batteries (LIBs) presents both an environmental challenge and a resource opportunity. Conventional recycling focuses on regenerating battery‐grade materials, requiring stringent control of metal purity and composition. Here, we directly upcycle waste battery leachate into a bimetallic Mn/Co‐MOF‐74 electrocatalyst without introducing additional Mn precursors, leveraging the compositional complexity of battery waste for electrochemical nitrogen reduction (EN 2 RR). The resulting Mn/Co‐MOF exhibits enhanced EN 2 RR performance compared with pristine Co‐MOF, achieving an NH 3 yield of 88.9 µg NH3 ·h −1 ·mg cat −1 (at −0.3 V vs. RHE) and the highest FE NH3 to 27.2% (at −0.15 V vs. RHE). Mechanistic investigations confirm an associative reaction pathway and verify dinitrogen as the ammonia source. Density functional theory calculations reveal that Mn incorporation induces local lattice distortion and elongates the axial Co–O bond, strengthening Co–NNH interactions and lowering the energy barrier of the rate‐determining step. Integration into a nanofibrous membrane electrode further increases the NH 3 yield (113.8 µg NH3 ·h −1 ·mg cat −1 ) and FE NH3 (29.1%). This work establishes a waste‐to‐catalyst strategy that exploits battery‐waste heterogeneity for sustainable ammonia production under ambient conditions.",
+  "authors": [
+   "Bo Han",
+   "Wenyu Luo",
+   "Yejin Liang",
+   "Nan Zhang",
+   "Huu Khue Pham",
+   "Chengyi Liu",
+   "Yue Hu",
+   "Made Dhaneswara Pranakusuma",
+   "Yushi Xiao",
+   "Shuen Tso",
+   "Beier Jia",
+   "Erhai Hu",
+   "Chu Zhang",
+   "Kunli Goh",
+   "Shibo Xi",
+   "Rong Wang",
+   "Chade Lv",
+   "Qiang Zhu",
+   "Madhavi Srinivasan",
+   "Haobo Li",
+   "Qingyu Yan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1002/smll.76585",
+  "first_seen": "2026-10-30T17:01:46Z",
+  "id": "10.1002/smll.76585",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Small",
+  "tier": "background",
+  "title": "Bimetallic Mn/Co‐MOF from Electronic Waste for Enhanced Electrochemical Nitrogen Reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/smll.76585",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "利用废旧锂离子电池浸出液直接升级为双金属 Mn/Co-MOF-74 电催化剂，在室温下实现电化学氮还原。Mn 掺入诱导晶格畸变并延长轴向 Co-O 键，降低决速步能垒，在 –0.15 V vs. RHE 下获得 27.2% 的最高 NH3 法拉第效率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
+  "zh_title": "电子废料制备的双金属 Mn/Co-MOF 用于增强电化学氮还原"
  },
  "10.1002/sus2.70103": {
   "abstract": "ABSTRACT Solar‐driven photocatalytic nitrogen reduction reaction (p‐NRR) offers a sustainable pathway for ammonia synthesis under ambient conditions. However, its efficiency is fundamentally hampered by the kinetic inertness of the N≡N triple bond. Herein, we construct oxygen‐vacancy‐induced asymmetric Co 2+ –Ov–Co 3+ units within two‐dimensional (2D) ultrathin LaCoO 3− x nanosheets to address this challenge. Oxygen‐vacancy‐induced symmetry breaking reconstructs the Co–O coordination field, forming Co 2+ sites with redistributed 3d energy levels that strongly couple with π* orbitals of N 2 . In situ spectroscopic measurements and theoretical calculations reveal that these asymmetric sites promote directional electron injection, stabilize the key *NNH intermediate, and decrease the transition‐state energy barrier of the rate‐determining step from 1.98 to 1.38 eV. Moreover, spin‐resolved orbital reconfiguration and orbital‐level modulation further guide the reaction pathway from the conventional distal pathway toward a more thermodynamically favorable alternating mechanism. Consequently, the optimized LaCoO 3− x exhibits a photocatalytic NH 3 production rate of 462.6 µg g −1 h −1 , which is 7.7 times higher than that of pristine LaCoO 3 . This work provides a fundamental insight into orbital‐level catalyst design for highly efficient p‐NRR.",
@@ -6827,6 +6917,45 @@
   "zh_obj": "N₂/H₂气相合成氨；涉及Fe/铁体系",
   "zh_title": "LiH/FePcG通过界面氢化物介导二氮活化催化氨合成"
  },
+ "10.1021/acscatal.6c07802": {
+  "abstract": "Abstract Photoelectrochemical nitrate reduction (PEC NO3RR) enables nitrate remediation and ammonia synthesis under light irradiation. However, most reported systems operate under neutral or alkaline conditions to suppress the competing hydrogen evolution reaction (HER), which compromises product separation and overall energy efficiency. Although acidic NO3RR is intrinsically favorable for stabilizing the ammonia product in the nonvolatile NH4+ form and suppressing ammonia loss, it remains fundamentally challenged by severe proton competition and HER dominance. Here, acidic NO3RR is intentionally established as a stringent design target rather than merely an operational condition. An electronically reconstructed CuNi cocatalyst is electrodeposited onto a TiO2-protected GeSe photocathode to steer the reaction selectively toward NO3RR under acidic conditions (10 mM H2SO4, pH ≈ 1.8). Ni-induced electronic modulation of Cu active sites positively shifts the onset potential, suppresses HER, and enhances nitrate-to-ammonia selectivity, achieving a Faradaic efficiency of 82.07% and an ammonia production rate of 14.32 μmol h–1 cm–2 at –0.1 V vs. RHE. To translate this selectivity to the system level, a solar-driven tandem PEC device couples the acidic NO3RR photocathode with an alkaline glucose oxidation anode via a bipolar membrane, enabling solar-driven ammonia synthesis.",
+  "authors": [
+   "Yimin Zhang",
+   "Junru Chen",
+   "Xiaoliang Ren",
+   "YanLe Li",
+   "Kang Wang",
+   "Feng Jiang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1021/acscatal.6c07802",
+  "first_seen": "2026-10-30T17:01:46Z",
+  "id": "10.1021/acscatal.6c07802",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "ACS Catalysis",
+  "tier": "background",
+  "title": "Solar-Driven Ammonia Production via Acidic Nitrate Reduction Coupled with Glucose Oxidation on a GeSe Photocathode",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.6c07802",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "在 10 mM H2SO4 酸性条件下，在 TiO2 保护 GeSe 光阴极上电极沉积电子重构的 CuNi 共催化剂，实现光驱动氨合成。Ni 诱导的电子调制抑制析氢反应，在 –0.1 V vs. RHE 下获得 82.07% 法拉第效率和 14.32 μmol h–1 cm–2 的氨产率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "GeSe 光阴极上葡萄糖氧化耦合酸性硝酸根还原的光驱动氨合成"
+ },
  "10.1021/acsenergylett.6c02477": {
   "abstract": "Abstract Electrochemical ammonia synthesis via a lithium-mediated nitrogen reduction reaction (Li-NRR) faces a fundamental selectivity challenge in which proton donors that accelerate productive protonation simultaneously promote parasitic hydrogen evolution. Here, we demonstrate that 2,2,2-trifluoroethanol (TFE), an amphiphilic alcohol, mitigates this limitation by decoupling thermodynamic acidity from kinetic reactivity. Despite its high acidity, TFE suppresses parasitic reactions through rapid interfacial passivation associated with its fluorinated structure, while modulating the microstructure of a fluoride-rich solid electrolyte interphase (SEI). Blending TFE with ethanol further optimizes proton activity and hydrogen bonding, yielding a thin, uniform SEI enriched in highly crystalline LiF with reduced interfacial resistance. The optimized electrolyte achieved a Faradaic efficiency of 59.0% in a continuous-flow reactor, maintained stable performance under potential-cycling, and reached 82.8% in a high-pressure batch reactor. This study highlights proton-donor engineering as a key strategy to modulate the SEI nanostructure for selectivity in Li-NRR.",
   "authors": [
@@ -7764,6 +7893,42 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "过程待核实",
   "zh_title": "通过亚大气压焦耳加热制备具有高可及性几何弯曲Fe-N4位点的纳米碳用于电化学氧还原"
+ },
+ "10.1039/d6cp03998g": {
+  "abstract": "First-principles multiscale modeling shows that synergistic reactions of N˙ and H˙ radicals, rather than solely vibrationally excited N 2 , control plasma-assisted ammonia synthesis on Fe and Ni catalysts, explaining their similar ammonia yields.",
+  "authors": [
+   "Oluwatosin A. Ohiro",
+   "Samuel A. Ogunwale",
+   "Bryan R. Goldsmith"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1039/d6cp03998g",
+  "first_seen": "2026-10-30T17:01:46Z",
+  "id": "10.1039/d6cp03998g",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Physical Chemistry Chemical Physics",
+  "tier": "background",
+  "title": "Multiscale modeling of radical and vibrational pathways in plasma-assisted ammonia synthesis on Fe(110) and Ni(111)",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6cp03998g",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "基于第一性原理的多尺度建模表明，Fe 和 Ni 催化剂上等离子体辅助氨合成中，N˙ 和 H˙ 自由基的协同反应而非振动激发的 N2 控制氨产率，解释了两种催化剂相似的氨产率。",
+  "zh_method": "等离子体驱动",
+  "zh_obj": "等离子体制氨；涉及Fe/铁体系",
+  "zh_title": "Fe(110) 和 Ni(111) 上等离子体辅助氨合成中自由基和振动路径的多尺度建模"
  },
  "10.1039/d6cy00796a": {
   "abstract": "Despite its potential as an attractive alternative for renewable energy transport, catalytic ammonia decomposition faces several challenges before it can be established as a viable hydrogen (H 2 ) carrier technology.",
@@ -9452,6 +9617,44 @@
   ],
   "zh_method": "等离子体驱动",
   "zh_obj": "等离子体制氨"
+ },
+ "10.3390/catal16110969": {
+  "abstract": "Electrocatalytic nitrate reduction reaction (NO3RR) provides a sustainable and carbon-neutral alternative to the energy-intensive Haber–Bosch process for ammonia production. Operating directly in neutral media is particularly attractive for practical implementation, as it avoids corrosive acids/alkalis and aligns with wastewater remediation scenarios, yet it suffers from sluggish reaction kinetics and poor product selectivity due to the competing hydrogen evolution and the multistep electron/proton transfer nature. In this study, a Cu2O-Co(OH)2 composite electrode supported on cobalt foam (Cu2O-Co(OH)2/CF) was constructed to enhance nitrate reduction under neutral conditions. The introduction of Cu2O promotes the initial activation of NO3− and facilitates its conversion to NO2−, while Co(OH)2 favors the subsequent hydrogenation of NO2− and other nitrogen-containing intermediates. At −1.0 V (vs. RHE), the Cu2O-Co(OH)2/CF electrode achieves an ammonia production rate of 1.1 mmol·h−1·cm−2. In situ infrared spectroscopy reveals that Cu2O enhances the evolution of intermediates associated with the initial nitrate reduction, whereas Co(OH)2 promotes the subsequent conversion of nitrogen-containing intermediates, which demonstrate that the synergistic regulation of different reaction stages by Cu2O and Co(OH)2 facilitates the stepwise reduction of NO3− to NH3. This work demonstrates that the staged catalytic functions, enabled by the spatially separated active sites, can successfully overcome the kinetic bottleneck of neutral NO3RR, offering a promising electrode design for practical ammonia synthesis.",
+  "authors": [
+   "Shuang Yuan",
+   "Xinyu Cui",
+   "Hongtao Xie",
+   "Yali Cao",
+   "Yizhao Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.3390/catal16110969",
+  "first_seen": "2026-10-30T17:01:46Z",
+  "id": "10.3390/catal16110969",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Catalysts",
+  "tier": "background",
+  "title": "Neutral Electrocatalytic Ammonia Synthesis from Nitrate over a Cu2O-Co(OH)2 Composite Electrode",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/catal16110969",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "构建负载在泡沫钴上的 Cu2O-Co(OH)2 复合电极用于中性硝酸根还原。Cu2O 促进 NO3− 活化，Co(OH)2 促进后续氢化，在 –1.0 V vs. RHE 下实现 1.1 mmol·h−1·cm−2 的氨产率。原位红外光谱证实了不同活性位点对反应各阶段的协同调控。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "中性介质中 Cu2O-Co(OH)2 复合电极电催化硝酸根合成氨"
  },
  "10.3390/gels12110984": {
   "abstract": "Electrochemical nitrate reduction can combine nitrogen removal with ammonia recovery, but the contribution of an aerogel network is difficult to separate from changes in catalyst chemistry and electrode preparation. This review examines when the architecture created by gelation and drying remains relevant after electrode fabrication and during nitrate conversion. Metallic, carbon-based, and hybrid aerogels are compared through their preparation, working-state structure, reaction evidence, and operating conditions. Particular attention is given to nitrate activation, downstream hydrogenation, soluble-intermediate retention, and competition with hydrogen evolution and nitrogen formation. Related non-aerogel studies provide mechanistic and reactor comparisons while retaining their distinct material identities. The analysis separates measured responses from proposed pathways and distinguishes peak Faradaic efficiency from sustained conversion and product recovery. Dry surface area, isolated spectroscopic signals, and performance measured under different conditions do not independently establish an aerogel-specific advantage. Priorities emerging from the literature are comparisons of retained and fragmented networks, coupled measurements of intermediate transport and catalyst reconstruction, and nitrogen balances under defined feed and recovery conditions. These comparisons provide a basis for evaluating which aerogel design features remain useful in a working nitrate-conversion device.",
