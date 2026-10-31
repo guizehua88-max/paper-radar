@@ -14,6 +14,7 @@ import json
 import os
 import re
 import time
+import urllib.error
 
 from . import net
 
@@ -52,17 +53,53 @@ class KeyError_(RuntimeError):
     """Authentication problem: no point trying again in this run."""
 
 
-def chat(prov: dict, prompt: str, *, system: str = "", max_tokens: int = 2400) -> str:
+def _post_chat(url: str, payload: dict, headers: dict, *, retries: int,
+               deadline: float | None) -> dict:
+    if deadline is None:  # preserve the old relevance-review retry policy
+        return net.post_json_retry(url, payload, timeout=180, headers=headers, retries=retries)
+    last = "中文简介时间预算已用完"
+    attempts = min(retries, 2)
+    for attempt in range(attempts):
+        remaining = deadline - time.time()
+        if remaining < 1:
+            break
+        try:
+            return net.post_json(url, payload, timeout=min(180, int(remaining)), headers=headers)
+        except urllib.error.HTTPError as e:
+            last = f"HTTP {e.code}"
+            if e.code not in (429, 500, 502, 503, 504):
+                break
+        except Exception as e:
+            last = f"{type(e).__name__}: {e}"
+        # net.post_json_retry sleeps even after its final failed request. Keep
+        # maintenance retries here so an expired budget never starts a sleep.
+        delay = 4 * (attempt + 1)
+        if attempt + 1 == attempts or deadline - time.time() < delay + 1:
+            break
+        time.sleep(delay)
+    raise net.FetchError(last)
+
+
+def chat(prov: dict, prompt: str, *, system: str = "", max_tokens: int = 2400,
+         deadline: float | None = None) -> str:
     """One chat completion. Tries the configured models in order; returns the reply text."""
     msgs = ([{"role": "system", "content": system}] if system else []) + [{"role": "user", "content": prompt}]
     last = ""
-    for model in list(prov["models"]):
+    models = list(prov["models"])
+    for index, model in enumerate(models):
+        model_deadline = deadline
+        if deadline is not None:
+            remaining = deadline - time.time()
+            if remaining < 1:
+                break
+            # Leave time for the next configured free model if this one stalls.
+            model_deadline = time.time() + remaining / (len(models) - index)
         payload = {"model": model, "messages": msgs, "temperature": 0.2, "max_tokens": max_tokens}
         if "bigmodel" in prov["base"] or "z.ai" in prov["base"]:
             payload["thinking"] = {"type": "disabled"}
         try:
-            resp = net.post_json_retry(_url(prov["base"]), payload, timeout=180,
-                                       headers={"Authorization": f"Bearer {prov['key']}"}, retries=4)
+            resp = _post_chat(_url(prov["base"]), payload,
+                              {"Authorization": f"Bearer {prov['key']}"}, retries=4, deadline=model_deadline)
         except net.FetchError as e:
             last = str(e)
             if re.search(r"HTTP 40[13]", last):
@@ -70,8 +107,8 @@ def chat(prov: dict, prompt: str, *, system: str = "", max_tokens: int = 2400) -
             if "thinking" in payload and "HTTP 400" in last:
                 payload.pop("thinking")
                 try:
-                    resp = net.post_json_retry(_url(prov["base"]), payload, timeout=180,
-                                               headers={"Authorization": f"Bearer {prov['key']}"}, retries=2)
+                    resp = _post_chat(_url(prov["base"]), payload,
+                                      {"Authorization": f"Bearer {prov['key']}"}, retries=2, deadline=model_deadline)
                 except net.FetchError as e2:
                     last = str(e2)
                     continue
@@ -107,6 +144,7 @@ INSTRUCTIONS = """为下面每篇论文写两项：
   · 摘要写着“（无摘要）”：b 写空字符串 ""（只看标题写简介容易编内容，宁可不写）
   · 直接写内容，不要用“本文”“该研究”“作者”开头，不要加评价
 只输出 JSON 数组，不要任何其他文字，格式：[{"i":0,"t":"…","b":"…"}]
+化学式、单位用普通文字或 Unicode 表示，不要使用 LaTeX 命令；JSON 字符串中的反斜杠必须写成双反斜杠。
 """
 
 
@@ -118,21 +156,104 @@ def _prompt(chunk: list[dict]) -> str:
     return INSTRUCTIONS + "\n" + "\n\n".join(parts)
 
 
+def _repair_json_syntax(raw: str) -> str:
+    """Repair only invalid backslash escapes and trailing commas, outside/inside
+    strings as appropriate. Never rewrite valid JSON escapes or invent fields.
+    """
+    out = []
+    quoted = False
+    i = 0
+    while i < len(raw):
+        c = raw[i]
+        if quoted and c == "\\":
+            if i + 1 >= len(raw):
+                out.append(c)
+                break
+            following = raw[i + 1]
+            # Preserve valid escapes (including Unicode); json.loads rejects
+            # malformed Unicode escapes instead of guessing their intended text.
+            out.append(("\\" if following in '\\"/bfnrtu' else "\\\\") + following)
+            i += 2
+            continue
+        if c == '"':
+            quoted = not quoted
+        if c == "," and not quoted:
+            j = i + 1
+            while j < len(raw) and raw[j].isspace():
+                j += 1
+            if j < len(raw) and raw[j] in "]}":
+                i += 1
+                continue
+        out.append(c)
+        i += 1
+    return "".join(out)
+
+
+def _unique_keys(pairs):
+    obj = {}
+    for key, value in pairs:
+        if key in obj:
+            raise ValueError("duplicate JSON field in reply")
+        obj[key] = value
+    return obj
+
+
 def _parse(text: str) -> list[dict]:
-    m = re.search(r"\[.*\]", text, re.S)
-    if not m:
+    # Extract one balanced array, ignoring brackets inside quoted scientific
+    # text. Greedy regex extraction used to merge separate arrays.
+    start = text.find("[")
+    if start < 0:
         raise ValueError("no JSON array in reply")
-    raw = m.group(0)
+    quoted = escaped = False
+    depth = 0
+    end = None
+    for i in range(start, len(text)):
+        c = text[i]
+        if quoted:
+            if escaped:
+                escaped = False
+            elif c == "\\":
+                escaped = True
+            elif c == '"':
+                quoted = False
+        elif c == '"':
+            quoted = True
+        elif c == "[":
+            depth += 1
+        elif c == "]":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+    if end is None:
+        raise ValueError("incomplete JSON array in reply")
+    if text[end:].strip() not in ("", "```"):
+        raise ValueError("unexpected content after JSON array")
+    raw = text[start:end]
     try:
-        arr = json.loads(raw)
+        arr = json.loads(raw, object_pairs_hook=_unique_keys)
     except json.JSONDecodeError:
-        arr = json.loads(re.sub(r",\s*([\]}])", r"\1", raw))  # trailing commas
+        arr = json.loads(_repair_json_syntax(raw), object_pairs_hook=_unique_keys)
     return [x for x in arr if isinstance(x, dict)]
 
 
+def _indexed_rows(rows: list[dict], count: int):
+    # Do not coerce bool, float or string IDs. Reject all copies of an ambiguous
+    # ID rather than silently accepting the first answer for the wrong paper.
+    counts = {}
+    for row in rows:
+        k = row.get("i")
+        if type(k) is int and 0 <= k < count:
+            counts[k] = counts.get(k, 0) + 1
+    return [(row["i"], row) for row in rows
+            if type(row.get("i")) is int and counts.get(row["i"]) == 1]
+
+
 def _apply(p: dict, r: dict, model: str) -> bool:
-    t = re.sub(r"\s+", " ", str(r.get("t", ""))).strip().strip("“”\"")
-    b = re.sub(r"\s+", " ", str(r.get("b", ""))).strip().strip("“”\"")
+    if not isinstance(r.get("t"), str) or not isinstance(r.get("b"), str):
+        return False
+    t = re.sub(r"\s+", " ", r["t"]).strip().strip("“”\"")
+    b = re.sub(r"\s+", " ", r["b"]).strip().strip("“”\"")
     from_title = not usable_abstract(p)
     if from_title:  # no abstract: translate the title only; a "brief" from a title is mostly guesswork
         if not _CJK.search(t):
@@ -181,14 +302,10 @@ def summarize(papers: list[dict], *, deadline: float, batch: int = 6) -> dict:
         chunk = todo[i:i + batch]
         i += len(chunk)
         try:
-            arr = _parse(chat(prov, _prompt(chunk), system=SYSTEM))
+            arr = _parse(chat(prov, _prompt(chunk), system=SYSTEM, deadline=deadline))
             ok = set()
-            for r in arr:
-                try:
-                    k = int(r.get("i", -1))
-                except (TypeError, ValueError):
-                    continue
-                if 0 <= k < len(chunk) and k not in ok and _apply(chunk[k], r, prov.get("used", "")):
+            for k, r in _indexed_rows(arr, len(chunk)):
+                if _apply(chunk[k], r, prov.get("used", "")):
                     ok.add(k)
             stats["done"] += len(ok)
             stats["failed"] += len(chunk) - len(ok)
@@ -201,9 +318,9 @@ def summarize(papers: list[dict], *, deadline: float, batch: int = 6) -> dict:
             stats["err"] = f"{type(e).__name__}: {str(e)[:160]}"
             stats["failed"] += len(chunk)
             strikes += 1
-            if strikes >= 3:  # service is down / rate-limited: try again next run
+            if strikes >= 3 or time.time() >= deadline:  # service down / budget exhausted: next run
                 break
-            time.sleep(10)
+            time.sleep(min(10, max(0, deadline - time.time())))
     stats["model"] = prov.get("used", "")
     stats["left"] = sum(1 for p in todo if needs_brief(p))
     return stats
@@ -227,8 +344,7 @@ def review(papers: list[dict], profile: str, batch: int = 10) -> int:
         )
         try:
             arr = _parse(chat(prov, prompt))
-            for r in arr:
-                k = int(r.get("i", -1))
+            for k, r in _indexed_rows(arr, len(chunk)):
                 if 0 <= k < len(chunk):
                     chunk[k]["llm_score"] = max(0, min(3, int(r.get("score", 1))))
                     chunk[k]["zh"] = str(r.get("zh", ""))[:80]

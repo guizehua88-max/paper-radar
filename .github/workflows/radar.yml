@@ -6,6 +6,15 @@ on:
     - cron: "17 11 * * *"   # 北京时间 19:17
   workflow_dispatch:
     inputs:
+      maintenance_only:
+        description: "仅补摘要、中文简介与重筛（不查新、不推送）"
+        type: boolean
+        default: false
+      maintenance_minutes:
+        description: "本次维护时间（分钟；定时运行仍用20分钟）"
+        type: choice
+        options: ["5", "20"]
+        default: "20"
       lookback_days:
         description: "回看天数（留空 = 默认；首次运行自动回溯 30 天）"
         required: false
@@ -41,11 +50,13 @@ jobs:
           python-version: "3.12"
 
       - name: 采集、筛选、推送
+        if: ${{ inputs.maintenance_only != true }}
         env:
           LOOKBACK_DAYS: ${{ github.event.inputs.lookback_days }}
         run: python -m radar
 
       - name: 保存
+        if: ${{ inputs.maintenance_only != true }}
         run: |
           git config user.name "radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -55,13 +66,22 @@ jobs:
           git push
 
       - name: 补摘要、写中文简介、历史回填（没做完时下次接着做）
+        if: ${{ inputs.maintenance_only != true }}
         env:
           BACKFILL_MAX_MINUTES: "35"
           MAINTAIN_MAX_MINUTES: "20"
         run: python -m radar --auto-extras
 
+      - name: 仅维护（人工验收，无通知）
+        if: ${{ inputs.maintenance_only == true }}
+        env:
+          MAINTAIN_MAX_MINUTES: ${{ inputs.maintenance_minutes || '20' }}
+        run: python -m radar --maintain
+
       - name: 保存回填结果
         run: |
+          git config user.name "radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data docs
           git diff --cached --quiet || git commit -m "radar backfill: $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase --autostash || true

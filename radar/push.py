@@ -92,7 +92,7 @@ def brief_line(p: dict) -> str:
         return excerpt(ab, 120)
     from .site import _useful
     label = "｜".join(x for x in (_useful(p.get("zh_obj", "")), _useful(p.get("zh_method", ""))) if x)
-    return "出版社没有提供摘要，请点标题看原文" + (f"（规则标签：{label}）" if label else "")
+    return "当前来源尚未获取可用摘要，请点标题看原文" + (f"（规则标签：{label}）" if label else "")
 
 
 def _line(i: int, p: dict) -> str:

@@ -310,92 +310,190 @@ def _strip_abstract(text: str) -> str:
     return re.sub(r"^(abstract|summary)[\s:.\-–]+", "", text, flags=re.IGNORECASE).strip()
 
 
-def _chunks(dois: list[str], size: int, fn, errs: list[str]) -> None:
-    """Run fn on each chunk; a failing chunk is recorded and skipped (partial results are kept)."""
+def _error_label(error: Exception) -> str:
+    # Provider URLs can carry API keys. Never persist an exception URL/body.
+    match = re.search(r"HTTP\s+(\d{3})", str(error))
+    return "HTTP " + match.group(1) if match else type(error).__name__
+
+
+def _timeout(deadline: float | None, maximum: int = 30) -> int:
+    return max(1, min(maximum, int(deadline - time.time()))) if deadline else maximum
+
+
+def _chunks(dois: list[str], size: int, fn, errs: list[str], *, source: str,
+            progress: dict | None = None, deadline: float | None = None) -> None:
+    """Check the deadline per batch; after a source error continue with other providers.
+
+    Only requests actually made are recorded. A successful empty response is
+    different from a timeout, a skipped cap, or a deadline that prevented a call.
+    """
     for i in range(0, len(dois), size):
+        if deadline and time.time() >= deadline - 1:
+            break
+        chunk = dois[i:i + size]
+        for d in chunk:
+            if progress is not None:
+                progress.setdefault(d, {"attempted": [], "checked": [], "failed": []})["attempted"].append(source)
         try:
-            fn(dois[i:i + size])
+            fn(chunk)
         except Exception as e:
-            errs.append(f"{type(e).__name__}: {str(e)[:80]}")
+            errs.append(_error_label(e))
+            for d in chunk:
+                if progress is not None:
+                    progress[d]["failed"].append(source)
+            break  # no repeated batches against a failing/rate-limited source
+        else:
+            for d in chunk:
+                if progress is not None:
+                    progress[d]["checked"].append(source)
 
 
-def abstracts_semantic_scholar(dois: list[str], errs: list[str]) -> dict[str, str]:
+def abstracts_semantic_scholar(dois: list[str], errs: list[str], *, progress=None, deadline=None) -> dict[str, str]:
     out: dict[str, str] = {}
 
     def one(chunk):
         res = net.post_json_retry("https://api.semanticscholar.org/graph/v1/paper/batch?fields=abstract,externalIds",
-                                  {"ids": [f"DOI:{d}" for d in chunk]}, timeout=90)
-        if not isinstance(res, list):
-            raise net.FetchError(f"unexpected answer: {str(res)[:120]}")
-        for d, r in zip(chunk, res):
-            ab = _strip_abstract((r or {}).get("abstract") or "")
-            if len(ab) >= 150:
-                out[d] = ab
-        polite_pause(3)
-    _chunks(dois, 400, one, errs)
+                                  {"ids": [f"DOI:{d}" for d in chunk]}, timeout=_timeout(deadline), retries=1)
+        if not isinstance(res, list) or len(res) != len(chunk):
+            raise net.FetchError("Unexpected Semantic Scholar batch shape")
+        got = {}
+        for r in res:
+            if r is None:
+                continue
+            if not isinstance(r, dict):
+                raise net.FetchError("Unexpected Semantic Scholar record")
+            ab = _strip_abstract(r.get("abstract") or "")
+            if len(ab) < 150:
+                continue
+            # Do not attach by response position. Exact DOI identity is required,
+            # including when an upstream batch reorders or omits records.
+            d = _doi_key((r.get("externalIds") or {}).get("DOI") or "")
+            if d not in chunk:
+                raise net.FetchError("Semantic Scholar abstract identity mismatch")
+            got[d] = ab
+        out.update(got)
+        polite_pause(1)
+    _chunks(dois, 100, one, errs, source="Semantic Scholar", progress=progress, deadline=deadline)
     return out
 
 
-def abstracts_europepmc(dois: list[str], errs: list[str]) -> dict[str, str]:
+def abstracts_europepmc(dois: list[str], errs: list[str], *, progress=None, deadline=None) -> dict[str, str]:
     out: dict[str, str] = {}
 
     def one(chunk):
         q = " OR ".join(f'DOI:"{d}"' for d in chunk)
         url = ("https://www.ebi.ac.uk/europepmc/webservices/rest/search?"
                + urllib.parse.urlencode({"query": q, "resultType": "core", "format": "json", "pageSize": "100"}))
-        data = net.get_json(url, timeout=60)
-        for r in (data.get("resultList") or {}).get("result", []):
+        data = net.get_json(url, timeout=_timeout(deadline), retries=1)
+        if not isinstance(data, dict) or not isinstance((data.get("resultList") or {}).get("result"), list):
+            raise net.FetchError("Unexpected Europe PMC response")
+        for r in data["resultList"]["result"]:
             d = _doi_key(r.get("doi") or "")
             ab = _strip_abstract(r.get("abstractText") or "")
             if d in chunk and len(ab) >= 150:
                 out[d] = ab
         polite_pause(0.4)
-    _chunks(dois, 20, one, errs)
+    _chunks(dois, 20, one, errs, source="Europe PMC", progress=progress, deadline=deadline)
     return out
 
 
-def abstracts_openalex(dois: list[str], api_key: str, errs: list[str]) -> dict[str, str]:
+def abstracts_openalex(dois: list[str], api_key: str, errs: list[str], *, progress=None, deadline=None) -> dict[str, str]:
     out: dict[str, str] = {}
 
     def one(chunk):
         params = {"filter": "doi:" + "|".join(chunk), "select": "doi,abstract_inverted_index", "per_page": "50",
                   "api_key": api_key}
-        data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params), timeout=60)
-        for w in data.get("results", []):
+        data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params), timeout=_timeout(deadline), retries=1)
+        if not isinstance(data, dict) or not isinstance(data.get("results"), list):
+            raise net.FetchError("Unexpected OpenAlex response")
+        for w in data["results"]:
             d = _doi_key(w.get("doi") or "")
             ab = _strip_abstract(_undo_inverted(w.get("abstract_inverted_index")))
             if d in chunk and len(ab) >= 150:
                 out[d] = ab
         polite_pause(0.3)
-    _chunks(dois, 50, one, errs)
+    _chunks(dois, 50, one, errs, source="OpenAlex", progress=progress, deadline=deadline)
     return out
 
 
-def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | None = None) -> tuple[dict[str, str], dict]:
-    """Try each free service in turn on the DOIs still missing. Returns (doi -> abstract, per-service stats)."""
+def abstracts_crossref(dois: list[str], errs: list[str], *, progress=None, deadline=None) -> dict[str, str]:
+    """Bounded refresh of exact DOI metadata, useful when a deposit later gains an abstract."""
+    out = {}
+    def one(chunk):
+        d = chunk[0]
+        url = "https://api.crossref.org/works/" + urllib.parse.quote(d, safe="")
+        try:
+            data = net.get_json(url, timeout=_timeout(deadline), retries=1)
+        except net.FetchError as e:
+            if "HTTP 404" in str(e):
+                return  # a DOI from another registration agency is a checked miss
+            raise
+        item = data.get("message") if isinstance(data, dict) else None
+        if not isinstance(item, dict) or _doi_key(item.get("DOI") or "") != d:
+            raise net.FetchError("Crossref singleton identity mismatch")
+        ab = _strip_abstract(item.get("abstract") or "")
+        if len(ab) >= 150:
+            out[d] = ab
+        polite_pause(0.3)
+    _chunks(dois, 1, one, errs, source="Crossref", progress=progress, deadline=deadline)
+    return out
+
+
+def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | None = None,
+                   progress: dict | None = None, crossref_cap: int = 20,
+                   crossref_checked_at: dict[str, str] | None = None) -> tuple[dict[str, str], dict]:
+    """Exact-DOI free metadata fallback with bounded work and per-DOI outcome evidence.
+
+    Optional progress[d] contains attempted/checked/failed source names, complete,
+    and found_by. An untouched DOI has no entry. Public stats remain strings for
+    existing UI callers. The caller decides when successful misses should retry.
+    """
     import os
-    todo = [d for d in dict.fromkeys(dois) if d.startswith("10.")]
+    todo = [d for d in dict.fromkeys(_doi_key(d) for d in dois) if d.startswith("10.")]
     found: dict[str, str] = {}
     stats: dict[str, str] = {}
+    evidence = progress if progress is not None else {}
     steps = [("Semantic Scholar", abstracts_semantic_scholar, None), ("Europe PMC", abstracts_europepmc, epmc_cap)]
     key = os.environ.get("OPENALEX_API_KEY", "").strip()
     if key:
-        steps.insert(1, ("OpenAlex", lambda ds, errs: abstracts_openalex(ds, key, errs), None))
-    for name, fn, cap in steps:
-        rest = [d for d in todo if d not in found][: cap or None]
+        steps.insert(1, ("OpenAlex", lambda ds, errs, **kw: abstracts_openalex(ds, key, errs, **kw), None))
+    if crossref_cap:
+        steps.append(("Crossref", abstracts_crossref, crossref_cap))
+    expected = {name for name, _, _ in steps}
+    for index, (name, fn, cap) in enumerate(steps):
+        rest = [d for d in todo if d not in found]
+        if name == "Crossref" and crossref_checked_at:
+            # Stable sorting keeps input order for equal dates. The bounded
+            # singleton fallback must rotate beyond the same first 20 DOIs.
+            rest.sort(key=lambda d: crossref_checked_at.get(d) or "")
+        rest = rest[:cap if cap is not None else None]
         if not rest:
-            break
-        if deadline and time.time() > deadline:
+            continue
+        if deadline and time.time() >= deadline - 1:
             stats[name] = "跳过（时间用完）"
             continue
+        # Reserve a fair share for later independent providers. A slow/rate-
+        # limited first source must not consume the whole enrichment window.
+        source_deadline = deadline
+        if deadline:
+            now = time.time()
+            remaining_sources = sum(next_cap is None or next_cap > 0 for _, _, next_cap in steps[index:])
+            source_deadline = now + (deadline - now) / max(1, remaining_sources)
         errs: list[str] = []
-        got = fn(rest, errs)
+        got = fn(rest, errs, progress=evidence, deadline=source_deadline)
         found.update(got)
-        stats[name] = f"查 {len(rest)} 得 {len(got)}"
+        for d in got:
+            evidence[d]["found_by"] = name
+        attempted = sum(name in evidence.get(d, {}).get("attempted", []) for d in rest)
+        stats[name] = f"查 {attempted} 得 {len(got)}"
+        if attempted < len(rest):
+            stats[name] += f"（未请求 {len(rest) - attempted}）"
         if errs:
-            stats[name] += f"（{len(errs)} 批请求失败：{errs[-1][:60]}）"
+            stats[name] += f"（{len(errs)} 批请求失败：{errs[-1]}）"
+    for d in todo:
+        if d in evidence:
+            evidence[d]["complete"] = bool(evidence[d].get("found_by")) or expected.issubset(evidence[d]["checked"])
     return found, stats
-
 
 def polite_pause(seconds: float) -> None:
     if not net.FIXTURES:

@@ -151,15 +151,30 @@ class Radar:
                 want.setdefault(doi, []).append(p)
         if not want or net_offline():
             return {"查询": 0}
-        found, st = sources.find_abstracts(list(want), epmc_cap=epmc_cap, deadline=deadline)
+        progress = {}
+        crossref_checked_at = {doi: min((p.get("ab_source_checked_at", {}).get("Crossref", "") for p in rows), default="")
+                              for doi, rows in want.items()}
+        found, st = sources.find_abstracts(list(want), epmc_cap=epmc_cap, deadline=deadline, progress=progress,
+                                         crossref_checked_at=crossref_checked_at)
+        for doi, detail in progress.items():
+            for p in want.get(doi, []):
+                p["ab_check_v"] = 2
+                p["ab_try"] = self.now.date().isoformat()
+                p["ab_result"] = ("found" if doi in found else "retry" if detail.get("failed")
+                                  else "not_found" if detail.get("complete") else "partial")
+                p["ab_sources_checked"] = detail.get("checked", [])
+                for source in detail.get("checked", []):
+                    p.setdefault("ab_source_checked_at", {})[source] = p["ab_try"]
+                if detail.get("found_by"):
+                    p["abstract_source"] = detail["found_by"]
         for doi, ab in found.items():
             for p in want.get(doi, []):
                 p["abstract"] = ab
         bad = [k for k, v in st.items() if "失败" in v]
         self.status["sources"][label] = {"n": len(found), "calls": 1, "fails": 0,
                                          "err": ("部分请求失败（其余正常）：" + "、".join(bad)) if bad else ""}
-        print(f"  abstracts: asked {len(want)} found {len(found)} {st}")
-        return {"查询": len(want), "找到": len(found), **st}
+        print(f"  abstracts: queued {len(want)} attempted {len(progress)} found {len(found)} {st}")
+        return {"查询": len(progress), "找到": len(found), **st}
 
     def brief(self, items: list[dict], deadline: float) -> dict:
         st = llm.summarize(items, deadline=deadline)
@@ -415,29 +430,36 @@ class Radar:
             self.state["rules_hash"] = rh
             extra["按新规则重筛"] = (f"移除 {rc['移除']} 篇；" + "，".join(f"{k} {v}" for k, v in rc["调整"].items())) or "无变化"
             print(f"  reclassify: {rc}")
-        # abstracts for stored papers (each paper is looked up at most once a month)
+        # Only real requests count as attempts. Old v1 stamps included skipped
+        # papers, so recheck them once in bounded slices; failures wait one day.
         today = self.now.date()
         def tried_recently(p):
             try:
-                return (today - dt.date.fromisoformat(p.get("ab_try", "")[:10])).days < 30
+                if p.get("ab_check_v") != 2:
+                    return False
+                wait_days = 1 if p.get("ab_result") in ("retry", "partial") else 7
+                return (today - dt.date.fromisoformat(p.get("ab_try", "")[:10])).days < wait_days
             except ValueError:
                 return False
         cands = [p for p in self.papers.values() if p.get("kind") != "wechat" and not llm.usable_abstract(p)
                  and str(p.get("doi") or p["id"]).startswith("10.") and not tried_recently(p)]
-        cands.sort(key=lambda p: (TIER_RANK.get(p.get("tier"), 0), p.get("date") or ""), reverse=True)
-        cands = cands[:1200]
+        cands.sort(key=lambda p: (p.get("ab_try", "") if p.get("ab_check_v") == 2 else "",
+                                  -TIER_RANK.get(p.get("tier"), 0), p["id"]))
+        cands = cands[:120]
         if cands:
             before = {p["id"]: p.get("tier") for p in cands}
-            ab = self.fill_abstracts(cands, min(deadline, time.time() + 300), epmc_cap=300)
+            # Leave most of a short manual run available for Chinese summaries.
+            abstract_seconds = min(300, max(10, minutes * 60 / 4))
+            ab = self.fill_abstracts(cands, min(deadline, time.time() + abstract_seconds), epmc_cap=300)
             changed = 0
             for p in cands:
-                p["ab_try"] = today.isoformat()
                 if llm.usable_abstract(p):
                     c = self.clf.classify(p)
                     if c:  # refine the tier with the abstract; never drop a stored paper here
                         p.update(c)
                         changed += before[p["id"]] != p.get("tier")
             extra["补摘要"] = f"查 {ab.get('查询', 0)} 篇，找到 {ab.get('找到', 0)} 篇，相关度随之调整 {changed} 篇"
+            extra["补摘要来源"] = "；".join(f"{k}：{v}" for k, v in ab.items() if k not in ("查询", "找到"))
         llm.drop_title_briefs(self.papers.values())
         # Chinese briefs, most relevant + newest first
         todo = [p for p in self.papers.values() if llm.needs_brief(p)]

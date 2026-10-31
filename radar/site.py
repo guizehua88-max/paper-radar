@@ -14,10 +14,22 @@ import re
 from email.utils import format_datetime
 
 from .filters import TIER_RANK
+from .llm import usable_abstract
 from .store import DOCS, month_of
 
 PUSH_TIERS = ("cross", "direct", "transferable")
 IMPORTED = ("旧站本地库", "旧站云端", "旧站公众号库", "回填")
+
+
+def summary_progress(papers: list[dict]) -> dict:
+    """Title translations are useful, but are not completed abstract summaries."""
+    def count(items):
+        briefs = sum(bool(usable_abstract(p) and p.get("zh_brief") and p.get("brief_from") != "title") for p in items)
+        title_only = sum(bool(not usable_abstract(p) and p.get("zh_title")) for p in items)
+        return {"total": len(items), "briefs": briefs, "titleOnly": title_only,
+                "pending": len(items) - briefs - title_only}
+    real = [p for p in papers if p.get("kind") != "wechat"]
+    return {"key": count([p for p in real if p.get("tier") in PUSH_TIERS]), "all": count(real)}
 
 
 _VAGUE = ("未明确", "未交代", "待核", "待定", "未见", "不详")
@@ -136,6 +148,7 @@ def render(papers: list[dict], cfg: dict, status: dict, generated: str) -> None:
         "briefKey": sum(1 for p in papers if (p.get("zh_brief") or p.get("zh_title")) and p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
         "noAbstractKey": sum(1 for p in papers if p.get("brief_from") == "title" and p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
         "keyTotal": sum(1 for p in papers if p.get("tier") in PUSH_TIERS and p.get("kind") != "wechat"),
+        "summaryProgress": summary_progress(papers),
         "status": status,
     }
     _write_if_changed(DOCS / "data" / "index.js", f"window.RADAR_INDEX={_js(index)};\n")
@@ -422,7 +435,7 @@ async function setView(v){
 
 function brief(p){
   if (p.zb) return `<p class="brief"><span class="bl">简介</span>${esc(p.zb)}</p>`;
-  if (p.bt) return `<p class="brief dim">出版社没有提供摘要，请点标题看原文</p>`;
+  if (p.bt && !p.ab) return `<p class="brief dim">当前来源尚未获取可用摘要，暂仅翻译标题；请点标题看原文</p>`;
   if (p.ab) return `<p class="brief${p.wx ? '' : ' en'}"><span class="bl">${p.wx ? '摘要' : '摘要节选'}</span>${esc(excerpt(p.ab, 220))}</p>`;
   return '';
 }
@@ -529,7 +542,7 @@ function foot(){
     `<tr><td>${esc(k)}</td><td class="${v.err ? 'err' : 'ok'}">${v.err ? '失败 ' + esc(v.err) : '正常'}</td><td>${v.n ?? 0} 条</td></tr>`).join('');
   const ex = Object.entries(s).filter(([k]) => !['sources','push','at','llm'].includes(k)).map(([k,v]) => `${esc(k)}：${esc(v)}`).join('；');
   $('#foot').innerHTML = `<div>最近一次运行（${s.at ? new Date(s.at).toLocaleString('zh-CN',{hour12:false}) : '—'}）：${ex || '—'}；推送：${esc((s.push||[]).join(', ') || '无')}。</div>
-    <div style="margin-top:6px">中文简介：${I.briefs ? `重点论文已处理 ${I.briefKey}/${I.keyTotal} 篇（其中 ${I.noAbstractKey || 0} 篇出版社没给摘要，只翻译了标题），全库 ${I.briefs} 篇；由 AI 只根据摘要生成，可能有误，请以原文为准` : '未开启（在 GitHub 仓库 Secrets 里添加 ZHIPU_API_KEY 后自动生成）；现在卡片上显示的是英文摘要的开头'}。</div>
+    <div style="margin-top:6px">${I.summaryProgress ? `重点论文 ${I.summaryProgress.key.total} 篇：有中文简介 ${I.summaryProgress.key.briefs} 篇，缺摘要仅译标题 ${I.summaryProgress.key.titleOnly} 篇，待处理 ${I.summaryProgress.key.pending} 篇。全库论文 ${I.summaryProgress.all.total} 篇：有简介 ${I.summaryProgress.all.briefs} 篇，仅译标题 ${I.summaryProgress.all.titleOnly} 篇，待处理 ${I.summaryProgress.all.pending} 篇。简介依据获取到的摘要生成，请以原文为准` : `中文内容已处理 ${I.briefs || 0} 篇`}。</div>
     <div style="margin-top:6px">相关度：⭐交叉＝合成氨同时涉及焦耳热/程序升温或 ALD；直接＝热催化合成氨；可迁移＝焦耳热/ALD 用于其他反应或材料；待核＝路线不明；背景＝电/光/等离子体制氨、氨分解等。规则筛选，未读全文，请以原文为准。</div>
     ${rows ? `<table>${rows}</table>` : ''}`;
 }

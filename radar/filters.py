@@ -45,6 +45,20 @@ _NOT_A_PAPER = re.compile(r"^\s*(corrigendum|erratum|correction to|retraction|re
                           r"table of contents|graphical abstract)\b", re.IGNORECASE)
 _CHARACTERIZATION = re.compile(r"表征温程|材料温程|电化学驱动|电场辅助|光驱动|等离子体驱动")
 _DASHES = re.compile("[‐‑‒–—―−­]")  # ‐ ‑ ‒ – — ― − soft-hyphen -> "-"
+# A catalyst used to grow a film is not evidence that the resulting ALD film
+# catalyses a research reaction. Keep such uncertain process work as background.
+_ALD_PROCESS_ONLY = re.compile(
+    r"pyridine[- ]cataly[sz]ed|(?:silicon nitride|silicon oxycarbide|Si[23]?N[24]?) thin films?",
+    re.IGNORECASE,
+)
+_CATALYTIC_USE = re.compile(
+    r"electrocatal|photocatal|thermocatal|(?:ammonia|NH3|NH₃) synth|synthesis of ammonia|"
+    r"hydrogenation|dehydrogenation|reforming|water (?:splitting|electrolysis)|"
+    r"hydrogen evolution|oxygen (?:evolution|reduction)|CO2 (?:reduction|conversion)|"
+    r"(?:for|towards?|用于).{0,45}(?:catalysis|catalytic|催化)|"
+    r"\b(?:catalyst|catalytic) (?:stability|activity|performance|selectivity)\b|催化剂(?:性能|活性|稳定性)",
+    re.IGNORECASE,
+)
 
 
 def _rx(patterns):
@@ -122,11 +136,13 @@ class Classifier:
         if t["id"] in ("joule", "ald") and not in_title and not _CATAL.search(text):
             return None, True  # method keyword only in the abstract, with no catalysis context -> incidental mention
         level = "secondary" if any(r.search(text) for r in t["secondary"]) else "core"
-        if (level == "core" and t["context"] and any(r.search(title) for r in t["context"])
+        if (t["context"] and any(r.search(title) for r in t["context"])
                 and not any(r.search(title) for r in t["material"])):
             level = "context"  # plant / energy-system / control / economics paper: ammonia is the product, not the research object
             if any(r.search(title) for r in t["context_strong"]):
                 level = "context_strong"
+        if t["id"] == "ald" and _ALD_PROCESS_ONLY.search(title) and not _CATALYTIC_USE.search(text):
+            level = "keep"
         return {"id": t["id"], "level": level, "in_title": in_title, "kw": inc}, False
 
     def classify(self, p: dict) -> dict | None:
