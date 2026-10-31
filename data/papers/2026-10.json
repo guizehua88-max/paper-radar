@@ -344,6 +344,46 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原"
  },
+ "10.1002/adfm.79387": {
+  "abstract": "Thionine acetate modified Cu 2 O creates a positively charged interfacial microenvironment that enriches NO 3 − , while Th-mediated electron transfer promotes the deep NO 3 − activation toward selective NH 2 OH formation. Efficient NH 2 OH desorption suppresses over-reduction to NH 3 , enabling a FE of 82.14% for NH 2 OH and nearly 100% selectivity toward cyclohexanone oxime at −0.35 V vs. RHE. ABSTRACT Electrosynthesis of cyclohexanone oxime (CYCO), a key nylon-6 precursor, is limited by the poor selectivity of nitrate reduction toward hydroxylamine because surface-bound NH 2 OH can be over-reduced to NH 3 before coupling with cyclohexanone. Herein, we construct a thionine acetate (Th) modified Cu 2 O interface (Th/Cu 2 O) that integrates electrostatic steering with redox-mediated electron transfer. Under weakly acidic conditions, protonated Th creates a positively charged interfacial microenvironment that enriches NO 3 − , stabilizes early reduction intermediates, and promotes the release of protonated NH 2 OH (NH 3 OH + ) from the inner Helmholtz layer. Concurrently, the redox activity of Th facilitates electron delivery to Cu active sites and favors the NH 2 OH-forming pathway over further reduction to NH 3 . At −0.35 V vs. RHE, Th/Cu 2 O achieves a Faradaic efficiency (FE) of 82.14% for NH 2 OH, with nearly 100% selectivity toward CYCO. In a membrane-separated flow cell operated at 1.2 A, the CYCO production rate reaches 57.63 g h −1 g cat. −1 , demonstrating the industrial potential of Th/Cu 2 O for gram-scale CYCO synthesis. In situ characterization, molecular dynamics simulations, and density functional theory calculations collectively connect interfacial charge regulation, mass transport, and reaction energetics, establishing a molecular-level interfacial strategy for universal oxime electrochemical synthesis.",
+  "authors": [
+   "Ziyuan Xiu",
+   "Dian Ling",
+   "Hao Yu",
+   "Ying Liu",
+   "Hao Zhu",
+   "Qiao Lu",
+   "Dongzhi Chen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1002/adfm.79387",
+  "first_seen": "2026-10-31T16:07:14Z",
+  "id": "10.1002/adfm.79387",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "A Cationic Redox‐Active Interface Couples Nitrate Enrichment With Hydroxylamine Release for Cyclohexanone Oxime Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79387",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_brief": "亚甲蓝乙酸盐修饰的 Cu2O 构建了带正电的界面微环境，富集 NO3- 并促进其深度活化生成选择性 NH2OH。该催化剂在 -0.35 V vs RHE 下对 NH2OH 的法拉第效率达 82.14%，对环己酮肟的选择性接近 100%。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "阳离子氧化还原活性界面耦合硝酸盐富集与羟胺释放用于环己酮肟电合成"
+ },
  "10.1002/adma.74297": {
   "abstract": "Near-critical thinning turns porous polyethylene from a hydrophobic, electrically insulating barrier into a thickness-gated membrane electrode. As the membrane approaches ∼60 nm, blocked mass and electron transport become accessible without changing chemistry, enabling hydrophobic-yet-permeable, electronically addressable polymer interfaces for liquid-phase electrochemical conversion. ABSTRACT Electrochemical systems are constrained by a materials paradox: chemically robust porous separators are typically hydrophobic and electronically insulating, forcing bulky, carbon-rich interfaces to couple mass transport and electrical contact. Here we show that pushing freestanding porous polyethylene into a near-critical ultrathin regime turns thickness into a geometric gate, enabling these functions to be switched without chemical modification. Near an inferred lower bound (∼10 nm), a 60 nm membrane already enters this regime: liquid-entry pressure collapses into a sub-bar window, enabling aqueous-electrolyte permeation, while the electrical threshold shifts to sub-volt soft dielectric breakdown, yielding persistent through-plane conductivity. The same scaffold enhances nanowire-matrix coupling via high conformability and real contact area, enabling a binder- and carbon-free ∼300 nm ultrathin membrane electrode. As a stringent liquid-phase electrochemical validation, this membrane electrode drives selective nitrate-to-ammonia electroreduction in flowing alkaline electrolytes with sustained performance. Near-critical ultrathinness thus emerges as a gateable design dimension for re-imagining commodity plastics as transmembrane-active platforms.",
   "authors": [
@@ -4462,6 +4502,52 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
+ "10.1016/j.ijhydene.2026.158426": {
+  "abstract": "",
+  "authors": [
+   "Yatao Liu",
+   "Maoxuan Wang",
+   "Kaixiang Li",
+   "Xiaoning Ren",
+   "Hanming Wu",
+   "Lingwei Meng",
+   "Benfu Deng",
+   "Wei Li",
+   "Hanguo Tao",
+   "Meng Hu",
+   "Xi Liu",
+   "Cheng Lv",
+   "Chunqing Yang",
+   "Yuankai Shao"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-31",
+  "doi": "10.1016/j.ijhydene.2026.158426",
+  "first_seen": "2026-10-31T16:07:14Z",
+  "id": "10.1016/j.ijhydene.2026.158426",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Calcination atmosphere dictates the chemical state of ruthenium on MgO: From strongly bonded interfacial RuO2 species to active metallic Ru clusters for ammonia decomposition to hydrogen",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158426",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系",
+  "zh_title": "煅烧气氛决定 MgO 上 Ru 的化学状态：从强结合界面 RuO2 物种到氨分解制氢的活性金属 Ru 团簇"
+ },
  "10.1016/j.indcrop.2026.124301": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -5275,6 +5361,44 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
+ "10.1016/j.jece.2026.125743": {
+  "abstract": "",
+  "authors": [
+   "Van-Nho Tran",
+   "Po-Chou Chen",
+   "Quoc-Nam Ha",
+   "Yu-Xiang Huang",
+   "Xiaoyun Chen",
+   "Dong-Hau Kuo"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.jece.2026.125743",
+  "first_seen": "2026-10-31T16:07:14Z",
+  "id": "10.1016/j.jece.2026.125743",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Environmental Chemical Engineering",
+  "tier": "background",
+  "title": "Electrochemical ammonia synthesis from nitrate enabled by partially oxidized Cu-modified NiW thin-film electrocatalysts",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jece.2026.125743",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "部分氧化 Cu 改性 NiW 薄膜电催化剂电化学合成氨"
+ },
  "10.1016/j.jelechem.2026.120371": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -5627,6 +5751,42 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.1016/j.mtsust.2026.101472": {
+  "abstract": "",
+  "authors": [
+   "AliReza Babaei",
+   "Milad Rezaei",
+   "Pirooz Marashi",
+   "William Mark Rainforth"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.mtsust.2026.101472",
+  "first_seen": "2026-10-31T16:07:14Z",
+  "id": "10.1016/j.mtsust.2026.101472",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Materials Today Sustainability",
+  "tier": "background",
+  "title": "Selective and Sustainable Nitrate-to-Ammonia Conversion with Near-Unity Faradaic Efficiency: Sb-Induced Phase Evolution in Ti-Supported Cu-Co Spinel and HER Suppression for Sustained Nitrate Reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.mtsust.2026.101472",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "析氢反应",
+  "zh_title": "Sb 诱导 Ti 支撑 Cu-Co 尖晶石相演变与 HER 抑制实现硝酸盐制氨的高选择性与可持续性"
  },
  "10.1016/j.nanoen.2026.112458": {
   "ab_try": "2026-10-29",
@@ -8021,6 +8181,46 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
+ "10.1039/d6cc05978c": {
+  "abstract": "Developing efficient nitrate-to-ammonia electrocatalysts across diverse pH remains challenging. Herein, Fe-doped anatase TiO2 enables phase-dopant synergy, achieving high performance in acidic, neutral, and alkaline electrolytes. Mechanistically, Fe-anatase synergy promotes water...",
+  "authors": [
+   "Yushuang Gong",
+   "Wenbo Cao",
+   "Yiyuan Jiang",
+   "Yun Liu",
+   "Shiling Yuan",
+   "Yang Guo",
+   "An-Liang Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-31",
+  "doi": "10.1039/d6cc05978c",
+  "first_seen": "2026-10-31T16:07:14Z",
+  "id": "10.1039/d6cc05978c",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Communications",
+  "tier": "background",
+  "title": "Synergistic Phase and Dopant Engineering of TiO2 Enables Broad-pH Electrochemical Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6cc05978c",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate-to-ammonia"
+  ],
+  "zh_brief": "Fe 掺杂的锐钛矿 TiO2 通过相-掺杂协同效应，在酸性、中性和碱性电解质中均实现了高效的硝酸盐还原制氨。机理研究表明，Fe-锐钛矿协同作用促进了水的活化，从而提升了催化性能。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "TiO2 相与掺杂协同工程实现宽 pH 电化学硝酸盐还原制氨"
+ },
  "10.1039/d6cc06204k": {
   "abstract": "Herein, we firstly report a sub-atmospheric pressure Joule heating strategy for the synthesis of geometrically curved Fe-N4 single-atom catalyst with hillock-like nanocarbon (Cur-Fe SAC). The Cur-Fe SAC delivers an exceptional oxygen...",
   "authors": [
@@ -10181,6 +10381,41 @@
   "why": [],
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.52254/1857-0070.2026.4-72.12": {
+  "abstract": "The objective of the study was to determine the feasibility of improving the energy efficiency and environmental performance of autonomous refrigerated transport by replacing the conventional diesel–generator set with an ammonia–hydrogen power plant. The relevance of the work is conditioned by the need to decarbonize and improve the reliability of autonomous refrigerated transport while ensuring the quality preservation of perishable products by partially or completely replacing air (oxygen) in the cargo compartment of the car with an inert gas (nitrogen). The use of liquid ammonia as a chemical carrier of hydrogen within the rolling stock was substantiated, and a coupled model was described for the joint operation of a catalytic cracking reactor, a hydrogen internal combustion engine with an electric generator, a heat-recovery system, and a nitrogen utilization unit. The material and heat balances of the power plant were compiled, and its operating and mass-and-size limits of applicability were determined. The conditions for thermal autonomy of the catalytic ammonia decomposition process via exhaust gas heat recovery and the afterburning of residual combustible components were established, ensuring a significant reduction of the required on-board ammonia reserve compared with the non-recovery scheme. The material balance regularities of ammonia dissociation were determined, substantiating the complete in-system utilization of the associated nitrogen flow. The obtained results confirm the possibility of replacing the diesel–generator set with an ammonia–hydrogen power plant without reducing the useful carrying capacity of the car at an operational cargo density of 0.3–0.4 t/m3.",
+  "authors": [
+   "Konstantin Kim",
+   "Dmitry Monastyrsky"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.52254/1857-0070.2026.4-72.12",
+  "first_seen": "2026-10-31T16:07:14Z",
+  "id": "10.52254/1857-0070.2026.4-72.12",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Problems of the Regional Energetics",
+  "tier": "background",
+  "title": "Improving the Efficiency of the Ammonia–Hydrogen Power Plant for an Autonomous Refrigerated Railway Car",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.52254/1857-0070.2026.4-72.12",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_brief": "研究评估了用氨-氢动力车替代传统柴油发电机组以提升自主冷藏运输能效和环境性能的可行性。通过建立耦合模型，确定了催化裂解反应器、氢内燃机等系统的运行参数，实现了显著的减碳效果。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "改进氨-氢动力车用于自主冷藏铁路车厢的效率"
  },
  "10.55544/sjmars.5.5.5": {
   "abstract": "Ammoniacal nitrogen is a pervasive aquatic contaminant that threatens aquatic life, compromises disinfection, and drives eutrophication, yet most adsorption studies address concentrations far above those found in natural waters and polished effluents. This study evaluates sugarcane bagasse-derived biochar (SCBC), pyrolysed at [500] °C, as a low-cost adsorbent for ammonia removal at low initial concentrations ([2–30] mg L-1). The biochar was characterised by proximate analysis, pHpzc, BET, FTIR, and XRD, and batch experiments examined the effects of pH, dose, contact time, initial concentration, and temperature. Kinetic data were interpreted using pseudo-first-order, pseudo-second-order, Elovich, and intraparticle diffusion models, and equilibrium data using the Langmuir, Freundlich, Temkin, and Dubinin–Radushkevich isotherms, with model suitability judged by R2, chi-square, and RMSE. Optimum removal of [82]% occurred at pH [7] with a dose of [2] g L-1, and equilibrium was reached within approximately [120] min. The pseudo-second-order model (R2 = [0.998]) and the Langmuir isotherm (R2 = [0.999]) provided the best fits, yielding a maximum monolayer capacity of [12.7] mg g-1. Thermodynamic analysis indicated a spontaneous and endothermic process, and the mean free energy of [10.2] kJ mol-1 pointed to ion exchange, complemented by electrostatic attraction, hydrogen bonding, and pore filling. The biochar retained [about 77]% of its efficiency after [five] regeneration cycles. These findings demonstrate that sugarcane biochar is a sustainable, economical option for polishing ammonia-contaminated water at low concentration, while valorising agricultural residue.",
