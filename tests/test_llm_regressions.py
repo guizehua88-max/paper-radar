@@ -117,6 +117,33 @@ class SummaryParserTests(unittest.TestCase):
         self.assertEqual(old_retry.call_args.kwargs["timeout"], 180)
         self.assertEqual(old_retry.call_args.kwargs["retries"], 4)
 
+    def test_budget_pause_is_not_failure_but_real_errors_remain_visible(self):
+        cases = [(llm.net.FetchError("TimeoutError: read timed out"), 104.5, True),
+                 (TimeoutError("read timed out"), 105.0, True),
+                 (ValueError("invalid JSON"), 105.0, False),
+                 (llm.net.FetchError("HTTP 503"), 101.0, False)]
+        for error, finished_at, paused in cases:
+            with self.subTest(error=type(error).__name__, finished_at=finished_at):
+                clock = [100.0]
+                def fail(*args, **kwargs):
+                    clock[0] = finished_at
+                    raise error
+                with patch.object(llm, "provider", return_value={"used": "fixture"}), \
+                     patch.object(llm, "chat", side_effect=fail), \
+                     patch.object(llm.time, "time", side_effect=lambda: clock[0]), \
+                     patch.object(llm.time, "sleep") as sleep:
+                    stats = llm.summarize([{"title": "Ru catalyst"}], deadline=105.0)
+                self.assertEqual(stats["left"], 1)
+                if paused:
+                    self.assertEqual(stats["paused"], "时间预算已用完，下次继续")
+                    self.assertEqual(stats["failed"], 0)
+                    self.assertEqual(stats["err"], "")
+                    sleep.assert_not_called()
+                else:
+                    self.assertNotIn("paused", stats)
+                    self.assertGreater(stats["failed"], 0)
+                    self.assertTrue(stats["err"])
+
 
 if __name__ == "__main__":
     unittest.main()

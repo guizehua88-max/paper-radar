@@ -466,7 +466,9 @@ class Radar:
         todo.sort(key=lambda p: (TIER_RANK.get(p.get("tier"), 0), p.get("date") or ""), reverse=True)
         if llm.provider():
             st = self.brief(todo, deadline)
-            extra["中文简介"] = f"本次 {st['done']} 篇，还剩 {st.get('left', len(todo))} 篇" + (f"（{st['err']}）" if st["err"] else "")
+            extra["中文简介"] = (f"本次 {st['done']} 篇，还剩 {st.get('left', len(todo))} 篇"
+                              + (f"（{st['err']}）" if st["err"] else "")
+                              + (f"（{st['paused']}）" if st.get("paused") else ""))
         extra["公众号报道关联"] = f"{self.link_mentions()} 处"
         self.finish([], extra)
 

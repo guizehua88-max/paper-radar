@@ -315,6 +315,9 @@ def summarize(papers: list[dict], *, deadline: float, batch: int = 6) -> dict:
             stats["failed"] += len(chunk)
             break
         except Exception as e:
+            if isinstance(e, (net.FetchError, TimeoutError)) and deadline - time.time() < 1:
+                stats["paused"] = "时间预算已用完，下次继续"
+                break
             stats["err"] = f"{type(e).__name__}: {str(e)[:160]}"
             stats["failed"] += len(chunk)
             strikes += 1
