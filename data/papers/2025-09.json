@@ -483,7 +483,15 @@
   "zh_title": "通过闪焦耳热同步碳化和相形成用于均匀碳涂覆的聚阴离子正极材料"
  },
  "10.1002/aenm.70110": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Liel Abisdris",
@@ -1239,7 +1247,15 @@
   "zh_obj": "光催化固氮；涉及Fe/铁体系"
  },
  "10.1002/smll.70393": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jiawei Xiao",
@@ -3965,16 +3981,25 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料"
  },
  "10.1021/acs.langmuir.5c03532": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "Noble metal nanoparticles (NPs), particularly platinum (Pt), are widely used in heterogeneous catalysis due to their exceptional activity. However, controlling their size and preventing sintering during synthesis remains a major challenge, especially when aiming for high dispersion and stability on supports such as graphene. Atomic layer deposition (ALD) has emerged as a promising method to address these issues, yet conventional processes often lead to broad particle size distributions (PSDs). This work introduces a new approach for the deposition of size-controlled and sintering-resistant Pt NPs on graphene by atmospheric-pressure ALD using MeCpPtMe 3 and O 2 . In this approach, the deposition temperature varies in a cyclic manner in accordance with the Pt precursor and the O 2 exposure steps. In every ALD cycle, the MeCpPtMe 3 exposure is carried out at either 150 or 200 °C, and the O 2 exposure is at room temperature. The room-temperature step hinders the diffusion and coalescence of Pt NPs, resulting in significantly narrower PSDs compared to those achieved by the conventional ALD processes at 150 and 200 °C. Importantly, Pt NPs with narrower PSDs exhibit higher catalytic activity and improved stability, which are demonstrated for the propene oxidation reaction, despite having a significantly lower Pt loading. Our approach may open a new avenue toward the size-selection synthesis of noble metal NPs for catalytic applications.",
+  "abstract_source": "Europe PMC",
   "authors": [
    "Hao Van Bui",
    "Sri Sharath Kulkarni",
    "J. Ruud van Ommen"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09-09",
   "doi": "10.1021/acs.langmuir.5c03532",
@@ -3996,8 +4021,9 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用大气压原子层沉积技术，通过交替进行 150 或 200 °C 的 MeCpPtMe3 暴露与室温 O2 暴露，在石墨烯上制备了尺寸可控且抗烧结的 Pt 纳米粒子。该方法显著窄化了粒径分布，在丙烯氧化反应中表现出更高的催化活性和稳定性，且 Pt 负载量较低。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
+  "zh_obj": "其他催化反应；涉及碳材料、原子层沉积",
   "zh_title": "温度调控原子层沉积制备的亚3纳米Pt纳米颗粒/石墨烯"
  },
  "10.1021/acs.nanolett.5c03905": {
@@ -4631,7 +4657,15 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1134/s2517751625600190": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "N. A. Zhilyaeva",
@@ -5591,7 +5625,15 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.7567/ssdm.2025.j-4-04": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Dahui Jeon",
