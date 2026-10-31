@@ -348,32 +348,50 @@ def _chunks(dois: list[str], size: int, fn, errs: list[str], *, source: str,
                     progress[d]["checked"].append(source)
 
 
-def abstracts_semantic_scholar(dois: list[str], errs: list[str], *, progress=None, deadline=None) -> dict[str, str]:
+def abstracts_semantic_scholar(dois: list[str], errs: list[str], *, progress=None, deadline=None,
+                               counts: dict | None = None) -> dict[str, str]:
     out: dict[str, str] = {}
+    identity_skips = 0
 
     def one(chunk):
+        nonlocal identity_skips
         res = net.post_json_retry("https://api.semanticscholar.org/graph/v1/paper/batch?fields=abstract,externalIds",
                                   {"ids": [f"DOI:{d}" for d in chunk]}, timeout=_timeout(deadline), retries=1)
         if not isinstance(res, list) or len(res) != len(chunk):
             raise net.FetchError("Unexpected Semantic Scholar batch shape")
         got = {}
+        skipped = 0
         for r in res:
             if r is None:
                 continue
             if not isinstance(r, dict):
                 raise net.FetchError("Unexpected Semantic Scholar record")
-            ab = _strip_abstract(r.get("abstract") or "")
-            if len(ab) < 150:
-                continue
+            ids = r.get("externalIds")
+            raw_abstract = r.get("abstract")
+            if ((ids is not None and not isinstance(ids, dict))
+                    or (raw_abstract is not None and not isinstance(raw_abstract, str))):
+                raise net.FetchError("Unexpected Semantic Scholar record fields")
+            raw_doi = (ids or {}).get("DOI")
+            if raw_doi is not None and not isinstance(raw_doi, str):
+                raise net.FetchError("Unexpected Semantic Scholar DOI field")
             # Do not attach by response position. Exact DOI identity is required,
-            # including when an upstream batch reorders or omits records.
-            d = _doi_key((r.get("externalIds") or {}).get("DOI") or "")
+            # including reordered results. A single unknown DOI is not a batch
+            # failure: retain other verified records and keep querying this source.
+            d = _doi_key(raw_doi or "")
             if d not in chunk:
-                raise net.FetchError("Semantic Scholar abstract identity mismatch")
-            got[d] = ab
+                skipped += 1
+                continue
+            ab = _strip_abstract(raw_abstract or "")
+            if len(ab) >= 150:
+                got[d] = ab
+        # Commit only after every record passes structural validation. A malformed
+        # batch must not leave partial abstracts or misleading skip counts behind.
         out.update(got)
+        identity_skips += skipped
         polite_pause(1)
     _chunks(dois, 100, one, errs, source="Semantic Scholar", progress=progress, deadline=deadline)
+    if counts is not None:
+        counts["identity_mismatches"] = identity_skips
     return out
 
 
@@ -480,12 +498,18 @@ def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | No
             remaining_sources = sum(next_cap is None or next_cap > 0 for _, _, next_cap in steps[index:])
             source_deadline = now + (deadline - now) / max(1, remaining_sources)
         errs: list[str] = []
-        got = fn(rest, errs, progress=evidence, deadline=source_deadline)
+        counts = {}
+        kwargs = {"progress": evidence, "deadline": source_deadline}
+        if name == "Semantic Scholar":
+            kwargs["counts"] = counts
+        got = fn(rest, errs, **kwargs)
         found.update(got)
         for d in got:
             evidence[d]["found_by"] = name
         attempted = sum(name in evidence.get(d, {}).get("attempted", []) for d in rest)
         stats[name] = f"查 {attempted} 得 {len(got)}"
+        if name == "Semantic Scholar":
+            stats[name] += f"（身份不符跳过 {counts.get('identity_mismatches', 0)} 条）"
         if attempted < len(rest):
             stats[name] += f"（未请求 {len(rest) - attempted}）"
         if errs:

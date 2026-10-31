@@ -34,13 +34,50 @@ class AbstractTests(unittest.TestCase):
         self.assertTrue(got[D2].endswith('Two'))
         self.assertEqual(progress[D1]['checked'], ['Semantic Scholar'])
 
-    def test_missing_wrong_or_truncated_identity_never_attaches_abstract(self):
-        for rows in ([{'abstract': AB}], [{'abstract': AB, 'externalIds': {'DOI': D2}}], []):
+    def test_missing_or_wrong_identity_skips_one_record_without_batch_failure(self):
+        for rows in ([{'abstract': AB}], [{'abstract': AB, 'externalIds': {'DOI': D2}}]):
             with self.subTest(rows=rows), patch.object(net, 'post_json_retry', return_value=rows):
-                errors = []; progress = {}
-                got = sources.abstracts_semantic_scholar([D1], errors, progress=progress)
+                errors = []; progress = {}; counts = {}
+                got = sources.abstracts_semantic_scholar([D1], errors, progress=progress, counts=counts)
                 self.assertEqual(got,{})
-                self.assertEqual(progress[D1]['failed'], ['Semantic Scholar'])
+                self.assertEqual(progress[D1]['failed'], [])
+                self.assertEqual(progress[D1]['checked'], ['Semantic Scholar'])
+                self.assertEqual(errors, [])
+                self.assertEqual(counts, {'identity_mismatches': 1})
+
+    def test_one_mismatched_doi_keeps_other_abstracts_and_subsequent_batches(self):
+        dois = [f'10.1000/paper-{i}' for i in range(101)]
+        first = [{'externalIds': {'DOI': d}, 'abstract': AB+d} for d in dois[:100]]
+        first[17]['externalIds']['DOI'] = '10.1000/not-requested'
+        second = [{'externalIds': {'DOI': dois[100]}, 'abstract': AB+dois[100]}]
+        progress = {}
+        with patch.object(net, 'post_json_retry', side_effect=[first, second]) as post:
+            found, stats = sources.find_abstracts(dois, epmc_cap=0, crossref_cap=0, progress=progress)
+        self.assertEqual(post.call_count, 2)
+        self.assertEqual(len(found), 100)
+        self.assertNotIn(dois[17], found)
+        self.assertNotIn('10.1000/not-requested', found)
+        self.assertEqual(found[dois[0]], AB+dois[0])
+        self.assertEqual(found[dois[100]], AB+dois[100])
+        self.assertEqual(stats['Semantic Scholar'], '查 101 得 100（身份不符跳过 1 条）')
+        self.assertTrue(all(p['failed'] == [] and p['checked'] == ['Semantic Scholar'] for p in progress.values()))
+
+    def test_malformed_batch_remains_an_atomic_failure(self):
+        good = {'externalIds': {'DOI': D1}, 'abstract': AB}
+        mismatch = {'externalIds': {'DOI': '10.1000/not-requested'}, 'abstract': AB}
+        cases = [[], {'error': 'bad format'}, [good, mismatch, 'not a record'],
+                 [good, mismatch, {'externalIds': [], 'abstract': AB}],
+                 [good, mismatch, {'externalIds': {'DOI': 42}, 'abstract': AB}],
+                 [good, mismatch, {'externalIds': {'DOI': D2}, 'abstract': {'text': AB}}]]
+        for rows in cases:
+            with self.subTest(rows=rows), patch.object(net, 'post_json_retry', return_value=rows):
+                errors = []; progress = {}; counts = {}
+                got = sources.abstracts_semantic_scholar([D1, D2, '10.1000/three'], errors,
+                                                        progress=progress, counts=counts)
+                self.assertEqual(got, {})
+                self.assertEqual(counts, {'identity_mismatches': 0})
+                self.assertTrue(all(p['failed'] == ['Semantic Scholar'] and p['checked'] == []
+                                    for p in progress.values()))
                 self.assertTrue(errors)
 
     def test_one_failed_source_does_not_retry_other_chunks_or_block_fallback(self):

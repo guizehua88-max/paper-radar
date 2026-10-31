@@ -20,7 +20,7 @@ from . import net
 
 ZHIPU_BASE = "https://open.bigmodel.cn/api/paas/v4"
 ZHIPU_MODELS = ["glm-4.7-flash", "glm-4-flash-250414"]
-BRIEF_V = 3  # v2: element symbols kept; v3: no brief at all when there is no abstract (only the title is translated)
+BRIEF_V = 4  # v3: no title-only briefs; v4: complete titles + glossary, targeted anti-perovskite repair only
 _CJK = re.compile(r"[一-鿿]")
 
 
@@ -137,8 +137,13 @@ def usable_abstract(p: dict) -> str:
 SYSTEM = ("你是催化、材料与化工方向的科研助理，给研究生写论文速览。只依据给出的标题和摘要，"
           "不得编造摘要里没有的方法、数据或结论。")
 INSTRUCTIONS = """为下面每篇论文写两项：
-- t：标题的中文译名，准确简洁；常见缩写保留英文（如 NH3、ALD、FJH、DFT、MOF）
+- t：标题的中文译名，完整翻译，不得省略任何短语；保留主标题、副标题、限定条件、研究对象、方法与结果，不得将长标题概括成短标题。常见缩写保留英文（如 NH3、ALD、FJH、DFT、MOF）
   元素符号和化学式一律照抄原文（Ru 就写 Ru、CeO2 就写 CeO2），不要改写成中文元素名
+  本领域术语表（按上下文使用，不得省略）：
+  anti-perovskite：反钙钛矿（不是“抗钙钛矿”）；electride：电子化合物（电子盐）；hydride：氢化物；oxynitride：氮氧化物；
+  flash Joule heating：闪蒸焦耳热；carbothermal shock：碳热冲击；atomic layer deposition：原子层沉积；
+  single-atom：单原子；promoter：助剂；support：载体；chemical looping：化学链；Haber–Bosch：哈伯-博施；
+  spillover：溢流；metal–support interaction：金属-载体相互作用。
 - b：中文简介
   · 有摘要：2–3 句，80–150 字。依次说明研究对象/体系、关键方法（制备、加热方式、表征或计算）、主要结果；摘要里有关键数字（温度、压力、产率、选择性、稳定时长等）就写上
   · 摘要写着“（无摘要）”：b 写空字符串 ""（只看标题写简介容易编内容，宁可不写）
@@ -153,6 +158,8 @@ def _prompt(chunk: list[dict]) -> str:
     for j, p in enumerate(chunk):
         ab = usable_abstract(p)
         parts.append(f"[{j}] 标题：{p['title']}\n期刊：{p.get('source') or '未知'}\n摘要：{ab[:1800] if ab else '（无摘要）'}")
+        if needs_title_repair(p):
+            parts[-1] += '\n本篇仅修正标题：请完整重译英文标题，使用“反钙钛矿”；b 写空字符串，已有简介由程序保留。'
     return INSTRUCTIONS + "\n" + "\n\n".join(parts)
 
 
@@ -254,6 +261,16 @@ def _apply(p: dict, r: dict, model: str) -> bool:
         return False
     t = re.sub(r"\s+", " ", r["t"]).strip().strip("“”\"")
     b = re.sub(r"\s+", " ", r["b"]).strip().strip("“”\"")
+    if "抗钙钛矿" in t:
+        return False
+    if needs_title_repair(p):
+        # BRIEF_V is not a bulk migration trigger. Only the explicitly identified
+        # mistranslation is rewritten; its existing abstract-based brief stays intact.
+        if not _CJK.search(t) or "反钙钛矿" not in t:
+            return False
+        p["zh_title"] = t
+        p["brief_v"] = BRIEF_V
+        return True
     from_title = not usable_abstract(p)
     if from_title:  # no abstract: translate the title only; a "brief" from a title is mostly guesswork
         if not _CJK.search(t):
@@ -263,17 +280,23 @@ def _apply(p: dict, r: dict, model: str) -> bool:
         if not _CJK.search(b) or len(b) < 8:
             return False
         p["zh_brief"] = b[:400]
-    if _CJK.search(t):
-        p["zh_title"] = t[:200]
+    if not p.get("zh_title") and _CJK.search(t):
+        p["zh_title"] = t
     p["brief_from"] = "title" if from_title else "abstract"
     p["brief_by"] = model
     p["brief_v"] = BRIEF_V
     return True
 
 
+def needs_title_repair(p: dict) -> bool:
+    return "抗钙钛矿" in (p.get("zh_title") or "")
+
+
 def needs_brief(p: dict) -> bool:
     if p.get("kind") == "wechat":
         return False
+    if needs_title_repair(p):
+        return True
     if usable_abstract(p):  # (re)write when an abstract is available but the brief is missing or title-based
         return not p.get("zh_brief") or p.get("brief_from") == "title"
     return not p.get("zh_title")

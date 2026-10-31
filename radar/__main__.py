@@ -18,7 +18,7 @@ import sys
 import time
 import tomllib
 
-from . import legacy_import, llm, net, push, site, sources, store
+from . import dates, legacy_import, llm, net, push, site, sources, store
 from .filters import TIER_RANK, TIER_ZH, Classifier, title_key
 
 
@@ -403,6 +403,32 @@ class Radar:
                 dropped += 1
         return {"调整": moved, "移除": dropped}
 
+    def abstract_candidates(self, limit: int = 500) -> list[dict]:
+        """Continue the oldest query round; within it prefer key and recent papers."""
+        today = self.now.date()
+        def checked_date(p):
+            if p.get("ab_check_v") == 2:
+                try:
+                    return dt.date.fromisoformat(str(p.get("ab_try") or "")[:10])
+                except ValueError:
+                    pass
+            return None
+        def due(p):
+            checked = checked_date(p)
+            wait_days = 1 if p.get("ab_result") in ("retry", "partial") else 7
+            return checked is None or (today - checked).days >= wait_days
+        def priority(p):
+            checked = checked_date(p)
+            published = (p.get("date") or "")[:10].replace("-", "")
+            recent = int(published.ljust(8, "0")) if published.isdigit() else 0
+            return (checked or dt.date.min,
+                    p.get("tier") not in ("cross", "direct", "transferable"),
+                    -recent, -TIER_RANK.get(p.get("tier"), 0), p["id"])
+        candidates = [p for p in self.papers.values() if p.get("kind") != "wechat"
+                      and not llm.usable_abstract(p)
+                      and str(p.get("doi") or p["id"]).startswith("10.") and due(p)]
+        return sorted(candidates, key=priority)[:limit]
+
     def maintain(self, minutes: float) -> None:
         """Slow background work, a slice per run: fix duplicate DOIs, find missing abstracts, write Chinese briefs."""
         deadline = time.time() + minutes * 60
@@ -430,22 +456,14 @@ class Radar:
             self.state["rules_hash"] = rh
             extra["按新规则重筛"] = (f"移除 {rc['移除']} 篇；" + "，".join(f"{k} {v}" for k, v in rc["调整"].items())) or "无变化"
             print(f"  reclassify: {rc}")
-        # Only real requests count as attempts. Old v1 stamps included skipped
-        # papers, so recheck them once in bounded slices; failures wait one day.
-        today = self.now.date()
-        def tried_recently(p):
-            try:
-                if p.get("ab_check_v") != 2:
-                    return False
-                wait_days = 1 if p.get("ab_result") in ("retry", "partial") else 7
-                return (today - dt.date.fromisoformat(p.get("ab_try", "")[:10])).days < wait_days
-            except ValueError:
-                return False
-        cands = [p for p in self.papers.values() if p.get("kind") != "wechat" and not llm.usable_abstract(p)
-                 and str(p.get("doi") or p["id"]).startswith("10.") and not tried_recently(p)]
-        cands.sort(key=lambda p: (p.get("ab_try", "") if p.get("ab_check_v") == 2 else "",
-                                  -TIER_RANK.get(p.get("tier"), 0), p["id"]))
-        cands = cands[:120]
+        if not net_offline():
+            ds = dates.fill_missing_dates(self.papers.values(), now=self.now,
+                    deadline=min(deadline, time.time() + min(60, minutes * 6)), limit=30)
+            extra["补发表日期"] = (f"查 {ds['queried']} 篇，补到 {ds['updated']} 篇；"
+                                  f"无可用日期 {ds['missing']}，失败 {ds['failed']}，未查 {ds['skipped']}")
+            print(f"  publication dates: {ds}")
+        # 500 is a queue cap, not permission to exceed the existing time budget.
+        cands = self.abstract_candidates()
         if cands:
             before = {p["id"]: p.get("tier") for p in cands}
             # Leave most of a short manual run available for Chinese summaries.
@@ -463,7 +481,8 @@ class Radar:
         llm.drop_title_briefs(self.papers.values())
         # Chinese briefs, most relevant + newest first
         todo = [p for p in self.papers.values() if llm.needs_brief(p)]
-        todo.sort(key=lambda p: (TIER_RANK.get(p.get("tier"), 0), p.get("date") or ""), reverse=True)
+        todo.sort(key=lambda p: (llm.needs_title_repair(p), TIER_RANK.get(p.get("tier"), 0),
+                                 p.get("date") or ""), reverse=True)
         if llm.provider():
             st = self.brief(todo, deadline)
             extra["中文简介"] = (f"本次 {st['done']} 篇，还剩 {st.get('left', len(todo))} 篇"
