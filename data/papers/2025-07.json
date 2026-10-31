@@ -1380,7 +1380,19 @@
   "zh_title": "焦耳热-闪光合成磁性石墨烯纳米结构"
  },
  "10.1007/s11243-025-00675-1": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "not_found",
+  "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC",
+   "Crossref"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Chao Gao",
@@ -1486,7 +1498,19 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1007/s12209-025-00436-2": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "not_found",
+  "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC",
+   "Crossref"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Wangyang Ji",
@@ -1526,7 +1550,19 @@
   "zh_title": "CeO2氧空位增强Fe基催化剂低温合成氨"
  },
  "10.1007/s40843-025-3476-4": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "not_found",
+  "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC",
+   "Crossref"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jiangli Wang",
@@ -1609,8 +1645,17 @@
   "zh_title": "通过超快闪焦耳加热合成WC/W2C异质结构调控界面电子结构增强的Ru析氢能力"
  },
  "10.1016/j.biortech.2025.132436": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "Microbially mediated nitrogen fixation offers a sustainable and eco-friendly alternative to the energy-intensive Haber-Bosch reaction for ammonia production. However, the efficient conversion of atmospheric nitrogen into ammonia via microorganism remains a notable challenge. In this work, we successfully enhanced ammonia production in Klebsiella pasteurii Sb-24 by integrating polyaniline (PANi) coated Ag2Se core-shell nanozymes through a self-assembly process and revealed the underlying mechanisms. The results of this investigation revealed that Ag2Se@PANi nanozymes expedited the logarithmic growth phase of K. pasteurii Sb-24 cells, enhanced nitrogen fixation activity, and effectively reduced reactive oxygen species levels in Sb-24 cells, with more pronounced enhancements observed at 38 °C compared to 28 °C. Upon optimization, the biohybrid system achieved a maximum NH4+ production of 0.48 ± 0.05 μg·mL-1 at 38 °C, surpassing the output of pure bacterium by 333 %. Further exploration into interfacial electron transfer mechanisms uncovered that Ag2Se@PANi nanozymes efficiently facilitated electron transfer into K. pasteurii Sb-24 cells at 38 °C. These findings were corroborated by the upregulation of proteins involved in nitrogen fixation (i.e. Mo-Fe protein) and electron transfer as identified in the proteomic analysis. This study presents an effective strategy to enhancing ammonia production using PANi-based thermoelectric composites and lays a solid foundation for future research into the biomanufacturing using hybrid systems.",
+  "abstract_source": "Semantic Scholar",
   "authors": [
    "Meng-Xin Zhao",
    "Si-Ru Chen",
@@ -1625,8 +1670,8 @@
    "Feng Zhao"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.biortech.2025.132436",
@@ -1654,9 +1699,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "通过自组装过程将聚苯胺包覆的Ag2Se核壳纳米酶整合到克氏巴斯德氏菌Sb-24中，增强了其氨合成能力。该杂化系统加速了细菌的对数生长期，提高了固氮活性并降低了活性氧水平，在38°C下的增强效果优于28°C。优化后系统在38°C下实现了0.48 ± 0.05 μg·mL-1的最大NH4+产量，比纯细菌高出333%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
-  "zh_title": "Ag2Se@Pani 核壳纳米酶-克氏肺炎杆菌杂化系统增强合成氨"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "工程化Ag2Se@Pani核壳纳米酶-克氏巴斯德氏菌杂化系统增强氨合成"
  },
  "10.1016/j.cej.2025.163467": {
   "ab_try": "2026-10-29",

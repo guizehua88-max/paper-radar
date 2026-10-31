@@ -2527,7 +2527,17 @@
   "zh_title": "通过等离子体增强原子层沉积TiO2涂层和顺序硅烷化制备硫醇/胺双功能Fe3O4磁性纳米颗粒"
  },
  "10.1016/j.cclet.2025.111820": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Xuanbei Peng",
@@ -2792,7 +2802,17 @@
   "zh_title": "高熵合金催化下的聚烯烃共聚物选择性解聚：双层超快加热反应器中的热解"
  },
  "10.1016/j.cej.2026.177330": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Zhen Zeng",
@@ -3694,8 +3714,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.compchemeng.2026.109614": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "In this work, we present a detailed model of a Haber–Bosch synthesis loop that includes catalytic beds, heat-exchangers, compressors, steam turbines, and flash separators. The model provides a function for the total electrical power consumption of the synthesis loop, which accounts for compression, refrigeration power, and power generation via steam turbines. This total power represents the cost function for optimising the Haber–Bosch synthesis loop across its full operating envelope, ranging from 10% to 120% load in terms of the hydrogen feed flow. The optimisation considers six degrees of freedom: the inlet temperatures of three reactor beds, the H 2 /N 2 -ratio in the reactor feed, separator temperature, and loop pressure. Results reveal that the loop pressure is the most important parameter, with an optimal value varying from over 220 bar at maximum load to around 110 bar at minimum load. We present a control architecture for the Haber–Bosch synthesis loop that enables load-flexible operation. We propose maintaining the reactor bed inlet temperatures and the reactor H 2 /N 2 -ratio constant across the operating envelope, as this results in a minimal increase in synthesis loop power (self-optimising variables). Maintaining constant operating parameters mitigates frequent changes in operating conditions during load-flexible operation, thereby simplifying control implementation and contributing to the longevity of critical process units. Using this strategy, we demonstrate stable and flexible operation of the Haber–Bosch synthesis loop down to 10% load, with rapid load-change rates of up to 3% per minute.",
+  "abstract_source": "Semantic Scholar",
   "authors": [
    "Joachim Weel Rosbo",
    "Anker Degn Jensen",
@@ -3704,8 +3733,8 @@
    "Jakob Kjøbsted Huusom"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07",
   "doi": "10.1016/j.compchemeng.2026.109614",
@@ -3733,9 +3762,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "建立了包含催化床、换热器和压缩机的哈伯-博施合成回路详细模型，以总电耗为成本函数在全操作范围内（氢气进料流量10%-120%）进行优化。结果表明，回路压力是最重要参数，最优值随负载从最大负载时的220 bar降至最小负载时的110 bar。提出了保持反应床入口温度和H2/N2比恒定的控制架构，实现了从10%负载到3%/分钟的快速负载变化下的稳定柔性运行。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
-  "zh_title": "负载柔性哈伯-博施氨合成循环的优化与鲁棒控制"
+  "zh_title": "负载柔性哈伯-博施合成回路优化与鲁棒控制"
  },
  "10.1016/j.compchemeng.2026.109813": {
   "abstract": "We present a modular and thermodynamically consistent modeling framework that systematically integrates thermodynamics, transport phenomena, reaction kinetics, and numerical discretization and simulation for fixed-bed reactors. Accurate simulation of dynamic reactor behavior is essential for enabling flexible operation in Power-to-X (P2X) applications, such as Power-to-Ammonia and Power-to-Methanol, where fluctuating renewable energy inputs demand robust and responsive process control. The proposed models integrate non-ideal thermodynamics through cubic equations of state and account for both advective and dispersive transport phenomena. We derive consistent mass and energy balances using internal energy as the energy state variable, and obtain temperature and pressure from thermodynamic constraints. The resulting workflow generates the necessary model functions for steady-state and dynamic simulations, as well as parametric sensitivity analysis under varying physical assumptions. The workflow is demonstrated for one-dimensional pseudo-homogneeous models of two fundamental fixed-bed reactor units, the fixed-bed reactor (FBR) and the direct-cooled reactor (DCR). In the context of ammonia synthesis, we simulate representative reactor variants, the adiabatic fixed-bed reactor (AFBR) and the isothermal direct-cooled reactor (IDCR). Simulations assess the impact of real and ideal thermodynamic models, transport assumptions, and steady-state approximations. Results show that real-fluid effects at elevated pressures significantly influence simulated steady-state outlet temperatures and conversions for the IDCR, while common literature model assumptions yield dynamic responses close to those of the full model. Altogether, the framework provides a reusable computational workflow for constructing, discretizing, and analyzing fixed-bed reactor models under variable operating conditions and model assumptions relevant to Power-to-X applications.",
@@ -4023,7 +4053,17 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.fuel.2026.140557": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Xiaowang Yan",
@@ -4063,7 +4103,17 @@
   "zh_title": "无催化剂氨合成：DBD下温和条件下AC、单极和双极纳秒脉冲对能量利用率和氮活化的影响"
  },
  "10.1016/j.fuel.2026.140641": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Kazem Adavi",
@@ -4559,6 +4609,9 @@
    "Sankar Gopinathan",
    "Andrew Michael Beale"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-31",
   "doi": "10.1016/j.jcat.2026.117088",
@@ -4581,8 +4634,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用原位X射线衍射层析成像研究了Cu/ZnO/Al2O3(−Cs2O)催化剂在还原过程中的结构演变。发现高水含量和Cs2O负载促进了Cu0晶粒生长和ZnO烧结，导致催化剂边缘机械强度下降，最终引发失效。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "工业Cu/ZnO/Al2O3(−Cs2O)水煤气变换催化剂失效机理研究"
  },
  "10.1016/j.jcis.2026.140150": {
   "ab_try": "2026-10-29",
@@ -8561,6 +8616,9 @@
    "Sangmin Lee",
    "Jihoon Chung"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-20",
   "doi": "10.1038/s43246-026-01289-5",
@@ -8583,8 +8641,10 @@
   "why": [
    "nitrogen fixation"
   ],
+  "zh_brief": "针对传统摩擦纳米发电机电流输出低和信号为脉冲交流电的局限，该综述提出利用静电放电（ESD）作为突破机制。ESD通过电子雪崩效应将电流放大至毫安至安培级，并利用空气间隙作为临时开关实现直流（DC）生成。文章系统分类了基于ESD的TENGs，并探讨了其在化学去除、固氮制肥及气体传感等自供电应用中的潜力。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "静电放电作为摩擦纳米发电机突破性策略的综述"
  },
  "10.1039/d6cc02642g": {
   "ab_try": "2026-10-29",
@@ -9021,7 +9081,19 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1039/d6ra05773j/v1/review1": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "not_found",
+  "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC",
+   "Crossref"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [],
   "brief_by": "glm-4.7-flash",
@@ -11057,6 +11129,9 @@
   "authors": [
    "Naseebah A. Alhabib"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-29",
   "doi": "10.25781/kaust-htcy9",
@@ -11079,8 +11154,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究了Na8[AlSiO4]6(OH)2·nH2O和RE3O4Cl（RE = Y, Dy）的离子交换。结果表明，在350°C下用CaH2与羟基沸石反应可发生OH-/H-交换，而600°C下框架分解；RE3O4Cl与CaH2或NaH反应会导致非晶化。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "逆水煤气变换"
+  "zh_obj": "逆水煤气变换",
+  "zh_title": "沸石及相关材料的离子交换与结构变化"
  },
  "10.26190/unsworks/32566": {
   "abstract": "Ammonia, as both a hydrogen carrier and a vital chemical feedstock, represents a promising route for sustainable energy storage and decarbonisation. This thesis focuses on developing advanced catalysts for electrochemical ammonia synthesis via nitrate reduction, combining experimental innovation with computational modelling. The background and foundational principles of the work are introduced based on a comprehensive literature review. The materials, characterisation techniques, and experimental methods used throughout the research are also outlined. Three interconnected projects are presented. First, a liquid metal-based strategy is employed to fabricate bismuth (Bi) nano-electrocatalysts by electrochemically expelling Bi from a Ga–Bi alloy. Through controlled cooling and interfacial perturbations, Bi nanostructures—including nanosheets, nanotubes, and nanoparticles—are formed, with nanoparticles exhibiting the highest current density due to superior surface area and conductivity. These nanostructures are integrated into graphene oxide liquid crystals, creating a hierarchical conductor–catalyst framework. The electrodes, produced via 3D printing, enable precise architecture, enhancing mass transport, electron transfer, and catalyst stability. This system achieves a high ammonia production rate (400 nmol s⁻¹ cm⁻²), over 90% Faradaic efficiency, and current densities exceeding 350 mA cm⁻², surpassing industrial benchmarks. Next, the design of a high-entropy liquid metal alloy (HELMA) catalyst composed of Ga–Fe–Zn–Sn–Bi–Ni is explored. The catalyst is developed using ab initio molecular dynamics (AIMD) and Design of Experiments (DoE), which reduce the candidate pool to 28 targeted compositions. The liquid state facilitates atomic-level dispersion and dynamic surface reconfiguration. The optimised HELMA achieves a sevenfold improvement in ammonia production (320 nmol s⁻¹ cm⁻²) with 90% Faradaic efficiency over binary systems. This is followed by Density Functional Theory (DFT) calculations to investigate nitrate reduction (NO₃RR) mechanisms on HELMA, considering minimal endothermic energy and reaction energy. Zn initiates nitrate adsorption, Bi and Sn assist in deoxygenation, Ni promotes nitrogen hydrogenation, and Fe serves as a hydrogen reservoir. This hydrogen shuttling mechanism accelerates kinetics and prevents surface poisoning. Finally, the key outcomes are summarised, highlighting the untapped potential of liquid alloys and computational modelling in catalyst development, and outlining directions for future research.",
@@ -11350,6 +11427,9 @@
    "Tarak Karmakar",
    "Anmol and Tarak Karmakar"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-28",
   "doi": "10.26434/chemrxiv.15006680/v1",
@@ -11372,8 +11452,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "结合机器学习势函数和电子结构分析，研究了液态金属催化剂上氨合成的机理。计算表明，Cu原子选择性促进H2解离，但不显著促进N2活化，反应遵循氢化先于N-N键断裂的关联路径，Cu稳定了早期氢化中间体。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "液态金属催化剂上氨合成机理研究"
  },
  "10.26599/nr.2026.94908519": {
   "abstract": "Abstract It is non-trivial to perform density functional theory (DFT) screening for experimental validation that can accelerate qualitative materials discovery to give priority to the top candidates. Cluster catalysts, owing to their adequate active sites, quantum effect, high ratio of volume/surface, excellent activity and selectivity, have garnered widespread attention in various complicated multi-step catalytic reactions. However, the design concept, structure formation principle, electrocatalysis process and potential reaction mechanism are rarely unveiled. This perspective will summarize the DFT calculation-assisted screening concept with emphasis on theoretical calculation descriptor, geometric structures, electronic properties, adsorption behaviors, and reaction mechanism to monitor the cluster catalysis. Thereafter, experimental design of advanced clusters will be presented, including synthetic strategies and various characterization techniques for intrinsic active sites identification. Subsequently, an overview of the structure-property correlation to drive diverse electrochemical reactions will be exemplified and discussed, encompassing cathode reaction of oxygen reduction reaction (ORR), anode oxidation of H2, alcohols and acids, water splitting, nitrogen reduction reaction (NRR), carbon dioxide reduction reaction (CO2RR). Finally, a fundamental insight into the existing challenges and perspectives were proposed for rational screening and structural regulation of the advanced clusters for the electrochemical reactions in clean energy conversion devices.",

@@ -1816,7 +1816,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及碳材料"
  },
  "10.1016/j.cej.2024.152506": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Luxuan Wang",
@@ -1948,7 +1958,17 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.cej.2024.152924": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Biswanath Dutta",
@@ -2143,7 +2163,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.clcb.2024.100077": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "Semantic Scholar": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "Semantic Scholar",
+   "Europe PMC"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Ibrahim Bello",
@@ -4248,6 +4278,9 @@
    "Fuzhou Chen",
    "Zhengrong Gu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2024-08-07",
   "doi": "10.1039/d4tc01736f",
@@ -4269,8 +4302,10 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "综述了焦耳加热对储能材料合成的影响及其在电池电极、超级电容器、固态电解质、电极回收和集流体等应用中的变革性作用。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "储能材料与应用中焦耳加热综述"
  },
  "10.1088/1361-6528/ad64d9": {
   "abstract": "Abstract Ammonia (NH 3 ) is a versatile and important compound with a wide range of uses, which is currently produced through the demanding Haber-Bosch process. Electrocatalytic nitrate reduction into ammonia (NRA) has recently emerged as a sustainable approach for NH 3 synthesis under ambient conditions. However, the NRA catalysis is a complex multistep electrochemical process with competitive hydrogen evolution reaction that usually results in poor selectivity and low yield rate for NH 3 synthesis. With maximum atom utilization and well-defined catalytic sites, single atom catalysts (SACs) display high activity, selectivity and stability toward various catalytic reactions. Very recently, a number of SACs have been developed as promising NRA electrocatalysts, but systematical discussion about the key factors that affect their NRA performance is not yet to be summarized to date. This review focuses on the latest breakthroughs of SACs toward NRA catalysis, including catalyst preparation, catalyst characterization and theoretical insights. Moreover, the challenges and opportunities for improving the NRA performance of SACs are discussed, with an aim to achieve further advancement in developing high-performance SACs for efficient NH 3 synthesis.",
@@ -6202,6 +6237,9 @@
   "authors": [
    "Egill Skúlason"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
   "cross": false,
   "date": "2024-08-28",
   "doi": "10.29363/nanoge.matsusfall.2024.292",
@@ -6222,7 +6260,8 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "氮还原建模与理论预测催化剂的实验验证"
  },
  "10.3390/catal14090572": {
   "abstract": "Ammonia synthesis is one of the most important chemical reactions. Due to thermodynamic restrictions and the reaction requirements of the current commercial iron catalysts, it is also one of the worst reactions for carbon dioxide emissions and energy usage. Ruthenium-based catalysts can substantially improve the environmental impact as they operate at lower pressures and temperatures. In this work, we provide a screening of more than 40 metals as possible promoter options based on a Ru/Pr2O3 catalyst. Cesium was the best alkali promoter and was held constant for the series of double-promoted catalysts. Ten formulations outperformed the Ru-Cs/PrOx benchmark, with barium being the best second promoter studied and the most cost-effective option. Designs of experiments were utilized to optimize both the pretreatment conditions and the promoter weight loadings of the doubly promoted catalyst. As a result, optimization led to a more than five-fold increase in activity compared to the unpromoted catalyst, therefore creating the possibility for low-ruthenium ammonia synthesis catalysts to be used at scale. Further, we have explored the roles of promoters using kinetic analysis, X-ray Photoelectron Spectroscopy (XPS), and in situ infrared spectroscopy. Here, we have shown that the role of barium is to act as a hydrogen scavenger and donor, which may permit new active sites for the catalyst, and have demonstrated that the associative reaction mechanism is likely used for the unpromoted Ru/PrOx catalyst with hydrogenation of the triple bond of the dinitrogen occurring before any dinitrogen bond breakage.",
