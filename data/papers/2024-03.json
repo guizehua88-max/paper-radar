@@ -41,17 +41,20 @@
  },
  "10.1002/adfm.202470065": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Cu-Based Catalysis In article number 2311752, Amit Kumar, In Su Lee, and co-workers show, on a carbon paper, an electrochemically grown 2D-Cu nanolayer inside a porous bilayer silica template, forming a sandwiched structure. The extended and intimate 2D-2D silica-Cu interface cooperatively functions as a catalyst for selective hydrogenation of alkynes to alkenes.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Sampathkumar Jeevanandham",
    "Ankur Maji",
@@ -63,9 +66,9 @@
    "Amit Kumar",
    "In Su Lee"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-03-19",
   "doi": "10.1002/adfm.202470065",
@@ -87,8 +90,9 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "在碳纸上利用电化学方法在多孔双层二氧化硅模板内生长二维铜纳米层，形成夹层结构。该结构中延展且紧密的二氧化硅-铜界面协同作用，用于催化选择性加氢炔烃为烯烃。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "通用催化方法；涉及原子层沉积",
+  "zh_obj": "其他催化反应；涉及碳材料、原子层沉积",
   "zh_title": "电化学超薄金属原子层沉积：二氧化硅微环境辅助的Cu基催化（Adv. Funct. Mater. 12/2024）"
  },
  "10.1002/adma.202311982": {
@@ -706,11 +710,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -751,16 +757,18 @@
  },
  "10.1007/s10562-024-04629-7": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -986,16 +994,18 @@
  },
  "10.1007/s40242-024-4019-3": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1256,25 +1266,28 @@
  },
  "10.1016/j.apsusc.2023.159015": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Noble metal ALD processes with organometallic precursors together with oxygen have been developed extensively. Reaction mechanisms in this family of processes involve combustion of the ligands of the metal precursor by the O2 counter reactant. The ligands are oxidized and form gaseous CO2 and H2O as byproducts. Simultaneously the metallic center is reduced and a noble metal film is deposited. The overall reaction mechanism is fairly well-known, however details regarding the carbonaceous intermediates on the surface at different states of an ALD cycle and the nature of the active surface oxygen are still lacking. In this work, these details are studied mainly with in vacuo X-ray photoelectron spectroscopy (XPS) and temperature programmed desorption (TPD) for platinum and ruthenium processes. Trimethyl(methylcyclopentadienyl) platinum(IV) (MeCpPtMe3) and bis(cyclopentadienyl) ruthenium(II) RuCp2 are used as precursors together with O2.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Heta-Elisa Nieminen",
    "Matti Putkonen",
    "Mikko Ritala"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-03",
   "doi": "10.1016/j.apsusc.2023.159015",
@@ -1296,7 +1309,8 @@
   "why": [
    "ALD"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "利用原位真空 XPS 和 TPD 研究了 RuCp2 和 MeCpPtMe3 与 O2 反应的 ALD 过程机理。研究发现金属前驱体配体被 O2 氧化生成 CO2 和 H2O，同时金属中心被还原沉积，但表面碳质中间体和活性表面氧的性质仍需进一步阐明。",
+  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
   "zh_title": "真空条件下研究 ruthenium 和 platinum 薄膜原子层沉积过程中的反应机理"
  },
@@ -1445,11 +1459,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1805,11 +1821,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1916,11 +1934,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2106,11 +2126,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2265,11 +2287,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2592,17 +2616,20 @@
  },
  "10.1016/j.oceram.2024.100565": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "We investigated the use of metallic silver as a catalyst for flash sintering on hydroxyapatite/zirconia (HZ) composites. Adding 3 wt.% of silver to the ceramic powder reduced the flash onset temperature (from 1084 °C to 925 °C) and also the electric field (from 300 V.cm−1 to 150 V.cm−1) used in the process. We attribute this behaviour to the formation of a silver percolation path that acts as a heat source, accelerating the thermal runaway. As a result, both the flash temperature and the required electric field were reduced. Furthermore, the results suggest that the temperatures along the percolation paths are high enough to reach the boiling point of silver, forming a gaseous phase that leaves the sample.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Isabela R. Lavagnini",
    "Bola Yoon",
@@ -2613,9 +2640,9 @@
    "Lílian M. Jesus",
    "João V. Campos"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-03",
   "doi": "10.1016/j.oceram.2024.100565",
@@ -2637,6 +2664,7 @@
   "why": [
    "flash sintering"
   ],
+  "zh_brief": "研究了金属银作为羟基磷灰石/氧化锆复合材料闪烧催化剂的作用。添加 3 wt.% 银降低了闪烧起始温度（从 1084 °C 降至 925 °C）和电场强度（从 300 V·cm−1 降至 150 V·cm−1）。这归因于银渗透路径的形成作为热源加速热失控，且路径温度足以达到银沸点形成气相。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "银对陶瓷快速烧结的催化效应"
@@ -2917,17 +2945,20 @@
  },
  "10.1021/acs.iecr.3c04299": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The development of a bimetallic catalyst for ammonia synthesis using nonprecious metals such as Co, Fe, and Mo has attracted wide attention. In this work, because of the enhancement of the exposed Co species on the surface of the Co–Fe bimetallic catalyst through the introduction of Co into Fe-CeO 2 by the impregnation method, the amount of hydrogen adsorbed on the metal surface would enhance, and the hydrogen spillover could strengthen. As a result, the as-prepared sample shows much higher ammonia synthesis activity than other Co–Fe bimetallic catalysts or monometallic samples. This finding not only provides a way for the development of bimetallic catalysts using nonprecious metals for ammonia synthesis but also helps design other bimetallic catalysts for hydrogen-involving reactions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Guoqing Zhong",
    "Yang Liu",
@@ -2939,8 +2970,8 @@
    "Lilong Jiang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-03-19",
   "doi": "10.1021/acs.iecr.3c04299",
@@ -2964,6 +2995,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "通过浸渍法将 Co 引入 Fe-CeO 2 制备 Co–Fe 双金属催化剂，增加了表面暴露的 Co 物种，从而增强了金属表面的氢吸附和氢溢流。所得样品的氨合成活性显著高于其他 Co–Fe 双金属或单金属样品，为开发非贵金属氨合成催化剂提供了新思路。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "Ceria 支撑的 Co–Fe 双金属催化剂中氢溢流的增强"
@@ -3212,17 +3244,20 @@
  },
  "10.1021/acscatal.3c06201": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "For a catalyst to be efficient and durable, it is crucial that the reaction products do not poison the catalyst. In the case of the Haber-Bosch iron based catalyst, the rate-limiting step is believed to be the decomposition of nitrogen molecules on the Fe(111) surface. This step leads to the production of atomic nitrogen on the surface N* that unless are hydrogenated and eventually released as NH3 molecules, remain on the surface. Thus, it is important to ascertain how a high N* coverage affects nitrogen dissociative chemisorption. To answer this question, we study the properties of the Fe(111) surface at different N* coverage both at room and operando temperature. Using state-of-the-art simulations, we have already found that, at high temperatures, the surface atoms are highly mobile and that the catalytic centers normally associated with the surface activity acquire a finite lifetime [1]. Here, we discover that the N* surface atoms are highly mobile and that coverage reduces but does not eliminate iron mobility. The N* atoms promote the formation of metastable iron triangular surface structures whose chemical composition can be described as F e_3^*N_i^* i = 1, 4. These structures are the result of the frustrated drive of the system towards a more stable Fe4N phase. As a consequence of the formation of these structures, nitrogen atoms tend to cluster, reducing their poisoning effect. At the same time, the reduction in the number of catalytic centers is counteracted by an increase in their lifetime. The combined effect is that the barrier for dissociation is not significantly altered at least up to the maximum coverage studied here of 50%.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Shivam Tripathi",
    "Luigi Bonati",
@@ -3230,8 +3265,8 @@
    "Michele Parrinello"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-03-18",
   "doi": "10.1021/acscatal.3c06201",
@@ -3253,8 +3288,9 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "利用先进模拟研究了 Fe(111) 表面在不同 N* 覆盖率下的性质，发现高覆盖率下 N* 原子高度移动并促进形成亚稳态 Fe_3^*N_i^*（i = 1, 4）表面结构。这些结构促使氮原子聚集，降低了中毒效应，同时增加了催化中心的寿命，使得在高达 50% 覆盖率下氮分解能垒未显著改变。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_obj": "N₂/H₂气相合成氨；涉及Fe/铁体系",
   "zh_title": "避免与哈伯-博施催化相关的中毒步骤"
  },
  "10.1021/acscatal.4c00479": {
@@ -4042,11 +4078,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "Photocatalytic water splitting is one of the sustainable and environmentally-friendly methods for producing hydrogen.",
@@ -4168,24 +4206,27 @@
  },
  "10.1063/5.0193812": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia is a widely produced chemical commonly known as a base for fertilizer.Recently, there has been much research about ammonia's potential as a carbon-free energy source and an eco-friendly H2 source for transportation fuel.Henceforth, moving forward is needed for ammonia production with higher efficiency.The most used ammonia production process is the Haber-Bosch process.There have been a lot of attempts at making this process more efficient and economically better, one of those is with the reaction of the Haber-Bosch process in 3 beds in series with fresh makeup between each bed and pre-heating of feed with effluent.From an economical and efficient standpoint, this method is very intriguing and beneficial.But a few aspects, such as operating conditions, need to be considered to prevent operation failure and control issues.This paper uses a steady state simulation to represent the process behaviour and set the operation parameters limit that will cause instability or maintain stability.Aspen-Hysys is used as the main simulation processor to study the harmonic oscillation of the process temperature.The result shows that to maintain the stability of each bed while providing the highest conversion of ammonia, a bed volume configuration of 6 m 2 for the first and second bed and 18 m2 for the third bed with a quenching ratio of 0,44:0,34:0,22 for bed 1,2, and 3. a fresh feed temperature in the range of 305 o C is needed with a constant pressure of 162 bar of operating condition.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Avariz Muhammad",
    "Tri P. Adhi"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-03-07",
   "doi": "10.1063/5.0193812",
@@ -4207,6 +4248,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用 Aspen-Hysys 对三床串联反应过程进行稳态模拟，确定了导致不稳定的操作参数范围。结果表明，为维持各床稳定性并实现最高转化率，需采用第一、二床体积 6 m 2、第三床 18 m 2 的配置，以及 0,44:0,34:0,22 的淬冷比，并在 162 bar 压力下将新鲜进料温度控制在 305 °C。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "三床哈伯-博施氨合成过程的不稳定性识别"

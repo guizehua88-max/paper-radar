@@ -1448,11 +1448,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1568,11 +1570,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1888,26 +1892,29 @@
  },
  "10.1016/j.fuel.2024.131659": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "While generating biodiesel from vegetable oils presents various advantages over fossil fuels, ongoing actions aim to improve the efficiency of this production process. Emphasis is placed on optimizing experimental conditions, including the catalyst selection, reaction media and the energy source for heating and mixing, thereby revealing existing research gaps in biodiesel production. In this sense, we have designed a magnetic nanocatalyst based on iron oxide nanoparticles (IONPs) of 18 nm in diameter incorporated within an alumina matrix of around 500 nm infused with potassium hydroxide that provides the catalyst's mesoporosity and basicity. Magnetization analyses confirmed the superparamagnetic behaviour of the nanocatalyst at room temperature and a saturation magnetisation high enough to ease magnetic recovery for reuse. Additionally, magnetic nanoparticles can serve as nanoheaters when subjected to an alternating magnetic field. The heating efficiency of the isolated IONPs was assessed under various frequency and field conditions, yielding specific absorption rate values of up to 80 W/g. Such heating capacity has allowed the synthesis of fatty acid methyl ester (FAMEs), which constitute the biodiesel at 65 °C under optimal field conditions (100 kHz and 48 kA/m) and ideal reaction parameters: 5 % catalyst, methanol/oil ratio 12:1 and 6 h of reaction, with a conversion of up to 98.6 % determined through NMR characterization of the FAMEs and a 95.6 % yield. FAMEs presence was confirmed by optimizing a swift and efficient FTIR method and their purity by TLC. Overall, the designed nanocatalyst presented for FAME synthesis, which incorporates magnetic separability and effective heating capabilities, holds great promise for cost reduction and process efficiency.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Belén Corrales-Pérez",
    "Gemma Vicente",
    "María del Puerto Morales",
    "Alvaro Gallo-Cordova"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.fuel.2024.131659",
@@ -1929,8 +1936,9 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "设计了一种基于18 nm氧化铁纳米颗粒的氧化铝基磁性纳米催化剂，利用交变磁场下的磁感应加热实现高效合成。在100 kHz和48 kA/m条件下，该催化剂在65 °C下将生物柴油转化率提升至98.6%，产率达95.6%，并具备优异的磁分离回收性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "磁感应加热辅助的生物质柴油合成使用氧化铝/氧化铁纳米催化剂"
  },
  "10.1016/j.fuel.2024.131686": {
@@ -2111,17 +2119,20 @@
  },
  "10.1016/j.ijoes.2024.100585": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Was employ the Flash Joule Heating Method (FJHM) to synthesize carbon-supported Pt nanoparticles. In this method, an aqueous solution of the Pt precursorH2PtCl6·6H2O is introduced into a reactor containing Vulcan XC 72 carbon. Subsequently, the mixture undergoes 50 cycles of discharges at 100 coulombs per discharge. Comparative XRD analysis with a commercially prepared Pt/C BASF, utilizing a reduction deposition method, reveals an expansion in the interplanar spacing of the platinum crystal lattice in the FJHM-prepared Pt/C catalyst (FJHM-Pt/C). This expansion suggests the emergence of structural defects, a finding confirmed by TEM images displaying distinct step-like features on the FJHM-Pt/C surface. Cyclic voltammogram analysis demonstrates a noteworthy increase in the oxidation pre-peak at 0.5 V for FJHM-Pt/C compared to Pt/C BASF. When employing pure H2 as fuel, the single proton exchange membrane fuel cell (PEMFC) utilizing Pt/C BASF as the anode catalyst exhibits a higher maximum power density (MPD) than its FJHM-Pt/C counterpart. Conversely, in the presence of CO, the PEMFC with FJHM-Pt/C as the catalyst demonstrates a superior MPD compared to the cell equipped with commercial Pt/C as the anode. These findings underscore enhanced CO tolerance, highlighting the potential advantages of the FJHM preparation method.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Julio Nandenha",
    "Gabriel Silvestrin",
@@ -2131,9 +2142,9 @@
    "Ermete Antolini",
    "Almir O. Neto"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.ijoes.2024.100585",
@@ -2155,8 +2166,9 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "采用闪蒸焦耳加热法在碳载体上合成铂纳米颗粒，发现该方法制备的催化剂晶格间距增大且表面存在台阶状缺陷。在纯氢燃料中功率密度较低，但在含CO环境中，该催化剂在质子交换膜燃料电池中表现出更高的最大功率密度，显著提升了一氧化碳耐受性。",
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控",
+  "zh_obj": "其他催化反应；涉及碳材料",
   "zh_title": "通过闪光焦耳加热法制备的铂纳米颗粒的碳 monoxide 耐受性增强"
  },
  "10.1016/j.inoche.2024.112466": {
@@ -2164,11 +2176,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2254,11 +2268,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2413,11 +2429,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2458,11 +2476,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2548,11 +2568,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2907,24 +2929,27 @@
  },
  "10.1021/acs.jpcc.4c01112": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Strain has been shown to modulate adsorption and reactions on metal surfaces. While its effect on surface–adsorbate interactions has been rationalized, an understanding of the electronic factors that drive these interactions and their consequences on catalytic activity is lacking. In this work, we used an ab initio density functional theory (DFT) to develop descriptors to describe the effect of biaxial strain in modulating interactions of adsorbates and transition states (TS) with the Pd (111) surface and its effect on the catalytic activity for ammonia (NH 3 ) synthesis. We established the p-band center (p center ) of the NH X (x = 0,1,2,3) and N 2 adsorbates and hydrogenation TSs, and the hybridized d-band center (d center ) of the surface metal as key electronic descriptors for adsorbate and TS energy variations with strain. The p center of the adsorbates was lowest for the sites with the strongest adsorption, and the upshift of the d center of the surface metal atoms was greatest for the adsorption site with the highest strain susceptibility (i.e., the change in adsorption energy per unit applied strain). We first showed that tensile strain plays a dual role in enhancing N 2 dissociation, the rate-determining step in NH 3 synthesis on the Pd (111) surface, strengthening the adsorption of atomic N and weakening the N–N bond in the TS. Using a DFT-activity model, we report that over a net 4% tensile strain (±2%), N 2 dissociation was enhanced by ∼5×, and the turnover frequency (TOF) of the overall reaction was enhanced by ∼10×. We then evaluated N 2 dissociation at 3/4 ML H-coverage under industrially relevant conditions (150 atm H 2, 50 atm N 2, and 723 K), revealing the effect of tensile strain on the DFT-activity to be 2 orders of magnitude greater (∼948× vs ∼5×) at high surface coverages. Overall, this study develops physical insights into how strain influences adsorption and TS (and, therefore, the reactivity) and broadly highlights strain as a useful design tool to improve catalytic activity.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Siddhesh S. Borkar",
    "Manish Shetty"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-25",
   "doi": "10.1021/acs.jpcc.4c01112",
@@ -2946,6 +2971,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用密度泛函理论建立描述符，发现拉伸应变通过增强N2解离和原子N吸附来促进氨合成，在±2%的净拉伸应变下，N2解离增强约5倍，总反应转换频率增强约10倍。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "应变调控 Pd (111) 表面吸附物相互作用"
@@ -3177,17 +3203,20 @@
  },
  "10.1021/acsanm.4c02872": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The reduced graphene oxide/titanium dioxide (RGO/TiO 2 ) nanocomposites were first prepared by the atomic layer deposition (ALD) method for microwave absorbing. The deposition content of TiO 2 nanoparticles on the RGO surface was precisely adjusted by manipulating the number of ALD cycles. On the one hand, the appropriate TiO 2 nanoparticles can precisely regulate the impedance matching to obtain lightweight nanocomposites. On the other hand, the interfaces between RGO and TiO 2 can be regulated to retain active sites when the number of ALD cycles is low. Thus, impedance matching and attenuation ability of the composites could be regulated. The microstructure of RGO/TiO 2 nanocomposites was characterized by SEM, TEM, and XPS, and the relationship between microstructures and microwave absorption properties was also investigated in detail. The RGO/TiO 2 nanocomposites possessed high microwave attenuation ability due to the polarization loss and conduction loss. The nanocomposites, with appropriate impedance matching and high attenuation constant, displayed outstanding microwave absorption performance. When the number of ALD cycles was 150, the maximum reflection loss of the RGO/TiO 2 nanocomposite could reach −41.3 dB, and its maximum effective absorption bandwidth reached 4.88 GHz, which almost covered the Ku band. This study implied that the RGO/TiO 2 nanocomposite has potential application in microwave absorption.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Qianshan Xia",
    "Xuetao Wang",
@@ -3200,9 +3229,9 @@
    "Minghua Chen",
    "Jianjun Li"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-16",
   "doi": "10.1021/acsanm.4c02872",
@@ -3224,6 +3253,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用原子层沉积法在还原氧化石墨烯表面沉积二氧化钛纳米颗粒，通过调节沉积循环次数调控界面阻抗匹配与衰减能力。RGO/TiO2纳米复合材料表现出优异的微波吸收性能，在150次循环时最大反射损耗达-41.3 dB，有效吸收带宽覆盖4.88 GHz的Ku波段。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
   "zh_title": "通过原子层沉积制备的还原氧化石墨烯/二氧化钛纳米复合材料用于微波吸收"

@@ -725,14 +725,18 @@
  },
  "10.1007/s10973-024-13875-1": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -775,16 +779,18 @@
  },
  "10.1007/s11426-024-2408-6": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -907,14 +913,18 @@
  },
  "10.1016/j.addma.2025.104644": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -960,14 +970,18 @@
  },
  "10.1016/j.carbon.2024.119781": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1014,14 +1028,18 @@
  },
  "10.1016/j.cej.2024.158291": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1064,17 +1082,20 @@
  },
  "10.1016/j.cej.2024.158302": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The Ostromislensky process is a two-step reaction to produce 1,3-butadiene (1,3-BD) from ethanol. Initially, ethanol undergoes dehydrogenation to form acetaldehyde, which is used to produce 1,3-BD by reacting with more ethanol. However, the different temperature and catalyst requirements for each step make it inefficient to use a single reactor with conventional furnace heating for 1,3-BD production. To overcome this challenge, we propose the use of induction heating (IH) and adjusting the amount of the susceptors to create separate reaction temperature zones within a single reactor. This allows for the efficient implementation of the two-step reactions in a tandem system, thereby increasing selectivity towards the desired products. In this work, we investigated the Ostromislensky process for the ethanol-to-butadiene (ETB) reaction using IH in a tandem system. We achieved tunable C4 selectivity by individually controlling the reaction temperature and weight hourly space velocity (WHSV) of each catalyst bed. Operating the catalyst beds at 171 °C and 320 °C, we achieved an ethanol conversion of 62.9% and C4 selectivity of 55.3% over a commercial Cu catalyst for bed 1 and a ZrO 2 /SiO 2 catalyst for bed 2 at a WHSV of 0.6 h −1 . At the same space velocity, the ethanol conversion and C4 selectivity of 52% and 44.9% were achieved, respectively, using the benchmark Ag/ZrO 2 /SBA-16 catalyst, indicating that the IH can improve the catalyst behavior under lower reaction temperatures. Our findings suggest that the implementation of IH in a tandem system can effectively establish dual temperature zones inside a single reactor, improving production efficiency for a multi-step reaction.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Han Wang",
    "Ben Ko",
@@ -1085,9 +1106,9 @@
    "Roel S. Sánchez-Carrera",
    "Erdem Sasmaz"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01",
   "doi": "10.1016/j.cej.2024.158302",
@@ -1109,8 +1130,9 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "针对奥斯特罗姆伊尔斯基工艺中两步反应温度和催化剂要求不同的问题，提出在单反应器内利用感应加热和调节感应体量创建独立反应温度区。通过分别控制两个催化剂床层的反应温度和重量时空速率，在171 °C和320 °C下实现了62.9%的乙醇转化率和55.3%的C4选择性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "其他催化反应",
   "zh_title": "在感应加热的串联反应中调节1,3-丁二烯选择性从乙醇"
  },
  "10.1016/j.cej.2024.158390": {
@@ -1183,14 +1205,18 @@
  },
  "10.1016/j.cej.2024.158723": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1269,14 +1295,18 @@
  },
  "10.1016/j.cej.2024.158813": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1361,17 +1391,20 @@
  },
  "10.1016/j.chphma.2024.06.002": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Carbon-loaded metal nanoparticles (NPs) are widely employed as functional materials for electrocatalysis. In this study, a rapid thermal shock method was developed to load various metal nanoparticles onto carbon supports. Compared to conventional pyrolysis processes, Joule heating enables rapid heating to elevated temperatures within a short period, effectively preventing the migration and aggregation of metal atoms. Simultaneously, the anchoring effect of defective carbon carriers ensures the uniform distribution of NPs on the carbon supports. Additionally, nitrogen doping can significantly enhance the electronic conductivity of the carbon matrix and strengthen the metal-carbon interactions, thereby synergistically improving catalyst performance. When used as electrocatalysts for electrocatalytic CO2 reduction, bismuth-, indium-, and tin/carbon-carrier-based catalysts exhibit excellent Faraday efficiencies of 92.8%, 86.4%, and 73.3%, respectively, for formate generation in flow cells. The influence of different metals and calcination temperatures on catalytic performance was examined to provide valuable insights into the rational design of carbon-based electrocatalysts with enhanced electrocatalytic activity.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Weijian Guo",
    "Xueying Cao",
@@ -1379,9 +1412,9 @@
    "Wenwen Cai",
    "Jintao Zhang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01",
   "doi": "10.1016/j.chphma.2024.06.002",
@@ -1403,8 +1436,9 @@
   "why": [
    "Joule-heat"
   ],
+  "zh_brief": "开发了一种快速热冲击方法将各种金属纳米颗粒负载到碳载体上，焦耳加热有效防止了金属原子的迁移和团聚。氮掺杂增强了碳基质的电子导电性和金属-碳相互作用。作为电催化CO2还原催化剂，铋、铟和锡/碳载体基催化剂在流动电池中分别实现了92.8%、86.4%和73.3%的法拉第效率生成甲酸。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应",
+  "zh_obj": "其他催化反应；涉及碳材料",
   "zh_title": "快速焦耳加热合成金属/碳基电催化剂用于高效的 CO2 还原"
  },
  "10.1016/j.cjche.2024.09.027": {
@@ -1480,14 +1514,18 @@
  },
  "10.1016/j.est.2024.114983": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1531,14 +1569,16 @@
  },
  "10.1016/j.fuel.2024.133043": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1865,14 +1905,16 @@
  },
  "10.1016/j.matchemphys.2024.130145": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1948,26 +1990,29 @@
  },
  "10.1021/acs.chemmater.4c02524": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Atomic layer deposition (ALD) has been widely used for the deposition of platinum (Pt) nanostructures, which is conducted by using an organometallic precursor in conjunction with a reactant, commonly oxygen or hydrogen. Whereas the oxygen-based ALD processes might result in the formation of Pt oxides, especially at low temperatures, the use of hydrogen requires a relatively high temperature to initiate the chemical reactions. In this work, we investigate atomic hydrogen as a reactant for ALD of Pt using the MeCpPtMe 3 precursor by density functional theory (DFT) calculations. By calculating the reaction and activation energies for the removal of the precursor ligands by three different reactants, i.e., molecular hydrogen (H 2 ), molecular oxygen (O 2 ), and atomic hydrogen (H) following several possible pathways, we find that the reactions with atomic hydrogen are mostly barrierless and spontaneous, which contrast with the high activation and reaction energies required for the reactions with O 2 and H 2 . Our study provides insights into the mechanism of the surface reactions between the precursor molecule and the reactant and highlights the significant potential of atomic hydrogen, which could pave a new way for the development of ALD of metals.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Huong Thi Thuy Ta",
    "Ngoc Linh Nguyen",
    "Anh Kiet Tieu",
    "Hao Van Bui"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-23",
   "doi": "10.1021/acs.chemmater.4c02524",
@@ -1989,6 +2034,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用密度泛函理论计算，研究原子氢、分子氢和分子氧作为反应物去除MeCpPtMe3前驱体配体的反应路径。结果表明原子氢反应几乎无势垒且自发，而O2和H2反应需要较高的活化能和反应能。该研究揭示了前驱体与反应物表面反应的机理，突出了原子氢在金属原子层沉积中的巨大潜力。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "原子氢自发反应——原子层沉积中铂的非凡反应物"
@@ -2284,17 +2330,20 @@
  },
  "10.1021/acscatal.4c06941": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The major bottlenecks for ammonia (NH 3 ) synthesis under mild conditions are the activation of the extremely inert N≡N bond (941 kJ mol –1 ) and/or the desorption of NH 3 from the catalyst surface. Electron donation from the appropriate promoters is essential to enhance N 2 activation over Fe or Ru catalysts. Nevertheless, despite typical element promoters enhancing the N 2 activation efficiency, they induce strong NH 3 binding on the catalyst surface, leading to the need for high temperatures and pressures for the reaction to complete. Herein, we propose the use of a molecular promoter (C 60 ) to tackle the difficulties. The positioning role of C 60 at a 1 nm scale on small Ru nanoclusters drives the exposure of more terrace sites (geometric effect) and induces d–π interactions at the Ru–C 60 junctions. The latter electronically modifies the Ru sites (electronic effect), thereby synergistically contributing to N 2 and H 2 activation as well as to the release of NH 3 on the Ru sites. The significant electron buffer attribute of C 60 and the strong electronic interaction between Ru and C 60 facilitate a shift of d-band center toward the Fermi level and a decrease of work function, simultaneously satisfying the electronic requirements for N 2 activation enhancement and NH 3 binding weakening. Consequently, the C 60 -promoted Ru/LaN catalyst exhibits a high NH 3 synthesis rate. It is envisioned that our findings have significant implications for the rational search of molecular promoters for high-efficiency NH 3 synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Xuanbei Peng",
    "Yongjin Luo",
@@ -2309,8 +2358,8 @@
    "Lilong Jiang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-31",
   "doi": "10.1021/acscatal.4c06941",
@@ -2334,23 +2383,27 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "提出使用分子助剂 C60 来解决温和条件下 N2 活化和 NH3 脱附的瓶颈。C60 在 Ru 纳米簇上的定位驱动了更多平台位的暴露并诱导 Ru–C60 接触处的 d–π 相互作用，协同促进 N2 和 H2 活化及 NH3 释放。C60 的电子缓冲属性和 Ru 与 C60 间的强相互作用使 d 带中心向费米能级移动并降低功函数，从而增强 N2 活化并减弱 NH3 结合。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系、Fe/铁体系",
   "zh_title": "揭示C60分子促进剂在Ru催化剂氨合成中的关键作用"
  },
  "10.1021/acscatal.4c06966": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Understanding the roles of coadsorbates on crowded catalytic surfaces is critical to optimizing industrial catalysts that are generally employed under high-pressure conditions. For ammonia synthesis from N 2 hydrogenation (i.e., the Haber–Bosch process), it is well-known that supported Ru catalysts tend to be highly covered by atomic H species, while the impact of these H species on N 2 activation is still under controversy. Herein, kinetic assessment, isotopic labeling experiments, and in situ spectroscopic characterization were combined to investigate the mechanism of ammonia synthesis on Ru/CeO 2 catalysts with their structure tuned via thermal treatments. Our experimental approaches reveal that the dominant H* surface species limit the availability of vacant Ru sites for the widely proposed direct N 2 dissociation route but instead lead to the prevalence of the H-assisted N 2 dissociation route with the N–N cleavage in N 2 H* intermediates as a kinetically relevant step. Effects of Ru particle size and Ru–CeO 2 interaction on the catalytic activity were kinetically deconvoluted in accordance with this H-assisted mechanism, unveiling their decisive influences on intrinsic activity and surface coverage, respectively. Driven by these fundamental insights gained from the working conditions, superior ammonia formation rates were achieved for supported Ru catalysts via optimizing Ru particle size and metal–support interaction collaboratively.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yukun Bai",
    "Yuanbao Zhang",
@@ -2362,8 +2415,8 @@
    "Shuai Wang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-09",
   "doi": "10.1021/acscatal.4c06966",
@@ -2385,23 +2438,27 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "结合动力学评估、同位素标记实验和原位光谱表征，研究了经热处理调制的 Ru/CeO2 催化剂上的氨合成机理。实验表明，主导的 H* 表面物种限制了直接 N2 解离途径所需的空位 Ru 位点，转而导致了 N2 H* 中间体中 N–N 键断裂的氢辅助 N2 解离途径的普遍性。优化 Ru 粒子尺寸和金属-载体相互作用协同实现了更高的氨生成速率。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "氢辅助N2解离：在负载Ru催化剂上氨合成的普遍性及后果"
  },
  "10.1021/acsestengg.4c00645": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The rapid development of new energy sources has produced large quantities of battery-derived spent LiFePO 4 cathodes (SLICs), whose recycling has attracted growing attention in recent years. Previous SLICs recycling approaches have focused on the recovery of Li resources, neglecting the Fe-enriched residues obtained after Li recovery. Generally, Fe-enriched residues cannot be effectively converted to active Fe species using traditional methods, thereby limiting their upgrading. This study uses the emerging flash Joule heating (FJH) technology to upgrade Fe-enriched residues, and its performance was independent of Li leaching pathways. Common Li leaching protocols were initially applied to extract Li and produce residues enriched with FeC 2 O 4, FeO(OH), FePO 4, and Fe 3 O 4 . Subsequently, ultrahigh temperature and electrical stripping were performed by FJH treatment, promoting Fe–O bond breakage within the various Fe phases and generating low-coordinated Fe 0 nanoparticles, as confirmed by extended X-ray absorption fine structure analysis. The unique low-coordinated Fe 0 nanoparticles present in the FJH-derived composites promoted the enhanced catalytic degradation of chloramphenicol following peroxydisulfate activation, in relation to that achieved through traditional pyrolysis-derived composites. Furthermore, the developed continuous FJH process demonstrated the potential for the large-scale recycling of Fe-enriched residues and promoted the conversion of Fe-enriched residues after Li recovery.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hua Shang",
    "Wenting Yang",
@@ -2411,9 +2468,9 @@
    "Chao Jia",
    "Xiangdong Zhu"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-09",
   "doi": "10.1021/acsestengg.4c00645",
@@ -2435,8 +2492,9 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "利用闪蒸焦耳热技术升级锂回收后的富铁残渣，通过电剥离和超高温处理促进Fe-O键断裂，生成低配位Fe0纳米颗粒。经扩展X射线吸收精细结构分析证实，FJH衍生的复合材料在过二硫酸盐活化下对氯霉素表现出增强的催化降解性能，且连续FJH工艺具有大规模回收残渣的潜力。",
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控",
+  "zh_obj": "材料制备/结构调控；涉及Fe/铁体系",
   "zh_title": "闪光焦耳热升级废旧LiFePO4正极残渣的Li浸出以实现污染物的高效催化降解"
  },
  "10.1021/acsmaterialsau.4c00159": {
@@ -3293,14 +3351,18 @@
  },
  "10.2139/ssrn.5088537": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3412,14 +3474,18 @@
  },
  "10.2139/ssrn.5102587": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

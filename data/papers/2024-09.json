@@ -1282,11 +1282,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1355,16 +1357,18 @@
  },
  "10.1007/s11090-024-10502-7": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1511,11 +1515,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1976,11 +1982,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2175,17 +2183,20 @@
  },
  "10.1016/j.csite.2024.104960": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Nanotechnology has turn out to be a focal point , disseminating its stimulus across distinct realms of technology, science and industry, making its mark in our routine inhabits. Nanoparticles are deployed in numerous industries encompassing bio-fuels production, bio-remediation, coating, solar film, crops production, photonic crystals , material science, cosmetics and drugs because of their characteristics like higher reactivity, catalytical activity, morphology and higher adsorption capacity . In this theoretical investigation, analytical simulations are carried out for mixed convective viscoplastic nanomaterial configured by permeable elongating surface. Flow is electrically conducting and thermally radiative. Transportation expressions include multi-physical effects like Brownian diffusion , thermal source, thermophoresis and chemical reaction. Darcy–Forchheimer (D–F) porosity aspect for non-Newtonian (viscoplastic) model is introduced. Boundary-layer incompressible stretched flow is modeled deploying Prandtl’s concept. Relevant dimensionless variables are employed to obtain ordinary differential expressions from the partial ones and homotopy algorithm is deployed for computational analysis of such expressions. Consequences of dimensionless expressions occurring in transformed differential systems are evaluated via graphs. We noticed that increasing radiation factor engenders higher temperature. Besides the nanoparticles concentration diminishes when Brownian diffusion and solutal Biot factors are enlarged.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Belkacem Kada",
    "S. Bilal",
@@ -2194,9 +2205,9 @@
    "Nurnadiah Zamri",
    "Shoira B. Formanova"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-09",
   "doi": "10.1016/j.csite.2024.104960",
@@ -2218,6 +2229,7 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "针对具有Darcy–Forchheimer孔隙度的圆柱形区域配置的粘塑性纳米材料，建立了包含辐射、焦耳加热和化学反应的混合对流流动模型。研究发现增加辐射因子会提高温度，而增大布朗扩散和溶质毕奥因子会导致纳米颗粒浓度降低。",
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "过程待核实",
   "zh_title": "基于辐射-磁性纳米材料粘塑性流动的分析评估，配置圆柱形 Darcy–Forchheimer 孔隙率、焦耳热和化学反应"
@@ -2400,11 +2412,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2605,11 +2619,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3189,11 +3205,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3268,11 +3286,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3388,17 +3408,20 @@
  },
  "10.1021/acs.chemmater.4c01133": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Achieving atomic-scale precise control over material layering is critical for the development of future semiconductor technology. Area-selective deposition (ASD) has emerged as an indispensable tool for crafting semiconductor components and structures via bottom-up pattern transfer. Ruthenium has attracted significant interest as a low-resistivity conducting material for next-generation interconnect technology. However, the oxidative counter-reactants such as O 2 often used for atomic layer deposition (ALD) of metallic Ru films result in a considerable increase in contact resistance because of substrate oxidation, limiting the applications of both ALD and ASD of Ru. In this study, Ru ASD is demonstrated using two-step ALD with the sequential use of H 2 and O 2 as counter-reactants and dimethylamino-trimethylsilane (DMATMS) as a precursor inhibitor. Both theoretical and experimental results demonstrate that in the two-step Ru ALD, the oxide layer can be eliminated via the reduction of the oxidized substrate metal surface by the H 2 counter-reactant. This mechanism simultaneously facilitates the adsorption of the Ru precursor (tricarbonyl-(trimethylenemethane)-ruthenium) and removal of the surface oxide layer. Consequently, Ru growth is suppressed on the DMATMS-inhibited SiO 2 surface during ASD, enabling exclusive deposition of Ru on the Mo surface. The currently proposed Ru ASD scheme using two-step ALD is highly promising for driving advancements in interconnect technology for commercial applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Eun-Hyoung Cho",
    "Dabin Kong",
@@ -3411,9 +3434,9 @@
    "Bonggeun Shong",
    "Han-Bo-Ram Lee"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-09-13",
   "doi": "10.1021/acs.chemmater.4c01133",
@@ -3435,6 +3458,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用两步原子层沉积法，通过H2和O2作为反应物及DMATMS作为抑制剂，实现了在Mo表面选择性沉积锇。该方法通过H2还原氧化表面促进锇前驱体吸附，抑制了SiO2表面的生长，为下一代互连技术提供了方案。",
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应；涉及Ru/钌体系、原子层沉积",
   "zh_title": "通过界面氧化还原实现面积选择性原子层沉积Ru"
@@ -3548,17 +3572,20 @@
  },
  "10.1021/acs.jpcc.4c03793": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Atomic layer deposition (ALD) has been an attractive tool in the fabrication of Pt thin layers and nanoparticles. In this work, the surface chemistry of Pt ALD through the MeCpPtMe 3 /N 2 -plasma (N 2 *) and the MeCpPtMe 3 /NH 3 -plasma (NH 3 *) processes at 300 °C have been investigated in detail using in vacuo X-ray photoelectron spectroscopy (XPS) during the ALD process, so that the evolution of surface species at each step of the ALD cycle can be studied under growth relevant conditions. In particular, the nature of the N-containing surface species and their role in the surface reactions during nucleation and steady growth are carefully scrutinized. Both processes are completely O-free. Persistent surface N and/or C species are detected, which are, however, not built into the film. Remarkably, the common N-species seen in other metal ALD processes by N-based plasmas, such as metal-NH x groups or N adatoms, are not present on the growth surface. For the MeCpPtMe 3 /N 2 * process, −CN-H x is identified as the main N-containing species engaged in surface reactions. On the other hand, N-containing species seem to play an insignificant role in the NH 3 * process. It is revealed that the surface species and reaction pathways of the MeCpPtMe 3 /N 2 * and the MeCpPtMe 3 /NH 3 * processes are not only different to those of the O-based processes but also differ from each other. On the basis of surface species quantification results, a growth mechanism is proposed for the N 2 * and the NH 3 *-based processes, respectively. Our results show that N-based plasmas are a promising alternative to O-based reactants in Pt ALD growth.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jin Li",
    "Matthias M. Minjauw",
@@ -3569,9 +3596,9 @@
    "Christophe Detavernier",
    "Jolien Dendooven"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-09-20",
   "doi": "10.1021/acs.jpcc.4c03793",
@@ -3593,6 +3620,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "在300 °C下使用真空XPS详细研究了MeCpPtMe3/N2等离子体和MeCpPtMe3/NH3等离子体Pt ALD过程中的表面化学。研究发现N基等离子体过程与O基过程不同，N2*过程的主要含N物种为-CN-Hx，而NH3*过程中含N物种作用不显著。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "真空 XPS 研究使用 MeCpPtMe3 和 N2/NH3 等离子体进行原子层沉积的 Pt 生长"
@@ -3981,17 +4009,20 @@
  },
  "10.1021/acsanm.4c03407": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Aluminum (Al) powder is widely employed in the aerospace and defense industries, particularly for its use in explosives and as a metal fuel. Enhancing the energy release performances of Al nanopowder is an important task. The surface properties of Al nanoparticles have a significant impact on their energy release characteristics. In this work, atomic layer deposition (ALD) technology is utilized to grow nanometer-thin films of cuprous/cupric oxide (CuO x ) on the surface of Al nanopowder as an oxidizer to initiate redox reactions. Structural, morphological, and chemical properties of the Al@CuO x nanocomposites are characterized by various spectroscopic and microscopic techniques. The CuO x coating encapsulates the Al nanoparticles to form Al@CuO x core–shell nanocomposites, wherein the contact between Al and CuO x is significantly promoted; thus, the average fuel-oxidizer diffusion path is reduced. The thickness of the CuO x coating can be conveniently changed with nanometer-scale precision by varying the ALD cycle number, which enables flexible control over the structure of the nanocomposites. Oxidation, ignition, and combustion behaviors of Al@CuO x nanocomposites are investigated by differential scanning calorimetry and laser ignition experiments. Only a few nanometers of the CuO x surface modification layer can effectively enhance the energy release performances of Al powder, which is manifested specifically by significantly reduced ignition delay time, oxidation temperature, and remarkably increased reaction rate.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yiyun Hu",
    "Dan Li",
@@ -4001,9 +4032,9 @@
    "Jianguo Li",
    "Hao Feng"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-09-30",
   "doi": "10.1021/acsanm.4c03407",
@@ -4025,8 +4056,9 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用原子层沉积技术在Al纳米粉表面生长纳米级CuOx薄膜作为氧化剂，形成Al@CuOx核壳纳米复合材料。仅几纳米的涂层即可显著降低点火延迟时间、氧化温度并提高反应速率，从而增强能量释放性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控",
+  "zh_obj": "其他催化反应；涉及原子层沉积",
   "zh_title": "原子层沉积氧化铜纳米涂层控制铝纳米颗粒作为金属燃料的能量释放行为"
  },
  "10.1021/acsanm.4c04066": {
@@ -4550,14 +4582,16 @@
  },
  "10.1038/s41557-024-01645-3": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4688,14 +4722,16 @@
  },
  "10.1038/s41929-024-01219-z": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5344,14 +5380,16 @@
  },
  "10.17952/37eps.2024.p2048": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5571,17 +5609,20 @@
  },
  "10.21741/9781644903254-39": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "– Improvement of formability of silicon-containing recycled wrought aluminum alloy by hot stamping after rapid heating KAWANA Ryohei, HIROSAWA Shoichi, OOTAKI Mitsuhiro, MAENO Tomoyoshi, SUZUKI Yasushi, YABUKI Yuuji Keywords Al-Si Alloy, Recycled Aluminum, Rolling, Hot Stamping, Formability, V-Bending Published online 9/15/2024, 6 pages Copyright © 2024 by the author(s) Published under license by Materials Research […]",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ryohei KAWANA"
   ],
@@ -5610,7 +5651,7 @@
    "rapid heating"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "快速加热后热冲压改善含硅回收变形铝合金成形性"
  },
  "10.26434/chemrxiv-2024-0c0lk": {

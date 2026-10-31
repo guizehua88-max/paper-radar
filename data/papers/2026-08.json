@@ -1177,9 +1177,11 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -1564,6 +1566,9 @@
    "Hongrui Zhu",
    "Gao‐Ren Li"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-08-31",
   "doi": "10.1002/smll.75563",
@@ -1586,11 +1591,21 @@
   "why": [
    "Nitrate to Ammonia"
   ],
+  "zh_brief": "综述了电催化硝酸盐还原反应（eNitRR）的机理与副反应，重点讨论原子掺杂工程如何通过调节吸附行为、电荷转移、反应路径和活性位点密度来优化催化剂性能。文章总结了贵金属、非贵金属、非金属掺杂及共掺杂的合成策略，并展望了未来发展方向。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电催化硝酸盐制氨转化中的原子掺杂工程"
  },
  "10.1007/s10854-026-18217-5": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "M. Niranjan",
@@ -1678,9 +1693,11 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -1778,9 +1795,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -1890,7 +1911,15 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.apcata.2026.121050": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Ang Gao",
@@ -1925,8 +1954,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.apcata.2026.121066": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "The global transition from a coal-based energy economy to a green hydrogen economy, together with the demand for energy utilization efficiency, has intensified interest in ammonia as a carbon-free hydrogen energy carrier which is capable of storing and transporting renewable energy at scale. Efficient regeneration of hydrogen through thermal ammonia decomposition, enabled by advanced downstream technologies such as membrane reactors and purification systems, offers a techno-economically mature and evolving pathway. However, achieving low-temperature, energy-efficient ammonia decomposition remains a fundamental challenge. At the heart of this challenge lies the rational design of heterogeneous thermocatalysts capable of overcoming intrinsic kinetic limitations. Through critical examination of the vast research on catalyst systems and activity studies, we identify that tailored metal-support systems often give rise to multiple reaction pathways that govern the overall kinetics. To scientifically elucidate the origins of enhanced catalytic performance, the precise understandings on the nature of active sites and their coordination environments is the core. This requires precise identification of catalytically relevant sites, rigorous correlation between structure and reactivity, and operando-level insights into dynamic phase evolution. In this review, we reframe ammonia decomposition catalysis through the lens of active-phase chemistry. Based on our current understanding of active centres across different catalyst categories, we highlight strategies for rational catalyst design grounded in active phases and coordination environment. We further discuss advanced characterization methodologies capable of tracking active sites and unravelling their specific mechanistic contributions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jiasi Li",
    "Dongpei Ye",
@@ -1957,8 +1995,17 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.apcatb.2026.126602": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "Multimetallic site engineering is emerging as a powerful strategy to regulate electronic structure and reaction pathways in complex multielectron electrocatalytic systems, such as electrocatalytic nitrate reduction. Here, we report the rational design of transition metal-doped CoWO 4 (M-CoWO 4 , M = Cu, Fe, Ni) integrated into 3D-printed octet lattice electrodes for the electrochemical conversion of nitrate to ammonia (NO 3 ⁻-to-NH 3 ) coupled glycerol oxidation (GOR). Systematic experiments, in situ Raman analysis and density functional theory calculations reveal that metal doping modulates the electronic environment around active sites through charge redistribution, thereby tuning intermediate adsorption and catalytic performance. Cu doping enhances NOₓ⁻ adsorption and lowers the energy barrier for sequential protonation steps, accounting for the superior ammonia production rate (~2 mmol cm -2 h -1 ) and high Faradaic efficiency (95%). By contrast, Fe doping preferentially enhances oxidative catalysis, including OER and GOR. In a full-cell configuration, GOR-coupled nitrate reduction decreases power consumption by ~22% and boosts NH 3 yield rate by 2.5-fold relative to the conventional NITRR||OER system. This study reveals that strategic metal doping in CoWO 4 tunes its electronic structure to promote energy-efficient NO 3 ⁻-to-NH 3 conversion coupled with glycerol oxidation, offering a sustainable pathway toward green ammonia production. • Micro/nanoplastics threaten ecosystems due to synthetic polymeric product usage. • Magnetically actuated microrods actively target nanoplastics in water. • Microrobotic approach enables externally controllable water remediation processes.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Kajal Sharma",
    "Rostislav Langer",
@@ -1988,14 +2035,23 @@
   "via": "旧站本地库",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "ammonia production"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1016/j.apcatb.2026.126633": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "Ammonia is a cornerstone of fertilizers and an emerging carbon-free energy carrier, yet its industrial synthesis via Haber–Bosch consumes ~1% of global energy. Photocatalytic nitrogen fixation provides a potential alternative, but conventional processes operate in aqueous media and yield trace concentrations of ammonia that are impractical to collect and use. Here, we introduce a photochemical looping strategy that integrates nitrogen activation, reduction, and solid-state capture in a cyclic process. Using a Pt–heteropolyacid–TiO 2 composite, carbon monoxide, either supplied directly or produced in situ from CO 2 , generates oxygen vacancies on the heteropolyacid that adsorb and activate N 2 , while water supplies protons and regenerates the vacancies. The formed ammonia is stored as a stable ammonium salt, which can be released upon calcination to produce aqueous NH 3 solutions up to 1.3 wt%, which is significantly higher than the typically reported concentrations in the direct photocatalytic N 2 reduction in aqueous suspensions. By coupling photocatalysis with solid-state storage, this looping approach overcomes long-standing barriers in conversion, selectivity, and product recovery, establishing a scalable framework for solar-driven ammonia production under mild conditions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yinghao Wang",
    "Feixiang Shen",
@@ -2034,11 +2090,19 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_method": "光驱动",
   "zh_obj": "化学链/晶格氮循环制氨"
  },
  "10.1016/j.apcatb.2026.126645": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Yu Ge",
@@ -2078,7 +2142,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apcatb.2026.126664": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Mingjuan Fan",
@@ -2116,7 +2188,15 @@
   "zh_obj": "氨分解制氢；涉及Ru/钌体系、Fe/铁体系"
  },
  "10.1016/j.apcatb.2026.126675": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Sumin Wang",
@@ -2154,7 +2234,15 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.apcatb.2026.126677": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Xiaoxuan Wang",
@@ -2194,9 +2282,11 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2283,9 +2373,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2332,9 +2426,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2413,7 +2511,15 @@
   "zh_obj": "光催化固氮；涉及Fe/铁体系"
  },
  "10.1016/j.apsusc.2026.166742": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Shuai Guo",
@@ -2447,7 +2553,15 @@
   "zh_obj": "电化学氮还原；涉及碳材料"
  },
  "10.1016/j.apsusc.2026.166808": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jin Wan",
@@ -2569,7 +2683,15 @@
   "zh_title": "通过硅阻挡的烷基三氯硅烷自组装单层在非晶碳上催化选择性原子层沉积 SiO2"
  },
  "10.1016/j.apsusc.2026.166945": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Enyu Lv",
@@ -2659,7 +2781,15 @@
   "zh_title": "热原子层沉积的 SiNx 保护涂层用于抗氢等离子体的碳纳米管薄膜"
  },
  "10.1016/j.apsusc.2026.166973": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Shaofa Ma",
@@ -2697,9 +2827,11 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2901,7 +3033,15 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.cattod.2026.115828": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Isabelle M.D. Gonzaga",
@@ -3040,7 +3180,15 @@
   "zh_title": "基于单原子-Co/MoS2 正极磁热效应的磁热耦合辅助锂空气电池"
  },
  "10.1016/j.cclet.2025.112325": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Lewa Zhang",
@@ -3076,7 +3224,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.cclet.2026.113369": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Mingliang Sun",
@@ -3112,7 +3268,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ccr.2026.217884": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Suqin Han",
@@ -3157,9 +3321,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3202,7 +3370,15 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.cej.2026.177509": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Linyuan Xu",
@@ -3291,7 +3467,15 @@
   "zh_title": "原子层沉积的铱钌贵金属纳米多层异质界面电极用于下一代电催化剂"
  },
  "10.1016/j.cej.2026.177807": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Xuanning Qin",
@@ -3332,9 +3516,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3380,9 +3568,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3525,9 +3717,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3677,7 +3873,15 @@
   "zh_title": "高温冲击实现的紧密异质界面工程：用于中温固体氧化物燃料电池的高性能复合正极的制备策略"
  },
  "10.1016/j.ces.2026.124039": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Xiaolin Wang",
@@ -3716,9 +3920,11 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3794,7 +4000,15 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.cjche.2026.05.001": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jiqiu Zhang",
@@ -3939,9 +4153,11 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3977,15 +4193,18 @@
  },
  "10.1016/j.ece.2026.100524": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This critique praises the ChemCAD-based Haber-Bosch module for its scaffolding and sustainability activities, flags the commercial simulator as a shareability barrier (free alternatives exist), notes missing economic/optimization analysis, and emphasizes the importance of international collaboration projects such as COIL.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Juan Carlos Domínguez"
   ],
@@ -4015,8 +4234,17 @@
   "zh_obj": "通用催化方法"
  },
  "10.1016/j.elecom.2026.108212": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
+  "abstract": "Electrochemical reduction of nitrate to ammonia (NO 3 RR) presents a sustainable pathway for simultaneous remediation of nitrogen-polluted wastewater and production of a carbon-neutral chemical feedstock. A copper‑cobalt bimetallic oxide nanowire catalyst, designated CuCo 2 O x /CF, underwent preparation through hydrothermal growth on copper foam substrate followed by electrochemical activation. The resulting self-supported electrode displays a hierarchical nanowire architecture with individual wire diameters of 120 nm and lengths reaching 5.8 μm, yielding a Brunauer–Emmett–Teller (BET) specific surface area of 124.6 m 2 g −1 . X-ray diffraction confirmed the coexistence of CuO and Co 3 O 4 phases, whilst X-ray photoelectron spectroscopy identified Cu 2+ /Cu + mixed valency at 933.8 eV and 932.4 eV and Co 3+ /Co 2+ states at 780.3 eV and 782.1 eV. Electrochemical impedance spectroscopy demonstrated a charge transfer resistance of 2.3 Ω, substantially lower than monometallic CuO x (8.7 Ω) and CoO x (12.4 Ω) counterparts. At an applied potential of −0.4 V relative to the reversible hydrogen electrode, CuCo 2 O x /CF achieved a Faradaic efficiency (FE) of 95.4% towards ammonia with a yield rate of 847.3 μmol h −1 cm −2 . Nitrite FE remained at 1.8% and hydrazine remained undetected under any condition tested. Density functional theory calculations on the CuCo 2 O x (110) surface revealed that the rate-determining *NO→*N hydrogenation step carries an energy barrier of +0.34 eV, compared with +0.67 eV on CuO(111), rationalising the superior selectivity and activity of the bimetallic composition. The catalyst retained more than 91.2% of its initial Faradaic efficiency after 50 h of continuous electrolysis, with post-test X-ray diffraction confirming structural integrity.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rayimdjanova Odinakhon",
    "Ishankulov Alisher",
@@ -4044,10 +4272,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "nitrate to ammonia"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1016/j.electacta.2026.149721": {
   "ab_try": "2026-10-29",
@@ -4096,9 +4324,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4272,7 +4504,15 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.fuel.2026.138655": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Xianyun Liu",
@@ -4417,9 +4657,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4467,9 +4711,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4512,7 +4760,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ijhydene.2026.156825": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Liyong Tang",
@@ -4580,7 +4836,15 @@
   "zh_obj": "N₂/H₂气相合成氨"
  },
  "10.1016/j.ijhydene.2026.156856": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Hyun Sik Choi",
@@ -5120,7 +5384,15 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1016/j.jece.2026.123253": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jiahao Wu",
@@ -5211,7 +5483,15 @@
   "zh_title": "流化床原子层沉积制备的 Ni/SiO2 纳米催化剂的生长特性与甲烷化行为"
  },
  "10.1016/j.jechem.2026.05.006": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Cong Lin",
@@ -5246,9 +5526,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5289,7 +5573,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jes.2026.105710": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jie Qin",
@@ -5372,7 +5664,15 @@
   "zh_obj": "其他催化反应；涉及碳材料"
  },
  "10.1016/j.jiec.2026.01.042": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Muhammad Malik Nawaz Khan",
@@ -5405,7 +5705,15 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.jiec.2026.07.034": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Yubin Kim",
@@ -5438,7 +5746,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.jiec.2026.08.042": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Maryam Parandeh Khoozani",
@@ -5543,9 +5859,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5629,7 +5949,15 @@
   "zh_title": "具有分级封装的 PEG@SiO2 纳米颗粒和表面导电层的可拉伸 TPU 纤维膜用于焦耳加热和温度调节性能"
  },
  "10.1016/j.mcat.2026.116129": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Yu Hu",
@@ -5663,7 +5991,15 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.mcat.2026.116177": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Yahui Li",
@@ -5753,7 +6089,15 @@
   "zh_title": "通过原子层沉积调节 Pt 组分以增强丙烷完全氧化"
  },
  "10.1016/j.mssp.2026.110655": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jing Cai",
@@ -5822,7 +6166,15 @@
   "zh_obj": "析氢反应"
  },
  "10.1016/j.mtphys.2026.102177": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Yuanyuan Wang",
@@ -5930,9 +6282,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6010,7 +6366,15 @@
   "zh_title": "通过原子层沉积空间控制微量TiO2以调节Co–TiOx界面用于费托合成"
  },
  "10.1016/j.scp.2026.102472": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Huaiwei Zhang",
@@ -6043,7 +6407,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.seppur.2026.138237": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Chunlei Liu",
@@ -6074,7 +6446,15 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.surfin.2026.109587": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Daotong Liang",
@@ -6108,7 +6488,15 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.surfin.2026.109785": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Jieun Oh",
@@ -6152,7 +6540,15 @@
   "zh_title": "通过吡啶催化的抑制增强氧化物/氮化物在区域选择型原子层沉积中的选择性"
  },
  "10.1016/j.surfin.2026.109804": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Dewen Fu",
@@ -6221,7 +6617,15 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系"
  },
  "10.1016/s1872-2067(26)65080-2": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-10-31",
   "abstract": "",
   "authors": [
    "Fengjuan Guo",
@@ -6310,9 +6714,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7971,15 +8379,20 @@
  },
  "10.1038/s41557-026-02218-2": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Natural photosynthesis uses light and water to fuel cellular activity. While great strides have been made in reproducing elements of photosynthesis, efficiently coupling dinitrogen reduction to ammonia with water oxidation remains challenging. Here we report the light-driven production of ammonia from dinitrogen reduction with a quantum yield of 5.0% in water at normal temperature and pressure by leveraging inexpensive iron(II) salts, which produce solvated electrons upon ultraviolet C light irradiation, to reduce a Mo catalyst. The resulting Fe(III) ions also absorb ultraviolet light and undergo reduction back to Fe(II) while oxidizing water, thus coupling water oxidation with nitrogen reduction. Although the low solubility of nitrogen in water limits catalysis, we circumvented this limitation by using elevated dinitrogen pressures to reach photochemical quantum yields of 10.8%. We further demonstrate this reactivity to operate even in unpurified seawater or in ambient air. The process is calculated to be endoergonic by 329.2 kJ mol -1 in agreement with a photosynthetic process possessing a light-to-chemical energy conversion efficiency of 7.6%.",
+  "abstract_source": "Europe PMC",
   "authors": [
    "Doha Zidouhia",
    "Thierry Tassaing",
@@ -8006,10 +8419,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "reduction of nitrogen"
+   "dinitrogen reduction"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮；涉及Fe/铁体系"
  },
  "10.1038/s44160-026-01132-2": {
   "ab_check_v": 2,
@@ -8127,9 +8540,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8164,9 +8581,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8210,9 +8631,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8279,9 +8704,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8467,6 +8896,9 @@
    "Chenguang Yin",
    "Ke Chu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-08-31",
   "doi": "10.1039/d6nj02682f",
@@ -8486,8 +8918,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "在非晶 ZnO 上负载的 Pd 单原子对 CO2/NO2⁻ 共还原制备甲胺有效，归因于 Pd1–Zn 双位点促进 *HCHO–*NH2OH 偶联以实现选择性 MMA 形成。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学亚硝酸盐还原"
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "基于 Pd 单原子催化剂从 CO2 和亚硝酸盐电合成甲胺"
  },
  "10.1039/d6ra05773j/v2/decision1": {
   "ab_check_v": 2,
@@ -8671,6 +9105,9 @@
    "Sisi He",
    "Jia Zhou"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-08-31",
   "doi": "10.1063/5.0320328",
@@ -8692,8 +9129,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "综述了利用密度泛函理论（DFT）、机器学习（ML）和原位表征相结合的方法来加速非贵金属硝酸盐还原催化剂的开发。通过整合实时实验数据、第一性原理计算和数据驱动模型，该框架有助于阐明复杂的结构-活性关系。文章总结了近期进展、挑战及未来利用集成方法实现高效可扩展电催化硝酸盐制氨的方向。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "非贵金属催化剂用于电催化硝酸盐还原制氨"
  },
  "10.1063/5.0343526": {
   "abstract": "Surface metallization is a critical process for diamonds in thermal management applications. However, bottlenecks such as graphitization, inhomogeneous interfacial phases, and high interfacial thermal resistance persist during metallization. This study presents a novel strategy for tungsten coating on diamond particle surfaces within an extremely short time using flash joule heating. In situ chemical bonding of a composite consisting of W, W2C, and WC was achieved on the diamond surface, yielding a uniform and conformal coating that suppressed diamond surface graphitization, retained 93.2% of the intrinsic thermal conductivity of diamond, and resulted in an equivalent thermal conductivity of 1864.69 W m−1 K−1. The chemically bonded metallization shell introduced an equivalent interfacial thermal resistance as low as 9.11 × 10−10 m2 K W−1. Photothermal conversion cycling tests demonstrated that the chemically bonded metallization on the diamond surface possesses excellent thermal fatigue resistance. Through photothermal conversion studies and the construction of a two-node thermal relaxation model, the analysis indicates that the W, W2C, and WC interfacial phases introduce a moderate interfacial thermal resistance, which effectively suppresses instantaneous and intense heat dissipation to the environment, thereby enabling controllable and stable heat release.",
@@ -10504,9 +10943,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",

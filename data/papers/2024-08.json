@@ -1597,17 +1597,20 @@
  },
  "10.1016/j.apmt.2024.102303": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This work reports on novel hydrogen (H2) selective membrane composed of TiOxNy-Pd nanocomposite thin films prepared by Atomic Layer Deposition (ALD) on asymmetric porous alumina supports. The nanocomposite combines the robustness of a ceramic matrix, selective gas barrier properties of TiOxNy thin layer and specific H2 sorption/affinity of palladium nanoparticles (Pd NPs). Precise control of the thickness and chemical composition of TiOxNy-Pd layer enables to achieve promising H2 selectivities (αH2/N2≈35 and αH2/He≈7) with permeances πH2≈228GPU at 390 °C. At this temperature, TiOxNy crystallites start to form in the initially near-amorphous layer and allow selective transport of H atoms generated during the adsorption-dissociation of H2 on the Pd NPs. This study clearly stresses the effectiveness of ALD in the formation of dense H2-permselective membranes while significantly limiting the production costs by reducing the content of expensive elements, such as Pd. Finally, thanks to the versatility of the ALD technique, the present strategy could be extended to other rational design for applications requiring gas separation or detection.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Clémence Badie",
    "Martin Drobek",
@@ -1619,9 +1622,9 @@
    "Mikhael Bechelany",
    "Lionel Santinacci"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-08",
   "doi": "10.1016/j.apmt.2024.102303",
@@ -1643,6 +1646,7 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "在不对称多孔氧化铝载体上制备了TiOxNy-Pd纳米复合薄膜。在390 °C下，该膜实现了αH2/N2≈35和αH2/He≈7的氢选择性，渗透通量为πH2≈228GPU。TiOxNy晶体的形成促进了Pd NPs上H2吸附解离产生的H原子的选择性传输。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "通过原子层沉积开发氢选择性TiOxNy-Pd复合膜材料"
@@ -1652,11 +1656,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1840,11 +1846,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1896,11 +1904,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1992,11 +2002,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2082,11 +2094,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2204,17 +2218,20 @@
  },
  "10.1016/j.clcb.2024.100077": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia ranks among the most extensively produced natural and anthropogenic chemicals due to its immense applications, especially in agriculture as fertilizer. The global demand for ammonia has thus been projected to increase. Haber process, the conventional method of ammonia production is costly, energy intensive and responsible for ∼2% of CO2 emission. The rumen Hyper Ammonia Producing Bacteria (HAB) has the potential to convert protein to ammonia. To develop an industrial feasible ammonia production alternative, this study aims to optimize soy-based media composition for biological ammonia using response surface methodology (RSM). A one-factor-at-a-time (OFAT) statistical design was used to determine the most important media components affecting biological ammonia production. Eight media components were screened, and results showed that K2HPO4, KH2PO4, Na2SO4 and soy meal protein isolate (SMPI) had the most significant impact on biological ammonia production. The four identified media components were further optimized using a central composite design (CCD). The RSM model equation for independent and response variables was computed and used to create the response surface and contour plots. Results showed a maximum biological ammonia experimental yield of ∼ 7,500 mg/L at 0.0492 g/100mL K2HPO4, 0.0492 g/100mL KH2PO4, 0.64 g/100mL Na2SO4, and 10 % SMPI. The observed yield was ∼80 % higher than the biological ammonia production from previous study.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ibrahim Bello",
    "Adewale Adeniyi",
@@ -2223,8 +2240,8 @@
    "Ademola Hammed"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-08",
   "doi": "10.1016/j.clcb.2024.100077",
@@ -2246,6 +2263,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用响应面法优化基于大豆的培养基组分，确定了K2HPO4、KH2PO4、Na2SO4和大豆蛋白分离物对生物氨生产的影响，实验最大产量达约7,500 mg/L。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "优化厌氧生物合成氨的介质与底物"
@@ -2294,11 +2312,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2638,11 +2658,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2684,11 +2706,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2734,11 +2758,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2885,11 +2911,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2938,11 +2966,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3049,11 +3079,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3204,25 +3236,28 @@
  },
  "10.1021/acs.chemmater.4c01707": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Because semiconductor devices have become ultraminiaturized, the degradation of conductivity due to the resistivity size effect of metal thin films is an unavoidable problem, and the development of new low-resistivity materials and processes is necessary. Ru thin films are attracting attention as candidate materials for next-generation interconnects. However, it is very difficult to achieve excellent properties in the ultrathin thickness range owing to their initial island growth behavior. We systematically investigated the effect of the process pressure as an important variable for forming ultrathin Ru films with low resistivity by improving the initial growth behavior. Increasing the process pressure reduced the critical size and activation energy for the initial nuclei growth, resulting in rapid continuous thin-film growth through dense and high-density nucleation. Consequently, the resistivity properties of the Ru thin films deposited at high pressures in the sub-5 nm thickness region were significantly improved. In particular, we demonstrated for the first time that a Ru thin film with low resistivity formed continuously at a thickness of sub-2.5 nm, and the method presented in this study can be effectively applied to next-generation metal line processes.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Na-Gyeong Kang",
    "Min-Ji Ha",
    "Ji-Hoon Ahn"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-08-21",
   "doi": "10.1021/acs.chemmater.4c01707",
@@ -3244,6 +3279,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "通过提高工艺压力改善了超薄Ru薄膜的初始成核行为，从而降低了成核临界尺寸和活化能。在亚5 nm厚度范围内，高压沉积显著改善了电阻率特性，首次实现了厚度低于2.5 nm的连续低电阻率Ru薄膜。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
   "zh_title": "原子层沉积制备低电阻率超薄金属膜：Ru 薄膜初始生长行为中的工艺压力效应"
@@ -3394,17 +3430,20 @@
  },
  "10.1021/acsaenm.4c00372": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Titanium dioxide (TiO 2 ) thin films are being applied in various photonic applications where precise controlling of thin film morphology and crystal structure is required for optimum performance. Here, photocatalytic TiO 2 thin films were fabricated by atomic layer deposition (ALD) using TDMAT and H 2 O precursors utilizing growth temperature (150–225 °C)-controlled self-doping with Ti 3+ . The performance was optimized in terms of post-deposition annealing (PDA) temperature (≤500 °C) and film thickness (20–50 nm) toward photoelectrochemical water oxidation in 1 M NaOH under 1 sun illumination. During the PDA, low ALD growth temperatures (150 and 175 °C) result in abrupt crystallization to anatase, whereas films grown at higher temperatures (200 and 225 °C) crystallize gradually to rutile. Unlike crystalline TiO 2, as-deposited Ti 3+ self-doped TiO 2 films are amorphous and have low stability in 1 M NaOH. The best activity for water oxidation under 1 sun is obtained for the 30 nm post-annealed rutile TiO 2 film with a maximum photocurrent of 0.3 mA/cm 2 . This benchmark performance can be attributed to the optimum TiO 2 absorption with respect to carrier diffusion length and more efficient solar light absorption of rutile TiO 2 compared to anatase TiO 2 . These results demonstrate a simple strategy to fabricate either anatase or rutile TiO 2 thin films by controlling the ALD growth temperature.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Bela D Bhuskute",
    "Harri Ali-Löytty",
@@ -3412,9 +3451,9 @@
    "Antti Tukiainen",
    "Mika Valden"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-08-22",
   "doi": "10.1021/acsaenm.4c00372",
@@ -3436,8 +3475,9 @@
   "why": [
    "Atomic Layer Deposit"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_brief": "利用原子层沉积技术，通过控制生长温度（150–225 °C）实现Ti3+自掺杂，优化了TiO2薄膜的结晶结构和形貌。在1 M NaOH溶液中，经500 °C退火处理的30 nm金红石相TiO2薄膜在1 sun光照下表现出最佳的光电化学析氧活性，最大光电流为0.3 mA/cm2。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "其他催化反应；涉及原子层沉积",
   "zh_title": "Ti 3+ 自掺杂介导的原子层沉积 TiO 2 光催化剂涂层的优化"
  },
  "10.1021/acsami.4c07339": {
@@ -3809,24 +3849,27 @@
  },
  "10.1021/acssuschemeng.4c05149": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The process of the electrocatalytic nitrate reduction reaction (NO 3 RR) holds great promise to produce ammonia with economic benefits while eliminating nitrate pollution. Nonetheless, the reaction involves multielectron transfer and easy desorption of intermediates, reducing the selectivity of the nitrate reduction reaction. Herein, a simple hydrothermal method along with a rapid Joule heating treatment was used to in situ grow MoO 2 (MO/NF-JH) with (101) crystal facets exposed on nickel foam (NF). Compared to MoO 2 (MO/NF-TH) with (−111) crystal facets exposed, MO/NF-JH exhibited excellent NO 3 RR activity with an NH 3 yield of 3.28 mg h –1 cm –2 and a Faradaic efficiency of 96.29% in a neutral electrolyte at −0.55 V (vs RHE). DFT calculations indicated that MO/NF-JH with the main exposure of the (101) crystal facets was in favor of NO 3 – adsorption and NH 3 desorption. Moreover, H 2 O dissociation was accelerated and *H retention ability was enhanced on (101) crystal facets, which provided a material basis for the *H-assisted pathway of electrocatalytic NO 3 RR.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yaru Wang",
    "Xiangchao Meng"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-08-12",
   "doi": "10.1021/acssuschemeng.4c05149",
@@ -3847,11 +3890,12 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Nitrate Reduction",
+   "produce ammonia",
    "Joule Heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "利用闪蒸焦耳热处理在镍泡沫上原位生长了具有高度暴露(101)晶面的MoO2。与(−111)晶面相比，MO/NF-JH在−0.55 V下表现出优异的硝酸盐还原反应活性，氨产率为3.28 mg h–1 cm–2，法拉第效率为96.29%。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
   "zh_title": "焦耳热合成具有高度暴露(101)晶体面的MoO2促进水解离以改善硝酸盐还原为氨"
  },
  "10.1021/jacs.4c03998": {
@@ -6616,11 +6660,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

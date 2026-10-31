@@ -1075,14 +1075,18 @@
  },
  "10.1016/j.apcatb.2024.124620": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1158,14 +1162,18 @@
  },
  "10.1016/j.apcatb.2024.124673": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1361,26 +1369,29 @@
  },
  "10.1016/j.cej.2024.158928": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrification of the chemical and energy sector is a crucial step in the transition towards a carbon neutral society. Electrocatalysis is one way to selectively steer a reaction towards the desired products which relies on the electric field effects instead of temperature, but there is another way to solely heat the reaction site. Magnetic or induction heating of magnetic nanoparticles embedded within the catalyst can selectively heat the catalyst at the reaction site. Furthermore, such rapid and selective heating enables a construction of decentralised, intermediate-scale, adaptable, containerised and responsive units, capable of flexible operation as per the Europen Union’s new industrial paradigm. The possibly to utilize intermittent renewable energy and to operate reactors in highly dynamically responsive manner leads to energy efficiency, safer operation, reduced energy costs in downstream processing, keeping bulk fluid cold(er) compared to the catalyst grain to mention a few advantages. Recently, this concept has been successfully applied and reported but only in a relatively limited number of studies, which are reported and thoroughly reviewed in this work. This review aims to highlight and critically evaluate recent developments of magnetic materials used in magnetically heated catalysis and represent their magnetic and chemical properties in combination with an overview of reported chemical conversions. It can serve as guide to select optimal magnetic material for a targeted chemical conversion, highlighting (also schematically) their potential and restriction of use.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jakov-Stjepan Pavelić",
    "Sašo Gyergyek",
    "Blaž Likozar",
    "Miha Grilc"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.cej.2024.158928",
@@ -1400,10 +1411,11 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "magnetic heat"
+   "induction heating"
   ],
+  "zh_brief": "综述了嵌入催化剂中的磁性纳米颗粒磁加热技术，该技术能选择性地加热反应位点，实现间歇性可再生能源的利用和反应器的动态响应。文章评估了磁性材料在磁加热催化中的磁性和化学性质，为选择最佳磁性材料提供指导。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "通用催化方法",
   "zh_title": "通过磁热加热催化剂进行工艺电气化"
  },
  "10.1016/j.cej.2024.159188": {
@@ -1444,14 +1456,18 @@
  },
  "10.1016/j.cej.2025.159326": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1496,14 +1512,18 @@
  },
  "10.1016/j.cej.2025.159723": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1547,17 +1567,20 @@
  },
  "10.1016/j.cej.2025.159725": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Graphene has a vast market demand in the industrial field, but the high cost and complexity of traditional production methods limit its application. The newly developed flash Joule heating method based on capacitor discharge presents a cost-effective production alternative for graphene, but the batch yield is still limited in gram-scale level. This study presents a high-power rapid Joule heating (RJH) method based on direct current power discharge to enable mass production of graphene. With this high-power RJH system, 100 g of carbon black can be rapidly heated to 3000 °C within mere minutes, promoting its graphitization transformation, thus achieving a substantial increase in graphene production efficiency. Detailed characterizations confirm the successful synthesis of high-quality turbostratic rapid graphene (RG), with production energy consumption of only ∼5 kWh kg −1 (approximately $0.5 kg −1 based on current energy prices). Therefore, one can theoretically produce 5 tons of graphene per year in the laboratory for industrial applications. Furthermore, by adding boron oxide and melamine as additives, direct mass production of boron, nitrogen, and nitrogen-boron co-doped RGs can be carried out. Doping modifies the local structure of RG, thereby enhancing its hydrophobicity and electrical conductivity. This work is anticipated to significantly accelerate the process of low-cost bulk production of graphene, thereby broadening its industrial applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Dan-Na Wu",
    "Jian Sheng",
@@ -1565,9 +1588,9 @@
    "Si-Dian Li",
    "Yan Li"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.cej.2025.159725",
@@ -1589,20 +1612,25 @@
   "why": [
    "joule heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "提出基于直流放电的高功率快速焦耳加热方法以实现石墨烯的大规模生产。该方法能在数分钟内将100克炭黑加热至3000 °C，实现高质量乱层快速石墨烯的合成，能耗仅为~5 kWh kg−1。通过添加硼氧化物和三聚氰胺，实现了硼、氮及硼氮共掺杂石墨烯的直接大规模制备。",
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "使用高功率快速焦耳热法大规模生产石墨烯"
  },
  "10.1016/j.cej.2025.159761": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1675,17 +1703,20 @@
  },
  "10.1016/j.ceramint.2024.01.144": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Transition metal diborides (TMB2), such as ZrB2 and HfB2, are a class of ultra-high-temperature ceramics (UHTCs) that have attracted considerable attention due to their performance in extreme environments. Their implementation is burdened by the high energetic requirement of traditional synthetic procedures. Here, we report a novel methodology, termed as flash Joule heating-boro/carbothermal reduction (FJH-BCTR), for the instantaneous synthesis of phase-pure sub-micron powders of several TMB2 and composite within seconds and without any external source of heating. The immediate synthesis is attributed to the Joule heat generated by the current, enabling extremely fast heating and cooling rates and, therefore, avoiding excessive grain growth. The advantages of FJH-BCTR are thoroughly displayed and can be summarized as; highly efficient, it allows a dramatic drop in terms of energy and time; universal, several TMB2 and composite can be prepared; and flexible, different experimental parameters can be tuned to achieve the desired phase.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ahmed Taibi",
    "Eva Gil-González",
@@ -1693,9 +1724,9 @@
    "Antonio Perejón",
    "Luis A. Pérez-Maqueda"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.ceramint.2024.01.144",
@@ -1717,20 +1748,25 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "提出闪蒸焦耳加热-硼/碳热还原（FJH-BCTR）方法，可在数秒内无需外部热源合成纯相亚微米级过渡金属二硼化物粉末。该方法具有高效、通用和灵活的特点，能显著降低合成时间和能耗，避免晶粒过度生长。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控",
   "zh_title": "闪速焦耳热-硼/碳热还原（FJH-BCTR）：一种过渡金属二硼化物瞬时合成方法"
  },
  "10.1016/j.ceramint.2024.11.436": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2572,14 +2608,18 @@
  },
  "10.1016/j.jallcom.2025.178709": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2921,14 +2961,18 @@
  },
  "10.1016/j.jfoodeng.2024.112348": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3044,14 +3088,18 @@
  },
  "10.1016/j.jpowsour.2024.235963": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3092,14 +3140,18 @@
  },
  "10.1016/j.matchemphys.2024.130255": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3219,17 +3271,20 @@
  },
  "10.1016/j.mcat.2024.114781": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Commercializing a catalyst developed in the laboratory is the aspiration of every catalyst researcher, but this step is highly challenging. This Perspective outlines the basic engineering criteria for developing next-generation catalysts capable of meeting the increasing global demand for renewable, carbon-free ammonia (NH3). A range of key technical and economic factors, extending from active site-scale considerations to process-scale viewpoints are presented. These are operation conditions, activity, long-term stability, formability, and marketability, and their quantitative criteria are proposed to ensure the practicality of the catalyst product. By addressing these interconnected criteria, this Perspective aims to bridge the gap between innovation in laboratory and industrial application, paving the way for a valuable future in catalyst research and development.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Kyungho Lee",
    "Hyung Chul Yoon",
@@ -3239,8 +3294,8 @@
    "Taek-Seung Kim"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.mcat.2024.114781",
@@ -3268,6 +3323,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "概述了开发能够满足可再生、无碳氨日益增长需求的下一代催化剂的基本工程准则，提出了包括操作条件、活性、长期稳定性、成型性和市场可销性在内的关键技术和经济因素及其定量标准。旨在弥合实验室创新与工业应用之间的差距，为催化剂研发指明方向。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "先进哈伯-博施氨合成过程中开发下一代催化剂的关键工程准则"
@@ -3341,14 +3397,18 @@
  },
  "10.1016/j.seppur.2024.129202": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

@@ -2288,15 +2288,20 @@
  },
  "10.1007/s43630-026-01010-y": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The significant carbon footprint and energy demand of the photocatalytic ammonia system necessitates high catalytic activity, efficient catalyst recovery, and reuse under mild conditions. In this work, we demonstrate efficient visible-light-driven ammonia synthesis using metal-free thermally exfoliated carbon nitride (GCN-T) immobilized on a 3D-printed support (GCN-T/3D). Under visible-LED irradiation (435 nm) and mild heterogeneous reaction conditions, this sustainable, environmentally friendly photocatalyst facilitates improved nitrogen (N 2 ) activation, emphasizing its potential for effective recovery and reuse in ammonia production. The GCN-T photocatalyst-based process generated 334 µmol.g cat -1 h - 1 ammonium (NH 4 + ) solution when glycerol was used as a hole scavenger, which is approximately three times higher than the rates reported for other GCN-based catalysts. FTIR-ATR, photoluminescence, photoelectrochemical, and UV-Vis DRS analyses were conducted to characterize the prepared catalysts. BET analysis showed that applying a second thermal treatment to GCN material increased the pore volume, thereby improving N 2 adsorption across the catalyst surface and photogenerated carrier separation. Remarkably, the 3D structure with the immobilized catalyst increased the rate of NH 4 + generation and enabled at least 4 reutilization runs without loss of activity. An apparent quantum efficiency of 0.020% was obtained using the immobilized catalyst. The study also examined the effect of various scavengers on the NH 4 + generation rate. Additionally, experiments using different water matrices, including seawater, yielded moderate results within one hour, highlighting the real-world potential for sustainable ammonia production. This research introduces a photocatalytic approach that combines a 2D metal-free optical semiconductor immobilized over a reusable 3D-printed structure for decentralized, low-carbon ammonia synthesis.",
+  "abstract_source": "Europe PMC",
   "authors": [
    "Amala Joy",
    "Maria J. Sampaio",
@@ -2304,7 +2309,7 @@
    "Cláudia G. Silva"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-15",
@@ -2327,21 +2332,25 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究者在温和异相反应条件下，利用可见光LED照射（435 nm），将无金属热剥离碳氮化物（GCN-T）负载于3D打印载体上制备催化剂。结果表明，该催化剂在甘油作为空穴清除剂时，NH4+生成速率为334 µmol·g cat -1 ·h -1，约为其他GCN基催化剂的三倍。经二次热处理后，材料孔隙体积增加，促进了N2吸附和光生载流子分离。该3D结构催化剂在至少4次重复使用中保持活性，且在海水等不同水基质中表现出可持续生产氨的潜力。",
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "光催化固氮",
   "zh_title": "碳氮化物负载于可重复使用 3D 打印载体用于可持续可见光驱动氨合成"
  },
  "10.1016/j.agwat.2026.110788": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Irrigation regimes and nitrogen (N) management are key levers for reducing water use and nitrous oxide (N₂O) emissions from irrigated rice. Mild alternate wetting and drying (AWD) is widely promoted as a water-saving practice, but its effects on short-lived N₂O pulse events and yield-scaled N₂O-based greenhouse gas intensity (N₂O-based GHGI, calculated from N₂O emissions only) remain uncertain in single-rice systems. Based on a two-year field experiment in Jingzhou, Hubei Province, China, we evaluated four water–nitrogen combinations: CM (continuous flooding, CF, with conventional N), WO (mild AWD with conventional N), NO (CF with ~20% reduced N), and WNO (mild AWD with ~20% reduced N). N₂O fluxes were monitored at high frequency, together with soil moisture, mineral N, dissolved organic carbon (DOC), and denitrifier functional genes. At a given N rate, mild AWD increased seasonal cumulative N₂O emissions by about 40% relative to CF, whereas the reduced-N strategy generally lowered peak fluxes and seasonal totals but only partially offset the AWD-induced increase, yielding WNO ≈ WO > CM ≥ NO. Most N₂O peaks occurred 5–7 days after fertilization, coinciding with increases in soil moisture, NH₄⁺–N, DOC, and denitrifier gene abundances. Under mild AWD, a weaker nosZ response elevated the nirK/nosZ ratio, indicating N₂O production dominance during this high-risk pulse window. Non-rice season emissions were small. Relative to AWD with conventional N input, the directly tested WNO treatment (mild AWD + integrated reduced-N strategy) improved N₂O-based GHGI by approximately 10% but did not reduce seasonal N₂O emissions below the CM baseline. The 5–7 d post-fertilization pulse pattern further suggests that separating N application from major drying–rewetting events warrants future testing.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Xian Zhang",
    "Xiangyu Xu",
@@ -2357,7 +2366,7 @@
    "Jie Song"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -2378,6 +2387,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "基于中国湖北荆州两年的田间实验，评估了四种水氮组合对单季稻田N2O排放和温室气体强度（GHGI）的影响。结果表明，温和交替湿润干燥（AWD）在给定氮量下使季节累积N2O排放增加约40%。在施肥后5-7天出现N2O峰值，此时土壤湿度、NH4+-N和DOC增加。温和AWD与减氮策略结合（WNO）使GHGI改善约10%，但未将季节N2O排放降至连续淹水（CM）基准线以下。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "单季稻田在轻度交替湿润干燥和氮管理下的氧化亚氮排放动态及温室气体强度"
@@ -2386,9 +2396,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2435,9 +2449,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2489,9 +2507,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2537,9 +2559,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2585,9 +2611,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2638,9 +2668,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2689,9 +2723,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2742,9 +2780,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2903,9 +2945,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -2945,15 +2991,18 @@
  },
  "10.1016/j.apcatb.2026.127629": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia synthesis under mild conditions using non-thermal plasma provides a promising route for decentralized and renewable-driven production. However, the rational design of catalysts that can simultaneously regulate plasma activation and surface reaction pathways remains challenging. Herein, a series of Ce-substituted La 1-x Ce x CoO 3 perovskite catalysts were developed for plasma-catalytic ammonia synthesis, and the role of A-site Ce engineering in modulating catalytic structures and plasma-catalyst interactions was systematically investigated. Moderate Ce incorporation reconstructed the surface Co-O v interfacial sites through lattice distortion, oxygen vacancy generation, and electronic redistribution between Ce and Co species. The optimized Co-O v sites exhibited enhanced electron-donating capability, promoting N 2 adsorption and activation through electron transfer to the antibonding π⁎ orbitals of N 2 . The increased weak acid sites facilitated NH 3 desorption and suppressed plasma-induced NH 3 decomposition. Excessive Ce substitution resulted in the segregation of CeO 2 and Co 3 O 4 phases, blocking accessible Co-O v sites and deteriorating catalytic performance. Under an SEI of 40 kJ·L -1 , the optimized La 0.9 Ce 0.1 catalyst achieved an NH 3 synthesis rate of 19.1 mmol·g -1 ·h -1 with an energy efficiency of 4.8 g-NH 3 ·kWh -1 , representing the most competitive performances reported for plasma-catalytic ammonia synthesis. In-situ DRIFTS, OES, and plasma discharge simulations further revealed that Ce engineering simultaneously regulated surface nitrogen intermediates and plasma-generated reactive species. This work establishes Co-O v interfacial site engineering as an effective strategy for designing efficient plasma-catalytic ammonia synthesis catalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yutong Feng",
    "Bianbian Gao",
@@ -2963,7 +3012,7 @@
    "Guoqiang Cao"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -2986,21 +3035,25 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究开发了Ce掺杂La1-xCexCoO3钙钛矿催化剂用于等离子催化氨合成，系统考察了A位Ce工程的作用。适度Ce掺杂通过晶格畸变、氧空位生成和电子重分布重构了Co-Ov界面位点，增强了电子给体能力，促进了N2吸附活化。在等离子体能量密度为40 kJ·L -1 时，优化后的La0.9Ce0.1催化剂实现了19.1 mmol·g -1 ·h -1的合成速率和4.8 g-NH3·kWh -1的能量效率。",
   "zh_method": "等离子体驱动",
   "zh_obj": "等离子体制氨",
   "zh_title": "富氧空位 Ce 掺杂 LaCoO3 钙钛矿在常压条件下用于高效等离子体催化 NH3 合成"
  },
  "10.1016/j.apcatb.2026.127676": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Carbides and nitrides derived from earth-abundant elements are promising catalysts for NH 3 decomposition, a key reaction for carbon-free hydrogen production. However, their mechanisms under practical conditions remain insufficiently understood, and reliance on costly Ru catalysts limits broader deployment. Here, we integrate density functional theory, microkinetic modeling, and experimental validation to investigate Co 3 C and Co 3 N as cost-effective alternatives. The experimentally relevant Co 3 C(112) facet exhibits lower activation barrier for N N coupling and achieves TOFs up to two orders of magnitude higher than Co 3 C(001)-C and Ru(1013) and four to five orders of magnitude higher than Ru(0001) and Co 3 N(001)-N at 400 °C, closely aligning with the experiments. Degree-of-rate-control analysis further reveals strong surface dependence of the dominant kinetic limitation: N N recombination controls Ru(0001), Co 3 C(001)-C, and Co 3 N(001)-N at elevated temperatures, whereas NH x ⁎ dehydrogenation governs Co 3 C(112) and Ru(1013). To validate the computational predictions, Co 3 C was synthesized and benchmarked against commercial Ru-black. Although Ru-black showed higher NH 3 conversion, Co 3 C exhibited higher surface-area-normalized H 2 production rates and 5-10 times higher experimental TOFs than Ru-black at 350-475 °C, supporting its higher inherent activity. These results establish Co 3 C as a promising earth-abundant alternative for NH 3 decomposition and demonstrate the importance of integrating multiscale modeling with experimental validation for rational catalyst design.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Saleh Ahmat Ibrahim",
    "Randolph C.V. McGee",
@@ -3009,7 +3062,7 @@
    "Fanglin Che"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -3032,17 +3085,22 @@
   "why": [
    "ammonia decomposition"
   ],
+  "zh_brief": "利用密度泛函理论、微观动力学建模和实验验证，研究了钴碳化物和氮化物作为氨分解催化剂。实验相关的Co3C(112)晶面在400°C下活化能较低，TOF比Ru(1013)高两个数量级，比Ru(0001)和Co3N(001)-N高四到五个数量级。合成的Co3C在350-475°C下的实验TOF比商用Ru-black高5-10倍，证明了其作为低成本替代品的潜力。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系",
   "zh_title": "钴碳化物和氮化物催化剂上氨分解的集成计算与实验研究"
  },
  "10.1016/j.apcatb.2026.127687": {
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3090,9 +3148,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3190,9 +3252,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3235,9 +3301,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3327,9 +3397,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3375,9 +3449,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3418,9 +3496,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3464,9 +3546,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3602,9 +3688,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3653,9 +3743,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3700,9 +3794,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3748,9 +3846,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3798,9 +3900,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3845,15 +3951,18 @@
  },
  "10.1016/j.cej.2026.179676": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The electrochemical nitrate reduction reaction (eNO 3 RR) offers a dual benefit of converting nitrate pollutants into valuable ammonia while circumventing the limitations of the nitrogen reduction reaction. However, this complex multi-step proton-electron transfer process with stable intermediates necessitates highly active and selective catalysts. Despite extensive progress in catalyst development, a fundamental understanding of eNO 3 RR kinetics remains limited. Herein, we present a detailed kinetic evaluation of the individual eNO 3 RR steps using accessible electrochemical approaches, including impedance analysis, diffusion coefficient calculations, and multistep Bulter Volmer kinetic analysis. Spinel NiCo 2 S 4 nanoparticles were employed as the model catalyst, showing an ammonia yield rate of 3223.9 ± 168.3 μg h −1 cm −2 at −0.30 V RHE with a Faradaic efficiency of 64.0% in 0.1 M KOH containing 0.5 M KNO 3 electrolyte. The kinetic dependence on NOx reactants and electrolyte concentration was further analyzed to evaluate the contribution of individual reaction steps. Combined with in situ spectroscopic identification of surface intermediates, the kinetic analysis enabled identification of the rate-determining step in eNO 3 RR. This study provides mechanistic and kinetic insights into eNO 3 RR and proposes a practical working model that can be extended to other eNO 3 RR catalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "James Ebenezer",
    "Parthiban Velayudham",
@@ -3861,7 +3970,7 @@
    "Alex Schechter"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -3882,8 +3991,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "nitrogen reduction reaction"
   ],
+  "zh_brief": "利用阻抗分析、扩散系数计算和多步Butler Volmer动力学分析，对电化学硝酸根还原反应的各步骤进行了详细动力学评估。以尖晶石NiCo2S4纳米颗粒为模型催化剂，在0.1 M KOH含0.5 M KNO3电解液中，-0.30 V RHE下氨产率为3223.9 ± 168.3 μg h−1 cm−2，法拉第效率为64.0%。结合原位光谱鉴定，确定了反应决速步。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "选择性电化学硝酸盐还原制氨的详细动力学研究"
@@ -3953,9 +4063,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -3998,9 +4112,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4043,9 +4161,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4087,15 +4209,18 @@
  },
  "10.1016/j.cej.2026.182906": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrochemical nitrate reduction to ammonia (NO 3 RR) offers a promising route for simultaneous wastewater remediation and green ammonia production. Among various strategies to enhance NO 3 RR performance, alloying and hetero-atom doping of the catalysts have emerged as efficient approaches for tuning catalytic activity and selectivity. However, their respective roles in NO 3 RR remain unclear due to the lack of systematic comparisons using consistent fabrication approaches. Here, we present a systematic investigation of alloying and hetero-atom doping effects using a unified carbothermal shock platform. A series of Co-, Cu-, and CoCu-based catalysts with and without sulfur doping were synthesized to decouple the individual and synergistic contributions of alloy formation and hetero-atom incorporation. Among them, sulfur doped Co (Co/S) exhibits the highest activity and selectivity, achieving an NH 3 yield rate of 6305.3 μg h −1 cm −2 with a Faradaic efficiency of 90.6%. Mechanistic analyses, including kinetic isotope effect coupled with theoretical calculation reveal that sulfur doping enhances active hydrogen (*H) generation and utilization, thereby accelerating hydrogenation steps. In contrast, alloying provides moderate improvements, while their simultaneous combination can be detrimental. This work establishes a clear design-mechanism relationship governing NO 3 RR pathways, offering rational guidelines for next-generation electrocatalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Suhyun Hwang",
    "Minki Kim",
@@ -4114,7 +4239,7 @@
    "Chansol Kim"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -4123,9 +4248,9 @@
   "id": "10.1016/j.cej.2026.182906",
   "kind": "journal",
   "origin": "日常",
-  "score": 9,
+  "score": 21,
   "source": "Chemical Engineering Journal",
-  "tier": "background",
+  "tier": "transferable",
   "title": "Unraveling the effects of alloying and hetero-atom doping on electrochemical nitrate reduction through a systematic carbothermal shock strategy",
   "top": false,
   "topics": [
@@ -4136,9 +4261,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction",
+   "ammonia production",
    "carbothermal shock"
   ],
+  "zh_brief": "利用统一的碳热冲击平台系统研究合金化和杂原子掺杂对电化学硝酸还原制氨的影响。其中硫掺杂钴表现出最高的活性和选择性，氨产率为6305.3 μg h−1 cm−2，法拉第效率为90.6%。机理分析表明硫掺杂增强了活性氢的生成和利用。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "通过系统碳热冲击策略揭示合金化与杂原子掺杂对电化学硝酸还原的影响"
@@ -4320,9 +4446,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4368,9 +4498,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4411,15 +4545,18 @@
  },
  "10.1016/j.ceja.2026.101494": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) is a crucial raw material that is widely used in fertilizers, chemical manufacturing, and pharmaceuticals and has attracted increasing interest as a hydrogen carrier and clean fuel. However, conventional NH 3 production is energy-intensive, highlighting the need for sustainable alternatives, including NH 3 recovery from waste streams. This paper presents a perfluorinated sulfonic acid (PFSA) membrane-based separation process for high-purity NH 3 recovery from anaerobic digestate. By systematically optimizing the NH 3 stripping conditions, including pH, temperature, and the solution-to-reactor volume ratio, NH 3 was efficiently stripped using nitrogen (N 2 ) as a sweep gas. The subsequent membrane-separation process using a 200 cm 2 membrane module achieved an NH 3 purity of 99.6% and a recovery rate of 90.1% for a 50/50 vol% NH 3 /N 2 feed. Chemical and structural changes in the PFSA membrane after NH 3 exposure were investigated using FT-IR, XPS, SAXS, and DSC analyses, providing insights into the separation mechanism. Additionally, the performance of the membrane was evaluated with respect to residual moisture, and the reversibility of the NH 3 -PFSA interaction was assessed using acid treatment. Unlike acid absorption, which directly produces an ammonium salt, the proposed membrane process recovers gaseous NH 3 and provides a complementary product option when NH 3 in its molecular form is required.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Chang-In Kong",
    "Chae-Young Park",
@@ -4432,7 +4569,7 @@
    "Su-Young Moon"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -4453,6 +4590,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "提出了一种基于全氟磺酸膜分离的工艺，用于从厌氧消化液中回收高纯氨。通过优化pH、温度和溶液与反应器体积比，利用氮气作为吹扫气高效脱氨。200 cm2膜组件在50/50 vol% NH3/N2进料下实现了99.6%的氨纯度和90.1%的回收率。FT-IR、XPS、SAXS和DSC分析揭示了分离机制，酸处理评估了NH3-PFSA相互作用的可逆性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "通过氮吹脱耦合PFSA膜分离从厌氧消化液中回收高纯氨"
@@ -4461,9 +4599,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4509,9 +4651,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4711,9 +4857,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4756,9 +4906,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4853,9 +5007,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -4949,15 +5107,18 @@
  },
  "10.1016/j.cpblue.2026.100130": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrification of ammonia synthesis will remove the reliance of this critical commodity on production from fossil fuels and enable its use as a carbon-free fuel, on top of the current multi-megaton applications in fertilizer production. Electrochemical nitrogen reduction through a lithium redox-mediated process can enable this transition but is currently limited in energy efficiency, as defined by the thermodynamic properties of the Li 0/+ mediator. Herein, we demonstrate that this limitation can be mitigated by using electrodes modified with gallium-based alloys. Such electrodes, stabilized by dissolved copper species, enable reduction of the lithium mediator at significantly improved potentials, while maintaining reactivity with respect to dinitrogen. Capitalizing upon this, we demonstrate nitrogen electroreduction to ammonia at the yield rate of 10 ± 2 nmol s −1 cm −2 and faradaic efficiency of 96% ± 6%, which can support future improvements in energy efficiency of ammonia electrosynthesis from nitrogen and hydrogen to 22% and beyond.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rebecca Y. Hodgetts",
    "Hoang-Long Du",
@@ -4970,9 +5131,9 @@
    "Douglas R. MacFarlane",
    "Alexandr N. Simonov"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-10",
   "doi": "10.1016/j.cpblue.2026.100130",
@@ -4980,9 +5141,9 @@
   "id": "10.1016/j.cpblue.2026.100130",
   "kind": "journal",
   "origin": "日常",
-  "score": 9,
+  "score": 6,
   "source": "Cell Press Blue",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Improved energy efficiency of nitrogen reduction to ammonia provided by lithium-alloying cathodes",
   "top": false,
   "topics": [
@@ -4991,9 +5152,12 @@
   "url": "https://doi.org/10.1016/j.cpblue.2026.100130",
   "via": "Crossref",
   "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "通过使用镓基合金修饰的电极，解决了锂介导电化学氮还原过程中锂介体还原电位受限的问题。在溶解铜物种稳定电极的同时，实现了对氮气的反应性。在-0.30 V RHE下实现了10 ± 2 nmol s−1 cm−2的产率和96% ± 6%的法拉第效率，支持未来氨电合成能效超过22%。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
   "zh_title": "锂合金化阴极提供的氨氮还原能效提升"
  },
  "10.1016/j.cplett.2026.142950": {
@@ -5049,15 +5213,18 @@
  },
  "10.1016/j.crgsc.2026.100538": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In this work, we have successfully developed α-Fe 2 O 3 nanodots of size less than 10 nm using a green method with low temperature annealing. The as synthesized α-Fe 2 O 3 nanodots were in-situ grown on the porous surface of porous graphitic carbon nitride (g-C 3 N 4 ) sheets to obtain α-Fe 2 O 3 /g-C 3 N 4 nanocomposites, which was confirmed using various characterization techniques, such as XRD, FESEM, EDX, HRTEM and XPS respectively. The synthesized materials were used as electrocatalysts, supported on Fe foam (FF) and glassy carbon (GC) current collectors, to produce ammonia (NH 3 ) from electrocatalytic nitrogen reduction. It was found that the α-Fe 2 O 3 /g-C 3 N 4 nanocomposites, containing different amount of α-Fe 2 O 3 , supported on Fe foam exhibited better performance for nitrogen reduction reaction (NRR) with respect to its constituent counterparts. Precisely, the 2% α-Fe 2 O 3 /g-C 3 N 4 /FF electrode exhibited the best NRR performance for NH 3 production in terms of faradaic efficiency at -0.3 V vs. RHE. The NH 3 was produced at the rate of 5.80 μg h -1 mg -1 with a convincing faradaic efficiency of 10.36% while NRR was employed using time dependent chronoamperometry at an applied potential of -0.3 V (vs. RHE) for 2h. The superior NRR performance of the synthesized nanocomposite with respect to its counterparts was attributed to the activation of active sites for N 2 adsorption; enhanced charge transfer, and synergism between FF and α-Fe 2 O 3 nanodots. The Fe foam is expected to enhance the charge transfer towards N 2 molecule via the nanodot active sites which can favor NRR performance.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Bilal Masood Pirzada",
    "Abdulmalik Aminu",
@@ -5065,7 +5232,7 @@
    "Ahsanulhaq Qurashi"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-12",
@@ -5088,19 +5255,24 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrogen-to-ammonia"
+   "produce ammonia"
   ],
+  "zh_brief": "研究采用低温退火绿色方法合成了小于10 nm的α-Fe2O3纳米点，并将其原位生长在多孔石墨相碳氮化物（g-C3N4）片上，负载于Fe泡沫（FF）上作为电催化剂。在-0.3 V vs. RHE电位下，2% α-Fe2O3/g-C3N4/FF电极表现出最佳性能，NH3产率为5.80 µg·h -1 ·mg -1，法拉第效率为10.36%。该优异性能归因于活性位点激活、电荷转移增强以及Fe泡沫与纳米点之间的协同作用。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实；涉及Fe/铁体系",
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系、碳材料",
   "zh_title": "α-Fe2O3/g-C3N4/Fe泡沫：用于可持续电化学氮转氨的环保高效电极"
  },
  "10.1016/j.electacta.2026.149150": {
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5197,9 +5369,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5332,9 +5508,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5377,15 +5557,18 @@
  },
  "10.1016/j.gee.2026.09.009": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Lithium-mediated nitrogen reduction (Li-NRR) is regarded as a promising alternative to the conventional Haber–Bosch process for ammonia synthesis. However, in traditional electrochemical environments, the complex and disordered distribution of cations, anions and solvent molecules entails the formation of heterogeneous solid–electrolyte interphase (SEI), which severely impedes reaction kinetics. Inspired by biological ion conduction in cell membranes, we modify the channels of MOF-808 with triflate (–OTf) groups (MOF-OTf) to optimize species distribution within the Li-NRR microenvironment. Comprehensive characterizations reveal that the grafted –OTf groups realize cation recognition via electrostatic interactions, promoting Li + desolvation and providing hopping sites for rapid Li + transport. The locally concentrated Li + ions further react with fluorine species in –OTf to form homogeneous and LiF-rich SEI, which enhances the permeation of Li + , H + and N 2 across the SEI and accelerates the subsequent activation and protonation steps for NH 3 generation. Compared to heterogeneous SEI in pristine MOF-808, the MOF-OTf achieves a Faradaic efficiency of 74.93% and an NH 3 yield rate of 107.98 nmol min −1 cm −2 at −1.0 V vs. Li0/+ app, corresponding to a performance improvement by over 4.5-fold. This bioinspired microenvironment engineering strategy offers a versatile platform for precise interfacial design in electrocatalytic N 2 fixation systems.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yu Sun",
    "Jiaxin Hu",
@@ -5397,7 +5580,7 @@
    "Guangjin Zhang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -5418,8 +5601,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Lithium-Mediated Nitrogen"
+   "ammonia synthesis"
   ],
+  "zh_brief": "受生物细胞膜离子传导启发，在三氟甲磺酸基团修饰的MOF-808通道中优化了Li-NRR微环境。–OTf基团通过静电相互作用实现阳离子识别，促进Li+去溶剂化并提供快速传输位点。局部富集的Li+与–OTf中的氟物种反应形成均匀且富LiF的SEI，使MOF-OTf在-1.0 V vs Li0/+ app下达到74.93%的法拉第效率和107.98 nmol min−1 cm−2的产率，性能提升4.5倍以上。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "三氟甲磺酸功能化MOF通道调控富LiF固体电解质界面以实现高效锂介导的氮还原"
@@ -5480,15 +5664,18 @@
  },
  "10.1016/j.ifacol.2026.10.035": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Conventional Haber-Bosch (HB) process for NH 3 production remains dominated by fossil sources and is associated with almost 2 % of the total final energy consumption. Therefore, sustainable ways for its generation are sought. This study develops an Aspen Plus modelling framework to quantify how alternative systems could shift operating requirements and enable tighter integration with low-grade heat sources compared with HB. A built-in flowsheet is first implemented as a reference case. A chemical looping-based ammonia synthesis configuration, with iron-based oxygen carrier, is then modelled and compared. Finally, a third system small-scale for ammonia production is presented, based on a reactor that treats exhaust gases from an internal combustion engine as a H 2 source via iron oxidation. The recovered H 2 is subsequently reacted with N 2 from the exhaust to form NH3, while iron can be regenerated. Parametric studies over the process conditions map the feasible operating regimes, while comparing NH 3 yield and materials/energy consumptions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Giovanni Biancini",
    "Hao Chen",
@@ -5498,8 +5685,8 @@
    "Konstantinos Kyprianidis"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-10-28",
   "doi": "10.1016/j.ifacol.2026.10.035",
@@ -5519,23 +5706,27 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "ammonia synthesis"
   ],
+  "zh_brief": "为减少传统哈伯-博施工艺的能源消耗，本研究开发了 Aspen Plus 建模框架。通过对比内置流程图、基于铁载体的化学链合成配置以及利用内燃机尾气制氢的系统，分析了不同系统的运行要求及与低品位热源的集成情况，并绘制了可行操作区域。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
   "zh_title": "氨生产的多尺度建模框架"
  },
  "10.1016/j.ijhydene.2026.157496": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrochemical nitrogen reduction to ammonia (eNRR) promises green ammonia production with lower energy demand than the electrified Haber–Bosch process with water electrolysis (EHB) and the capability to operate on intermittent renewable electricity sources (RES). We evaluate the potential of eNRR by optimizing its design and operation with intermittent RES. Although the eNRR electrolyzer can adapt to fluctuations in electricity availability, nitrogen supply and ammonia purification are less flexible, constraining overall process flexibility. This limited flexibility requires costly battery storage and oversizing of renewable electricity supply. Consequently, even with optimistic eNRR performance, production costs exceed those of the EHB by more than 37 % due to a higher energy demand, larger electrolyzer, and less flexible separation processes. The coupling of storage capacity and discharge power of batteries result in costly and unfavorable battery utilization. These findings motivate assessing how alternative energy storage technologies can reduce production costs (part II).",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Michael J. Rix",
    "Judith M. Schwindling",
@@ -5543,7 +5734,7 @@
    "Alexander Mitsos"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -5564,8 +5755,9 @@
   "via": "旧站云端",
   "watch": [],
   "why": [
-   "electrochemical nitrogen reduction"
+   "Haber-Bosch"
   ],
+  "zh_brief": "评估了离网电化学氮还原制氨在间歇可再生能源供电下的潜力。虽然电解槽能适应电力波动，但氮气供应和氨净化缺乏灵活性，导致需要昂贵的电池储能和可再生能源装机容量过剩。即使采用乐观的性能预测，生产成本仍比水电解电哈伯-博施过程高37%以上。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "离网电化学氮还原制氨 I：最优设计与运行"
@@ -5574,9 +5766,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5625,9 +5821,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5703,15 +5903,18 @@
  },
  "10.1016/j.ijhydene.2026.158253": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) decomposition is a promising route for on-demand, CO x -free hydrogen generation, but it requires highly active and durable catalysts to operate efficiently at low temperatures. In this study, Ru/CeO 2 catalysts were synthesized using solvothermal (ST), deposition-precipitation (DP), and wet-impregnation (WI) methods to elucidate how the Ru fabrication method affects Ru state and metal-support interactions in the catalytic NH 3 decomposition. The ST route using ethylene glycol produced the most active catalyst (RC-ST), delivering a H 2 formation rate of 1319.6 mmol H2 /min/g Ru at 450 °C and WHSV = 30,000 mL NH3 /g cat. /h with excellent stability over 100 h, positioning RC-ST as a promising Ru/CeO 2 catalyst architecture for further optimization. Here, the solvothermal route enhances Ru dispersion and accessible Ru sites as the dominant origin of the enhanced apparent activity. In addition, a higher density of Ru-O V -Ce 3+ interfacial defects in RC-ST correlates with a lower N 2 desorption temperature and may further support the catalytic improvement.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Thien An Le",
    "Youngmin Kim",
@@ -5719,8 +5922,8 @@
    "Min Sik Kim",
    "Ho-Jeong Chae"
   ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -5743,6 +5946,7 @@
   "why": [
    "ammonia decomposition"
   ],
+  "zh_brief": "研究对象为 Ru/CeO2 催化剂，采用溶剂热法、沉积沉淀法和湿浸渍法制备，以阐明 Ru 制备方法如何影响 Ru 状态和金属-载体相互作用。溶剂热法（使用乙二醇）制备的 RC-ST 催化剂活性最高，在 450 °C 下 H2 生成速率为 1319.6 mmol H2/min/g Ru，WHSV = 30,000 mL NH3/g cat./h，稳定性超过 100 h。溶剂热法通过增强 Ru 分散和可及 Ru 位点提高了表观活性，RC-ST 中更高的 Ru-O V -Ce 3+ 界面缺陷密度与更低的 N2 解吸温度相关，进一步支持了催化改进。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢；涉及Ru/钌体系",
   "zh_title": "溶剂热处理的基于 Ru 的催化剂增强碳-free 氢气生产的氨分解效率"
@@ -5751,9 +5955,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5792,9 +6000,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -5845,15 +6057,18 @@
  },
  "10.1016/j.indcrop.2026.124301": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The widespread deployment of 5G communication systems and electronic devices has led to severe electromagnetic radiation pollution, creating an urgent demand for high-performance, green, and low-cost microwave absorbing materials. Biomass-derived carbon materials show great promise in this field, but conventional carbonization processes suffer from high energy consumption and poor microstructure controllability, resulting in an imbalance between dielectric loss and impedance matching. Herein, we report a synergistic pre-carbonization and flash Joule heating (FJH) strategy to fabricate high-performance microwave absorbing carbon materials from agricultural waste cassava stalks. The pre-carbonization process effectively removes volatile components and constructs stable carbon precursors, avoiding catastrophic structural collapse during subsequent ultrafast FJH treatment. By precisely tuning the pre-carbonization temperature (320–800 °C) and FJH temperature (1000–2000 °C), we achieve optimal balance among defect density, graphitization degree, and hierarchical porous structure. The optimal CS400–2000 sample exhibits exceptional microwave absorption performance with a minimum reflection loss of −56.2 dB at 7.5 GHz and an ultra-broad effective absorption bandwidth of 8.7 GHz at a thickness of 5 mm. Mechanistic investigations reveal that the outstanding performance originates from the synergistic effect of favorable impedance matching and multiple dissipation mechanisms including dipole polarization, interfacial polarization, conductive loss, and multiple reflections. This work provides an efficient and scalable approach for the fabrication of biomass-derived carbon materials with tunable microstructures and excellent microwave absorption properties.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Xiaojing Lu",
    "Yiling Yang",
@@ -5893,16 +6108,20 @@
    "Joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控",
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "木薯秸秆协同预碳化和闪蒸焦耳热用于超宽带微波吸收"
  },
  "10.1016/j.jaap.2026.108010": {
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6054,9 +6273,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6100,9 +6323,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6147,9 +6374,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6190,9 +6421,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6379,9 +6614,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6472,9 +6711,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6521,9 +6764,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6565,9 +6812,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6612,9 +6863,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6804,9 +7059,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6851,9 +7110,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6904,9 +7167,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -6954,9 +7221,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7001,9 +7272,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7292,9 +7567,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7396,9 +7675,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7442,9 +7725,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7486,9 +7773,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7531,9 +7822,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7576,9 +7871,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7626,9 +7925,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7840,23 +8143,26 @@
  },
  "10.1016/j.scowo.2026.100336": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "With the increasing need to decarbonize maritime transport, green ammonia (NH₃), produced from renewable energy sources, has emerged as a promising alternative marine fuel. In this study, the environmental performance of green ammonia production is evaluated for its application in fueling two container ships operating within Portuguese territory. The system is designed for a production capacity of 15,000 metric tons of ammonia per year, supported by a 10 MW synthesis plant and a 20 MW electrolysis unit to supply the required green hydrogen. The proposed system is compared with conventional ammonia production pathways, including grey ammonia produced via steam methane reforming (SMR), as well as grid-based ammonia scenarios reflecting the Portuguese electricity mix for 2025, 2030, and 2050. Results indicate that green ammonia production leads to emissions of 0.61 kg CO₂-eq per kg NH₃, achieving a 72% reduction compared to grey ammonia. Although ammonia production pathways exhibit higher upstream emissions than heavy fuel oil (HFO) production, the combustion phase of ammonia enables a reduction of up to 98% in emissions relative to HFO. When considering both production and utilization stages, ammonia-based pathways, particularly those relying on renewable electricity, result in lower overall emissions than HFO. Furthermore, the increasing share of renewable energy in future electricity mixes significantly enhances the environmental performance of ammonia production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Mariana Franco",
    "Wagd Ajeeb",
    "Eliane Cassoma",
    "Rui Costa Neto"
   ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10",
@@ -7879,6 +8185,7 @@
   "why": [
    "Ammonia Production"
   ],
+  "zh_brief": "研究对象为绿色氨（NH3）生产的环境性能，用于为两艘集装箱船提供燃料。系统设计年产能 15,000 吨氨，由 10 MW 合成工厂和 20 MW 电解装置支持。与蒸汽甲烷重整（SMR）生产的传统氨和基于 2025、2030、2050 年葡萄牙电力结构的电网氨生产方案相比，绿色氨生产每 kg NH3 排放 0.61 kg CO2-eq，比传统氨减少 72%。尽管氨生产途径的上游排放高于重燃料油（HFO）生产，但氨燃烧可减少高达 98% 的 HFO 排放。综合考虑生产和利用阶段，基于可再生能源的氨生产途径比 HFO 排放更低。未来电力结构中可再生能源占比的增加显著提高了氨生产的环保性能。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "脱碳船舶运营的绿色氨生产性能评估"
@@ -7887,9 +8194,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -7980,9 +8291,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8025,9 +8340,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8071,9 +8390,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8119,9 +8442,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8164,9 +8491,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8207,9 +8538,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8294,9 +8629,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -8393,9 +8732,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -9997,9 +10340,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -10530,9 +10877,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -12428,9 +12779,13 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
@@ -12469,15 +12824,18 @@
  },
  "10.33545/2618060x.2026.v9.i10se.6898": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "One of the major causes of low nitrogen (N) use efficiency in rice is the application of fertilizer N in excess of crop requirement at times when it is not required by plant during late sown conditions. This experiment was conducted at ICAR-Indian Institute of Rice Research, Rajendranagar farm, Hyderabad during kharif 2021. The experiment was laid out in split plot design with three replications. Main plots with three short duration rice varieties DRR Dhan-44, MTU 1010, MTU 1156 and four nitrogen levels (sub plots) recommended dose of nitrogen (RDN) @ 120 kg N ha−1, silicon coated urea (SCU) @ 90 kg ha−1, Leaf Colour Chart (LCC) @ 105 kg N ha−1, Soil test crop response (STCR) @ 114.5 kg N ha−1 . Among the varieties, the highest nitrogen uptake at harvest and least gain or loss of nitrogen (-4.3) was recorded with MTU 1156 followed by DRR Dhan-44 and MTU 1010. Among nitrogen management practices, the highest nitrogen uptake and least gain or loss of nitrogen (-1.5) was recorded with LCC @ 105 kg N followed by STCR @ 114.5 kg N, RDN @ 120 kg N and lowest with silicon-coated urea @ 90 kg N.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "D Venkatesh",
    "G Rupa",
@@ -12487,7 +12845,7 @@
    "K Chandrasekhar"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-01",
@@ -12508,6 +12866,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "在ICAR-印度水稻研究所进行的田间试验中，比较了三种短生育期水稻品种（DRR Dhan-44、MTU 1010、MTU 1156）在晚播条件下的养分预算和氮管理。结果表明，MTU 1156在收获时氮素吸收量最高，氮素得失为-4.3；MTU 1010最低。在四种氮管理措施中，叶色卡（LCC）@105 kg N的氮素吸收量最高，得失为-1.5，硅包尿素（SCU）@90 kg N最低。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "晚播短生育期水稻品种的养分预算与氮管理"
@@ -12888,22 +13247,25 @@
  },
  "10.3724/j.issn.1674-4969.20250148": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "风电和光伏电力需及时消纳，而电解水制氢是其中一种便捷手段。然而，氢气体积能量密度较低，储存和运输成本较高。相比之下，氨具有较高的能量密度，易于液化，且不产生温室效应。从热力学角度看，氢转化为氨是一个放热过程，但现有热催化合成氨工艺的能耗远高于氢气本身所蕴含的能量。电化学氮还原合成氨（ENR）概念的提出，不仅是对百年来高能耗合成氨工业的重大挑战，也为可再生能源的高效利用开辟了新路径。ENR研究的两大核心方向包括：一是构建高效的氮活化催化体系，以提高氨的产率；二是有效抑制析氢副反应，以提升能量效率。目前，所有相关研究都围绕这两个关键问题展开。本文详细探讨了ENR催化剂的催化机理，并分类总结了水相ENR催化剂的研究进展。进而，介绍了非水相体系中锂介导的氮还原反应。",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Kangqi GAO",
    "Zihan GAO",
    "Xuefei WANG"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-01",
@@ -12926,28 +13288,32 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "本文探讨了电化学氮还原合成氨（ENR）的催化机理，并分类总结了水相催化剂的研究进展。指出风电和光伏电力消纳是电解水制氢的便捷手段，但氢气储存运输成本高。ENR研究核心在于构建高效氮活化催化体系以提高产率，以及抑制析氢副反应。文章还介绍了非水相体系中锂介导的氮还原反应。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "电化学合成绿色氨气的催化剂设计与反应工程进展"
  },
  "10.3850/esrel2026061419_esrel26-p26277-cd": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In the transition towards green energy, ammonia is regarded as a promising energy carrier within sectors such as maritime transport.However, the establishment of ammonia production plants can encounter resistance from local communities and other stakeholders.One key concern driving opposition is the potential risk of accidents, especially given ammonia's toxic and explosive properties.Resistance to ammonia production and use has received limited scholarly attention, and in-depth studies of specific cases have been called for.Answering to this call, this paper presents a case study of a proposed ammonia plant in Sauda, Norway.The planned ammonia production has faced significant objections from residents.Through a document analysis of consultative statements submitted during the municipal council's review of the project plan, we investigate how safety and security concerns were invoked as arguments against the proposed ammonia plant.In the analysis, all arguments used against the plant, including the frequency of their use, are mapped.These include safety and security arguments, health arguments, climate and environment arguments, arguments regarding effects on the local community, and dissatisfaction with or questions about the municipality's administrative procedure.The arguments are discussed in relation to previous studies on perceived costs, benefits, and risks.Then, the safety and security arguments are subject to a more thorough analysis.We find that residents' risk perceptions differ from the risk assessment conclusions in the ammonia project plan.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Slotsvik Tone Njølstad",
    "Stavland Brynhild",
    "Kjestveit Kari"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-26",
@@ -12970,6 +13336,7 @@
   "why": [
    "Ammonia Production"
   ],
+  "zh_brief": "在向绿色能源转型的背景下，研究分析了挪威 Sauda 地区拟建氨工厂面临的社区阻力。通过分析市政委员会审查期间提交的咨询文件，将反对意见分为安全与安全、健康、气候环境等类别，发现居民的风险感知与项目计划中的风险评估结论存在差异。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "抵抗氨生产工厂的安全与安保论据：来自挪威 Sauda 的案例研究"
@@ -13110,15 +13477,18 @@
  },
  "10.63823/20260306": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH3) is a key chemical feedstock, a carbon-free fuel, and a hydrogen carrier, yet its production still relies on the energy- and emission-intensive Haber-Bosch process. Electrocatalytic nitrate reduction (eNO3-RR) offers a sustainable alternative, converting NO3- and water to NH3 under ambient conditions, but it demands catalysts that combine high activity, selectivity, and stability. Two-dimensional transition-metal carbides, nitrides, and carbonitrides (MXenes) are promising candidates because of their high electrical conductivity, large surface area, and tunable surface chemistry, although their use in eNO3-RR remains underexplored. This review covers the mechanisms of nitrate-to-ammonia conversion and the synthesis of MXenes, then analyzes how noble-metal decoration, alloying, hybridization with metal compounds, and single-atom engineering shape catalytic performance. It also examines how machine-learning-assisted computational modeling can predict and optimize MXene-based catalysts. Finally, key challenges and future directions are outlined to guide the rational design of MXene electrocatalysts for green ammonia synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Seyed Majid Ghoreishian",
    "Masoomeh Ghasemi",
@@ -13127,7 +13497,7 @@
    "H. Bryan Riley"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-26",
@@ -13150,21 +13520,25 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "为替代高能耗的哈伯-博施工艺，综述了 MXene 电催化剂在电催化硝酸盐还原制氨中的应用。文章分析了硝酸盐到氨的转化机制及 MXene 合成，探讨了贵金属修饰、合金化、单原子工程等策略，并介绍了机器学习辅助计算建模在预测和优化催化剂中的作用。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "基于 MXene 的电催化剂通过硝酸盐还原合成氨的最新进展：从基础与开发到机器学习"
  },
  "10.63823/20260401": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
+   "OpenAlex",
    "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia plays an essential role in agriculture, chemical industry, and emerging energy systems, whereas the conventional Haber-Bosch process suffers from high energy consumption and large CO2 emissions. Meanwhile, nitrate pollution caused by excessive fertilizer use and industrial wastewater discharge poses serious threats to ecosystems and human health. Electrocatalytic nitrate reduction to ammonia (NO3RR) offers a promising strategy for simultaneously removing nitrate contaminants and producing value-added NH3 under ambient conditions. Recently, CuCo-based catalysts have attracted increasing attention due to their tunable electronic structures, abundant active sites, and pronounced bimetallic synergy. In this review, the fundamental reaction mechanisms of NO3RR are first introduced, followed by a systematic summary of recent advances in CuCo-based catalyst design, including heteroatom doping, heterostructure and interface engineering, MOF- and coordination-derived catalysts, atomically dispersed catalysts, in-situ reconstructed catalysts, and electrode architecture/mass-transfer engineering. Finally, the remaining challenges and future opportunities are discussed, aiming to provide guidance for the rational design of efficient, stable, and practical CuCo-based NO3RR electrocatalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Xin Wang",
    "Ling Zhang",
@@ -13176,7 +13550,7 @@
    "Haijun Zhang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-10-26",
@@ -13197,8 +13571,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate-to-ammonia"
+   "Haber-Bosch"
   ],
+  "zh_brief": "针对传统哈伯-博施工艺的高能耗和硝酸盐污染问题，综述了 CuCo 基电催化剂的设计进展。文章系统总结了杂原子掺杂、异质结构造、MOF 衍生催化剂、单原子催化剂等策略，旨在指导高效、稳定且实用的 CuCo 基硝酸盐还原制氨电催化剂的理性设计。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "铜基电催化剂上钴介导的串联催化用于硝酸盐到氨转化"

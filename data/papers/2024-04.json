@@ -1236,11 +1236,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1461,17 +1463,20 @@
  },
  "10.1016/j.cej.2024.150006": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The large-scale production of hydrogen and the direct sequestration of carbon, in solid form, from the decomposition of natural gas could constitute an attractive economic alternative for the production of hydrogen if deactivation by coke or sintering could be mitigated. Here, we report on the use of a 2D graphene-based catalyst with controlled macroscopic shape for the catalytic decomposition of methane (CMD) at medium temperature, ranged from 500 °C to 900 °C, under contactless inductive heating. The presence of a magnetic field seems to have a strong influence on the catalytic performance and allows the maintain of the catalyst stability. Characterizations of the spent catalyst showed that the carbon deposited under inductive heating is in the form of carbon filaments which grow away from the edges or defects of the graphene. This particular growth mode allows one to maintain the catalytic activity of such carbon-based catalyst over longer periods compared to those reported in the literature. These promising results could set a base ground for the develop an industrially and economically viable way to convert natural gas into turquoise hydrogen, using renewable energy and low-cost catalysts, with improved resistance to poisoning by impurities present in the processing charge. The carbon formed could also be effectively use in other downstream applications. The combination of carbon-based catalyst and contactless induction heating could also lead to combined catalytic processes for numerous challenging reactions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ahmed Essyed",
    "Xuan-Huynh Pham",
@@ -1485,9 +1490,9 @@
    "Michael Dumont",
    "Cuong Pham-Huu"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-04",
   "doi": "10.1016/j.cej.2024.150006",
@@ -1509,6 +1514,7 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "报道了一种具有可控宏观形状的 2D 石墨烯基催化剂，在 500–900 °C 范围内通过非接触感应加热进行甲烷分解。在磁场作用下，碳沉积以碳丝形式生长，避免了催化剂失活，实现了更长的催化活性维持时间。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "感应加热操作的石墨烯涂层宏观复合材料用于催化甲烷分解"
@@ -1550,11 +1556,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1607,11 +1615,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1874,17 +1884,20 @@
  },
  "10.1016/j.diamond.2024.111009": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In this paper we discuss the effect of hydrogen and methane content during low-pressure chemical vapor deposition (LPCVD) of graphene on inductively heated copper foils. By increasing the H2/CH4 ratio by a factor of 5 from 25 to 125, different graphene morphologies ranging from dendritic fractals to compact hexagonal islands are obtained. In addition, increasing the hydrogen concentration allows the nucleation rate to be slowed down by a factor of ~10 thereby high-quality regular hexagonal graphene single crystals of significant size of 0.1 mm are found. From these measurements, we estimate the activation energy for graphene nucleation in low-pressure CVD (2 eV) and propose a phenomenological law for graphene nucleation. As compared to conventional CVD methods, considerable advantages of inductive heating are outlined, and some fundamental aspects of this approach are discussed.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Elyes Dhaouadi",
    "Wafa Alimi",
@@ -1892,9 +1905,9 @@
    "Manef Abderrabba",
    "Samir Farhat"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-04",
   "doi": "10.1016/j.diamond.2024.111009",
@@ -1916,6 +1929,7 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "研究了氢气和甲烷含量对感应加热铜箔低压化学气相沉积制备石墨烯的影响。将 H2/CH4 比从 25 提高到 125，获得了从树枝状分形到致密六边形岛屿的不同形貌。提高氢浓度可降低成核速率约 10 倍，获得尺寸达 0.1 mm 的高质量六边形石墨烯单晶。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "电磁感应加热法制备石墨烯：畴尺寸和形貌控制"
@@ -2029,11 +2043,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2107,11 +2123,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2613,11 +2631,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2697,11 +2717,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2847,11 +2869,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3146,17 +3170,20 @@
  },
  "10.1021/acs.jpcc.4c01107": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The prevailing dissociative mechanism in the Haber–Bosch (H–B) process requires high temperatures to break the N≡N bond. How to dramatically promote the catalytic activity via mechanism innovation on earth-abundant catalysts is vital to achieving the ambient conditions of the H–B process. Herein, we theoretically identify an associative-distal mechanism within the large pore of a ferrierite catalyst anchored with dual Mo(II) active sites [L-2Mo (II) /FER], which is highly distinct from those previous mechanistic studies. With a much lower energy barrier for the N 2 hydrogenation to N 2 H (0.73 eV) than direct N≡N bond breaking (1.38 eV), this catalyst enables a dominant associative distance mechanism for efficient ammonia synthesis. Microkinetic modeling results show a much higher turnover frequency (TOF) on L-2Mo (II) /FER than the step sites of the Ru catalyst at temperatures of 373–673 K. This work illustrated the high feasibility and crucial role of the associative-distal mechanism in the H–B process within porous catalysts anchored with multiple active sites, showcasing a successful catalyst design with a tailored reaction mechanism.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Chunli Liu",
    "Yonghua Liu",
@@ -3164,8 +3191,8 @@
    "Tao Wang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-04-16",
   "doi": "10.1021/acs.jpcc.4c01107",
@@ -3185,34 +3212,38 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Haber-Bosch"
+   "ammonia synthesis"
   ],
+  "zh_brief": "理论研究发现，锚定在沸石上的双 Mo(II) 活性位点 [L-2Mo (II) /FER] 支持关联-远端机理，其 N2 氢化能垒（0.73 eV）远低于直接断键能垒（1.38 eV）。微动力学模型显示该催化剂在 373–673 K 温度下的周转频率显著高于 Ru 催化剂，展示了在多活性位点催化体系中设计定制反应机理的可行性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系",
   "zh_title": "Ferrierite 催化剂上 Haber–Bosch 过程的关联-远端机理"
  },
  "10.1021/acsaem.3c03109": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Hydrogen peroxide (H 2 O 2 ) electrosynthesis by an oxygen reduction reaction has been widely studied, but the inverse correlation between faradaic efficiency and industrial level current density is still difficult to solve. Here, we demonstrated the significant impact of generated OH – and Joule heating on the electrosynthesis efficiency of hydrogen peroxide (H 2 O 2 ). Concurrent OH – production with H 2 O 2 during oxygen reduction (O 2 + 2H 2 O + 2e – → H 2 O 2 + 2OH – ) created locally alkaline environments, resulting in H 2 O 2 self-decomposition at pH > 10, which was further facilitated by Joule heating in the interfacial regions of cathodes. Theoretical models were established to accurately simulate the trend of H 2 O 2 electrosynthesis under the action of byproducts. By suppressing the electrolysis byproducts, excellent H 2 O 2 yield of 170 mg h –1 cm –2 was obtained at 300 mA cm –2 with faradaic efficiency of 89.3%, even using commercial catalysts. This study contributes valuable insights into achieving a breakthrough in H 2 O 2 selectivity at the ampere-level current density.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Congcong Ni",
    "Zhiheng Fan",
    "Ning Deng",
    "Xin Huang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-04-09",
   "doi": "10.1021/acsaem.3c03109",
@@ -3234,6 +3265,7 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "研究指出 OH– 和焦耳加热导致局部碱性环境促进 H2O2 自分解，通过抑制电解副产物，在 300 mA cm–2 下获得 89.3% 法拉第效率和 170 mg h–1 cm–2 的 H2O2 产率，即使使用商业催化剂。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "其他催化反应",
   "zh_title": "抑制焦耳热以提高工业级电流密度下过氧化氢电合成效率"
@@ -3400,17 +3432,20 @@
  },
  "10.1021/acscatal.4c00830": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Transition metals play a crucial role as catalysts in artificial ammonia synthesis. Ruthenium (Ru) stands out as the most active metal, but its industrial application is constrained due to its natural scarcity and hydrogen poisoning at low temperatures. Cobalt (Co) has been extensively studied as a more cost-efficient and non-noble metal catalyst. However, the goal of a high-performance, air-durable Co catalyst has not been reached to date. The crucial obstacle in this study lies in the inherent weak Co–N interaction and the use of atmospherically sensitive support materials to activate Co. Here, SrCN 2 is demonstrated as a promising support material for Co ammonia synthesis catalysts. The optimized catalyst, Co(10 wt %)/SrCN 2 /Al 2 O 3, exhibits high activity (4.43 mmol g –1 h –1 at 300 °C and 0.90 MPa) with a low apparent activation energy (52.7 kJ mol –1; 300–380 °C; at 0.90 MPa). It has also been proven that SrCN 2 has good air durability due to its chemical inertness to ambient atmosphere. Under ammonia synthesis conditions, CN 2 2– vacancies are readily formed on the surface of SrCN 2, leaving electrons at the vacancy sites and thereby generating a low-work-function surface (WF = 2.0 eV). Such a surface enables effective electron donation to the loaded Co particles, enhancing N 2 activation and promoting ammonia synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yihao Jiang",
    "Masayoshi Miyazaki",
@@ -3421,8 +3456,8 @@
    "Masaaki Kitano"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-04-10",
   "doi": "10.1021/acscatal.4c00830",
@@ -3446,8 +3481,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "SrCN 2 被证明是 Co 氨合成催化剂的优良载体，优化后的 Co(10 wt %)/SrCN 2 /Al 2 O 3 在 300 °C 和 0.90 MPa 下活性达 4.43 mmol g –1 h –1，表观活化能为 52.7 kJ mol –1。得益于 CN 2 2– 缺陷产生的低功函数表面（WF = 2.0 eV），Co 颗粒获得有效电子供体，增强了 N2 活化。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "CN 2– Vacancies 增强 Air-Durable Alkaline Earth Metal Cyanamide-Supported Co 催化剂的氨合成"
  },
  "10.1021/acscatal.4c01203": {
@@ -3592,26 +3628,29 @@
  },
  "10.1021/acssuschemeng.4c01335": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrocatalytic conversion of nitrates to produce high-value-added NH 3 exhibited promise as a replacement for the Haber–Bosch process due to the involvement of an eight-electron and nine-proton transfer in the electrocatalytic nitrate reduction reaction (NO 3 RR), which exhibits low Faradaic efficiency and selectivity toward NH 3 . Herein, a cobalt molybdate catalyst was in situ grown on nickel foam with abundant oxygen vacancies and a rich unsaturated coordination Mo 4+ environment by a rapid Joule heating method. The synergistic optimization of these features modulated the overall catalyst electronic structure, achieving both high activity and high selectivity in NO 3 RR. Specifically, in an electrolyte of 0.1 M K 2 SO 4 and 1000 mg NO3 – /L, a Faradaic efficiency of 94.6% and a NH 3 yield rate of 1.32 mg h –1 cm –2 were achieved at −0.35 V vs RHE. Meanwhile, the selectivity of NH 3 reached 97% after the 12 h test. In six consecutive cycles and during a 12 h extended stability assessment, the CMO/NF-800 catalyst consistently exhibited exceptional chemical stability. DFT results demonstrated that nitrate adsorption and ammonia desorption were more readily achieved on the surface of the CMO/NF-800 and that there was a lower energy barrier that needed to be overcome for RDS. This work provided a reservable approach to the preparation of catalysts with abundant unsaturated coordination environments on the highly selective electroreduction of nitrate into ammonia.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yaru Wang",
    "Xiaoyue Chen",
    "Xiangchao Meng",
    "Zizhen Li"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-04-17",
   "doi": "10.1021/acssuschemeng.4c01335",
@@ -3632,9 +3671,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Nitrate Reduction",
+   "Haber-Bosch",
    "Joule Heat"
   ],
+  "zh_brief": "通过快速焦耳加热法在镍泡沫上原位生长具有丰富氧空位和不饱和 Mo4+ 环境的钼酸钴催化剂。在 0.1 M K2SO4 和 1000 mg NO3–/L 条件下，在 –0.35 V vs RHE 下达到 94.6% 法拉第效率和 1.32 mg h–1 cm–2 的 NH3 产率，12 h 测试后 NH3 选择性达 97%。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "焦耳热合成不饱和Mo 4+ 配位的钴钼酸盐用于增强电催化硝酸盐还原为氨"
@@ -4447,11 +4487,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

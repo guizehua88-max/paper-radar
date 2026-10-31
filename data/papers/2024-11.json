@@ -1357,14 +1357,16 @@
  },
  "10.1016/j.apcatb.2024.124218": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1631,14 +1633,16 @@
  },
  "10.1016/j.cclet.2024.109501": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1765,14 +1769,16 @@
  },
  "10.1016/j.cej.2024.155809": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1886,17 +1892,20 @@
  },
  "10.1016/j.cej.2024.157321": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) is a promising alternative to fossil fuels due to its ability to store and release hydrogen without carbon emissions, with high energy density. The traditional Haber-Bosch (H-B) process for ammonia synthesis is energy-intensive, requiring extreme pressure conditions (10–20 MPa). Chemical Looping-based Ammonia Synthesis (CLAS) offers a sustainable alternative, via a cyclic process where hydrogen gas reacts with a nitrogen containing solid (termed a ‘nitrogen carrier’) at near ambient pressure to form ammonia. The nitrogen carrier is regenerated in N 2 gas in a separate step. However, practical implementation of CLAS faces challenges, primarily in the development of effective nitrogen carriers. This review analyses nitrogen carrier materials for the CLAS process, focusing on material screening and fabrication techniques, as well as strategies to reduce energy consumption and increase ammonia production at reactor and system level. The latest advancements in transition metal nitrides and alkali/alkaline earth metal imides are highlighted, as well as external field-assisted technologies to apply the CLAS process at industrial scale.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hangzuo Guo",
    "Alexander R.P. Harrison",
@@ -1907,8 +1916,8 @@
    "Binjian Nie"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-11",
   "doi": "10.1016/j.cej.2024.157321",
@@ -1930,23 +1939,27 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "该综述分析了化学链氨合成（CLAS）中氮载体的材料筛选与制备技术，重点介绍了过渡金属氮化物和碱/碱土金属亚胺的最新进展，以及降低能耗和提升产率的策略，旨在推动该工艺的工业化应用。",
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨",
   "zh_title": "基于化学循环的低压氨合成"
  },
  "10.1016/j.cep.2024.110019": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This work investigates the electrophoretic deposition of a catalytic coating on so-called fluid guiding elements (FGE) with a ruthenium-based catalyst for use in ammonia synthesis reactors. FGE are additive manufactured metallic pipe inserts that have shown to enhance the heat transfer compared to empty pipes by dividing the fluid flow and alternately guiding the partial flows to the wall. Consequently, they could improve the performance of temperature sensitive structured catalytic systems. To be able to demonstrate the degree of process intensification, the required steps to enable the deposition of a reference catalyst for ammonia synthesis are developed. Further, the distribution of catalytically active compounds is characterized. The catalytic activity is assessed in a plug flow reactor under pressures up to 5 MPa and compared against a fixed bed from the same batch. The expected activity from the reference catalyst is calculated by a kinetic rate expression. The coating process does not affect catalytic activity, but a steady deactivation and high sensitivity to feed gas impurities are observed. Possible mechanisms for the deactivation are examined and discussed.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Linus Biffar",
    "Anh Thi Pham",
@@ -1954,8 +1967,8 @@
    "Peter Pfeifer"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-11",
   "doi": "10.1016/j.cep.2024.110019",
@@ -1977,8 +1990,9 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "该研究在流体导向元件上通过电泳沉积制备了RuCs/MgO催化剂涂层，在5 MPa下评估了其性能，发现涂层过程不影响活性，但催化剂对原料气杂质敏感且存在失活现象。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "电泳沉积 RuCs/MgO 催化剂在增材制造支撑结构上的氨合成性能"
  },
  "10.1016/j.checat.2024.101193": {
@@ -2186,14 +2200,16 @@
  },
  "10.1016/j.enchem.2024.100140": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2236,14 +2252,16 @@
  },
  "10.1016/j.erss.2024.103696": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2494,14 +2512,16 @@
  },
  "10.1016/j.jallcom.2024.175885": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2540,14 +2560,16 @@
  },
  "10.1016/j.jallcom.2024.176180": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2698,14 +2720,16 @@
  },
  "10.1016/j.jclepro.2024.144066": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2818,17 +2842,20 @@
  },
  "10.1016/j.jiec.2024.05.020": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "A novel catalytic reactor configuration based on the induction heating technique is proposed for the decomposition of CF4. To demonstrate the feasibility of this concept, a commercial catalyst and induction heating module are employed. The experimental results demonstrated that the reactor provides a fast response time (approximately 3 min) in the decomposition of CF4 (roughly 100 ppm), without the requirement for insulation or preheating. In addition, introduction of the induction heating technique was found to allow precise temperature control. Furthermore, empirical guidelines for optimizing the catalyst bed are established in terms of two design factors, namely the length/diameter ratio (≥ 1.48) of the catalyst bed, and 1/3 of the blending of an additional inductive heating medium in the catalyst bed. The fast response time exhibited by this system is expected to permit connection of the reactor with electric power generated by renewable energy.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hongjae Kang",
    "SungHo Lee",
@@ -2836,9 +2863,9 @@
    "Oi Lun Li",
    "Dae Hoon Lee"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-11",
   "doi": "10.1016/j.jiec.2024.05.020",
@@ -2860,8 +2887,9 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "该研究提出了一种基于感应加热技术的新型催化反应器配置用于CF4分解。实验结果表明该反应器在分解CF4（约100 ppm）时具有约3分钟的快速响应时间，无需绝缘或预热，并能实现精确温度控制。研究还建立了催化剂床长度/直径比（≥ 1.48）和感应加热介质混合比例（1/3）的优化设计经验准则。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "通用催化方法",
   "zh_title": "感应加热反应器用于快速催化 CF4 分解的开发"
  },
  "10.1016/j.mcat.2024.114477": {
@@ -2936,17 +2964,20 @@
  },
  "10.1016/j.mssp.2024.108733": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Zinc oxide inverse opal (IO) has excellent photocatalytic properties, while Al2O3 has high chemical stability and negligible photocatalytic activity. However, combining these materials creates a crystalline ZnO-amorphous Al2O3 composite IO photonic crystal material with improved photocatalytic performance. In this study, ZnO and ZnO-Al2O3 combined structures were grown on self-assembled polystyrene (PS) nanosphere templates. ZnO was grown by thermal atomic layer deposition (TALD) in the voids of the template, and the template was then removed by annealing to yield a self-standing ZnO IO nanostructure. An ultra-thin film (5 nm) of Al2O3 was coated on the top of ZnO IO by TALD or plasma-enhanced ALD (PEALD). SEM, Raman, and XRD results confirmed the microporous, well-ordered, and crystalline hexagonal wurtzite ZnO IO structure and the amorphous Al2O3 structure on top of it. The UV-Vis results revealed strong absorption edges in both the UV and Vis regions, including increased visible absorption due to the slow photon effect near the optical bandgap of the photonic crystals. The ZnO/Al2O3-TALD exhibited enhanced photocatalytic performance compared to its bare ZnO IO and PEALD Al2O3-coated ZnO IO composite counterparts. The band gap narrowing triggered by structural defects explains the interesting photocatalytic activity of amorphous Al2O3 grown by thermal ALD.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hamsasew Hankebo Lemago",
    "Nour Khauli",
@@ -2959,9 +2990,9 @@
    "Zoltán Erdélyi",
    "Imre Miklós Szilágyi"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-11",
   "doi": "10.1016/j.mssp.2024.108733",
@@ -2983,8 +3014,9 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "该研究利用自组装聚苯乙烯纳米球模板，通过热原子层沉积（TALD）在模板空隙中生长ZnO，经退火去除模板得到自支撑ZnO反蛋白石结构，并利用TALD或等离子体增强ALD在ZnO反蛋白石表面涂覆5 nm超薄非晶Al2O3层。ZnO/Al2O3-TALD表现出增强的光催化性能，其带隙收缩归因于结构缺陷。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "通用催化方法",
+  "zh_obj": "通用催化方法；涉及原子层沉积",
   "zh_title": "ZnO–Al2O3 逆光子晶体制备：原子层沉积非晶态-Al2O3 增强光催化"
  },
  "10.1016/j.nanoen.2024.110109": {
@@ -3021,14 +3053,16 @@
  },
  "10.1016/j.psep.2024.08.115": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3144,14 +3178,16 @@
  },
  "10.1016/j.seppur.2024.127748": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3329,14 +3365,16 @@
  },
  "10.1016/j.susc.2024.122572": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3680,17 +3718,20 @@
  },
  "10.1021/acsaenm.4c00591": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Rapid and cost-effective synthesis of electrocatalysts for oxygen evolution reaction (OER) poses a significant technical challenge for the commercialization of water electrolysis. We, herein, report a facile strategy that couples quick Joule heating with mechanical ball milling for synthesizing well-defined Ni100–xFex (0 ≤ x ≤ 100) alloy nanoparticles on carbon substrate toward high-efficiency OER and water splitting. This synthetic strategy involves first simply mixing the precursors and carbon substrate through ball milling and subsequent Joule heating on an electrical device for fast forming carbon-supported alloy nanoparticles with fine sizes and uniform distribution. In particular, the single-component Ni/C nanoparticles (i.e., x = 0) synthesized by this way include both fcc and hcp crystal phases, with the highest proportion of hcp phase at 370 °C, which endows the Ni/C nanoparticles with better OER activity than that of Ni/C samples synthesized at other temperatures. In addition, the Ni100–xFex/C nanoparticles at an appropriate Ni/Fe ratio of 72/28 (Ni72Fe28/C) exhibit the best OER electrocatalysis, with a low overpotential of only 276 mV at a current density of 10 mA cm–2, due to the optimal electronic interaction between Ni and Fe in the alloys. More importantly, under simulated industrial electrolysis conditions (30 wt % KOH at 60 °C), a two-electrode alkaline electrolyzer assembled with Ni72Fe28/C at the anode and commercial Pt/C at the cathode (Ni72Fe28/C||Pt/C) requires only 1.39 V to deliver the current density of 100 mA cm–2, along with an excellent 120-h durability at the same current density.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Li Zhang",
    "Mengyuan Ma",
@@ -3702,9 +3743,9 @@
    "Guozhu Chen",
    "Jun Yang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-11-21",
   "doi": "10.1021/acsaenm.4c00591",
@@ -3726,8 +3767,9 @@
   "why": [
    "Joule Heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控",
+  "zh_brief": "该研究提出了一种将快速焦耳加热与机械球磨相结合的简便策略，用于在碳基底上合成Ni100–xFex（0 ≤ x ≤ 100）合金纳米颗粒。在模拟工业电解条件（30 wt % KOH，60 °C）下，以Ni72Fe28/C为阳极组装的双电极碱性电解槽仅需1.39 V即可达到100 mA cm–2电流密度，并表现出120小时的优异耐久性。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "通用催化方法",
   "zh_title": "结合焦耳热与振动球磨合成碳载 Ni 100– x Fe x 纳米颗粒用于析氧和碱性水电解"
  },
  "10.1021/acsami.4c12535": {
@@ -7179,17 +7221,20 @@
  },
  "10.52202/077185-0095": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Green ammonia is a promising hydrogen carrier and an excellent candidate for the decarbonization of the transport sector. Despite the synthesis process (Haber Bosch, HB) being well known and widely applied in conventional natural gas-fed plants, much effort is required for the coupling with Variable Renewable Energy Sources (V-RES). V-RES intermittency does not meet the limited partial load transient capability of the conventional ammonia process unless large electricity and thermal storage are installed. For that, V-RES may be complemented with biomass-based processes, to have multiple sources of hydrogen supply for the constant-load HB synthesis. This study investigates a multi-RES system for green ammonia production, combining solar-powered high-temperature electrolysis and lignocellulosic oxy-steam gasification. The co-existence of the two processes for hydrogen production allows minimum variations of the HB load, backup hydrogen production, improved thermal integration and the reduction of VRES generator size. The proposed system is investigated with a thermochemical 0D modelling approach, and the discussion of simulation results is based on the 3E (energy-economic-environment) indicators set. The Specific Energy consumption falls in the range of 8.76-10.65 MWh/tonNH3, the Levelized cost of Ammonia is approximately 970-1230 €/tonNH3 based on current costs of technology and raw feeding materials, and the CO2 reduction ranges from -65% to 100% (totally green ammonia) while the raw water withdrawal index is on average 3.27 tonH2O/tonNH3.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Arianna Baldinelli",
    "Tobia Favilli",
@@ -7198,8 +7243,8 @@
    "Umberto Desideri"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-11-18",
   "doi": "10.52202/077185-0095",
@@ -7221,8 +7266,9 @@
   "why": [
    "AMMONIA SYNTHESIS"
   ],
+  "zh_brief": "该研究提出了一种结合太阳能高温电解和木质纤维素气化的多可再生能源系统，通过热化学0D建模分析，得出氨比能耗为8.76-10.65 MWh/tonNH3，平准化成本约970-1230 €/tonNH3，CO2减排范围从-65%到100%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "多能系统中的绿色氨合成"
  },
  "10.52202/077185-0134": {

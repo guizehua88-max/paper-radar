@@ -1202,16 +1202,18 @@
  },
  "10.1007/s40843-024-3161-x": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1285,14 +1287,16 @@
  },
  "10.1016/j.apcatb.2024.124195": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1339,14 +1343,16 @@
  },
  "10.1016/j.apsusc.2024.160481": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1422,14 +1428,16 @@
  },
  "10.1016/j.carbon.2024.119542": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1555,14 +1563,16 @@
  },
  "10.1016/j.cej.2024.154733": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1821,25 +1831,28 @@
  },
  "10.1016/j.cep.2024.109962": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia is crucial as it serves as a key nitrogen source in fertilizer production to enhance crop growth and as an emerging energy carrier due to its high hydrogen content and ease of liquefaction. Despite various technological changes proposed and implemented since its inception, the Haber-Bosch process remains the predominant method for ammonia production. We first give a bird's eye view of current ammonia synthesis technologies available based on the latest trends, to justify why we think the conventional Haber-Bosch process is still a relevant technology worth investigation for further improvement. We review the engineering design modifications within the ammonia synthesis loop, examining improvements in the efficiency of ammonia synthesis. This review gives an overview of recent research and advancements focused on process intensification within the loop and its individual key components, i.e., the reactor and the catalyst, separation, and purge gas recovery technologies. It highlights significant progress and explores potential future directions in these areas.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Navid Erfani",
    "Luqmanulhakim Baharudin",
    "Matthew Watson"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10",
   "doi": "10.1016/j.cep.2024.109962",
@@ -1861,6 +1874,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "综述了哈伯-博施工艺的工程设计改进，重点分析了反应器、催化剂、分离及尾气回收技术的强化进展，指出该工艺仍是值得进一步改进的重要技术。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "哈伯-博施氨合成工艺的最新进展与强化"
@@ -2039,14 +2053,16 @@
  },
  "10.1016/j.energy.2024.132554": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2085,14 +2101,16 @@
  },
  "10.1016/j.focat.2024.10.001": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2202,17 +2220,20 @@
  },
  "10.1016/j.ijhydene.2024.08.408": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In this work, ruthenium-based catalysts were synthesized via polyol reduction method with different metal oxides as support and caesium as promoter. The samples were characterized through XRD , ICP-OES, nitrogen physisorption and XPS . Then, the catalysts were tested for ammonia synthesis in the range of temperatures 548–673 K and pressures 1–5 MPa. The synthesized catalysts allowed an ammonia production rate approximately four times higher compared with the performances of similar catalytic formulations in literature (tested at same conditions). The best performance were achieved with the Cs–Ru/CeO 2 (1% wt Cs, 5% wt Ru), reaching an ammonia production of nearly 73 mmol h −1 ∙g cat −1 at 673 K and 5 MPa. As showed by the XPS analysis, the increased Ce 3+ /Ce 4+ ratio led to an enhancement of oxygen vacancies , which favoured the dissociative adsorption of nitrogen, that is the limiting step in the ammonia synthesis reaction . Such high catalytic activity can be ascribed to the beneficial effect of the polyol reduction method for the maximization of the exposure of active sites.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Gaetano Anello",
    "Giulia De Luna",
@@ -2222,8 +2243,8 @@
    "Fausto Gallucci"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10",
   "doi": "10.1016/j.ijhydene.2024.08.408",
@@ -2245,6 +2266,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用不同金属氧化物为载体、铯为助剂，通过多元醇还原法合成钌基催化剂，在673 K和5 MPa下，Cs–Ru/CeO2催化剂的氨生成速率达到约73 mmol h−1∙g cat−1。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "通过多元醇还原法开发用于氨合成的钌基催化剂"
@@ -2451,14 +2473,16 @@
  },
  "10.1016/j.jece.2024.113844": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2575,14 +2599,16 @@
  },
  "10.1016/j.matlet.2024.137172": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2664,14 +2690,16 @@
  },
  "10.1016/j.pnsc.2024.08.005": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2718,14 +2746,16 @@
  },
  "10.1016/j.ssi.2024.116622": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2867,17 +2897,20 @@
  },
  "10.1016/j.tsf.2024.140552": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "• PMMA microcapsules coated with TiO 2 and ZnO films have photocatalytic properties. • ZnO-coated microcapsules are more efficient in photocatalysis. • Minimum physical-chemical damage to microcapsules upon atomic layer deposition. Poly (methyl methacrylate) (PMMA) is a common everyday polymer material that can be used as a substrate to improve the performance of functional coatings. In this work, PMMA microcapsules (PMMA-MCs) are coated with photocatalytic metal-oxide thin films. A low temperature (100 °C) atomic layer deposition of ZnO and TiO 2 on PMMA-MCs is described to form a three-dimensional structured composite. Scanning electron microscopy observations confirms that the ZnO and TiO 2 thin films are conformal to the spherical surface of the PMMA-MCs substrates, creating a greater photocatalytic active surface area. The photocatalytic activity of the prepared ZnO- and TiO 2 -PMMA-MCs composites towards the mineralization of methylene blue (MB), a model pollutant, are investigated. Under UV–VIS irradiation, the ZnO-PMMA-MCs are more efficient towards MB dye degradation. Therefore, the proposed preparation approach for core-shell structured composites is considered as a valid alternative to the conventional routes for the development of efficient supported photocatalysts in heat sensitive materials for water purification application.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Marta A. Forte",
    "Ricardo M. Silva",
@@ -2885,9 +2918,9 @@
    "Rui F. e Silva",
    "Carlos J. Tavares"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10",
   "doi": "10.1016/j.tsf.2024.140552",
@@ -2909,8 +2942,9 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "在100 °C低温下对PMMA微胶囊进行原子层沉积ZnO和TiO2薄膜，形成三维结构复合材料。ZnO-PMMA-MCs在紫外-可见光下对亚甲基蓝矿化表现出更高的光催化效率，且对微胶囊物理化学损伤最小。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_obj": "其他催化反应；涉及原子层沉积",
   "zh_title": "原子层沉积包覆 ZnO 和 TiO2 的聚甲基丙烯酸甲酯微胶囊的光催化活性用于水净化"
  },
  "10.1016/s1872-2067(24)60114-2": {
@@ -2950,17 +2984,20 @@
  },
  "10.1021/accountsmr.4c00103": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Conspectus Ammonia (NH 3 ) is widely used for human life and considered a green energy carrier without CO 2 emissions; thus, green and sustainable NH 3 synthesis is of great importance. The traditional Haber-Bosch process requires harsh conditions with serious environmental implications. Therefore, numerous research is focused on the efficient synthesis of NH 3 from abundant N 2 /air and water under ambient conditions, utilizing renewable energy sources. Despite the fact that the electrocatalytic N 2 reduction reaction (eNRR) is an ideal method for NH 3 synthesis, the NH 3 yield and Faradaic efficiency (FE) are severally hampered by the inertness of N 2, impeding its industrial application. Various strategies have been proposed to synthesize highly efficient heterogeneous catalysts for N 2 adsorption and dissociation to improve NH 3 yield and FE. Besides, benefiting from the nonthermal plasma N 2 oxidation reaction (pNOR) and electrocatalytic nitrate/nitrite reduction reaction (eNO x RR), the two-step approach overcomes the limitations of eNRR, attracting significant interest. This strategy facilitates N 2 splitting, which is a crucial step in the synthesis of NH 3 . Additionally, eNO x RR involves complex intermediates, making it essential to investigate catalysts with high selectivity of NH 3 . Overall, through the optimization of catalysts and reaction systems, NH 3 can be synthesized with high efficiency. The two-step strategy is the most realistic process for mass NH 3 production, but several challenges still need to be addressed, including improving the overall energy efficiency and scaling up the technology for industrial applications. In this Account, we present an overview of our recent efforts in the construction of the reaction system and regulation of catalyst active sites for sustainable and efficient NH 3 synthesis. First, we introduce the design principles of the catalysts, which should possess abundant stable active sites and moderate adsorption strength. Subsequently, a range of strategies is proposed to enhance the NH 3 synthesis performance of Au, Bi, Co, Cu, and other catalysts, including coordination tuning, defect construction, elemental regulation, and structural design for direct eNRR and the two-step method of pNOR-eNO x RR at ambient conditions. Additionally, we explore the NH 3 synthesis process at a large scale by scaling up the electrode and reactor. Furthermore, the separation and collection routes of NH 3 from electrolytes are also investigated to meet the requirements of various applications. Finally, a brief outlook is provided to discuss the catalyst optimization method, remaining challenges, and future perspectives of expanding production. This Account will offer valuable insight into the in-depth study of catalytic electrode preparation and system optimization, widening the way for efficient and sustainable NH 3 synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Zhe Meng",
    "Miao-Miao Shi",
@@ -2976,9 +3013,9 @@
   "id": "10.1021/accountsmr.4c00103",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Accounts of Materials Research",
-  "tier": "direct",
+  "tier": "background",
   "title": "Construction of Reaction System and Regulation of Catalyst Active Sites for Sustainable Ammonia Production",
   "top": false,
   "topics": [
@@ -2988,10 +3025,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "Haber-Bosch"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "等离子体制氨；涉及Fe/铁体系",
   "zh_title": "反应系统构建与催化剂活性位点调控以实现可持续氨生产"
  },
  "10.1021/acs.iecr.4c02410": {
@@ -3064,17 +3101,20 @@
  },
  "10.1021/acs.jpcc.4c04018": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide In catalyst design, it is important to use multielement alloys to search for highly reactive atomic compositions and configurations. We developed a rapid calculation method for finding highly reactive surfaces by generating candidates of atomic configurations with high activity using a generative adversarial network (GAN). The evaluation of the reaction energy and turnover frequency (TOF) for each catalyst candidate is necessary; however, this is computationally costly with conventional methods such as density functional theory (DFT). Here, this was accelerated by the universal neural network potential (UNNP). By iterating the generation and evaluation processes, we explored atomic configurations that improve the reactivity for the ammonia synthesis of an alloy catalyst comprising Pd, Rh, and Ru. The microkinetic analysis, considering the six elementary reactions in the NH 3 synthesis, was performed on more than 600 catalyst candidates. The generated ternary alloy surface structures exhibited higher TOFs than their binary and monometallic counterparts. The highly reactive configurations exhibited stronger N adsorption on the Ru–Ru bridge site on the step of the surface surrounded by Pd atoms. This method can be employed for an efficient computational catalyst screening, with detailed atomistic structure of catalysts and thermodynamics or kinetics properties.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Kaoru Hisama",
    "Atsushi Ishikawa",
@@ -3082,8 +3122,8 @@
    "Michihisa Koyama"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-25",
   "doi": "10.1021/acs.jpcc.4c04018",
@@ -3105,8 +3145,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用生成对抗网络生成候选原子构型，结合通用神经网络势能和微动力学分析，筛选出Pd-Rh-Ru三元合金表面结构，其氨合成转换频率显著高于二元和单金属催化剂。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "利用机器学习势函数和生成式人工智能筛选氨合成多元素合金催化剂"
  },
  "10.1021/acs.jpclett.4c02196": {
@@ -3254,17 +3295,20 @@
  },
  "10.1021/acsanm.4c03416": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Single-atom catalysts have the advantage of high chemical efficiency, which requires atomic-scale control during catalyst formation. In order to address this challenge, this work explores the synthesis of single-atom platinum (SA-Pt) catalysts using atomic-layer deposition (ALD) on vertical graphene (VG), in which a large number of graphene edges serve as energetically favorable nucleation sites for SA-Pt, as predicted by density functional theory calculations. Interestingly, SA-Pt has been achieved on VGs at low ALD cycle numbers of up to 60. With a further increase in the number of ALD cycles, an increasing number of Pt clusters with diameters 2 nm become dominant (nano-Pt @VG). This is in contrast to the observation of predominantly nano-Pt on other carbon nanostructures, such as carbon nanotubes and monolayer graphene, under the same ALD growth conditions, indicating that the edge states on VG indeed play a critical role in facilitating the formation of SA-Pt. Profound differences are revealed in a comparative study on H 2 sensing. SA-Pt exhibits both a higher sensitivity and faster response than its nano-Pt counterpart by more than an order of magnitude, illustrating the high catalytic efficiency of SA-Pt and its potential for gas sensing and a variety of other catalytic applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Bo Liu",
    "Zhaojun Han",
@@ -3275,9 +3319,9 @@
    "Mohammed Alamri",
    "Judy Z. Wu"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-01",
   "doi": "10.1021/acsanm.4c03416",
@@ -3299,6 +3343,7 @@
   "why": [
    "Atomic-Layer Deposit"
   ],
+  "zh_brief": "利用原子层沉积在垂直石墨烯上合成单原子铂催化剂，密度泛函理论计算表明石墨烯边缘是成核位点。SA-Pt在低ALD循环数下实现，且在氢气传感中表现出比纳米Pt高一个数量级的灵敏度和更快的响应速度。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
   "zh_title": "垂直石墨烯上单原子 Pt 催化剂的原子层沉积用于 H2 传感"
@@ -3509,26 +3554,29 @@
  },
  "10.1021/acssuschemeng.4c06031": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In fuel cells, carbon corrosion occurs due to electrochemical oxidation under driving conditions. The carbon used as a catalyst layer in polymer electrolyte membrane fuel cells (PEMFCs) negatively affects the durability of the membrane electrode assembly (MEA). Although various support materials have been investigated to prevent carbon corrosion, the problem remains unresolved. In this article, we present a strategy for preventing carbon corrosion by depositing a nanoscale TiO 2 film on a carbon support through cycle control using atomic layer deposition (ALD). In addition, ALD Pt/TiO 2 –C is manufactured by depositing Pt nanoparticles on a support using ALD based on the Pt nanoparticle size of commercial Pt/C. The fabricated catalyst layer was characterized using transmission electron microscopy, scanning electron microscopy, and energy dispersive spectrometry. The ALD Pt/TiO 2 –C material was found to have excellent uniformity, density, and dispersibility owing to functional groups, such as the OH – of TiO 2, and exhibits excellent resistance to carbon corrosion when accelerated degradation tests are performed according to the catalyst support durability protocol of the U.S. Department of Energy. By fabricating a catalyst layer through the atomic-scale control of metal catalysts and metal oxides, we have advanced toward the ultimate goal of a durable catalyst layer for the future commercialization of PEMFCs.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jung Woo Shim",
    "Junmo Koo",
    "Sung Jong Yoo",
    "Joon Hyung Shim"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-08",
   "doi": "10.1021/acssuschemeng.4c06031",
@@ -3550,23 +3598,27 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用原子层沉积在碳载体上沉积纳米级TiO2薄膜以防止碳腐蚀，并制备了ALD Pt/TiO2-C催化剂层。该材料表现出优异的均匀性、密度和分散性，在加速老化测试中显示出优异的抗碳腐蚀能力。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_obj": "其他催化反应；涉及碳材料、原子层沉积",
   "zh_title": "基于一锅法顺序原子层沉积二氧化钛和铂的稳定性聚合物电解质膜燃料电池"
  },
  "10.1021/acssuschemeng.4c06241": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ordered intermetallic nanocrystals display great potential for fuel cells due to their distinctive electronic and structural properties. However, the traditional synthesis usually involves long-time annealing at high temperature or surfactant/reductant with antiaggregation property, leading to decreased electrocatalytic performance. Herein, an ultrafast and surfactant-free synthesis of ordered sub–5-nm Pt 3 Fe nanocrystal-based electrocatalysts was reported (O–Pt 3 Fe/rGO). Through Joule heating, Pt 3 Fe nanocrystals were formed in situ on reduced graphene oxide within dozens of seconds. The modulation of the ordered or disordered structure of the Pt 3 Fe alloys could also be achieved by the simple adjustment of experimental parameters. O–Pt 3 Fe/rGO with a unique structure shows a superior mass activity of 5.66 A mg –1 toward ethanol oxidation reactions (EOR), which is 7.1 and 2.5 times higher than the values of the benchmark Pt/C and the counterpart catalysts containing disordered Pt 3 Fe nanoalloys (D-Pt 3 Fe/rGO). O–Pt 3 Fe/rGO also demonstrates superb long-term stability, retaining ∼80.7% of its original mass activity after electrochemical aging. Density functional theory (DFT) calculations reveal that the catalysts with ordered Pt 3 Fe show downshifted d-band center, weakened CO adsorption, enhanced OH adsorption, and improved C–C cleavage capability compared with the one with disordered Pt 3 Fe. This study provides a new perspective for the efficient synthesis of highly ordered intermetallic compound catalysts for energy conversion.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Mingxing Nie",
    "Zijian Wang",
@@ -3574,9 +3626,9 @@
    "Wei Gan",
    "Qunhui Yuan"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-25",
   "doi": "10.1021/acssuschemeng.4c06241",
@@ -3598,8 +3650,9 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "该研究报道了一种超快且无表面活性剂的有序亚5 nm Pt3Fe纳米晶体基催化剂（O–Pt3Fe/rGO）的合成方法，通过焦耳加热在数十秒内在还原氧化石墨烯上原位形成Pt3Fe纳米晶体。O–Pt3Fe/rGO对乙醇氧化反应（EOR）表现出5.66 A mg–1的质量活性，是基准Pt/C和对应无序Pt3Fe纳米合金催化剂的2.5至7.1倍，且电化学老化后保留约80.7%的原始质量活性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应；涉及Fe/铁体系",
+  "zh_obj": "其他催化反应；涉及Fe/铁体系、碳材料",
   "zh_title": "超快焦耳热形成的超细 Pt3Fe 金属间化合物电催化剂用于乙醇氧化"
  },
  "10.1021/jacs.4c10851": {
@@ -3797,14 +3850,16 @@
  },
  "10.1038/s41929-024-01236-y": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4574,14 +4629,16 @@
  },
  "10.2139/ssrn.4991238": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5156,25 +5213,28 @@
  },
  "10.46855/energy-proceedings-11470": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This study investigates a novel net-zero polygeneration system for the production of power, hydrogen, and ammonia.The integration of oxycombustion, an alkaline electrolyzer, and ammonia synthesis via the Haber-Bosch process significantly enhances the efficiency of individual components and the overall system showcasing its potential for developing more sustainable and efficient energy solutions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Javad Jeddizahed",
    "Thomas Hughes",
    "Paul Webley"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-31",
   "doi": "10.46855/energy-proceedings-11470",
@@ -5194,10 +5254,11 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "ammonia synthesis"
   ],
+  "zh_brief": "该研究调查了一种集成了富氧燃烧、碱性电解槽和哈伯-博施法氨合成的零净多联产系统，旨在提升组件及整体系统的效率，展示其在开发更可持续能源解决方案方面的潜力。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "用于发电、制氢和制氨的零净多联产系统研究"
  }
 }
