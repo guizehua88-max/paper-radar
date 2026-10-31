@@ -1149,11 +1149,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1198,11 +1200,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1320,11 +1324,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1367,11 +1373,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1417,11 +1425,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1657,17 +1667,20 @@
  },
  "10.1016/j.chphma.2025.01.001": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrocatalytic reduction of nitrates plays a crucial role in ammonia (NH 3 ) production. In this study, a novel cuprous oxide/graphdiyne (Cu 2 O/GDY) electrocatalyst was synthesized by growing Cu 2 O/GDY on a Cu substrate with a porous architecture capable of increasing the number of active sites and enhancing mass transfer ability. The sp-C–Cu bonds between Cu 2 O and GDY facilitate rapid charge transfer and promote direct electron transport from active sites to reaction intermediates. Consequently, the electrocatalyst exhibits high NH 3 production performance with a yield rate (Y NH 3 ) of 652.82 µmol h − 1 cm − 2 and Faradaic efficiency of 82.98% at −1.8 V (vs. SCE) under ambient conditions in an aqueous solution. This work introduces a novel and efficient approach for the in situ fabrication of self-supported heterostructures, thereby enabling high-performance ammonia production under ambient conditions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jiayu Yan",
    "Fanle Bu",
@@ -1686,9 +1699,9 @@
   "id": "10.1016/j.chphma.2025.01.001",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "ChemPhysMater",
-  "tier": "direct",
+  "tier": "background",
   "title": "Self-supported cuprous oxide/graphdiyne nanosheets array for efficient ammonia synthesis",
   "top": false,
   "topics": [
@@ -1700,8 +1713,8 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
   "zh_title": "自支撑氧化亚铜/石墨二炔纳米片阵列用于高效氨合成"
  },
  "10.1016/j.coco.2025.102326": {
@@ -1850,25 +1863,28 @@
  },
  "10.1016/j.ijhydene.2025.02.335": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Integrating the Haber–Bosch (HB) process with high-temperature water electrolysis for hydrogen production, such as using solid oxide electrolysis cells (SOEC), offers a promising opportunity to utilize the heat generated during ammonia synthesis for steam generation to partially cover the steam demand of the SOEC. While heat integration studies are typically conducted for full load conditions, this study explores the synergies between a thermoneutral, low-pressure SOEC system and a large-scale HB process across a load range from 10.7 % to 100 % by considering individual part-load strategies. At full load, optimal heat integration increases the efficiency of the SOEC system from 79.5 % to 93.0 % (LHV, DC). This results in an overall energy consumption of 26.4 GJ t NH 3 − 1 and a Power-to-Ammonia efficiency of 70.9 % (LHV, DC). During part-load operation, the specific energy consumption increases hyperbolically due to heat losses from the SOEC and kickback capacity control of the centrifugal make-up compressors in the HB process. Down to a part load of 32.4 %, the extra waste heat generated by the compressors replaces the electrical heating and hereby the total electricity consumption only increases moderately. At lower loads, however, the adopted part-load strategies lead to an increasingly steep rise in specific energy consumption. At the minimum load of 10.7 %, the specific energy consumption is 46 % higher than at full load. • Simulation of an SOEC-coupled Haber–Bosch process including part-load strategies. • Stepwise energy integration optimization is evaluated along a load trajectory. • Optimal heat integration results in 26.4 GJ t NH 3 − 1 energy consumption at full load. • Make-up compressor waste heat can moderate efficiency decrease in medium load range. • Haber–Bosch compressors and SOEC heat loss severely reduce efficiency at low loads.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Matthias Schiedeck",
    "Rafael Nogueira Nakashima",
    "Henrik Lund Frandsen"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04",
   "doi": "10.1016/j.ijhydene.2025.02.335",
@@ -1888,8 +1904,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Haber-Bosch"
+   "ammonia synthesis"
   ],
+  "zh_brief": "研究热中性低压SOEC系统与大规模HB过程在10.7%至100%负荷范围内的协同效应。全负荷下最优热集成使SOEC系统效率从79.5%提升至93.0%，总能耗26.4 GJ t NH3-1，电-氨效率70.9%。部分负荷下，压缩机废热可缓解中低负荷效率下降，最低负荷时能耗比全负荷高46%。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "SOEC耦合哈伯-博施工艺的热集成与部分负荷性能"
@@ -1935,11 +1952,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2244,11 +2263,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2361,11 +2382,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2410,11 +2433,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2632,11 +2657,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2682,11 +2709,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2727,17 +2756,20 @@
  },
  "10.1016/j.surfin.2025.106181": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "• An original strategy for the synthesis of Pd-based composite membranes was applied using Atomic Layer Deposition (ALD). • The membrane supports were pre-coated with amorphous alumina by ALD before the deposition of Pd. • The highest selectivity to H 2 was obtained at temperatures around 286°C. • The membranes exhibit high stability during temperature cycling and good regenerability after CO exposure. As global energy demand continues to rise, hydrogen purification plays a pivotal role in advancing the “hydrogen economy”, ensuring the required purity levels for its direct use or storage. This work presents the synthesis and functional characterization of palladium-based hydrogen-selective composite membranes applicable for gas separation below 300°C. These membranes were prepared via Atomic Layer Deposition (ALD) of palladium (Pd) onto asymmetric ceramic tubular supports, using palladium hexafluoroacetylacetonate Pd(hfac) 2 and formalin at 220°C. Prior to Pd deposition, the γ-Al₂O₃ top-layer of the support was modified with an ultra-thin (∼1 nm) amorphous alumina layer also deposited by ALD. This strategy enhances the number of nucleation sites for Pd, resulting in the formation of thin, uniform and compact membranes. It also substantially reduces Pd precursor consumption compared to conventional methods. The gas separation factors at 286°C were 86 for H 2 /N 2 , 79 for H 2 /CH 4 and 67 for H 2 /CO 2 . Additionally, the composite membranes demonstrated resilience to repeated temperature cycling and were able to restore their performance after exposure to trace amounts of CO.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Lucie Badouric",
    "Martin Drobek",
@@ -2752,8 +2784,8 @@
    "Mikhael Bechelany"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04",
   "doi": "10.1016/j.surfin.2025.106181",
@@ -2775,6 +2807,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "• 应用了原子层沉积 (ALD) 的原始策略来合成 Pd 基复合膜。• 膜载体在沉积 Pd 之前通过 ALD 预涂覆非晶态氧化铝。• 在 286 °C 左右的温度下获得了最高的 H 2 选择性。• 膜在温度循环期间表现出高稳定性，在 CO 接触后具有良好的可再生性。随着全球能源需求的不断上升，氢纯化在推进“氢经济”中发挥着关键作用，确保其直接使用或储存所需的纯度水平。这项工作介绍了钯基氢选择性复合膜的合成和功能表征，适用于低于 300 °C 的气体分离。这些膜通过原子层沉积 (ALD) 的钯 (Pd) 沉积到不对称陶瓷管状载体上制备而成，使用 Pd(hfac) 2 和福尔马林在 220 °C 下。在 Pd 沉积之前，载体的 γ-Al₂O₃ 顶层被通过 ALD 沉积的 ∼1 nm 的非晶态氧化铝层修改。这种策略增加了 Pd 的成核位点数量，导致形成薄、均匀和致密的膜。它还与传统方法相比大大减",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "有效原子层沉积法制备钯涂层用于氢分离膜"
@@ -3163,17 +3196,20 @@
  },
  "10.1021/acs.iecr.4c04868": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The development of advanced catalysts is critical to realize efficient ammonia (NH 3 ) synthesis under mild conditions. However, the activation of an inert N≡N bond in N 2 molecules is the primary hindrance to NH 3 synthesis, and hydrogen poisoning is another major and a serious problem, especially in Ru-based catalysts. Here, we develop an H-ZSM-5-supported Ru-based catalyst (Ce–Ru/HZ) via decorating with a CeO 2 promoter to realize efficient NH 3 synthesis. Our study shows that the Ce species can serve as an electron donor to enrich the electron density of Ru sites, thus accelerating N 2 activation for NH 3 synthesis. Meanwhile, the interaction of Ru and Ce can alleviate the effect of hydrogen poisoning on Ru sites. Consequently, the 16 wt % Ce-promoted Ru/HZ catalyst displays a superior NH 3 synthesis rate and long-term stability of more than 550 h at 400 °C and 1 MPa.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Tianhua Zhang",
    "Kexin Yue",
@@ -3190,8 +3226,8 @@
    "Lilong Jiang"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04-23",
   "doi": "10.1021/acs.iecr.4c04868",
@@ -3215,6 +3251,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "开发HZSM-5负载的Ru基催化剂（Ce–Ru/HZ），通过CeO2助剂实现高效NH3合成。Ce物种作为电子给体富集Ru位点电子，加速N2活化；Ru与Ce的相互作用缓解氢中毒。16 wt % Ce助剂化的Ru/HZ催化剂在400 °C和1 MPa下表现出优越的NH3合成速率和超过550 h的长期稳定性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "添加 Ce 促进剂的 Ru 基催化剂增强氨合成性能"
@@ -3708,17 +3745,20 @@
  },
  "10.1021/acsanm.5c00750": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Flexible electric-heating materials (EHMs) with mechanical toughness and stability are in high demand in areas of portable heating elements; however, they are still hard to achieve. Here, strong and tough aramid nanofiber (ANF)/graphene composite membranes were fabricated with the help of interfacial lignin bonding through a noncovalent interaction-triggered “bridging” strategy. The as-prepared membranes (ANF-L x -G y ) exhibited a maximum mechanical strength of ∼122.5 MPa, a maximum toughness of ∼377.2 MJ/m 3, and also promising stabilities in commonly used solvents. Ascribing to the uniform distribution of graphene, the composite membranes presented enhanced conductivity (∼278 S/m) and demonstrated both high efficiency and stability for Joule heating performance (e.g., reaching ∼165 °C under an input voltage of 20 V within 5 s, eventually stabilizing at ∼200 °C, and remaining stable after 12 h of Joule heating). Besides the Joule heating application under low temperatures (e.g., joint worming below 100 °C), the stability of ANF-L x -G y also endowed them with favorable performances under high temperatures (e.g., deicing beyond 100 °C). Thus, this work paved a feasible way to develop ANF-based membranes that were strong and stable as flexible EHMs.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Zhihao Duan",
    "Hongzhen Cai",
@@ -3727,8 +3767,8 @@
    "Xiangsheng Han"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04-16",
   "doi": "10.1021/acsanm.5c00750",
@@ -3750,23 +3790,27 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "柔性电加热材料 (EHMs) 具有机械韧性和稳定性，在便携式加热元件等领域需求量高，但仍然难以实现。这里，在界面木质素结合的帮助下，通过非共价相互作用触发的“桥接”策略，制备了强韧的芳纶纳米纤维 (ANF)/石墨烯复合膜。所制备的膜 (ANF-L x -G y ) 表现出约 122.5 MPa 的最大机械强度，约 377.2 MJ/m 3 的最大韧性，并在常用溶剂中表现出良好的稳定性。归因于石墨烯的均匀分布，复合膜表现出增强的电导率 (∼278 S/m)，并展示了高效率和稳定性用于焦耳热性能 (例如，在 5 s 内达到 ∼165 °C，最终稳定在 ∼200 °C，并在 12 h 的焦耳热后保持稳定)。除了在低温下 (例如，低于 100 °C 的联合蠕变) 的焦耳热应用，ANF-L x -G y 的稳定性也赋予它们在高温下 (例如，超过 100 °C 的除冰) 的良好性能。因此，这项工作为开",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "木质素结合芳纶纳米纤维/石墨烯复合膜用于耐久且稳定的焦耳热"
  },
  "10.1021/acsanm.5c00794": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Palladium (Pd) metal is considered a promising alternative to platinum (Pt) due to its similar hydrogen adsorption Gibbs free energy (Δ G H ). Alloying is a viable strategy to mitigate the suboptimal hydrogen evolution reaction (HER) electrochemical performance associated with the excessively strong Pd–H bonding interaction. This study focuses on synthesizing PdRu x alloy nanoparticles on carbon cloth using a combination of atomic layer deposition (ALD) and annealing. By adjusting the number of Ru cycles from 100 to 500 on 200-cycle Pd on carbon cloth, a series of PdRu bimetallic nanoparticle samples were obtained by ALD. The subsequent annealing process was conducted at 600 °C in an argon atmosphere to facilitate the formation of PdRu x alloy phases. The density functional theory (DFT) calculation results indicate that some surface configurations of the alloyed PdRu x electrocatalysts are better than those of the single metal Ru or Pd, conducive to HER performance. Among them, the annealed 200-cycle Pd-400-cycle Ru alloy electrocatalyst exhibits the best electrocatalytic performance, with an overpotential of 35.6 mV at 10 mA cm –2 . Simultaneously, these PdRu x alloy nanoparticles show excellent long-term stability with a 40 h chronopotentiometry test at 10 mA cm –2 in acidic media. The enhanced catalytic performance is attributed to the nanoscale size effect of the PdRu x alloy nanoparticles and the optimized electronic interaction between alloy components. These synergistic effects lead to a significant reduction in hydrogen binding energy (HBE), thereby substantially improving the HER activity. This work provides enormous potential for the development of highly efficient alloy electrocatalysts by the ALD method.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yu Liu",
    "Tao-Qing Zi",
@@ -3778,8 +3822,8 @@
    "Ai-Dong Li"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04-18",
   "doi": "10.1021/acsanm.5c00794",
@@ -3801,8 +3845,9 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "钯 (Pd) 金属被认为是铂 (Pt) 的有前景的替代品，由于其类似的氢吸附吉布斯自由能 (Δ G H )。合金化是一种可行的策略，以减轻与过强的 Pd–H 键相互作用相关的析氢反应 (HER) 电化学性能亚优。本研究关注在碳布上合成 PdRu x 合金纳米颗粒，采用原子层沉积 (ALD) 和退火相结合的方法。通过调整 Ru 循环次数从 100 到 500 在 200 圈 Pd 的碳布上，通过 ALD 获得了一系列 PdRu 双金属纳米颗粒样品。随后的退火过程在 600 °C 的氩气气氛中进行，以促进 PdRu x 合金相的形成。密度泛函理论 (DFT) 计算结果表明，合金化的 PdRu x 电催化剂的一些表面构型优于单金属 Ru 或 Pd，有利于 HER 性能。其中，退火的 200 圈 Pd-400 圈 Ru 合金电催化剂表现出最佳的电催化性能，在 10 mA cm –2 时过电位为 3",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "析氢反应；涉及原子层沉积",
+  "zh_obj": "析氢反应；涉及Ru/钌体系、碳材料、原子层沉积",
   "zh_title": "原子层沉积PdRu x 合金纳米颗粒用于酸性介质中的析氢反应电催化"
  },
  "10.1021/acscatal.4c07167": {
@@ -3844,17 +3889,20 @@
  },
  "10.1021/acscatal.5c00333": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Direct hydrogenolysis of biomass-derived furfural to produce 1,5-pentanediol, an essential precursor for polyesters and polyurethanes, plays a significant role in biomass utilization. In this work, using the carbothermal shock strategy, 1.5PtCo1Ce1-CTS ternary metal oxides were successfully prepared, containing abundant oxygen vacancies (O v ) and Co 2+ species that are favorable for hydrogen transfer and ring-opening of furan, thereby enhancing catalytic activity and 1,5-pentanediol selectivity. Under an optimized condition (170 °C, 3 MPa of H 2, 4 h), the 1.5PtCo1Ce1-CTS catalyst achieved furfural conversion at 99.3% and 1,5-pentanediol selectivity at 59.2%. During recycling tests, the 1.5PtCo1Ce1-CTS catalyst exhibited high resistance to deactivation with a simple and rapid regeneration process. This work offers an alternative, versatile, and eco-friendly strategy for designing efficient heterogeneous catalysts for the hydrogenolysis of furfural into 1,5-pentanediol in the future.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yang Li",
    "Jian Zhang",
@@ -3868,8 +3916,8 @@
    "Feng-Shou Xiao"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04-25",
   "doi": "10.1021/acscatal.5c00333",
@@ -3891,6 +3939,7 @@
   "why": [
    "Carbothermal Shock"
   ],
+  "zh_brief": "生物质衍生的糠醛直接加氢制备 1,5-戊二醇，是生产聚酯和聚氨酯的重要前体，在生物质利用中具有重要意义。本研究采用碳热冲击策略，成功制备了 1.5PtCo1Ce1-CTS 三元金属氧化物，该催化剂含有丰富的氧空位 (O v ) 和 Co 2+ 物种，有利于氢转移和呋喃环的开裂，从而提高催化活性和 1,5-戊二醇选择性。在优化条件下 (170 °C, 3 MPa 的 H 2, 4 h)，1.5PtCo1Ce1-CTS 催化剂实现了 99.3% 的糠醛转化率和 59.2% 的 1,5-戊二醇选择性。在循环测试中，1.5PtCo1Ce1-CTS 催化剂表现出对失活的高抗性，并具有简单快速的再生过程。这项工作为设计高效的糠醛加氢制备 1,5-戊二醇的非均相催化剂提供了一种替代、多功能且环保的策略。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "PtCoCe三元氧化物催化剂的碳热冲击合成及其对糠醛选择性加氢制备1,5-戊二醇"
@@ -4008,17 +4057,20 @@
  },
  "10.1021/acssuschemeng.4c10366": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Tandem electrochemical nitrate reduction reaction (NO 3 RR) as a promising approach for environment-friendly ammonia (NH 3 ) synthesis is proposed due to the mismatched kinetic processes between NO 3 – ion adsorption and the subsequent hydrogenation of nitrogen-containing intermediates. In this contribution, the self-supported dual-interface Fe 2 O 3 /CoO@NC nanoarray catalysts are designed and synthesized as tandem electrocatalysts for NO 3 RR. Benefiting from the dual-interface synergistic effect, the multisite tandem CoO@NC interface with the pyridine N is conducive to the ″H 2 O molecule H–OH bond cleavage″ and further increases the hydrogenation reduction of nitrogen-containing intermediates. Furthermore, introduction of a Fe 2 O 3 /CoO heterogeneous interface promotes electron transfer from the Co to Fe sites, which thus enhances the ″NO 3 – adsorption/activation″ on the Co site. Moreover, Fe 2 O 3 can be used as the matrix to connect Ni foam (NF) with CoO@NC, thus improving electron utilization and conductivity. These advantages endow the Fe 2 O 3 /CoO@NC nanoarrays with an ultrahigh NH 3 yield rate of 166.13 mg h –1 cm –2, a superior Faradaic efficiency of 97.65%, an outstanding effective current density of 2095.30 mA cm –2, and an excellent operation durability during the 45th cyclic experiment (45 h). Notably, the NH 3 /H 2 O 2 direct ammonia fuel cell (DAFC) equipped with an Fe 2 O 3 /CoO@NC anode reaches a remarkable peak power density of 13.58 mW cm –2 at room temperature.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Dan Zhao",
    "Yifan Zhou",
@@ -4041,9 +4093,9 @@
   "id": "10.1021/acssuschemeng.4c10366",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "ACS Sustainable Chemistry & Engineering",
-  "tier": "direct",
+  "tier": "background",
   "title": "Dual-Interface Synergistically Accelerating Tandem Catalysis in Ammonia Synthesis and Direct Ammonia Fuel Cell Application",
   "top": false,
   "topics": [
@@ -4055,8 +4107,8 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "双界面协同加速氨合成与直接氨燃料电池应用"
  },
  "10.1021/jacs.4c16636": {
@@ -4224,11 +4276,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5190,11 +5244,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5238,11 +5294,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5434,17 +5492,20 @@
  },
  "10.26599/jac.2025.9221057": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Defect engineering enables the efficient management of electromagnetic parameters and the enhancement of electromagnetic wave (EMW) absorption. In this study, (Fe1−xMnx)2AlB2 transition metal boride (MAB) phases with a layered structure were prepared via Joule heating-driven ultrafast synthesis, and their EMW absorption properties were investigated. The experimental results demonstrate that the incorporation of Mn atoms at the M site can effectively modulate the impedance matching and EMW absorption properties of the material through the introduction of defects and lattice distortions. Notably, (Fe0.3Mn0.7)2AlB2 exhibits a reflection loss as high as −47.8 dB at 12.24 GHz, with a maximum effective absorption bandwidth of 4.16 GHz (10.24–14.40 GHz) at an ultrasmall thickness of 1.5 mm. This study provides a promising avenue for the development of excellent microwave-absorbing materials, which are essential for meeting the evolving requirements of advanced electronics. Additionally, this work offers a paradigm for enhancing other properties of MAB phases through defect engineering.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yuhang Bai",
    "Zelong Yao",
@@ -5457,8 +5518,8 @@
    "Laifei Cheng"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04",
   "doi": "10.26599/jac.2025.9221057",
@@ -5480,8 +5541,9 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "缺陷工程能够有效管理电磁参数并增强电磁波 (EMW) 吸收。在本研究中，具有层状结构的 (Fe1−xMnx)2AlB2 过渡金属硼化物 (MAB) 相通过焦耳热驱动的超快合成制备而成，并研究了其 EMW 吸收特性。实验结果表明，Mn 原子在 M 位点的掺入可以通过引入缺陷和晶格畸变有效地调节材料的阻抗匹配和 EMW 吸收特性。值得注意的是，(Fe0.3Mn0.7)2AlB2 在 12.24 GHz 处表现出高达 −47.8 dB 的反射损耗，在超薄厚度为 1.5 mm 时，最大有效吸收带宽为 4.16 GHz (10.24–14.40 GHz)。这项工作为开发优异的微波吸收材料提供了一条有希望的途径，这些材料对于满足先进电子不断变化的需求至关重要。此外，这项工作为通过缺陷工程增强 MAB 相的其他性能提供了一个范例。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "焦耳热驱动的超快合成 (Fe 1− x Mn x ) 2 AlB 2 及其电磁波吸收性能"
  },
  "10.26599/nr.2025.94907265": {
@@ -5525,17 +5587,20 @@
  },
  "10.26599/nr.2025.94907300": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Transforming nanoscale and bulk metals into single atoms is crucial for the scalable production of single-atom catalysts (SACs), especially during pyrolysis. However, conventional equilibrium heating approaches often require prolonged operation to decompose metal aggregates, leading to tedious and time-consuming procedures for synthesizing SACs. In this study, we introduce high-temperature shock (HTS) strategy to enhance metal atomization, achieving the direct transformation of bulk copper foil into single atoms in just 0.5 s at 1700 K. The HTS-produced Cu catalyst demonstrates a high content of 0.54 wt.%, comparable to those achieved by commonly reported top-down strategies, indicating that the HTS method provides a compelling alternative for synthesizing Cu SACs from bulk Cu precursors. Structural analysis confirmed the synthesis of a Cu–N–C SAC with a Cu–N4 coordination environment. This Cu–N4 structure shows excellent catalytic performance for nitrite reduction to ammonia, achieving over 90% Faradaic efficiency across the entire working potential range and an ammonia production rate of up to 11.12 mg·cm−2·h−1 at −1.2 V vs. reversible hydrogen electrode (RHE), surpassing other reported Cu-based electrocatalysts. Furthermore, ab initio molecular dynamics (AIMD) simulations reveal that transient high temperatures not only promote the formation of thermodynamically favorable Cu–N bonds but also prevent excessive sintering and aggregation of metal atoms.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Renjie Fang",
    "Ji Yang",
@@ -5546,8 +5611,8 @@
    "Feng Ru Fan"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-04",
   "doi": "10.26599/nr.2025.94907300",
@@ -5561,16 +5626,19 @@
   "title": "High-temperature shock-induced transformation of bulk copper into single-atom catalyst",
   "top": false,
   "topics": [
+   "nh3",
    "joule"
   ],
   "url": "https://doi.org/10.26599/nr.2025.94907300",
   "via": "Crossref",
   "watch": [],
   "why": [
+   "ammonia production",
    "High-temperature shock"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "将纳米级和块状金属转化为单原子对于可扩展地生产单原子催化剂 (SACs) 至关重要，尤其是在热解过程中。然而，传统的平衡加热方法通常需要长时间运行来分解金属聚集体，导致合成 SACs 的过程繁琐且耗时。在本研究中，我们引入了高温冲击 (HTS) 策略来增强金属气化，在 1700 K 下仅 0.5 s 就实现了块状铜箔的直接转化为单原子。HTS 制备的 Cu 催化剂显示出 0.54 wt.% 的高含量，与通常报道的从块状 Cu 前驱体合成的 SACs 相当，表明 HTS 方法为合成 Cu SACs 提供了一种引人注目的替代方案。结构分析证实了 Cu–N–C SAC 的合成，具有 Cu–N4 配位环境。这种 Cu–N4 结构对亚硝酸还原为氨表现出优异的催化性能，在整个工作电位范围内实现了超过 90% 的法拉第效率，在 −1.2 V vs. 可逆氢电极 (RHE) 时氨生产速率高达 11.12 ",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
   "zh_title": "高温冲击诱导块状铜转化为单原子催化剂"
  },
  "10.28948/ngumuh.1571359": {

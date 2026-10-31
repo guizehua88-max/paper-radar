@@ -414,19 +414,22 @@
  },
  "10.1002/aenm.202570038": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia Synthesis In article number 2404030, Katsutoshi Sato, Katsutoshi Nagaoka, and co-workers propose a simple method to fabricate a BaO-promoted Co catalyst in a carbon framework for green NH3 synthesis under mild-condition. The carbon framework stabilizes Co nanoparticles, while BaO islands enhance electron donation to adsorbed N2.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "K. Kanishka H. De Silva",
    "Katsutoshi Sato",
@@ -441,8 +444,8 @@
    "Katsutoshi Nagaoka"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02-25",
   "doi": "10.1002/aenm.202570038",
@@ -464,8 +467,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "提出了一种在温和条件下制备 BaO 助剂 Co 催化剂的简单方法。碳框架稳定了 Co 纳米颗粒，而 BaO 岛增强了向吸附 N2 的电子供体作用。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及碳材料",
   "zh_title": "通过与 Co 同时掺入碳保护框架实现 Ba 助剂理想状态"
  },
  "10.1002/aic.18789": {
@@ -1239,11 +1243,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1980,11 +1986,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2099,11 +2107,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2274,11 +2284,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2426,11 +2438,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2467,17 +2481,20 @@
  },
  "10.1016/j.ijhydene.2025.01.039": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The Power-to-Ammonia process has been suggested to decarbonize global ammonia production and to enable global energy trade using ammonia as a carbon-free energy carrier. Traditionally, Haber–Bosch plants for ammonia production based on natural gas have been operated near their nominal load and with slow load change rates. Power-to-Ammonia calls for more load-flexible plants to optimally utilize fluctuating renewable energy sources . This work presents a detailed dynamic model of a modified Haber–Bosch plant including feed compression, reaction, separation, and refrigeration. We conduct simulation studies demonstrating load change rates up to 3%/min and safe operation with down to 10% of the nominal feed flow rate . Three strategies are investigated utilizing an increasing number of variables to achieve favorable conditions during part-load operation. Among those, a combination of pressure reduction, reduced flow in the synthesis loop, increased ammonia fraction in the reactor feed, and omitted intercooling between the reactor beds enables the smoothest load transition and best conditions during part-load operation. We further show that a moderate pressure reduction in the synthesis loop can reduce power demand during part-load operation.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Steffen Fahr",
    "Robert Kender",
@@ -2487,8 +2504,8 @@
    "Harald Klein"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02",
   "doi": "10.1016/j.ijhydene.2025.01.039",
@@ -2510,6 +2527,7 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "建立了一个包含进料压缩、反应、分离和制冷的改良哈伯-博施装置详细动态模型。模拟显示装置可在 10% 的额定进料流量下安全运行，负荷变化速率高达 3%/min。通过压力降低、合成回路流量减少、反应器进料中氨分数增加及省略反应器床层间冷却等策略，实现了最佳的部分负荷运行条件。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "高负荷柔性哈伯-博施工厂动态模拟"
@@ -2750,11 +2768,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3696,17 +3716,20 @@
  },
  "10.1021/acs.jpcc.4c07596": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) is one of the most important industrial chemicals. The conventional NH 3 synthesis method─the Haber–Bosch process─converts atmospheric nitrogen (N 2 ) into NH 3 using H 2 with an iron (Fe) catalyst. However, this process requires high pressures (100–200 atm) and temperatures (700–800 K) near thermal equilibrium. Recently, Fe-based nanocatalysts have been reported to produce promising NH 3 yields under atmospheric pressures and temperature-modulated nonequilibrium conditions. Understanding the mechanism of nonequilibrium catalysis with programmed temperature variation could help to optimize this fully electrified and less energy-intensive process. Although reactive molecular dynamics (RMD) simulations can be a useful tool to model nonequilibrium catalytic processes, they require the development of accurate force fields (i.e., interatomic potentials). Here, we present a machine-learned (ML) force field within the Deep Potential MD (DPMD) framework, trained using periodic density functional theory (DFT) calculations, to model NH 3 synthesis on Fe catalysts with various surface adsorbates such as *N, *H, *N 2, *H 2, *NH, *NH 2, and *NH 3 . We generated the DFT data from static models of elementary reactions on the most stable (110) surface of body-centered cubic Fe, which then were augmented by data from constant number of particles–volume–temperature (NVT) DFT-MD trajectories at various temperatures. Finally, we utilized the fully optimized ML force field to investigate reaction dynamics at an Fe(110) surface at linearly increasing temperatures using NVT-DPMD simulations. Our simulations indicate that pulsed temperature ramping could prove favorable for NH 3 synthesis. For example, we conducted ramping under multiple sets of conditions: (i) from 900 to 1200 K over periods of 0.1–0.3 ns for Fe surfaces precovered with N or NH along with H; and (ii) from 300 to 600 K over 0.1–0.3 ns for Fe surfaces precovered with NH 3 . While our simulations so far are limited to short time scales (very rapid heating), these observations shed light on the mechanism of the high NH 3 synthesis rate achieved in a novel temperature-modulated nonequilibrium catalytic reactor using pulsed heating and cooling.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Aditya Dilip Lele",
    "Zhiyu Shi",
@@ -3716,29 +3739,32 @@
    "Yiguang Ju"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
-  "cross": false,
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": true,
   "date": "2025-02-27",
   "doi": "10.1021/acs.jpcc.4c07596",
   "first_seen": "2026-10-28T22:02:07Z",
   "id": "10.1021/acs.jpcc.4c07596",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 43,
   "source": "The Journal of Physical Chemistry C",
-  "tier": "direct",
+  "tier": "cross",
   "title": "Machine-Learned Force Field for Molecular Dynamics Simulations of Nonequilibrium Ammonia Synthesis on Iron Catalysts",
   "top": false,
   "topics": [
-   "nh3"
+   "nh3",
+   "joule"
   ],
   "url": "https://doi.org/10.1021/acs.jpcc.4c07596",
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Synthesis"
+   "Ammonia Synthesis",
+   "pulsed heating"
   ],
+  "zh_brief": "基于 DFT 计算训练的机器学习力场被用于模拟 Fe 催化剂上的非平衡氨合成反应。模拟表明，线性升温有利于 NH3 合成，脉冲温度升程可能具有优势。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "铁催化剂非平衡合成氨分子动力学模拟的机器学习力场"
@@ -4060,11 +4086,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4807,11 +4835,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

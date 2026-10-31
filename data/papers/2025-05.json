@@ -1479,11 +1479,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1574,11 +1576,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1684,25 +1688,28 @@
  },
  "10.1016/j.ceja.2025.100723": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Nickel-based electrodes are widely recognized for their cost-effectiveness and efficiency in the alkaline oxygen evolution reaction (OER), yet further advancements in surface engineering of these electrodes are essential to fully unlock their catalytic potential. This study explores the electrocatalytic performance of several topologies of 3D-structured nickel electrodes decorated by atomic layer deposited (ALD) NiO films for water oxidation. While pristine Ni electrodes already exhibit good performance due to their 3D structure, their native NiO layer is limited by its fixed thickness, chemical composition, and crystallinity. Adopting ALD for surface modification allows to unravel the role of these properties on the OER performance and electrochemical activation. Among the investigated structures in this work, the 3D Ni electrode based on regularly shaped pillars and holes (Ni Veco), stands out as the most promising OER electrocatalyst, both in its pristine state and after ALD NiO modification, surpassing the performance of Ni felt and Ni foam. Moreover, the presence of ALD NiO is demonstrated to significantly alter the surface chemistry and surface energy of Ni electrodes, leading to a notable enhancement of the OER performance. Upon electrochemical activation, thermal and plasma-assisted ALD NiO on Ni Veco demonstrated overpotentials of 470 and 560 mV, respectively, at 500 mA·cm -2 , outperforming pristine Ni Veco (640 mV).",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Sina Haghverdi Khamene",
    "Mariadriana Creatore",
    "Mihalis N. Tsampas"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-05",
   "doi": "10.1016/j.ceja.2025.100723",
@@ -1730,7 +1737,8 @@
   "why": [
    "Atomic Layer Deposit"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "研究经 ALD NiO 薄膜修饰的 3D 结构镍电极的水氧化性能，发现 ALD NiO 显著改变了表面化学和表面能。经电化学激活后，热辅助 ALD NiO 在 Ni Veco 电极上的过电位为 560 mV @ 500 mA·cm-2，优于未修饰的 Ni Veco (640 mV)。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "其他催化反应；涉及原子层沉积",
   "zh_title": "3d 电极表面原子层沉积镍氧化物改性用于提升析氧性能"
  },
@@ -1926,17 +1934,20 @@
  },
  "10.1016/j.fuel.2025.134423": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia stands as one of the most critical chemical products, finding extensive applications across various industries. Currently, its production relies heavily on fossil fuels, leading to the depletion of fossil fuel resources and significant CO 2 emissions. While ammonia is primarily used as a fertilizer in agricultural sectors, its potential as a valuable carbon-free fuel has attracted significant interest in shipping and energy industries. This has led to anticipation of increased ammonia production in the future, primarily through green and carbon-free methods. However, transitioning from the conventional blue ammonia production method, which relies on fossil fuels, to green ammonia production presents considerable challenges and necessitates thorough evaluations. This study compared the impacts of green and blue ammonia production on Denmark’s energy system in 2030 and 2045. It was revealed that green ammonia production entails higher investment costs due to the utilization of electrolysers for hydrogen production, which are powered by wind turbines . Additionally, it contributes to increased investment and fixed operating costs of the energy system, as a considerably larger number of wind turbines are required for green ammonia production. However, the study’s findings indicated that green ammonia production can potentially be more cost-effective than blue ammonia production, especially in 2045 when equipped with hydrogen storage. This cost-effectiveness primarily stems from projected decreases in the costs of electrolysers and hydrogen storage vessels by 2045, as well as the omission of carbon capture and storage (CCS) from the system, along with substantial savings in fuel costs. Thus, the study demonstrated that opting for green ammonia production over blue ammonia generation could lead to a decrease in required additional annual costs by 11.4% and 40% in 2030 and 2045, respectively.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hossein Asgharian",
    "Henrik Lund",
@@ -1955,9 +1966,9 @@
   "id": "10.1016/j.fuel.2025.134423",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Fuel",
-  "tier": "direct",
+  "tier": "background",
   "title": "Green ammonia production in Denmark: Assessing future potentials and challenges",
   "top": false,
   "topics": [
@@ -2152,11 +2163,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2411,11 +2424,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2932,24 +2947,27 @@
  },
  "10.1021/acs.iecr.5c00479": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "A Joule-heated reactor containing a porous catalyst film deposited on a FeCrAl porcupine coil as the heating element was assembled and evaluated. The catalytic ethane dehydrogenation reaction was investigated utilizing a ZSM-5-supported MnO x catalyst. The system achieved an ethylene production rate of 31.3 mmol C2H4 g cat –1 h –1 with an ethylene selectivity exceeding 99% and 98 + % carbon balance and has a larger volumetric catalyst inventory than other Joule-heated reactor configurations reported to date. Despite ample insulation, computational fluid dynamics (CFD) simulations using ANSYS-CFX revealed axial and radial temperature gradients within the reactor, reducing the catalyst utilization effectiveness. The simulations demonstrate that adiabatic operation (perfect insulation and reflecting radiative heat back into the system) could double the ethylene production rate while improving energy efficiency. Mass and heat transfer resistances did not affect rates for catalyst layer thicknesses up to 135 μm. Analysis of the flow pattern revealed that buoyancy effects are significant at low inlet gas velocities (υ in = 0.53 cm s –1 or Re inlet = 1.7), leading to reverse flows near the front and back coil terminals. These insights provide a foundation for optimizing Joule-heated reactor geometry, configuration, and performance.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Enerelt Burentugs",
    "Raul F. Lobo"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-05-03",
   "doi": "10.1021/acs.iecr.5c00479",
@@ -2971,6 +2989,7 @@
   "why": [
    "Joule-Heat"
   ],
+  "zh_brief": "在 FeCrAl 刺猬线圈上沉积 ZSM-5 负载 MnOx 催化剂薄膜构建焦耳加热反应器，乙烷脱氢反应乙烯产率为 31.3 mmol C2H4 g cat-1 h-1，选择性超过 99%。CFD 模拟显示绝热操作可提高乙烯产率并改善能效，低入口气速下浮力效应显著。",
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "其他催化反应",
   "zh_title": "刺猬式加热元件在焦耳加热反应器中用于乙烷脱氢"
@@ -3112,17 +3131,20 @@
  },
  "10.1021/acsaem.5c00500": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Water electrolysis has attracted the attention of many researchers as a green energy production pathway. However, the oxygen evolution reaction challenges the advancement of green energy from electrolytic water due to slow reaction kinetics and high overpotential. In this study, highly dispersed WC x nanoparticles on carbon cloth (CC) with good self-supporting properties were rapidly synthesized using flash Joule heating for 180 s. At the same time, the nonequilibrium ultrarapid impact process due to Joule heating makes it possible to have more defects in the integrated electrodes. As a result, JH-WC x /CC-900, which has been heat-treated at 900 °C, shows an excellent performance in alkaline media. To further enhance its electrocatalytic performance, the NiFe-LDH cladding layer was prepared on JH-WC x /CC-900 by a one-step electrodeposition technique, taking advantage of the synergistic effect between different components. The Ni 5 Fe 5 -LDH/WC x /CC electrode material showcased superior electrocatalytic performance in an alkaline medium, with a low overpotential of 215 mV at 10 mA cm –2 and a Tafel slope of 45.71 mV dec –1 . The proposed synthesis and design strategy opens up a fast and simple route for the rapid synthesis of carbide catalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Pengchong Shen",
    "Lili Guan",
@@ -3134,9 +3156,9 @@
    "Menggang Li",
    "Xiwen Song"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-05-27",
   "doi": "10.1021/acsaem.5c00500",
@@ -3158,8 +3180,9 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "利用 flash Joule heating 在 180 s 内快速合成分散在碳布上的 WCx 纳米颗粒，经 900 °C 热处理后，通过电极沉积制备 NiFe-LDH 包覆层。Ni5Fe5-LDH/WCx 电极在碱性介质中表现出优异性能，过电位为 215 mV @ 10 mA cm-2，Tafel 斜率为 45.71 mV dec-1。",
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控；涉及Fe/铁体系、碳材料",
   "zh_title": "快速焦耳热制备和性能研究碳负载的纳米钨基电催化剂用于高效的析氧反应"
  },
  "10.1021/acsami.5c01200": {
@@ -4320,23 +4343,26 @@
  },
  "10.1627/jpi.68.91": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Catalytic ammonia synthesis under mild conditions has been widely studied around the world since ammonia has great potential as a hydrogen energy carrier. Ammonia synthesis from N2 and H2 effectively proceeds on transition metal surfaces and the catalytic activity is governed by the metal-nitrogen interaction. Ruthenium catalyst shows the optimum activity. Here, we show that nitride-supported non-noble metal catalysts achieve ammonia synthesis via an anion vacancy-mediated Mars–van Krevelen type mechanism. We developed a novel perovskite oxynitride-hydride, BaCeO3–xNyHz, that contains high density heteroanion sites such as N3− and H− ions. Furthermore, high ammonia synthesis activity can be achieved by combination of rare-earth nitride and Ni metal nanoparticles. These nitrides are unstable in air, but air-stable rare-earth nitrides can be formed by doping Al into the lattice. We can thus propose the development of non-noble metal catalysts that operate efficiently under mild conditions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Masaaki KITANO"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-05-01",
   "doi": "10.1627/jpi.68.91",
@@ -4358,8 +4384,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "研究氮化物负载非贵金属催化剂在温和条件下通过阴离子空位介导的Mars-van Krevelen机理实现氨合成。开发了含高密度异阴离子位点（N3-和H-）的反钙钛矿氧氮化物-氢化物BaCeO3–xNyHz，以及掺杂Al的稀土氮化物负载Ni催化剂，实现了高效氨合成。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "氮化物负载非贵金属催化氨合成"
  },
  "10.21203/rs.3.rs-6539415/v1": {
@@ -4696,17 +4723,20 @@
  },
  "10.26599/jac.2025.9221074": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The preparation of dense ZrB2-based ceramics typically requires high temperatures and long sintering time, which often results in significant grain coarsening and thus deteriorates the mechanical properties. Ultrafast sintering techniques offer a solution to inhibit grain coarsening by reducing processing time. However, the ultrafast preparation of dense ZrB2-based ceramics still remains a challenge. In this work, we successfully fabricated dense ZrB2-based ceramics in just a few minutes using heavy continuous DC Joule heating and pressing. Notably, the densification rate peaked at 1218 °C, and the densification process was nearly complete at a relatively low temperature of 1500 °C. The application of heavy continuous direct current not only promotes the densification of the ceramics but also enhances the texturization of ZrB2. This results in optimally aligned ZrB2 grains that form a three-dimensional bonded skeletal network. Such unique microstructures can effectively induce multi-stage fracture surfaces during failure, which helps the synergistic strengthening and toughening of the ceramics. The ceramics exhibit remarkable comprehensive mechanical properties, with flexural strength and fracture toughness reaching 773 ± 114 MPa and 5.88 ± 0.08 MPa·m1/2, respectively, surpassing those of conventional hot pressed samples. This technique is expected to be applied to other ultra-high temperature ceramics, providing a promising approach for development of thermal protection materials.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yingjun Liu",
    "Song Liu",
@@ -4722,9 +4752,9 @@
    "Zhaozhao Lv",
    "Xuefeng Wang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-05",
   "doi": "10.26599/jac.2025.9221074",
@@ -4746,8 +4776,9 @@
   "why": [
    "Joule heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "利用重连续直流焦耳加热和加压在几分钟内制备致密 ZrB2 基陶瓷，致密化过程在 1500 °C 基本完成。该方法促进了 ZrB2 的织构化，形成三维键合骨架网络，显著提高了弯曲强度 (773 ± 114 MPa) 和断裂韧性 (5.88 ± 0.08 MPa·m1/2)。",
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "通过重连续直流焦耳热和压制实现 ZrB2 基陶瓷的超快致密织构化"
  },
  "10.31635/ccschem.024.202404299": {

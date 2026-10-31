@@ -1915,14 +1915,18 @@
  },
  "10.1007/s10562-026-05527-w": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2236,6 +2240,9 @@
    "Chunmei Ding",
    "Can Li"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.actphy.2026.100449",
@@ -2258,7 +2265,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "Cu/CuOx 纳米线电催化还原硝酸盐制氨"
  },
  "10.1016/j.apcata.2026.121150": {
   "ab_check_v": 2,
@@ -2280,6 +2288,9 @@
    "Kouichi Tsuji",
    "Yusuke Yamada"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.apcata.2026.121150",
@@ -2300,7 +2311,8 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨硼烷水解"
+  "zh_obj": "氨硼烷水解",
+  "zh_title": "SiO2 纳米颗粒组装体封装增强 CuxO 催化氨硼烷水解制氢"
  },
  "10.1016/j.apcata.2026.121259": {
   "abstract": "The pore architecture of KL zeolite plays a critical role in linear alkane aromatization over Pt-based catalysts. However, how the interplay between microporous confinement and mesopore-enabled diffusion regulates Pt species and the subsequent formation of aromatics remains insufficiently understood. Herein, 1,2,6-hexanetriol was selected as a zeolite growth modifier to tailor the porous structure of KL zeolite with varied micro-/mesopore ratios. Pt species were then introduced into the KL zeolites by atomic layer deposition, affording a series of Pt/KL catalysts in which Pt species were distributed in both microporous and mesoporous regions. The Pt/KL-T 1 catalyst with a mesopore-to-micropore volume ratio of 1.2 gave an enhanced toluene formation rate (7.6 × 10 2 mmol Toluene ·g Pt –1 ·h –1 ), which was approximately twice that of the purely microporous Pt/KL catalyst. Combined structural characterizations and molecular dynamics simulations indicated an appropriate balance between micropore and mesopore facilitates the diffusion and further dehydrocyclization of alkene (σC 7 = ) intermediates, while suppressing isomer formation. These findings clarify the balance of micro- and mesoporosity in KL zeolite and provide a strategy to tune Pt/KL-based catalysts for alkane aromatization.",
@@ -2404,6 +2416,9 @@
    "Yanbiao Liu",
    "Shengtao Jiang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.apcatb.2026.126722",
@@ -2427,7 +2442,8 @@
    "nitrate reduction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "CoCu@Cu2O 异质结协同效应增强硝酸盐还原制氨"
  },
  "10.1016/j.apcatb.2026.126727": {
   "ab_check_v": 2,
@@ -2449,6 +2465,9 @@
    "Linhai Duan",
    "Leiming Tao"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.apcatb.2026.126727",
@@ -2477,7 +2496,8 @@
    "Nitrogen Reduction Reaction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及碳材料"
+  "zh_obj": "电化学氮还原；涉及碳材料",
+  "zh_title": "废旧锂离子电池介孔碳负极电催化升级为氮还原反应电催化剂"
  },
  "10.1016/j.apcatb.2026.126790": {
   "ab_check_v": 2,
@@ -2609,14 +2629,18 @@
  },
  "10.1016/j.apcatb.2026.127565": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3273,17 +3297,20 @@
  },
  "10.1016/j.ccr.2026.218038": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Metal-organic frameworks (MOFs) hold transformative potential for the hydrogen economy, serving dual roles in both ammonia synthesis and storage. This review examines the catalytic properties of MOFs in the Nitrogen Reduction Reaction (NRR), where their tunable structures and active sites enable efficient ammonia production under mild conditions. Besides synthesis, MOFs demonstrate remarkable storage capabilities due to multiple interaction pathways with ammonia, including acid-base interactions, hydrogen bonding, and dynamic exchange at host-guest sites across various active centers. The discussion also covers the economic landscape of MOFs, highlighting key challenges such as material costs, production scalability, and raw material availability. By linking MOFs' technical performance with economic factors, this review offers a perspective on their role in advancing a sustainable hydrogen economy.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Fatima El Alem",
    "Achraf Delhali",
@@ -3296,8 +3323,8 @@
    "M. Infas H. Mohideen"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.ccr.2026.218038",
@@ -3305,9 +3332,9 @@
   "id": "10.1016/j.ccr.2026.218038",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Coordination Chemistry Reviews",
-  "tier": "direct",
+  "tier": "background",
   "title": "Metal-organic frameworks: dual role in ammonia synthesis and storage for sustainable hydrogen economy",
   "top": false,
   "topics": [
@@ -3319,20 +3346,25 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "金属有机框架在氢经济中发挥双重作用，既促进温和条件下的氮还原反应，又通过酸碱、氢键及动态交换实现氨的高效储存。该综述探讨了MOFs的催化性能、储存能力及经济挑战。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "金属有机框架在氨合成与储氢中的双重作用"
  },
  "10.1016/j.ccr.2026.218467": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3530,6 +3562,9 @@
    "Sitaramanjaneya Mouli Thalluri",
    "Zhipeng Yu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.cej.2026.178616",
@@ -3552,7 +3587,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "通过调节d带中心增强电催化硝酸还原制氨的铁泡沫上钴掺杂氧化铁"
  },
  "10.1016/j.cej.2026.178896": {
   "ab_check_v": 2,
@@ -3573,6 +3609,9 @@
    "Jan Minar",
    "Alex Schechter"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.cej.2026.178896",
@@ -3595,7 +3634,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "通过CO2和硝酸盐还原在Cu2S/CuS催化剂上CN偶联实现高选择性电化学尿素合成"
  },
  "10.1016/j.cej.2026.181551": {
   "ab_try": "2026-10-29",
@@ -3785,17 +3825,20 @@
  },
  "10.1016/j.cej.2026.182590": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Efficient ammonia separation is essential for the intensification of ammonia synthesis processes. Metal halides are promising ammonia sorbents because of strong and reversible interaction with ammonia and possibility to tune sorption strength through variation of metal cation and the support. In this work, MgCl₂-, CaCl₂-, and SrCl₂-supported ZSM-5 materials were investigated under an ammonia-containing atmosphere at absolute pressures of 1–8 bar and temperatures of 50–400 °C. Among the studied sorbents, MgCl₂/ZSM-5 showed the best performance, attributed to the higher charge density of Mg 2+ , which promotes ammonia coordination. Lower salt loadings gave slightly higher apparent coordination numbers, indicating improved accessibility of active sites. During the first formation of the hexaammine complex, MgCl₂/ZSM-5 underwent activation, suggesting structural rearrangement and accelerated ammonia uptake. A mean-field microkinetic model describing stepwise ammonia absorption and desorption was developed, explicitly accounting for the underlying sorption mechanism governed by both kinetic effects and thermodynamic equilibrium. The model was coupled with continuous-flow reactor formulations – continuous stirred-tank reactor (CSTR) or axially-dispersed plug-flow reactor (AD-PFR) – depending on the Péclet number, which characterises the gas-phase transport regime, thereby bridging meso- and reactor-scale phenomena. The model successfully reproduced breakthrough and temperature-programmed desorption experiments, including three distinct desorption peaks associated with progressively stronger ammonia binding. These results identify supported MgCl₂ as a promising sorbent for high-temperature ammonia separation, relevant for hydrogen storage and transport applications, while highlighting the need for mechanically stable supports to accommodate structural expansion during ammine formation.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Aleksandra Zamljen",
    "Jurij Golobič",
@@ -3805,18 +3848,18 @@
    "Blaž Likozar"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
-  "cross": false,
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": true,
   "date": "2026-09",
   "doi": "10.1016/j.cej.2026.182590",
   "first_seen": "2026-10-28T22:00:02Z",
   "id": "10.1016/j.cej.2026.182590",
   "kind": "journal",
   "origin": "日常",
-  "score": 28,
+  "score": 43,
   "source": "Chemical Engineering Journal",
-  "tier": "direct",
+  "tier": "cross",
   "title": "Zeolite-supported metal chloride sorbent materials under sorption-enhanced ammonia synthesis reaction conditions for H2 storage: Mechanisms, micro-kinetics and modelling",
   "top": false,
   "topics": [
@@ -3828,23 +3871,27 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_brief": "在 1–8 bar 和 50–400 °C 条件下研究了 MgCl₂、CaCl₂ 和 SrCl₂ 支撑的 ZSM-5 材料作为氨吸附剂。MgCl₂/ZSM-5 表现最佳，通过构建平均场微观动力学模型成功模拟了氨的吸附与脱附过程。",
+  "zh_method": "模型中的表征温程（TPR/TPD/TPO 等，不等于反应供热）；不等于实测温程或催化性能",
+  "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "吸附增强氨合成反应条件下负载金属氯化物吸附剂材料的机理与建模"
  },
  "10.1016/j.cejgas.2026.100095": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The escalating global demand for rare earth elements (REEs) and the mounting environmental burden of spent polymer resins represent two of the most pressing challenges. Here, we introduce an innovative method for the recovery of cerium (Ce), a critical REE embedded in exhausted ion-exchange resins and simultaneous upcycling of the resins into turbostratic graphene by flash Joule heating (FJH). The synthesis process subjects the rare earth contained resin beads to temperatures exceeding 3270 K within milliseconds, ensuring complete pyrolysis of the resin, while volatilizing the embedded REEs, which are subsequently captured via a cold trap system. The complete removal of Ce from the ion-exchange resin is confirmed by the XRD and ICP-AES analysis of the recovered material and the resultant graphene. The synthesized graphene demonstrates excellent structural purity, evidenced by low I D /I G ratio (0.12 ± 0.04), high I 2D /I G ratio (3.0 ± 0.20), expanded interlayer spacing (3.41 ± 0.03 Å), and presence of TS1 and TS2 peaks in the Raman spectra indicating turbostratic stacking with minimal interlayer coupling. Molecular dynamics simulations reveal rapid polymer decomposition and carbon atom reorganization above 3000 K, leading to graphene formation. The process also enables recovery of volatilized Ce up to 71 ± 2.20% efficiency, facilitating its reuse. This technology provides a solvent-free route for upcycling spent ion exchange resin beads into high-value graphene, while simultaneously recovering REEs from the resin matrix.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rajath Alexander",
    "Subham Kumar",
@@ -3852,9 +3899,9 @@
    "Jyoti Prakash",
    "Kinshuk Dasgupta"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.cejgas.2026.100095",
@@ -3876,6 +3923,7 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "提出一种利用闪蒸焦耳加热回收废弃离子交换树脂中铈并升级利用树脂制备乱层石墨烯的方法。该过程在毫秒内将树脂加热至超过 3270 K，使铈挥发并被冷阱捕获，回收效率达 71 ± 2.20%。合成的石墨烯具有低 I_D/I_G 比值和 TS1/TS2 峰，表明结构纯度高且为乱层堆叠。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "闪焦联合回收吸附稀土元素和废旧离子交换树脂转化为石墨"
@@ -3900,6 +3948,9 @@
    "Qingyang Jiang",
    "Ming Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.ceramint.2026.09.373",
@@ -3922,7 +3973,8 @@
    "joule-heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "Gd掺杂YAG:Ce透明陶瓷荧光粉的快速焦耳加热烧结用于光谱可调高功率白光LED/LD照明"
  },
  "10.1016/j.ceramint.2026.09.501": {
   "ab_check_v": 2,
@@ -3946,6 +3998,9 @@
    "Qianqian Song",
    "Xiao Dong"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.ceramint.2026.09.501",
@@ -3968,7 +4023,8 @@
    "Joule heat"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "超快焦耳加热合成用于高对二甲苯气体传感性能的(Co, Ni, Zn)Cr2O4纳米材料"
  },
  "10.1016/j.ces.2026.124096": {
   "ab_check_v": 2,
@@ -3985,6 +4041,9 @@
    "Shuxin Kuai",
    "Jingyao Liu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.ces.2026.124096",
@@ -4007,7 +4066,8 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及碳材料"
+  "zh_obj": "制氨路线未明确；涉及碳材料",
+  "zh_title": "由吡啶氮和吡咯氮协同构建的双N空腔石墨烯用于高效氮还原反应"
  },
  "10.1016/j.ces.2026.125148": {
   "ab_check_v": 2,
@@ -4027,6 +4087,9 @@
    "Achmad Ferdiansyah Pradana Putra",
    "Mohammad Mozahar Hossain"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.ces.2026.125148",
@@ -4050,7 +4113,8 @@
    "NH3 decomposition"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "基于动力学驱动的反应器设计：用于氨分解制氢的镍和钴催化剂"
  },
  "10.1016/j.ces.2026.125184": {
   "ab_check_v": 2,
@@ -4115,6 +4179,9 @@
    "Yeongbae Jeon",
    "Yun Jeong Hwang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.checat.2026.101864",
@@ -4137,7 +4204,8 @@
    "lithium-mediated ammonia"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "乙醇调控锂介导氨电合成中的界面"
  },
  "10.1016/j.cherd.2026.09.031": {
   "ab_check_v": 2,
@@ -4267,6 +4335,9 @@
    "Huagui Nie",
    "Yongjie Ge"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.electacta.2026.149126",
@@ -4289,7 +4360,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电容去离子-电催化耦合策略：用于缺氮条件下硝酸盐还原制氨"
  },
  "10.1016/j.electacta.2026.150037": {
   "abstract": "Electrochemical nitrate reduction reaction (NO 3 − RR) offers a sustainable route for ammonia (NH 3 ) synthesis as a promising substitute for the energy-intensive Haber-Bosch process. In this work, a series of Cu-Co bimetallic electrocatalysts are fabricated, among which Cu 2 Co 6 delivers the optimal catalytic performance. With an initial NO 3 − concentration of 1400 ppm, Cu 2 Co 6 achieves an ultrahigh Faradaic efficiency (FE) of 99.8% toward NH 3 , a remarkable NH 3 yield rate of 64.42 mg·h −1 ·cm −2 , and can lower residual nitrate concentration to <1 ppm within 4.5 h. The outstanding NO 3 − RR activity stems from a unique synergistic relay catalytic mechanism between Cu and Co dual active sites. Cu sites exhibit highly selective reduction capability to drive the initial conversion of NO 3 − into NO 2 − intermediates. Meanwhile, Co sites continuously catalyze the dissociation of interfacial water to generate abundant adsorbed hydrogen (*H) and hydroxide (OH − ) intermediates, which timely hydrogenate the in-situ formed NO 2 − and propel the complete conversion of NO 3 − into NH 3 , effectively avoiding intermediate accumulation and competing side reactions. When employed as the cathode of a rechargeable Zn-NO 3 − battery, the Cu 2 Co 6 electrode realizes a peak power density of 58.75 mW·cm −2 and maintains stable charge-discharge cycling for up to 100 h at 60 mA·cm −2 . This work develops a high-performance bimetallic electrocatalyst that demonstrates a feasible strategy to concurrently produce NH 3 and output electrical energy via NO 3 − RR.",
@@ -4435,6 +4507,9 @@
   "authors": [
    "Jerry Y.S. Lin"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.eng.2026.06.011",
@@ -4455,7 +4530,8 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "高温空气分离制氧"
  },
  "10.1016/j.envres.2026.125288": {
   "ab_try": "2026-10-29",
@@ -4471,6 +4547,9 @@
    "Meigu Lu",
    "Xiuli Shen"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.envres.2026.125288",
@@ -4490,8 +4569,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "本研究通过低温氧化热解农业生物质衍生的生物炭和低阶褐煤合成了复合功能材料，旨在开发高效的NH4+吸附剂。结果表明，在最佳制备条件下（生物炭与褐煤质量比1:1，热解温度225 °C，时间2 h），该复合材料对NH4+的吸附容量为3.14 mg/g，去除效率为20.92%，分别是未改性生物炭和原褐煤的3倍和5倍。吸附机理分析表明，该过程以离子交换和络合为主的化学吸附为主导，辅以静电作用、范德华力和孔填充的物理吸附。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "生物炭和褐煤改性复合功能材料对氨氮的吸附性能与机理"
  },
  "10.1016/j.esci.2025.100513": {
   "ab_check_v": 2,
@@ -4514,6 +4595,9 @@
    "Valeria Nicolosi",
    "Jie Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.esci.2025.100513",
@@ -4537,7 +4621,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "基于氢氧根活化氢溢流介导的氮还原路径用于高效氨合成"
  },
  "10.1016/j.esci.2025.100529": {
   "ab_check_v": 2,
@@ -5138,14 +5223,18 @@
  },
  "10.1016/j.jcat.2026.117059": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6096,14 +6185,18 @@
  },
  "10.1016/j.matlet.2026.141619": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6286,14 +6379,18 @@
  },
  "10.1016/j.memsci.2026.126137": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6553,14 +6650,18 @@
  },
  "10.1016/j.nanoen.2026.112162": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6860,17 +6961,20 @@
  },
  "10.1016/j.seppur.2026.139029": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Catalytic ceramic membranes are regarded as a promising technology for removal of organic micropollutants (OMPs). However, excessive catalyst loading will decrease membrane flux and increase deposition costs, thus hindering practical application. In this work, ceramic ultrafiltration membranes were modified by atomic layer deposition to achieve a low loading of palladium (Pd) for OMP degradation. The Pd deposited on the membrane surface and within the pores was used to activate peroxymonosulfate (PMS) to induce reactive species (RS) for the degradation of four OMPs (benzotriazole, diclofenac, sotalol, and trimethoprim). The Pd-deposited membranes exhibited an almost complete degradation of the four OMPs at a high flux of 100 L/(m 2 h). Notably, Pd confined within membrane nanopores induced a pronounced nano-confinement effect, enhancing degradation kinetics by up to three orders of magnitude compared to surface-deposited Pd, revealing a distinct catalytic mechanism governed by confined reaction environments. Varying RS can be generated from PMS activation by Pd-modified alumina membranes, but the dominant RS pathways were found to depend on the type of OMPs, providing new mechanistic insight into PMS activation in heterogeneous catalytic membrane systems. A high degradation efficacy was achieved at a pH of 7, while the PMS dosage (20–80 μM), anion (1 mM Cl¯, SO 4 2 ¯, HCO 3 ¯, or ClO¯), and natural substances in river water had a minor impact on the OMPs' degradation. However, considerably high salinity, e.g., as present in brine water, exhibited a negative impact on the degradation of certain OMPs. This study demonstrates that a robust and effective strategy for OMPs' degradation can be achieved by ceramic membranes with a low loading of catalysts, which show strong potential for cost-effective and scalable application in water treatment.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Shuo Zhang",
    "Ming Li",
@@ -6880,8 +6984,8 @@
    "Sebastiaan G.J. Heijman"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09",
   "doi": "10.1016/j.seppur.2026.139029",
@@ -6903,6 +7007,7 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "利用原子层沉积在陶瓷超滤膜表面及孔内负载低负载量钯，用于活化过一硫酸盐降解四种微污染物。Pd 限制在膜纳米孔内诱导显著的纳米受限效应，使降解动力学提高三个数量级。在 pH 7 和 100 L/(m2 h) 通量下实现了四种污染物的几乎完全降解。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "原子层沉积负载低钯量的陶瓷超滤膜用于微污染物降解"
@@ -7000,14 +7105,18 @@
  },
  "10.1016/j.susmat.2026.e02232": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -7049,14 +7158,18 @@
  },
  "10.1016/j.vacuum.2026.115425": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -7106,14 +7219,18 @@
  },
  "10.1016/s1872-2067(26)65131-5": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -9537,6 +9654,9 @@
    "Yuanzuo Gao",
    "Hailiang Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09-24",
   "doi": "10.1038/s44160-026-01161-x",
@@ -9558,7 +9678,8 @@
   "watch": [],
   "why": [],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学亚硝酸盐还原"
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "二氧化碳、亚硝酸盐和醛类电合成芳基甘氨酸"
  },
  "10.1039/d6cc04155h": {
   "abstract": "Using dual nickel sources, seconds-scale flash Joule heating synthesizes doped NiO x on Ni foam, delivering excellent ethanol oxidation for efficient ethanol upgrading.",
@@ -10645,14 +10766,18 @@
  },
  "10.17952/38eps.2026.p038": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -10755,6 +10880,9 @@
    "Yizhi Gao",
    "Lanfang Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-09-07",
   "doi": "10.21203/rs.3.rs-10919228/v1",
@@ -10778,7 +10906,8 @@
    "Ammonia Electrosynthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "通过高自旋 Co2+ 位点的自旋匹配氢化实现鲁棒的 pH 通用氨电合成"
  },
  "10.21203/rs.3.rs-10971029/v1": {
   "abstract": "Abstract Ammonia (NH 3 ) is a dangerous gas widely used in industrial and agricultural applications, and its rapid detection is essential for environmental monitoring and human safety. In this work, Pure and Ni-doped FeMnO 3 thin films were prepared by chemical spray pyrolysis and investigated for ambient-temperature ammonia gas sensing. X-ray diffraction analysis confirmed the formation of a crystalline cubic phase of FeMnO 3 , and a slight shift in the diffraction peaks indicated the successful incorporation of Ni ions into the lattice. Surface morphology analysis revealed that Ni doping significantly modified the microstructure and increased surface roughness, thereby enhancing the number of active sites for gas adsorption. Among the fabricated samples, the 3 wt.% Ni-doped FeMnO₃ thin film (NFM2) exhibited the best ammonia selectivity of 67% at 100 ppm NH₃ at room temperature. The sensor also demonstrated rapid response and recovery times of 136 s and 94 s, respectively. These improvements are attributed to the synergistic effects of Ni- induced defect engineering, increased oxygen vacancy concentration, enhanced surface roughness, and improved charge transport. Furthermore, the fabricated sensor exhibited good humidity tolerance and good operational stability over seven weeks, demonstrating its reliability under ambient conditions. The developed sensor operates at room temperature without external heating, making it suitable for low-power sensing applications.",
@@ -12056,14 +12185,18 @@
  },
  "10.5281/zenodo.22240984": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
+   "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "The data from the paper named Enhancing Ambient Ammonia Synthesis via Discharge Gap Optimization and Mesoporous MCM-41 Catalyst",

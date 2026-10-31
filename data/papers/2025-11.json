@@ -1100,16 +1100,18 @@
  },
  "10.1007/s11426-025-3118-0": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1262,11 +1264,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1519,12 +1523,14 @@
  },
  "10.1016/j.cattod.2025.115400": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1564,12 +1570,14 @@
  },
  "10.1016/j.cej.2025.168242": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1619,12 +1627,14 @@
  },
  "10.1016/j.cej.2025.168415": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1667,25 +1677,28 @@
  },
  "10.1016/j.cej.2025.168541": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "A Langmuir-Hinshelwood type kinetic model is proposed for ammonia synthesis on ruthenium-based catalysts. The model assumes the nitrogen dissociation step as the rate-limiting step and considers N* and H* species on the catalyst surface. The improved kinetic model effectively describes ammonia synthesis on ruthenium-based catalysts over a wide range of conditions, namely temperatures of 247–465 °C, pressures of 1–200 bar, H 2 /N 2 ratios of 0.05–5, and space velocities of 6.6–4247 Nm 3 ·kg cat −1 ·h −1 . The effects of temperature, pressure, H 2 /N 2 ratio, and space velocity are all well captured. Differences in activity between the various catalysts, at the same operating conditions, are correlated via a Relative Catalytic Activity factor. A single correction factor per catalyst is introduced for the binding strength for the N* surface species, to account for effects of promoters and different support materials on the binding strength for the N* surface species. A novel kinetic model fitting framework was developed that integrates multiple literature datasets from different ruthenium-based catalysts with varying promoter compositions. The framework employs Covariance Matrix Adaptation Evolution Strategy with 5-fold cross-validation to achieve robust parameter estimation for high-dimensional kinetic models. A comparison with previous work on iron-based catalysts demonstrates that ruthenium-based catalysts are still significantly more expensive due to the high cost of ruthenium. • First universal kinetic model for Ru catalysts across 10 different catalysts • Valid across wide conditions: 247–465 °C, 1–200 bar, H 2 /N 2 ratios 0.05–5 • Novel dual correction factors account for catalyst activity and promoter effects. • Optimal H 2 /N 2 ratio of 0.5–2.0 identified for maximum ammonia productivity • Successfully predicts new catalyst performance using only two fitted parameters",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hilbert Keestra",
    "Kevin Hendrik Reindert Rouwenhorst",
    "Derk Willem Frederik Brilman"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.cej.2025.168541",
@@ -1707,8 +1720,9 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "提出了适用于 Ru 基催化剂的 Langmuir-Hinshelwood 型动力学模型，假设氮解离为决速步。该模型在 247–465 °C、1–200 bar、H2/N2 比为 0.05–5 的宽范围内有效。引入相对催化活性因子和单一修正因子来描述不同催化剂和助剂对 N* 表面物种结合强度的影响。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系",
   "zh_title": "各类钌基催化剂合成氨的通用动力学模型"
  },
  "10.1016/j.cej.2025.168922": {
@@ -1716,11 +1730,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1764,15 +1780,18 @@
  },
  "10.1016/j.cej.2025.168972": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Electrifying catalytic processes offers a promising route for reducing carbon emissions by replacing fossil fuel combustion with efficient, renewable energy-driven heating. Among emerging approaches, induction heating enables volumetric and spatially resolved energy delivery within catalyst beds. This study investigates the impact of induction heating on propane dehydrogenation over Pt/Al 2 O 3 and Pt-Co/Al 2 O 3 compared to conventional furnace heating. At 600 °C, induction heating increased propylene selectivity by up to 20 % and reduced side product formation, with comparable propane conversion. Spent catalyst analysis indicated a moderate reduction in coke accumulation under induction heating consistently in both Pt/Al 2 O 3 and Pt-Co/Al 2 O 3 catalysts. Propylene temperature-programmed desorption revealed a 33 °C lower desorption temperature for Pt/Al 2 O 3 , indicating enhanced desorption and reduced secondary reactions. External magnetic field tests up to 100 mT showed no measurable effect, suggesting that magnetic fields alone do not explain the observed improvements. Fluid dynamics simulations confirmed uniform bed temperatures but revealed localized hotspots at stainless steel contact points, with field intensities reaching 410 mT and heat power up to 11,185 W cm −3 . Transient simulations further demonstrated that small fluctuations in coil current can generate temperature swings up to 22 °C, introducing a dynamic heating component that may enhance surface reactivity. These findings show that induction heating improves PDH performance through a combination of localized and time-dependent thermal effects, rather than through direct magnetic interactions. • IH enhanced propylene selectivity and reduced coke formation. • Propylene desorption improves with induction heating. • IH reduces secondary reactions that form coke and C₁–C₂ side products. • IH boosts activity via localized, dynamic thermal effects, not static magnetic fields.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ben Ko",
    "Han Wang",
@@ -1781,9 +1800,9 @@
    "Roel S. Sanchez-Carrera",
    "Erdem Sasmaz"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.cej.2025.168972",
@@ -1805,7 +1824,8 @@
   "why": [
    "induction heating"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "研究比较了感应加热与传统炉加热在Pt/Al2O3和Pt-Co/Al2O3催化剂上进行丙烷脱氢的效果。在600 °C下，感应加热使丙烯选择性提高了20%，并减少了副产物生成。表征表明，感应加热下积碳减少，丙烯脱附温度降低了33 °C。模拟显示局部热点和电流波动引起的温度波动（最高22 °C）是性能提升的原因。",
+  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
   "zh_obj": "其他催化反应",
   "zh_title": "感应加热在丙烷脱氢催化中的作用"
  },
@@ -1950,15 +1970,18 @@
  },
  "10.1016/j.ceramint.2025.08.446": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Nucleation and growth kinetics of ZnAl 2 O 4 spinel phase was studied between amorphous Al 2 O 3 and crystalline ZnO oxide layers grown by atomic layer deposition on a highly curved solid Pt cores with Pt)Al 2 O 3 )ZnO) sequence (double-layered nanopillars, DLNPs). The composite pillars were annealed at 700 °C in ambient atmosphere for different durations. Thin plan-view lamellae were prepared from the cross sections of the pillars to investigate the nucleation and the growth kinetics of the ZnAl 2 O 4 spinel phase in a transmission mode scanning electron microscope (TSEM). We found that similarly as in planar geometry, the growth occurs in two stages: first, islands form and grow along the interface until creating a continuous layer; then this continuous layer thickens. However, in comparison to the planar case, the first stage is extremely shortened due to the closed geometry. The growth rate of the formed continuous ZnAl 2 O 4 phase is strongly influenced by the type of core (hollow in DLNTs, solid in DLNPs). The spinel layer grows parabolically with time, but much more slowly in DLNPs than in double-layered nanotubes (DLNTs). Computer simulations showed that the diffusion fluxes and the developing mechanical stresses in the system during the interdiffusion process explain the experimental findings.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Gergő Vecsei",
    "János J. Tomán",
@@ -1969,9 +1992,9 @@
    "Zoltán Erdélyi",
    "Csaba Cserháti"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.ceramint.2025.08.446",
@@ -1993,6 +2016,7 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "研究了原子层沉积在高度弯曲的Pt核上生长的Pt)Al2O3)ZnO双层纳米柱中，ZnAl2O4尖晶石相的成核与生长动力学。700 °C退火后，TSEM观察发现生长分为两阶段，但闭口几何结构使第一阶段显著缩短。连续相的生长速率受核心类型影响，在双层纳米柱中呈抛物线增长且比纳米管慢。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "ZnAl2O4尖晶石相在原子层沉积制备的双层Al2O3/ZnO纳米棒和纳米管中的成核与生长"
@@ -2002,11 +2026,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2050,12 +2076,14 @@
  },
  "10.1016/j.colsurfa.2025.137567": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2100,11 +2128,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2213,12 +2243,14 @@
  },
  "10.1016/j.energy.2025.138673": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2623,12 +2655,14 @@
  },
  "10.1016/j.jcat.2025.116394": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2893,12 +2927,14 @@
  },
  "10.1016/j.jelechem.2025.119425": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3018,12 +3054,14 @@
  },
  "10.1016/j.jpowsour.2025.237967": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3175,15 +3213,18 @@
  },
  "10.1016/j.matlet.2025.138890": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Self-propagating high-temperature synthesis (SHS) is a combustion-based method that involves a self-heating chain reaction, which is effective for rapidly producing materials with high melting points. Herein, ultrafast high-temperature sintering (UHS) was leveraged to ignite the SHS of titanium carbide (TiC) from titanium and graphite powders, and the heat generation and microstructural evolution during the process were investigated. The exothermic heat generated during TiC synthesis was confirmed, demonstrating that SHS was initiated in the initial stage of UHS. The incubation time before SHS ignition decreased with an increase in the UHS temperature above the melting point of titanium. Scanning electron microscopy revealed that fine TiC grains formed during SHS, which became denser under continued UHS. Additionally, molten Ti spread over the graphite particles during SHS, which transformed into plate-like TiC grains with elongated voids between them under subsequent heating by UHS. This structural feature was found to hinder further densification.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Daiki Akutagawa",
    "Toshiki Sato",
@@ -3191,9 +3232,9 @@
    "Kiyoshi Kobayashi",
    "Takahisa Yamamoto"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.matlet.2025.138890",
@@ -3215,18 +3256,21 @@
   "why": [
    "ultrafast high-temperature sintering"
   ],
+  "zh_brief": "利用超快高温烧结（UHS）引发钛和石墨粉末的自蔓延高温合成（SHS）制备碳化钛（TiC）。SHS在UHS初期被点燃，随着UHS温度升高，点火前的潜伏期缩短。SEM显示SHS形成细晶TiC，后续UHS使其致密化。熔融Ti在石墨颗粒上形成片状TiC，其间的长条状空隙阻碍了进一步致密化。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "钛碳化物超快高温烧结合成"
  },
  "10.1016/j.matlet.2025.138990": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3273,15 +3317,18 @@
  },
  "10.1016/j.matre.2025.100377": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ultrafast Joule heating (JH) has emerged as a powerful and scalable platform for rapid thermal processing of advanced nanomaterials. By delivering transient, high-intensity electrical pulses, JH induces ultrafast heating and cooling rates on the order of milliseconds, facilitating nonequilibrium phase transitions, defect modulation, and tailored nanostructural evolution. This technique offers unprecedented control over material synthesis and has been successfully applied to a broad spectrum of functional property-driven materials, including graphene, single-atom catalysts, transition metal carbides, oxides, nitrides, phosphides, and chalcogenides, as well as complex multicomponent frameworks such as high-entropy alloys. This review systematically explores the principles governing JH, highlights recent advances in its application to diverse materials systems, and critically assesses current limitations related to process uniformity, scalability, and mechanistic understanding. Particular attention is given to its intrinsic advantages, including energy efficiency, fast rate, environmental sustainability, and compatibility with sustainable manufacturing. Finally, we propose guidance for expanding the utility of JH for new materials discovery, including integration with in-situ diagnostics, theoretical compatibility and data-driven optimization of synthesis to effectively correlate structure-property relationships.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yuyu Liu",
    "Ruting Lin",
@@ -3293,9 +3340,9 @@
    "Ibrahim Saana Amiinu",
    "Tingting Liu"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.matre.2025.100377",
@@ -3317,6 +3364,7 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "综述了超快焦耳热（JH）在功能纳米材料合成中的应用，涵盖石墨烯、单原子催化剂、过渡金属碳化物等材料。JH能诱导毫秒级的超快加热冷却，实现非平衡相变和结构调控。文章讨论了其能量效率、环境可持续性等优势，并提出了结合原位诊断和数据驱动优化以发现新材料的建议。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控",
   "zh_title": "焦耳加热技术用于功能纳米材料合成：近期进展、挑战与展望"
@@ -3413,12 +3461,14 @@
  },
  "10.1016/j.mcat.2025.115462": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3487,15 +3537,18 @@
  },
  "10.1016/j.mssp.2025.109829": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "A novel method has been developed for the deposition of high-κ dielectrics on graphene, which uses a nonstoichiometric aluminum oxide (AlOX) protective layer. This approach employs mild plasma conditions to directly grow a thin AlOX layer on graphene, followed by the deposition of aluminum oxide (Al 2 O 3 ) via plasma-enhanced atomic layer deposition (PEALD) without breaking the vacuum. A sub-3 nm AlOX layer provides effective protection for graphene and facilitates the formation of functional groups, thereby enabling the deposition of high-quality dielectrics without damaging the graphene. Top-gated graphene field-effect transistor (GFET) devices fabricated via this method demonstrated an electric field strength above 11 MV/cm and an equivalent oxide thickness (EOT) of less than 5 nm on a wafer scale. This deposition technique addresses a significant challenge in transitioning next-generation graphene-based electronics from the laboratory to industrial production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Sarah Riazimehr",
    "Ardeshir Esteki",
@@ -3508,9 +3561,9 @@
    "Katie Hore",
    "Harm Knoops"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.mssp.2025.109829",
@@ -3538,7 +3591,8 @@
   "why": [
    "Atomic Layer Deposit"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "开发了一种在石墨烯上沉积高κ介电层的新方法，使用非化学计量比氧化铝（AlOX）保护层。该方法在温和等离子条件下直接生长AlOX层，随后在真空不中断的情况下进行等离子增强原子层沉积（PEALD）Al2O3。制备的顶栅石墨烯场效应晶体管在晶圆尺度上实现了超过11 MV/cm的电场强度和小于5 nm的等效氧化层厚度。",
+  "zh_method": "电场辅助，未证实焦耳供热",
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
   "zh_title": "等离子体增强原子层沉积 Al2O3 在石墨烯上通过原位沉积层"
  },
@@ -3579,12 +3633,14 @@
  },
  "10.1016/j.psep.2025.107880": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3915,15 +3971,18 @@
  },
  "10.1021/acscatal.5c07131": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Alkali metals are recognized as effective additives to enhance catalytic activity in heterogeneous catalysis. Nevertheless, the traditional alkali metal promotion effect as electron donors cannot circumvent the linear scaling relationship between intricate reaction intermediates, and achieving highly efficient catalytic processes is still challenging. Herein, we propose an alkali metal template effect for the Co–Mo ensemble, which induces phase transition and intermetallic nanoparticle exsolution to construct a metal-nitride heterostructure. Detailed studies reveal that alkali metal atoms are embedded into the lattice of the oxide precursor rather than being electrostatically deposited over its surface, thus weakening the metal–oxygen interaction and facilitating nanoparticle exsolution from host materials. The prepared Co 3 Mo/Co 2 Mo 3 N catalyst delivers a superior activity of 12.3 mmol·g cat –1 ·h –1 for ammonia synthesis at 400 °C and 0.9 MPa, outperforming the well-recognized Co 3 Mo 3 N monophase nitride. We demonstrate that the enhanced activity is attributed to a dual-site mechanism for the independent activation of reactants on nitride and intermetallic surfaces rather than an electronic effect. These findings open perspectives for understanding the potential promotion effect of alkali metals and surpassing the Sabatier optimality.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Shuairen Qian",
    "Kai Feng",
@@ -3943,8 +4002,8 @@
    "Yi Cheng"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-25",
   "doi": "10.1021/acscatal.5c07131",
@@ -3966,6 +4025,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "提出碱金属模板效应诱导 Co-Mo 团簇相变和金属间纳米颗粒析出，构建金属-氮化物异质结构。研究表明碱金属原子嵌入氧化物前驱体晶格而非表面静电沉积，从而削弱金属-氧相互作用。Co3Mo/Co2Mo3N 催化剂在 400 °C 和 0.9 MPa 下活性达 12.3 mmol·g cat−1·h−1，优于单相氮化物。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "碱金属模板效应调控双位点钴-钼催化剂构建用于高效氨合成"
@@ -4291,12 +4351,14 @@
  },
  "10.1038/s44160-025-00933-1": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6475,12 +6537,14 @@
  },
  "10.2139/ssrn.5777285": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6556,12 +6620,14 @@
  },
  "10.2139/ssrn.5798935": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6913,15 +6979,18 @@
  },
  "10.3103/s1061386225700256": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In this study, MnxNi1–xFe2O4 (x = 0 to 1) nanoparticles (MNPs) were prepared by a sol–gel auto-combustion route. The X-ray diffraction (XRD) analysis, Fourier transform infrared (FT-IR) spectroscopy, transmission electron microscopy (TEM), and vibrating sample magnetometer (VSM) measurements are used to investigate the effect of Mn substitution on the structure and magnetic properties of the samples. The XRD patterns confirmed that all the samples show a cubic spinel structure; further, the spinel structure of ferrite is validated by FTIR. As Mn2+ ion concentration increases, the peak of the Fe–O bond moves to a lower frequency at tetrahedral sites. Transmission electron microscopy (TEM) analysis depicted particle sizes ranging from 47.70 ± 2.6 to 56.74 ± 3.1 nm with increasing Mn2+ substitution. The saturation magnetization (Ms) increased from 26.21 to 34.95 emu/g, while the coercivity (Hc) remained negligible with increasing Mn2+ content. The self-heating characteristics of MnxNi1–xFe2O4 (x = 0 to 1) MNPs in an AC magnetic field were evaluated by specific absorption rate (SAR) and intrinsic loss power, both of which were presented with varying MNPs composition and field amplitudes. The optimized Mn0.2Ni0.8Fe2O4 MNPs can be used as a promising candidate for hyperthermia applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "M. B. Shelar",
    "K. M. Patil",
@@ -6933,9 +7002,9 @@
    "M. S. Kore",
    "A. V. Gaikwad"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-27",
   "doi": "10.3103/s1061386225700256",
@@ -6957,6 +7026,7 @@
   "why": [
    "Induction Heating"
   ],
+  "zh_brief": "通过溶胶-凝胶自燃烧法制备了MnxNi1–xFe2O4纳米颗粒，研究了Mn取代对结构和磁性的影响。随着Mn2+浓度增加，饱和磁化强度从26.21增加到34.95 emu/g，优化后的Mn0.2Ni0.8Fe2O4纳米颗粒在交流磁场中表现出优异的自加热特性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控",
   "zh_title": "Mn–Ni取代铁氧体纳米粒子的微观结构、光学和磁性能对感应加热应用的影响"

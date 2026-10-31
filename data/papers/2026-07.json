@@ -2114,14 +2114,16 @@
  },
  "10.1007/s11771-026-6362-7": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2357,26 +2359,29 @@
  },
  "10.1016/j.apsusc.2026.166554": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "• First-principles investigation of TDMAH adsorption on pristine and oxygen-functionalized graphene surfaces. • DFT analysis shows that COOH, OH, and epoxide groups can enhance surface reactivity. • Proton-donating COOH/OH sites promote strong chemisorption, while epoxide groups act as anchoring sites during the initial half-cycle of ALD. • Oxygen functionalities increase charge transfer, strengthen interfacial Hf–O bonding and can provide nucleation centres. • Reactivity contrast revealed by DFT explains the origin of uniform and selective ALD nucleation on modified graphene. Hafnium oxide (HfO 2 ) is a leading high-κ dielectric for graphene-based field-effect transistors yet achieving conformal and defect-free HfO 2 films on graphene remains challenging. The chemical inertness of pristine graphene suppresses precursor chemisorption during atomic layer deposition (ALD), resulting in discontinuous coverage and increased gate-leakage currents. Two-photon laser oxidation (2PLO) is a promising approach to introduce oxygen-containing groups that enhance surface reactivity, but a systematic atomistic comparison of TDMAH adsorption on pristine graphene and oxygen-functionalized graphene has not yet been reported. This study employs first-principles density functional theory (DFT) to investigate the adsorption behaviour of tetrakis(dimethylamido)hafnium (TDMAH) on graphene during the initial half-cycle of ALD. Adsorption energy, charge density difference (CDD), projected density of states (PDOS) and Bader charge analyses reveal that pristine graphene exhibits weak physisorption, hydroxyl and carboxyl groups promote strong chemisorption, whereas epoxide groups show intermediate behaviour. A higher density of oxygen functionalities is suggested to provide more nucleation sites and uniform HfO 2 growth. These findings explain the nucleation delay on inert region and define a practical selectivity window during early growth stages. The results provide an atomistic framework for interpreting selective ALD behaviour on graphene and support process optimisation for dielectric integration in advanced nanoelectronics and quantum applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Atiye Khosravi",
    "Xichun Luo",
    "Wenkun Xie",
    "Xiaolei Zhang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-07",
   "doi": "10.1016/j.apsusc.2026.166554",
@@ -2398,8 +2403,9 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "采用密度泛函理论研究四(二甲氨基)铪 (TDMAH) 在原位与激光功能化石墨烯表面的吸附行为。研究发现 COOH、OH 和环氧基团能增强表面反应性，其中 COOH/OH 促进强化学吸附，环氧基团在 ALD 初始半周期起锚定作用。氧官能团增加电荷转移，强化 Hf-O 键合并提供成核中心。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
+  "zh_obj": "其他催化反应；涉及碳材料、原子层沉积",
   "zh_title": "TDMAH 在原始和激光功能化石墨烯上的吸附的第一性原理机制：面向 HfO2 面积选择性原子层沉积"
  },
  "10.1016/j.apsusc.2026.166626": {
@@ -2548,14 +2554,16 @@
  },
  "10.1016/j.cclet.2025.111820": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2782,14 +2790,16 @@
  },
  "10.1016/j.cej.2026.177294": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2833,14 +2843,16 @@
  },
  "10.1016/j.cej.2026.177330": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2883,14 +2895,16 @@
  },
  "10.1016/j.cej.2026.177425": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3379,14 +3393,16 @@
  },
  "10.1016/j.ces.2026.123852": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3645,14 +3661,16 @@
  },
  "10.1016/j.colsurfa.2026.140165": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4039,14 +4057,16 @@
  },
  "10.1016/j.est.2026.123547": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4124,14 +4144,16 @@
  },
  "10.1016/j.fuel.2026.140557": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4174,14 +4196,16 @@
  },
  "10.1016/j.fuel.2026.140641": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4557,14 +4581,16 @@
  },
  "10.1016/j.jallcom.2026.189640": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5034,14 +5060,16 @@
  },
  "10.1016/j.jechem.2026.03.053": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5311,14 +5339,16 @@
  },
  "10.1016/j.jre.2025.07.001": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5362,14 +5392,16 @@
  },
  "10.1016/j.jssc.2026.125936": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5558,17 +5590,20 @@
  },
  "10.1016/j.nxmate.2026.102468": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Decarbonizing ammonia production requires catalyst and reactor choices that sustain high intrinsic rates under lower and flexible operating conditions typical of green hydrogen supply. Here, a physically grounded Langmuir–Hinshelwood–Hougen–Watson (LHHW) sensitivity framework links descriptor-level catalyst properties to reactor operating choices for green ammonia synthesis. Across 320–440 °C and 25–140 bar, control of ln(rate) is concentrated in a physically interpretable subset of parameters. Global rank-correlation analysis identifies the effective activation energy E a , the pre-exponential factor A 0 for N₂ activation, and the adsorption enthalpy–entropy pairs for H₂ and NH₃ as the dominant kinetic levers. Their mean ∣ PRCC ∣ values are 0.78 for E a , 0.49 for ln A 0 , and 0.40–0.48 for H₂/NH₃ adsorption. Entropy and pre-exponential factors therefore emerge as design handles comparable to adsorption enthalpy, highlighting the importance of supports and promoters that tune adsorbate phase space and effective attempt frequencies, not only binding energies. The same framework also quantifies the leverage of operating variables. Within the selected LHHW ensemble and operating grid, temperature is the dominant control variable, with a Sobol first-order index of 80.7%. NH₃ mole fraction is the second most important variable, with an index of 15.7%. By contrast, pressure and inlet H₂/N₂ ratio contribute only 2.5% and 0.1%, respectively, to the variance of the log-rate index, indicating that they act mainly as weak, nearly additive modifiers. Spatial interpretation in an exothermic adiabatic bed suggests a shift from Eₐ/H₂-controlled kinetics at the cool inlet to NH₃-controlled kinetics at the hot outlet, providing a descriptor-based hypothesis for axially graded catalyst zoning. Together, these results provide a quantitative, physically interpretable map from catalyst descriptors to operating knobs, enabling principled co-design of catalysts and reactors for green ammonia synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Salem M. Alsaedi",
    "Keeran Ward",
@@ -5576,8 +5611,8 @@
    "Valerie Dupont"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-07",
   "doi": "10.1016/j.nxmate.2026.102468",
@@ -5599,6 +5634,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "基于 LHHW 框架分析了 320–440 °C 和 25–140 bar 条件下的动力学敏感性。温度是控制对数速率的主要变量，有效活化能和吸附焓熵对是关键动力学杠杆。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "氨合成热力学和动力学敏感性研究"
@@ -5640,14 +5676,16 @@
  },
  "10.1016/j.proci.2026.106208": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5758,14 +5796,16 @@
  },
  "10.1016/j.renene.2026.126210": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5889,14 +5929,16 @@
  },
  "10.1016/j.seppur.2026.137579": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5976,14 +6018,16 @@
  },
  "10.1016/j.seppur.2026.137863": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -9242,16 +9286,18 @@
  },
  "10.1039/d6ra05773j/v1/review1": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -9573,14 +9619,16 @@
  },
  "10.1063/5.0348465": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -9852,17 +9900,20 @@
  },
  "10.1134/s0040579526600920": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Abstract— The article examines the possibility of producing ammonia from natural gases ballasted with inert components using the example of a nitrogen–methane mixture with a nitrogen content from 0 to 43 vol %. The processes of vapor and autothermal conversion, the stages of preparation of the nitrogen–hydrogen mixture, and the process of ammonia synthesis based on thermodynamic data are considered.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "M. Kh. Sosna",
    "D. A. Kovaleva",
@@ -9870,8 +9921,8 @@
    "A. M. Kozlov"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-07-23",
   "doi": "10.1134/s0040579526600920",
@@ -9891,8 +9942,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "ammonia synthesis"
   ],
+  "zh_brief": "文章考察了利用含惰性组分的天然气生产氨气的可能性，以氮含量 0–43 vol % 的氮-甲烷混合物为例，分析了蒸汽和自热转化过程及氨合成过程。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "使用不同氮含量的气体进行氨合成生产的研究"
@@ -11126,14 +11178,16 @@
  },
  "10.2172/3685157": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -11279,14 +11333,16 @@
  },
  "10.25500/edata.bham.00001677": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "A mixture of XRD, Raman, TGA data and associated metadata to support the figures and analysis presented in the referenced manuscript",
@@ -11766,17 +11822,20 @@
  },
  "10.31635/ccschem.026.202607688": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Primary ammonia synthesis via the Haber–Bosch process operates under harsh conditions (15–25 MPa, 400–500 °C), largely constrained by the high dissociation energy of the N≡N triple bond and the scaling relations between adsorption and transition-state energies. Here, we present ambient-condition NH3 synthesis driven by MeV-level electron beam irradiation. Optimizing the beam parameters in a catalyst-free system alone achieves an industrially relevant yield of 0.14 μmol·L−1·s−1, a two-order-of-magnitude enhancement compared to conventional electrocatalytic/photocatalytic methods. Macroscopic-microscopic Monte Carlo simulations identify that the reaction initiation is primarily driven by a cascade of low-energy secondary electrons (150–250 eV). Upon further introduction of Ru nanoclusters, irradiation enables the catalytic system to achieve a peak yield 2.8-fold higher than the maximum yield of the noncatalytic baseline. Density functional theory calculations reveal that the Ru catalyst acts as an energy ladder, lowering the N2 dissociation barrier by ∼32.7 kcal·mol−1 compared to the gas phase and stabilizing intermediates via a radical-mediated surface pathway (N· + H·). This combined physical-chemical insight informed an electron-beam scale-up strategy, showing promising energy-performance potential under mild conditions. As the system can be directly powered by renewable electricity, our work presents a simple, decentralized, and high-efficiency alternative for sustainable ammonia production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Zijian Lin",
    "Zhaoqing Chu",
@@ -11798,9 +11857,9 @@
   "id": "10.31635/ccschem.026.202607688",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "CCS Chemistry",
-  "tier": "direct",
+  "tier": "background",
   "title": "Ambient Ammonia Production from Nitrogen and Hydrogen Gases Enabled by Dissociative High-Energy Electron Impact Interactions",
   "top": false,
   "topics": [
@@ -11810,10 +11869,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮；涉及Ru/钌体系",
   "zh_title": "由氮和氢气体在解离高能电子撞击相互作用下实现的常温氨生产"
  },
  "10.3389/fchem.2026.1864044": {
@@ -12436,14 +12495,16 @@
  },
  "10.46670/jsst.2026.35.4.330": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

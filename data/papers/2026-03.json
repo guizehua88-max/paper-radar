@@ -837,11 +837,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1055,11 +1057,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1446,11 +1450,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1492,11 +1498,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1546,11 +1554,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1698,11 +1708,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2122,11 +2134,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2166,11 +2180,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2277,17 +2293,20 @@
  },
  "10.1016/j.electacta.2026.148256": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Herein, we demonstrate the Ir growth on conductive carbon paper (CP) by Atomic Layer Deposition (ALD) for the preparation of HER electrocatalysts with precise control over the Ir loading and morphology, from single atoms to nanoparticles. Importantly, ALD electrode fabrication circumvents intermediate nanoparticle synthesis, transfer, and binder application steps, required for conventional sample preparation methods, allowing single step fabrication process. The electrocatalytic activity of the resulting Ir/CP electrodes was assessed in alkaline media (KOH) towards HER by the systematic variation of the number of ALD cycles. The results suggested the electrocatalytic performance to be an interplay between different catalytic parameters including, electrochemically active surface area, turnover frequency and mass activity. In particular, the Ir/CP electrode decorated with 300 Ir cycles exhibited superior catalytic performance, namely, lowest overpotential (32.7 mV), Tafel slope (80.6 mV dec -1 ), and minimal charge transfer resistance (0.7 Ω). A stability test for 60 h revealed a partial surface oxidation and Ir aggregation, yet it did not affect significantly the catalytic performance (∼15 mV increase in overpotential value). Overall, we present the ALD fabrication of Ir/CP electrodes as an efficient and durable HER catalyst in alkaline media, demonstrating the potential of ALD for designing high performance binder-free electrodes.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jhonatan Rodriguez-Pereira",
    "Bilal Bawab",
@@ -2297,9 +2316,9 @@
    "Raul Zazpe",
    "Jan M. Macak"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-03",
   "doi": "10.1016/j.electacta.2026.148256",
@@ -2321,7 +2340,8 @@
   "why": [
    "Atomic layer deposit"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "通过原子层沉积在导电碳纸上生长 Ir，制备了具有精确控制 Ir 负载和形貌（从单原子到纳米颗粒）的析氢反应电催化剂。300个 ALD 周期的 Ir/CP 电极表现出最佳性能，过电位最低（32.7 mV）、塔菲尔斜率最低（80.6 mV dec-1）且电荷转移电阻最小（0.7 Ω）。60小时稳定性测试显示部分表面氧化和 Ir 聚集，但性能影响较小（过电位增加约15 mV）。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "析氢反应；涉及碳材料、原子层沉积",
   "zh_title": "原子层沉积 Ir 纳米结构在碳纸上用于碱性析氢：无粘结电极方法"
  },
@@ -2368,11 +2388,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2419,11 +2441,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2474,11 +2498,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2529,11 +2555,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2675,11 +2703,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2720,11 +2750,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2809,11 +2841,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3226,11 +3260,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3272,17 +3308,20 @@
  },
  "10.1016/j.matdes.2026.115640": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The precise design of metal-oxide interfaces in heterogeneous catalysts is crucial for optimizing activity and selectivity in reactions such as ethanol decomposition. In this study, Pt_ZnO_CeO 2 composite catalysts were synthesized via atomic layer deposition (ALD) with systematically varied ZnO loadings to investigate the influence of support structure on platinum nucleation, interfacial properties, and catalytic performance. High-resolution TEM, XPS, ICP-MS reveal that ZnO strongly affects Pt growth, leading to non-monotonic trends in nanoparticle size, dispersion, and loading. These structural effects translate into distinct electronic interactions at Pt/CeO 2 , ZnO/CeO 2 and Pt/ZnO interfaces, as reflected by XPS analysis. To probe the catalytic relevance of these interfaces, ethanol decomposition was employed as an interface-sensitive reaction. The results demonstrated that moderate ZnO loading (3–5 cycles) generated a Pt/ZnO/CeO 2 interface, that significantly increased ethanol conversion and promoted C 1 -product formation. At higher ZnO coverage (30 cycles), the catalyst surface was dominated by Pt/ZnO interactions, resulting in reduced C–C bond cleavage activity. These trends were supported by in situ DRIFTS by identifying the suppression of acetate formation and promotion of aldehyde intermediates at Pt-ZnO surfaces. These findings underscore the critical role of interfacial engineering via ALD in modulating catalyst structure, metal-support interactions, and reaction pathways.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Anastasiia Efremova",
    "Gergő Ballai",
@@ -3294,9 +3333,9 @@
    "Ákos Kukovecz",
    "Zoltán Kónya"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-03",
   "doi": "10.1016/j.matdes.2026.115640",
@@ -3318,6 +3357,7 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "通过原子层沉积合成 Pt_ZnO_CeO2 复合催化剂，系统研究了 ZnO 负载对铂成核、界面性质和催化性能的影响。ZnO 负载影响 Pt 生长，导致纳米颗粒大小、分散度和负载的非单调趋势。乙醇分解实验表明，中等 ZnO 负载（3–5 cycles）生成的 Pt/ZnO/CeO2 界面显著提高了乙醇转化率并促进 C1 产物形成。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "Pt–ZnO–CeO2 原子层沉积界面工程"
@@ -3327,11 +3367,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3458,11 +3500,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3502,11 +3546,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3555,11 +3601,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3604,17 +3652,20 @@
  },
  "10.1016/j.mtcata.2025.100134": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The electrification of the chemical industry is a crucial step toward moving away from fossil fuels and achieving a more sustainable energy future. In this context, induction heating has emerged as a promising strategy to enhance catalytic performance in both metal-free carbon catalysts and metal-supported systems. This perspective emphasizes its strong potential, showing that induction heating improves performance not only through localized thermal effects but also through possible non-thermal contributions from alternating current magnetic fields. These fields can influence radical lifetimes, spin states, adsorption–desorption equilibria, and defect reactivity, thereby enabling reaction pathways and selectivities that remain inaccessible under conventional heating. Coupling carbon and supported metal catalysts with induction heating also offers an effective way to mitigate deactivation, as defect sites can act as adsorption centers that, under magnetic field stimulation, promote targeted transformations. Direct evidence for non-thermal contributions to catalytic performance remains scarce, mainly due to the limited availability of operando investigations. Nevertheless, the substantial gains in activity and selectivity observed under induction heating cannot be explained solely by localized thermal effects, suggesting an additional non-thermal influence. These findings point toward new opportunities for designing next-generation catalysts with improved operability and stability. In addition, the combined evidence of localized thermal effects, non-thermal field interactions, and the advantages of carbon-based catalysts shows that the synergy between advanced material design and induction heating provides a powerful pathway for electricity-driven catalysis, with significant implications for decarbonizing the chemical industry and advancing the energy transition.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Spyridon Zafeiratos",
    "Gilles Ulrich",
@@ -3622,9 +3673,9 @@
    "Christophe Michon",
    "Cuong Pham-Huu"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-03",
   "doi": "10.1016/j.mtcata.2025.100134",
@@ -3652,8 +3703,9 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "综述了感应加热在金属碳催化剂和金属载体体系中的应用潜力，指出其不仅通过局部热效应，还可能通过交变磁场产生的非热贡献（如影响自由基寿命、自旋态和吸附-脱附平衡）来提升催化性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "通用催化方法",
   "zh_title": "感应加热催化过程 electrification：非热磁场的潜在作用"
  },
  "10.1016/j.mtchem.2026.103385": {
@@ -3733,11 +3785,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3850,17 +3904,20 @@
  },
  "10.1016/j.scenv.2025.100309": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The synthesis of ammonia from molecular nitrogen and hydrogen under ambient conditions remains one of the greatest challenges in chemical method development. Notable successes have been achieved using transition metal complexes. However, the design of metal-free catalysts for nitrogen activation and ammonia synthesis under ambient conditions remains an active area of research. Various types of carbenes — including N-heterocyclic carbenes (NHCs), cyclic (alkyl)(amino)carbenes (CAACs), bicyclic (alkyl)(amino)carbenes (BICAACs), P-heterocyclic carbenes (PHCs), and others — have emerged as frontrunners for this purpose. Nevertheless, the nitrogen activation efficiency of pristine carbon allotropes (PCAs) remains largely unexplored. The present study investigates the nitrogen activation efficiency and ammonia formation capacity of several newly synthesized PCAs. Our results show that the PCAs examined here are highly effective for nitrogen activation. However, only one PCA demonstrates efficacy for ammonia formation at room temperature.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Amrita Pathak",
    "Saswati Garai",
@@ -3868,8 +3925,8 @@
    "Arijit Bag"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-03",
   "doi": "10.1016/j.scenv.2025.100309",
@@ -3895,10 +3952,11 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "ammonia synthesis"
   ],
+  "zh_brief": "研究了多种新合成原始碳同素异形体（PCA）的氮活化效率和氨形成能力。结果显示这些PCA对氮活化非常有效，但只有一种PCA在室温下表现出氨形成能力。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "常温下氨生产突破：探索原始碳同素异形体作为催化剂"
  },
  "10.1016/j.seta.2026.104894": {
@@ -3906,11 +3964,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3949,17 +4009,20 @@
  },
  "10.1021/acs.chemmater.5c03255": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Continuous device scaling has driven the demand for nanoscale patterning, where area-selective atomic layer deposition (AS-ALD) offers a promising bottom-up alternative to conventional lithography. Here, we investigate small molecular inhibitors (SMIs), tri(dimethylamino)phenylsilane (TDMAPS) with an aminosilane headgroup and trimethoxyphenylsilane (TMPS) with a methoxysilane headgroup, for selective Ru ALD. Combined density functional theory simulations and experimental analysis reveal that the headgroup chemistry plays a pivotal role in determining inhibition performance. On SiO 2, both SMIs react via condensation with surface –OH groups, but TDMAPS follows a kinetically favorable pathway with lower activation energies, enabling rapid and robust passivation. On Cu, the two SMIs follow distinct pathways that prevent stable passivation, enabling Ru thin film growth. TDMAPS tends to desorb due to its high kinetic barriers, while TMPS undergoes decomposition through an energetically accessible pathway. Consequently, TDMAPS sustained perfect selectivity ( S = 1.00) up to 150 cycles on SiO 2 /Cu, whereas TMPS allowed gradual nucleation of Ru with S decreasing from 1.00 to 0.25. These findings demonstrate that aminosilane-based inhibitors are superior to methoxysilane analogues in both kinetics and durability, providing valuable design principles for inhibitor-assisted AS-ALD in nanoscale patterning applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jae Hun Hwang",
    "Jee-Eun Choi",
@@ -3973,9 +4036,9 @@
    "Won Bo Lee",
    "Youngkwon Kim"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-03-02",
   "doi": "10.1021/acs.chemmater.5c03255",
@@ -3997,6 +4060,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "研究了三(二甲氨基)苯基硅烷（氨基头基）和三甲氧基苯基硅烷（甲氧基头基）两种小分子抑制剂在面积选择性原子层沉积 Ru 中的作用。密度泛函理论模拟和实验分析表明，氨基头基的化学性质决定了更好的抑制性能。在 SiO2 上，TDMAPS 通过更有利的动力学路径实现快速钝化，在 SiO2/Cu 上保持完美的选择性（S=1.00）长达150个循环，而 TMPS 导致选择性从1.00下降到0.25。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
   "zh_title": "使用苯基硅烷抑制剂进行区选择原位层沉积 Ru：氨基和甲氧基头组的比较"
@@ -4692,11 +4756,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4756,11 +4822,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5433,25 +5501,28 @@
  },
  "10.1627/jpi.69.99": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia synthesis from nitrogen oxides (NOx) offers a promising alternative to conventional N2–H2 processes by bypassing the energy challenge of N≡N bond cleavage while simultaneously processing major air pollutants. This review outlines our recent progress in the NOx-To-Ammonia (NTA) reaction using CO or H2 as a reductant. Catalysts based on Pt/TiO2, Cu/CeO2, and Ni/CeO2 revealed distinct mechanistic pathways involving formate and isocyanate (NCO) intermediates rather than direct NO reduction. Optimization of the TiO2 crystalline phase and preparation improved Pt dispersion and boosted activity. Cu/CeO2 achieved good low-temperature performance without requiring precious metals. Ni/CeO2 and bimetallic Ni–Pt/TiO2 catalyzed an NCO-mediated route. Moreover, partially reduced Pt/TiO2–δ nearly eliminated N2O byproducts. These advances demonstrate that rational catalyst design targeting key intermediates enables selective low-temperature ammonia synthesis from NOx, so promoting a sustainable strategy for energy-efficient nitrogen utilization.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yuichi MANAKA",
    "Chandan CHAUDHARI",
    "Tetsuya NANBA"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-03-01",
   "doi": "10.1627/jpi.69.99",
@@ -5473,6 +5544,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "综述了以CO或H2为还原剂的NOx-To-Ammonia反应进展。Pt/TiO2、Cu/CeO2和Ni/CeO2催化剂涉及甲酸盐和异氰酸酯中间体路径而非直接NO还原。优化TiO2晶相和制备提高了Pt分散度。Cu/CeO2在无需贵金属的情况下实现了良好的低温性能。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "一氧化氮合成氨的催化剂设计策略"
@@ -6288,11 +6360,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

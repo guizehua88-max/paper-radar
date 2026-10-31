@@ -540,16 +540,18 @@
  },
  "10.1007/s41981-025-00371-2": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -622,12 +624,14 @@
  },
  "10.1016/j.apsusc.2025.164667": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -744,17 +748,20 @@
  },
  "10.1016/j.cattod.2025.115535": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Nd 2 O 3 -supported Fe, Co, and Ni monometallic catalysts were synthesised and used in the ammonia synthesis reaction. The effect of active metal on the physicochemical and catalytic properties was investigated using, e.g., TPR, TPD, XRD, and STEM. The results showed that the kind of active metal used is the factor determining the catalytic activity in ammonia synthesis. The highest ammonia formation rate was exhibited by Co/Nd 2 O 3 , whereas the highest intrinsic reaction rate (reflected as the TOF value) was shown by Fe/Nd 2 O 3 . Ni/Nd 2 O 3 showed almost no activity in ammonia synthesis. The high ammonia formation rate observed for Co/Nd 2 O 3 was attributable to the well-distributed Co nanoparticles (NPs) on the Nd 2 O 3 support. The Co NPs were less prone to sintering than Fe NPs under reaction conditions. Thus, although showing lower TOF than Fe NPs, the better distribution of Co NPs resulted in an improved ammonia formation rate. These findings highlight the importance of rational catalyst design for improving ammonia synthesis efficiency.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hubert Ronduda",
    "Małgorzata Lemańska",
@@ -764,8 +771,8 @@
    "Wioletta Raróg-Pilecka"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.cattod.2025.115535",
@@ -787,6 +794,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "合成了 Nd2O3 支撑的 Fe、Co 和 Ni 单金属催化剂用于氨合成反应。通过 TPR、TPD、XRD 和 STEM 等方法研究了活性金属对物理化学性质和催化性能的影响。结果表明 Co/Nd2O3 表现出最高的氨生成速率，而 Fe/Nd2O3 显示出最高的本征反应速率（TOF 值）。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "Nd2O3 支撑催化剂上活性金属（Fe、Co 和 Ni）对氨合成活性的作用"
@@ -835,12 +843,14 @@
  },
  "10.1016/j.cej.2025.171697": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -971,17 +981,20 @@
  },
  "10.1016/j.cep.2025.110624": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This work evaluates the potential of microchannel reactors (MCR) for ammonia synthesis using ruthenium-based catalysts through computational fluid dynamics (CFD) modelling. A comprehensive CFD framework was developed that integrates mass and energy balances with modified Temkin-Pyzhev kinetics, and validated against experimental data from a packed-bed reactor (PBR) with less than 5% error. The validated model was then applied to MCR configurations to assess the influence of operating conditions and reactor geometry. Results show that MCRs achieve up to 165 % higher ammonia productivity than PBRs under optimal conditions (100 bar, 430°C), owing to the enhanced heat and mass transfer. Parametric studies identified temperature as the most critical operating parameter, while pressure had a secondary effect. Furthermore, increasing the catalytic layer thickness improved ammonia yields, although there are potential mass-transfer limitations. These findings demonstrate that MCRs can provide significant energy-efficiency gains and support decentralised ammonia production, highlighting their promise as a sustainable alternative to conventional Haber-Bosch technology.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Leonardo Bravo",
    "Camilo Rengifo Gutierrez",
@@ -989,8 +1002,8 @@
    "Manuel Figueredo"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.cep.2025.110624",
@@ -1012,18 +1025,21 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "通过计算流体动力学 (CFD) 建模评估了微通道反应器 (MCR) 在 Ru 基催化剂合成氨中的潜力。建立了包含质量与能量平衡及修正 Temkin-Pyzhev 动力学的综合 CFD 框架，并在 5% 误差内与实验数据验证。结果表明在 100 bar 和 430°C 条件下，MCR 的氨产率比固定床反应器 (PBR) 高达 165%。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "基于 Ru 催化剂的微通道反应器氨合成 CFD 评估"
  },
  "10.1016/j.cep.2025.110643": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1066,12 +1082,14 @@
  },
  "10.1016/j.ces.2025.122403": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1148,15 +1166,18 @@
  },
  "10.1016/j.elecom.2025.108091": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This study investigates how Al 2 O 3 and V 2 O 5 coatings deposited on nickel foam by atomic layer deposition (ALD) modifies its electrochemical phase evolution in alkaline media. Phase transitions and surface kinetics were characterized using cyclic voltammetry (CV), in situ X-ray diffraction (XRD), electrochemical impedance spectroscopy (EIS), and Tafel analysis. Bare NF exhibits a positive cathodic peak shift for α-Ni(OH) 2 formation over 100 CV cycles attributed to surface activation. NF coated with Al 2 O 3 (NF-A) showed a larger shift (+90 mV) indicating enhanced charge transfer kinetics and reduced energy barrier. In contrast, V 2 O 5 -coated NF (NF-V) showed no shift suggesting a suppressed surface kinetics. These shifts disappear at higher scan rates suggesting a kinetic effect rather than a diffusion-induced behavior. Tafel and EIS measurements show that NF-A has the lowest charge transfer resistance, while NF-V exhibits the largest resistance. In situ XRD provides direct evidence for α-Ni(OH) 2 formation during extended cycling under alkaline conditions. These results demonstrate that different ALD coatings can selectively modulate surface kinetics and phase accessibility of nickel foam which can contribute to the design of nickel-based electrodes for phase-specific electrochemical applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Samutr Assavachin",
    "Surat Prempluem",
@@ -1164,9 +1185,9 @@
    "Sukritta Janprakhon",
    "Montree Sawangphruk"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.elecom.2025.108091",
@@ -1188,7 +1209,8 @@
   "why": [
    "atomic layer deposit"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "研究通过原子层沉积在泡沫镍上制备Al2O3和V2O5涂层，利用循环伏安、原位XRD等表征碱性介质下的相变与表面动力学。结果表明，Al2O3涂层显著增强电荷转移动力学，而V2O5涂层抑制表面动力学，原位XRD证实了α-Ni(OH)2的形成。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "原子层沉积对镍泡沫镍氢氧化物相变的影响"
  },
@@ -1329,11 +1351,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1405,15 +1429,18 @@
  },
  "10.1016/j.eng.2025.10.037": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Sub-nanometer metallic clusters have attracted considerable interest owing to their high surface area and size-dependent properties. However, their high surface energies cause thermal instability, leading to aggregation and sintering that limit practical applications. In this study, we obtained sub-nanometer Pt clusters (average size ∼0.76 nm) with highly stable configuration, deposited on CoO x nano-islands by area-selective deposition (ASD). The Pt-CoO x structures exhibited low Pt loading and high deposition selectivity. During ASD, Pt clusters were selectively deposited on CoO x regions, where strong metal-support interactions (MSI) between Pt and CoO x supported effective anchoring. Subsequent H 2 post-treatment promoted electron transfer between Pt and CoO x as well as Pt cluster migration from the Al 2 O 3 substrate to the CoO x nano-islands, particularly at the Al 2 O 3 -CoO x interface, further improving selectivity. Potential simulations by machine learning revealed directional Pt migration and provided atomic-level insights into stabilization mechanisms. After high-temperature (at 600 °C) aging, Pt clusters remained highly dispersed without noticeable sintering, owing to the synergistic effects of physical isolation by CoO x nano-islands and strong MSI. This synergistic strategy holds practical relevance for industrial applications and provides a robust framework for designing durable catalytic structures.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rongli Ye",
    "Fangwen Ye",
@@ -1424,9 +1451,9 @@
    "Kun Cao",
    "Rong Chen"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.eng.2025.10.037",
@@ -1448,6 +1475,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "通过区域选择性沉积在CoOx纳米岛上制备了平均尺寸约0.76 nm的亚纳米Pt团簇，利用机器学习模拟揭示Pt迁移方向。经600 °C高温老化后，Pt团簇仍高度分散无烧结，得益于CoOx纳米岛的物理隔离和强金属-载体相互作用。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "面积选择性原子层沉积和机器学习对亚纳米Pt团簇在CoOx纳米岛上的稳定作用"
@@ -1487,15 +1515,18 @@
  },
  "10.1016/j.ijhydene.2025.152552": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Calcium nitride-hydride supported Ru has demonstrated superior catalytic performance among Ru-based catalysts according to literature. This work explores the impact of Ca 2 NH synthesis precursors on the catalytic performance of Ru–Ca 2 NH in ammonia synthesis, with the goal of gaining deeper insight into their role. For this reason, β-Ca 2 NH was synthesized using CaH 2 and N 2 , which is different from reported in the literature. The structure of the synthesized material was carefully analysed and confirmed via XRD. Subsequently, Ru–Ca 2 NH catalysts were prepared at varying percentages, ranging from 1 % to 10 %, to determine the optimum amount of Ru. The performance of these catalysts was investigated in ammonia synthesis reactions conducted under the continuous gas flow at 340 °C and 0.1 MPa. UV–Vis spectrometry was carried out to determine total ammonia production rate, and was calculated as 1.6 mmol/g cat. h. This production rate was higher than the performance of most of the reported Ru-based catalysts. • β-Ca 2 NH support material was synthesized successfully starting from CaH 2 and N 2 for Ru-based catalyst preparation. • 2 % and 5 % Ru loadings exhibited the most effective catalytic activity among tested samples. • 5 % Ru-loaded Ca 2 NH catalyst represented a promising ammonia production rate of 1.6 mmol/g cat. h. • The cumulative ammonium amount significantly increased when 5 % Ru–Ca 2 NH + BaH 2 was used for the reaction. • BaH 2 can be accepted as a solution for achieving higher and more stable NH 3 production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Tugba Akkas Boynuegri",
    "Gavin John Irvine",
@@ -1506,8 +1537,8 @@
    "John Thomas Sirr Irvine"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.ijhydene.2025.152552",
@@ -1527,23 +1558,27 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "NH3 Synthesis"
+   "ammonia synthesis"
   ],
+  "zh_brief": "利用 CaH2 和 N2 合成了 β-Ca2NH，并制备了不同 Ru 含量 (1%-10%) 的 Ru–Ca2NH 催化剂。在 340 °C 和 0.1 MPa 下考察了催化性能，总氨生成速率为 1.6 mmol/g cat. h，高于大多数报道的 Ru 基催化剂。2% 和 5% Ru 负载量表现出最佳活性，加入 BaH2 可显著增加累积氨量。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "Ca2NH 支撑 Ru 催化剂在温和条件下合成 NH3"
  },
  "10.1016/j.ijhydene.2025.152673": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia is increasingly valued as a carbon-free energy carrier, offering a promising solution for hydrogen storage and conversion. However, conventional ammonia production faces challenges due to its energy-intensive nature, catalyst scaling limitations, and difficulty integrating with intermittent renewable energy sources. Chemical looping ammonia production (CLAP) presents a compelling alternative, enabling nitrogen fixation under milder conditions and overcoming traditional catalyst scaling issues. In this study, we demonstrate the integration of a tuneable metal oxide support-based perovskite LBFC (La 0.875 Ba 0.125 Fe 0.875 Co 0.125 O 3-δ ) with a catalysed nickel lithium hydride (LiH–Ni) system. The combined system significantly enhances nitrogen fixation, lowering the apparent activation energy of the nitridation reaction from 47.8 kJ mol −1 to 41.1 kJ mol −1 . Notably, the LBFC/Ni–LiH composite achieved an ammonia production rate of 894 μmol g −1 LiH h −1 at 300 °C and atmospheric pressure. This rate further increased to 2889 μmol g −1 LiH h −1 when the reaction was conducted at 5 bar. These chemical looping ammonia synthesis rates are highly competitive, matching the performance of benchmark for Cs + -Ru (2 wt%)/MgO co-fed catalyst's performance under similar conditions (typically ≈ 560 μmol g −1 h −1 ), and significantly surpasses unpromoted Ru/MgO. • Perovskite-supported LiH–Ni system boosts ammonia synthesis efficiency. • Lower nitridation activation energy achieved with LBFC–LiH–Ni integration. • Ammonia yield hits 969 μmol g −1 h −1 at 5 bar, outperforming benchmark Ru/MgO. • Chemical looping approach enables efficient nitrogen fixation at mild conditions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jonathan Perry",
    "Ali Salehabadi",
@@ -1551,8 +1586,8 @@
    "Behdad Moghtaderi"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.ijhydene.2025.152673",
@@ -1574,21 +1609,25 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "将可调金属氧化物支撑的钙钛矿 LBFC 与催化镍锂氢化物 (LiH–Ni) 系统集成，显著增强了氮固定。LBFC/Ni–LiH 复合材料将氮化反应的表观活化能从 47.8 kJ mol−1 降低至 41.1 kJ mol−1。在 300 °C 和常压下氨产率为 894 μmol g−1 LiH h−1，5 bar 下增至 2889 μmol g−1 LiH h−1。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_obj": "化学链/晶格氮循环制氨；涉及Ru/钌体系、Fe/铁体系",
   "zh_title": "钙钛矿增强金属氢化物化学循环合成 NH3"
  },
  "10.1016/j.ijhydene.2025.152688": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) is increasingly recognized as a clean hydrogen (H 2 ) carrier due to its high H 2 content, carbon neutrality, and ease of storage and transport. Realizing its potential as an energy vector requires synthesis technologies that operate under mild conditions and are compatible with water electrolysis. This study develops a comprehensive computational fluid dynamics (CFD) model of sorption-enhanced NH 3 synthesis with alternating catalyst and sorbent layers, validated against experimental data, to elucidate the in-situ sorption effects. The model is subsequently employed to scale up the process and to optimize the operation conditions of a pilot-scale reactor. Results indicate a 66.8% increase in H 2 conversion with a six-layer configuration, while a 60-layer pilot reactor achieves over 90% conversion and 99.5% NH 3 capture in single-pass operation. These findings demonstrate the scalability and potential of sorption-enhanced NH 3 synthesis, providing a moderate and efficient pathway for H 2 storage and transport. • CFD modeling of an NH 3 synthesis–sorption integrated reactor. • In-situ NH 3 removal enhances conversion beyond equilibrium. • Multilayer catalyst–absorbent boosts conversion significantly • The up-scaling reactor achieves > 90% conversion in a single pass. • Parametric study identifies optimal operation conditions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Tianbao Gu",
    "Elizaveta Taranets",
@@ -1607,9 +1646,9 @@
   "id": "10.1016/j.ijhydene.2025.152688",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "International Journal of Hydrogen Energy",
-  "tier": "direct",
+  "tier": "background",
   "title": "Numerical investigation of sorption-enhanced ammonia synthesis for hydrogen storage: CFD modeling, experimental validation, and scale-up",
   "top": false,
   "topics": [
@@ -1798,12 +1837,14 @@
  },
  "10.1016/j.ijrmhm.2025.107439": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1878,12 +1919,14 @@
  },
  "10.1016/j.jcat.2025.116567": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2074,12 +2117,14 @@
  },
  "10.1016/j.jocs.2025.102737": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2157,12 +2202,14 @@
  },
  "10.1016/j.jphotochem.2025.116617": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2234,12 +2281,14 @@
  },
  "10.1016/j.matchemphys.2025.131631": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2279,15 +2328,18 @@
  },
  "10.1016/j.matdes.2025.115370": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "• Novel transition metal atoms doped Mg 12 O 12 nanocages as single atom catalysts have been designed. • These catalysts are thermodynamically stable with interaction energies of −2.49 to −0.48 eV. • Transition-metal atom decoration of Mg 12 O 12 nanocages greatly enhances N 2 activation efficiency. • Mn@Mg 12 O 12 shows a low limiting potential (−0.84 V) for ambient ammonia synthesis. • These findings provide new routes for designing efficient catalysts for sustainable nitrogen reduction. The development of low-cost and efficient electrocatalysts for the ambient nitrogen reduction reaction (NRR) is essential for the synthesis of NH 3 and offers a substitute for the conventional Haber-Bosch process. In the present work, density functional theory (DFT) is employed to investigate the electrochemical nitrogen reduction reaction (NRR) catalysed by TM@Mg 12 O 12 (TM=Sc ∼ Zn) nanocages. All complexes exhibit chemisorption interactions with interaction energies ranging from −2.49 eV to −1.11 eV, except Zn@ Mg 12 O 12 (−0.48 eV) which shows physisorption. The energy gaps (E g ) of TM@Mg 12 O 12 are significantly reduced compared with pristine Mg 12 O 12 indicating enhanced conductivity. Electronic properties and interaction types were analyzed using density of states, natural bond orbital, interaction region indicator, and quantum theory of atoms in molecules analyses. The results reveal that TM doping notably enhances N 2 activation relative to pure Mg 12 O 12 . Among all candidates, Mn@Mg 12 O 12 exhibits the highest NRR activity, with a limiting potential of −0.84 V along the alternating pathway. The stability and energetics of intermediates were further assessed to determine the optimal reaction mechanism for NH 3 synthesis. This study provides fundamental insights into the rational design of single-atom catalysts supported on three-dimensional nanocages, contributing to the development of efficient electrocatalysts for ambient ammonia synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rehana Bano",
    "Béla Viskolcz",
@@ -2303,9 +2355,9 @@
   "id": "10.1016/j.matdes.2025.115370",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Materials & Design",
-  "tier": "direct",
+  "tier": "background",
   "title": "Electronic structure and catalytic activity of TM@Mg12O12 nanocages for ambient ammonia synthesis",
   "top": false,
   "topics": [
@@ -2317,21 +2369,24 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
   "zh_title": "TM@Mg12O12 纳米笼用于环境温度 NH3 合成的电子结构与催化活性"
  },
  "10.1016/j.materresbull.2025.113659": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "ZnO was deposited on fullerene C60 by Atomic Layer Deposition (ALD), carried out in thermal and Plasma Enhanced (PE-ALD) mode. The ALD technique allowed to grow crystalline ZnO stoichiometrically in increasing amount at increasing number of cycles. The conformal deposition was successful even on the walls of the pores of the material: thermal ALD enabled the coverage also of deeper pores, while, as for PE-ALD, ZnO was found mainly on the walls of the most superficial ones. The photocatalytic activity of the ZnO/C60 nanocomposites obtained at 400 cycles by thermal and PE-ALD was evaluated through monitoring the discoloration of a 10-5 M methylene blue solution upon UV irradiation (λ=254 nm) over 180 min. Results indicate that the photocatalytic performance of the thermal coated C60 was higher than the one obtained by PE-ALD (54±12% vs 33±10%, respectively), in accordance with the higher amount of ZnO on the thermal ALD treated samples.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Regina Del Sole",
    "Antonella Milella",
@@ -2343,9 +2398,9 @@
    "Angela Dibenedetto",
    "Fabio Palumbo"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01",
   "doi": "10.1016/j.materresbull.2025.113659",
@@ -2373,6 +2428,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "在富勒烯C60上通过常规热原子层沉积和等离子体增强原子层沉积生长ZnO，评估了400 cycles下ZnO/C60纳米复合物的光催化活性。结果表明，常规热原子层沉积处理的样品光催化性能优于等离子体增强原子层沉积（54±12% vs 33±10%）。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "热处理与等离子体增强原子层沉积在富勒烯粉末上制备 Zno 的比较：用于光催化染料去除"
@@ -2444,17 +2500,20 @@
  },
  "10.1016/j.mset.2026.01.002": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The goal of this critique is to examine the newer Flash Joule Heating (FJH) technique for the production of graphene and hydrogen to determine if either production method is sustainable. By conducting an in-depth evaluation into the FJH technique as well as other methods such as chemical vapor deposition, this review seeks to determine which is the most effective method. With high-voltage pulses, FJH can quickly transform waste materials rich in carbon, such as biomass and plastics, into superior quality graphene, while also producing hydrogen gas as a by-product. FJH has been estimated to use around 7.2 kJ/g of energy which is considerably lower than other methods, and it also has a higher scalability and a 90% lower carbon footprint than the classical methods and does not need as many costly catalysts and undergoes less energy demanding processes like electrolysis, which makes it more economically viable. Its usage has been extended to cover energy storage, hydrogen systems, and water purification. With such complex systems, there is bound to be variation in feedstock and defect control which can be solved using advanced AI/ML optimization and better pre-treatments. FJH is one step closer to achieving circular economy goals by turning waste products into materials of value, demonstrating the ability to mass produce hydrogen and graphene in an economical manner to aid in the ideal of a carbon–neutral energy future.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Nebechi Kate Obiora",
    "Chika Oliver Ujah",
@@ -2462,9 +2521,9 @@
    "Christian O. Asadu",
    "Peter Apata Olubambi"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01-26",
   "doi": "10.1016/j.mset.2026.01.002",
@@ -2486,6 +2545,7 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "评估了利用高电压脉冲将生物质和塑料等富碳废料转化为高质量石墨烯并副产氢气的闪蒸焦耳热技术。该技术能耗约7.2 kJ/g，碳足迹比传统方法低90%，具有高可扩展性和经济可行性。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "通过闪焦耳加热制备可持续石墨烯及其衍生物：系统综述"
@@ -2527,12 +2587,14 @@
  },
  "10.1016/j.oneear.2025.101557": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2580,15 +2642,18 @@
  },
  "10.1016/j.pecs.2025.101262": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Transforming ammonia (NH 3 ) synthesis from the energy-intensive, fossil-fuel-dependent conventional Haber-Bosch (HB) process to a flexible, green hydrogen-based process is pivotal for decarbonization and enabling NH 3 utilization in the energy sector. The conventional HB process, operating under high temperature and pressure, is incompatible with green hydrogen systems and economically unviable for downscaled NH 3 production integrated with intermittent renewable energies . Therefore, developing alternatives capable of synthesizing NH 3 under moderate conditions is crucial for achieving green NH 3 production. This necessity has driven the development of a range of emerging technologies, including thermocatalytic, electrocatalytic, photocatalytic, and plasma-assisted processes, amongst which thermocatalysis stands out in terms of production rate, technology readiness, and economic feasibility, demonstrating the greatest potential for NH 3 synthesis transformation. This review provides a comprehensive overview of advanced thermocatalytic NH 3 synthesis beyond conventional HB process and the system integration with renewable sources. It highlights key limitations and advances in implementing new materials and auxiliary techniques, outlining the challenges and mitigation strategies for achieving high NH 3 productivity under mild conditions. Alongside multiscale modeling studies, the review covers catalyst development, reactor intensification, process integration, and system evaluation, examining progress and conducting meta-analysis in reaction mechanisms, emerging separation technologies, and system integration. Scientific obstacles, economic analysis, and environmental impacts are thoroughly discussed, offering state-of-the-art insights into mild NH 3 synthesis from fundamental research to practical applications. Additionally, recent industrial projects of green NH 3 production are summarized, showcasing scalability and commercial viability. Finally, the remaining challenges and opportunities in advanced thermocatalytic NH 3 synthesis are outlined, identifying future research frontiers.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Tianbao Gu",
    "Matej Huš",
@@ -2607,9 +2672,9 @@
   "id": "10.1016/j.pecs.2025.101262",
   "kind": "journal",
   "origin": "回填",
-  "score": 28,
+  "score": 9,
   "source": "Progress in Energy and Combustion Science",
-  "tier": "direct",
+  "tier": "background",
   "title": "Thermocatalytic ammonia synthesis beyond conventional Haber-Bosch: Principles, advances, challenges and opportunities",
   "top": false,
   "topics": [
@@ -2621,18 +2686,20 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_method": "光驱动",
+  "zh_obj": "等离子体制氨",
   "zh_title": "超越传统哈伯-博施法的热催化氨合成：原理、进展、挑战与机遇"
  },
  "10.1016/j.rser.2025.116290": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2678,12 +2745,14 @@
  },
  "10.1016/j.trechm.2025.10.012": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2765,17 +2834,20 @@
  },
  "10.1021/acs.energyfuels.5c06027": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "In this research, the impacts of the Joule flash heating (JFH) method on the generation of monomers and three-phase products during polyethylene (PE) pyrolysis were investigated by using reactive molecular dynamics (ReaxFF MD) simulations. Temperature ranges for JFH were determined through thermal pyrolysis. Meanwhile, JFH experiments at 70, 80, and 90 V were carried out by using the JFH reactor. The trends of the calculated results are consistent with those of the experimental results. Increasing the maximum ( T max ) or minimum ( T min ) temperatures in JFH promoted secondary reactions. Then, compared to the pyrolysis characteristics of PE under the JFH and the conventional continuous heating (CCH) conditions, the results showed that the yields of char decreased in the JFH method, and the tar produced by pyrolysis exhibited a higher H/C ratio. The yield monomer (C 2 H 4 ) obtained by the JFH method was nearly 12 times more than that obtained by the CCH method according to ReaxFF MD simulations. Finally, by analyzing the reaction types and reaction frequencies involved in the secondary and primary reactions of C 2 H 4 on PE pyrolysis, the mechanisms of the effect of the JFH method on the generation of C 2 H 4 were revealed. The enhanced C 2 H 4 production in JFH was attributed to two key factors during the cooling stage: (1) The cooling stage inhibited hydrogen dissociation in C 2 H 4, and decreased the reactions of C 2 H 4 with alkyl radicals, thus reducing C 2 H 4 consumption. (2) The decrease in temperature makes the condensation reaction of ethylene less likely to occur. These findings highlight the potential of JFH as an efficient method for optimizing PE pyrolysis, maximizing C 2 H 4 monomer recovery and minimizing undesirable byproducts such as tar and char.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yao Zhang",
    "Dikun Hong",
@@ -2784,9 +2856,9 @@
    "Mengyang Sun",
    "Chunbo Wang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01-26",
   "doi": "10.1021/acs.energyfuels.5c06027",
@@ -2808,7 +2880,8 @@
   "why": [
    "Flash Heating"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "通过ReaxFF分子动力学模拟和实验研究了闪蒸焦耳热对聚乙烯裂解中单体和三相产物生成的影响。结果显示闪蒸焦耳热下的乙烯产率比连续加热高近12倍，且冷却阶段抑制了乙烯的氢解离和与烷基自由基的反应。",
+  "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "过程待核实",
   "zh_title": "揭示焦耳闪热聚乙烯热解的机理：来自ReaxFF MD模拟和实验的见解"
  },
@@ -3224,12 +3297,14 @@
  },
  "10.1038/s44160-025-00984-4": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3654,22 +3729,25 @@
  },
  "10.1134/s1995080225611920": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The paper presents a mathematical model of material heating taking into account Joule heating, the Thomson effect and the Peltier effect on the sample surface, which are determined by calculating the total current. A model of current distribution in a tungsten sample and an evaporated substance when the surface is heated by an electron beam is considered. The model is based on solving the equations of electrodynamics and the two-phase Stefan problem in a cylindrical coordinate system. The two-phase Stefan problem determines the temperature in the sample area with the contribution of Joule heating and the Thomson effect, which are obtained from calculating the total current at each time step. The power density of the laser pulse and metal evaporation from the surface are set on the sample surface and the Peltier effect is taken into account. The model parameters are taken from experiments at the beam of electrons for materials test applications (BETA), Budker Institute of Nuclear Physics, Siberian Branch of the Russian Academy of Sciences (BINP SB RAS).",
+  "abstract_source": "OpenAlex",
   "authors": [
    "G. G. Lazareva",
    "V. A. Popov"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-01-10",
   "doi": "10.1134/s1995080225611920",
@@ -3691,8 +3769,9 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "建立了考虑焦耳加热、汤姆逊效应和珀耳帖效应的钨样品加热数学模型，并求解了圆柱坐标系下的两相斯蒂芬问题。该模型基于电子束应用材料测试实验数据，分析了电子束加热下钨样品和蒸发物质的电流分布及温度场。",
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "焦耳热对聚变堆偏转材料脉冲加热结果的影响"
  },
  "10.1149/2162-8777/ae315e": {
@@ -3771,12 +3850,14 @@
  },
  "10.2139/ssrn.6097346": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3857,11 +3938,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

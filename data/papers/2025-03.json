@@ -1009,16 +1009,18 @@
  },
  "10.1007/s11172-025-4544-3": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1180,11 +1182,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1267,11 +1271,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1437,17 +1443,20 @@
  },
  "10.1016/j.carbon.2024.119982": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Carbon catalysts synthesized using metal-organic frameworks are promising for various applications. However, their carbonization process is still poorly understood. Here, we systematically studied carbon catalysts derived from ZIF-8 using the standard furnace heating (FH) and a new Joule heating (JH) method. The JH method produced carbon catalysts with significantly higher catalytic activity for oxygen reduction reaction (ORR). Statistical analysis based on the correlation between different structural features and performance descriptors of the nitrogen-doped carbon catalysts identifies the carbon atoms bonded to graphitic-N as their ORR active sites. Surprisingly, the abundance of N species in JH-derived carbon catalysts is only half that of FH-derived carbon catalysts, indicating lower active site density. However, further evaluation revealed that the intrinsic activity of individual active sites in the JH-derived carbon catalysts with a higher graphitization degree is more than twice that of the FH-derived carbon catalysts. The enhanced intrinsic catalytic activity of these active sites outpaces the reduction in their numbers, resulting in overall better activity. Theoretical calculations indicate that the rate-determining step on these active sites is the conversion of OH∗ to H 2 O with a lower energy barrier. Our findings reveal the synergistic effect of heteroatom coordination environment and graphitization degree of carbon structures in determining the catalytic performance of carbon catalysts while featuring JH as a new approach to realize high-performance carbon catalysts through simultaneously regulating these properties.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Leo Lai",
    "Songbo Ye",
@@ -1460,9 +1469,9 @@
    "Li Wei",
    "Yuan Chen"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03",
   "doi": "10.1016/j.carbon.2024.119982",
@@ -1484,8 +1493,9 @@
   "why": [
    "Joule heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "系统研究了源自ZIF-8的碳催化剂在标准炉加热（FH）和新型焦耳加热（JH）方法下的差异。JH法制备的催化剂具有更高的氧还原反应活性，尽管活性位点密度较低，但单个位点的本征活性是FH法的两倍以上。理论计算表明，活性位点上的决速步是OH*转化为H2O，且能垒更低。",
+  "zh_method": "反应阶段焦耳/电阻供热",
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "ZIF-8衍生的碳催化剂：焦耳加热与炉加热"
  },
  "10.1016/j.cej.2025.160088": {
@@ -1712,17 +1722,20 @@
  },
  "10.1016/j.ceja.2025.100705": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Pyrolysis of biomass plus catalytic reforming of its pyrolysis volatiles is a green alternative to produce solid (biochar) and gaseous (syngas) fuels that have several valuable applications; however, this catalytic process suffers from fast deactivation, and its energy consumption is yet to be studied, factors that determine the process’s feasibility in industrialisation. To address these issues, the direct electrification of a 3D-printed FeCrAl heater coated with 15.5 % Ni/Al 2 O 3 was tested in a parametric study in the catalytic steam reforming of biomass pyrolysis volatiles, in order to investigate the effect of the S/B ratio and space–time on the syngas yield and composition. Complete bio-oil reforming was obtained at a biomass feed rate of ≤ 1 g min −1 and a S/B ratio of ≥ 2, and stability close to 100 % was estimated after over four hours of operation. Nonetheless, the produced syngas is rich in C 1 – C 3 gases and moderately low in H 2 ( ≈ 2 wt %). The effect of the catalyst’s structure on the bio-oil reforming and heat efficiency was complemented using CFD simulations and compared to a simple geometry based on commercial extruded monoliths. Finally, the biomass-derived syngas upgrading to H 2 production was assessed using different process simulations and compared to existing H 2 -producing technologies in terms of energy efficiency and emissions.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "José Juan Bolívar Caballero",
    "Fereshteh Talkhab",
@@ -1733,9 +1746,9 @@
    "Pär G. Jönsson",
    "Weihong Yang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03",
   "doi": "10.1016/j.ceja.2025.100705",
@@ -1757,6 +1770,7 @@
   "why": [
    "electrified catalytic"
   ],
+  "zh_brief": "在3D打印的FeCrAl加热器上测试了负载15.5% Ni/Al2O3的催化剂，用于生物质热解挥发分的催化蒸汽重整。在生物质进料速率≤1 g min–1和S/B比≥2的条件下，实现了完全生物油重整，稳定性接近100%。但产生的合成气中氢含量较低（约2 wt%）。",
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应",
   "zh_title": "生物质热解挥发物电催化蒸汽重整生产可再生合成气"
@@ -1803,11 +1817,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1846,26 +1862,29 @@
  },
  "10.1016/j.colcom.2025.100823": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Two-dimensional (2D) materials, such as molybdenum disulfide (MoS 2 ), have gained considerable attention for future electronic applications because of their exceptional characteristics with atomic-scale thickness. However, uniform deposition of dielectric materials such as aluminum oxide (Al 2 O 3 ) on 2D materials remains challenging because of the chemically inert nature of these surfaces. In this study, the adsorption behaviors of aluminum ALD precursors on MoS 2 substrates were investigated using density functional theory (DFT) calculations. The results show that the physisorption of the popular trimethylaluminum (TMA) precursor shows low thermodynamic stability, whereas larger molecules such as aluminum triisopropoxide (ATIP) and triisobutylaluminum (TIBA) display greater stability for physisorption, suggesting better nucleation in ALD. While physisorption of these precursors is more stable on the basal plane than on the edge sites of MoS 2 , edge sites may be preferred for dissociative chemisorption. • Uniform nucleation of ALD on TMDCs requires physisorption of precursors. • DFT calculations on physisorption and chemisorption of Al precursors on MoS 2 . • Aluminum triisopropoxide (ATIP), triisobutylaluminum (TIBA), and trimethylaluminum (TMA) are compared. • ATIP and TIBA show greater physisorption stability than TMA • Basal planes are preferred for physisorption, while edge sites show reactivity toward chemisorption.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Iaan Cho",
    "Jiho Yang",
    "Shimeles Shumi Raya",
    "Bonggeun Shong"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03",
   "doi": "10.1016/j.colcom.2025.100823",
@@ -1887,6 +1906,7 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "利用密度泛函理论（DFT）计算研究了铝原子层沉积前驱体在MoS2基底上的吸附行为。结果表明，TMA前驱体的物理吸附热力学稳定性低，而ATIP和TIBA等大分子表现出更好的稳定性。物理吸附在MoS2的基面比边缘位点更稳定，而边缘位点更利于解离化学吸附。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "MoS2上铝前驱体的吸附面向原子层沉积的成核"
@@ -1896,11 +1916,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2158,11 +2180,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2326,11 +2350,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2376,11 +2402,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2716,11 +2744,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2840,11 +2870,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2885,11 +2917,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2942,25 +2976,28 @@
  },
  "10.1016/j.micromeso.2024.113480": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "We performed Monte Carlo molecular simulations in RMC and GCMC ensembles, to study the impact of Na + charge-balancing cations in the aluminum-substituted zeolites on the adsorption behavior of H 2 , N 2 , and NH 3 . The adsorption isotherms were obtained for single-component gas adsorption and adsorption from the ammonia synthesis reaction mixture. Our findings indicate that the presence of Na + cations in zeolites alters the adsorptive characteristics of all the molecules under the study. Specifically, Na + cations have a significant influence on the adsorption behavior of ammonia, effectively preventing its phase transition. Adsorption from the mixture showed that Na + cations enhanced the selectivity of ammonia adsorption over N 2 , and H 2 , as compared to pure-silica zeolites. Further, the impact of cations on the reaction equilibrium under the confinement of FAU zeolite was investigated. The confinement effect in ammonia production was shown to be improved due to the presence of cations. We suggest that the optimal conditions for the process can be reached at 573 K and 10 bar, providing a good value of 0.93 of ammonia mole fraction adsorbed. • Effect of Na + cations on the adsorption of H 2 , N 2 and NH 3 . • Impact of combining confinement effect and cations on the synthesis of ammonia reaction. • Optimal conditions to achieve a high ammonia mole fraction adsorbed on the synthesis of ammonia reaction.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Botagoz Zhakisheva",
    "Juan José Gutiérrez-Sevillano",
    "Sofia Calero"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03",
   "doi": "10.1016/j.micromeso.2024.113480",
@@ -2982,6 +3019,7 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用蒙特卡洛分子模拟研究了铝取代沸石中 Na+ 平衡阳离子对 H2、N2 和 NH3 吸附行为的影响。结果表明 Na+ 显著改变了分子吸附特性，有效防止了 NH3 相变，并提高了其在混合气中对 N2 和 H2 的吸附选择性。在 573 K 和 10 bar 条件下，实现了 0.93 的氨摩尔分数吸附值。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "阳离子对 FAU 沸石受限空间内合成氨反应的影响"
@@ -3400,25 +3438,28 @@
  },
  "10.1021/acs.iecr.4c03203": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The synthesis of ammonia is an energy-intensive process that consumes around 1.8% of global energy output each year and produces approximately 500 MMT of carbon dioxide. The production of hydrogen accounts for over 80% of the total energy required by the ammonia synthesis process. Haber-Bosch is the most widely used technology for ammonia production; however, it is only economically viable at a large scale. Oxidative steam reforming (OSR) is an alternative technology to produce synthesis gas for small-scale ammonia production. OSR combines the catalytic partial oxidation of methane (CPOM) and the steam reforming of methane (SMR) to efficiently generate a reformate with an H 2 /N 2 molar ratio of 3, which is the stoichiometric value required for ammonia synthesis. One of the major challenges with OSR is the development of a catalytic material for CPOM that can show not only high activity and stability but also significant resilience to deactivation due to coke formation. In the present work, a novel and inexpensive nickel-based catalytic material has been synthesized using a facile sol–gel approach and tested for CPOM at temperatures below 500 °C. The prepared catalyst shows a remarkable activity comparable to that of catalysts based on noble metals and an outstanding resistance to the formation of carbon deposits. The catalytic activity is believed to result from the presence of carboxyl groups and oxygen-depleted regions, which led to an enhancement in the adsorption/activation of CH 4 and O 2, respectively. By using this catalytic material in the CPOM stage at 450 °C and an alumina-supported nickel catalyst in the SMR stage at 800 °C, we demonstrated the viability of an OSR reactor to produce a reformate with a suitable H 2 /N 2 molar ratio for ammonia production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Oscar G. Marin-Flores",
    "M. Grant Norton",
    "Su Ha"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03-13",
   "doi": "10.1021/acs.iecr.4c03203",
@@ -3440,8 +3481,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "针对小规模氨合成，开发一种简便溶胶-凝胶法制备的廉价镍基催化材料用于甲烷催化部分氧化（CPOM）。该催化剂在500 °C以下表现出与贵金属催化剂相当的活性及优异的抗积碳性能。在450 °C CPOM和800 °C Al2O3负载Ni SMR的组合下，证明了OSR反应器生产氨合成气（H2/N2=3）的可行性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "用于小规模氨合成可再生天然气氧化蒸汽重整制氢的 Ni-Si 催化剂"
  },
  "10.1021/acs.jpcc.4c08378": {
@@ -3510,26 +3552,29 @@
  },
  "10.1021/acsaenm.5c00008": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Graphene and its derivatives have been used for various applications, including water production and decontamination. Interfacial evaporation-based water generation is a potential application of photo- and electrothermal materials. Laser-induced graphene (LIG) is a facile, low-cost, single-step process to fabricate graphene on carbonaceous substrates. Incorporating nanomaterials further enhances the photothermal and electrothermal properties of LIG surfaces. In this research, we explored the effect of different metal and metal-oxide nanomaterials of titanium (Magnéli phase), copper, and iron incorporation in LIG-nanomaterial composites and their impact on electro- and photothermal performance for interfacial evaporation-based water treatment. Composite LIGs achieved high evaporation rates up to ∼2.5 kg m –2 h –1 while driven by solar energy and ∼1 kg m –2 h –1 with a Joule heating setup. LIG composite containing conductive metal suboxides of titanium exhibited the highest performance improvement of ∼300% higher compared to pristine and other LIG composites. These LIG-based interfacial evaporators showed a fast on-and-off response for speedy clean water production. In stacked configurations, these metal–LIG composite surfaces offer a promising source of decontaminated water for various applications. This work demonstrated a potential and scalable application of LIG evaporators to address desalination and wastewater-treatment challenges with a reduced carbon footprint, promoting sustainability.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Utkarsh Misra",
    "Najmul Haque Barbhuiya",
    "Nandini Dixit",
    "Swatantra P. Singh"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03-25",
   "doi": "10.1021/acsaenm.5c00008",
@@ -3551,8 +3596,9 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "研究通过将钛、铜和铁的金属及金属氧化物纳米材料掺入激光诱导石墨烯中，探究其对界面蒸发性能的影响。结果表明，复合LIG在太阳能驱动下蒸发速率高达约2.5 kg m–2 h–1，焦耳加热下约为1 kg m–2 h–1。含导电钛亚氧化物的LIG复合材料性能提升约300%，且表现出快速的开关响应。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "光热和焦耳热用于界面蒸发：通过激光诱导石墨烯中的纳米材料结合实现协同作用"
  },
  "10.1021/acsanm.5c00792": {
@@ -4889,11 +4935,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4972,11 +5020,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5020,17 +5070,20 @@
  },
  "10.26599/jac.2025.9221040": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The co-firing stage is an unavoidable step in the fabrication process of solid oxide fuel cells (SOFCs), and avoiding unwanted interfacial reactions is crucial for cathode construction during the co-firing process. In this study, LiMn2O4 (LiMO), a traditional electrode material for Li-ion batteries, was discovered to have protonation and proton diffusion properties, showing significant promise as a cathode for proton-conducting SOFCs (H-SOFCs). However, obvious interactions between the LiMO cathode and BaCe0.7Zr0.1Y0.2O3−δ (BCZY) electrolyte can be identified during the co-firing process using the conventional sintering method, resulting in poor performance and making the use of LiMO in H-SOFCs challenging. To address this issue, the Joule heating process is used to produce the LiMO cathode for H-SOFCs. In contrast to the traditional co-firing process, which takes a few hours, the Joule heating method, which completes the co-sintering procedure in a few seconds, can successfully bind the LiMO to the BCZY electrolyte with no visible interlayer reactions or elemental diffusions. As a result, the full potential of LiMO for H-SOFCs is realized, resulting in a high fuel cell output of 1426 mW·cm−2 at 700 °C, approximately double that of the cell utilizing the normally sintered LiMO cathode. To the best of our knowledge, this is the first study to use Joule heating to prevent the cathode/electrolyte interfacial reaction in H-SOFCs, which presents an interesting approach for manufacturing and may also breathe new life into some materials that are previously incompatible with H-SOFCs.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yiheng Gu",
    "Zhiyu Chen",
@@ -5038,9 +5091,9 @@
    "Shoufu Yu",
    "Lei Bi"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-03",
   "doi": "10.26599/jac.2025.9221040",
@@ -5062,8 +5115,9 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "针对LiMn2O4阴极与BaCe0.7Zr0.1Y0.2O3−δ电解质在共烧过程中发生界面反应的问题，采用焦耳加热方法制备阴极。与传统共烧过程相比，焦耳加热在几秒内完成共烧结，成功结合阴极与电解质且无可见界面反应或元素扩散。电池在700 °C下输出功率达1426 mW·cm−2，约为常规烧结电池的两倍。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "通过焦耳热避免质子传导固体氧化物燃料电池的阴极/电解质界面反应"
  },
  "10.3390/catal15030242": {
@@ -5298,11 +5352,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

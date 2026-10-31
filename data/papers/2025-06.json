@@ -898,11 +898,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1185,11 +1187,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1236,11 +1240,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1357,17 +1363,20 @@
  },
  "10.1016/j.cattod.2025.115283": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Copper promoted with zinc is an active catalyst for carbon dioxide hydrogenation to methanol, a reaction relevant to carbon capture and utilization technologies. Previous work showed that inverse zinc-on-copper catalysts on zirconia supports, where zinc(II) is added via atomic layer deposition (ALD), are more active and selective in this reaction than copper-on-zinc catalysts on zirconia. This work continues exploring the inverse zinc-on-copper catalysts by varying the support, comparing zirconia support with alumina, titania and niobia, and with various combinations of the ceria-zirconia-lanthana mixed oxide family. Catalyst characterization was made with elemental analysis, temperature-programmed reduction, temperature-programmed desorption of carbon dioxide, nitrous oxide pulse titration, and transmission electron microscopy. Activity was measured in a fixed-bed flow reactor at 450–550 K. ALD of Zn(II) acetylacetonate gave a similar areal number density of ca. two zinc per square nanometer on all tested supports. Zinc promotion systematically increased the methanol production rate. Among the tested catalysts, the zinc-on-copper on zirconia support remained the most active, with other catalysts from the ceria-zirconia-lanthana mixed oxide family giving almost as good results.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Aitor Arandia",
    "Jorge A. Velasco",
@@ -1382,8 +1391,8 @@
    "Riikka L. Puurunen"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06",
   "doi": "10.1016/j.cattod.2025.115283",
@@ -1405,8 +1414,9 @@
   "why": [
    "Atomic layer deposit"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应",
+  "zh_brief": "本研究比较了在氧化锆、氧化铝、二氧化钛、五氧化二铌以及铈锆镧混合氧化物载体上，原子层沉积锌（II）乙酰丙酮盐制备的锌在铜上的逆结构催化剂的活性。在450–550 K下测试发现，所有载体上的锌密度约为每平方纳米两个锌，锌的加入显著提高了甲醇产率。",
+  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
+  "zh_obj": "其他催化反应；涉及原子层沉积",
   "zh_title": "原子层沉积锌促进铜催化剂用于CO₂加氢制甲醇：载体影响"
  },
  "10.1016/j.cej.2025.162736": {
@@ -1452,11 +1462,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1570,11 +1582,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1670,11 +1684,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1716,11 +1732,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1761,11 +1779,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2066,11 +2086,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2302,11 +2324,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2688,11 +2712,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2740,17 +2766,20 @@
  },
  "10.1016/j.optmat.2025.116989": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Industrial pollutants, including synthetic dyes and organic compound, pose serious environmental risks, making efficient remediation methods crucial. In this study, opal templates were fabricated using the Evaporation Induced Confined Area Assembly (EICAA) method, where polystyrene nanospheres (300 nm) were precisely assembled on silicon wafers. Subsequently, ZnO and TiO2 layers were deposited onto the templates using thermal ALD. The polystyrene templates were then removed via calcination at 500°C. Hydrothermal synthesis was employed to grow ZnO nanorods on the prepared structures. Comprehensive characterization was conducted using TG/DTA/DTG, SEM-EDX, XRD, Raman spectroscopy, UV-Vis spectrophotometry, and photoluminescence analysis. The results showed that the samples exhibited a well-ordered, crystalline inverse opal structure with vertically aligned nanorods on their surface. The photocatalytic performance of the samples was evaluated through the degradation of methylene blue and 4-nitrophenol under UV and visible light irradiation.Photocatalytic tests revealed that ZnO inverse opals exhibited higher photocatalytic activity than TiO2 inverse opals. The growth of ZnO nanorods on TiO2 inverse opals significantly improved their activity, owing to the formation of a micro p-n junction between TiO2 and ZnO, which enhanced electron-hole separation and reduced recombination rates. ZnO nanorods on ZnO inverse opals demonstrated overall higher activity, benefiting from their increased surface area and charge transport properties. These findings highlight ZnO based photocatalysts as promising for the degradation of various pollutants, demonstrating potential for environmental remediation applications.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Lucy Nyambura Karanja",
    "Dániel Karajz",
@@ -2763,9 +2792,9 @@
    "Barbara Sárközi",
    "Imre Miklós Szilágyi"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06",
   "doi": "10.1016/j.optmat.2025.116989",
@@ -2793,6 +2822,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "利用 EICAA 方法在硅片上组装 300 nm 聚苯乙烯纳米球作为模板，经热 ALD 沉积 ZnO 和 TiO2 层后 calcination 去除模板，再 hydrothermal 生长 ZnO 纳米棒。结果表明 ZnO 反蛋白石结构的光催化活性优于 TiO2，在 TiO2 反蛋白石上生长 ZnO 纳米棒形成微 p-n 结显著提升了活性，ZnO 纳米棒在 ZnO 反蛋白石上的活性最高。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "在 TiO2 和 ZnO 逆 opal 结构上通过热原子层沉积和水热生长制备的 ZnO 纳米棒及其光催化应用"
@@ -2837,26 +2867,29 @@
  },
  "10.1016/j.rineng.2025.105164": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "• Magneto-bioconvection analysis for Carreau fluid is securitized here. • Impact of Brownian moment of ferromagnetic nanoparticles on heat transfer analysis is investigated. • Numerical Technique is employed here. • Convectively heated phenomenon for nanofluid is accounted. Due to variety of noteworthy applications in many fields’ nanotechnology is developing day-by-day, hence research upon this innovative nanofluid become much famous and revolutionized the modern engineering and science. There is another specialty that make this fluid more attractive for researchers is its environmental friendliness. Main objective in this research work is to analyze the impact of oxytactic moment of microorganisms on convectively heated magneto-Carreau fluid capturing random ferro-magnetic nanoparticles. Additionality, bioconvection phenomenon is constructed subjected to viscous dissipation. Similarity variables are utilized here that are helpful to convert system of non-linear P.D.Es to O.D.Es. Here bvp4c technique which is a pure numeric technique is used for obtaining the results. `Detailed scrutiny of velocity field, temperature, concentration as well as bioconvection density profile are explained by means of graphs, while Nusselt number, Sherwood number and motile micro- organism density is expressed with the help of tables.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Muhammad Tabrez",
    "Waqar Azeem Khan",
    "Iftikhar Hussain",
    "Mehboob Ali"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06",
   "doi": "10.1016/j.rineng.2025.105164",
@@ -2878,6 +2911,7 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "研究含随机铁磁纳米颗粒的磁 Carreau 流体，分析旋游微生物对对流加热流体的影响，利用相似变量将非线性 PDE 转化为 ODE，并采用 bvp4c 数值技术求解。详细阐述了速度场、温度、浓度及生物对流密度分布，并给出了 Nusselt 数、Sherwood 数和微生物密度。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控",
   "zh_title": "含有焦耳热和旋转微organisms现象的铁磁纳米粒子的磁生物对流"
@@ -2924,11 +2958,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3118,17 +3154,20 @@
  },
  "10.1021/acs.iecr.5c01156": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "A compact and energy-efficient reactor system is essential for advancing hydrogen production technologies based on methanol steam reforming (MSR). However, conventional fixed-bed or externally heated microreactors often suffer from low catalyst utilization, significant heat losses, and poor scalability. In this study, we present a novel flow-through catalytic membrane reactor (CMR) powered by Joule heating in which Cu/ZnO/Al 2 O 3 nanoparticles are immobilized in situ within the microscale pores of a high-thermal-conductivity SiC membrane tube. The system integrates evaporation and reforming zones into a single tube and enables direct internal heating of the catalytic region, minimizing thermal losses and enhancing energy efficiency. Under optimal conditions (300 °C, S/C = 1.5, methanol flow rate = 0.01835 mol min –1 ), the reactor achieved a methanol conversion of 97.55%, a hydrogen volumetric productivity of 157.96 kmol m –3 h –1, and an energy efficiency of 98.61% in the scaled-up design, outperforming conventional porous or foam-supported microreactors. Additionally, the reactor volume required to produce 500 Nm 3 H 2 h –1 was only about 2 m 3, nearly 1 order of magnitude smaller than that of traditional systems. These results demonstrate that the integration of flow-through architecture, catalyst pore confinement, and Joule heating represents a significant advancement in compact, high-efficiency MSR hydrogen production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Huiyun Huang",
    "Shengchi Bai",
@@ -3139,8 +3178,8 @@
    "Senqing Fan"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06-04",
   "doi": "10.1021/acs.iecr.5c01156",
@@ -3162,6 +3201,7 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "本研究开发了一种由焦耳加热驱动的流过式催化膜微反应器，将Cu/ZnO/Al2O3纳米颗粒原位固定在SiC膜管微孔中。在300 °C、S/C=1.5的优化条件下，该反应器实现了97.55%的甲醇转化率和157.96 kmol m-3 h-1的氢气体积产率，能量效率达98.61%。",
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "其他催化反应",
   "zh_title": "焦耳加热驱动流式 SiC 催化膜微反应器用于甲醇蒸汽重整制氢"
@@ -3570,17 +3610,20 @@
  },
  "10.1021/acscatal.5c01332": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Mixed-anion materials that contain H – and N 3– have been reported as capable of activating transition metal catalysts and achieving high performance in ammonia synthesis. However, the dominant effect of these anions remains unclear due to the complicated situation that arises from facile surface anion exchange and the changeable valence states of the metal cations under reaction conditions. This study advances the understanding of the anion effect on the catalytic performance through evaluation of the electronic structure of mixed-anion oxynitride and oxyhydride materials, BaAl 2 O 4– x A y (A = N or H). Anionic electrons are generated in the crystallographic cages of BaAl 2 O 4 accompanied by H – substitution and midgap states are formed at a much shallower energy level above the original valence band minimum (VBM). These anionic electrons thus have a low work function (WF), which enhances the electron-donating ability of BaAl 2 O 4– x H y to facilitate N 2 dissociation over Co, which is crucial for ammonia synthesis. Conversely, the electron-donating ability of BaAl 2 O 4– x N y is not significant because no such anionic electrons are formed, which limits N 2 dissociation over Co. Instead, nitrogen vacancy sites work as active sites over Co/BaAl 2 O 4– x N y .",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yihao Jiang",
    "Shiyao Wang",
@@ -3591,8 +3634,8 @@
    "Masaaki Kitano"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06-03",
   "doi": "10.1021/acscatal.5c01332",
@@ -3616,6 +3659,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "通过评估BaAl2O4–xAy（A=N或H）混合阴离子氧氮化物和氧氢化物的电子结构，研究阴离子效应。研究发现H-取代产生阴离子电子，形成浅能级中间态，降低功函数，增强电子给体能力促进Co上的N2解离；而N-取代无此效应，氮空位成为活性位点。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "通过阴离子取代调控 BaAl2O4-xAy 的电子结构以负载钴用于氨合成"
@@ -4213,11 +4257,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "Image and performance of integrated electrified reactor system for efficient CO 2 -to-syngas conversion via e -methanation and e -POM.",
@@ -4540,24 +4586,27 @@
  },
  "10.1080/1536383x.2025.2522775": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This work details a novel, sustainable method for orange peel flash graphene (OPFG) synthesis utilizing Iraqi orange peel-derived activated carbon (OPAC) as a precursor and flash Joule heating (FJH). OPFG characterization via SEM, TEM, EDS, XRD, Raman, FTIR, and BET analyses revealed a highly porous, turbostratic structure with a large surface area (11.168 m2/g) and an average particle size of 40.5 nm. Raman spectroscopy indicated an I_2D/I_G ratio of approximately 1.833, while XRD analysis confirmed graphitization with an interlayer spacing of 3.45 Å. FTIR spectroscopy identified surface functional groups enhancing dispersibility and reactivity. This scalable, cost-effective, and environmentally benign approach demonstrates the potential of waste biomass valorization for high-quality flash graphene production, enabling future applications in energy storage, catalysis, and environmental remediation.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Enas Sameer Alkhawaja",
    "Hayder Mohammed Abdul-Hameed"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06-27",
   "doi": "10.1080/1536383x.2025.2522775",
@@ -4579,8 +4628,9 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "利用伊拉克橙皮衍生的活性碳作为前驱体，通过闪蒸焦耳热（FJH）工艺合成了橙皮闪蒸石墨烯（OPFG）。表征显示其具有大比表面积（11.168 m2/g）、平均粒径40.5 nm、层间距3.45 Å以及I2D/IG比约1.833的乱层结构。",
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_obj": "通用催化方法；涉及碳材料",
   "zh_title": "快速焦耳加热法制备的橙皮闪速石墨烯的合成与表征"
  },
  "10.1080/17522439.2025.2521854": {
@@ -4723,17 +4773,20 @@
  },
  "10.1109/iitc66087.2025.11075358": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The precise control of deposition and etching processes is essential for integrating Ruthenium (Ru) as a potential copper (Cu) replacement in advanced interconnect technology. In this study, atomic layer deposition (ALD) Ru films were deposited at various temperatures, and their etching behavior in quasi-atomic layer etching (ALE) was investigated. The quasi-ALE process was conducted through adsorption (oxidation), desorption (removal), and reduction steps to achieve controlled Ru etching. The relationship between deposition conditions and etching characteristics was analyzed to understand the quasi-self-limiting behavior of the process. This study provides insights into optimizing oxidation and reduction conditions for a more stable and uniform ALE process, contributing to the development of Ru-based interconnects.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Youngseo Na",
    "Hyunjin Lim",
@@ -4745,8 +4798,8 @@
    "Changhwan Choi"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06-02",
   "doi": "10.1109/iitc66087.2025.11075358",
@@ -4766,25 +4819,29 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "ALD"
+   "atomic layer deposit"
   ],
+  "zh_brief": "为评估钌作为铜替代材料在先进互连技术中的应用，本研究研究了不同温度下原子层沉积钌薄膜的准原子层刻蚀行为。通过吸附（氧化）、脱附（去除）和还原步骤实现可控刻蚀，分析了沉积条件与刻蚀特性的关系，为优化氧化和还原条件提供了见解。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
+  "zh_obj": "其他催化反应；涉及Ru/钌体系、原子层沉积",
   "zh_title": "铱薄膜的温度依赖性ALD与准ALE行为"
  },
  "10.1109/iitc66087.2025.11075510": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Transition metal carbides (TMCs) possess superior properties compared to transition metal nitrides (TMNs). However, despite their advantages, atomic layer deposition (ALD) and plasma-enhanced ALD (PEALD) techniques for these materials, particularly yttrium carbide (YCx), have not been thoroughly investigated. This study introduces a PEALD approach for fabricating high-quality YCxthin films with excellent uniformity and precise thickness control. With a focus on their potential as advanced diffusion barriers, the research employs a metal-organic Y precursor in combination with H2plasma to produce highly crystalline, low-resistivity YCxfilms. To refine the deposition process, critical parameters such as temperature (ranging from 150 °C to 350 °C), precursor pulse time, and plasma exposure duration were carefully optimized. Under these conditions, the film exhibited a growth rate of ~0.13 nm per cycle at 250 °C. Structural and compositional analysis using advanced microscopy and spectroscopic techniques confirmed the formation of a nanocrystalline rhombohedral phase, a C-to-Y atomic ratio of ~0.46, and a film density of 4.63 g/cm3. Furthermore, the deposited films demonstrated exceptional step coverage of 95% within a trench structure with an aspect ratio of ~1.5 and a bottom width of 265 nm. Post-annealing studies revealed that the films maintained their thermal and crystallographic stability between 500 °C and 800 °C. Additionally, the YCxfilms effectively functioned as a dual diffusion barrier for Cu and Ru (40 nm), exhibiting thermal stability up to 900 °C. These results underscore the potential of YCxfilms for applications in advanced semiconductor technologies.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Minjeong Kweon",
    "Chaehyun Park",
@@ -4795,8 +4852,8 @@
    "Soo-Hyun Kim"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-06-02",
   "doi": "10.1109/iitc66087.2025.11075510",
@@ -4818,6 +4875,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "本研究采用等离子体增强原子层沉积（PEALD）技术，利用金属有机钇前驱体结合H2等离子体制备了高质量、低电阻率的YCx薄膜。该薄膜在250 °C下生长速率约0.13 nm/cycle，具有95%的深宽比约1.5的沟槽结构覆盖率和4.63 g/cm3的密度。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
   "zh_title": "钇碳化物薄膜的等离子体增强原子层沉积及其在Cu和Ru金属化中的双扩散阻挡性能"
@@ -5039,11 +5097,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5088,11 +5148,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

@@ -421,17 +421,20 @@
  },
  "10.1002/adma.202570213": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Rapid Formation of Core@Shell Heterostructures In article number 2419790, Il-Doo Kim and co-workers demonstrate that ultrafast photothermal annealing enables the synthesis of metastable transition metal dichalcogenides (TMDs) and carbides (TMCs) with precise structural and phase control. By reaching temperatures above 3000 K within milliseconds under ambient conditions, the method facilitates the formation of core@shell heterostructures and phase-transformed nanomaterials, which exhibit excellent catalytic performance for energy and environmental applications. Based on this concept, the proposed image visually captures the central concept of the study: the rapid formation of core@shell heterostructures comprising TMD shells and diverse core materials via millisecond-scale thermal shock.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Euichul Shin",
    "Dong‐Ha Kim",
@@ -450,9 +453,9 @@
    "Sung‐Yool Choi",
    "Il‐Doo Kim"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07-29",
   "doi": "10.1002/adma.202570213",
@@ -474,8 +477,9 @@
   "why": [
    "Thermal Shock Synthesis"
   ],
+  "zh_brief": "利用超快光热退火在环境条件下毫秒级内达到3000 K以上温度，实现了具有精确结构和相控制的亚稳态过渡金属二硫族化合物（TMDs）和碳化物（TMCs）的快速合成。该方法促进了核壳异质结构和相变纳米材料的形成，这些材料在能源和环境应用中表现出优异的催化性能。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "毫秒内异质结构过渡金属硫族化合物和碳化物的快速热冲击合成"
  },
  "10.1002/admi.202500140": {
@@ -1358,11 +1362,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1401,16 +1407,18 @@
  },
  "10.1007/s11243-025-00675-1": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1519,16 +1527,18 @@
  },
  "10.1007/s12209-025-00436-2": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1571,16 +1581,18 @@
  },
  "10.1007/s40843-025-3476-4": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1622,11 +1634,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1739,11 +1753,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2049,17 +2065,20 @@
  },
  "10.1016/j.cherd.2025.06.032": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ethylene is a vital petrochemical compound produced in vast amounts yearly by manufacturers that have enough scale to overcome the inherent thermodynamic inefficiencies of the process. In order to address the inefficiencies that prevent smaller scale or intermittent production ethylene, investigation of new production methods are required. In this work, we investigate the use of a radio frequency (RF) based reactor system that generates heat internally as opposed to applying heat externally via steam or direct combustion of fossil fuels. In order to guide the design of an electromagnetic based reactor system, we have created a macroscale model capable of capturing heat generation at the susceptors from a produced electromagnetic field and subsequent chemical reactions. Several susceptor and induction coil designs were investigated to better understand the performance of the system.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hunter Teel",
    "Matthew Craps",
@@ -2067,9 +2086,9 @@
    "Perter Ciesielski",
    "Sirivatch Shimpalee"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.cherd.2025.06.032",
@@ -2091,6 +2110,7 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "针对乙烯生产中热力学效率低的问题，研究基于射频的内部加热反应器系统。建立了能够捕捉电磁场产生热以及后续化学反应的宏观模型，以指导电磁反应器系统的设计。通过研究不同的感应器和感应线圈设计，评估了系统的性能。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "感应加热射频反应器在乙烯生产中的数值模拟设计"
@@ -2439,11 +2459,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2488,11 +2510,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2536,17 +2560,20 @@
  },
  "10.1016/j.ijhydene.2025.150112": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia synthesis techniques by sodium hydride are proposed, and the properties are investigated. NaH revealed a catalytic activity for the NH 3 formation from mixed hydrogen and nitrogen gases below 1.0 MPa of pressure. The stability of NaH at each pressure and temperature condition was an essential factor for the catalysis. Furthermore, the NaH was used as a reactant for chemical looping process, where NaH reacted with N 2 and H 2 at different processes. Interestingly, NH 3 can be synthesized by the chemical looping process stably under less than 1.0 MPa of pressure during the cycles. As an intermediate phase, it was indicated that a nitrogen solid solution phase of Na (NaN x ) was formed. Although the amount of soluble nitrogen was small, about 0.02, this intermediate phase possessed an important role to generate reactive atomic nitrogen for the NH 3 synthesis by catalytic and chemical looping processes.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Koki Tsunematsu",
    "Hiroki Miyaoka",
@@ -2556,8 +2583,8 @@
    "Takayuki Ichikawa"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.ijhydene.2025.150112",
@@ -2579,6 +2606,7 @@
   "why": [
    "Ammonia synthesis"
   ],
+  "zh_brief": "本研究提出利用NaH进行氨合成，并考察了其催化活性和化学链过程性能。NaH在低于1.0 MPa下对混合H2和N2生成NH3表现出催化活性。在化学链过程中，NaN x 固溶体相作为中间相生成活性原子氮，实现了稳定的小规模NH3合成。",
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨",
   "zh_title": "钠-氮固溶体介导的催化与化学链合成氨"
@@ -2695,25 +2723,28 @@
  },
  "10.1016/j.jcat.2025.116136": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The role of metal oxide supports is complex in heterogeneous catalysis due to acidity, basicity, and surface defects. Interpretable machine learning models trained on experimental data could lead to new insights about these complexities, which are rarely verified through detailed catalyst characterization. This study explores the role of metal oxide supports for the Ru-based ammonia synthesis catalysts using Shapley additive explanations (SHAP). The support metal nitride formation energy and the support metal hydride formation energy were identified as critical descriptors that could describe the ammonia synthesis activity. These descriptors and the related catalyst characterization by Ammonia-Temperature Programmed Desorption and Hydrogen-Temperature Programmed Desorption suggest new processes that could govern the ammonia synthesis reaction. It is suggested that in addition to basicity, the metal oxide support should possess a certain acidity to alleviate ammonia inhibition and form metal hydrides to alleviate hydrogen inhibition.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rasika Jayarathna",
    "Rahat Javaid",
    "Jochen Lauterbach"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.jcat.2025.116136",
@@ -2741,7 +2772,8 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
+  "zh_brief": "利用SHAP模型分析实验数据，探究Ru基氨合成催化剂中金属氧化物载体的作用。研究发现载体的金属氮化物形成能和金属氢化物形成能是关键描述符。表征表明，除了碱性外，载体还需具备一定酸性和形成金属氢化物的能力，以缓解氨和氢的抑制。",
+  "zh_method": "表征温程（TPR/TPD/TPO 等，不等于反应供热）",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "理解金属氧化物载体在 Ru 基氨合成催化剂中的作用：基于可解释机器学习"
  },
@@ -2861,17 +2893,20 @@
  },
  "10.1016/j.jcomc.2025.100609": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The use and development of thermosetting composites are limited by several complex and interconnected environmental issues, such as the continued use of fossil-based resins and the high energy demand for fibers (especially carbon fibers) and composite manufacturing. In the present research, these three criticalities are discussed, proposing the design of highly performing bio-resin and the development of thermosetting composites with recycled carbon fibers using cutting-edge, low-energy demanding processes. Exploiting the electrical conductivity of the recycled carbon fibers mat, the composites have been cured directly via Joule heating, generating heat inside the component and reaching a temperature of about 180°C, suitable to guarantee a high curing degree of the employed thermosetting resin. Thermal parameters (temperature and heating time) have been selected based on the preliminary characterization of the biobased epoxy resin. The composites obtained using this innovative approach manifest a glass transition temperature higher than 198°C and a complete curing degree.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Liberata Guadagno",
    "Luigi Vertuccio",
@@ -2881,9 +2916,9 @@
    "Roberto Pantani",
    "Raffaele Longo"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07",
   "doi": "10.1016/j.jcomc.2025.100609",
@@ -2905,6 +2940,7 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "针对化石基树脂和高能耗纤维制造的问题，本研究利用回收碳纤维毡的电导性，通过闪蒸焦耳热直接加热至约180°C，实现了生物基环氧树脂的高固化度。制备的复合材料表现出高于198°C的玻璃化转变温度和完全的固化度。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "通过焦耳加热固化制备的可持续生物基复合材料与回收碳纤维"
@@ -3444,25 +3480,28 @@
  },
  "10.1021/acs.energyfuels.5c02533": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Recently proposed catalytic reaction mechanism for ammonia synthesis relies on an associative, dissociative, or concerted mechanism. Hydrogen poisoning of efficient Ru catalysts has long been a persistent issue. To address this, we demonstrate the use of lanthanide metal oxide supports to enhance the activity of Ru metal by minimizing the hydrogen poisoning effect and shifting the rate-determining step from nitrogen dissociation to ammonia desorption. Under 1.0 MPa and 400 °C, ammonia was produced at a rate of 14.64L·day –1 over the Ru/LaGdO catalyst, which is ∼90% of the thermodynamic equilibrium value. Experimental findings juxtaposed with theoretical calculations unveil that surface-adsorbed H atoms hop to the underlying metal oxide support, which heterolytically react to form active La–H and Gd–H species. Inherent oxygen vacancies of the support enable the active hydride species to participate in ammonia generation. This work emphasizes the necessity of utilizing surface H atoms poisoning Ru through underlying supports for high and stable ammonia synthesis rates.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Pintu Kumar Roy",
    "Tuhin Suvra Khan",
    "Sushant Kumar"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07-29",
   "doi": "10.1021/acs.energyfuels.5c02533",
@@ -3482,8 +3521,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Production"
+   "ammonia synthesis"
   ],
+  "zh_brief": "本研究利用镧系金属氧化物载体增强Ru金属活性，通过最小化氢中毒效应并将决速步从氮解离转移到氨脱附。在1.0 MPa和400 °C下，Ru/LaGdO催化剂的氨生成速率为14.64 L·day^-1，约为热力学平衡值的90%。表面吸附的H原子跳跃至载体形成La–H和Gd–H物种，促进了氨生成。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "氧化物载体上氢跳跃行为调控提升负载Ru催化剂合成氨性能"
@@ -3700,17 +3740,20 @@
  },
  "10.1021/acs.jpcc.5c03286": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Atomic layer deposition (ALD) of platinum (Pt) has gained significant interest in the recent years due to its capability of depositing various Pt nanostructures for applications in different fields, such as Pt nanoparticles (NPs) for catalytic reactions and energy devices and Pt thin films for microelectronic technology. Among various developed processes, Pt ALD using MeCpPtMe 3 as the precursor has been most popularly employed owing to the high reactivity, volatility, and thermal stability of the precursor, which enable controlled deposition of Pt nanostructures in a broad range of temperatures. Typical MeCpPtMe 3 -based Pt ALD processes use O 2 and H 2 as the coreactants. In this study, we explore atomic hydrogen as an alternative and reveal its exceptional reactivity that outperforms H 2 and O 2 . Specifically, atomic hydrogen enables the deposition of highly dispersed Pt NPs with narrow particle size distributions (i.e., standard deviation <0.3 nm) on various oxide surfaces, including TiO 2, SiO 2, CeO 2 and V 2 O 5, which is unattainable with H 2 under identical experimental conditions. In addition, it facilitates the deposition of Pt NPs with improved size uniformity and accelerates the closure of Pt films compared to ALD processes using O 2 as the coreactant. The results demonstrate a significant potential of atomic hydrogen as a highly effective coreactant for ALD of Pt NPs and thin films.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hao Van Bui",
    "Fabio Grillo",
@@ -3721,9 +3764,9 @@
    "J. Ruud van Ommen",
    "Alexey Y. Kovalgin"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07-17",
   "doi": "10.1021/acs.jpcc.5c03286",
@@ -3745,6 +3788,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "研究原子氢作为替代反应物在铂原子层沉积中的应用，发现其反应活性优于H2和O2。原子氢能够在TiO2、SiO2、CeO2和V2O5等多种氧化物表面沉积出分散度高且粒径分布窄（标准偏差<0.3 nm）的铂纳米颗粒，并能促进铂薄膜的闭合，显示出作为高效共反应物的巨大潜力。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "高活性原子氢作为使用 MeCpPtMe3 进行铂原子层沉积的替代反应物"
@@ -3782,17 +3826,20 @@
  },
  "10.1021/acs.jpcc.5c04002": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Heterostacks of nickel oxide (NiO) and cobalt oxide (Co 3 O 4 ) are promising, nonprecious oxygen evolution reaction (OER) catalysts. NiO is particularly notable for its ability to form the active (oxy)hydroxide phase and its ability to scavenge highly active electrolyte-based iron, while Co 3 O 4 is renowned for its high activity and stability. However, the nanoscale design of the investigated structures, typically composites and nanohybrids, hampers their optimization toward efficient OER, as it is challenging to discern contributions from Co 3 O 4, NiO, and their interface. In this respect, atomic layer deposition (ALD) offers the opportunity to systematically investigate the synergy between these materials by enabling subnanometer thickness control of thin-film heterostacks. These heterostacks demonstrate a strong interfacial coupling associated with the epitaxial growth of NiO on polycrystalline Co 3 O 4 . Electrochemical analysis in 1 M KOH of stacks with variable NiO thickness, between 0.2 and 13 nm NiO on Co 3 O 4, reveals two distinctive OER activity regimes, with ∼2 nm NiO as the tipping point. Stacks consisting of less than 2 nm NiO completely transform into an electrolyte-permeable, flaky nickel (oxy)hydroxide film, enhancing the electrochemically active surface area (ECSA) and enabling Co 3 O 4 to contribute to the OER activity. In contrast, stacks consisting of more than a 2 nm-thick NiO overlayer on Co 3 O 4 exhibit incomplete conversion to the (oxy)hydroxide phase, thereby preventing exposure of Co 3 O 4 to the electrolyte. Nevertheless, the underlying Co 3 O 4 promotes enhanced nickel (oxy)hydroxide formation compared to a NiO thin film, resulting in all stacks outperforming NiO. These results underscore the added value of ALD model systems for the design and understanding of ternary oxides’ OER electrocatalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Renée T. M. van Limpt",
    "Mengmeng Lao",
@@ -3800,9 +3847,9 @@
    "Mihalis N. Tsampas",
    "Mariadriana Creatore"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07-02",
   "doi": "10.1021/acs.jpcc.5c04002",
@@ -3824,8 +3871,9 @@
   "why": [
    "Atomic Layer Deposit"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_brief": "利用原子层沉积对NiO和Co3O4异质堆叠进行亚纳米级厚度控制，研究其在1 M KOH中的析氧反应性能。结果显示，约2 nm NiO为关键转折点，小于2 nm的NiO完全转化为电解质渗透的片状镍（氧）氢氧化物薄膜，增加了电化学活性表面积；而大于2 nm的NiO层则阻碍了Co3O4的暴露，但底层Co3O4仍促进了镍（氧）氢氧化物的形成。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "材料制备/结构调控；涉及Fe/铁体系、原子层沉积",
   "zh_title": "原子层沉积钴氧化物/镍氧化物异质堆栈的厚度依赖性析氧反应性能"
  },
  "10.1021/acs.nanolett.5c02227": {
@@ -3876,17 +3924,20 @@
  },
  "10.1021/acsaem.5c00630": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Joule heating ultrafast synthesis (High-Temperature Shock, HTS) represents a revolutionary approach in material engineering, utilizing millisecond-level thermal shocks to achieve nonequilibrium states and precise control of defect engineering. This perspective highlights the rapid, nonequilibrium HTS of advanced energy materials. By generating ultrahigh temperatures and ultrafast heating/cooling rates through instantaneous electrical currents, it enables the creation of defect-rich materials within milliseconds, which can significantly enhance the electrochemical performance. Here, we summarize its applications in synthesizing electrodes for lithium-ion, sodium-ion, potassium-ion, and multivalent-ion batteries as well as highly active and stable catalysts for electrocatalytic reactions. Through precise control over defect configurations, the HTS improves ion transport and reaction kinetics while reducing energy consumption and production costs, aligning well with the concept of green sustainability. Despite challenges, such as thermal uniformity, equipment costs, and scalable manufacturing, future integration of Joule heating ultrafast synthesis with artificial intelligence and automation technologies holds promise to advance high-performance energy technologies.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Zhaoxin Guo",
    "Zhedong Liu",
@@ -3900,9 +3951,9 @@
    "Yanan Chen",
    "Wenbin Hu"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07-17",
   "doi": "10.1021/acsaem.5c00630",
@@ -3924,8 +3975,9 @@
   "why": [
    "Joule Heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "焦耳加热超快合成（高温冲击，HTS）利用毫秒级热冲击实现非平衡态和缺陷工程的精确控制。通过瞬时电流产生超高温度和超快加热/冷却速率，可在毫秒内创建富含缺陷的材料，从而显著提升电化学性能。该综述总结了其在锂离子、钠离子、钾离子及多价离子电池电极以及电催化反应催化剂合成中的应用。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "焦耳热超快合成"
  },
  "10.1021/acsaem.5c01583": {
@@ -4150,17 +4202,20 @@
  },
  "10.1021/acscatal.5c03006": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Al 2 O 3 is a critical component in Fe-based catalysts for ammonia synthesis, yet its precise promotional role remains elusive. In this work, we employ density functional theory (DFT) and molecular dynamics (MD) simulations to investigate the catalytic behavior of Fe surfaces supported on γ-Al 2 O 3, the most common phase of Al 2 O 3 used as a support. A series of Fe(110)/γ-Al 2 O 3 models with varying Fe layer thicknesses are constructed, in which the Fe(110) facet is typically the least active among Fe surfaces. Reaction energies and activation barriers are computed for each system, followed by microkinetic simulations based on the calculated energetics. The results reveal a pronounced promotional effect of γ-Al 2 O 3: Its interaction with Fe(110) significantly lowers the barrier for N 2 dissociative adsorption, elevating the predicted catalytic activity to a level comparable with that of Fe(111), the most active Fe surface. Structural analysis further shows that monolayer Fe(110)/γ-Al 2 O 3 closely resembles the geometry of stepped Fe surfaces. As the number of Fe layers increases, the structural distortion induced by γ-Al 2 O 3 diminishes, and the system gradually reverts to the characteristics of pristine Fe(110).",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jianfu Chen",
    "Ye Chen",
@@ -4168,8 +4223,8 @@
    "P. Hu"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-07-19",
   "doi": "10.1021/acscatal.5c03006",
@@ -4191,6 +4246,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "本研究利用DFT和MD模拟探究了Fe/γ-Al 2 O 3 的催化行为。结果显示，γ-Al 2 O 3 与Fe(110)的相互作用显著降低了N2解离吸附的能垒，使预测活性提升至与最活跃的Fe(111)相当的水平。单层Fe(110)/γ-Al 2 O 3 的结构分析表明其类似于阶梯Fe表面。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "γ-Al2O3 对 Fe 催化剂合成氨的强促进作用"
@@ -4759,11 +4815,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6103,11 +6161,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6367,11 +6427,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -6417,11 +6479,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

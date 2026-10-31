@@ -484,15 +484,18 @@
  },
  "10.1002/aenm.70110": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Water Splitting In article number 2502150, Núria López, Menny Shalom, and co-workers introduce a sandwich-like precursor pellet composed of red phosphorus, compressed between two nickel foam disks and wrapped with flexible carbon cloth strips. Upon Joule heating, it is rapidly converted into a dense nickel phosphide pellet. This pellet serves as a self-standing electrode, directly connected to the working electrode holder, and demonstrates excellent performance for overall water splitting.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Liel Abisdris",
    "Muhammad Saad Naeem",
@@ -506,9 +509,9 @@
    "Núria López",
    "Menny Shalom"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09-10",
   "doi": "10.1002/aenm.70110",
@@ -530,6 +533,7 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "Núria López, Menny Shalom等人利用红磷、镍泡沫和柔性碳布条制备了三明治状前驱体压片，通过焦耳加热快速转化为致密的镍磷化物压片。该自支撑电极直接连接工作电极夹具，表现出优异的全水分解性能。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "高效可扩展焦耳热合成自支撑过渡金属磷化物电极用于全水分解"
@@ -1248,15 +1252,18 @@
  },
  "10.1002/smll.70393": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Hydrogen Evolution In article number 2503335, Yun Chen and co-workers pioneer flash Joule heating in synthesis of g-C3N4, completing the process within 72s. This method introduces nitrogen defects and tunes the band structure of g-C3N4. Pt loaded on the resulted g-C3N4 achieving a high photocatalytic hydrogen evolution rate of 16936.5 µmol h−1 g−1, providing a key reference for scalable synthesis of g-C3N4-based photocatalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jiawei Xiao",
    "Yun Chen",
@@ -1272,9 +1279,9 @@
    "Xin Chen",
    "Ching‐Ping Wong"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09-25",
   "doi": "10.1002/smll.70393",
@@ -1296,6 +1303,7 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "利用闪蒸焦耳热法在 72 秒内合成了引入氮缺陷并调变能带结构的 g-C3N4。负载 Pt 的 g-C3N4 光催化剂实现了 16936.5 µmol h−1 g−1 的高光催化析氢速率，为 g-C3N4 基光催化剂的可扩展合成提供了关键参考。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "析氢反应",
   "zh_title": "闪焦耳热合成氮富缺陷G-C₃N₄用于高效光催化析氢"
@@ -1813,11 +1821,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1861,11 +1871,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1949,11 +1961,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2140,16 +2154,18 @@
  },
  "10.1016/j.cej.2025.166256": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2229,16 +2245,18 @@
  },
  "10.1016/j.cej.2025.166366": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2358,16 +2376,18 @@
  },
  "10.1016/j.ces.2025.121906": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2486,16 +2506,18 @@
  },
  "10.1016/j.electacta.2025.146607": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2571,16 +2593,18 @@
  },
  "10.1016/j.fuel.2025.135332": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2775,19 +2799,22 @@
  },
  "10.1016/j.ijhydene.2025.150995": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) has gained attention as a potential hydrogen carrier for its high hydrogen content and absence of carbon atoms. However, the main route for ammonia production is still the energy intensive Haber-Bosch process. In this study, the membrane reactor technology is proposed as an alternative to integrate ammonia synthesis reaction and its simultaneous separation within a single unit. A non-isothermal 1-D packed bed membrane reactor model was developed, in which ammonia synthesis is promoted by a ruthenium-based catalyst, and its in situ separation takes place by means of NH 3 -selective membranes. The mathematical model was first validated with experimental data in a packed bed reactor, and afterward used to study the feasibility of a packed bed membrane reactor, aiming to identify the optimal membrane performance required to enhance the reactor efficiency, in terms of H 2 conversion, NH 3 purity and NH 3 recovery. Initial results under isothermal conditions, demonstrate that a P N H 3 > 10 − 7 m o l P a − 1 m − 2 s − 1 and S N H 3 / H 2 = 50 are required to significantly boost H 2 conversion. On the other hand a S N H 3 / N 2 = 100 was selected as a trade-off value influencing NH 3 purity and NH 3 recovery. The operating conditions study revealed that both sweep gas-to-feed flow ratio and pressure difference across the membrane are crucial for enhancing reactor performance, with optimal conditions identified at SW = 6 and ΔP = 20 bar. Furthermore, in the adiabatic case study, the investigation of the heat exchange integration between feed gas and sweep gas streams, highlights the importance of the latter as cooling fluid, achieving the best results at inlet permeate temperature of 200 °C. This enabled to achieve an H 2 conversion of 93 %, along with NH 3 recovery and purity of 99.14 % and 5.65 % respectively. Hence, the mathematical model demonstrates that an adiabatic packed bed membrane reactor with the integration of heat exchange has the potential to attain greater H 2 conversion compared to the equilibrium constraint observed in a conventional packed bed reactor.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Iolanda Gargiulo",
    "Gaetano Anello",
@@ -2795,8 +2822,8 @@
    "Fausto Gallucci"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09",
   "doi": "10.1016/j.ijhydene.2025.150995",
@@ -2818,32 +2845,36 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "本研究建立了一维非等温填充床膜反应器模型，利用Ru基催化剂促进氨合成并实现NH3原位分离。结果表明，在等温条件下，需达到PNH3 > 10^-7 mol Pa^-1 m^-2 s^-1和SNH3/H2 = 50以显著提升H2转化率。操作条件研究显示，最佳条件为SW = 6和ΔP = 20 bar，绝热案例中入口渗透气温度为200 °C时，H2转化率可达93%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "氨合成填充床膜反应器建模：膜性能与操作条件的作用"
  },
  "10.1016/j.ijhydene.2025.151164": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Steam methane reforming (SMR) driven by renewable electricity has emerged as a promising technology for low-carbon hydrogen production. This study focuses on SMR over a catalyst-coated wire heated by Joule heating, aiming to explore the complexities of heat and mass transfer within the catalyst-wire system. Numerical modeling utilizes to evaluate the effect of various parameters such as temperature (up to 1400 K), Reynolds number (up to 2000), and catalyst layer thickness (1 mm, 2 mm, and 5 mm), on energy and material balance. The maximal temperature wire was chosen as control parameters and volume heat flow from hot wire to catalyst layer was changed to change the maximal wire temperature. The numerical model was validated against experimental data. The results reveal that a 1-mm-thick catalyst layer behaves as thermally thin (Bi < 0.1), with catalyst temperature closely resembling wire temperature. However, increasing the catalyst layer thickness to 5 mm leads to a notable rise in the temperature difference between the catalyst layer and the wire. Moreover, thicker catalyst layers of 5 mm suffer from intra-layer diffusion limitations, which can reduce overall process efficiency. It was established that inside catalyst layer for a temperature range above 1200 K the complete methane conversion close to equilibrium value can be achieved. • Steam methane reforming over catalyst-coated hot wire by renewable electricity. • Catalyst layer of 1 mm is thermal thin with negligible intra-layer diffusion limitation. • Catalyst layer of 5 mm suffers from intra-layer diffusion limitation. • Close to equilibrium methane conversion at a low Reynolds number. • High catalyst layer temperature makes unfavorable carbon formation.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Dmitry Pashchenko",
    "Viacheslav Papkov"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09",
   "doi": "10.1016/j.ijhydene.2025.151164",
@@ -2865,6 +2896,7 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "研究了利用焦耳加热的催化剂涂层丝进行蒸汽甲烷重整的传热传质特性。数值模型验证表明，1 mm厚的催化剂层表现为热薄层，催化剂温度接近丝温度；5 mm厚层则存在明显的温度差和层内扩散限制。在温度高于1200 K时，层内可实现接近平衡的甲烷转化。",
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "其他催化反应",
   "zh_title": "蒸汽甲烷重整中涂覆催化剂的导线：催化剂-导线体系中的热与质传递研究"
@@ -3290,19 +3322,22 @@
  },
  "10.1016/j.jsamd.2025.100945": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Advanced technologies, including photocatalysis, are required to address the increasing global need of clean water. Titanium dioxide (TiO 2 ) is often used as photocatalyst for pollutant removal, but its performance is hampered by its large band gap and fast charge carrier recombination. This study describes the synthesis, characterization, and photocatalytic performance of TiO 2 /tin oxide (SnO 2 ) core-shell nanofibers for the degradation of acetaminophen (ACT), a persistent pharmaceutical pollutant. TiO 2 nanofibers, fabricated by electrospinning, were coated with thin SnO 2 films by atomic layer deposition (ALD). After their structural, morphological, and chemical characterization, TiO 2 and TiO 2 /SnO 2 composites were tested as photocatalysts to degrade ACT under UV light. Within 40 minutes, 99.8% and 70% of ACT was degraded in the presence of the optimal TiO 2 /SnO 2 composite (SnO 2 layer thickness of 5 nm) and of TiO 2 nanofibers, respectively. Moreover, the optimal TiO 2 /SnO 2 composite showed excellent recyclability and stability over five consecutive cycles. Hydroxyl radicals ( • OH), superoxide anions ( • O 2 - ), and holes (h + ) were the main reactive species implicated in ACT removal. Density functional theory (DFT) modeling confirmed that the band alignment between TiO 2 and SnO 2 enhanced charge separation. This study demonstrates that TiO 2 /SnO 2 is a promising photocatalyst to remove pharmaceutical contaminants from the environment.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Tia Maria Howayek",
    "Mahmoud Abid",
@@ -3319,9 +3354,9 @@
    "Roland Habchi",
    "Mikhael Bechelany"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09",
   "doi": "10.1016/j.jsamd.2025.100945",
@@ -3343,8 +3378,9 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "通过静电纺丝制备TiO2纳米纤维，并利用原子层沉积在其表面包覆薄层SnO2，用于降解持久性药物污染物对乙酰氨基酚。在紫外光照射下，最优的5 nm SnO2包覆复合物在40分钟内降解率达99.8%，且具有优异的循环稳定性。DFT计算证实了TiO2与SnO2的能带排列增强了电荷分离。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_obj": "通用催化方法；涉及原子层沉积",
   "zh_title": "通过静电纺丝和原子层沉积制备的 TiO2/SnO2 光催化剂用于药物污染物去除"
  },
  "10.1016/j.jssc.2025.125434": {
@@ -3576,16 +3612,18 @@
  },
  "10.1016/j.nanoen.2025.111270": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3664,16 +3702,18 @@
  },
  "10.1016/j.surfin.2025.107054": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3814,19 +3854,22 @@
  },
  "10.1016/j.surfin.2025.107195": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Graphene–titanium dioxide (GR–TiO₂) nanohybrids have attracted significant attention due to their synergistic physicochemical properties and broad applicability in advanced technologies such as sensing, catalysis, and energy storage. Despite extensive efforts to integrate TiO₂ onto graphene, a detailed understanding of the atomic-scale growth mechanism during atomic layer deposition (ALD) remains limited, particularly in the early nucleation stages that critically determine film quality and interface performance. In this study, we address this gap by combining experimental techniques and density functional theory (DFT) calculations to investigate the initial ALD growth of TiO₂ on selectively hydroxylated graphene at 150 °C, using tetrakis(dimethylamino)titanium (TDMAT) and water as precursors. FTIR measurements confirmed a photoinduced hydroxylation process that promotes uniform TiO₂ deposition, as validated by SEM-EDS and XPS. Moreover, AFM analyses revealed a conformal, high-quality thin-film morphology. DFT results unveiled a low-energy ligand exchange mechanism (∼1 kJ/mol) between TDMAT and hydroxylated graphene, in agreement with the observed low-temperature deposition. The subsequent H₂O half-cycle also showed favorable energetics, completing the ALD sequence. This integrated theoretical–experimental approach provides critical insights into precursor–surface interactions and offers a rational framework for optimizing GR–TiO₂ heterostructures via low-temperature ALD.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jonathan E. Rodriguez Hueso",
    "R. Ponce-Perez",
@@ -3837,9 +3880,9 @@
    "H.A. Borbon-Nuñez",
    "Jonathan Guerrero-Sánchez"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09",
   "doi": "10.1016/j.surfin.2025.107195",
@@ -3861,22 +3904,25 @@
   "why": [
    "Atomic layer deposit"
   ],
+  "zh_brief": "结合实验与密度泛函理论（DFT）研究了150 °C下TDMAT和水前驱体在选择性羟基化石墨烯上的初始原子层沉积生长机制。FTIR证实了光诱导羟基化过程促进均匀沉积，DFT揭示了TDMAT与羟基化石墨烯间低能配体交换机制（约1 kJ/mol），解释了低温沉积现象。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
   "zh_title": "通过 TDMAT 在羟基化石墨烯上原子层沉积 TiO2：纳米杂种成核的实验和理论研究"
  },
  "10.1016/j.tsf.2025.140738": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -4811,15 +4857,18 @@
  },
  "10.1134/s2517751625600190": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The process of oxidative dehydrogenation of ethane on titanium-vanadium oxide catalysts deposited on silica gel by the molecular layer deposition method was studied. It was shown that the deposition of titanium and vanadium on the surface of silica occurs uniformly. When at least two layers are deposited titanium oxide crystallizes in the anatase phase while vanadium oxide remains X-ray amorphous in all catalysts. The influence of the titanium-to-vanadium ratio on the activity of the obtained catalysts was studied. It was shown that the conversion of ethane and the selectivity of its conversion into ethylene increase with increasing both the number of deposited titanium and vanadium layers and temperature. The maximum values of ethane/ethylene conversion and ethylene selectivity reach 19 and 85%, respectively. The possibility of separating ethylene and ethane in a mixture of gases leaving a catalytic reactor cooled to 30°C using a grafted ion-exchange membrane with ethylene enrichment up to 90% in three runs is demonstrated. The ethylene permeability during separation achieves 36 Barrer, and the separation factor of the ethane-ethylene mixture is 3.8.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "N. A. Zhilyaeva",
    "E. Yu. Mironova",
@@ -4828,9 +4877,9 @@
    "I. A. Stenina",
    "A. B. Yaroslavtsev"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09-16",
   "doi": "10.1134/s2517751625600190",
@@ -4852,6 +4901,7 @@
   "why": [
    "Molecular Layer Deposit"
   ],
+  "zh_brief": "通过分子层沉积法在硅胶上沉积钛钒氧化物催化剂，研究了乙烷氧化脱氢过程。结果表明，沉积至少两层时钛氧化物结晶为锐钛矿相，钒氧化物保持无定形。随着沉积层数和温度增加，乙烷转化率及乙烯选择性提高，最大转化率和选择性分别达到19%和85%。在30°C冷却条件下，利用接枝离子交换膜分离混合气体，乙烯富集度可达90%，渗透率为36 Barrer，分离因子为3.8。",
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应",
   "zh_title": "在 SiO2 上通过分子层沉积沉积的钛和钒氧化物上乙烷的氧化脱氢以及从所得混合物中选择性分离乙烯"
@@ -5285,19 +5335,22 @@
  },
  "10.26599/ecs.2025.9600033": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Hydrogen (H2) has been regarded as a promising clean energy carrier to address the shortage and pollution of fossil energy. Among various hydrogen generation pathways, electrocatalytic water splitting has become the most promising technology to realize large-scale hydrogen production using renewable energy. The hydrogen evolution reaction (HER) is an important half-reaction of water splitting. The researchers are dedicated to enhancing the activity of HER and reducing the usage of precious metals through catalyst engineering. Joule heating technology has demonstrated exceptional advantages in synthesizing electrocatalytic catalysts in recent years. This technique endows unique physicochemical properties and precise regulation of catalysts, owing to its high-density electronic flow through materials, flash heating/cooling, and high-energy efficiency. This review comprehensively introduces the fundamentals and unique advantages. Additionally, the advancements of Joule heating in synthesizing HER electrocatalysts (element-doped, high-entropy alloy, single-atom, and heterointerface) and the mechanistic roles of Joule heating in modulating catalyst architecture and performance are summarized and discussed. Finally, some suggestions for future development directions are given. It is expected to provide valuable guidelines for the rational design and Joule heating-driven synthesis of high-activity electrocatalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yulu Zhang",
    "Deyang Gong",
@@ -5307,9 +5360,9 @@
    "Xiangchao Meng",
    "Kelei Huang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-09",
   "doi": "10.26599/ecs.2025.9600033",
@@ -5331,6 +5384,7 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "综述了焦耳加热技术在合成电催化析氢催化剂中的优势，包括高密度电子流、闪热/冷却及高能效。总结了其在合成掺杂、高熵合金、单原子及异质界面催化剂方面的进展，并讨论了焦耳加热调节催化剂结构与性能的机理作用。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "析氢反应",
   "zh_title": "超快焦耳热驱动催化剂合成在电催化析氢中的最新进展"
@@ -5791,12 +5845,14 @@
  },
  "10.7567/ssdm.2025.j-4-04": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31"
+   "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",

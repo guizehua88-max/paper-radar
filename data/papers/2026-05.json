@@ -1219,16 +1219,18 @@
  },
  "10.1007/s11426-026-3418-5": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1805,11 +1807,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1859,11 +1863,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -1906,19 +1912,22 @@
  },
  "10.1016/j.cej.2026.175068": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
+   "Crossref",
    "Europe PMC",
-   "Crossref"
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia synthesis is a cornerstone of the chemical industry, but conventional methods rely on energy-intensive processes coupled to fossil fuels. Electrified dynamically responsive ammonia synthesis that can rapidly adapt to fluctuating operating conditions, especially power input, is a sought process to align with intermittent renewable energy sources like solar or wind. Here, we demonstrate that a well-designed magnetic nanocatalyst, i.e., Ba-promoted Ru-decorated Co0.67Ni0.33-Al2O3 nanocomposite, achieves rapid start-up (<10 min to achieve maximal productivity of ammonia), high synthesis rate exceeding 1,500 mmol NH3 gRu⁻¹ h⁻¹ at 350 °C and 5.5 MPa and stable operation for at least 120 h. Density functional theory and microkinetic modeling reveal that Ba promotion lowers the nitrogen dissociation barrier at Ru-BaO interfaces, enhancing activity. A well-designed and compositionally-tuned magnetic nanocomposite provides localized heating at active sites. Our results highlight the synergistic role of magnetic heating and Ru-BaO interface in accelerating ammonia synthesis at mild conditions and establishing a foundation for dynamic, sustainable catalysis powered by renewable electricity.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "A. Sedminek",
    "D. Makovec",
@@ -1930,8 +1939,8 @@
    "S. Gyergyek"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": true,
   "date": "2026-05",
   "doi": "10.1016/j.cej.2026.175068",
@@ -1961,6 +1970,7 @@
    "ammonia synthesis",
    "magnetic heat"
   ],
+  "zh_brief": "Ba 掺杂的 Ru 催化剂在 350 °C 和 5.5 MPa 下实现了超过 1,500 mmol NH3 gRu⁻¹ h⁻¹ 的合成速率和至少 120 小时的稳定运行。磁纳米复合物产生的局部加热促进了反应，实现了快速启动和动态合成。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "磁加热促进钡助催化的钌催化剂动态电化学氨合成"
@@ -2047,11 +2057,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2215,11 +2227,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2261,17 +2275,20 @@
  },
  "10.1016/j.ceja.2026.101099": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "• High-quality turbostratic graphene is derived from peanut shells via FJH • Pretreatment dictates flash graphene quality from lignocellulosic peanut shells. • Short indirect Joule heating forms conductive networks for efficient FJH. • IJH-assisted FJH yields few-layer turbostratic graphene with low defects. • MD–ReaxFF reveals deoxygenation and ring growth during flash conversion. Flash Joule Heating (FJH) is a rapid, energy-efficient route to convert carbon feedstock into graphitic structures, yet the structural quality of flash graphene (FG) remains highly sensitive to the nature of the precursor. In this study, we demonstrate that precursor engineering enables control over graphitic ordering of FJH-synthesised graphene from peanut shells (PS). The study isolated the effects of thermal pretreatment and flash voltage on FJH outcomes, establishing clear relationships between precursor structure, FJH parameters, and graphitic ordering of FG during ultrafast heating. PS were either pretreated with conventional furnace, rapid Indirect Joule heating (IJH), or low-voltage pulse conditioning prior to FJH from 90 V - 180 V. Comprehensive characterisation by Raman, XPS, XRD, GC, TGA, and HRTEM/SAED, together with in-situ electrical and thermal monitoring, established how precursor engineering controls graphene formation. The intensive IJH (short 500–1000°C steps with 60 V conditioning) produced a homogeneous, conductive precursor that converted under a single FJH event to few-layer turbostratic graphene (I 2D /I G = 2.04). In contrast, prolonged furnace carbonisation yields dense, restacked lamellar structures that exhibit limited conversion during FJH. Reactive molecular dynamics (MD–ReaxFF) simulations reproduced the observed sequence of deoxygenation, aromatic ring formation and edge growth under rapid heating. These results identify precursor engineering as one of the critical factors for achieving rapid, energy-efficient synthesis of high-quality turbostratic graphene from biomass via Joule heating.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "I.M. De Cachinho Cordeiro",
    "B. Lin",
@@ -2281,9 +2298,9 @@
    "C. Wang",
    "G.H. Yeoh"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05",
   "doi": "10.1016/j.ceja.2026.101099",
@@ -2305,6 +2322,7 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "通过闪蒸焦耳热（FJH）从花生壳制备高质量乱层石墨烯，前驱体预处理决定了石墨烯质量。研究利用短间接焦耳加热（IJH）形成导电网络，在90-180 V电压下合成出缺陷较少的少层乱层石墨烯（I2D/IG = 2.04）。分子动力学模拟揭示了脱氧和环增长过程。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "花生壳前驱体工程快速焦耳热合成石墨碳"
@@ -2314,11 +2332,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2400,11 +2420,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2581,11 +2603,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2732,11 +2756,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -2821,17 +2847,20 @@
  },
  "10.1016/j.ijhydene.2026.155170": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia is an essential chemical widely used in industry, with its production dominated by the highly energy-intensive Haber-Bosch process. Membrane reactor technology offers a promising alternative by integrating reaction and selective product separation, thereby enabling higher process efficiencies and milder operating conditions. In this work, we investigate a new membrane reactor composed of a carbon membrane immersed in an Activated Triply Periodic Minimal Surface (TPMS) gyroid support uniformly coated with a Ru-based catalytic layer. Different operating conditions have been investigated; The most favourable baseline conditions were identified at the lowest WHSV (715 mLn g cat −1 h −1 ), and with an under-stoichiometric H 2 :N 2 feed ratio of 2:1, reflecting both the proximity to thermodynamic equilibrium and the beneficial impact of reduced hydrogen partial pressure on Ru-based catalysis. At 250 °C and 40 bar, increasing the sweep gas to feed flow ratio (SW) to 10 led NH 3 production rate enhancements of approximately 43 % and corresponding NH 3 yield gains of 15 %, with an NH 3 recovery factor of 84 %. At lower pressure (30 bar) and higher temperatures (350–450 °C), the membrane reactor still enhanced NH 3 production rate at reduced sweep ratios, with gains of about 1-20 % at SW = 1 and 17–41 % at SW = 4 relative to the SCR. However, the NH 3 recovery factor dropped to 64-70 % for SW = 1 and 41-66 % for SW of 4, compared with 87-95 % at 40 bar. This behaviour indicates a clear trade-off between productivity and product recovery as pressure and sweep ratio are adjusted. At 450 °C and 10-40 bar, with a SW = 4, H 2 conversion exceeded the equilibrium value by approximately 15–30 %, and the conversion achieved at 400 °C in the SCR was already attained at 300 °C in the SCMR. At 400 °C and 40 bar with SW = 4, H 2 conversion, NH 3 production rate, and NH 3 yield increased by 83.4 %, 76.9 %, and 53.4 %, respectively, compared to the structured reactor. Overall, these results provide a clear proof of concept for the application of structured membrane reactors to ammonia synthesis, demonstrating that an appropriate combination of structured Ru-based catalysts and carbon membrane integration can deliver enhanced efficiency and equilibrium shifting under milder operating conditions, and offering a solid basis for future scale-up and process optimization studies.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "I. Gargiulo",
    "A. Vita",
@@ -2841,8 +2870,8 @@
    "F. Gallucci"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05",
   "doi": "10.1016/j.ijhydene.2026.155170",
@@ -2864,31 +2893,35 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究了浸没在均匀涂覆Ru基催化层的活化三周期极小曲面螺旋面载体碳膜中的膜反应器。在250 °C、40 bar和SW=10时，氨生产速率提升约43%，产率增益15%，回收因子84%。在450 °C、10-40 bar和SW=4时，氢气转化率超过平衡值约15-30%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "用于膜集成反应器高效合成氨的活化 TPMS 螺旋面载体"
  },
  "10.1016/j.ijhydene.2026.155184": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Offshore wind-powered ammonia provides a scalable solution for renewable energy storage, contributing to the transition toward a low-carbon economy. This study investigates offshore wind-powered ammonia production as a sustainable and scalable pathway for green ammonia. As part of this investigation, the authors developed a steady-state thermodynamic model in MATLAB® for an ammonia production plant featuring the design of an advanced GW-scale SOEC electrolyzer coupled with a Haber-Bosch synthesis loop and a cryogenic air separation unit. The primary findings can be summarized as follows: The green ammonia plant demands 1030 MW to produce 3037 tpd. The overall efficiency reaches 63% (LHV-NH 3 ), while the SOEC electrolyzer performs at the best case scenario with 86.5% (LHV-H 2 ). The Haber-Bosch synthesis loop provides 57% of total thermal power for feedwater evaporation. The partial load analysis reveals that the SOEC electrolyzer achieves 61% and 72% of minimum load for steam conversion scenarios of 70% and 85%, respectively. The stack temperature variations observed are mild and not greater than T stack = ±30 °C across the current density range examined. This fact allows for operation with reduced thermal stress. Finally, the study concludes that the SOEC electrolyzer performs better under a constant conversion strategy at partial load. Above nominal load, it performs slightly better under a constant flow strategy. These findings will encourage the development and adoption of large-scale SOEC electrolysis technology and green ammonia production. • Plant efficiency of 63% (LHV) with a specific consumption of 8.14 kWh/kg NH 3. • Advanced SOEC design with low-ASR stacks and current densities exceeding 1.5 A/cm 2 , achieving 87% (LHV) efficiency. • Minimum SOEC operating loads of 61% and 72% for SC ratios of 70% and 85%, respectively. • Stack temperature gradients remain within the safe limit of 5 K/cm.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Armando Díaz-Motta",
    "Francisco Díaz-González",
    "Manuel Villa-Arrieta"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05",
   "doi": "10.1016/j.ijhydene.2026.155184",
@@ -2910,6 +2943,7 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "开发了一个稳态热力学模型，用于设计先进GW级SOEC电解槽与哈伯-博施合成回路及低温空气分离单元耦合的海上绿色氨生产装置。该装置需1030 MW功率生产3037 tpd氨，整体效率达63%（LHV-NH3），SOEC电解槽效率达86.5%（LHV-H2）。",
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "用于海上氨生产的集成 SOEC-Haber-Bosch 系统建模与性能分析"
@@ -2919,11 +2953,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3042,11 +3078,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3129,17 +3167,20 @@
  },
  "10.1016/j.jcou.2026.103407": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Catalytic methane decomposition (CMD) offers a direct pathway to CO 2 -free hydrogen by converting CH 4 into H 2 and solid carbon. However, its application is constrained by the need for efficient heat delivery to the catalyst and the rapid deactivation of metal catalysts due to carburization and carbon encapsulation. Coupling CMD with the high energy demand and greenhouse gas emissions of conventional external heating, alternative heating technologies that address catalytic limitations are desirable. In this work, CMD over Fe/Al 2 O 3 was evaluated under conventional furnace heating (CFH) and induction heating (IH) conditions at temperatures ranging from 700 °C to 750 °C. IH produced higher initial CH 4 conversion and slower deactivation, sustaining steady-state conversions that were up to 43% higher after 60 min on stream. Thermogravimetric analysis confirmed greater carbon deposition under IH compared to CFH, while derivative thermogravimetric profiles were broader and shifted to higher temperatures, consistent with the formation of more filamentous carbon. Raman spectroscopy indicated similar graphitic order, but X-ray photoelectron spectroscopy (XPS) revealed oversaturated Fe 3 C 1+x in CFH and a higher graphitic-to-carbidic carbon ratio in IH. Scanning and transmission electron microscopy (STEM) supported these findings, showing that CFH terminated significant filament growth due to encapsulated Fe particles, whereas IH promoted sustained carbon filament growth. Multiphysics modeling predicted transient temperature oscillations at catalyst-susceptor interfaces, which may dynamically shift carbon solubility and mitigate continuous carburization of the Fe particles. The findings in this work highlight the importance of evaluating induction-heated catalytic systems with explicit consideration of dynamic process parameters and transient conditions, as well as their effects on the catalyst.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ben Ko",
    "Henry Moise",
@@ -3148,9 +3189,9 @@
    "Matteo Cargnello",
    "Erdem Sasmaz"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05",
   "doi": "10.1016/j.jcou.2026.103407",
@@ -3172,8 +3213,9 @@
   "why": [
    "induction heating"
   ],
+  "zh_brief": "在700-750 °C下对比了Fe/Al2O3在传统炉加热（CFH）和感应加热（IH）条件下的催化甲烷分解（CMD）。IH产生的初始甲烷转化率更高，60分钟内稳态转化率比CFH高43%。XPS显示IH中石墨碳与碳化物比例更高，促进了碳纳米丝的持续生长。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_obj": "材料制备/结构调控",
   "zh_title": "感应加热在 Fe/Al2O3 催化甲烷分解中的作用"
  },
  "10.1016/j.jechem.2026.01.001": {
@@ -3218,11 +3260,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3402,17 +3446,20 @@
  },
  "10.1016/j.jmrt.2026.05.080": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "This study explores the deposition of ruthenium (Ru) thin films using a hollow cathode plasma-enhanced atomic layer deposition (HCP-ALD) process at 250 °C with oxygen as the reactant. The hollow cathode configuration enables the generation of reactive oxygen species under low-power plasma conditions while minimizing ion-induced damage. This promotes ligand removal and improves surface reactivity, leading to high-purity Ru films with enhanced properties. Under the optimized condition, the film exhibits a growth per cycle of 0.76 Å/cycle, a density of 11.8 g/cm 3 , and a low oxygen impurity concentration. Post-deposition annealing in a reducing atmosphere enhances crystallinity and removes residual oxygen, while the film maintains a low surface roughness of 0.96 nm due to its uniform growth. Resistivity is reduced to 11.9 μΩ·cm at a thickness of 20 nm, attributed to minimized electron scattering at grain boundaries, surfaces, and impurities. Step coverage of 88% is achieved in trench structures with an aspect ratio of 12:1, confirming excellent conformality. These findings demonstrate that the HCP-ALD technique enables high-purity and conformal Ru film growth, making it a promising candidate for future interconnect and electrode applications in advanced semiconductor devices.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Seung-Hun Lee",
    "In-Ho Jo",
@@ -3425,9 +3472,9 @@
    "Tae Joo Park",
    "Jeong Hwan Kim"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05",
   "doi": "10.1016/j.jmrt.2026.05.080",
@@ -3449,6 +3496,7 @@
   "why": [
    "atomic layer deposit"
   ],
+  "zh_brief": "在250 °C使用氧气作为反应物，通过空心阴极等离子体增强原子层沉积（HCP-ALD）沉积Ru薄膜。优化条件下薄膜密度为11.8 g/cm3，氧杂质浓度低，20 nm厚度的电阻率为11.9 μΩ·cm，在12:1深宽比沟槽结构中实现了88%的覆盖率和优异的保形性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及Ru/钌体系、原子层沉积",
   "zh_title": "杂质调控的 Ru 薄膜通过空阴极等离子体增强原子层沉积制备，具有低电阻率和 高 顺应性"
@@ -3486,17 +3534,20 @@
  },
  "10.1016/j.jpcs.2026.113517": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "We report the synthesis of a ceria-based catalyst support containing embedded magnetic iron–oxide nanoparticles (IONPs) that enable heating under a high-frequency alternating magnetic field. The ≈11 nm IONPs, synthesized by co-precipitation of Fe 2+ /Fe 3+ ions at room temperature, were coarsened to ≈18 nm through subsequent hydrothermal treatment at 120 °C and then coated with a ≈2 nm silica layer. The catalyst support was prepared by depositing nanocrystalline ceria (CeO 2 ) onto the IONPs via controlled precipitation of Ce 3+ ions in the presence of hexamethylenetetramine (HMTA) in aqueous suspension. When deposited directly on the iron oxide, ceria formed small agglomerates of ≈10 nm octahedral nanocrystallites, whereas deposition on silica-coated IONPs produced a homogeneous 3–6 nm-thick shell composed of ≈3 nm globular crystallites. Special attention was given to elucidating the mechanism of shell formation. The magnetic catalyst was obtained by precipitating Ru nanoparticles (1–2 nm) onto the ceria support. Morpho-structural characterization was performed by XRD, TEM, and aberration-corrected STEM. Static and dynamic magnetization measurements at room temperature were used to assess the magnetic and heating performance. At low field amplitudes (<15 mT), catalysts prepared with IONPs of both sizes exhibited similar specific absorption rates, whereas at higher amplitudes the larger IONPs demonstrated superior heating efficiency. The catalytic performance was demonstrated in the magnetically heated hydrogenation of the bio-based compound 5-(hydroxymethyl)furfural to 2,5-bis(hydroxymethyl)furan, showing high activity, 100% selectivity, and excellent stability upon recycling.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Nina Križaj Kosi",
    "Jakov-Stjepan Pavelić",
@@ -3504,9 +3555,9 @@
    "Sašo Gyergyek",
    "Darko Makovec"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05",
   "doi": "10.1016/j.jpcs.2026.113517",
@@ -3528,8 +3579,9 @@
   "why": [
    "magnetically heat"
   ],
+  "zh_brief": "报告了一种包含嵌入磁性氧化铁纳米颗粒（IONPs）的氧化铈基催化剂载体，可在高频交变磁场下加热。通过水热处理将IONPs粗化至约18 nm，并沉积纳米晶CeO2形成3-6 nm厚的壳层。在生物基化合物5-(羟甲基)糠醛加氢反应中表现出高活性、100%选择性和优异的稳定性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控",
+  "zh_obj": "其他催化反应",
   "zh_title": "通过在二氧化硅包覆磁性氧化铁纳米颗粒上沉积纳米晶二氧化铈合成磁热可加热的铱-二氧化铈催化剂"
  },
  "10.1016/j.jre.2025.04.021": {
@@ -3609,11 +3661,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3841,11 +3895,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -3927,17 +3983,20 @@
  },
  "10.1021/accountsmr.6c00058": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Conspectus Ultrafast annealing represents a paradigm shift in materials synthesis, compressing thermal processing into millisecond-to-subsecond time scales. This approach establishes a unique kinetic-control regime that can enable metastable phases, defect-rich surfaces, engineered interfaces, and atomic-level catalyst functionalization while suppressing thermal degradation that often accompanies conventional furnace-based treatments under equilibrium conditions. Resistive Joule-heating approaches (e.g., carbothermal shock) require conductive supports, whereas laser-based methods often face limitations in uniformity and large-area scalability. Among various ultrafast techniques, light-based approaches offer significant advantages in terms of material compatibility, enabling a broad range of applications. In particular, intense pulsed light (IPL)-driven flash thermal-shock synthesis (FTS) is especially attractive because, unlike general photothermal annealing that typically relies on more moderate optical heating, FTS uses high-intensity broadband xenon-flash pulses to induce a thermal shock within milliseconds. Operating via rapid photothermal conversion, FTS instantaneously achieves ultrahigh temperatures (>2000 K) and rapid heating and cooling rates (10 4 –10 6 K s –1 ). Over the past decade, this flash-processing concept has evolved into a versatile nanomaterials platform capable of converting precursors into functional, often metastable materials under strongly nonequilibrium conditions. In this Account, we first introduce the fundamental photothermal mechanisms and time–temperature characteristics governing FTS. We outline key considerations for material selection─focusing on the strong light-absorption capabilities of carbonaceous materials, defect-engineered metal oxides, and plasmonic metals─alongside the critical metrological challenges of millisecond-scale transient temperature measurement via high-speed infrared pyrometry. We then survey representative nanoengineering strategies enabled by FTS across four major categories. First, atomic-level engineering emphasizes low-thermal-budget heteroatom incorporation (e.g., rapid boron doping into graphene without combustion in ambient air) and the robust stabilization of high-density single-atom catalysts. The ultrafast quenching effectively traps isolated metal atoms at defect sites before diffusion-driven clustering can occur. Second, nanoparticle functionalization covers the transition from monometallic decoration to complex multimetallic and high-entropy alloy (HEA) systems. By leveraging high temperatures to overcome conventional miscibility barriers and rapidly freezing the resulting highly distorted atomic configurations, FTS produces uniformly dispersed HEAs and core(HEA)@shell heterostructures. Third, surface and defect engineering highlight the FTS ability to activate nanomaterial surfaces through rapid reduction, oxygen-vacancy generation, and local modulation of the coordination environment, thereby creating catalytically and electronically active states. Fourth, thermochemical transformations induced by ultrafast photothermal pulses include porosity generation, phase reconstruction, carbothermic synthesis, and heterostructure formation. This also includes transforming nanodiamonds into carbon nanoonions and synthesizing metastable transition metal carbides via carbothermic reactions. Finally, we outline the remaining challenges and future opportunities critical for advancing this field. To guide the rational design of nanomaterials via FTS, we highlight the necessity of expanding the accessible compositional space, developing absorber engineering for nonphotothermal substrates, implementing precise atmosphere programming, and deploying millisecond-resolved in situ and operando analyses to deepen fundamental mechanistic understanding.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Euichul Shin",
    "Dogyeong Jeon",
@@ -3945,9 +4004,9 @@
    "Jun-Hwe Cha",
    "Il-Doo Kim"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05-14",
   "doi": "10.1021/accountsmr.6c00058",
@@ -3967,10 +4026,11 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Shock Synthesis"
+   "Joule-heat"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实",
+  "zh_brief": "综述了强脉冲光驱动的闪蒸热冲击合成(FTS)作为一种超快退火范式，通过毫秒至亚秒级的热处理建立独特的动力学控制区域能够实现亚稳态相和缺陷表面。FTS利用高强度的宽带氙闪光脉冲在10^4至10^6 K s–1的加热冷却速率下瞬间达到>2000 K的超高温，克服了电阻焦耳加热和激光加热的局限性。",
+  "zh_method": "反应阶段焦耳/电阻供热",
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "强脉冲光驱动闪热冲击合成：超快纳米材料设计的前沿策略"
  },
  "10.1021/acs.chemmater.6c00226": {
@@ -4099,17 +4159,20 @@
  },
  "10.1021/acs.iecr.6c00993": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "Ammonia (NH 3 ) decomposition is a promising route for hydrogen production. This work compares external wall-heated reactor (EWHR) and internal Joule-heated reactor (IJHR) to clarify the influence of heating mode, heater architecture, and catalyst deployment on transfer and reaction. IJHR delivers higher NH 3 conversion than EWHR, reaching 21.0% at 180 mL/min, indicating improved robustness under elevated heat demand. Under internal Joule heating mode, foam architecture provides more uniform temperature distribution and higher energy utilization, achieving 3.2% higher conversion. Catalyst deployment on conductive foam is then evaluated by comparing packed and coated implements, followed by tuning coating loading. Coated-foam architecture boosts heat transfer and NH 3 conversion at intermediate temperatures, whereas diffusion within the thicker coating layer limits benefits at higher temperatures. Optimized coating achieves conversion comparable to packed foam with 46.7% less catalyst, improving catalyst utilization. These results provide guidance for scaling reactors by balancing heat supply, temperature uniformity, and catalyst utilization.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yanan Sui",
    "Yitu Hu",
@@ -4121,9 +4184,9 @@
    "Xinggui Zhou",
    "Xuezhi Duan"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05-04",
   "doi": "10.1021/acs.iecr.6c00993",
@@ -4149,6 +4212,7 @@
    "Ammonia Decomposition",
    "Joule-Heat"
   ],
+  "zh_brief": "比较了外壁加热反应器(EWHR)和内部焦耳加热反应器(IJHR)在加热模式、加热器结构和催化剂负载对传质和反应的影响。内部焦耳加热模式下泡沫结构提供更均匀的温度分布和更高的能量利用率，转化率提高3.2%。优化的涂层工艺在保持与填充泡沫相当转化率的同时减少了46.7%的催化剂用量。",
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "氨分解制氢",
   "zh_title": "为焦耳加热氨分解工程结构化导电床"
@@ -4296,17 +4360,20 @@
  },
  "10.1021/acsaelm.6c00337": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide High-quality thin films of oxide semiconductors are desirable for many emerging applications in electronic devices. However, the lack of a stable native p -type oxide semiconductor has hindered the full potential of integrated oxide technologies. Nickel oxide (NiO x ) has emerged as a promising native p -type oxide semiconductor. Yet, achieving dense, low-defect p -type NiO x thin films by CMOS-compatible processes remains a significant challenge. In this study, we present an amidinate-based plasma-enhanced atomic layer deposition (PE-ALD) technique enabling oxygen-rich p -type polycrystalline NiO x thin films. We demonstrate monolayer deposition at platen temperatures between 175 and 225 °C, with carbon- and nitrogen-containing species contamination below 0.5%. Moreover, a CMOS-compatible 60-min capacitively coupled O 2 plasma post-deposition treatment activates hole conduction in the 10 nm NiO x films, as confirmed by Hall-effect measurements of van der Pauw metrology structures. This approach yields a hole mobility of 29.4 cm 2 /(V s), carrier concentration of 8.0 × 10 15 cm −3, and sheet resistance of 26.5 MΩ/□, owing to minimal contamination, effective oxygen enrichment, and suppression of surface hydroxyl groups. These findings highlight (i) the advantages of PE-ALD as a precise, CMOS-compatible deposition method for oxide semiconductors, which is scalable and reproducible, (ii) the importance of oxygen enrichment to NiO x in achieving p -type conduction, and (iii) the potential of NiO x as a native p -type oxide semiconductor with viable hole mobility for back-end-of-line CMOS-compatible integration.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ben D. Rowlinson",
    "Omesh R. Kapur",
@@ -4315,9 +4382,9 @@
    "Ruomeng Huang",
    "Harold M.H. Chong"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05-28",
   "doi": "10.1021/acsaelm.6c00337",
@@ -4339,6 +4406,7 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "提出了一种基于氨基甲酸酯的等离子体增强原子层沉积(PE-ALD)技术，在175至225 °C下沉积氧丰富型p型多晶NiOx薄膜，碳和氮杂质含量低于0.5%。60分钟电容耦合O2等离子体后处理激活了10 nm NiOx薄膜中的空穴导电，空穴迁移率为29.4 cm2/(V s)，载流子浓度为8.0×1015 cm–3，方块电阻为26.5 MΩ/□。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "使用酰胺前驱体制备等离子体增强原子层沉积 p 型氧化镍薄膜"
@@ -4753,11 +4821,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
@@ -5376,11 +5446,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "Errors in the article by Hu et al. [ J. Appl. Cryst. (2024), 57 , 88–93] are corrected.",
@@ -5562,17 +5634,20 @@
  },
  "10.1134/s0036024426700172": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
-  "abstract": "",
+  "abstract": "The electronic behaviors during the interaction and charge transfer between phases at the interface of solid (magnetite)-liquid (water)-gas (nitrogen) was studied using density functional theory (DFT) calculations. It was found that the s- and p-orbital electrons of the N atoms from nitrogen molecules and the O atoms from water molecules interact with the s-, p-, and d-orbital electrons of the Fe atoms from Fe3O4 during contact. Consequently, electrons are transferred, mainly over the contact interface between the phases and the bonds in reactant molecules expand providing favorable conditions for reactions. They were all confirmed theoretically. The effect of humidity on contact electrification was also investigated. It was proved that as the humidity increased, more and more charge “flew” across the solid surface and the reason for the increase in ammonia production along with increasing humidity was explained in the regard of contact electrification. This study can help to better understand the electronic behavior and charge transfer mechanism during solid-liquid-gas contact electrification and provide benefits for selection and rational design of more efficient ammonia synthesis catalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Son-Hui Ryu",
    "Chol-Ung Kim",
@@ -5584,8 +5659,8 @@
    "Jong-Gwa Ri"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
-  "brief_v": 2,
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-05-18",
   "doi": "10.1134/s0036024426700172",
@@ -5607,8 +5682,9 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "利用密度泛函理论计算研究了固相磁铁矿、液相水和气相氮在界面处的电子行为与电荷转移。发现N原子和O原子的电子与Fe3O4中Fe原子的电子相互作用导致电子转移，且湿度增加会促进电荷跨越固体表面流动，从而解释了湿度升高导致氨产率增加的现象。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "环境氨合成催化体系接触起电机制的第一性原理研究"
  },
  "10.13182/t140-48720": {
@@ -5616,11 +5692,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
+   "OpenAlex": "2026-10-31",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
-   "Semantic Scholar",
-   "Europe PMC"
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
   ],
   "ab_try": "2026-10-31",
   "abstract": "",
