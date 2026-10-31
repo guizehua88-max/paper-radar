@@ -6073,6 +6073,9 @@
    "Yu‐Ning Wu",
    "Hideo Hosono"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-17",
   "doi": "10.1021/acs.chemmater.6c01728",
@@ -6097,8 +6100,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "二维（2D）层状电化物Ae2N（Ae = Ca, Sr, Ba）作为电子供体促进N2活化。基于电子局域函数的分析表明，Ae2N化合物的（104）表面的浮电子直接与N2分子的空π*轨道相互作用，从而促进在范德华（vdW）间隙位点上的化学吸附。约束的从头算分子动力学模拟表明，Ca2N和Ba2N上N2解离的能量势垒相似。然而，暴露在氮气气氛中将Ca2N转化为β-Ca3N2，这解释了实验上观察到的Ca2N对N2的惰性，通过同位素交换反应观察到。相比之下，Ba2N中的氮离子在vdW间隙中快速捕获氮离子，可能促进N2解离和重组。在N2与晶格氮物种交换期间，新形成的N2直接从Ba2N表面释放，而Ca2N和Sr2N上的Ae-N相互作用提供了能量势垒，阻碍N2释放。这些结果确定了控制二维电化物上有效N2活化的关键因素，为在温和条件下实现无过渡金属的N2活化提供了见解。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "化学链/晶格氮循环制氨"
+  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_title": "通过二维电化物表面的浮电子促进N2活性"
  },
  "10.1021/acs.energyfuels.6c01652": {
   "ab_try": "2026-10-29",
@@ -11237,6 +11242,9 @@
    "Robert Güttel",
    "Rene Eckert"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-20",
   "doi": "10.26434/chemrxiv.15006347/v1",
@@ -11259,8 +11267,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为沸石和负载金属卤化物在高温高压下的氨吸附性能，用于氨合成吸附增强（SEAS）工艺设计。通过准连续脉冲化学吸附（环境压力，50–350 °C）筛选商业沸石（3A, 4A, 13X, LiLSX），结合容量测定和基于TPD的位点分析。LiLSX在超过300 °C时仍能吸附NH3，在高压磁悬浮天平（200–400 °C，最高12 bar氨分压）中与负载MnCl2基吸附剂进行对比。SEM/EDX表征了形貌和盐分布。用Langmuir、Toth、Sips和双位点Langmuir（DSL）等温线模型模拟平衡。用驱动力、拉伸指数（SE）和双SE（DSE）速率表达式拟合LiLSX上的NH3吸附动力学。LiLSX在脉冲化学吸附中在200 °C以上表现出显著的NH3摄取，在300 °C和0.1 bar氨分压下仍保持活性。TPD信号和等温线建模证实吸附在两种位点类型上。在SEAS相关条件下，LiLSX",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "高温高压下使用沸石和负载金属卤化物吸附氨：实验研究和吸附建模"
  },
  "10.26434/chemrxiv.15006354/v1": {
   "abstract": "This paper presents the process design, steady-state simulation, and mechanical sizing of a cryogenic air separation unit (ASU) developed as part of a sustainable ammonia production flowsheet from biogas. The unit uses Linde double-column cryogenic distillation to separate atmospheric air (modeled as a ternary O2/N2/Ar mixture) into a high-purity nitrogen stream for ammonia synthesis and an oxygen stream for autothermal reforming of biogas-derived methane. The process was simulated in Aspen HYSYS at a feed rate of 1300 kmol/h, achieving a nitrogen product purity of 99.883% and an oxygen product purity of 95.04%. Detailed plate hydraulic design (Souders-Brown flooding, weeping, entrainment, and downcomer back-up checks) and AIChE tray-efficiency calculations were carried out for both the high-pressure column (HPC) and low-pressure column (LPC), followed by mechanical design of the pressure vessels and an equipment cost estimate. The low-pressure column required 30 theoretical trays (41 actual stages) at a diameter of 1.746 m, with an estimated 2024-indexed cost of $380,368. A reflux-ratio/number-of-stages optimization was performed for the high-pressure column to identify the trade-off between operating and fixed costs. The results demonstrate a technically sound and economically quantified ASU design suitable for integration into a green ammonia production route.",
@@ -12175,6 +12185,9 @@
   "authors": [
    "Bo'riyeva Muhabbat"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-07-07",
   "doi": "10.5281/zenodo.21248833",
@@ -12197,6 +12210,7 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "分析传统氨（NH₃）生产方法，特别是“绿色”合成概念。与Haber-Bosch方法对比，讨论了电化学、光催化和生物方法，以及能耗、碳足迹和环境安全性。引用5篇科学文献，表明清洁、节能的氨生产方法具有前景。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
