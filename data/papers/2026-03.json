@@ -611,6 +611,9 @@
    "Md Nazibul Islam",
    "Zachary Gagnon"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-03-16",
   "doi": "10.1002/elps.70088",
@@ -632,8 +635,10 @@
   "why": [
    "Joule Heat"
   ],
+  "zh_brief": "提出一种基于高频焦耳加热的电动力学核酸扩增（E-NAAMP）技术，在纸基微流控通道中实现LAMP反应。通过PDMS-CB电极施加38 MHz电压产生焦耳热，数值模拟与实验结果吻合良好，证实了RF焦耳加热在纸基平台上的可行性。",
   "zh_method": "反应阶段焦耳/电阻供热",
-  "zh_obj": "过程待核实；涉及碳材料"
+  "zh_obj": "过程待核实；涉及碳材料",
+  "zh_title": "使用纸基PDMS微流控和高频焦耳加热的电动力学核酸扩增"
  },
  "10.1002/nano.70127": {
   "abstract": "ABSTRACT In the last years, perovskites structures have been explored for their ability to photo‐electrochemically store hydrogen in the form of ammonia. Various types of perovskites, ranging from halide inorganic perovskites to oxidic systems with single or double perovskite structures, have been investigated for this purpose. In this study, a simple and low‐cost single oxide perovskite, specifically BiFeO 3 (BFO), was synthesized via a sol‐gel method and the related photo‐electrodes were optimized in terms of film thickness and tested for nitrogen reduction reaction (N 2 RR). The resulting BFO powder was comprehensively characterized from the structural, optical, and morphological points of view. Screen‐printed photoelectrodes with an optical band gap of 2.17±0.05 eV were prepared and the influence of the film thicknesses on the photoelectrochemical properties was assessed. From Mott‐Schottky analyses, all systems were thermodynamically suitable to drive N 2 RR at pH 7 while thicker films were able to produce, under illumination, 22 µA cm −2 at ‐0.6 V versus NHE due to a reduced charge transfer resistance. A Faradic Efficiency close to 90 ± 9% for NH 3 was obtained at ‐0.4 V versus NHE with a yield of 9 µg h −1 cm −2 without producing hydrogen, highlighting the importance of bismuth and iron atoms on the nitrogen selectivity.",
@@ -924,6 +929,9 @@
    "Jeong Woo Shin",
    "Jihwan An"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-03-18",
   "doi": "10.1007/s12541-026-01494-9",
@@ -945,8 +953,10 @@
   "why": [
    "Atomic Layer Deposit"
   ],
+  "zh_brief": "在PET基底上通过能量增强低温原子层沉积（ALD）制备柔性薄膜/石墨烯复合封装层，对比了热（T-ALD）、等离子体增强（PEALD）和UV辅助（UVALD）三种方法。UVALD制备的致密薄膜损伤石墨烯最小，WVTR最低，但弯曲后易开裂。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积"
+  "zh_obj": "材料制备/结构调控；涉及碳材料、原子层沉积",
+  "zh_title": "近室温等离子体与UV辅助原子层沉积Al2O3@石墨烯复合材料用于高效柔性封装"
  },
  "10.1016/j.apcatb.2025.125948": {
   "ab_try": "2026-10-29",
@@ -4042,6 +4052,9 @@
    "Maarit Karppinen",
    "Mika Pettersson"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-03-17",
   "doi": "10.1021/acsnano.5c22728",
@@ -4063,8 +4076,10 @@
   "why": [
    "Molecular Layer Deposit"
   ],
+  "zh_brief": "利用飞秒激光双光子氧化在石墨烯上实现面积选择性沉积Eu-BDC薄膜，通过优化参数实现了超过90%的选择性和亚微米分辨率。该薄膜在532 nm激发下发出612 nm强光，并使石墨烯费米能级降低，表现出可控的n型掺杂效应。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "石墨烯及其他二维材料上Eu-有机薄膜的面积选择性原子/分子层沉积用于光致发光异质结"
  },
  "10.1021/jacs.5c22728": {
   "ab_try": "2026-10-29",
@@ -4321,6 +4336,9 @@
    "Qiaobao Zhang",
    "Li Zhang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-03-15",
   "doi": "10.1038/s41467-026-70616-8",
@@ -4342,6 +4360,7 @@
   "why": [
    "joule heat"
   ],
+  "zh_brief": "利用瞬态热脉冲从LiNi0.8Co0.1Mn0.1O2表面选择性提取锂，直接转化为具有可调厚度的尖晶石相壳层。该结构形成榫卯连接，有效抑制界面副反应和应变，封装后的正极在180 mA g-1下循环2000次后保持80.1%的容量保持率。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控"
  },
@@ -4756,6 +4775,9 @@
    "Hui Liu",
    "Jun Yang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-03-16",
   "doi": "10.1063/5.0315778",
@@ -4777,8 +4799,10 @@
   "why": [
    "Joule-heat"
   ],
+  "zh_brief": "通过耦合快速焦耳加热与固态扩散理论，成功制备了分散性好、结晶度高的AuPd/C纳米合金。该方法利用~1.5 nm Au团簇作为种子缩短扩散距离，实现了均匀的Au/Pd分布。Au1Pd1/C在碱性氧还原反应和乙醇氧化反应中性能优于商用Pd/C。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应；涉及Fe/铁体系、碳材料"
+  "zh_obj": "其他催化反应；涉及Fe/铁体系、碳材料",
+  "zh_title": "焦耳加热赋能Au基纳米合金的固态扩散以实现高效电催化"
  },
  "10.1073/pnas.2529364123": {
   "abstract": "Artificial N 2 reduction offers a sustainable approach to green NH 3 synthesis, but the practical implementation is challenged by N 2 activation and competing hydrogen evolution. Photoelectrochemical nitrate and nitrite (NO x – , x = 2 and 3) reduction with favorable thermodynamics represents a promising alternative for NH 3 production, provided that NO x – can be supplied from the atmosphere. Here, through leveraging water microdroplet chemistry and dynamic photoelectrode–electrolyte interface engineering, we report a tandem air–NO x – –NH 3 conversion system that integrates catalyst-free N 2 oxidation with pulsed photoelectrochemical NO x − reduction (mNOR-pPNO x R). The system achieves efficient and selective NH 3 production with a yield rate of 24.5 μmol cm −2 h −1 at −0.2 V RHE , which are two to three orders of magnitude higher than conventional photo/electrocatalytic N 2 fixation. This study introduces insights for decentralized, on-demand ammonia production from air and water and broadens horizons of microdroplet chemistry and pulse strategy for sustainable chemical manufacturing.",
@@ -4897,6 +4921,9 @@
    "Zhaoliang Zhang",
    "Jian Zhang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
   "cross": false,
   "date": "2026-03-17",
   "doi": "10.1093/nsr/nwag167",
@@ -4918,8 +4945,10 @@
   "why": [
    "Joule heat"
   ],
+  "zh_brief": "提出电热催化从整体式焦耳加热向颗粒间电促进转变的新范式。颗粒间电促进利用导电催化剂颗粒间的焦耳加热和电促进，不仅显著提升催化剂本征活性，还大幅降低化学过程的能耗和碳足迹，推动可持续电气化工艺的发展。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "通用催化方法"
+  "zh_obj": "通用催化方法",
+  "zh_title": "电热催化：从整体式焦耳加热到颗粒间电促进范式的转变"
  },
  "10.1108/ir-11-2025-0432": {
   "abstract": "Purpose This study aims to develop a variable stiffness actuator to overcome the limitations of traditional rigid robots in flexibility and the insufficient load capacity of fully soft robots, enabling adaptive and stable grasping of geometrically diverse objects. Design/methodology/approach A dual-jaw three-finger gripper was fabricated using 3D-printed polylactic acid (PLA), which exhibits thermally tunable stiffness. An embedded Joule heating structure, composed of enameled copper wire wound around a steel needle, enables rapid local heating and dynamic stiffness modulation. Magnetic drive mechanisms provide non-contact actuation. Performance was evaluated through thermal response, load capacity, cyclic deformation and stiffness tests, supported by ANSYS thermo-structural simulations. Findings The actuator demonstrated a rigid-to-compliant transition upon heating, with optimal performance at 1.8 A, achieving a maximum joint bending angle of 33°. It supported over 300 g at room temperature and exhibited repeatable deformation over 40 cycles. Simulations closely matched experimental data, validating the thermal and mechanical models. Grasping tests confirmed effective execution of a “rigid approach–compliant wrapping–rigid holding” strategy. Originality/value The proposed PLA-based actuator offers a simple, energy-efficient and versatile solution for adaptive grasping, effectively balancing flexibility and load capacity. Future work will focus on thermal management and control system enhancements.",
