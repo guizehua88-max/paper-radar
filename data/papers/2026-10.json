@@ -2745,6 +2745,43 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
+ "10.1016/j.apsusc.2026.168812": {
+  "abstract": "",
+  "authors": [
+   "Yue Kong",
+   "Tong Liu",
+   "Bo Yang",
+   "Yilei Yue",
+   "Linan Xu",
+   "Jun Zhong",
+   "Song Lin"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.apsusc.2026.168812",
+  "first_seen": "2026-10-31T02:20:03Z",
+  "id": "10.1016/j.apsusc.2026.168812",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Surface Science",
+  "tier": "uncertain",
+  "title": "Microenvironment regulation of COF-based single-atom catalysts for nitrogen reduction: A DFT and machine learning study",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apsusc.2026.168812",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "基于 COF 的单原子催化剂氮还原的微环境调控：DFT 与机器学习研究"
+ },
  "10.1016/j.apsusc.2026.168824": {
   "ab_try": "2026-10-30",
   "abstract": "",
@@ -5453,6 +5490,43 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "Flash Joule heating 驱动的 Mg 基合金还原氧化石墨烯包覆用于高性能稳定储氢"
  },
+ "10.1016/j.matlet.2026.141918": {
+  "abstract": "",
+  "authors": [
+   "Zhi Xu",
+   "Chongchong Liu",
+   "Peifang Wang",
+   "Weixiang Tao",
+   "Gang Zhou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.matlet.2026.141918",
+  "first_seen": "2026-10-31T02:20:03Z",
+  "id": "10.1016/j.matlet.2026.141918",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Materials Letters",
+  "tier": "transferable",
+  "title": "Ultrafast Joule heat synthesis of stable bifunctional catalysts for efficient overall water electrolysis",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.matlet.2026.141918",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "用于高效全解水的稳定双功能催化剂的快速焦耳热合成"
+ },
  "10.1016/j.mcat.2026.116270": {
   "ab_try": "2026-10-29",
   "abstract": "",
@@ -6100,6 +6174,48 @@
   "zh_brief": "提出 Li 介导的 Flash Joule heating (Li-FJH) 方法，将粉煤灰中的稳定莫来石转化为非晶玻璃相和 LiAlSiO4。在 1800 °C 加热 8 s 后，利用 0.75 M 柠檬酸在 80 °C 下浸出 90 min，实现了 Al、Fe 和 Li 的高效浸出（回收率均超 99%）。",
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及Fe/铁体系"
+ },
+ "10.1016/j.watres.2026.127251": {
+  "abstract": "",
+  "authors": [
+   "Linna Jia",
+   "Jia Xin",
+   "Wenlin Ren",
+   "Xuewei Li",
+   "Shuo Gong",
+   "Yiwei Song",
+   "Xu Zhang",
+   "Jiafeng Yao",
+   "Dianjin Xia",
+   "Qianyi Zhou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.watres.2026.127251",
+  "first_seen": "2026-10-31T02:20:03Z",
+  "id": "10.1016/j.watres.2026.127251",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Water Research",
+  "tier": "background",
+  "title": "Dual Drivers of Groundwater Ammonium Enrichment in Marine Organic-Rich Riparian Zones: Exogenous Nitrate Reduction and Geological Organic Nitrogen Mineralization",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.watres.2026.127251",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "海洋富有机质河岸带地下水中铵富集的双重驱动因素"
  },
  "10.1016/j.yofte.2026.104855": {
   "ab_try": "2026-10-29",
@@ -7351,6 +7467,55 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系、Fe/铁体系",
   "zh_title": "具有抗钙钛矿结构的氧氮氢化物促进氨合成"
+ },
+ "10.1021/jacs.6c13655": {
+  "abstract": "Abstract Under mild reaction conditions, ammonia synthesis over Ru catalysts is severely constrained by hydrogen poisoning because excessive surface hydrogen blocks the Ru B5 sites required for efficient N2 activation. To overcome this challenge, we design an atomically functionalized support by anchoring isolated Co single atoms at framework sites of K-modified KL zeolite, creating a dual-function support. The Co single atoms serve as hydrogen-accepting sites that continuously remove surface H atoms from Ru via hydrogen spillover, i.e., spatial regulation of surface hydrogen. Moreover, they indirectly strengthen the electron donation from framework K to Ru for N2 activation, without any direct Co → Ru charge transfer, thereby enhancing both the availability and the intrinsic activity of Ru B5 sites for efficient N2 dissociation. This cooperative mechanism is collectively revealed by comprehensive kinetic analyses, operando spectroscopy, isotope-exchange measurements, chemisorption studies, and density functional theory (DFT) calculations. Consequently, Ru/Co1–KL achieves a near-equilibrium ammonia synthesis rate of 65.3 mmol g–1 h–1 at 400 °C and 1 MPa and maintains stable performance for over 1500 h. This work demonstrates that atomic support functionalization can spatially decouple competing adsorption processes at catalytic interfaces, offering an effective strategy for overcoming site-blocking limitations in heterogeneous catalysis.",
+  "authors": [
+   "Yifan Yan",
+   "Zhenjie Sun",
+   "Haolong Chang",
+   "Zhongliang Cao",
+   "Jianjian Yang",
+   "Jingnan Wang",
+   "Kui Lin",
+   "Xiaohu Hu",
+   "Jiakai Wang",
+   "Langli Luo",
+   "Xing Chen",
+   "Zifan Huang",
+   "Qiang Liu",
+   "Xi Wang",
+   "Yongan Yang",
+   "Jiannian Yao"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1021/jacs.6c13655",
+  "first_seen": "2026-10-31T02:20:03Z",
+  "id": "10.1021/jacs.6c13655",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 32,
+  "source": "Journal of the American Chemical Society",
+  "tier": "direct",
+  "title": "Dual Regulation of Electronic Structure and Hydrogen Distribution through Co Single-Atom-Functionalized Supports for Efficient Ru-Catalyzed Ammonia Synthesis",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.6c13655",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "研究者在 K 改性 KL 沸石骨架位点锚定孤立 Co 单原子，构建双功能载体。Co 单原子通过氢溢流持续移除 Ru 表面 H 原子，并增强 K 向 Ru 的电子供体作用，从而提升 Ru B5 位点的 N2 活化能力。Ru/Co1-KL 在 400 °C 和 1 MPa 下达到 65.3 mmol g–1 h–1 的近平衡氨合成速率，且稳定性超过 1500 小时。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "Co 单原子功能化载体调控电子结构与氢分布以提升 Ru 催化氨合成"
  },
  "10.1021/jacs.6c16392": {
   "abstract": "Abstract We present a systematic study of noble metal (Pt, Pd, Ir, and Rh) single-atom cocatalysts decorated on p-type and quantum-confined TiO2 nanotubes for photocatalytic nitrate reduction to ammonia. All single-atom cocatalysts were prepared through a reactive deposition using different metal precursors, resulting in a single-atom oxidation state (δ+) of δ ≈ 2. At a similar loading concentration (0.2–0.3 at%) and in the absence of any sacrificial agent, Pd single atoms exhibit the highest element-specific activity for ammonia production, while Pt single atoms display a prominent photocatalytic activity with a strong tendency of nitrite reduction toward ammonia. Rh single atoms achieve the highest ammonia selectivity, whereas Ir single atoms predominantly produce nitrite due to inhibited subsequent reduction. Comparisons with single atoms deposited on conventional TiO2 (P25) and with nanoparticles supported on the nanotubes reveal that both the semiconductor properties (quantum confinement effect and p-type conductivity) and the speciation of the cocatalyst (single atom) can significantly enhance activity and selectivity. These findings aid in establishing design principles for different single-atom catalysts toward efficient and selective photocatalytic nitrogen valorization.",
