@@ -162,7 +162,11 @@ class Radar:
                 p["ab_try"] = self.now.date().isoformat()
                 p["ab_result"] = ("found" if doi in found else "retry" if detail.get("failed")
                                   else "not_found" if detail.get("complete") else "partial")
-                p["ab_sources_checked"] = detail.get("checked", [])
+                # Successful source coverage is cumulative. A later request that
+                # times out elsewhere must not erase an earlier OpenAlex check
+                # and repeatedly trigger the one-time OpenAlex catch-up.
+                p["ab_sources_checked"] = sorted(set(p.get("ab_sources_checked", []))
+                                                   | set(detail.get("checked", [])))
                 for source in detail.get("checked", []):
                     p.setdefault("ab_source_checked_at", {})[source] = p["ab_try"]
                 if detail.get("found_by"):
@@ -234,15 +238,21 @@ class Radar:
                 self.record("arXiv", lambda t=t: sources.arxiv(t["arxiv_query"], since))
                 sources.polite_pause(3.5)
         oa_key = os.environ.get("OPENALEX_API_KEY", "").strip()
-        if oa_key:
-            for t in self.cfg["topics"]:
-                for q in t.get("crossref_queries", [])[:4]:
-                    self.record("OpenAlex", lambda q=q: sources.openalex(q, since, oa_key))
-                    sources.polite_pause(0.5)
+        for t in self.cfg["topics"]:
+            if sources.openalex_disabled_reason():
+                break
+            for q in t.get("crossref_queries", [])[:4]:
+                if sources.openalex_disabled_reason():
+                    break
+                self.record("OpenAlex", lambda q=q: sources.openalex(q, since, oa_key))
+                sources.polite_pause(0.5)
         for r in self.cfg.get("rss", []):
             self.record(f"RSS · {r['name']}", lambda r=r: sources.rss(r["name"], r["url"]))
             sources.polite_pause(0.5)
         self.settle_status()
+        if reason := sources.openalex_disabled_reason():
+            st = self.status["sources"].setdefault("OpenAlex", {"n": 0, "calls": 0, "fails": 0})
+            st["err"] = f"本次停用：{reason}"
 
         t0 = time.time()
         fresh = [p for p in {p["id"]: p for p in self.found if p.get("id")}.values() if p["id"] not in self.papers]
@@ -404,8 +414,11 @@ class Radar:
         return {"调整": moved, "移除": dropped}
 
     def abstract_candidates(self, limit: int = 500) -> list[dict]:
-        """Continue the oldest query round; within it prefer key and recent papers."""
+        """Catch up missing OpenAlex coverage once, then retain normal cooldowns."""
         today = self.now.date()
+        def has_openalex_check(p):
+            return ("OpenAlex" in p.get("ab_sources_checked", [])
+                    or bool(p.get("ab_source_checked_at", {}).get("OpenAlex")))
         def checked_date(p):
             if p.get("ab_check_v") == 2:
                 try:
@@ -414,6 +427,8 @@ class Radar:
                     pass
             return None
         def due(p):
+            if not has_openalex_check(p):
+                return True  # old no-key misses have not actually tried this source
             checked = checked_date(p)
             wait_days = 1 if p.get("ab_result") in ("retry", "partial") else 7
             return checked is None or (today - checked).days >= wait_days
@@ -421,8 +436,13 @@ class Radar:
             checked = checked_date(p)
             published = (p.get("date") or "")[:10].replace("-", "")
             recent = int(published.ljust(8, "0")) if published.isdigit() else 0
-            return (checked or dt.date.min,
-                    p.get("tier") not in ("cross", "direct", "transferable"),
+            is_background = p.get("tier") not in ("cross", "direct", "transferable")
+            if not has_openalex_check(p):
+                # Recently checked key papers must not wait behind thousands of
+                # untouched background papers during the source catch-up.
+                return (0, is_background, dt.date.min, False, -recent,
+                        -TIER_RANK.get(p.get("tier"), 0), p["id"])
+            return (1, False, checked or dt.date.min, is_background,
                     -recent, -TIER_RANK.get(p.get("tier"), 0), p["id"])
         candidates = [p for p in self.papers.values() if p.get("kind") != "wechat"
                       and not llm.usable_abstract(p)

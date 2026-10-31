@@ -19,10 +19,21 @@ class AbstractTests(unittest.TestCase):
         self.env.start()
         self.pause = patch.object(sources, 'polite_pause')
         self.pause.start()
+        sources.reset_openalex_run()
+        # This suite isolates the older providers; OpenAlex has its own real
+        # adapter regressions. Enabling keyless OA must not cause live requests.
+        def empty_oa(dois, key, errs, *, progress=None, deadline=None, counts=None):
+            sources._chunks(dois, 50, lambda chunk: None, errs, source='OpenAlex',
+                            progress=progress, deadline=deadline)
+            return {}
+        self.oa = patch.object(sources, 'abstracts_openalex', side_effect=empty_oa)
+        self.oa.start()
 
     def tearDown(self):
         self.pause.stop()
         self.env.stop()
+        self.oa.stop()
+        sources.reset_openalex_run()
 
     def test_semantic_scholar_uses_exact_doi_not_position(self):
         rows = [{'externalIds': {'DOI': D2}, 'abstract': AB+'Two'},
@@ -60,7 +71,7 @@ class AbstractTests(unittest.TestCase):
         self.assertEqual(found[dois[0]], AB+dois[0])
         self.assertEqual(found[dois[100]], AB+dois[100])
         self.assertEqual(stats['Semantic Scholar'], '查 101 得 100（身份不符跳过 1 条）')
-        self.assertTrue(all(p['failed'] == [] and p['checked'] == ['Semantic Scholar'] for p in progress.values()))
+        self.assertTrue(all(p['failed'] == [] and p['checked'] == ['Semantic Scholar', 'OpenAlex'] for p in progress.values()))
 
     def test_malformed_batch_remains_an_atomic_failure(self):
         good = {'externalIds': {'DOI': D1}, 'abstract': AB}
@@ -91,7 +102,8 @@ class AbstractTests(unittest.TestCase):
         self.assertEqual(progress[D1]['found_by'],'Europe PMC')
         self.assertTrue(progress[D1]['complete'])
         self.assertFalse(progress[D2]['complete'])
-        self.assertNotIn('10.1000/104',progress)
+        self.assertEqual(progress['10.1000/104']['checked'], ['OpenAlex'])
+        self.assertNotIn('Semantic Scholar', progress['10.1000/104']['attempted'])
         self.assertIn('HTTP 429',stats['Semantic Scholar'])
 
     def test_deadline_skipped_records_not_marked_checked(self):
@@ -128,7 +140,7 @@ class AbstractTests(unittest.TestCase):
              patch.object(net, 'post_json_retry', side_effect=post), \
              patch.object(net, 'get_json', side_effect=get):
             found, stats = sources.find_abstracts([D1], deadline=130, progress=progress)
-        self.assertEqual(timeouts, [10, 10, 10])
+        self.assertEqual(timeouts, [7, 11, 12])
         self.assertEqual(found, {D1: AB.strip()})
         self.assertEqual(progress[D1]['found_by'], 'Crossref')
         self.assertTrue(progress[D1]['complete'])
@@ -147,6 +159,7 @@ class AbstractTests(unittest.TestCase):
         self.assertNotIn('Crossref',progress[D2]['attempted'])
 
     def test_crossref_wrong_doi_and_error_url_not_saved(self):
+        self.oa.stop()
         with patch.object(net,'get_json',return_value={'message': {'DOI': D2,'abstract': AB}}):
             self.assertEqual(sources.abstracts_crossref([D1],[]),{})
         with patch.object(net,'get_json',side_effect=net.FetchError('HTTP 429 @ https://api.openalex.org?api_key=PRIVATE')):
@@ -176,7 +189,7 @@ class AbstractTests(unittest.TestCase):
             sources.find_abstracts([D1,D2],progress=progress,epmc_cap=1,crossref_cap=0)
         self.assertTrue(progress[D1]['complete'])
         self.assertFalse(progress[D2]['complete'])
-        self.assertEqual(progress[D2]['checked'],['Semantic Scholar'])
+        self.assertEqual(progress[D2]['checked'],['Semantic Scholar', 'OpenAlex'])
 
 
 if __name__ == '__main__':

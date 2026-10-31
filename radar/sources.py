@@ -179,28 +179,73 @@ def arxiv(query: str, since: dt.date) -> list[dict]:
     return out
 
 
-# ---------------------------------------------------------------- OpenAlex (optional, needs free API key)
+# ---------------------------------------------------------------- OpenAlex (keyless; optional free key raises quota)
+_OPENALEX_DISABLED = ""
+_OPENALEX_REQUESTS = 0
+
+
+def openalex_disabled_reason() -> str:
+    """A quota/authentication rejection disables this provider for this process."""
+    return _OPENALEX_DISABLED
+
+
+def reset_openalex_run() -> None:
+    """Reset process-local provider state, primarily for isolated test runs."""
+    global _OPENALEX_DISABLED, _OPENALEX_REQUESTS
+    _OPENALEX_DISABLED = ""
+    _OPENALEX_REQUESTS = 0
+
+
+def _openalex_get(params: dict, *, deadline=None, batch: int | None = None) -> dict:
+    global _OPENALEX_DISABLED, _OPENALEX_REQUESTS
+    if _OPENALEX_DISABLED:
+        raise net.FetchError(_OPENALEX_DISABLED)
+    _OPENALEX_REQUESTS += 1
+    try:
+        data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params),
+                            timeout=_timeout(deadline), retries=1)
+    except Exception as error:
+        label = _error_label(error)
+        if label in ("HTTP 401", "HTTP 403", "HTTP 429"):
+            context = f"补摘要第 {batch} 批" if batch is not None else f"日常检索第 {_OPENALEX_REQUESTS} 次"
+            _OPENALEX_DISABLED = f"{label}（{context}）"
+        # Never let an API key embedded in a URL reach status or persisted logs.
+        raise net.FetchError(label) from None
+    if not isinstance(data, dict) or not isinstance(data.get("results"), list):
+        raise net.FetchError("Unexpected OpenAlex response")
+    return data
+
+
 def _undo_inverted(inv: dict | None) -> str:
-    if not inv:
+    if inv is None:
         return ""
+    if not isinstance(inv, dict):
+        raise net.FetchError("Unexpected OpenAlex inverted index")
     pos = {}
     for word, idxs in inv.items():
+        if not isinstance(word, str) or not isinstance(idxs, list):
+            raise net.FetchError("Unexpected OpenAlex inverted index fields")
         for i in idxs:
+            if type(i) is not int or i < 0 or (i in pos and pos[i] != word):
+                raise net.FetchError("Unexpected OpenAlex inverted index position")
             pos[i] = word
     return " ".join(pos[i] for i in sorted(pos))
 
 
-def openalex(query: str, since: dt.date, api_key: str) -> list[dict]:
+def openalex(query: str, since: dt.date, api_key: str = "") -> list[dict]:
     q = query.replace(",", " ")
     params = {
         "filter": f"title_and_abstract.search:{q},from_publication_date:{since.isoformat()}",
         "per_page": "100",
         "select": "id,doi,display_name,publication_date,primary_location,authorships,abstract_inverted_index,type",
-        "api_key": api_key,
     }
-    data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params))
+    if api_key:
+        params["api_key"] = api_key
+    data = _openalex_get(params)
     out = []
-    for w in data.get("results", []):
+    for w in data["results"]:
+        if not isinstance(w, dict):
+            raise net.FetchError("Unexpected OpenAlex record")
         doi = _doi_key(w.get("doi") or "")
         title = clean(w.get("display_name"))
         if not title:
@@ -304,7 +349,7 @@ def rss(name: str, url: str) -> list[dict]:
 
 # ---------------------------------------------------------------- abstracts for records that came without one
 # Crossref only has an abstract when the publisher deposits it (Elsevier, ACS and Springer Nature often don't).
-# These free services fill some of the gaps; none needs a key (OpenAlex is used only if OPENALEX_API_KEY is set).
+# These free services fill some of the gaps; none needs a key.
 def _strip_abstract(text: str) -> str:
     text = clean(text)
     return re.sub(r"^(abstract|summary)[\s:.\-–]+", "", text, flags=re.IGNORECASE).strip()
@@ -415,22 +460,44 @@ def abstracts_europepmc(dois: list[str], errs: list[str], *, progress=None, dead
     return out
 
 
-def abstracts_openalex(dois: list[str], api_key: str, errs: list[str], *, progress=None, deadline=None) -> dict[str, str]:
+def abstracts_openalex(dois: list[str], api_key: str, errs: list[str], *, progress=None, deadline=None,
+                       counts: dict | None = None) -> dict[str, str]:
     out: dict[str, str] = {}
+    summary = {"batches_attempted": 0, "identity_mismatches": 0}
+    if _OPENALEX_DISABLED:
+        if counts is not None:
+            counts.update(summary)
+        return out
 
     def one(chunk):
-        params = {"filter": "doi:" + "|".join(chunk), "select": "doi,abstract_inverted_index", "per_page": "50",
-                  "api_key": api_key}
-        data = net.get_json("https://api.openalex.org/works?" + urllib.parse.urlencode(params), timeout=_timeout(deadline), retries=1)
-        if not isinstance(data, dict) or not isinstance(data.get("results"), list):
-            raise net.FetchError("Unexpected OpenAlex response")
-        for w in data["results"]:
-            d = _doi_key(w.get("doi") or "")
-            ab = _strip_abstract(_undo_inverted(w.get("abstract_inverted_index")))
-            if d in chunk and len(ab) >= 150:
-                out[d] = ab
+        summary["batches_attempted"] += 1
+        params = {"filter": "doi:" + "|".join(chunk), "select": "doi,abstract_inverted_index", "per_page": "50"}
+        if api_key:
+            params["api_key"] = api_key
+        try:
+            data = _openalex_get(params, deadline=deadline, batch=summary["batches_attempted"])
+            got = {}
+            skipped = 0
+            for w in data["results"]:
+                if not isinstance(w, dict) or (w.get("doi") is not None and not isinstance(w["doi"], str)):
+                    raise net.FetchError("Unexpected OpenAlex record")
+                d = _doi_key(w.get("doi") or "")
+                if d not in chunk:
+                    skipped += 1
+                    continue
+                ab = _strip_abstract(_undo_inverted(w.get("abstract_inverted_index")))
+                if len(ab) >= 150:
+                    got[d] = ab
+            # Keep valid previous batches, but never persist half of a malformed batch.
+            out.update(got)
+            summary["identity_mismatches"] += skipped
+        except Exception:
+            summary["failed_batch"] = summary["batches_attempted"]
+            raise
         polite_pause(0.3)
     _chunks(dois, 50, one, errs, source="OpenAlex", progress=progress, deadline=deadline)
+    if counts is not None:
+        counts.update(summary)
     return out
 
 
@@ -471,21 +538,27 @@ def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | No
     found: dict[str, str] = {}
     stats: dict[str, str] = {}
     evidence = progress if progress is not None else {}
-    steps = [("Semantic Scholar", abstracts_semantic_scholar, None), ("Europe PMC", abstracts_europepmc, epmc_cap)]
     key = os.environ.get("OPENALEX_API_KEY", "").strip()
-    if key:
-        steps.insert(1, ("OpenAlex", lambda ds, errs, **kw: abstracts_openalex(ds, key, errs, **kw), None))
+    steps = [("Semantic Scholar", abstracts_semantic_scholar, None),
+             ("OpenAlex", lambda ds, errs, **kw: abstracts_openalex(ds, key, errs, **kw), None),
+             ("Europe PMC", abstracts_europepmc, epmc_cap)]
     if crossref_cap:
         steps.append(("Crossref", abstracts_crossref, crossref_cap))
     expected = {name for name, _, _ in steps}
     for index, (name, fn, cap) in enumerate(steps):
-        rest = [d for d in todo if d not in found]
+        # OpenAlex covers this complete candidate round, even if S2 found an
+        # abstract first. This records a single OA pass for legacy backoff rows.
+        # Other fallbacks still only query papers whose abstracts remain missing.
+        rest = list(todo) if name == "OpenAlex" else [d for d in todo if d not in found]
         if name == "Crossref" and crossref_checked_at:
             # Stable sorting keeps input order for equal dates. The bounded
             # singleton fallback must rotate beyond the same first 20 DOIs.
             rest.sort(key=lambda d: crossref_checked_at.get(d) or "")
         rest = rest[:cap if cap is not None else None]
         if not rest:
+            continue
+        if name == "OpenAlex" and openalex_disabled_reason():
+            stats[name] = f"查 0 得 0（本次运行已停用：{openalex_disabled_reason()}）"
             continue
         if deadline and time.time() >= deadline - 1:
             stats[name] = "跳过（时间用完）"
@@ -500,16 +573,23 @@ def find_abstracts(dois: list[str], *, epmc_cap: int = 300, deadline: float | No
         errs: list[str] = []
         counts = {}
         kwargs = {"progress": evidence, "deadline": source_deadline}
-        if name == "Semantic Scholar":
+        if name in ("Semantic Scholar", "OpenAlex"):
             kwargs["counts"] = counts
         got = fn(rest, errs, **kwargs)
-        found.update(got)
+        newly_found = {d: ab for d, ab in got.items() if d not in found}
+        found.update(newly_found)
         for d in got:
-            evidence[d]["found_by"] = name
+            evidence[d].setdefault("found_by", name)
         attempted = sum(name in evidence.get(d, {}).get("attempted", []) for d in rest)
         stats[name] = f"查 {attempted} 得 {len(got)}"
         if name == "Semantic Scholar":
             stats[name] += f"（身份不符跳过 {counts.get('identity_mismatches', 0)} 条）"
+        if name == "OpenAlex":
+            stats[name] += f"（新补 {len(newly_found)} 篇；{counts.get('batches_attempted', 0)} 批，身份不符跳过 {counts.get('identity_mismatches', 0)} 条）"
+            if counts.get("failed_batch"):
+                stats[name] += f"（第 {counts['failed_batch']} 批失败）"
+            if openalex_disabled_reason():
+                stats[name] += f"（本次运行已停用：{openalex_disabled_reason()}）"
         if attempted < len(rest):
             stats[name] += f"（未请求 {len(rest) - attempted}）"
         if errs:

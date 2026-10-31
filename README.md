@@ -111,11 +111,15 @@ Name 填 `SERVERCHAN_SENDKEY`（用 WxPusher 就填 `WXPUSHER_SPT`），Secret �
 
 - 筛选：修正工厂经济性研究、流体焦耳耗散和半导体 ALD 工艺误入重点；保留真实合成氨催化、焦耳热制备和 ALD 催化应用。
 - 中文解析：兼容科学单位的非法 JSON 反斜杠和尾逗号；拒绝截断、重复编号等可能把简介写错论文的结果。无摘要不编简介。
-- 免费补摘要：按 DOI 核验 Semantic Scholar、Europe PMC，以及已有 Key 时的 OpenAlex；另加每次最多 20 篇 Crossref 精确 DOI 补查。一个来源失败即停止本轮该源后续批次，继续其他来源。
+- 免费补摘要：按 DOI 依次核验 Semantic Scholar、OpenAlex（无 Key 也启用）、Europe PMC；另加每次最多 20 篇 Crossref 精确 DOI 补查。一个来源失败即停止本轮该源后续批次，继续其他来源。
 - 每次维护最多补查 500 篇，补摘要仍使用原时间预算（最多 300 秒，5 分钟手动维护时为 75 秒）；Europe PMC 最多 300 篇、Crossref 最多 20 篇。优先完成未查过／最久未查的一轮，同轮内优先重点论文和最近发表的论文。失败或部分查询最早次日再查，完整查询无结果 7 天后再查；未请求的论文不标记为已查。不重置历史回填和推送记录。
 - Actions 增加“仅维护”手动验收入口（5 或 20 分钟），不会发通知；每天两次的原有调度不变。本机没有新增后台任务。
 
 后续定点修复：Semantic Scholar 单条 DOI 身份不符只跳过该条，运行状态显示跳过数量，其余有效摘要继续使用；请求失败或格式错误才使批次失败。维护还会用 Crossref 单篇接口补空／仅年份的发表日期（最多 30 篇，受维护总时间限制），优先使用有效出版日期，保留原始年月精度，拒绝未来或非法日期。补到后自动移入正确月份归档。
+
+OpenAlex 补摘要默认启用，每批 50 个 DOI，覆盖本次全部候选（上限 500），按返回 DOI 精确绑定并还原倒排摘要；少于 150 字符不用，身份不符只跳过单条。补到后仍按原规则重判相关度并生成中文简介，不删除已有论文。运行状态单独显示“OpenAlex：查 N 得 M”。曾查过其他来源、但未成功查过 OpenAlex 的缺摘要论文会补查一次，重点优先；实际成功查询证据会保留，查完后继续原有退避机制。日常查新也启用 OpenAlex，仍走原筛选和推送规则。
+
+OpenAlex 返回 401/403/429 时停止本次运行后续 OpenAlex 请求并记录失败批次和原因，其他来源继续；失败和未请求不记为成功查过，下次从尚未完成处接着处理。[官方说明](https://help.openalex.org/access/example-costs/)目前无 Key 有每天 $0.10 的免费调用额度，免费 Key 为 $1；本项目不注册付费服务，不充值，具体可用量仍受上游限流约束。
 
 中文提示词加入催化／材料术语表并要求完整翻译标题，取消标题 200 字硬截断。`BRIEF_V=4` 只使含“抗钙钛矿”的旧标题重新处理，修正为“反钙钛矿”，原简介保留；正常旧标题不因版本提升或补摘要而重译。原本尚未处理的论文仍按原维护流程继续生成中文内容。
 
@@ -136,7 +140,7 @@ Name 填 `SERVERCHAN_SENDKEY`（用 WxPusher 就填 `WXPUSHER_SPT`），Secret �
 **来源**
 - **Crossref**：几乎所有正规期刊（ACS、Elsevier、Wiley、RSC、Springer Nature、Science、中文期刊里有 DOI 的）和 ChemRxiv 等预印本，论文上线后一般当天就能查到。每次用 20 多组检索词查最近 5 天
 - **arXiv**、**期刊 RSS**（Nature 系列 12 本、Science / Science Advances、Joule、Chem、Angew、AM、AEM、AFM）：比 Crossref 早几个小时，且带摘要
-- **补摘要**：Crossref 常缺摘要（Elsevier、ACS 尤其多），会再去 Semantic Scholar、Europe PMC 查；有 `OPENALEX_API_KEY` 时也查 OpenAlex。摘要越全，筛选越准、简介越好
+- **补摘要**：Crossref 常缺摘要（Elsevier、ACS 尤其多），会依次去 Semantic Scholar、OpenAlex、Europe PMC 查；OpenAlex 无 Key 也启用，已有 `OPENALEX_API_KEY` 时自动携带。摘要越全，筛选越准、简介越好
 
 **用旧公众号库检验过（2026-10-29）**：旧站公众号推文里写明 DOI 的论文，2024 年以后的共 19 篇：
 - **14 篇资料库里有**。其中几篇乍看对不上，是因为同一篇 Angew 有德文版/国际版两个 DOI（已合并）、先收了预印本后来正式发表（现在会自动换成正式版）、推文里的 DOI 写错或写残
@@ -159,7 +163,7 @@ Name 填 `SERVERCHAN_SENDKEY`（用 WxPusher 就填 `WXPUSHER_SPT`），Secret �
 | Secret 名 | 作用 |
 |---|---|
 | `CONTACT_EMAIL` | 你的邮箱。Crossref 对带邮箱的请求服务更稳定（只发给 Crossref） |
-| `OPENALEX_API_KEY` | 在 [openalex.org/settings/api](https://openalex.org/settings/api) 免费申请。多一个带摘要的来源，筛选更准，用量远低于免费额度 |
+| `OPENALEX_API_KEY` | 在 [openalex.org/settings/api](https://openalex.org/settings/api) 免费申请。OpenAlex 无 Key 也启用；免费 Key 提高免费额度，不是启用此来源的前提 |
 | `ZHIPU_API_KEY` | **推荐**。智谱免费模型写中文标题和简介（见上文“中文简介”） |
 | `LLM_API_KEY` + `LLM_BASE_URL` + `LLM_MODEL` | 换成其他 OpenAI 兼容接口写简介（比如 DeepSeek：`https://api.deepseek.com/v1` + `deepseek-chat`，按量付费），同时开启 AI 相关度复核 |
 | `WECOM_WEBHOOK` | 企业微信群机器人，作为另一种推送方式 |
