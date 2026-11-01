@@ -898,6 +898,48 @@
   "zh_obj": "析氢反应",
   "zh_title": "氨电化学裂解制氢"
  },
+ "10.1002/advs.78576": {
+  "abstract": "ABSTRACT Electrocatalytic nitrate reduction reaction (NO 3 RR) represents a sustainable route for both ammonia (NH 3 ) production and nitrate‐contaminated water remediation, yet its practical application is crippled by the kinetically sluggish multi‐electron/proton transfer and insufficient targeted active hydrogen (*H) supply. Herein, a Pd‐doped CuCo 2 O 4 (Pd‐CuCo 2 O 4 ) hollow spiny microsphere catalyst is designed to tackle this challenge via a synergistic relay catalysis mechanism coupled with rapid *H replenishment. Kinetics studies and theoretical calculations collectively demonstrate a clear tandem pathway for NH 3 synthesis: NO 3 − is preferentially reduced to NO 2 − on Cu sites, and then migrates to neighboring Co sites for further conversion to NH 3 . Crucially, the incorporated Pd dopants promote NO 3 − adsorption on Cu sites and *H generation on Co sites precisely. The efficient *H supply and co‐adsorption for intermediates eliminates the intrinsic kinetic bottleneck of poor *H‐NO x coupling, ensuring the tandem catalysis proceeds smoothly without interruption. Benefiting from the *H‐spillover boosted relay mechanism, an ultra‐high current density over −2.0 A cm −2 and a remarkable NH 3 yield rate of 100.43 mg h −1 cm −2 are achieved. This study underscores the synergistic interplay among the three active sites and provides a blueprint for designing high‐rate, practical NO 3 RR electrocatalysts.",
+  "authors": [
+   "Yuhuan Cui",
+   "Yingying Xu",
+   "Jingyao Guo",
+   "Yao Liu",
+   "Yuxuan Li",
+   "Zixuan Feng",
+   "Yitong Zhou",
+   "Gao Y",
+   "Zhili Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-29",
+  "doi": "10.1002/advs.78576",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1002/advs.78576",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Advanced Science",
+  "tier": "background",
+  "title": "Overcoming the *H‐NO x Coupling Bottleneck via Palladium‐Enabled Relay Catalysis on CuCo 2 O 4 Toward Ampere‐Level Nitrate‐to‐Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/advs.78576",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_brief": "设计 Pd 掺杂 CuCo2O4 空心刺状微球催化剂，利用 Pd 促进 Cu 位点对 NO3- 的吸附和 Co 位点对 *H 的生成，解决 *H-NOx 耦合瓶颈。得益于 *H 溢流增强的接力机制，实现了超过 -2.0 A cm-2 的超高电流密度和 100.43 mg h-1 cm-2 的氨产率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "通过 CuCo2O4 上钯促进的接力催化克服 *H-NOx 耦合瓶颈以实现安培级硝酸盐制氨"
+ },
  "10.1002/aenm.71507": {
   "abstract": "This work presents open AgRh alloy hollow nanocubes that turn nitrate pollutants into ammonia with high efficiency and stability. The catalyst uses cooperative silver and rhodium sites to activate nitrate and complete hydrogenation, while its porous hollow structure improves transport. It also enables a low-voltage nitrate reduction–hydrazine oxidation electrolyzer for energy-saving nitrogen conversion. ABSTRACT Electrochemical nitrate-to-ammonia (NO 3 − to NH 3 ) conversion offers a promising route for NO 3 − removal and distributed NH 3 synthesis. However, its efficiency is constrained by sluggish NO 3 − activation, incomplete hydrogenation, and competing hydrogen evolution. Herein, open AgRh alloy hollow nanocubes (AgRh hNCs) are reconstructed from Ag nanocubes through a chloride-assisted alloying and etching process. The catalyst possesses a porous, nanograin-assembled framework with a Rh-enriched near-surface region, enhancing both mass transport and interfacial electronic coupling. Consequently, AgRh hNCs achieve up to 98% Faradaic efficiency for NH 3 , an NH 3 yield rate of 10.6 mg h −1 mg cat −1 , and excellent durability in the alkaline nitrate reduction reaction (NO 3 RR). Combined theoretical and experimental studies reveal a tandem-like interfacial step-matching mechanism, in which Ag promotes the NO 3 -to-NO 2 step, while Rh-centered sites drive deep hydrogenation of nitrogen-containing intermediates to NH 3 . Moreover, AgRh hNCs show high hydrazine oxidation reaction (HzOR) activity, enabling a membrane-separated NO 3 RR||HzOR electrolyzer with a 1.58 V lower cell voltage than the oxygen evolution reaction-coupled system at 10 mA cm −2 . This work demonstrates that integrating an open hollow structure with cooperative Ag-Rh interfacial sites is an effective strategy for selective NO 3 − -to-NH 3 electrosynthesis.",
   "authors": [
@@ -2336,6 +2378,46 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮",
   "zh_title": "碳氮化物负载于可重复使用 3D 打印载体用于可持续可见光驱动氨合成"
+ },
+ "10.1007/s44422-026-00035-9": {
+  "abstract": "Plasmonic photocatalysis has attracted considerable interest because localized surface plasmon resonances (LSPRs) enable efficient harvesting of visible-to-near-infrared light and enhance photocatalytic activity. Various mechanisms have been proposed to clarify the enhanced effect of plasmonic photocatalysis, such as near-field enhancement, hot-carrier generation and injection, plasmon-induced resonance energy transfer, and photothermal heating, leading to persistent thermal versus non-thermal debate, which greatly hinders the rational design of plasmonic photocatalysts. In this Review, we try to address these issues by presenting a more connected framework of plasmonic photocatalysis. We start from the fundamental principles of localized surface plasmon resonance decay and relate it to the four main enhancement mechanisms. Then, we connect these mechanisms with advanced characterization techniques and catalytic performance. We present an integrated spectroscopic framework employing transient absorption spectroscopy, surface-enhanced Raman spectroscopy, tip-enhanced Raman spectroscopy, and time-resolved X-ray methods to separate, identify and validate overlapping plasmonic energy-transfer pathways. By comparing model reactions with practical systems like water splitting, CO 2 reduction, and ammonia synthesis, we show that the dominant mechanism is not an inherent property of the material; instead, it depends on reaction conditions, excitation wavelength, and the local environment. This challenges the usual classification of plasmonic catalysts as either thermal or non-thermal, which may be too simplified. It also suggests the possibility of systems that can be tuned depending on conditions. Finally, we point out key challenges, including scalable fabrication, long-term stability, and the need for artificial intelligence-driven approaches.",
+  "authors": [
+   "Sulakshana Shenoy",
+   "Gui-lin Yin",
+   "Jinfeng Li",
+   "Jie Wei",
+   "Yan Liu",
+   "Hua Zhang",
+   "Jian-Feng Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-28",
+  "doi": "10.1007/s44422-026-00035-9",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1007/s44422-026-00035-9",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Catal",
+  "tier": "background",
+  "title": "Plasmonic photocatalysis: mechanistic principles, spectroscopic characterization, and applications for solar-to-chemical conversion",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s44422-026-00035-9",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "综述了等离激元光催化中局域表面等离激元共振（LSPR）增强机理，包括近场增强、热载流子产生、共振能量转移和光热加热。文章提出了一种集成光谱框架，利用瞬态吸收光谱、表面增强拉曼光谱等技术分离和验证重叠的等离激元能量转移路径。研究表明主导机制取决于反应条件、激发波长和局部环境，而非材料固有属性。",
+  "zh_method": "光驱动",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "等离激元光催化：机理原理、光谱表征及太阳能到化学转化应用"
  },
  "10.1016/j.agwat.2026.110788": {
   "ab_check_v": 2,
@@ -5555,6 +5637,58 @@
   "zh_obj": "等离子体制氨",
   "zh_title": "γ-Al2O3纳米片负载过渡金属催化剂上等离子体驱动H2和N2直接合成氨"
  },
+ "10.1016/j.fuproc.2026.108636": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Due to its capillary diffusion across different sectors, the decarbonization of the chemical industry via process electrification is of key importance for the reduction of CO 2 emissions in hard-to-abate applications. Among different electrification strategies, Joule-heated structured catalysts enable the design of compact and intensified reactors with high thermal efficiency, allowing to effectively valorise distributed sources of CH 4 and CO 2 . In this work we propose the first attempt of applying Binder Jetted SiSiC POCS as heating element in a directly Joule heated packed POCS reactor with a Rh-based pellet catalyst. Dry Reforming of Methane was used as benchmark reaction to validate the application of this material in electrified chemical reactors. Equilibrium conversion was achieved in the temperature range 670–730 °C at GHSV = 5000 NL/kg cat /h with an electric power input up to 498 W and thermal efficiencies higher than 50%. Axial temperature profiles and outlet product distributions were measured and successfully compared to simulations from a 2D reactor model. Calculations also highlighted an appreciable correspondence between the measured electric resistance (0.09 Ω) and the simulated one (0.12 Ω) based on measures from an independent characterization campaign.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "F. Nicolini",
+   "M. Grignola",
+   "M. Ambrosetti",
+   "R. Balzarotti",
+   "M. Pelanconi",
+   "G. Bianchi",
+   "G. Groppi",
+   "E. Tronconi",
+   "A. Ortona"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1016/j.fuproc.2026.108636",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1016/j.fuproc.2026.108636",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Fuel Processing Technology",
+  "tier": "transferable",
+  "title": "Electrified Dry Reforming of Methane with an additively manufactured SiSiC open cell structure",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.fuproc.2026.108636",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule-heat"
+  ],
+  "zh_brief": "研究利用 Binder Jetted SiSiC POCS 作为加热元件，在直接焦耳加热的填充 POCS 反应器中应用 Rh 基颗粒催化剂进行干重整甲烷。在 670–730 °C 温度范围内实现了平衡转化，GHSV 为 5000 NL/kg cat /h，电功率输入高达 498 W，热效率超过 50%。",
+  "zh_method": "反应阶段焦耳/电阻供热",
+  "zh_obj": "甲烷干重整",
+  "zh_title": "使用增材制造 SiSiC 开放式结构进行电驱动干重整甲烷"
+ },
  "10.1016/j.gee.2026.09.009": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -5712,6 +5846,55 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
   "zh_title": "氨生产的多尺度建模框架"
+ },
+ "10.1016/j.ifset.2026.104874": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "",
+  "authors": [
+   "Dominik Hug",
+   "Joseph Dumpler",
+   "Corina Sägesser",
+   "Charith Hettiarachchi",
+   "Erich Windhab",
+   "Alexander Mathys"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.ifset.2026.104874",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1016/j.ifset.2026.104874",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Innovative Food Science & Emerging Technologies",
+  "tier": "transferable",
+  "title": "Novel reactor concept for ultra-short thermal treatment based on induction heating",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.ifset.2026.104874",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "induction heating"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "基于感应加热的超短热处理的新型反应器概念"
  },
  "10.1016/j.ijhydene.2026.157496": {
   "ab_check_v": 2,
@@ -8141,6 +8324,53 @@
   "zh_obj": "过程待核实；涉及碳材料",
   "zh_title": "从PEEK热解到硬碳：间接焦耳加热快速转化机理研究"
  },
+ "10.1016/j.proci.2026.106553": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "This paper presents experimental high-speed (10 kHz) NH/OH-PLIF results of cracked ammonia (NH 3 ) flames at turbulent autoignition conditions issuing from the hot coflow burner. The burner was operated at a jet velocity of U J = 100 m.s −1 for three cracked percentages (Cr-xx) 7 %, 14 % and 28 %. Each cracking percentage required significantly different coflow temperatures ( T c ) for a seated to lifted flame, closely related to the H 2 content. Digital SLR images were used to obtain the finer correlation between lift-off height and coflow temperature, while select NH/OH-PLIF measurements were performed for high and low temperatures. The coflow temperature range for Cr-7, Cr-14 and Cr-28 were T c = 1400 – 1510, T c = 1225 – 1325 and T c = 1075 – 1105 K, respectively, where the temperature range and sensitivity for Cr-7 is like CH 4 /CNG flames. The high coflow temperature flames (low cracking) exhibited unique formations of NH and OH showing a faint trail attaching to the nozzle with a secondary region of NH and OH downstream more indicative of autoignition behavior. For lower coflow temperatures (Cr-28) only a single NH and OH branch forms with flame structures more typical of hydrocarbon autoigniting flames. The differences in the NH and OH signals with kernel size highlight the differences between the cracked flames, showing higher NH/OH signals with more cracking. The experimental results were compared to 0-D and 1-D calculations showing similar sensitivity between experimental temperatures and cracking percentages. The calculations showed that lower cracking cases, with higher coflow temperatures, produced two stage ignition and two stages of NH/OH formation. These stages are temporally close with the first stage being significantly faster such that both NH and OH branches are observed in the experiment. Novelty and significance statement This paper presents novel results of cracked ammonia (NH 3 ) flames at turbulent autoignition conditions relevant to gas turbines. The work presents the first application of high-speed 10 kHz NH-PLIF combined with OH-PLIF to highlight new and unique phenomena between cracked NH 3 flames at high and low autoignition temperatures. The results highlight the extreme sensitivity of ammonia cracking (H 2 content) with autoignition temperature, showcasing that all flames are stabilised by autoignition. As a significant new finding, this work shows two staged ignition and correspondingly two staged productions of NH and OH which is particularly evident for the high temperature cracked NH 3 conditions. Additionally, the simplified coflow burner geometry with its well-defined boundary conditions make the results relevant to both the experimental and modelling combustion communities.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "A.R.W. Macfarlane",
+   "A. Dreizler",
+   "M.J. Dunn",
+   "A.R. Masri"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1016/j.proci.2026.106553",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1016/j.proci.2026.106553",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Proceedings of the Combustion Institute",
+  "tier": "background",
+  "title": "Investigation of cracked ammonia under turbulent autoignition conditions using high-speed NH/OH-PLIF",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.proci.2026.106553",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia cracking"
+  ],
+  "zh_brief": "在高速（10 kHz）NH/OH-PLIF实验中研究了从热共流燃烧器喷出的湍流自燃条件下裂解氨火焰。在喷嘴速度为100 m/s的三种裂解百分比（7%、14%和28%）下，研究了共流温度对火焰稳定性的影响。实验和计算显示，低裂解率（高共流温度）产生两阶段点火和NH/OH形成，而高裂解率（低共流温度）产生单分支结构。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "使用高速NH/OH-PLIF研究湍流自燃条件下裂解氨的火焰"
+ },
  "10.1016/j.scowo.2026.100336": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -8819,6 +9049,48 @@
   "zh_obj": "氨硼烷水解",
   "zh_title": "通过等离子体尾焰沉积在多样化基底上低温合成大面积六方氮化硼薄膜"
  },
+ "10.1021/acs.chemmater.6c02125": {
+  "abstract": "Abstract Metal nanoparticle sintering in high-temperature oxidizing atmospheres remains a primary deactivation pathway for platinum-group metal catalysts on alumina supports. Here, atomic layer deposition (ALD) was used to deposit alumina on supported Pt catalysts and develop alumina-encapsulated Pt/Al2O3 catalysts that were aged at 800 °C under different atmospheres and characterized by time-resolved high-angle annular dark-field scanning transmission electron microscopy (HAADF-STEM), CO-probe diffuse reflectance infrared Fourier transform spectroscopy (CO-DRIFTS), and propene combustion kinetics. Within the alumina-encapsulated system, a sub-2 nm Pt cluster population formed under all oxidizing atmospheres tested but not under inert atmosphere, and this population persisted for at least 12 h at 800 °C under propene complete combustion (PCC) conditions. Unencapsulated Pt/Al2O3 controls, by contrast, developed only a transient sub-2 nm population, detected within 1 min of aging in air at 800 °C and no longer present afterward, consistent with the rapid disappearance of small particles predicted by Ostwald ripening theory. CO-DRIFTS confirmed the presence of undercoordinated Pt surface sites in all oxidatively aged samples, with no detectable signal when the sample was aged under inert atmosphere. Propene combustion rates measured after aging for an alumina-encapsulated catalyst were approximately two and five times higher than the fresh encapsulated catalyst for catalysts aged under inert atmosphere and under oxygen and steam, respectively. DFT calculations of Pt diffusion through defective Al2O3 identified kinetically accessible diffusion pathways at 800 °C, with activation barriers as low as 0.76 eV. Furthermore, Pt surface binding was calculated to be favored in the presence of O2. These results identify oxygen-driven surface segregation, mediated by defect-assisted diffusion through the ALD overcoat, as a possible mechanism responsible for nanocluster formation in this system. The persistence of the sub-2 nm cluster population for at least 12 h at 800 °C under PCC conditions demonstrates the thermal stability of these sites within the encapsulated architecture.",
+  "authors": [
+   "Gennaro Liccardo",
+   "Shyama Charan Mandal",
+   "Jacob Smith",
+   "Tomás Vergara",
+   "Arik Beck",
+   "Miaofang Chi",
+   "Frank Abild‐Pedersen",
+   "Stacey F. Bent",
+   "Matteo Cargnello"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-29",
+  "doi": "10.1021/acs.chemmater.6c02125",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1021/acs.chemmater.6c02125",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Chemistry of Materials",
+  "tier": "transferable",
+  "title": "High Temperature Stable Pt Nanoclusters Formation in Alumina-Encapsulated Pt Catalysts",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1021/acs.chemmater.6c02125",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_brief": "利用原子层沉积在 Pt/Al2O3 上沉积氧化铝，研究其在 800 °C 氧化气氛下的老化行为。结果表明，氧化铝包覆体系在 800 °C 下形成了亚 2 nm 的 Pt 团簇，且在丙烯完全燃烧条件下至少持续 12 小时。DFT 计算显示 Pt 在缺陷 Al2O3 中的扩散活化能低至 0.76 eV。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "氧化铝包覆 Pt 催化剂中高温稳定 Pt 纳米团簇的形成"
+ },
  "10.1021/acs.chemmater.6c02250": {
   "abstract": "Abstract The AtomicLimits ALD/ALE database is a community resource that catalogues atomic layer deposition (ALD) and atomic layer etching (ALE) processes reported in the literature. While widely used, it currently captures only a small fraction of the available information, with limited process information per entry, and relies on manual curation. As ALD/ALE process development grows in demand and complexity, with many interdependent parameters and increasingly sophisticated chemistries such as for multicomponent films, decades of experimental and simulation knowledge remain locked across publications, supplementary files, and lab notebooks. Recent advances in artificial intelligence (AI), particularly machine learning (ML) and large language models (LLMs), offer a path to unlock this knowledge for data-driven analysis and process design, but realizing this potential depends on structured, machine-readable data. In this perspective, we propose a framework to evolve AtomicLimits into an AI-ready knowledge infrastructure that integrates literature-extracted, experimental, and simulation data through a community-defined schema, a structured template that specifies which data fields to capture and how to organize them. We outline the AI capabilities this enables, from structured querying to autonomous experimentation, and discuss the coordinated community effort required to realize this vision for the atomic-scale processing field.",
   "authors": [
@@ -9232,6 +9504,47 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "带电Cu(111)/水界面上电催化氮还原反应的离子迁移机理洞察"
+ },
+ "10.1021/acsaem.6c02999": {
+  "abstract": "Abstract For the photocatalytic reduction of dinitrogen in aqueous media, rational design of the catalyst-reactant interface is critical for achieving efficient charge dynamics and molecular activation. Herein, we constructed a type-II heterojunction based on silicomolybdic acid (SiMo12) and cyanoviologen-based coordination polymer. This modulation leads to strong interfacial electronic coupling, facilitating spatial separation of photogenerated carriers and creating a microenvironment rich in oxygen vacancies. Under ambient conditions and without sacrificial agents, the optimized 2% SiMo12 hybrid achieves an ammonia synthesis rate of 62.8 μmol·g–1·h–1. Mechanistic studies reveal that the staggered band alignment enables efficient electron transfer from the SiMo12 to viologen ligand active centers. Coupled with density functional theory calculations, the internal electron transfer pathway within the polymer molecules is clearly identified. A dynamic balance among N2 chemisorption, interfacial charge flux, and proton supply is therefore achieved through this hybrid heterostructure strategy. Overall, this work provides a sophisticated design paradigm for photocatalytic ammonia production on polyoxometalate-based hybrids by elucidating the synergistic interplay between heterojunction engineering and defect modulation.",
+  "authors": [
+   "Suhan Liu",
+   "Yi Miao",
+   "Xin Wang",
+   "Sitong Song",
+   "Yilin Wang",
+   "Yuting Song",
+   "Hu Wang",
+   "Ran Tao"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1021/acsaem.6c02999",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.1021/acsaem.6c02999",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Applied Energy Materials",
+  "tier": "background",
+  "title": "Unlocking Efficient Sacrificial-Agent-Free Photocatalytic Nitrogen Fixation via a Polyoxometalate/Cyanoviologen Type-II Heterojunction with Synergistic Electron Transfer",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acsaem.6c02999",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "研究构建了基于硅钼酸和紫精配位聚合物的II型异质结，实现了光生载流子的空间分离和富氧空位微环境。在无牺牲剂和室温条件下，优化的2% SiMo12杂化物实现了62.8 μmol·g–1·h–1的氨合成速率。机理研究表明，能带排列允许电子从SiMo12转移到紫精配体活性中心，DFT计算明确了聚合物内部的电子转移路径。",
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "通过具有协同电子转移的聚氧金属酸盐/紫精类II型异质结解锁无牺牲剂光催化氮固定"
  },
  "10.1021/acsami.6c12867": {
   "abstract": "Abstract Traditional metal heat sinks are limited by moderate thermal conductivity, high density, and poor flexibility, which restrict their use in compact and lightweight electronics. Graphene films offer high in-plane thermal conductivity, but rapid reduction of graphene oxide (GO) releases gases from oxygen-containing groups and can generate pores, interlayer damage, and poor film densification. Here, we report a precursor-design strategy that combines reduced graphene oxide nanosheets (GNs) with carboxylated cellulose nanofibers (CNFs). The composite films (GO/GNs-X) were prepared by blade coating, hot-press carbonization, and secondary Joule-heating graphitization. The combined precursor was designed to mitigate gas-release-induced damage and support carbon-network reconstruction during high-temperature treatment. The optimized GF, with a thickness of approximately 25 μm, reached an in-plane thermal conductivity of 950.5 ± 20 W m–1 K–1 and an electrical conductivity of 2.31 × 105 S m–1. At a comparable thickness, this thermal conductivity was 26.6% higher than that of an additive-free RGO-2600-ref film prepared without GNs/CNF modification. In LED heat-dissipation tests, the surface-centre temperature decreased from 83.7 to 40.4 °C. Because individual-additive controls were not included, the respective contributions of GNs and CNF could not be separated. These results establish combined precursor modification as a route to thin, lightweight graphene heat spreaders. Such films may be useful for thermal management in compact electronics, foldable devices, and aerospace systems.",
@@ -12191,6 +12504,42 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应"
  },
+ "10.2355/isijinternational.isijint-2026-071": {
+  "abstract": "This study investigated the reduction process of ferrous oxide (FeO) by ammonia gas (NH3). Thermogravimetry–mass spectrometry (TG–MS) was employed to perform both non-isothermal and isothermal reduction experiments, systematically examining the effects of heating rate and reduction temperature on FeO reduction. The results show that NH3 can initiate FeO reduction at 490 °C. As the temperature increases, H2 generated from NH3 decomposition becomes the primary reducing agent, and the metallic iron formed catalyzes further NH3 decomposition. With increasing temperature, the reduction products follow the transformation sequence: Fe3N1.3 → Fe3N → Fe4N → α-Fe. Non-isothermal kinetic analysis reveals that the reaction mechanism changes with the degree of reduction: the early stage is dominated by FeO reduction, whereas the later stage is governed by the decomposition of iron nitrides. Isothermal kinetic analysis indicates that the reduction process conforms to the contracting volume model (R3), with an apparent activation energy of 92.09 kJ·mol-1. This study provides both theoretical insight and experimental evidence for the application of ammonia in low carbon ironmaking.",
+  "authors": [
+   "Zhongzi Chen",
+   "Xiaojun Hu",
+   "Baoshu Yin"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-29",
+  "doi": "10.2355/isijinternational.isijint-2026-071",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.2355/isijinternational.isijint-2026-071",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "ISIJ International",
+  "tier": "background",
+  "title": "Reduction behavior and kinetics of ferrous oxide by ammonia gas",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2355/isijinternational.isijint-2026-071",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "NH3 decomposition"
+  ],
+  "zh_brief": "利用热重-质谱（TG-MS）研究了氨气还原氧化亚铁（FeO）的过程。结果表明NH3在490 °C开始还原，高温下H2成为主要还原剂，产物依次为Fe3N1.3、Fe3N、Fe4N和α-Fe。等温动力学分析表明反应遵循收缩体积模型（R3），表观活化能为92.09 kJ·mol-1。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实；涉及Fe/铁体系",
+  "zh_title": "氨气还原氧化亚铁的行为与动力学"
+ },
  "10.26434/chemrxiv-2025-g53rc/v3": {
   "abstract": "We report the synthesis of Fe foams by dynamic hydrogen bubble template (DHBT)-assisted electrodeposition and their electrocatalytic performance for the selective reduction of nitrate to ammonia, a strategy that mitigates nitrate pollution while providing a decentralized route for ammonia production. Fe-foam_90s@Ti achieves a Faradaic efficiency of up to 97% and a partial current density for ammonia formation approaching -1 A cm -2 without externally imposed convection. Operando Raman spectroscopy tracked the potential-dependent reduction of surface Fe oxides and, together with identical-location scanning electron microscopy (IL-SEM), supported the assignment of metallic Fe as the catalytically active state for selective ammonia formation. Potential-dependent ICP-MS and ion chromatography analyses identified an operating window with minimal Fe dissolution, in which the corrosion-prone catalyst can be electrochemically stabilized through cathodic protection. The catalyst was further implemented in a laboratory-scale flow-cell electrolyzer under galvanostatic conditions, demonstrating its compatibility with continuous-flow operation. Together, these results establish DHBT-derived Fe foams as promising electrocatalysts for high-rate ammonia electrosynthesis and support their further evaluation in scaled flow-cell systems.",
   "authors": [
@@ -13408,6 +13757,41 @@
   "zh_obj": "氨分解制氢",
   "zh_title": "改进氨-氢动力车用于自主冷藏铁路车厢的效率"
  },
+ "10.5281/zenodo.23730709": {
+  "abstract": "Preprint comparing flash Joule heating of flame-retardant electronics plastic (Rice University, 2026) with ARBOK-Antimony, a deep-vacuum fractional separation unit that recovers antimony from liquid streams: geothermal waters, underground brines and mine drainage. 39% of world antimony goes into flame-retardant plastics; the US imports 100% of the 20,000-25,000 t it consumes per year (USD 150-200 million). ARBOK-Antimony: 20-foot container, 200 t of water per day, 0.5-0.7 kWh per tonne of water, TRL 8. Salton Sea area alone: 2,000-3,000 t of antimony per year, 3-4% of the world market; 10-50% of US consumption with geothermal hubs, mine waters and tailings.",
+  "authors": [
+   "Michael Vischmidt",
+   "D. B. Ponomarenko"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-28",
+  "doi": "10.5281/zenodo.23730709",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.5281/zenodo.23730709",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 6,
+  "source": "Zenodo (CERN European Organization for Nuclear Research)",
+  "tier": "background",
+  "title": "Antimony from Water, Not from Trash: Liquid-Stream Recovery by Deep-Vacuum Separation Compared with Flash Joule Heating of Flame-Retardant Plastic",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.5281/zenodo.23730709",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_brief": "比较了火焰阻燃电子塑料的闪蒸焦耳加热与ARBOK-Antimony深真空分级分离单元回收锑的效果。ARBOK-Antimony可从地热水、地下卤水和矿山排水等液流中回收锑，处理量为200吨/天，能耗0.5-0.7 kWh/吨水。仅萨尔顿湖地区每年就有2000-3000吨锑，占全球市场的3-4%。",
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "水中的锑，而非垃圾：通过深真空分离与火焰阻燃塑料闪蒸焦耳热回收的比较"
+ },
  "10.55544/sjmars.5.5.5": {
   "abstract": "Ammoniacal nitrogen is a pervasive aquatic contaminant that threatens aquatic life, compromises disinfection, and drives eutrophication, yet most adsorption studies address concentrations far above those found in natural waters and polished effluents. This study evaluates sugarcane bagasse-derived biochar (SCBC), pyrolysed at [500] °C, as a low-cost adsorbent for ammonia removal at low initial concentrations ([2–30] mg L-1). The biochar was characterised by proximate analysis, pHpzc, BET, FTIR, and XRD, and batch experiments examined the effects of pH, dose, contact time, initial concentration, and temperature. Kinetic data were interpreted using pseudo-first-order, pseudo-second-order, Elovich, and intraparticle diffusion models, and equilibrium data using the Langmuir, Freundlich, Temkin, and Dubinin–Radushkevich isotherms, with model suitability judged by R2, chi-square, and RMSE. Optimum removal of [82]% occurred at pH [7] with a dose of [2] g L-1, and equilibrium was reached within approximately [120] min. The pseudo-second-order model (R2 = [0.998]) and the Langmuir isotherm (R2 = [0.999]) provided the best fits, yielding a maximum monolayer capacity of [12.7] mg g-1. Thermodynamic analysis indicated a spontaneous and endothermic process, and the mean free energy of [10.2] kJ mol-1 pointed to ion exchange, complemented by electrostatic attraction, hydrogen bonding, and pore filling. The biochar retained [about 77]% of its efficiency after [five] regeneration cycles. These findings demonstrate that sugarcane biochar is a sustainable, economical option for polishing ammonia-contaminated water at low concentration, while valorising agricultural residue.",
   "authors": [
@@ -13474,6 +13858,38 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "设计选择权"
+ },
+ "10.58257/ijprems55154": {
+  "abstract": "Microplastic pollution is a persistent environmental challenge due to the widespread distribution, chemical stability, and continuous generation of polymeric particles smaller than 5 mm.Instead of relying only on separation, filtration, or destruction, microplastics can be considered carbon-rich secondary feedstocks for producing functional carbon materials, linking plastic-waste management with green chemistry and circular-economy principles.Technologies such as pyrolysis, hydrothermal carbonization, catalytic carbonization, microwave processing, flash Joule heating, and plasma conversion can transform polymeric waste into porous carbons, activated carbons, graphene-like materials, carbon nanotubes, and carbon dots for applications in adsorption, photocatalysis, advanced oxidation, CO₂ capture, and electrochemical treatment.However, feedstock heterogeneity, additives, halogen-containing polymers, energy demand, chemical activation, contaminant transfer, and material safety remain important challenges.This review critically examines microplastic-to-carbon conversion, polymer-carbon property relationships, environmental applications, regeneration, end-of-life management, and life-cycle assessment.A future framework integrating selective recovery, low-energy conversion, safer activation, multifunctional remediation, AI-assisted materials design, and circular life-cycle assessment is proposed to shift microplastic management from a linear \"capture-and-dispose\" model toward a circular \"recover-convert-remediate-regenerate\" strategy.",
+  "authors": [],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-28",
+  "doi": "10.58257/ijprems55154",
+  "first_seen": "2026-11-01T02:11:02Z",
+  "id": "10.58257/ijprems55154",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "International Journal of Progressive Research in Engineering Management and Science",
+  "tier": "transferable",
+  "title": "MICROPLASTIC WASTE TO FUNCTIONAL CARBON MATERIALS",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.58257/ijprems55154",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_brief": "综述了微塑料作为富含碳的二次原料，通过热解、水热碳化、闪蒸焦耳加热等技术转化为多孔碳、石墨烯等材料用于吸附和 CO₂ 捕获。文章指出原料异质性、添加剂和能耗仍是挑战，并提出了整合选择性回收、低能耗转换和循环评估的未来框架。",
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "其他催化反应；涉及碳材料",
+  "zh_title": "微塑料废弃物转化为功能碳材料"
  },
  "10.63823/20260306": {
   "ab_check_v": 2,
