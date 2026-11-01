@@ -40,8 +40,17 @@
   "zh_title": "快速响应电磁超材料实现全天候电化学CO2甲烷化"
  },
  "10.1002/adfm.72332": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Zn–Nitrate Batteries In their Research Article (10.1002/adfm.202511876), Myong Yong Choi and co-workers reveal that the modified Ag/Cu interface in the laser-produced Ag/Ag2O/CuO electrocatalyst delivers superior nitrate reduction reaction performance, enabling simultaneous nitrite-to-ammonia conversion and electricity co-generation in a Zn–nitrite battery.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Wonji Go",
    "Raja Arumugam Senthil",
@@ -73,8 +82,8 @@
   "why": [
    "Ammonia Synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.1002/adma.202515938": {
   "abstract": "Abstract The complex, heterogeneous nature of challenging precursors, as seen in end‐of‐life wind turbine blades, typically comprises glass or carbon fiber‐reinforced polymer composites with polyvinyl chloride foam cores. This complexity poses a significant material synthesis challenge, particularly for achieving high‐value recovery with precise structural control. A transformative one‐step, ultrafast carbothermal shock (CTS) process is presented that selectively converts these intricate, unseparated composites into high‐value SiC polytypes or novel graphene structures. Leveraging ultrafast Joule heating, CTS enables remarkable atomic‐scale phase control, facilitating kinetic trapping of specific non‐equilibrium structures such as metastable 6H‐SiC and a unique hybrid AB‐turbostratic graphene. This unique hybrid graphene combines the high charge carrier mobility of AB‐stacked nanodomains with the enhanced mechanical interlocking of turbostratic nanodomains. This results in exceptional electrical conductivity (1791 S m −1 ) and substantial mechanical reinforcement (+21.8%) in composites, significantly outperforming conventional reduced graphene oxide. Multiscale characterization and simulations elucidate the atomic‐scale mechanisms driving this phase evolution and kinetic trapping. The study establishes a new paradigm for advanced materials synthesis from complex feedstocks, transforming critical waste into on‐demand functional materials with compelling environmental benefits and dramatically lower operational costs. This sets the stage for sustainable material innovation and a circular economy.",
@@ -245,8 +254,17 @@
   "zh_obj": "光催化固氮"
  },
  "10.1002/adsu.70216": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Ammonia Synthesis In their Research Article (10.1002/adsu.202500523), Haoquan Zheng and co-workers demonstrate CuCo nanoparticles on N-doped carbon, derived from a ZIF material with a cross-shaped leaf morphology, for electrocatalytic nitrate-to-ammonia conversion. This design enables the efficient reduction of nitrate and nitrite to ammonia, marking a notable advance in sustainable nitrogen cycle electrochemistry. The work inspires further interest in environmental protection and electrochemical technology.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Chuanfei Cang",
    "Rong Hua",
@@ -273,7 +291,9 @@
   "url": "https://doi.org/10.1002/adsu.70216",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
@@ -1230,8 +1250,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.agwat.2025.109857": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Currently, cotton production faces challenges such as excessive nitrogen fertilization and water scarcity, which affect yield, quality, and environmental sustainability. Adequate water and nitrogen supply was shown to enhance cotton growth, and moderate nitrogen application could partly offset yield losses caused by water deficit. However, nitrogen rates above critical thresholds led to diminishing returns, while excessive water and nitrogen inputs reduced water use efficiency (WUE) and nitrogen partial factor productivity (NPFP, kg kg −1 ). A synergistic effect on NPFP was observed between irrigation quota and nitrogen application rate, with a 10 % reduction in irrigation quota under conventional nitrogen use significantly improving WUE, and marked regulatory effects of irrigation on NPFP under low-nitrogen conditions (N4). To verify these findings, three irrigation regimes（W1:488 mm、W2:444 mm、W3:400 mm）and four nitrogen fertilization levels（N1:440 kg ha −1 、N2:387 kg ha −1 、N3:336 kg ha −1 、N4:294 kg ha −1 ）were established in field experiments from 2022 to 2023. Three evaluation methods—principal component analysis (data dimensionality reduction), entropy-weighted TOPSIS (comprehensive ranking), and grey relational analysis (correlation analysis)—were applied to nine indicators covering irrigation cost, agronomic traits, and economic returns. The results indicated that an optimal combination of 400–444 mm irrigation quota with 387–440 kg ha −1 nitrogen application is suitable for Northern Xinjiang under film-mulched drip irrigation, supporting nitrogen reduction strategies while sustaining yield. This study provides a theoretical basis and technical framework for improving water–nitrogen resource efficiency and promoting sustainable cotton cultivation in arid regions. ● Optimal water-nitrogen synergy: W1N1 (488 mm irrigation & 440 N kg·ha −1 ) enhanced cotton growth (plant height, stem, LAI). ● Water-saving potential: 10 % less irrigation (400 mm) under conventional N (440 N kg·ha −1 ) boosted (WUE) by 1.29–1.77 %. ● Nitrogen reduction strategy: Low nitrogen (N4: 294 kg·ha −1 ) had irrigation regulated NPFP; W3 (400 mm) maximizing NPFP. ● Sustainable management: Irrigation (400–444 mm) and N (387–440 kg·ha −1 ) ensured stable yield, less environmental burdens. ● Comprehensive validation: PCA, entropy-weighted TOPSIS, and grey analysis named W3N1/W3N2 optimal for resource efficiency.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Sijia Wang",
    "Jinghua Zhao",
@@ -1313,7 +1342,17 @@
   "zh_title": "通过 Ce-La 氧化物 Si 掺杂设计具有介孔结构的氨合成 Ru 催化剂"
  },
  "10.1016/j.apcatb.2025.125477": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Quoc-Nam Ha",
@@ -1343,7 +1382,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.apcatb.2025.125513": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Shixu Zhou",
@@ -1378,7 +1427,17 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.applthermaleng.2025.127215": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Seyed Heydar Rajaee Shooshtari"
@@ -1408,7 +1467,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.apsusc.2025.163675": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Qingyu Zhou",
@@ -1449,7 +1518,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.apsusc.2025.163773": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yali Lu",
@@ -1484,7 +1563,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cattod.2025.115381": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Siming Huo",
@@ -1830,7 +1919,17 @@
   "zh_title": "感应加热在丙烷脱氢催化中的作用"
  },
  "10.1016/j.cej.2025.169087": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Bin Li",
@@ -1865,7 +1964,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.cej.2025.169131": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Juyeon Kim",
@@ -1898,7 +2007,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cej.2025.169332": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Ruchun Li",
@@ -1935,7 +2054,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.cej.2025.169473": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Qiyao Zeng",
@@ -2172,7 +2301,17 @@
   "zh_title": "用于氨生产的高性能微孔单壁纳米管"
  },
  "10.1016/j.enconman.2025.120180": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Luyao Liu",
@@ -2210,8 +2349,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.energy.2025.138068": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Advanced technologies utilising renewable energies have been advanced rapidly to achieve the Net Zero target, leading to significant cost reduction. However, the intermittency of renewable energy results in unstable power supply, which could be mitigated through renewable energy storage. Ammonia stands out as a promising energy carrier, distinguished by its cost-effective transportation and storage, high energy density, well-established infrastructure, and versatile applications. In this work, we design a green ammonia production system including H 2 generation by using proton electrolyte membrane (PEM) electrolysis, N 2 recovered from off gas, and NH 3 synthesis by using Haber-Bosch Process. An amine-based carbon capture is also integrated to further reduce carbon emissions and nitrogen enrichment. We then develop rigorous process models of reactive equipment to enhance the accuracy of process simulation. Sensitivity analysis is conducted to investigate effects of several key parameters on process performance and the optimal operating conditions are thus obtained to achieve maximum energy savings. The computational results demonstrate that the developed process models have good agreement in predictions with the experimental and plant data. The equivalent energy consumption for green ammonia production in our proposed system is 37.6 GJ t −1 NH 3 with energy efficiency of 48.8%. The techno-economic evaluation shows that the levelized cost of ammonia in our system is 1169 $ t −1 NH 3 , which is expected to be reduced to 410.5 $ t −1 NH 3 in 2050 when the carbon tax of 130 $ t −1 CO 2 , electricity of 20 $ MWh −1 and 90% reduction of the current capital cost (227 $ kW −1 ) in H 2 subsystem are applied. This is aligned with the prediction by IRENA. • Flue gas as a nitrogen source for ammonia synthesis • Rate-based modelling of the amine-based carbon capture process in a closed loop • Electrolyser model developed in Aspen Custom Modeler considering thermodynamics • Rigorous modelling of an industrial ammonia convertor aided by Fortran subroutine • Detailed equipment sizing and costing and considering carbon penalty",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ruitao Sun",
    "Li Sun",
@@ -2238,8 +2386,8 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
  },
  "10.1016/j.energy.2025.138673": {
   "ab_check_v": 2,
@@ -2328,8 +2476,17 @@
   "zh_title": "铜介导的磷钨酸插层磺化膨润土用于氨的光催化氧化：从Qarun湖的案例研究"
  },
  "10.1016/j.epsr.2025.111887": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "To achieve a balance between economic performance and operational reliability in a coupled hydro–photovoltaic hydrogen-to-ammonia system, and to improve its operational flexibility, this paper proposes a double-layer power optimisation and control strategy based on model predictive control (MPC). In the upper-layer economic optimisation and scheduling module, a cost-benefit optimisation model is developed that considers internal revenue, operation and maintenance costs, and the start-up/shutdown costs of the hydrogen production units, aiming to maximise the overall economic benefits of system operation. In the lower-layer real-time control module, a real-time power optimisation method is introduced, which leverages the MPC framework to track multiple operational targets under dynamic constraints, using the economically optimised baseline power as a reference. The effectiveness of the proposed method is validated through a case study on a typical operating day. The results demonstrate that the proposed dual-layer control framework enables flexible and efficient operation of integrated electro-hydrogen-ammonia systems, offering valuable insights for the deep integration of renewable energy and the advancement of sustainable energy systems.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yang Shihui",
    "Zhengang LU",
@@ -2362,7 +2519,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.fuel.2025.135599": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Weiwei Xuan",
@@ -2394,7 +2561,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.fuel.2025.135632": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Indumathy Balakrishnan",
@@ -2429,8 +2606,17 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.fuproc.2025.108292": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Renewable-driven non-thermal plasma (NTP) technology provides a potentially sustainable alternative for ammonia (NH 3 ) production. Nonetheless, energy efficiency remains a critical bottleneck in NTP reactors. Herein, we propose a multi-hollow dielectric barrier discharge (MDBD) plasma reactor to realize nitrogen hydrogenation towards ambient NH 3 synthesis, with the physicochemical characteristics systematically explored for the first time. Transient discharge dynamics were captured by electrical characterization, meanwhile the active intermediate species and the low-temperature properties of MDBD were unveiled by optical spectrum diagnosis. Effects of feed gas, flow rate and specific energy input (SEI) on reaction activity were investigated in terms of energy efficiency (EE) and energy consumption (EC). Notably, remarkable reaction efficacy was realized under low driving powers. For a fully-developed 'steady' discharge, an EE of 1.32 g/kWh and an EC of 46.44 MJ/mol could be attained at 3.20 W. Under a pulse-like fluctuating 'flicker' mode at merely 1.15 W, the EE and EC were improved to 1.78 g/kWh and 34.35 MJ/mol, respectively, further highlighting the energy-effectiveness of MDBD. This work provides a novel approach for energy-efficient, environmental-friendly and distributed NH 3 production. • A small-scale multi-hollow dielectric barrier discharge plasma employed for NH 3 synthesis. • Plasma reaction under ambient conditions and low power input. • Physicochemical characteristics on NH 3 synthesis were determined. • Improved synthetic efficacy 1.78 g-NH 3 /kWh at ∼1 W under pulse-like flickering discharge mode. • Presented a novel alternative for distributed and cost-effective NH 3 production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Shanzhi Liu",
    "Jiabao Lv",
@@ -2469,8 +2655,17 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.ijhydene.2025.151825": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Plasma-based methods enable the one-step production of ammonia from water under ambient temperatures and pressures without CO 2 emissions, making them a crucial technology for achieving a carbon-neutral society. In the present study, ammonia is produced with a novel technique, mist and plasma (MAP), which enhances the energy efficiency of ammonia production by colliding fine water droplets (mist) with a nitrogen plasma jet. The efficiency of MAP is 57.6 mg-NH 3 /MJ, representing 8-36-fold improvement in efficiency compared with conventional in-liquid plasma techniques and interfacial reactions between nitrogen plasma and static bulk water. This performance is high-level reported efficiency for catalyst-free one-step ammonia production using water under ambient conditions. The efficiency depends on the surface area per unit space volume of the mist, nitrogen gas flow rate, and electrical discharge frequency. Further investigation and optimization could enable highly efficient and sustainable ammonia production technology. • Ammonia was produced by colliding water mist and N 2 plasma (MAP). • By MAP, some benefits such as increasing reaction area were achieved. • MAP increased the efficiency by up to 36-fold. • Efficiency varied with various factors, including nitrogen flow rate. • The maximum efficiency was 57.6 mg-NH 3 /MJ.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Ryoya Shiraishi",
    "Yuya Kuwaki",
@@ -2540,7 +2735,17 @@
   "zh_obj": "电化学氮还原；涉及Ru/钌体系"
  },
  "10.1016/j.ijhydene.2025.152471": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Vahideh Sarvari",
@@ -2618,7 +2823,17 @@
   "zh_title": "单次给药激发广泛的抗Sarbecovirus反应：使用原子层沉积制备的嵌合-8 RBD-纳米颗粒疫苗"
  },
  "10.1016/j.jcat.2025.116386": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Qi Chen",
@@ -2782,7 +2997,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及碳材料"
  },
  "10.1016/j.jechem.2025.06.052": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Jian Zhou",
@@ -2819,7 +3044,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jechem.2025.07.015": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yuanyuan Wang",
@@ -2855,7 +3090,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jechem.2025.07.052": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Nuo Lei",
@@ -2890,7 +3135,17 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1016/j.jelechem.2025.119420": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xiaolin Wang",
@@ -3103,7 +3358,17 @@
   "zh_title": "快速碳热冲击合成高熵氧化物作为高度稳定的析氧反应催化剂"
  },
  "10.1016/j.jpowsour.2025.238065": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Zhongmei Yang",
@@ -3143,7 +3408,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.jpowsour.2025.238222": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Fengchen Zhou",
@@ -3178,7 +3453,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jwpe.2025.108850": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yu Zhang",
@@ -3370,7 +3655,17 @@
   "zh_title": "焦耳加热技术用于功能纳米材料合成：近期进展、挑战与展望"
  },
  "10.1016/j.mcat.2025.115390": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Mengqi Liao",
@@ -3404,7 +3699,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.mcat.2025.115455": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yuan Li",
@@ -3507,7 +3812,15 @@
   "zh_title": "碳纳米管增强低钌催化剂的氢和氨脱附以实现高效合成氨"
  },
  "10.1016/j.microc.2025.115423": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Tanay Saha",
@@ -3597,7 +3910,15 @@
   "zh_title": "等离子体增强原子层沉积 Al2O3 在石墨烯上通过原位沉积层"
  },
  "10.1016/j.psep.2025.107865": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Sheng Dou",
@@ -3683,7 +4004,15 @@
   "zh_title": "脉冲结构焦耳加热控制生物质热解产物选择性和残余碳行为"
  },
  "10.1016/j.seppur.2025.133428": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Kunfeng Zhang",
@@ -3717,7 +4046,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/s1872-2067(25)64808-x": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Jiahui Chen",
@@ -3861,8 +4198,17 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1021/acsanm.5c04300": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Rapid industrial growth has led to increasing nitrate (NO 3 – ) wastewater discharge, disrupting ecosystems and threatening human health. Electrocatalytic NO 3 – -to-NH 3 (NITRR) offers a promising method to solve environmental problems and provide clean energy. Electrocatalytic NITRR involves multielectron transfer and hydrogenation processes, in which the hydrogenation of *NO is crucial to the whole reaction. However, the hydrogenation process of *NO is sluggish due to the high chemical dissociation energy of the N–O bond. Here, the Fe nanoplates and nickel oxide/nickel-foam composite material (Fe@NiO/NF) was fabricated and demonstrated an excellent NITRR performance with a high faradaic efficiency over 98.7% at −0.45 V (vs RHE). More importantly, the Fe@NiO/NF electrode maintained excellent stability over 100 h. The condition experiments and electron spin resonance demonstrated that the synergistic interaction between Fe nanoplates and NiO significantly promoted the formation of hydrogen radicals (*H) on Fe@NiO/NF. Furthermore, density functional theory calculations revealed that this synergy effectively lowers the energy barrier for the hydrogenation of the *NO intermediate on Fe@NiO/NF, thereby accelerating the overall hydrogenation process. This study proposes a cost-effective and efficient method for treating NO 3 – wastewater while recovering valuable nitrogen resources.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Fengjiao Quan",
    "Zihe Xu",
@@ -3898,8 +4244,17 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1021/acscatal.5c06372": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "The electrocatalytic nitrogen reduction reaction (NRR), offering an attractive route to ammonia (NH 3 ) from dinitrogen (N 2 ) and water, has attracted substantial interest. However, conventional hydrophobic modification strategies face comprehensive challenges: effectively inhibiting the competing hydrogen evolution reaction (HER) inevitably impedes the critical proton-coupled electron transfer (PCET) steps essential for efficient NRR. Herein, we present a high-performance electrocatalyst based on alkanethiol-modified iron hollow fibers (Fe HF-C x, x = 6, 12, and 18). Significantly, the optimized Fe HF-C12 achieves water management at the interface, suppressing HER without hindering the dynamic water activity essential for proton supply during NRR. Compared to the unmodified Fe HF (3.5%, 27.1 μg h –1 cm –2 ), this distinctive interfacial design achieves a significantly improved Faradaic efficiency of 18.8% and a higher NH 3 yield rate of 40.0 μg h –1 cm –2 . Multitechnique characterizations and simulations unveil the triple synergistic function of the alkanethiol layer: (i) N 2 enrichment at the electrode–electrolyte interface, (ii) selective suppression of HER without impeding dynamic water activity for PCET, and (iii) corrosion inhibition via robust thiolate-Fe bonding.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Tan Zhang",
    "Zhikai Che",
@@ -3927,13 +4282,24 @@
   "url": "https://doi.org/10.1021/acscatal.5c06372",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "nitrogen reduction reaction"
+  ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
  },
  "10.1021/acscatal.5c06842": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Ammonia decomposition offers a promising route to carbon-free hydrogen, yet its activity is highly sensitive to both surface structure and NH 3 concentration. This dual dependence makes it challenging to design catalysts that remain high efficiency throughout the entire process. Here, we systematically evaluate all potential exposed surfaces and establish an atomistic framework for linking structure–activity relationships across varying reaction stages on cobalt, a widely used ammonia decomposition catalyst. A clear surface-dependent reactivity is identified, with stepped HCP Co(10–10) and FCC Co(110) being the most active, and Co(10–10) consistently outperforming others, indicating that enriching this surface can enhance overall performance. Mechanistically, surface sensitivity is primarily attributed to variations in the d -band center, which correlates linearly with activity. Furthermore, we propose a general criterion of Arrhenius slope (−1/ RT ), revealing that NH 3 concentration dependence stems from shifts in the rate-limiting step, transitioning from N–N coupling to alternative steps as NH 3 concentration increases.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Chunyao Fang",
    "Zheng Li",
@@ -4404,7 +4770,17 @@
   "zh_title": "催化焦耳热秒级合成一维纳米材料"
  },
  "10.1038/s44160-025-00941-1": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yunfan Fu",
@@ -6585,7 +6961,17 @@
   "zh_title": "通过原子层沉积铁氧化物改善Pd/Al₂O₃催化剂的结焦抗性和热稳定性用于甲烷干法重整"
  },
  "10.2139/ssrn.5784205": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Lili Huo",
@@ -6668,7 +7054,17 @@
   "zh_title": "不同焦耳热效应对老化电线中聚氯乙烯绝缘材料的热解动力学模型的预测"
  },
  "10.2139/ssrn.5799087": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Zi-Yi Wang",
@@ -6910,8 +7306,17 @@
   "zh_obj": "光催化固氮；涉及Ru/钌体系"
  },
  "10.26599/nr.2025.94907810": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Electrochemical nitrite (NO2−) reduction offers a sustainable route for ammonia (NH3) synthesis while simultaneously removing contaminants in wastewater. However, its efficiency is often limited by low catalytic efficiency and the competitive hydrogen evolution reaction at low NO2− concentrations. Herein, we report an intermittent pulsed electrolysis (IPE) strategy using copper oxide (CuxO) nanowires, which significantly enhances the NH3 yield rate and Faradaic efficiency (FE) at lower reactant concentrations. In situ experiments and theoretical calculations reveal that alternating between open-circuit and cathodic potentials modulates the copper oxidation states, stabilizing the catalytically active cuprous oxide (Cu2O). Consequently, the IPE approach provides an outstanding NH3 yield rate of 115.10 mg·h−1·cm−2 and FE of 91.14% in the presence of 25 mM NO2−, markedly outperforming conventional constant potential electrolysis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Zhe Meng",
    "Jian-Hui Yi",
@@ -6945,10 +7350,20 @@
    "nitrite reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学亚硝酸盐还原"
+  "zh_obj": "电化学亚硝酸盐还原；涉及Fe/铁体系"
  },
  "10.29363/nanoge.iperop.2026.057": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Subha Sadhu"

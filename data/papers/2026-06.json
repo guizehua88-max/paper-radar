@@ -1039,7 +1039,19 @@
   "zh_title": "脉冲进料策略合成氨揭示催化反应器动力学"
  },
  "10.1007/s11581-026-07257-w": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yan Ling",
@@ -1127,8 +1139,17 @@
   "zh_title": "通过原子层沉积制备可见光激活的钼掺杂 TiO2 薄膜用于环境光催化应用"
  },
  "10.1016/j.aoas.2026.100413": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Clarifying the effect of postponing nitrogen application on yield under nitrogen reduction is of great importance for increasing yield and optimizing the nitrogen application system of Tartary buckwheat. A two-year field experiment with six nitrogen treatments, including a conventional fertilizer application pattern (CK) and five treatments under 20% nitrogen reduction, with 0% (NP1), 10% (NP2), 20% (NP3), 30% (NP4), and 40% (NP5) postponed of nitrogen amounts, topdressing at the flowering stage, was conducted on the high-yielding Tartary buckwheat variety ‘Daku 1’. Compared with CK, the NP4 treatment significantly increased osmotic adjustment substance content, antioxidant enzyme– and nitrogen metabolism–related activities, dry matter accumulation, and yield. Compared with CK, the NP2, NP3, NP4, and NP5 treatments increased yield by 8.09%, 22.06%, 66.91%, and 31.62%, respectively, whereas the NP1 treatment decreased yield by 33.09%. In summary, appropriately postponing nitrogen application can improve the yield of Tartary buckwheat by improving root activity, delaying leaf senescence, and coordinating nitrogen metabolism balance. Under the conditions of this two-year single-site field study, the NP4 treatment showed promise as a nitrogen-saving strategy for improving Tartary buckwheat yield; however, further validation across different environments, soil types, and cultivars is needed before broad production recommendations can be made.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Peiying Wang",
    "Song Wu",
@@ -1136,9 +1157,9 @@
    "Fang Cai",
    "Kaifeng Huang"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
-  "brief_v": 3,
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-06",
   "doi": "10.1016/j.aoas.2026.100413",
@@ -1158,6 +1179,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "通过两年田间试验研究了氮减量下推迟施氮对苦荞产量的影响。结果表明，推迟施氮能显著提高产量，其中NP4处理产量比常规施肥增加66.91%。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "氮肥减量施用提高了苦荞产量"
@@ -1274,7 +1296,19 @@
   "zh_title": "Cs 掺杂 Fe–Co–Mo–N 四元氮化物在温和条件下氨合成"
  },
  "10.1016/j.apcatb.2026.126458": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yujin Kong",
@@ -1315,7 +1349,19 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.apcatb.2026.126507": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Pengfei Liu",
@@ -1349,8 +1395,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.apmate.2025.100370": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "The urgent need for sustainable chemical production has spurred interest in electrocatalytic technologies powered by renewable electricity. Among these, electrocatalytic carbon dioxide reduction (ECR), electrocatalytic ammonia synthesis (EAS), and particularly electrocatalytic urea synthesis (EUS) offer promising strategies for green carbon–nitrogen conversion. EUS stands out by co-reducing CO 2 and nitrogen sources (e.g., N 2 , NO, NO 2 − , NO 3 − ) to enable C–N bond formation, presenting unique opportunities for resource efficiency and emissions reduction. However, its practical implementation is limited by insufficient catalytic activity, selectivity, and durability; incomplete understanding of C–N coupling pathways; and competition from side reactions. Metal–organic framework (MOF)-based materials have emerged as versatile platforms for electrocatalysis owing to their tunable metal nodes and ligand chemistry, multifunctional active sites, and hierarchically porous architectures that afford efficient mass transport. Accordingly, MOF-based platforms are poised to lower the intrinsic C–N coupling barrier, coordinate dual-substrate delivery and co-adsorption, suppress parasitic hydrogen evolution reaction (HER), and improve charge transport and durability in EUS. This review categorizes MOF functionalization strategies for active site design and microenvironment modulation. It then evaluates representative advances with MOF-based materials in ECR, EAS, and EUS, with a particular focus on elucidating structure–mechanism–performance correlations. Drawing on insights from ECR and EAS, we propose transferable design principles to guide the rational development of MOF-based systems for efficient EUS. Finally, we highlight persistent challenges and outline future research directions to advance cross-reaction design strategies and accelerate the practical deployment of MOF-based electrocatalysts.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Hao Liang",
    "Aishan Li",
@@ -1378,10 +1433,22 @@
    "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "电化学氮还原"
  },
  "10.1016/j.apsusc.2026.166423": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Marwa Tariq",
@@ -1520,7 +1587,19 @@
   "zh_title": "阵列碳纤维反应器通过脉冲焦耳热提升甲烷热解乙炔产率"
  },
  "10.1016/j.cej.2026.176626": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Anusha Yajurvedi",
@@ -1658,7 +1737,19 @@
   "zh_title": "通过原子层沉积引导的钴磷酸气凝胶尖晶石重构，实现动力学和本征活性的解耦调控用于析氧"
  },
  "10.1016/j.cej.2026.176774": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xin Zeng",
@@ -1695,7 +1786,19 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.cej.2026.176932": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xuehui Duan",
@@ -1903,7 +2006,19 @@
   "zh_title": "室温下金属 Li/Ru 界面氨合成"
  },
  "10.1016/j.coelec.2026.101859": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Hao Xue",
@@ -2040,7 +2155,17 @@
   "zh_title": "不同缺陷硼氮化单原子 Ti 掺杂用于高效固氮"
  },
  "10.1016/j.energy.2026.140918": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xinyi Chen",
@@ -2076,8 +2201,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.fuel.2025.138209": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "As ammonia emerges as a promising zero carbon marine fuel, addressing the challenges associated with its toxicity and handling has become critical for safe onboard operation. Among various operational requirements, nitrogen purging is required to safely remove residual ammonia from the fuel supply system during emergency operation or maintenance procedures. However, the released ammonia poses environmental and safety risks due to its high toxicity, necessitating the development of an effective recovery system. This study presents a comprehensive dynamic simulation of the nitrogen purging process in an ammonia fuel supply system using Aspen HYSYS, where the flow characteristics of the discharged ammonia were analyzed under varying purging conditions. To evaluate recovery strategies, an adsorption unit adopting newly synthesized zeolite-13X impregnated with 0.5 wt% MgCl 2 was designed. An adsorption model incorporating the adsorbent was first validated using experimental isotherm and breakthrough data. Based on the validated model, a temperature swing adsorption (TSA) unit was developed using Aspen Adsorption under time-dependent inlet conditions derived from the purging simulation. The performance of the TSA unit was compared with other mitigation strategies including water scrubbers and ammonia boilers in terms of equipment size and energy consumption. The obtained results show that the TSA unit provides a compact alternative capable of fully recovering ammonia for potential reuse with less energy consumption than other mitigation strategies. These findings highlight the feasibility of the adsorption unit as a sustainable solution for ammonia release mitigation in ammonia fueled ships.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Geonwoo Jeong",
    "Ji Hye Park",
@@ -2107,8 +2241,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.hydromet.2026.106716": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "This study presents an ammonia-free hydrometallurgical flowsheet for the recovery of rare earth elements (REEs) from ion-adsorption clays using sodium citrate (Na 3 Cit) as a green lixiviant. Desorption tests demonstrated that 0.15 M Na 3 Cit at pH 6.4 achieves the highest total REE (TREE) extraction (1300 mg kg −1 ), outperforming conventional ammonium sulfate while minimizing dissolution of Al, Fe, and other matrix elements. Mechanistic analysis supported by zeta potential measurements shows that Na 3 Cit operates through ligand-assisted desorption coupled with mild ion exchange, enabling efficient REE release under near-neutral conditions without structural degradation of the clay. Two precipitation pathways were evaluated for REE recovery from the citrate leachate. Oxalic acid precipitation at pH 2.5–3.5 resulted in near-quantitative REE recovery (>95%) and produced high-purity mixed REE oxalates containing 95–97 wt% total REO with minimal gangue incorporation. STEM–EDS mapping confirmed the formation of uniform nanoscale REE-oxalate crystallites. In contrast, a two-step carbonate precipitation process (acidic activation followed by CaCO 3 /Na 2 CO 3 neutralization) achieved high TREE removal but generated mixed REE–CaCO 3 solids with significantly lower purity (40–55 wt% REO), consistent with micron-scale Ca-rich crystallite formation observed by STEM. This work establishes sodium citrate as an effective, environmentally benign alternative to ammonium-based lixiviants for ionic-clay processing. When coupled with oxalic acid precipitation, the process enables high REE recovery with exceptional selectivity and product purity, providing a viable foundation for sustainable, ammonium-free REE extraction from ion-adsorption clays. • Sodium citrate enables high-selectivity REE desorption at near-neutral pH. • Oxalic acid yields >95% REE recovery with >97 wt% REO product purity. • Carbonate precipitation recovers REEs but forms Ca-rich, lower-purity solids. • Zeta potential confirms ligand-assisted REE desorption by citrate. • Integrated citrate–oxalate flowsheet offers an ammonia-free REE recovery route.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Spencer Cunningham",
    "Gisele Azimi"
@@ -2133,10 +2276,20 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及Fe/铁体系"
  },
  "10.1016/j.ijhydene.2026.155337": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xueqian Li",
@@ -2275,7 +2428,17 @@
   "zh_title": "Pd 和 SnO2 在 TiO2 纳米管上的原子层沉积：高效制氢的途径"
  },
  "10.1016/j.ijhydene.2026.155517": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Ali Tolouei",
@@ -2358,7 +2521,17 @@
   "zh_title": "通过固溶体诱导氧空位形成的 Ru/CexLa1-xOy 低活化能氨合成"
  },
  "10.1016/j.ijhydene.2026.155691": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xueyan Dai",
@@ -2496,7 +2669,17 @@
   "zh_title": "配体反应介导的原子层沉积 Ru 掺杂 MoCx 薄膜用于双功能铜扩散屏障和种子层"
  },
  "10.1016/j.jcat.2026.116823": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yimeng Li",
@@ -2569,7 +2752,17 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料"
  },
  "10.1016/j.jece.2026.122135": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Lingke Miao",
@@ -2710,7 +2903,17 @@
   "zh_title": "快速焦耳热合成富氧空位的高熵氧化物作为高效氧析出电催化剂"
  },
  "10.1016/j.jece.2026.122549": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Tingting Gao",
@@ -2745,7 +2948,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.jece.2026.122752": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Siqi Xing",
@@ -2777,7 +2990,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jece.2026.122911": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Huaiyu Zhou",
@@ -2896,7 +3119,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jes.2026.06.017": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xingyu Jiang",
@@ -2984,7 +3217,17 @@
   "zh_title": "闪焦耳热在可持续制备石墨烯中的应用：原理、发展与储能应用综述"
  },
  "10.1016/j.jphotochem.2026.117035": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Chunxiang Tang",
@@ -3016,7 +3259,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.jpowsour.2026.240044": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Umar M. Jafar",
@@ -3051,7 +3304,17 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.jpowsour.2026.240070": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Huaiyu Zhou",
@@ -3142,7 +3405,17 @@
   "zh_title": "通过增材制造制备具有磁加热能力的聚合物衍生 SiOC(Fe) 陶瓷复合材料催化剂载体"
  },
  "10.1016/j.matt.2026.102753": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Lu Li",
@@ -3181,7 +3454,17 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.mcat.2026.115992": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Caiyu Yang",
@@ -3213,7 +3496,17 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.mcat.2026.116043": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Tong Qi",
@@ -3350,8 +3643,17 @@
   "zh_title": "超快速高温烧结 (UHS) 配置的对比研究用于加速合成 (MgCoNiCuZn)O 高熵氧化物"
  },
  "10.1016/j.procir.2026.05.275": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Efficient catalytic ammonia (NH₃) cracking is essential for sustainable hydrogen production, yet existing test platforms often lack adaptability and real-time process monitoring, slowing catalyst development. This paper presents a modular reactor manufactured using additive manufacturing (AM) techniques, enabling rapid and flexible testing of powder, porous, and multi-material catalyst samples. The reactor body and modular components were produced via laser powder bed fusion of metals (PBF-LB/M), ensuring thermal robustness, configurability, and integrated thermocouple ports for localized temperature monitoring. Its fully AM-based design allows straightforward variation in size, supporting both laboratory-scale testing and scale-up. The modular architecture facilitates efficient catalyst screening, improved thermal control, and continuous monitoring–key requirements for optimizing performance in carbon-free hydrogen systems. AM offers significant design freedom, enabling complex internal geometries, integrated sensor ports, and tailored porosity not achievable with conventional fabrication. This flexibility supports rapid prototyping, customization, and enhanced reactor functionality. The system was validated in two steps: (i) catalytic validation of the initial prototype (V0) demonstrating ammonia decomposition with powder-form catalysts, and (ii) design validation of subsequent versions (V1–V2) through thermal characterization, leak testing, and integration of embedded thermocouples. While early prototypes experienced leakage and assembly limitations, iterative AM-based redesign significantly improved sealing robustness, usability, and real-time thermal measurement. The presented platform offers a configurable, sensor-integrated testbed for catalyst development and supports future scalability toward efficient hydrogen generation systems in clean energy conversion.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Sohan Acharya",
    "Sunil Kwon",
@@ -3384,7 +3686,17 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.resconrec.2026.108995": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yusufujiang Mubula",
@@ -3420,7 +3732,17 @@
   "zh_obj": "材料制备/结构调控"
  },
  "10.1016/j.seppur.2026.137330": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xuejiao Ma",
@@ -3454,8 +3776,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.surfin.2026.109275": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Nitrate reduction reaction (NO 3 RR) is an efficient strategy to mitigate the nitrate-induced pollution and generate high-value product as a substitute for Haber-Bosch process. However, this process face challenges due to the lack of effective electrocatalysts and the limited understanding of the mechanism that drives NO 3 RR. Owing to more active sites, high selectivity and stability, double atom catalysts (DACs) outperform the single-atom counterparts. Herein, the catalytic performance of double p -block atoms embedded in nitrogen-doped graphene for the nitrate reduction reaction is investigated using density functional theory (DFT). A four-step screening process were conducted to evaluate stability, NO 3 - adsorption strength, selectivity and catalytic efficiency. Among the 10 candidates, BAl, BIn, AlGa, AlIn, GaGa and GaIn@N 6 -G stood out with low limiting potentials of -0.50, -0.25, -0.47, -0.23, -0.38, and -0.18 V, respectively. Furthermore, the hydrogen evolution reaction, and the formation of the by-products were effectively inhibited due to high energy barrier, validating outstanding selectivity. This study provides a fundamental insight into screening efficient novel catalysts and offers the theoretical guidance for the experimental design of the transition-metal free DACs for NO 3 RR.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Md Tarikal Nasir",
    "Qingchao Fang",
@@ -3481,10 +3812,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "Haber-Bosch"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实；涉及碳材料"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
  "10.1016/j.watres.2026.125648": {
   "ab_try": "2026-10-29",
@@ -3518,8 +3849,17 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.1016/j.xcrp.2026.103333": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "The electroreduction of nitrite (NO 2 − ) to ammonia (NH 3 ) offers dual benefits for resource valorization and wastewater remediation but suffers from limitations in active hydrogen (∗H) management and external energy utilization. Here, we report a photothermal electrocatalyst of Cu-Ni-FeOOH for efficient NO 2 − -to-NH 3 conversion. Experimental and theoretical investigations reveal that Ni centers promote water dissociation, supplying ∗H to adjacent Cu sites for NO 2 − hydrogenation. The catalyst achieves a high Faradaic efficiency of 98.6% with an NH 3 yield of 8.86 mg h −1 cm −2 at −0.1 V vs. reversible hydrogen electrode (RHE). When exposed to near-infrared light irradiation, the in situ -generated thermal energy further enhances the electrocatalytic activity for NO 2 − reduction and improves the performance of a Zn-nitrite battery. This work provides a strategic direction for sustainable NH 3 synthesis through the design of advanced electrocatalytic systems synergistically coupled with external photothermal fields.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Bin Chen",
    "Jing Jiang",
@@ -3547,11 +3887,21 @@
   "why": [
    "ammonia synthesis"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原"
  },
  "10.1016/s1872-2067(26)64978-9": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yuxi Ren",
@@ -3588,7 +3938,17 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/s1872-2067(26)65038-3": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Kefu Zhang",
@@ -3713,8 +4073,17 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1021/acs.jchemed.6c00111": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "High Resolution Image Download MS PowerPoint Slide Reducing greenhouse gas emissions is one of the major global challenges and involves rethinking established industrial processes. Ammonia synthesis using the Haber-Bosch process is fundamental to modern agriculture, but it is also one of the largest sources of CO 2 emissions. This is mainly due to one of the steps in the process in which hydrogen is obtained from fossil fuels. A promising alternative is to replace this step with the use of green hydrogen, obtained by water splitting with renewable energy sources. However, accessible experimental practices addressing this topic are still limited. Here, we describe a low-cost experiment in which students produce hydrogen by water splitting and use it, in combination with nitrogen, to simulate ammonia synthesis by a simplified Haber-Bosch process. This approach enables students to explore the concept of green hydrogen as a more sustainable alternative for industrial hydrogen production. The reaction is conducted in a simple heated reactor, and the product is identified using a pH indicator. The experiment was developed for general chemistry courses and promotes an integrated discussion of fundamental concepts of thermodynamics, chemical equilibrium, kinetics, and catalysis, alongside contemporary issues related to sustainability, including the role of green hydrogen in reducing the carbon footprint of ammonia production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Luís Gustavo Marcolan",
    "Mariana B. Silva",
@@ -3783,8 +4152,17 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1021/acs.jpcc.6c02324": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Electrocatalytic nitrate reduction to ammonia (NO 3 RR) offers a promising route to couple nitrate remediation with sustainable NH 3 production, but practical implementation remains limited by sluggish charge transfer, parasitic hydrogen evolution, and insufficient catalyst durability. Here, we report a phase/defect codesign strategy in which Zn substitution stabilizes the monoclinic CuWO 4 framework while simultaneously enriching oxygen vacancies, creating a vacancy-rich and structurally robust heterometal oxide catalyst for efficient NO 3 RR. This dual-control approach differs fundamentally from doping-only or defect-only strategies because it not only tunes the local electronic structure and intermediate binding, but also preserves the catalytically favorable framework under prolonged electrolysis. The optimized Zn 1.0 -CuWO 4 -140 delivers an NH 3 yield of 51.8 mg h –1 mg cat –1 with a Faradaic efficiency (FE) of 84.2% at −1.3 V vs RHE in 0.1 M KOH and 0.1 M KNO 3, and retains stable performance for 60 h while maintaining the monoclinic phase. Large-area testing in a 5 × 5 cm 2 flow cell further verifies robust operation under continuous-flow conditions. DFT calculations reveal that Zn substitution lowers the energetic demand for key hydrogenation steps and kinetically favors *H addition over pathways leading to *N/N 2 formation. Beyond CuWO 4, this work highlights phase/defect codesign as a general strategy for heterometal oxides in NO 3 RR and other multistep electrocatalytic reactions, where activity, selectivity, and durability must be optimized simultaneously.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Rong Guo",
    "Hui Su",
@@ -3817,8 +4195,8 @@
   "why": [
    "Nitrate Reduction"
   ],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.1021/acs.jpclett.6c01088": {
   "ab_try": "2026-10-29",
@@ -3854,8 +4232,17 @@
   "zh_obj": "光催化硝酸盐转化"
  },
  "10.1021/acsaem.6c01033": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Simultaneous adsorption and activation of N 2 molecules on the surface of an electrocatalyst are crucial for electrochemical N 2 fixation. To harness rapid electron transfer, a higher surface area characteristic of onion-structured carbon (OLCs), and the inherent oxygen deficiency in Fe 2 O 3 nanocrystals that provide optimal active sites for N 2 activation, ultrasmall Fe 2 O 3 nanocrystals (3.57 ± 0.03 nm) decorated OLCs (45.98 ± 1.08 nm) with varied loading concentrations have been synthesized. The FTIR peak detected at 546 cm −1 signifies the formation of an Fe−O−C bond, suggesting a chemical interaction between α-Fe 2 O 3 and OLC. Furthermore, the increased I D / I G ratio arising from the enhanced sp 3 hybridization, along with HRTEM analysis, confirms their synergistic coupling. The optimized α-Fe 2 O 3 coupled OLC exhibits N 2 reduction to NH 3 (NRR) activity with 2- and 10-fold enhancement than that of bare OLC and bare α-Fe 2 O 3, respectively. The NRR proceeds via an associative pathway, as revealed by the formation of N−H bonds. Moreover, isotopic nitrogen ( 15 N) labeling experiments confirm that the produced NH 3 originates solely from the purged N 2 gas while ruling out N 2 contributions from the catalyst or any other sources. Further, there is no significant change in current density over 24 h, indicating good stability of the catalyst. The boost in the NRR activity is attributed to synergetic properties: increased electrochemical surface area (0.24 mF cm −2 ), electron density (1.25 × 10 25 cm −3 ), reduced electron transfer resistance, and negative flat band potential enabling downward bending closer to the conduction band for improved charge separation, arising upon coupling Fe 2 O 3 with OLC.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Sweta Bastia",
    "Smrutirekha Swain",
@@ -3875,9 +4262,9 @@
   "id": "10.1021/acsaem.6c01033",
   "kind": "journal",
   "origin": "回填",
-  "score": 9,
+  "score": 6,
   "source": "ACS Applied Energy Materials",
-  "tier": "uncertain",
+  "tier": "background",
   "title": "Ultrasmall Hematite Nanocrystals Interfaced Multilayered Carbon Onions To Synergistically Promote Selective Nitrogen Reduction to Ammonia under Ambient Conditions",
   "top": false,
   "topics": [
@@ -3886,9 +4273,11 @@
   "url": "https://doi.org/10.1021/acsaem.6c01033",
   "via": "Crossref",
   "watch": [],
-  "why": [],
-  "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "why": [
+   "NRR"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
   "zh_title": "超小赤铁矿纳米晶体与多层碳洋葱界面协同促进环境条件下选择性氮还原为氨"
  },
  "10.1021/acsaenm.6c00493": {
@@ -4370,8 +4759,17 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1021/acssuschemeng.6c01024": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Ammonia is an essential chemical and an emerging carbon-free hydrogen carrier, yet its conventional Haber–Bosch synthesis is energy-intensive and CO 2 -emitting. Electrochemical reduction of nitrogen oxyanions offers a sustainable alternative; however, achieving high selectivity toward ammonia while suppressing the competing hydrogen evolution reaction (HER) has been predominantly realized using transition-metal-based catalysts. In contrast, alkaline-earth metals remain largely unexplored due to their intrinsic instability and the long-standing challenge of stabilizing them as single-atom catalysts. Herein, we demonstrate the catalytic potential of an alkaline-earth single-atom system by developing a chlorophyll-derived magnesium single-atom catalyst (Mg 1 /N–C-650) featuring atomically dispersed Mg–N 4 centers, synthesized via a simple, environmentally benign, and cost-effective route. Electrochemical studies reveal a pronounced electrolyte-dependent kinetic divergence in nitrogen oxyanion reduction. While both nitrate and nitrite are selectively converted to ammonia, nitrite reduction exhibits markedly enhanced intrinsic kinetics, with Mg 1 /N–C-650 exhibiting a 2.74-fold higher turnover frequency compared to nitrate media, while delivering an ammonia production rate of up to 1851.07 ± 62.87 μmol h –1 mg –1 cat. (−0.25 V) under optimal reaction conditions. Density functional theory calculations reveal that the Lewis-acidic Mg–N 4 centers effectively polarize N–O bonds, promote direct nitrite hydrogenation, and intrinsically suppress HER due to unfavorable H adsorption. This work establishes alkaline-earth magnesium single-atom catalysts as a previously underexplored platform for sustainable ammonia electrosynthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Kanhai Kumar",
    "Pragyan Tripathi",
@@ -4407,7 +4805,7 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.1021/acssuschemeng.6c02576": {
   "abstract": "Abstract Sodium metal anodes promise high theoretical capacity (1166 mA h g−1) and a low redox potential, yet practical use is limited by poor coulombic efficiency and dendrite-induced safety risks. Herein, we engineer a silver-nanoparticle-decorated, lignin-derived carbon fiber host (Ag@LCF) via ultrafast Joule heating (≤1s, &gt;1500 °C), which deepens graphitic ordering of the carbon matrix (IG/ID = 0.815) and uniformly seeds sodiophilic Ag sites. The Ag nanoparticles play a dual role: they catalyze Na nucleation and furnish a percolated conductive network that lowers interfacial impedance. Density-functional theory reveals that Ag@LCF enables thermodynamically stable Na adsorption (down to –1.73 eV) with a minimized energy gap between dendritic and planar growth pathways (0.27 eV). This is attributed to Ag-C orbital hybridization, which modulates the local electronic environment, ensuring moderate charge transfer and stable bonding (ICOHP = 0.877 eV), thereby eliminating the electronic driving force for dendrite formation. This leads to dendrite-free sodium deposition, long cycling life (symmetric cell &gt;250 h, full cell with 83.4% capacity retention over 300 cycles), and high-rate capability. By coupling ultrafast electronic-structure tuning of biomass-derived carbon with metal-nanoparticle interface engineering, this strategy advances safer, high-rate sodium metal anodes.",
@@ -5394,7 +5792,19 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1039/d6ta02240e": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-01",
+   "Europe PMC": "2026-11-01",
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "This study successfully prepared a novel LaCeO x /Ni catalyst with an inverse structure using a stepwise precipitation method.",
   "authors": [
    "Junjie Lu",
@@ -5776,8 +6186,17 @@
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
  },
  "10.1360/csb-2026-0253": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "我国是世界氮肥单位面积投入量最高的国家，氮肥过量施用造成一系列生态环境问题，减少氮肥施用是我国正在推动的一项重要农业政策。但是如何保障氮肥减施条件下的农作物氮素获取利用及产量维持对农业可持续发展至关重要。本研究选择我国南方典型喀斯特农田土壤，在减少氮肥施用的条件下，研究了钼硼微量元素添加对土壤养分有效性、土壤微生物和酶活、土壤自生固氮和氮素转化过程以及大豆（Glycine max）生物量和产量等的影响。采用随机区组实验设计，包含氮肥施用和微量元素添加两个因子；氮肥施用包含3个处理，分别为常规氮肥量（NF1，180 kg·N/(hm2·a)）、减施20%氮肥（NF2，144 kg·N /(hm2·a)）和不施氮肥（NF3，0 kg·N (hm2·a)）；微量元素添加包含4个处理，分别为不添加微量元素（0）、单加钼肥（Mo，100 g/hm2）、单加硼肥（B，1000 g/hm2）和钼硼配施（Mo+B）。研究结果表明，与常规施氮处理（NF1）相比，减施20%氮肥虽然显著降低了土壤硝态氮含量以及土壤硝化速率，但并未对大豆生物量和产量造成明显影响；不施氮肥显著降低了土壤铵态氮硝态氮含量及土壤硝化和反硝化速率，并降低了大豆地上生物量。添加钼硼微量元素显著提升了生物固氮速率、提高了土壤微生物量、N-乙酰-β-D-葡萄糖苷酶（N-acetyl-β-glucosaminidase，NAG）和亮氨酸氨基肽酶（leucine aminopeptidase，LAP）酶活性、土壤铵态氮和硝态氮含量及相关相关氮素转化速率，并显著提升了大豆生物量和产量。在减施20%氮肥处理下同时添加钼硼微量元素对土壤理化特性和大豆农艺性状的正面影响最强，单独添加钼比单独添加硼的效应稍强。以上结果说明在全国持续推进减施氮肥政策背景下，添加钼硼微量元素可以维持大豆产量和土壤质量，其机理是添加钼硼微量元素可以显著提升土壤生物固氮量，进而影响土壤氮转化过程并提高了土壤氮素有效性，最终促进了大豆生物量和产量的维持与提升。研究结果可以为我国化肥减量化行动和农业可持续发展提供科技支撑。",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jie Zhao",
    "Siqi Wang",
@@ -6597,8 +7016,17 @@
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
  },
  "10.26599/pom.2026.9140116": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Green ammonia (NH3) synthesis is pivotal for sustainable agriculture and hydrogen energy carriers, yet challenges persist in direct electrocatalytic nitrate reduction (e-NO3RR) under neutral conditions, including competing hydrogen evolution and sluggish reaction kinetics. Herein, we engineer a series of transition metal-porphyrin MOFs (NU-902 (M), M = Fe, Co, Ni, Cu) via coordination between metalated tetrakis(4-carboxyphenyl)porphyrin (M-TCPP) and Zr6O4(OH)4(CO2)12 clusters, constructing a hierarchical mesoporous architecture. Crucially, NU-902 (Cu) achieves a record Faradaic efficiency (FE) of 71.65% with an NH3 yield rate of 13.76 mg h-1 mg-1cat. at −0.9 V vs. RHE, outperforming similar frameworks based on Fe (14.01 mg h-1 mg-1cat. 63.83%), Co (9.51 mg h-1 mg-1cat. 71.51%), and Ni (2.40 mg h-1 mg-1cat. 67.99%). Moreover, the FE of NU-902 (Cu) remains above 65% after 500 cycles, and PXRD characterization confirms no significant collapse of the framework structure, which indicates its excellent stability. This work establishes porphyrinic MOFs as efficient platforms for sustainable nitrogen valorization and provides experimental guidelines for metal-specific activity modulation in electrocatalysis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Liqing Li",
    "Xinming Wang",
@@ -6629,7 +7057,7 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
  "10.31603/mesi.14658": {
   "abstract": "This study investigates the synthesis of porous graphene oxide (GO) derived from banana leaf waste using the Flash Joule Heating (FJH) method for supercapacitor electrode applications. Carbonization was conducted at input voltages of 5, 10, and 15 VA for 2 s, followed by activation with 0.3 M KOH. Structural characterization (SEM, EDX, FTIR, and XRD) confirmed the formation of hierarchical porous carbon with oxygen-containing functional groups. Electrochemical evaluation revealed that the sample synthesized at 10 VA exhibited the best performance, achieving a specific capacitance of 345 F g⁻¹, low internal resistance of 0.65 Ω, and capacitance retention of 95% after 500 cycles. In contrast, the 5 VA sample showed lower conductivity due to its amorphous structure, while the 15 VA sample exhibited reduced capacitance due to excessive macropore formation. These results demonstrate that controlled FJH voltage plays a critical role in optimizing pore structure and electrochemical performance, highlighting banana leaf-derived GO as a promising and sustainable electrode material for high-performance supercapacitors.",
@@ -6876,8 +7304,17 @@
   "zh_title": "宽负荷范围内绿色合成氨循环的建模与优化"
  },
  "10.3724/2097-213x.2026.jfct.0016": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "电催化硝酸盐还原反应（${{\\mathrm{eNO_3^-RR}} }$）为实现废水资源化利用和绿色合成氨提供了一条可行途径。铜基催化剂优异的硝酸根离子活化能力，被广泛应用于${{\\mathrm{eNO_3^-RR}} } $，然而，其在电催化硝酸盐还原合成氨过程中的选择性仍有待提升。本研究通过“共沉淀-高温煅烧-电化学还原”三步法制备了Cu-Ag双金属催化剂，评估了其${{\\mathrm{eNO_3^-RR}} } $性能。催化活性评价结果表明，该催化剂在−0.6 V（vs. RHE）电位下实现了高达97.6%的合成氨法拉第效率。−0.9 V（vs. RHE）电位下，氨产率达到了64.52 mg/(h·cm2)，是未改性的纯Cu催化剂的2.41倍。机理研究表明，Ag位点的引入促进了水的解离生成活性氢，并导致了Cu位点形成了富电子环境，从而显著提升了Cu位点上硝酸根离子加氢反应动力学。本研究为开发高${{\\mathrm{eNO_3^-RR}} } $活性的Cu基双金属催化剂提供了理论依据。",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Yu BAI",
    "Weiling CHANG",

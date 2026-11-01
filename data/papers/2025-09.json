@@ -1418,7 +1418,15 @@
   "zh_obj": "光催化固氮"
  },
  "10.1007/s11090-025-10602-y": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "YueXi Liu",
@@ -1452,7 +1460,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1007/s11664-025-12355-y": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Linwei Guo",
@@ -1562,7 +1578,15 @@
   "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系、Fe/铁体系、碳材料"
  },
  "10.1007/s40843-025-3480-1": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yeke Zhang",
@@ -1599,7 +1623,15 @@
   "zh_obj": "过程待核实"
  },
  "10.1007/s41061-025-00521-z": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Y. Anjali",
@@ -1633,7 +1665,15 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.apcatb.2025.125333": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Jie Zhang",
@@ -1676,8 +1716,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.apenergy.2025.126092": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Ammonia and its derivatives, such as ammonium nitrite and urea, are important nitrogen sources for fertilizers that are extensively used in modern global agriculture. The current Haber Bosch process of ammonia synthesis contributes significantly to global CO 2 emissions (∼450 million metric tons of CO 2, which is around ∼1.2% of global CO 2 emissions). Due to the increasing availability of renewable energy sources , electrochemical technologies to produce green hydrogen and ammonia have attracted worldwide attention. Using an electrochemical route, ammonia can be synthesized in a single reactor using air and water as the feedstocks , contributing significantly to reducing CO 2 emissions. Technology provides various social, economic and environmental benefits if DOE ammonia synthesis rate targets can be achieved for commercialisation of this technology. Notably, it could also be a sustainable route to transport renewable energy in the form of hydrogen derivative liquid fuels in large quantities to areas lean in renewables. Intermediate temperature operations (400–600 °C) are widely recognised for facilitating improved kinetics and offering better energy efficiency for various electrochemical reactions . In this review, recent advancements in the electrochemical ammonia synthesis field have been explicitly covered on solid-state electrolyte materials and electrodes for intermediate temperature operations (400–600 °C). Some challenges regarding ammonia production rates, energy inefficiencies, unresolved issues such as reaction selectivity versus competing side reactions, mechanistic understanding, and lack of standardization in ammonia measurement protocols have been extensively covered, which are essential for further developments in this field.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Gurpreet Kaur",
    "Haijin Zhu",
@@ -1707,14 +1756,23 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "synthesis of ammonia"
+   "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "电化学亚硝酸盐还原"
  },
  "10.1016/j.applthermaleng.2025.126534": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "This study focuses on the optimization of green ammonia production systems through a mixed-integer linear programming (MILP) framework. The proposed model integrates both design decisions and detailed annual operational strategies, evaluated at an hourly resolution. Due to the model’s complexity and large-scale nature, solving it directly using commercial optimization software is computationally prohibitive. To overcome this challenge, we employ a generalized Benders decomposition method with “no-good” cuts, significantly improving the efficiency of the solution process. Our approach is demonstrated on a real-world case study in Inner Mongolia, China. The resulting design plan and operational strategy achieve a payback period of 8.8 years. Furthermore, computational experiments with different commercial solvers confirm that the proposed algorithm outperforms direct resolution in most cases.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Bingqian Liu",
    "François Maréchal"
@@ -1744,7 +1802,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.ccr.2025.216722": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Rong Cao",
@@ -1779,8 +1845,17 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.ccr.2025.216751": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Ammonia is gaining recognition as a promising energy carrier due to its high energy density, ease of liquefaction, and existing robust production and distribution infrastructure, particularly within the agricultural sector. The electrochemical nitrate reduction reaction (NO 3 RR), conducted under ambient conditions, offers a sustainable alternative to the energy-intensive Haber–Bosch (H B) process, addressing both environmental and energy challenges. Recent advancements in understanding catalytic mechanisms, optimizing catalytic systems, and designing advanced catalysts have substantially enhanced the efficiency of nitrate-to-ammonia conversion. Among these, cobalt (Co)-based electrocatalysts have emerged as a cost-effective and efficient alternative to noble metals, owing to their earth abundance, low cost, and favorable catalytic properties. This review provides a comprehensive overview of recent progress in NO 3 RR, emphasizing Co-based electrocatalysts. It delves into NO 3 RR mechanism analysis, critical considerations for system optimization, and innovative Co-based catalyst design strategies. Additionally, we explore current challenges and propose future directions for improving Co-based electrocatalyst performance, aiming to advance the rational design of efficient catalysts for sustainable ammonia synthesis. • Advances in understanding nitrate reduction mechanisms are discussed. • Critical catalytic system parameters factors affecting ammonia production efficiency are analyzed. • Cobalt-based catalyst design strategies are comprehensively presented. • Challenges and prospects for advancing cobalt-based catalysts and nitrate reduction system are addressed.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Gaihong Wang",
    "Zhijie Chen",
@@ -1811,7 +1886,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
@@ -2004,7 +2079,15 @@
   "zh_title": "强化氨合成的模块化膜反应器概念"
  },
  "10.1016/j.cej.2025.165362": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Jianwei Zhang",
@@ -2042,7 +2125,15 @@
   "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
  "10.1016/j.cej.2025.165405": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Meiyu Cong",
@@ -2080,7 +2171,15 @@
   "zh_obj": "过程待核实"
  },
  "10.1016/j.cej.2025.165959": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yabo Guo",
@@ -2114,7 +2213,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.cej.2025.166141": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Kaiyuan Li",
@@ -2206,7 +2313,15 @@
   "zh_title": "废弃锂离子电池 Li4SiO4 吸附剂的超快气固合成：高温冲击法"
  },
  "10.1016/j.cej.2025.166332": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Qingsong Lai",
@@ -2301,8 +2416,17 @@
   "zh_title": "空位导向的 Pt-N3Cl1 配位工程：通过闪光焦耳加热实现硝基芳烃选择性加氢"
  },
  "10.1016/j.ceramint.2025.05.149": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "In this study, we address the challenges associated with developing a mechanically and chemically stable electrode featuring iron as the active component for ammonia synthesis. Our investigations reveal that Fe-BCZY721 cermet electrodes induce significant morphological changes in the BCZY721 electrolyte. These changes are influenced by various parameters, such as sintering temperature and the Fe 2 O 3 /BCZY721 ratio, leading to the formation of interlacing Ba-rich and Ce-rich phases. This process is challenging to control and can result in mechanical weakening of the material. As a promising alternative, an iron-filled backbone electrode was proposed, constructed from two consecutively sintered components. In this novel electrode design approach, a porous BCZY721 backbone is first sintered on the electrolyte, followed by incorporation of the catalyst ink into it using a screen-printing technique. This method enables a substantially lower sintering temperature for the catalyst compared to conventional composite electrodes, effectively mitigating morphological alterations while enhancing mechanical stability. Additionally, sintering the scaffold separately from the inserted catalyst provides greater flexibility in adjusting parameters and allows for the introduction of various catalysts as needed. Initial tests demonstrate that the developed electrode design is suitable for ammonia production when compared to existing literature, with ammonia formation rates at -1.2 V against OCV of 1.1 ⋅ 10 −9 mol cm −2 s −1 , 4.9 ⋅ 10 −9 mol cm −2 s −1 and 5.0 ⋅ 10 −9 mol cm −2 s −1 measured at 400 °C, 500 °C and 600 °C respectively. The active cell surface area was 12.57 cm 2 , which is the largest to date in electrochemical ammonia synthesis using proton-conducting ceramic cells.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Philipp Blanck",
    "Daniel Schmider",
@@ -2335,7 +2459,15 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.ces.2025.121879": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Zhe Sun",
@@ -2435,7 +2567,15 @@
   "zh_title": "新型内部焦耳加热反应器设计：提升氨分解制氢效率"
  },
  "10.1016/j.checat.2025.101465": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Rundong Zhao",
@@ -2470,7 +2610,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.cjche.2025.04.014": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yang Lv",
@@ -2559,7 +2707,15 @@
   "zh_title": "原子层沉积 Ir 纳米结构在二氧化钛纳米管层上：高效碱性析氢反应"
  },
  "10.1016/j.fuel.2025.135303": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Amr F.M. Ibrahim",
@@ -2642,8 +2798,17 @@
   "zh_title": "乙醇蒸汽重整在结构化 SiC 泡沫催化剂上的数值模拟：直接电加热"
  },
  "10.1016/j.gee.2025.03.009": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Recently, the plasma-driven air oxidation coupled with electrocatalytic NO x reduction reaction (pAO-eNO x RR) technology for sustained NH 3 synthesis displays the promise in tackling the high energy-consumption and carbon-emission associated with the Haber-Bosch process. Here, a technical and economic assessment of pAO-eNO x RR technology is comprehensively undertaken to determine its feasibility as a potential substitute for the Haber-Bosch process. The technical assessment suggests that, in terms of both environmental impact and energy efficiency, N 2 -NO-NH 3 and N 2 -NO 2 − -NH 3 are presently the most effective pathways. The deep analysis of the current state-of-the-art technological performance indicates that the pAO-eNO x RR technology is competitive with commercial processes in achieving large-scale NH 3 synthesis. However, lower energy efficiency of pAO-eNO x RR technology leads to high electricity costs that surpass the current market price of NH 3 . Subsequently, we conducted a comprehensive analysis which reveals that, for the economic viability of NH 3 synthesis, an energy efficiency in the range of 33.8–38.6% must be attained. The expenses associated with plasma equipment, electrolyzer, catalysts, and NH 3 distillation also contribute significantly to the economic burden. The further development of pAO-eNO x RR technology should be centered around advancements in plasma catalysts, electrocatalysts, reactors, as well as the exploration for energy-efficient cathode-anode synergistic catalytic systems.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Lei Xiao",
    "Shiyong Mou",
@@ -2681,7 +2846,15 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.ica.2025.122720": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Kai Ma",
@@ -2721,7 +2894,15 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.ijhydene.2025.150825": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Mohd Lokman Ibrahim",
@@ -2765,7 +2946,15 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ijhydene.2025.150881": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Haojie Li",
@@ -2902,7 +3091,15 @@
   "zh_title": "蒸汽甲烷重整中涂覆催化剂的导线：催化剂-导线体系中的热与质传递研究"
  },
  "10.1016/j.ijhydene.2025.151261": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Dan Xu",
@@ -2935,7 +3132,15 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.1016/j.jallcom.2025.183387": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Muhammad Altaf Nazir",
@@ -2973,7 +3178,15 @@
   "zh_obj": "电化学氮还原"
  },
  "10.1016/j.jallcom.2025.183496": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Zhengtao Jia",
@@ -3009,7 +3222,15 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
  },
  "10.1016/j.jclepro.2025.146473": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Hasan Özcan",
@@ -3041,7 +3262,15 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1016/j.jechem.2025.04.048": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Xiaoxue Zhang",
@@ -3077,7 +3306,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jelechem.2025.119287": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Qiufang Yao",
@@ -3285,7 +3522,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.1016/j.jiec.2025.02.029": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Ali Ahsan",
@@ -3384,7 +3629,15 @@
   "zh_title": "通过静电纺丝和原子层沉积制备的 TiO2/SnO2 光催化剂用于药物污染物去除"
  },
  "10.1016/j.jssc.2025.125434": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Shanshan Hao",
@@ -3418,8 +3671,17 @@
   "zh_obj": "氨分解制氢"
  },
  "10.1016/j.matdes.2025.114436": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Improvement in both the oxidation resistance and microwave absorption of ceramic materials is crucial for advancing their aerospace applications in extreme thermal and electromagnetic environments. Here, submicron-scale (∼440 nm) five- and eight-cation high-entropy carbides (HECs) were rapidly synthesized via the carbothermal shock method. This non-equilibrium synthesis process resulted in HECs with amorphous carbon interfaces and significant lattice distortion, endowing them with superior oxidation resistance and microwave absorption properties. The oxidation onset temperature was found to be 565 °C, with a minimum reflection loss of −43 dB and an effective absorption bandwidth of 5.12 GHz at a thickness of 1.2 mm. Additionally, a reduction in radar cross-section of more than 30 dBm 2 was also observed. This enhanced performance is attributed to the fact that the amorphous carbon phase acts both as an oxygen protective barrier and a conductive network, thereby promoting electrical conduction loss. Furthermore, the lattice distortion-induced vacancy defects enhance both the polarization and conduction losses of the ceramics. This study demonstrates an effective and scalable strategy for enhancing both oxidation resistance and electromagnetic wave absorption properties of ceramic materials.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Xing Zhao",
    "Yuhang Bai",
@@ -3463,7 +3725,15 @@
   "zh_obj": "其他催化反应"
  },
  "10.1016/j.materresbull.2025.113472": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Ping Wang",
@@ -4436,8 +4706,17 @@
   "zh_obj": "氨分解制氢；涉及Fe/铁体系"
  },
  "10.1021/acscatal.5c05138": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "The fabrication of a highly efficient catalyst to boost hydrogen spillover is pivotal for electrocatalytic reduction of nitrate to ammonia (NO 3 RR). Here, we report a novel N-rich imidazole ionic liquid connector to create N-bridged Cu, Pd dual sites in N-doped carbon-defect graphene (CuPd-NG). This design induces the formation of a built-in electric field (BEF) via the N-bridge to accelerate hydrogen spillover in the NO 3 RR. Through systematic experiments and theoretical analyses, the N-bridge disrupts the electronic equilibrium between Cu and Pd, resulting in a weak BEF between these two metals. The localized charge polarization caused by BEF facilitates the dissociation of water molecules to generate *H at the Pd site, and subsequent *H can rapidly migrate from the Pd to Cu site through the unique Pd–N–Cu bond, thereby increasing *H coverage on the Cu site for the subsequent NO 3 RR process. Unexpectedly, the CuPd-NG achieves a desirable ammonia yield of 0.96 mmol h –1 cm –2 at −0.6 V (vs RHE) and a high Faradaic efficiency of 97.2% at −0.3 V (vs RHE). Furthermore, with CuPd-NG as the cathode, a high-performing Zn-NO 3 – battery can be assembled. The design of the N-bridged-induced BEF regulation mechanism provides novel insights for enhancing NO 3 RR performance by promoting hydrogen spillover at the atomic level.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Wenxia Chen",
    "Lijing Wang",
@@ -4470,10 +4749,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Ammonia Electrosynthesis"
+   "nitrate to ammonia"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实"
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
  "10.1021/acsnano.5c09434": {
   "ab_try": "2026-10-29",
@@ -4515,8 +4794,17 @@
   "zh_title": "深度共熔溶剂辅助的热冲击法快速选择性回收废旧LiFePO4正极"
  },
  "10.1021/acssuschemeng.5c05871": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Plasma-catalytic ammonia synthesis (PCAS) provides a sustainable pathway for ammonia production under mild reaction conditions, contributing to the reduction of greenhouse gas emissions and advancing the development of a circular carbon economy. However, the intrinsic complexity of the process, coupled with the absence of efficient modeling and optimization tools, poses a major challenge to simultaneously enhancing ammonia concentration (AC) and energy efficiency (EE). This study proposes a multiobjective optimization (MOO) framework for PCAS, integrating data-driven modeling and decision-making methods. Experimental data from literature are used to develop the Bayesian optimization-assisted Multi-Layer Perceptron (BO-MLP) model, achieving predictive accuracy with R2 values of 0.977 and 0.995 for AC and EE, respectively. The SHapley Additive exPlanations (SHAP) algorithm is used to enhance the interpretability of the prediction model and to analyze the effect of different features on AC and EE. The Nondominated Sorting Genetic Algorithm II (NSGA-II) is then employed to resolve trade-offs between AC and EE, followed by the Technique for Order Preference by Similarity to Ideal Solutions (TOPSIS) to identify optimal operating conditions. The results show that the framework improves EE by 32.53% while maintaining high AC, with 20 Pareto-optimal solutions achieving a balance between AC (9954.1–10040.2 ppm) and EE (1.091–1.103 g/kWh), highlighting its potential to lower energy input and environmental impact. This framework provides an effective paradigm for the sustainable optimization of plasma-catalytic reaction processes and supports the rational design of low-carbon ammonia synthesis technologies. This work advances sustainable, renewable-energy-powered, and low-carbon-emission ammonia production by optimizing the plasma-catalytic ammonia synthesis process.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jun Du",
    "Yuhai Ding",
@@ -4549,8 +4837,17 @@
   "zh_obj": "等离子体制氨"
  },
  "10.1021/acssuschemeng.5c06239": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Electrocatalytic nitrate reduction (eNO 3 RR) exhibits substantial potential in eliminating waste NO 3 – by selectively converting it into N 2 or valuable resources NH 3 . Since eNO 3 RR has made rapid progress recently, it is vital to conduct a systematic evaluation of its feasibility. Herein, we provide a comprehensive techno-economic assessment (TEA) and life cycle assessment (LCA) of eNO 3 RR and propose economically and environmentally favorable thresholds to systematically guide its industrial-scale implementation. Sensitivity analysis suggests that current density is the most crucial factor for N 2, showing an even greater impact than electricity price, while voltage ranks second only to electricity price for NH 3, highlighting optimization priorities. The profitability of eNO 3 RR-to-NH 3 at $0.03/kWh depends on the progression of performance: the full-cell energy efficiency exceeds 50% at a current density >500 mA/cm². Through continuous technological optimization, the levelized cost of ammonia (LCOA) is projected to decrease from $0.92/kg to $0.14/kg, substantially below current NH 3 market prices. LCA reveals that renewable-electricity-powered eNO 3 RR achieves near-zero global warming potential (GWP, <0.4 kg CO 2 e/kg NO 3 – -N), offering superior decarbonization compared to conventional wastewater treatment (WWTP) and Haber-Bosch (H–B) processes.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Biyu Kang",
    "Mingshuo Jiao",
@@ -4578,7 +4875,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Nitrate Reduction"
+   "Haber-Bosch"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
@@ -4907,7 +5204,15 @@
   "zh_title": "在 SiO2 上通过分子层沉积沉积的钛和钒氧化物上乙烷的氧化脱氢以及从所得混合物中选择性分离乙烯"
  },
  "10.1140/epjs/s11734-025-01977-2": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Dong Liu",
@@ -4941,7 +5246,15 @@
   "zh_obj": "制氨路线未明确"
  },
  "10.1557/s43578-025-01690-9": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Indeewari M. Karunarathne",
@@ -5008,8 +5321,17 @@
   "zh_obj": "电化学亚硝酸盐还原"
  },
  "10.19045/bspab.2025.140090": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "Food security, zero hunger and poverty alleviation are the major challenges faced by agriculturists worldwide.To achieve this aim, optimum planting time and integrated nutrient management have long been recognized as the most agronomic approaches for the economic yield of maize.Therefore, a field experiment was conducted at the Agronomy Research Farm, the University of Agriculture Peshawar, Pakistan in Kharif season, 2017.The design used was a randomized complete block with a split plot arrangement consisting of four planting dates (25 th May, 9 th June, 24 th June and 9 th July) were assigned to main plots, while six nitrogen management treatments (Control, sole urea (U), sole poultry manure (PM), 70% U + 30% PM, 50% U + 50% PM and 30% U + 70% PM) were allotted to subplots for making a total of 140 kg N ha -1 .The results revealed that maize planted on 9 th June resulted in maximum plant height, leaf area plant -1 , leaf area index, plants at harvest, ears length, grains ear -1 , rows ear -1 , thousand grain weight, biological yield, grain yield and harvest index.However, maize planted on 25 th May took more days to emergence, tasseling, silking and physiological maturity.Nitrogen applied as 50% U + 50% PM resulted in maximum ears plant -1 , ears length, grains ear -1 , rows ear -1 , thousand grain weight, grain yield and harvest index, while more days to tasseling, silking, physiological maturity, plant height, leaf area plant -1 and leaf area index were noted in plots received sole urea.For better yield in Peshawar valley, it is recommended that maize crop should be planted on 9 th June along with the application of 50% U + 50% PM.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Shah Fahad"
   ],
@@ -5036,7 +5358,15 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
  },
  "10.2139/ssrn.5439809": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Yuan Xu",
@@ -5070,7 +5400,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.2139/ssrn.5480956": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Jizhou Yang",
@@ -5104,7 +5442,15 @@
   "zh_obj": "光催化固氮"
  },
  "10.2139/ssrn.5500484": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Ko-Shan Ho",
@@ -5137,7 +5483,15 @@
   "zh_obj": "电化学硝酸盐还原"
  },
  "10.2139/ssrn.5528124": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Serdar Akbayrak",
@@ -5166,7 +5520,15 @@
   "zh_obj": "氨硼烷水解"
  },
  "10.2139/ssrn.5529614": {
-  "ab_try": "2026-10-29",
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
   "abstract": "",
   "authors": [
    "Jing Xu",
@@ -5390,8 +5752,17 @@
   "zh_title": "超快焦耳热驱动催化剂合成在电催化析氢中的最新进展"
  },
  "10.30848/pjb2026-1(32)": {
-  "ab_try": "2026-10-29",
-  "abstract": "",
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "The current research study was conducted at Crop Sciences Research Institute (CSRI), Agriculture Research Centre, Tandojam.The consecutive study was assumed to assess the allelopathic effects of sorghum and nitrogen application strategies on suppression of weed and yield enhancement of the sesame crop.The field experiment was randomized complete block design (RCBD) factorial in three replications with net plot size of 5 m x 4 m (20 m 2 ).The experimental unit was accommodated with three factors i.e. weed control practices (control or without sorghum material, sorghum extract @ 40 L ha -1 , herbicide @ 1.0 L ha -1 , sorghum extract @ 20 L ha -1 + herbicide @ 0.5 L ha -1 , and hand weeding twice (30 and 55 days after sowing)), nitrogen application rates (50, 75 & 100 kg ha -1 ) and nitrogen application schedules (two & three splits).The statistical analysis of the compiled data revealed that significant (p<0.05)effects of weed control practices, nitrogen application approaches and their interaction on weed reduction positively improved agronomic and qualitative traits of sesame than control (without sorghum material).Substantially, the findings of overall study revealed that sorghum extract @ 20 L ha -1 + Herbicide (AXIAL 330 ml +ally max 14 g) @ 0.5 L ha -1 integrated with nitrogen application rate (100 kg ha -1 ), nitrogen application schedules (three splits) and their interaction exerted considerable inhibitory effects on weed observations, significantly enhanced the agronomic and qualitative traits of sesame crop under field conditions, followed by hand weeding twice (30 and 55 days after sowing) ranked 2 nd in effectiveness.The findings of this study thus conferred that possible efforts must be taken to reduce the dose of herbicides and minimize the health hazards.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Muhammad Saleem Chang",
    "Muhammad Nawaz Khandhro",
