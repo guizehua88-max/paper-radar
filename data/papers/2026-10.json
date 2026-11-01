@@ -3275,6 +3275,56 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "在 TiO2 上极化 Ru-Cu 双金属纳米团簇上引导源自水的氢迁移用于高效光催化氨合成"
  },
+ "10.1016/j.apcatb.2026.127707": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-01"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-01",
+  "abstract": "",
+  "authors": [
+   "Chu Chu",
+   "Hao-Nan Dong",
+   "Ying Deng",
+   "Jian Yu",
+   "Yi Hu",
+   "Yu Luo",
+   "Deng-Ke Wang",
+   "Long-Shuai Zhang",
+   "Wen-Hong Fan",
+   "Lei Tian",
+   "Jian-Ping Zou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-29",
+  "doi": "10.1016/j.apcatb.2026.127707",
+  "first_seen": "2026-11-01T17:08:18Z",
+  "id": "10.1016/j.apcatb.2026.127707",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Applied Catalysis B: Environmental",
+  "tier": "background",
+  "title": "Coordination-dependent palladium catalysts for efficient nitrate electroreduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apcatb.2026.127707",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "用于高效硝酸盐电还原制氨的配位依赖性钯催化剂"
+ },
  "10.1016/j.apenergy.2026.129154": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -9705,6 +9755,45 @@
   "zh_brief": "利用自组装刷状嵌段共聚物模板通过五秒光热裂解合成具有可调孔径的介孔氮掺杂碳负载钼单原子和团簇。在气体扩散电极流动电池中，该催化剂系统实现了21.6%的法拉第效率和34.7 μg h–1 mg–1的氨产率。研究表明，活化极化是主要损失机制，而孔径、金属分散度和电极润湿性主要调节位点可及性而非传质限制。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及碳材料"
+ },
+ "10.1021/acscatal.6c04964": {
+  "abstract": "Abstract Solar-driven conversion of N2 and H2O into ammonia under ambient conditions offers an alternative to the energy-intensive Haber–Bosch process, yet current advances are largely limited by material-focused strategies that insufficiently address coupled transport and interfacial reaction processes. Herein, we report a sub-nanofluidic photochemical membrane with catalytically active channels that integrate light harvesting, catalytic activation, and mass transport within a unified architecture for solar ammonia synthesis. The membrane consists of ZnIn2S4 atomically thin sheets and molybdenum disulfide (MoS2) quantum monolayers, forming ordered sub-nanometer channels that are intrinsically catalytic. This design establishes a confined reaction environment in which nanofluidic transport, gas–liquid interfacial regulation, and charge carrier dynamics are synergistically coupled. In particular, the combination of hydrophilic–hydrophobic interfaces and sub-nanofluidic-engineered serpentine flow pathways enhances reactant accessibility, residence time, and photon utilization, thereby overcoming diffusion and activation limitations typical of conventional photocatalytic systems. With these merits, the membrane achieves an ammonia production rate of 4.39 μg cm–2 h–1 (2.48 mmol gcat.–1 h–1) with ∼70% ammonia selectivity and maintains stable operation over 48 h of continuous testing. The achieved ammonia production rate compares favorably with those of reported photocatalytic platforms and some electrocatalytic N2 fixation systems. This work introduces a catalytically active nanofluidic channel paradigm for solar-driven N2 fixation and highlights the importance of material-transport co-engineering in bridging the gap between nanoscale catalytic design and device-level performance for chemical synthesis.",
+  "authors": [
+   "Yingying Fan",
+   "Ruijie Yang",
+   "Zheng Li",
+   "Heng Zhao",
+   "Zhangxing Chen",
+   "Jinguang Hu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-31",
+  "doi": "10.1021/acscatal.6c04964",
+  "first_seen": "2026-11-01T17:08:18Z",
+  "id": "10.1021/acscatal.6c04964",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "ACS Catalysis",
+  "tier": "background",
+  "title": "Sub-nanofluidic Photochemical Membrane with Catalytically Active Channels for Solar Ammonia Synthesis",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.6c04964",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "该研究构建了一种集成光捕获、催化活化与质量传输的亚纳米流体光化学膜，用于太阳能氨合成。该膜由原子级薄的 ZnIn2S4 片层和 MoS2 量子单层组成，形成具有催化活性的亚纳米通道。通过亲水-疏水界面和蜿蜒流路设计，实现了纳米流体传输、气液界面调控和载流子动力学的协同耦合。在连续 48 小时测试中，该膜实现了 4.39 μg cm–2 h–1 的氨产率（2.48 mmol gcat.–1 h–1）和约 70% 的氨选择性。",
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "用于太阳能氨合成的具有催化活性通道的亚纳米流体光化学膜"
  },
  "10.1021/acscatal.6c05587": {
   "abstract": "Abstract Hetero-anion doping has emerged as an effective approach to modulate the physicochemical and catalytic properties of perovskite-type oxides. In this study, nanosized CeO2 synthesized by a continuous flow-type supercritical hydrothermal synthesis (SHS) process was employed as a precursor for a solid-state reaction with Ba(NH2)2, enabling the low-temperature synthesis of single-phase perovskite oxynitride–hydride BaCeO3–xNyHz (BaCeO3–xNyHz–SHS) with a high surface area and abundant N3– and H– species. Ru-loaded BaCeO3–xNyHz–SHS exhibited a maximum ammonia synthesis rate of 9.0 mmol g–1 h–1 at 300 °C and 0.9 MPa and showed up to a 6-fold enhancement in activity compared with the corresponding Ru/BaCeO3–xNyHz prepared from commercial CeO2, owing to the enhanced generation of anion vacancies at the Ru–support interface. Moreover, BaCeO3–xNyHz–SHS acted as a highly efficient support for various transition metals in ammonia synthesis and for Ni in ammonia decomposition, achieving &gt;99% conversion at 560 °C with a low apparent activation energy (75 kJ mol–1). These findings demonstrate that enhancing the solid-state reactivity of oxide precursors through nanoscale engineering provides a general strategy for the low-temperature synthesis of highly active hetero-anion perovskite catalysts for ammonia synthesis and decomposition.",
