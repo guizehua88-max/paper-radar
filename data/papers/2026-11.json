@@ -1,4 +1,47 @@
 {
+ "10.1016/j.ecmx.2026.102431": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-02",
+   "OpenAlex": "2026-11-02"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-02",
+  "abstract": "",
+  "authors": [
+   "Stéphane Abanades",
+   "Srirat Chuayboon"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.ecmx.2026.102431",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.ecmx.2026.102431",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Energy Conversion and Management: X",
+  "tier": "background",
+  "title": "Screening of recyclable metal candidates as solid carriers for production and storage of hydrogen and ammonia in solar chemical-looping processes",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ecmx.2026.102431",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_title": "太阳能化学链过程中用于生产与存储氢气和氨气的可回收金属载体候选物的筛选"
+ },
  "10.1016/j.mcat.2026.116400": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -50,5 +93,80 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "MN4 掺杂 C54 富勒烯作为电催化氮还原反应单原子催化剂的 DFT 筛选"
+ },
+ "10.2118/235635-ms": {
+  "abstract": "Abstract Green ammonia projects face increasing challenges in progressing from conceptual development toward bankable execution, requiring coordinated development across technology, infrastructure, safety assurance, and commercial pathways. This paper presents the outcome of an ongoing front-end development program for a compact floating green ammonia FPSO-type facility. It discusses how mature technologies can be selected for floating applications, modularized, marinized, and integrated with safety-led design to support a scalable and bankable infrastructure model. The development incorporates contributions from the project developer, the design and fabrication contractor, and an independent classification and technical assurance partner. Market-driven design considerations include renewable power availability, geographical location, export route, and potential offtake markets. The technical scope includes approximately 500 MW renewable power intake, high-voltage distribution, hydrogen production, nitrogen generation, ammonia synthesis, refrigerated storage, utilities, marine systems, and offloading interfaces. Safety studies comprise HAZID, layout review, safety screening, and coarse quantitative risk assessment covering hydrogen and ammonia major accident hazards, including hydrogen accumulation and explosion risk, ammonia toxic dispersion, compact layout constraints, marine offloading interfaces, and nearshore risk exposure. The paper demonstrates how technical readiness, commercial readiness, and safety and regulatory readiness can be matured together to progress the concept beyond Approval in Principle toward an execution-ready project definition.",
+  "authors": [
+   "Sookkwan Tang",
+   "Iain Macleod",
+   "Li Ma",
+   "Conn Fagan",
+   "Sebastien Cochet"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-02",
+  "doi": "10.2118/235635-ms",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.2118/235635-ms",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "ADIPEC",
+  "tier": "background",
+  "title": "From Concept to Bankability: Scalable Floating Green Ammonia FPSO Development with Integrated Safety Design",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2118/235635-ms",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "针对绿氨项目从概念开发走向可执行面临的挑战，本文介绍了紧凑型浮动绿氨 FPSO 型设施的端前开发成果。该设施集成了约 500 MW 可再生电力、高压配电、制氢、制氮、氨合成、制冷储存及海上卸载接口，并通过 HAZID、定量风险评估等安全研究，展示了如何将技术就绪度、商业就绪度和安全监管就绪度同步成熟化。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "从概念到可执行性：集成安全设计的可扩展浮动绿氨 FPSO 开发"
+ },
+ "10.2118/235870-ms": {
+  "abstract": "Abstract Volatile organic compounds (VOCs) are flammable and some of them are hazardous to human health. Apart from its toxic nature, VOCs can also take part into photochemical reactions and contribute to formation of ozone and fine particles, causing detrimental influences on atmospheric quality. Increase in VOCs emission from human activity has been recognized as primary causes of urban air pollution in China, and targeted control and constant removal of VOCs was proposed as key measures to mitigate atmosphere problems. Petrochemical facility was significant emission sources for VOCs and NOx and represents an possibility of co-treatment of these two pollutants. In this work, treatment of petrochemical VOCs by directing VOCs stream into facility heater or process furnace was proposed and confirmed. The oxidation of VOCs and its influence on NOx conversion was probed within an experimental setup, simulating the co-conversion process of petrochemical VOCs and NOx. The propane and propylene were selected as representatives of petrochemical VOCs and used as reactant with a feed ratio of 2% and 0.5% (V/V %). NO was chosen to act as NOx at feeding concentration of 200 and 800 mg/m3. Air stream was also feed to simulate oxidative condition within the process furnace or incinerator. Influences of VOCs species, temperature and concentration on NOx conversion were confirmed. The results suggest that reduction of NO takes place in the presence of VOCs at temperature higher than 300°C regardless of NO concentration. The VOCs species selectively reduce NO below 500°C while it was gradually oxidized by oxygen as temperature further increases and was completely consumed above 700°C. Lower temperature favors NO reduction by VOCs compared with high temperature (above 600°C). An optimum temperature window (400~600°C) was obtained for NO conversion by VOCs and more than 30% NO can be reduced by VOCs. Concentration of VOCs also play an important role in NO reduction. Increase in ratio of VOCs facilitate NO reduction. Alkane seems to be more reactive in NO reduction than alkene. According to finding in this work, it was advised that the alkane VOCs stream was routed into latter stage of process furnace with temperature lower than 700°C where NOx has been formed. In case of alkene and aromatic VOCs stream, a higher temperature was needed and the former furnace stage was more preferred. In the first time, co-treatment of VOCs and NOx in petrochemical facility was proposed. The feasibility and performance were subsequently confirmed in lab scale setup. The information obtained in this study improves our understanding on VOCs conversion in process furnace and its influence on in-site NOx reduction. Targeted suggestion was formulated which can promote the progresses in VOCs abatement in China.",
+  "authors": [
+   "D. D. Cao",
+   "M. Xue",
+   "X. C. Li",
+   "X. Y. Cui"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-02",
+  "doi": "10.2118/235870-ms",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.2118/235870-ms",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ADIPEC",
+  "tier": "background",
+  "title": "Treatment of Petrochemical VOCs by In-Site Non-Catalytic Reduction of Nitrogen Oxides in Incineration Process",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.2118/235870-ms",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Reduction of Nitrogen"
+  ],
+  "zh_brief": "针对石化行业 VOCs 和 NOx 共同排放问题，提出将 VOCs 流股引入加热炉或工艺炉进行协同处理。实验模拟了丙烷和丙烯在 200–800 mg/m3 NO 浓度下的共转化过程，结果表明在 300°C 以上温度下 VOCs 可选择性还原 NO，且在 500°C 以下有利于 NO 还原，在 700°C 以上 VOCs 被完全消耗。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "利用焚烧过程中原位非催化还原氮氧化物处理石化 VOCs"
  }
 }

@@ -4727,6 +4727,55 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "通过氮吹脱耦合PFSA膜分离从厌氧消化液中回收高纯氨"
  },
+ "10.1016/j.ceja.2026.101560": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-02"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-02",
+  "abstract": "Blue ammonia has become an increasingly important means of transporting and storing hydrogen due to its ability to provide a lower-carbon alternative for the growing global demand for clean energy. This study develops an integrated techno-economic-environmental (TEE) assessment of producing blue ammonia from low-cost, high-sulfur petroleum coke (Petcoke). The proposed process comprises Petcoke gasification, syngas conditioning, hydrogen purification, ammonia synthesis and carbon capture and storage (CCS). The proposed process is designed using Aspen Plus for a Petcoke federate of 250 t/h giving an ammonia production capacity of 1 Mt/y. The process achieved a 16% H 2 yield, 63% cold gas efficiency and 93% CO 2 removal, with direct plus indirect emissions of 1206 kg CO 2 /t NH 3 , which is about 45–49% less compared to current commercial routes. Heat integration of the synthesis loop reduced the total process energy duty from 38.67 GJ/t NH 3 (Case 1, no integration) to 28.97 GJ/t NH 3 (Case 2). In addition, results from economic evaluations demonstrated strong economic feasibility for this route with a total capital investment of $1.26 Billion, a 6.8-yr payback period and levelized cost of ammonia (LCOA) to be $316/ton NH 3 . This research represents one of the first comprehensive assessments of converting high sulfur Petcoke into blue ammonia utilizing an integrated CCS enabled framework.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "Abdulrahman Rashed Alkaabi",
+   "Zuhair Malaibari",
+   "Salman Raza Naqvi",
+   "Usama Ahmed",
+   "Zaynab Almubarak",
+   "Umer Zahid"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.ceja.2026.101560",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.ceja.2026.101560",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Engineering Journal Advances",
+  "tier": "background",
+  "title": "Techno-Economic-Environmental Assessment of Blue Ammonia Production from High-Sulfur Petroleum Coke",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ceja.2026.101560",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "本研究对利用高硫石油焦生产蓝氨的工艺进行了集成技术经济环境评估，该工艺包含气化、合成气调节、氢气提纯、氨合成及碳捕集。在 250 t/h 进料规模下，工艺实现了 16% 的 H2 收率、63% 的冷气效率及 93% 的 CO2 去除率，直接及间接排放为 1206 kg CO2/t NH3，LCOA 为 $316/ton NH3，显示出良好的经济可行性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "利用高硫石油焦生产蓝氨的技术经济环境评估"
+ },
  "10.1016/j.ceramint.2026.07.104": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -5184,6 +5233,42 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "Bi12O17Cl2 纳米管长度可控活性调节用于增强光催化氨合成"
  },
+ "10.1016/j.compchemeng.2026.109959": {
+  "abstract": "Power-to-X processes depend on an intermittent renewable electricity supply and therefore operate continuously across a wide load range rather than at a single design point. Established plantwide control procedures were developed around a single steady state, and existing extensions address bounded turndown, discrete production transitions, or supervisory model predictive control; the design of the regulatory control layer itself for continuous, wide-range, load-flexible operation remains open. We propose a systematic, simulation-based procedure structured in three stages: defining control objectives and constraints across the load range, designing a basic control system using only single-loop proportional-integral controllers, and adding advanced control elements only where validation reveals a specific need. Load flexibility is addressed by identifying every control loop at multiple operating loads, pairing manipulated and controlled variables using a relative gain array aggregated across loads, and tuning from the load-dependent process parameters. We demonstrate the procedure on a high-fidelity, pressure-driven Power-to-Ammonia model of a 500,000 t/yr plant implemented in a commercial process simulator, yielding a regulatory layer of 15 control loops, extended by a feedforward-cascade element for the steam temperature and a ratio-cascade element for the reactor-inlet ratio. The resulting control system operates stably across the full 10%–100% load range at ramping rates of 3%/min, using a single fixed tuning per loop. A decentralized regulatory layer of simple, well-understood controllers is therefore sufficient for highly load-flexible operation of the presented process, and acts as the basis on which scheduling and real-time optimization must subsequently build.",
+  "authors": [
+   "N. Groll",
+   "J.K. Huusom",
+   "G. Sin"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.compchemeng.2026.109959",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.compchemeng.2026.109959",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Computers & Chemical Engineering",
+  "tier": "background",
+  "title": "Plantwide control design for highly load-flexible Power-to-X processes: A systematic procedure applied to renewable ammonia production",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.compchemeng.2026.109959",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "针对可再生电力驱动的 Power-to-X 工艺，提出一种基于仿真的三阶段系统化控制设计程序。该方法在 50万吨/年的高压驱动 Power-to-Ammonia 模型上验证，构建了包含15个控制回路的监管层，在 10%–100% 负载范围和 3%/min 升速下稳定运行，表明简单的分散监管层足以支撑高度负载柔性操作。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "高度负载柔性 Power-to-X 工艺的全厂控制设计：应用于可再生氨生产的系统化程序"
+ },
  "10.1016/j.compositesa.2026.109965": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -5394,6 +5479,44 @@
   "zh_obj": "电化学氮还原；涉及Fe/铁体系、碳材料",
   "zh_title": "α-Fe2O3/g-C3N4/Fe泡沫：用于可持续电化学氮转氨的环保高效电极"
  },
+ "10.1016/j.egyr.2026.109862": {
+  "abstract": "Decarbonizing methanol and ammonia production has become increasingly important for reducing greenhouse gas emissions; however, balancing environmental benefits with economic feasibility remains a major challenge. This study addresses this challenge by providing a unified comparative assessment of four production pathways integrating advanced carbon capture technologies and hybrid energy systems. Four scenarios, including blue methanol, green methanol, gray ammonia, and green ammonia, are evaluated in terms of their technical, economic, exergy, and environmental performance. The process units, including steam methane reforming (SMR) and water electrolysis for hydrogen production, post-combustion carbon capture (PCC) and direct air capture (DAC), and methanol and ammonia synthesis, were simulated using Aspen HYSYS and Aspen Plus. The parabolic trough collector (PTC)-based solar plant was modeled using Thermoflex and System Advisor Model (SAM) software to meet the thermal demands of the production chain. A sensitivity analysis on the solar fraction was conducted to determine the economically optimal point. Economic analysis indicates that blue methanol and gray ammonia exhibit significant profitability, with net present values (NPV) of 285 and 207 M$, respectively. In contrast, green methanol and green ammonia have high levelized costs (LCOM = 856 $/t; LCOA = 837 $/t), rendering them economically unviable at a 10% discount rate. At a reduced discount rate of 4%, green methanol and green ammonia achieve NPVs of 123 and 135 M$, respectively, indicating improved economic viability. Exergy analysis shows that green methanol and green ammonia attain the highest overall exergy efficiencies of 41.9% and 43.5%, respectively. Environmental analysis using Global Warming Potential (GWP) metric shows that green methanol and green ammonia reduce greenhouse gas emissions by 57% and 90%, respectively. The findings of this study demonstrate that low-carbon and green pathways can reduce emissions while remaining economically viable under hybrid energy systems, with supportive policies and financial incentives.",
+  "authors": [
+   "Gholamreza Aghdami",
+   "Farzin Hosseinifard",
+   "Mona Zamani Pedram",
+   "Mohsen Salimi",
+   "Majid Amidpour"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-31",
+  "doi": "10.1016/j.egyr.2026.109862",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.egyr.2026.109862",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Energy Reports",
+  "tier": "background",
+  "title": "Transition to low-carbon ammonia and methanol through hybrid energy systems and direct air capture: A 4E assessment",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.egyr.2026.109862",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "本研究利用 Aspen HYSYS 和 Aspen Plus 对集成先进碳捕集技术的四种生产路径进行了技术、经济、火用和环境 4E 评估。分析表明，在 10% 折现率下，蓝甲醇和灰氨具有显著盈利性（NPV 分别为 285 和 207 M$），而绿甲醇和绿氨因高平准化成本（LCOM = 856 $/t；LCOA = 837 $/t）经济不可行；在 4% 折现率下，绿氨和绿甲醇的 NPV 分别达到 135 和 123 M$。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "通过混合能源系统和直接空气捕获向低碳氨和甲醇转型：4E 评估"
+ },
  "10.1016/j.electacta.2026.149150": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -5547,6 +5670,45 @@
   "zh_method": "焦耳热用于制备",
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "闪蒸焦耳加热和传统高温处理煤焦炭衍生的硬碳负极：钠离子电池的比较研究"
+ },
+ "10.1016/j.electacta.2026.150331": {
+  "abstract": "",
+  "authors": [
+   "Yin Guan",
+   "Jingze Zheng",
+   "Mingyu Fa",
+   "Pengbin Rao",
+   "Zhanyun He",
+   "Ivan Tolj",
+   "Zhengkai Tu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-30",
+  "doi": "10.1016/j.electacta.2026.150331",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.electacta.2026.150331",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Electrochimica Acta",
+  "tier": "background",
+  "title": "Electrochemical degradation mechanisms of PEMFCs fueled with ammonia decomposition gas: effects of residual NH3 and relative humidity",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.electacta.2026.150331",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "使用氨分解气体作为燃料的 PEMFC 电化学降解机理：残余 NH3 和相对湿度的影响"
  },
  "10.1016/j.enchem.2026.100211": {
   "ab_check_v": 2,
@@ -7588,6 +7750,43 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "迈向可持续氨：电催化硝酸盐还原的结构-活性关系与反应系统工程"
  },
+ "10.1016/j.jestch.2026.102567": {
+  "abstract": "Offshore wind has significant potential to support industrial decarbonization, but its system value depends on the infrastructure used to deliver electricity or energy carriers to industrial demand. This study extends the H2RES energy system optimization model with a corridor-based formulation that co-optimizes offshore wind evacuation, electricity transmission, hydrogen and ammonia production, storage and transport infrastructure. Six scenarios for Croatia examine offshore wind availability, dedicated versus grid-integrated supply, and climate ambition. The results show that dedicated offshore supply increases system cost because of additional infrastructure requirements. Among the net-zero scenarios with offshore deployment, the grid-first configuration has the lowest system cost (35.8 B€), whereas the exclusive offshore configuration has the highest (38.5 B€). The 2.8 B€ difference between these two offshore architectures reflects the additional infrastructure and operational restrictions associated with dedicated supply. Corridor design also changes the preferred location of hydrogen production, where dedicated supply favors demand-site electrolysis, whereas grid-first integration shifts towards centralized electrolysis. The results demonstrate that offshore integration architecture can materially affect system cost, renewable deployment, and the spatial configuration of industrial hydrogen supply.",
+  "authors": [
+   "Doris Beljan",
+   "Luka Herc",
+   "Antun Pfeifer",
+   "Neven Duić"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10-28",
+  "doi": "10.1016/j.jestch.2026.102567",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.jestch.2026.102567",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Engineering Science and Technology, an International Journal",
+  "tier": "background",
+  "title": "Corridor-based optimization of offshore wind for industrial hydrogen and ammonia supply",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jestch.2026.102567",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "该研究利用 H2RES 能源系统优化模型，通过走廊式公式协同优化离岸风电疏散、电力传输、氢气和氨气生产、存储及运输基础设施。针对克罗地亚的六种情景分析表明，专用离岸供应因额外基础设施需求而增加系统成本。在净零排放情景中，电网优先配置的系统成本最低（358 亿欧元），而专用离岸配置最高（385 亿欧元）。走廊设计还改变了氢气生产的优选位置，专用供应倾向于需求侧电解，而电网优先集成则转向集中式电解。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "基于走廊的离岸风电为工业氢气和氨气供应的优化"
+ },
  "10.1016/j.jeurceramsoc.2026.118936": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -8718,6 +8917,43 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "PANI-锶铁氧体中快速氨气传感及阻抗谱分析中的弛豫动力学研究"
+ },
+ "10.1016/j.sna.2026.118717": {
+  "abstract": "",
+  "authors": [
+   "Ekasiddh Wongrat",
+   "Somrit Unai",
+   "Wisit Mangthas",
+   "Panupat Chaiworn",
+   "Narong Chanlek",
+   "Siripatsorn Thanasanvorakun",
+   "Supab Choopun"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-10",
+  "doi": "10.1016/j.sna.2026.118717",
+  "first_seen": "2026-11-02T02:28:20Z",
+  "id": "10.1016/j.sna.2026.118717",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Sensors and Actuators A: Physical",
+  "tier": "background",
+  "title": "Enhanced room-temperature ammonia sensing using PANI/PEDOT:PSS/TiO2 quantum-dot nanocomposites",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.sna.2026.118717",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "使用 PANI/PEDOT:PSS/TiO2 量子点纳米复合材料增强室温氨气传感"
  },
  "10.1016/j.surfin.2026.110390": {
   "ab_check_v": 2,
