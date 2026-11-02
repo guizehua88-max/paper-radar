@@ -1199,6 +1199,9 @@
    "Xiaojun Gu",
    "Jiangwei Zhang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-08-14",
   "doi": "10.1002/cnl2.70185",
@@ -1221,8 +1224,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "氨 (NH 3 ) 是肥料和主要化学品的关键前体，2018 年全球产量达到约 200 百万吨。它也被认为是一种非常有前景的氢载体，因为它具有高氢含量，并且可以方便地储存和运输。然而，传统的哈伯过程合成氨需要大量能量并产生大量碳排放，因此开发可持续的新合成路线至关重要。近年来，涉及光催化、电催化或两者兼有（光电催化）的氮还原反应 (NRR/NO x RR) 受到了极大关注，它们有可能在温和条件下使用可再生电力或太阳能合成氨。该领域的关键进展是设计高性能催化剂。金属-有机框架 (MOFs) 特别是在阐明反应机制和增强催化性能方面已成为一个理想的平台，这要归功于它们精确可调的结构、可调节的孔隙率、明确定义的活性位点和易于改性。本综述系统地概述了 MOF 基材料在用于合成氨的光催化、电催化和光电催化氮和 NO 3 ‐ 还原中的应用和研究进展。重点是如何合理设计 MOF 金属节点、有机配体和孔隙环境",
   "zh_method": "光驱动",
-  "zh_obj": "光催化固氮"
+  "zh_obj": "光催化固氮",
+  "zh_title": "金属-有机框架光电催化剂合成氨的最新进展"
  },
  "10.1002/pat.70731": {
   "abstract": "ABSTRACT Thermoresponsive magnetic composite gels based on poly( N‐ isopropylacrylamide) (PNIPAm) and its copolymers with N,N ‐dimethylaminopropylacrylamide (DMAPAA) were prepared by in situ formation of Fe 3 O 4 nanoparticles within the gel matrices. DMAPAA was introduced as a hydrophilic comonomer to improve the swelling stability of PNIPAm gels in concentrated iron ion solutions and to investigate its effect on nanoparticle formation, crystallite size, magnetic heating behavior, and adsorption properties. Pure PNIPAm gels exhibited severe deswelling in iron ion solutions due to the salting‐out effect, resulting in low magnetite content (5.9 wt%). In contrast, copolymerization with DMAPAA significantly improved gel swelling stability, increasing the Fe 3 O 4 content to 9.5 and 14.2 wt% for NIPAm/DMAPAA compositions of 900/100 and 800/200 mol/m 3 , respectively. XRD analysis confirmed the formation of magnetite nanoparticles (MNPs) with crystallite sizes of 9.4–11.1 nm. TEM observations revealed more uniformly dispersed MNPs with well‐defined morphologies in the copolymer gels compared with pure PNIPAm gels. Magnetic heating experiments under an alternating magnetic field demonstrated that the temperature rise increased with increasing magnetite content, while the thermoresponsive behavior of PNIPAm was preserved after nanoparticle formation. The copolymer gels exhibited broader and more gradual volume transitions because of the increased hydrophilicity introduced by DMAPAA. Bisphenol A (BPA) adsorption experiments demonstrated temperature‐dependent adsorption behavior associated with the hydrophilic–hydrophobic transition of PNIPAm. However, increasing DMAPAA content reduced BPA adsorption because of the enhanced hydrophilicity of the copolymer network. These results demonstrate that DMAPAA copolymerization is an effective strategy for controlling MNP incorporation and magnetic heating performance while maintaining thermoresponsive properties.",
@@ -11827,6 +11832,9 @@
   "authors": [
    "Douglas Helvesio Urbina Duque"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-08-07",
   "doi": "10.5281/zenodo.21844065",
@@ -11849,8 +11857,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "对 IBM、AlgorithmIQ 和全球量子计算社区的一个公开挑战。作者：Douglas Helvesio Urbina Duque ORCID: --- 联属：Universidad Nacional Experimental de Guayana (UNEG)，委内瑞拉 日期：8 月，许可证：CC-BY-。挑战截止日期：2 月，（接受后几个月） 基准参考：DOI ./zenodo。 执行摘要 Duquena Core 公开挑战 IBM、AlgorithmIQ 和任何其他量子计算研究小组，使用真实的量子硬件，在几个月内解决 Lowe-Thorneley 循环中 FeMo-辅助因子的完整氮固定反应机制的所有八个中间态 (E₀‒E₈)，达到化学精度 (≤ kcal/mol)。这不是一个理论基准。这是一个现实世界的问题，具有： • 农业价值：氮酶固定大气 N₂。取代哈伯-博施过程（占全球能源",
   "zh_method": "未交代供热方式",
-  "zh_obj": "生物固氮（非气相热催化）；涉及Fe/铁体系"
+  "zh_obj": "生物固氮（非气相热催化）；涉及Fe/铁体系",
+  "zh_title": "Duquena 核心挑战：FeMo-辅助因子完整反应机制"
  },
  "10.5281/zenodo.21930621": {
   "abstract": "The Legacy Bottleneck For over a century, the global agricultural supply chain has been inextricably tethered to the Haber-Bosch process. This legacy architecture requires extreme thermodynamic force— sustaining environments of 150 to 250 bar of pressure and temperatures scaling from 400◦C to 500◦C—solely to crack the highly stable N ≡ N triple bond. Consequently, this single industrial synthesis consumes approximately 1% to 2% of the total global energy supply. Furthermore, it relies almost exclusively on the steam reforming of methane for hydrogen sourcing, creating an immense secondary carbon emission crisis. The Civilizational Pivot The Autogenous Non-Equilibrium Ammonia Synthesis Architecture presents a fundamental paradigm shift, replacing bulk thermodynamic force with precision quantum physics. By deploying a solid-state thermodynamic engine for non-equilibrium energy transfer, this sys- tem bypasses bulk thermal pressure vessels entirely. The architecture utilizes an asymmetric electrode array to generate a non-thermal Dielectric Barrier Discharge (DBD) plasma within an ambient gaseous medium. Crucially, this plasma is specifically structured to create a radial electron density gradient, thereby functioning as a dynamic refractive waveguide for electromagnetic radiation. This structural confinement allows projected radiation to completely bypass bulk thermalization of the ambient gas, enabling the targeted vibrational excitation and cleavage of molecular bonds at ambient temperatures. By transitioning from an extreme-heat paradigm to a closed-loop apparatus grounded in precision physics, this framework fundamentally replaces bulk chemical processing. The result is a decentralized, high-throughput chemical synthesis matrix that physically shrinks the traditional energetic footprint while rendering legacy thermal cracking obsolete. For commercial licensing, acquisition inquiries, or Option to Evaluate (OTE) agreements regarding this architecture, please contact: inquiries@lawrencearchitectures.com",
