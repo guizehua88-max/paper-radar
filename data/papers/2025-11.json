@@ -61,6 +61,9 @@
    "Mohd Ubaidullah",
    "Myong Yong Choi"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-06",
   "doi": "10.1002/adfm.72332",
@@ -82,8 +85,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "Myong Yong Choi 等人利用激光制备的 Ag/Ag2O/Cu 电催化剂，通过表面调制的 Ag/Cu 界面显著提升了硝酸根还原反应性能，实现了 Zn–硝酸根电池中硝酸盐到氨的转化与共发电。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "利用 Ag/Ag2O/Cu 中表面调制的 Ag/Cu 界面实现 Zn–硝酸根电池中高效氨合成与共发电"
  },
  "10.1002/adma.202515938": {
   "abstract": "Abstract The complex, heterogeneous nature of challenging precursors, as seen in end‐of‐life wind turbine blades, typically comprises glass or carbon fiber‐reinforced polymer composites with polyvinyl chloride foam cores. This complexity poses a significant material synthesis challenge, particularly for achieving high‐value recovery with precise structural control. A transformative one‐step, ultrafast carbothermal shock (CTS) process is presented that selectively converts these intricate, unseparated composites into high‐value SiC polytypes or novel graphene structures. Leveraging ultrafast Joule heating, CTS enables remarkable atomic‐scale phase control, facilitating kinetic trapping of specific non‐equilibrium structures such as metastable 6H‐SiC and a unique hybrid AB‐turbostratic graphene. This unique hybrid graphene combines the high charge carrier mobility of AB‐stacked nanodomains with the enhanced mechanical interlocking of turbostratic nanodomains. This results in exceptional electrical conductivity (1791 S m −1 ) and substantial mechanical reinforcement (+21.8%) in composites, significantly outperforming conventional reduced graphene oxide. Multiscale characterization and simulations elucidate the atomic‐scale mechanisms driving this phase evolution and kinetic trapping. The study establishes a new paradigm for advanced materials synthesis from complex feedstocks, transforming critical waste into on‐demand functional materials with compelling environmental benefits and dramatically lower operational costs. This sets the stage for sustainable material innovation and a circular economy.",
@@ -981,6 +986,9 @@
    "Zhiying Wang",
    "Jiapeng Liu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-10",
   "doi": "10.1002/smll.202509924",
@@ -1002,8 +1010,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "总结了MXene作为2D材料的特性及其作为NRR催化剂的发展潜力，综述了MXene基NRR催化剂的最新研究进展，并探讨了当前面临的挑战和未来发展方向。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
+  "zh_title": "用于电催化氮还原反应的MXene基催化剂"
  },
  "10.1002/smll.202511098": {
   "abstract": "Abstract Interface engineer of Ru‐based catalysts has become an attractive strategy to improve ammonia (NH 3 ) decomposition performance by precisely modulating the microenvironment of Ru site. Therefore, the Ru‐O v ‐Ce interfacial structure is constructed on Silicate‐1 (S‐1) to improve the NH 3 decomposition performance of Ru/S‐1 catalyst. The activity test suggests that the generation of Ru‐O v ‐Ce interfacial structure considerably improved the catalytic performance of Ru/S‐1 catalyst, boosting the specific activity from 2546.7 to 4461.3 h −1 at 450 °C, and displays promising cycle and long‐term stability. Comprehensive characterization results reveal that Ru‐O v ‐Ce interfacial structure is favorable for enhancing metal‐support interaction, inducing the generation of oxygen vacancies, and optimizing the electronic structure of Ru species. Moreover, Ru‐O v ‐Ce interfacial structure exhibits favorable adsorption performance for NH 3 and induces the generation of medium‐strong basic sites, which contributed to N 2 desorption. Furthermore, the in situ DRIFTS and DFT calculations reveal that Ru‐O v ‐Ce interfacial structure performed superbly in the cleavage of N‐H bonds and N* and H* recombination, which greatly lowers the reaction energy barriers and improves the reaction kinetics. This work thoroughly explores the specific action mechanisms of superior Ru‐O v ‐Ce interfacial structure in NH 3 decomposition, offering a valuable reference for the construction of highly active interface on Ru‐based catalysts.",
@@ -1443,16 +1453,16 @@
  },
  "10.1016/j.apcatb.2025.125477": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Quoc-Nam Ha",
@@ -1487,16 +1497,16 @@
  },
  "10.1016/j.apcatb.2025.125513": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Shixu Zhou",
@@ -1536,16 +1546,16 @@
  },
  "10.1016/j.applthermaleng.2025.127215": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Seyed Heydar Rajaee Shooshtari"
@@ -1580,16 +1590,16 @@
  },
  "10.1016/j.apsusc.2025.163675": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Qingyu Zhou",
@@ -1635,16 +1645,16 @@
  },
  "10.1016/j.apsusc.2025.163773": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Yali Lu",
@@ -1684,16 +1694,16 @@
  },
  "10.1016/j.cattod.2025.115381": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Siming Huo",
@@ -2044,16 +2054,16 @@
  },
  "10.1016/j.cej.2025.169087": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Bin Li",
@@ -2093,16 +2103,16 @@
  },
  "10.1016/j.cej.2025.169131": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Juyeon Kim",
@@ -2140,16 +2150,16 @@
  },
  "10.1016/j.cej.2025.169332": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Ruchun Li",
@@ -2191,16 +2201,16 @@
  },
  "10.1016/j.cej.2025.169473": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Qiyao Zeng",
@@ -2442,16 +2452,16 @@
  },
  "10.1016/j.enconman.2025.120180": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Luyao Liu",
@@ -2674,16 +2684,16 @@
  },
  "10.1016/j.fuel.2025.135599": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Weiwei Xuan",
@@ -2720,16 +2730,16 @@
  },
  "10.1016/j.fuel.2025.135632": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Indumathy Balakrishnan",
@@ -2913,16 +2923,16 @@
  },
  "10.1016/j.ijhydene.2025.152471": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Vahideh Sarvari",
@@ -3005,16 +3015,16 @@
  },
  "10.1016/j.jcat.2025.116386": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Qi Chen",
@@ -3193,16 +3203,16 @@
  },
  "10.1016/j.jechem.2025.06.052": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Jian Zhou",
@@ -3244,16 +3254,16 @@
  },
  "10.1016/j.jechem.2025.07.015": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Yuanyuan Wang",
@@ -3294,16 +3304,16 @@
  },
  "10.1016/j.jechem.2025.07.052": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Nuo Lei",
@@ -3343,16 +3353,16 @@
  },
  "10.1016/j.jelechem.2025.119420": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Xiaolin Wang",
@@ -3499,6 +3509,9 @@
    "Mohamed A. Saad",
    "Hazem Abdelsalam"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11",
   "doi": "10.1016/j.jmgm.2025.109136",
@@ -3520,8 +3533,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "本研究利用第一性原理密度泛函理论系统研究了掺杂单原子过渡金属（Fe、Mo、Ru、W）的石墨炔（GY）在电化学氮还原反应中的活性，发现 Fe-GY 和 W-GY 具有最高的稳定性和最适宜的极限电位。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系",
+  "zh_title": "工程石墨炔支撑的单原子催化剂用于高效氮还原制氨：第一性原理研究"
  },
  "10.1016/j.jpowsour.2025.237967": {
   "ab_check_v": 2,
@@ -3575,16 +3590,16 @@
  },
  "10.1016/j.jpowsour.2025.238065": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Zhongmei Yang",
@@ -3629,16 +3644,16 @@
  },
  "10.1016/j.jpowsour.2025.238222": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Fengchen Zhou",
@@ -3678,16 +3693,16 @@
  },
  "10.1016/j.jwpe.2025.108850": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Yu Zhang",
@@ -3884,16 +3899,16 @@
  },
  "10.1016/j.mcat.2025.115390": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Mengqi Liao",
@@ -3932,16 +3947,16 @@
  },
  "10.1016/j.mcat.2025.115455": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Yuan Li",
@@ -4049,14 +4064,16 @@
  },
  "10.1016/j.microc.2025.115423": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
+   "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Tanay Saha",
@@ -4151,14 +4168,16 @@
  },
  "10.1016/j.psep.2025.107865": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
+   "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Sheng Dou",
@@ -4249,14 +4268,16 @@
  },
  "10.1016/j.seppur.2025.133428": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
+   "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Kunfeng Zhang",
@@ -4295,14 +4316,16 @@
  },
  "10.1016/s1872-2067(25)64808-x": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
+   "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Jiahui Chen",
@@ -5073,16 +5096,16 @@
  },
  "10.1038/s44160-025-00941-1": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Yunfan Fu",
@@ -5134,6 +5157,9 @@
    "Soo Young Kim",
    "Wee-Jun Ong"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-25",
   "doi": "10.1039/d5mh02001h",
@@ -5155,8 +5181,10 @@
   "why": [
    "nitrate-to-ammonia"
   ],
+  "zh_brief": "该综述概述了高效电催化硝酸盐还原为氨的路线，分析了 Cu- 和 Co- 基催化剂设计、反应机理以及用于变革性能和工艺经济性的配对电解系统。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "利用配对电解方法在 Cu- 和 Co- 基催化剂工程上发展的电催化硝酸盐到氨转化"
  },
  "10.1039/d5nr03851k": {
   "abstract": "A facile solid-phase synthesis strategy that couples ball milling with rapid Joule-heating to fabricate Pd/C catalysts for high-performance electrocatalysis.",
@@ -5284,6 +5312,9 @@
    "Srimanta Pakhira",
    "Santanu Bhattacharyya"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-13",
   "doi": "10.1039/d5ta06955f",
@@ -5305,8 +5336,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "制备了结合在富氧空位2D-BiOBr纳米圆盘上的多价Fe原子并用于光催化N2合成NH3，通过实验和计算研究阐明了活性位点与氧空位的作用。",
   "zh_method": "光驱动",
-  "zh_obj": "光催化固氮；涉及Fe/铁体系"
+  "zh_obj": "光催化固氮；涉及Fe/铁体系",
+  "zh_title": "多价铁配合物结合的富氧空位BiOBr纳米圆盘用于光催化氨合成的机理研究"
  },
  "10.1039/d5ta07512b": {
   "abstract": "This review outlines the progress and challenges of transition metal electrocatalysts in C–N coupling from N-sources like N 2 and NO x − , emphasizing the need for mechanistic studies and improved stability.",
@@ -5318,6 +5351,9 @@
    "Wei Xiong",
    "Hao Li"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-13",
   "doi": "10.1039/d5ta07512b",
@@ -5339,8 +5375,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "概述了过渡金属电催化剂在利用N2和NOx-等氮源进行C-N偶联方面的进展与挑战，强调了机理研究和提高稳定性的必要性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "过渡金属基催化剂在电催化氨合成和C–N键形成中的应用最新进展"
  },
  "10.1039/d5ta07969a": {
   "abstract": "The LiH/Fe–N–C catalyst exhibits efficient ammonia synthesis under mild conditions, highlighting the crucial role of the synergistic interaction between nitrogen vacancies and Fe–H species in promoting dinitrogen activation and hydrogenation.",
@@ -5390,6 +5428,9 @@
    "Kai Feng",
    "Le He"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-25",
   "doi": "10.1039/d5ta08025h",
@@ -5411,8 +5452,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "综述了光驱动氮气和氢气合成氨的最新进展与机理，强调光在克服标度关系以促进温和条件下NH3生产中的独特作用。",
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "光驱动氮气和氢气合成氨"
  },
  "10.1039/d5tc03685b": {
   "abstract": "A newly designed zero-valent Ru precursor combining open and closed ligands enables atomic layer deposition of low-resistivity, highly conformal Ru thin films with exceptional thermal stability and growth performance.",
@@ -6737,6 +6780,9 @@
   "authors": [
    "Shelley D. Minteer"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-24",
   "doi": "10.1149/ma2025-02472338mtgabs",
@@ -6758,8 +6804,10 @@
   "why": [
    "electrocatalytic Nitrogen Reduction"
   ],
+  "zh_brief": "讨论了基因工程改造蓝细菌以高效向其内部组件传递电子以及表达非天然氮还原化学，并总结了该生物光电催化策略与其他电催化系统的优缺点。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "（特邀）利用基因工程改造的蓝细菌进行光电催化氮还原"
  },
  "10.1149/ma2025-02472341mtgabs": {
   "abstract": "Artificial N 2 fixation via the electrocatalytic nitrogen (N 2 ) reduction reaction (NRR) has been recently promoted as a rational route towards reducing energy consumption and CO 2 emission as compared with the traditional Haber-Bosch process. Nevertheless, optimizing NRR relies on developing highly efficient electrocatalysts. Herein, we report on the reliable and reproducible synthesis of two promising electrocatalysts in either the presence or absence of Ketjenblack (KB), respectively, namely ZrO 2 -ZrN@KB and ZrO 2 -ZrN systems, synthesized through the nitriding of Zr. Both materials had never previously been considered for NRR, to the best of our knowledge. Nevertheless, both of these electrocatalysts incorporated a combination of tetragonal ZrO 2 , ZrON, and cubic ZrN and showed excellent activity and durability towards NH 3 formation. Moreover, the maximum NH 3 production rate of 84.1 μg h −1 mg −1 at −0.7 V vs. a reversible hydrogen electrode (RHE) was achieved with the ZrO 2 -ZrN electrocatalyst with an impressive Faradic efficiency of 21.2 % at −0.6 V vs RHE, indicating a high selectivity associated with the NRR. Additionally, the catalysts demonstrated excellent stability during the electrolysis process and recycling tests. We postulate that the combination of exposed active sites of ZrN and ZrO 2 likely contributes to the enhanced NRR performance attributed to ZrO 2 -ZrN.",
@@ -7428,16 +7476,16 @@
  },
  "10.2139/ssrn.5784205": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Lili Huo",
@@ -7525,16 +7573,16 @@
  },
  "10.2139/ssrn.5799087": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Zi-Yi Wang",
@@ -7853,16 +7901,16 @@
  },
  "10.29363/nanoge.iperop.2026.057": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-01",
-   "OpenAlex": "2026-11-01"
+   "Europe PMC": "2026-11-03",
+   "OpenAlex": "2026-11-03"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-01",
+  "ab_try": "2026-11-03",
   "abstract": "",
   "authors": [
    "Subha Sadhu"
@@ -8148,6 +8196,9 @@
    "Mohammed Albuali",
    "Osamah Siddiqui"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-11-11",
   "doi": "10.5006/m2025_00104",
@@ -8169,8 +8220,10 @@
   "why": [
    "Ammonia Cracking"
   ],
+  "zh_brief": "基于Peng-Robinson状态方程建立了氨分解过程模型，评估了不同操作压力和温度下的氨转化率和能量效率，在650~700°C下记录了高达99%的氨转化率。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢"
+  "zh_obj": "氨分解制氢",
+  "zh_title": "用于低碳氢生产的氨分解建模"
  },
  "10.53941/matsus.2025.100014": {
   "abstract": "Ammonia is an essential industrial feedstock, but conventional synthesis processes, Haber-Bosch process, emit significant greenhouse gases. Electrochemical ammonia synthesis offers a promising alternative, enabling ammonia production without harmful pollutants. Recently, electrochemical nitrate reduction has attracted considerable attention for ammonia synthesis due to its high selectivity. Achieving efficient ammonia synthesis requires active and selective catalysts, and single-atom catalysts have shown great promise owing to their tunable chemical and geometric active sites. However, challenges remain, including the need to enhance active surface area and suppress competing hydrogen evolution reactions. This minireview summarizes recent advances in the design strategies of Cu-based single-atom catalysts, highlighting their advantages and performance in electrochemical nitrate reduction. Special emphasis is placed on the relationship between local composition/atomic structure and electrochemical nitrogen reduction performance by studying their local atomic coordination such as Cu-N4, Cu-NxO, CuM-Nx, and Cu embedded metal oxides. The review concludes by emphasizing the importance of further research to optimize Cu-based single-atom catalysts for efficient and sustainable ammonia production.",
