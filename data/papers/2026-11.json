@@ -175,6 +175,45 @@
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "柔性氨合成：哈伯-博施循环中操作极限的技术经济分析"
  },
+ "10.1016/j.jhazmat.2026.144099": {
+  "abstract": "",
+  "authors": [
+   "Bingyan Shi",
+   "Mingze Xia",
+   "Siqi Zhang",
+   "Cheng Fan",
+   "Shengji Tian",
+   "Chade Lv",
+   "Xiaofeng Lu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jhazmat.2026.144099",
+  "first_seen": "2026-11-03T03:55:12Z",
+  "id": "10.1016/j.jhazmat.2026.144099",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Hazardous Materials",
+  "tier": "background",
+  "title": "Engineering the electronic structure of LaCoO3 nanofibers via Cu doping for efficient electrocatalytic ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jhazmat.2026.144099",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "通过 Cu 掺杂工程化 LaCoO3 纳米纤维的电子结构以实现高效电催化合成氨"
+ },
  "10.1016/j.mcat.2026.116400": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -269,6 +308,54 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "用于促进电催化硝酸盐还原制氨的三元 CuCo2S4 结构重构"
  },
+ "10.1021/acscatal.6c07178": {
+  "abstract": "Abstract The development of high-efficiency NH3 synthesis catalysts under mild conditions is urgently required to alleviate the excessive energy consumption and carbon emissions in traditional Haber–Bosch processes. Although Ru-based catalysts show considerable potential, their catalytic activity is often severely constrained by hydrogen poisoning caused by strong H2 adsorption. Herein, we report the fabrication of a Ba/0.1Re–Ru/AC catalyst through the strategic integration of single-atom Re species into a conventional Ba/Ru/AC framework. Notably, the Ba/0.1Re–Ru/AC catalyst exhibits a high NH3 synthesis rate of 65.1 mmol g–1 h–1 at 400 °C and 1 MPa. Mechanistic investigations reveal that single-atom Re species function as a supplementary active site for H2 adsorption and activation. The incorporation of Re also facilitates H-spillover over the catalyst surface, which effectively alleviates the competitive adsorption between H2 and N2 on Ru sites and consequently mitigates hydrogen poisoning on Ru nanoclusters. Concurrently, the incorporation of single-atom Re modulates the defect density of the support and promotes the creation of additional strong Lewis basic sites. These structural changes induce a strong electronic metal–support interaction (EMSI) effect, which specifically tunes the electronic structure of the Ru nanoclusters. This synergistic interplay between single-atom Re sites and Ru nanoclusters establishes a compelling paradigm for the rational design of highly efficient NH3 synthesis catalysts.",
+  "authors": [
+   "Mingyuan Zhang",
+   "Depeng Zhang",
+   "Lei Zhang",
+   "Tianhua Zhang",
+   "Ming Chen",
+   "Xuanbei Peng",
+   "Yangyu Zhang",
+   "Yanliang Zhou",
+   "Jun Ni",
+   "Xiuyun Wang",
+   "Junling Lu",
+   "Lilong Jiang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-02",
+  "doi": "10.1021/acscatal.6c07178",
+  "first_seen": "2026-11-03T03:55:12Z",
+  "id": "10.1021/acscatal.6c07178",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 40,
+  "source": "ACS Catalysis",
+  "tier": "direct",
+  "title": "Synergistic Catalysis of Single-Site Rhenium and Ruthenium Nanoclusters for Ammonia Synthesis under Mild Conditions",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.6c07178",
+  "via": "Crossref",
+  "watch": [
+   "Junling Lu",
+   "Lilong Jiang"
+  ],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "通过将单原子铼物种整合到 Ba/Ru/AC 框架中制备了 Ba/0.1Re–Ru/AC 催化剂。该催化剂在 400 °C 和 1 MPa 下表现出 65.1 mmol g–1 h–1 的高氨合成速率。机制研究表明单原子铼作为 H2 吸附和活化的补充活性位点，促进 H 溢流并缓解氢中毒，同时调节载体缺陷密度和强金属-载体相互作用。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "温和条件下单原子铼和钌纳米团簇协同催化合成氨"
+ },
  "10.1021/acsestwater.6c01131": {
   "abstract": "Abstract Predicting the ammonium nitrogen (NH4+-N) adsorption capacity of biochar is challenged by coupled, nonlinear interactions among operational variables, pyrolysis synthesis parameters, and intrinsic material properties. A unified data set comprising 425 literature-reported adsorption records from 18 studies was compiled, and preprocessing (KNN imputation and Z-score standardization) was fitted exclusively on the training subset to prevent data leakage. Among seven machine learning algorithms benchmarked with Bayesian optimization and 5-fold cross-validation, XGBoost achieved the highest test-set coefficient of determination (R2) of 0.901 and root-mean-square error of 0.555 mg g–1. TreeSHAP analysis quantitatively decoupled three driver groups, adsorption operational parameters (53.3%), biochar physicochemical properties (38.2%), and pyrolysis synthesis parameters (8.5%), and identified initial concentration, biochar oxygen content, and adsorbent dosage as the dominant variables, with oxygen content exhibiting a unimodal relationship with adsorption capacity. Partial dependence plots were further utilized to reveal nonlinear response behaviors and determine data-coverage-validated optimal operation and design windows for key variables. A graphical user interface was developed to estimate equilibrium adsorption capacity, reducing reliance on extensive laboratory trials.",
   "authors": [
@@ -307,6 +394,49 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "生物炭铵氮吸附的可解释机器学习：解耦合成与操作驱动因素及量化最优设计规则"
+ },
+ "10.1021/jacs.6c15718": {
+  "abstract": "Abstract Above 0 V versus the reversible hydrogen electrode, the hydrogen evolution reaction is thermodynamically suppressed, making this potential region attractive for nitrate-to-ammonia conversion. However, in neutral and alkaline media typically used for the nitrate reduction reaction, protons for successive hydrogenation steps derive mainly from water dissociation, which becomes increasingly sluggish at more positive potentials. Proton availability thus governs the hydrogenation kinetics of nitrate and its intermediates. Using CuRu nanorods as a model catalyst, we resolve how the electrolyte and the catalyst jointly control the proton supply during NO3RR at positive potentials. Macroelectrode measurements reveal that the NO3– reduction kinetics depend on OH– concentration, and single-particle electrochemistry on a single CuRu nanorod, where ultrafast mass transport avoids local OH– accumulation, assigns this dependence to the bulk. Moreover, in situ scanning electrochemical microscopy shows that bulk OH– governs water dissociation kinetics; capacitance and potential-of-zero-charge measurements trace this to a strengthened, cation-enriched interfacial electric field, which accelerates water dissociation and sustains the proton supply at positive potentials. Building on the electrolyte-enhanced proton supply, Cu incorporation tunes the competitive adsorption between H2O-derived species and NO3– on the CuRu surface, thereby avoiding a proton oversupply that compromises the conversion kinetics. These results provide systematic insight into how bulk OH– concentration and catalyst composition cooperatively modulate proton supply, enhancing nitrate-to-ammonia conversion at HER-free potentials.",
+  "authors": [
+   "Jian Zhang",
+   "Thomas Quast",
+   "Esma Khatun",
+   "Yen-Ting Chen",
+   "Ridha Zerdoumi",
+   "Ann Cathrin Brix",
+   "Sabine Seisel",
+   "Kristina Tschulik",
+   "Lejing Li",
+   "Wolfgang Schuhmann"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-03",
+  "doi": "10.1021/jacs.6c15718",
+  "first_seen": "2026-11-03T03:55:12Z",
+  "id": "10.1021/jacs.6c15718",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Journal of the American Chemical Society",
+  "tier": "background",
+  "title": "Electrolyte and Catalyst Cooperatively Control Proton Supply in Nitrate-to-Ammonia Electroreduction on CuRu at Positive Potentials",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.6c15718",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_brief": "利用 CuRu 纳米棒模型催化剂，研究电解质和催化剂如何协同控制正电位下的质子供应。宏观电极测量显示 NO3– 还原动力学依赖于 OH– 浓度，单颗粒电化学证实了这一点。原位扫描电化学显微镜表明 OH– 浓度通过增强的阳离子富集界面电场加速水分解，从而维持质子供应。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电解质和催化剂在 CuRu 正电位硝酸盐到氨电还原中协同控制质子供应"
  },
  "10.1021/photonsci.6c00065": {
   "abstract": "Abstract This work presents the design, implementation, and validation of a custom-built in situ atomic layer deposition (ALD) reactor developed at the ALBA Synchrotron Light Source (Cerdanyola del Vallès, Spain), enabling direct integration with synchrotron X-ray beamlines. A modular configuration allows the ALD reactor to be deployed at two ALBA Synchrotron beamlines: NCD-SWEET beamline (BL11) for Grazing Incidence Small Angle X-ray Scattering (GISAXS) and NOTOS beamline (BL16) for X-ray Absorption Spectroscopy (XAS), requiring only minimal reconfiguration. The reactor performance was validated by in situ deposition of TiO2 thin films using titanium tetraisopropoxide (TTIP) and H2O as the precursor and co-reactant, respectively, with a growth per cycle (GPC) of 0.17 Å·cycle–1 at 150 °C. This system was chosen for its low growth rate, as a demanding test of detection sensitivity. In situ GISAXS revealed the continuous evolution of film morphology and near-surface electron density over 1000 ALD cycles, while in situ X-ray absorption near-edge structure (XANES) quantitatively resolved three kinetically distinct growth regimes: prenucleation, nucleation development, and steady-state growth. The complementarity of the two techniques provides a comprehensive picture of ALD growth dynamics that neither technique could deliver independently, demonstrating the potential of the ALD system presented here for in situ multi-technique characterization of a broad range of ALD processes.",
@@ -349,6 +479,77 @@
   "zh_brief": "开发了一种可集成同步辐射光束线的模块化原位原子层沉积反应器，用于GISAXS和XAS表征。该系统在150 °C下沉积TiO2薄膜，生长速率为0.17 Å·cycle–1，并揭示了三种动力学生长阶段。原位GISAXS和XANES结合提供了薄膜形貌和生长动力学的综合图像。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+ },
+ "10.1039/d6ta06451e": {
+  "abstract": "In spite of considerable work to produce ammonia using technologies beyond the energyintensive and costly Haber-Bosch process, finding efficient and earth-abundant catalysts for electrocatalytic nitrogen reduction reaction (NRR) remains a...",
+  "authors": [
+   "Erakulan E. Siddharthan",
+   "Mehmet Emin Kilic",
+   "Puru Jena"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-02",
+  "doi": "10.1039/d6ta06451e",
+  "first_seen": "2026-11-03T03:55:12Z",
+  "id": "10.1039/d6ta06451e",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "Beyond the Haber-Bosch Process: Design of Efficient Electrocatalysts for Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6ta06451e",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "尽管在利用超越哈伯-博施过程生产氨方面进行了大量工作，但寻找高效且地球丰富的电催化氮还原反应电催化剂仍然是一个挑战。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "超越哈伯-博施过程：高效电催化合成氨电催化剂的设计"
+ },
+ "10.1149/1945-7111/aebcb9": {
+  "abstract": "Abstract Electrocatalytic reduction reaction of nitrate to ammonia (NO3RR) has emerged as a promising strategy that couples nitrate pollutant remediation with sustainable NH3 production. Practical nitrate-containing industrial wastewater usually presents a wide pH distribution range, which puts forward an urgent requirement for pH-adaptive NO₃RR catalysts with high ammonia selectivity. Conventional NO3RR catalysts fail to deliver high NH3 Faradaic efficiency under extreme acidic or alkaline conditions, mainly due to uncontrollable competitive adsorption of hydrogen intermediates on active sites. Herein, we report a ruthenium-decorated copper foam catalyst (RuCuF@PUS) fabricated via a facile two-step electrodeposition method, which achieves exceptional NO3RR performance across a wide pH window of 1-12. The interconnected porous framework enables efficient mass transfer, while the precisely designed dual active sites endow Cu with strong nitrate adsorption and activation capability, and Ru with accelerated sequential hydrogenation kinetics. In acidic condition, the catalyst achieves a remarkable ammonia yield rate of 457.56 µmol/h·cm2 at −0.4 V vs. RHE, with a peak Faradaic efficiency of 90.96%. Furthermore, a proof-of-concept alkaline-acidic hybrid Zn–NO3 battery assembled with the RuCuF@PUS cathode and real nitrate-containing wastewater as electrolyte achieves an open-circuit voltage of 1.29 V and a peak power density of 25.93 mW/cm2.",
+  "authors": [
+   "Siqi Xing",
+   "Xu Wu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-02",
+  "doi": "10.1149/1945-7111/aebcb9",
+  "first_seen": "2026-11-03T03:55:12Z",
+  "id": "10.1149/1945-7111/aebcb9",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of The Electrochemical Society",
+  "tier": "background",
+  "title": "pH-Universal Electrocatalytic Nitrate-to-Ammonia Reduction on Ruthenium-Decorated Copper Foam",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1149/1945-7111/aebcb9",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "NH3 production"
+  ],
+  "zh_brief": "报道了一种通过两步电极沉积法制备的铀修饰铜泡沫催化剂 RuCuF@PUS，实现了 1-12 宽 pH 范围内的卓越 NO3RR 性能。该催化剂在酸性条件下于 −0.4 V vs RHE 下实现了 457.56 µmol/h·cm2 的氨产率率和 90.96% 的峰值法拉第效率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系",
+  "zh_title": "铀修饰铜泡沫上 pH 通用电催化硝酸盐到氨还原"
  },
  "10.2118/235635-ms": {
   "abstract": "Abstract Green ammonia projects face increasing challenges in progressing from conceptual development toward bankable execution, requiring coordinated development across technology, infrastructure, safety assurance, and commercial pathways. This paper presents the outcome of an ongoing front-end development program for a compact floating green ammonia FPSO-type facility. It discusses how mature technologies can be selected for floating applications, modularized, marinized, and integrated with safety-led design to support a scalable and bankable infrastructure model. The development incorporates contributions from the project developer, the design and fabrication contractor, and an independent classification and technical assurance partner. Market-driven design considerations include renewable power availability, geographical location, export route, and potential offtake markets. The technical scope includes approximately 500 MW renewable power intake, high-voltage distribution, hydrogen production, nitrogen generation, ammonia synthesis, refrigerated storage, utilities, marine systems, and offloading interfaces. Safety studies comprise HAZID, layout review, safety screening, and coarse quantitative risk assessment covering hydrogen and ammonia major accident hazards, including hydrogen accumulation and explosion risk, ammonia toxic dispersion, compact layout constraints, marine offloading interfaces, and nearshore risk exposure. The paper demonstrates how technical readiness, commercial readiness, and safety and regulatory readiness can be matured together to progress the concept beyond Approval in Principle toward an execution-ready project definition.",
