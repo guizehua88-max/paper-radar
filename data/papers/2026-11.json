@@ -988,6 +988,47 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "生物炭铵氮吸附的可解释机器学习：解耦合成与操作驱动因素及量化最优设计规则"
  },
+ "10.1021/jacs.6c14152": {
+  "abstract": "Abstract Plasmonic photocatalysis can enhance conventional chemical transformations, but macroscale kinetic metrics, such as overall reaction rates and apparent activation barriers, are insufficient to identify the specific elementary steps modulated by hot carriers, limiting precise control over catalytic reactivity and selectivity. Here, we apply a spectrokinetic strategy based on in situ diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS) to resolve elementary-step energetics in NH3 decomposition over CuRu alloy antenna–reactor catalysts. CuRu and Na-modified CuRu show different relative sensitivities to heating and illumination, providing a paired system for tracking how kinetic control is redistributed under thermal and plasmonic conditions. Temporal in situ DRIFTS and Arrhenius analysis identify site-dependent adsorbed N2 (*N2) intermediates and reveal a sequential migration–desorption pathway for *N2 removal. Thermal kinetic analysis shows that Na enhances thermocatalytic activity, despite strengthening *N2 binding and increasing the *N2 desorption barrier at terrace sites, while DFT calculations suggest that this enhancement is consistent with a reduced interfacial N–N coupling barrier. Under illumination, CuRu exhibits a nearly three-orders-of-magnitude light-specific rate enhancement, accompanied by decreases of 0.75 and 0.28 eV in the activation barriers for terrace *N2 desorption and interfacial *N2 migration, respectively, relative to dark thermal conditions. Comparing CuRu and CuRu–Na shows that illumination affects interfacial *N2 migration more selectively than terrace *N2 desorption, identifying interfacial *N2 removal as a site-sensitive step in plasmon-promoted active-site regeneration. These findings connect plasmonic excitation with site-dependent surface dynamics and elementary-step energetics, providing a framework for understanding how light redirects kinetic control in multistep catalysis.",
+  "authors": [
+   "Yaxi Gan",
+   "Huayue Yang",
+   "Dan Zeng",
+   "Bofang Wang",
+   "Shengqiang Nie",
+   "Lin Yuan",
+   "Yun Zhao",
+   "Linan Zhou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-03",
+  "doi": "10.1021/jacs.6c14152",
+  "first_seen": "2026-11-04T02:59:32Z",
+  "id": "10.1021/jacs.6c14152",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Journal of the American Chemical Society",
+  "tier": "background",
+  "title": "Deciphering Hot-Carrier Effects on Multiple Elementary Steps in Ammonia Decomposition",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.6c14152",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_brief": "利用原位 DRIFTS 和 DFT 计算研究 CuRu 合金催化剂上氨分解的基元步骤。发现光照下 CuRu 的光特异性反应速率提升近三个数量级，界面 N2 迁移和台阶位点 N2 脱附的活化能分别降低 0.28 eV 和 0.75 eV，表明界面 N2 去除是光促进活性位点再生的关键步骤。",
+  "zh_method": "光驱动",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "揭示氨分解中多基元步骤的热载流子效应"
+ },
  "10.1021/jacs.6c15718": {
   "abstract": "Abstract Above 0 V versus the reversible hydrogen electrode, the hydrogen evolution reaction is thermodynamically suppressed, making this potential region attractive for nitrate-to-ammonia conversion. However, in neutral and alkaline media typically used for the nitrate reduction reaction, protons for successive hydrogenation steps derive mainly from water dissociation, which becomes increasingly sluggish at more positive potentials. Proton availability thus governs the hydrogenation kinetics of nitrate and its intermediates. Using CuRu nanorods as a model catalyst, we resolve how the electrolyte and the catalyst jointly control the proton supply during NO3RR at positive potentials. Macroelectrode measurements reveal that the NO3– reduction kinetics depend on OH– concentration, and single-particle electrochemistry on a single CuRu nanorod, where ultrafast mass transport avoids local OH– accumulation, assigns this dependence to the bulk. Moreover, in situ scanning electrochemical microscopy shows that bulk OH– governs water dissociation kinetics; capacitance and potential-of-zero-charge measurements trace this to a strengthened, cation-enriched interfacial electric field, which accelerates water dissociation and sustains the proton supply at positive potentials. Building on the electrolyte-enhanced proton supply, Cu incorporation tunes the competitive adsorption between H2O-derived species and NO3– on the CuRu surface, thereby avoiding a proton oversupply that compromises the conversion kinetics. These results provide systematic insight into how bulk OH– concentration and catalyst composition cooperatively modulate proton supply, enhancing nitrate-to-ammonia conversion at HER-free potentials.",
   "authors": [
@@ -1159,6 +1200,44 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "超越哈伯-博施过程：高效电催化合成氨电催化剂的设计"
+ },
+ "10.1039/d6ta07160k": {
+  "abstract": "The electrochemical reduction of nitrite (NO 2 − ) to ammonia offers a compelling route to synergistically remediate nitrite-polluted wastewater and produce value-added NH 3 . However, its practical viability is constrained by the scarcity...",
+  "authors": [
+   "Haifen Ding",
+   "Limin Song",
+   "Rong Hua",
+   "Yuxing Ma",
+   "Xuezhen Si",
+   "Youfeng Pan",
+   "Haoquan Zheng"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-03",
+  "doi": "10.1039/d6ta07160k",
+  "first_seen": "2026-11-04T02:59:32Z",
+  "id": "10.1039/d6ta07160k",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "Hollow High-Entropy Oxide Spheres for Enhanced Electrocatalytic Nitrite-to-Ammonia Conversion",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6ta07160k",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "针对亚硝酸盐还原制氨的实用性问题，制备了高熵空心氧化物球。该材料通过高熵效应和空心结构协同提升了电催化性能，为处理含氮废水及生产高附加值氨提供了有效途径。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "用于增强电催化亚硝酸盐制氨的高熵空心氧化物球"
  },
  "10.1080/29984475.2026.2748636": {
   "ab_check_v": 2,
