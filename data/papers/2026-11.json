@@ -327,18 +327,18 @@
  },
  "10.1016/j.cej.2026.183777": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02"
+   "OpenAlex": "2026-11-04"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Jingya Ding",
@@ -378,17 +378,18 @@
  },
  "10.1016/j.ecmx.2026.102431": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02"
+   "OpenAlex": "2026-11-04"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-02",
-  "abstract": "",
+  "ab_try": "2026-11-04",
+  "abstract": "The potential of various metal oxides as redox carrier materials was investigated for on-demand hydrogen/ammonia production and solid-state storage through solar chemical-looping processes. Metal production involves solar-driven reduction assisted by various bio-sourced reductants, while nitride synthesis requires a similar reduction process supplemented by nitrogen incorporation. The reduced metals act as long-term solid storage media. Steam oxidation of metals (or nitrides) produces pure H 2 (or NH 3 ). A selection of oxide/metal and oxide/nitride pairs was carried out to identify the most promising systems. Suitable metals were screened according to multi-criteria: thermodynamic feasibility/conversion extents at equilibrium, cycle/process efficiencies, energy/exergy demands, specific storage density, and material availability/cost. Mo, W, and V offer high volumetric H 2 storage density despite low abundance and high cost. Al, Si, Mg, Fe, Mn, Cr, and Ti balance favorable storage performance with high availability and affordability, making them adapted for large-scale H 2 storage, while Zn, Sn, Ga, Ge, Ca, Sr, Ta, and Sc are less abundant or show moderate performance, suited mainly for niche uses. Regarding nitrides for NH 3 synthesis, AlN, TaN, ZrN, W 2 N, TiN, and Ge 3 N 4 formation from oxides with C/N 2 was thermodynamically feasible. Furthermore, energy and exergy analysis revealed that Fe(s), Mo(s), Sn(s), W(s) systems show maximum solar-to-fuel efficiencies (40–50% for C, 20–25% for CH 4 reductant), followed by Ga(g), Ge(s), Mn(g), V(g), Zn(g), Ta(s), and B(s). They also require the lowest exergy demand and inversion temperatures. In contrast, Al(g), Ca(g), Cr(g), Mg(g), Si(g), Sr(g), Ti(g), and Sc(s) show lower process efficiencies and higher exergy requirements due to higher temperatures and associated losses. The cycle temperatures could however be decreased in open reactor systems or by tuning the operating conditions to favor metals synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Stéphane Abanades",
    "Srirat Chuayboon"
@@ -414,25 +415,27 @@
   "url": "https://doi.org/10.1016/j.ecmx.2026.102431",
   "via": "Crossref",
   "watch": [],
-  "why": [],
+  "why": [
+   "ammonia production"
+  ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
   "zh_title": "太阳能化学链过程中用于生产与存储氢气和氨气的可回收金属载体候选物的筛选"
  },
  "10.1016/j.ijhydene.2026.158417": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02"
+   "OpenAlex": "2026-11-04"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Cecilia Pistolesi",
@@ -1590,16 +1593,16 @@
  },
  "10.46427/gold2026.35845": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02"
+   "OpenAlex": "2026-11-04"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Rosanna Margalef Marti",
@@ -1641,13 +1644,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02"
+   "OpenAlex": "2026-11-04"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Bastien Redon",
@@ -1687,18 +1690,18 @@
  },
  "10.46427/gold2026.36360": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02"
+   "OpenAlex": "2026-11-04"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Victoria Mills",

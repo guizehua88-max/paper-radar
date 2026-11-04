@@ -98,6 +98,9 @@
    "Chenglin Yan",
    "Tao Qian"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-08-08",
   "doi": "10.1002/adfm.202514967",
@@ -119,8 +122,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "电化学亚硝酸还原反应（NO2− RR）为高效合成氨和治理亚硝酸盐废水污染提供了一种节能路线。铜型亚硝酸还原酶（Cu-NIRs）在自然氮循环中有效催化亚硝酸还原。受结构酶学启发，构建了一种模拟 Cu-NIRs 的 CuFe/NiFe 异质结构催化剂，用于高效还原稀亚硝酸为氨。机理研究表明，NiFe 相作为氢和电子供体中心，CuFe 相作为活性中心。生物模拟异质结构很好地模拟了 Cu-NIRs 的作用机制，在相对于可逆氢电极电位高于 -0.5 V 的宽电位范围内实现了近 100% 的法拉第效率，峰值 NH3 产率率为 45.61 mg h−1 mg−1。该研究强调了催化剂设计的生物模拟策略，为其在电催化领域的合理应用铺平了道路。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学亚硝酸盐还原"
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "使用模拟亚硝酸还原酶异质结构催化剂进行高效的电化学亚硝酸还原合成氨"
  },
  "10.1002/adfm.202516068": {
   "abstract": "Abstract Ru‐based materials exhibit outstanding potential for electrocatalytic nitrate reduction reactions (eNitRR), but balancing catalytic activity and selectivity remains a challenge. Here, boron clusters ( closo ‐[B 12 H 12 ] 2− ) serve as both reducing agent and boron source, and boron cage collapses during the reduction, releasing B atoms for doping. Ru is dispersed into independent atoms and stabilized by abundant boron to form Ru─B/Cu x O. Crucially, electron deficiency within boron in the formed Ru─B bonds draws electron density from Ru 0 , generating electron‐deficient Ru δ+ sites, which significantly boosts eNitRR activity. Density functional theory (DFT) calculations confirm the altered electronic structure of Ru by boron doping. This modification promotes the generation of crucial * H intermediates, enhances the adsorption and activation of NO 3 − , and facilitates the dissociation of NH 3 on the catalyst surface. Consequently, Ru─B/Cu x O delivers a maximum NH 3 yield rate of 70.36 g h −1 g cat. −1 and Faradaic efficiency of 98.45%. Furthermore, a Zn‐NO 3 − battery assembled with the Ru─B/Cu x O cathode demonstrates a high open‐circuit voltage of 1.62 V and an impressive output power density of 1.46 mW cm −2 . This study uniquely harnesses dual‐functional boron clusters as structural bridges to construct boron‐doped ruthenium complexes, effectively regulating ruthenium's electronic structure. It provides novel strategies and insights for developing high‐performance ruthenium‐based eNitRR catalysts.",
@@ -1090,7 +1095,7 @@
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1099,7 +1104,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Mengyu Jin",
@@ -1144,7 +1149,7 @@
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1153,7 +1158,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Nenad Zecevic"
@@ -1192,6 +1197,9 @@
    "Sajjad Hossain",
    "Zahid Hasan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-08-22",
   "doi": "10.1007/s12633-025-03434-0",
@@ -1217,8 +1225,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究设计了一种具有催化本质的栅极连接和原子化结构的双栅结型垂直层场效应晶体管（DG JL VTFET）用于氨气传感。垂直双栅极结构相比传统 TFET 提高了带间隧穿（BTBT）的栅极可控性。GaAs 材料因其高电子迁移率和带隙特性，提高了器件的灵敏度。通过调整工作函数值在源区附近形成硅 P 型口袋。使用钴（Co）和钼（Mo）作为栅极材料分析 n 沟道 JLVTFET 的氨气传感特性。研究考虑了气体分子吸附对电场、表面势、能带图和 I d -V 特性的影响。气体在栅极金属上的吸附改变了工作函数，导致 Off-current (I off )、On-current (I on ) 和阈值电压 (V th ) 变化，这些参数用于检测氨气分子。通过改变沟道长度和介电材料分析其对器件灵敏度的影响。与硅基 DG JL VTFET 气体探测器相比，GaAs 基器件表现出更高的灵敏度和更好的开/关电流比。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "GaAs 基双栅结型垂直层场效应晶体管的设计与性能分析用于氨气传感"
  },
  "10.1007/s12678-025-00977-z": {
   "ab_check_v": 2,
@@ -1532,7 +1542,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1540,7 +1550,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Jongyun Jung",
@@ -1632,7 +1642,7 @@
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1641,7 +1651,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Minjeong Kweon",
@@ -1685,7 +1695,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1693,7 +1703,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Wen Fan",
@@ -1751,7 +1761,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1759,7 +1769,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Letian Huang",
@@ -1855,7 +1865,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1863,7 +1873,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Hubert Ronduda",
@@ -2155,7 +2165,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2163,7 +2173,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Shuai Zhang",
@@ -2442,7 +2452,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2450,7 +2460,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Ya Ren",
@@ -2681,7 +2691,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2689,7 +2699,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Zhengang Ji",
@@ -2830,7 +2840,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2838,7 +2848,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Guangyuan Jin",
@@ -3125,7 +3135,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3133,7 +3143,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Mingjun Xiao"
@@ -3667,7 +3677,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3675,7 +3685,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Taehyun Kim",
@@ -3911,7 +3921,7 @@
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3920,7 +3930,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Muhammad Ehtisham Akram",
@@ -3965,7 +3975,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3973,7 +3983,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Peiqi PANG",
@@ -5316,7 +5326,7 @@
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
    "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-04",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -5325,7 +5335,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-04",
   "abstract": "",
   "authors": [
    "Abu Danish Aiman Bin Abu Sofian"
@@ -5607,6 +5617,9 @@
    "Jianzhang Zhou",
    "Deyin Wu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-08-25",
   "doi": "10.1063/5.0281781",
@@ -5628,8 +5641,10 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "研究对象为氮还原反应（NRR），采用第一性原理周期性薄板模型，结合单原子/双原子催化剂和晶体学平面效应，研究 Au(100)、Au(110) 和 Au(111) 表面单原子或双原子 Fe 掺杂对 N2 和 *NNH 吸附的吉布斯自由能（ΔG）。单原子 Fe 掺杂 Au(100) 表面 N2 侧向吸附最强，双原子 Fe 掺杂 Au(100) 表面 N2 侧向吸附 ΔG 更低。研究发现，双原子 Fe 掺杂 Au(100) 表面的 Fe 二聚体因局部应变弛豫，增强 N2 侧向吸附。理论研究表明，N2 侧向吸附构型在等离子体光电化学 NRR 中具有优势，并揭示了表面局部应变和动态弛豫对侧向吸附的影响。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
+  "zh_title": "表面局部应变和双原子铁掺杂协同促进等离子体光电化学氮还原反应"
  },
  "10.1063/5.0283321": {
   "abstract": "In a previous work using an atmospheric-pressure plasma, we observed the contribution of vibrationally excited molecular nitrogen in the synthesis of ammonia, while in another previous work using a low-pressure plasma, the synthesis rate was dominated by atomic nitrogen. In this work, we examined the synthesis of ammonia in a low-pressure nitrogen–hydrogen mixture plasma where the vibrational temperature of molecular nitrogen was as high as 4500 K. No specific catalysts were employed, and ammonia was produced on the surface of a stainless-steel vacuum chamber. As a result, we observed an insufficient correlation between the densities of atomic nitrogen and synthesized ammonia, whereas a better correlation was observed between the ammonia density and the vibrational temperature. The experimental result suggests that vibrationally excited molecular nitrogen contributes to ammonia synthesis even in a low-pressure plasma if the vibrational temperature is higher than 3000 K.",
@@ -5677,6 +5692,9 @@
    "Lipeng Hu",
    "Danfeng Du"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-08-12",
   "doi": "10.1080/17480272.2025.2542956",
@@ -5696,8 +5714,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究采用蒙脱石、MgCl2、树脂和松木为原料合成木材陶瓷基质复合材料（WCM），并成功用作水中的氨氮吸附剂。WCM 样品的表观孔隙率为 78%，主要由中孔组成，比表面积为 13 m2/g。研究结果表明，WCM 对氨氮的吸附符合 Freundlich 模型、准二级模型和颗粒内扩散模型。通过分批实验设计研究了不同变量对 WCM 三种性能（吸附容量、表面硬度和烧失率）的影响：混合原料重量、木纤维与木粉的质量比和 MgCl2 溶液摩尔浓度。优化后的木材陶瓷综合性能显示，氨氮吸附容量为 4.26 mg/g，表面硬度为 551 HV，烧失率为 21%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "木材陶瓷的阶乘实验设计用于从水中吸附氨氮及其综合性能分析"
  },
  "10.1088/2399-1984/adfc18": {
   "abstract": "Abstract Ammonia is indispensable to agriculture and energy applications, but its conventional synthesis through the Haber–Bosch process remains both energy- and carbon-intensive. These concerns have driven interest in renewable-powered ammonia synthesis. The photoelectrochemical reduction of nitrogen and nitrate in aqueous electrolytes presents a promising alternative, converting solar energy into ammonia by integrating the advantages of electrochemical and photochemical methods. This process involves the use of photoelectrodes consisting of semiconductors that harness solar energy to excite electrons, and co-catalysts that facilitate electron transfer to reactants in the electrolyte. In this review, we examine recent developments in photoelectrode design for photoelectrochemical ammonia synthesis, with a particular focus on material properties such as semiconductor composition, band structure, surface morphology, co-catalyst selection, and emerging strategies that influence catalytic activity and selectivity. This review aims to provide a comprehensive overview of photoelectrode applications in solar-driven ammonia synthesis.",
