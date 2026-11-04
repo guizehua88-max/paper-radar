@@ -234,6 +234,9 @@
    "Yu‐Ming Zheng",
    "Ning Han"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-31",
   "doi": "10.1002/advs.202416053",
@@ -255,8 +258,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "氨 (NH 3 ) 因其高能量密度、丰富的氢含量以及与氢气相比更高的液化温度而备受推崇，被视为碳中性能源和氢存储材料。氨的主要合成方法是哈伯-博施过程，该过程条件苛刻，导致全球能源消耗和二氧化碳排放显著。为应对能源和环境挑战，探索创新绿色和可持续的氨合成技术至关重要。电化学技术的快速发展为环境友好的氨合成研究带来了新的前景。然而，反应中的复杂中间产物和缓慢动力学阻碍了绿色电化学氨合成 (EAS) 技术的进展。为提高 EAS 的活性和选择性，包括氮气、硝酸盐和一氧化氮的电催化还原，已仔细研究了多种电催化剂和设计策略。本文主要深入探讨了 EAS 路径的最新进展和障碍，研究了通过多维结构优化提高氨合成产率速率和当前效率的方法，同时探索了 EAS 的挑战和展望。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "多维结构优化和调节机制的探索：催化剂和反应环境在电化学氨合成中"
  },
  "10.1002/aic.18732": {
   "abstract": "Abstract This paper presents an advanced machine learning‐based framework designed for predictive modeling, state estimation, and feedback control of ammonia synthesis reactor dynamics. A high‐fidelity two‐dimensional multiphysics model is employed to generate a comprehensive dataset that captures variable dynamics under various operational conditions. Surrogate long short‐term memory neural networks are trained to enable real‐time predictions and model‐based control. Additionally, a feedforward neural network is developed to estimate the outlet ammonia concentration and hotspot temperature using spatially distributed temperature readings, thereby addressing the challenges associated with real‐time concentration and maximum temperature measurements. The machine learning‐based predictive modeling and state estimation methods are integrated into a model predictive control architecture to regulate ammonia synthesis. Simulation results demonstrate that the machine learning surrogates accurately represent the nonlinear process dynamics with minimal discrepancy while reducing optimization costs compared to the high‐fidelity model, ensuring adaptability and effective guidance of the reactor to desired set points.",
@@ -448,6 +453,9 @@
    "Yuwei Zhao",
    "Chunyi Zhi"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-31",
   "doi": "10.1002/celc.202400499",
@@ -469,8 +477,10 @@
   "why": [
    "Nitrate Reduction"
   ],
+  "zh_brief": "电化学硝酸盐还原反应 (NO 3 − RR) 代表了一种有前景的氨 (NH 3 ) 生产方法，近年来备受关注。由于合金材料的电子结构和物理化学性质高度可调，它们已成为电化学 NO 3 − RR 的高效催化剂。本文系统地考察了用于电化学 NO 3 − RR 的合金催化剂的最新进展，包括二元合金和多金属合金，全面分析了其结构、催化活性和 NO 3 − RR 的机制。此外，描述了合金催化剂的组成、活性位点与催化活性之间的关系，旨在阐明高催化活性的潜在原理，并指导未来合金催化剂的合理设计。最后，本文讨论了合金催化剂的挑战，并提出了未来研究和开发的方向。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "用于电化学硝酸盐还原为氨的合金催化剂"
  },
  "10.1002/cnl2.189": {
   "abstract": "ABSTRACT Carbon‐based nanomaterials play a significant role in the field of electrochemistry because of their outstanding electrical conductivity, chemical and thermal resistance, structural flexibility, and so on. In recent years, we have observed a rapid rise of research interest in the high‐temperature shock (HTS) method, which is fast, stable, environmentally friendly, and versatile. The HTS method offers excellent controllability and repeatability while tackling challenges and limitations of traditional preparation methods, providing a new way to prepare and optimize carbon‐based nanomaterials for electrochemical applications. During the HTS synthesis, the reaction is driven by the high temperature while further growth of obtained nanoparticles is inhibited by the rapid heating and cooling rates. The preparation of carbon‐based nanomaterials by HTS has many advantages, including controlled carbon vacancy that may drive phase transformation, precise engineering of carbon, and other defects that may function as active centers, formation and preservation of metastable phase owing to the high energy and rapid cooling, fine‐tuning of the interaction between loaded species and carbon support for optimized performance, and facile doping and compounding to induce synergy between different constituents. This article provides a comprehensive review of various carbon‐based nanomaterials prepared by the HTS method and their applications in the field of electrochemistry during the past decade, emphasizing their synthesis and principles to optimize their performance. Studies showcasing the merits of HTS‐derived carbon‐based nanomaterials in advancing Lithium‐ion batteries, Lithium‐sulfur batteries, Lithium‐air batteries, water‐splitting reaction, oxygen reduction reaction, CO 2 reduction reaction, nitrate reduction reaction, other electrocatalytic reactions, and fuel cells are highlighted. Finally, the prospects of carbon‐based nanomaterials prepared by HTS method for electrochemical applications are recommended.",
@@ -660,6 +670,9 @@
    "Huabin Zhang",
    "Xin‐Yao Yu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-31",
   "doi": "10.1002/smll.202411215",
@@ -681,8 +694,10 @@
   "why": [
    "produce ammonia"
   ],
+  "zh_brief": "开发一种有效策略来同时提高电催化剂的电催化硝酸盐还原反应 (eNO 3 RR) 的活性和稳定性仍然具有挑战性。本文以金属钴为例，通过 H 2 等离子蚀刻电沉积钴纳米片 (Co NSs) 构建低配位钴纳米片 (L‐Co NSs)，证明了这可以大大提高金属钴在 eNO 3 RR 中的活性和稳定性。与 Co NSs 相比，在 −0.4 V 对 RHE，硝酸盐去除率、氨部分电流密度和氨产率分别从 82.14% 提高到 98.57%、从 476 提高到 683 mA cm −2 、从 2.11 提高到 2.54 mmol h −1 cm −2 。此外，L‐Co NSs 在 30 次循环的稳定性测试后表现出微不足道的活性衰减，而 Co NSs 则显示出显著的活性下降。原位电化学表征和理论计算证实，L‐Co NSs 中的 Co 空位丰富不仅有助于优化电子结构并增强关键中间体的脱附以提高活性，而且还促进了",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "低配位钴在电催化硝酸盐还原为氨方面的增强活性和稳定性"
  },
  "10.1002/smll.202411468": {
   "abstract": "Abstract Photo‐thermal catalysis, leveraging both thermal and non‐thermal solar contributions, emerges as a sustainable approach for fuel and chemical synthesis. In this study, an Fe‐based catalyst derived from a metal–organic framework is presented for efficient photo‐thermal ammonia (NH 3 ) decomposition. Optimal conditions, under light irradiation without external heating, result in a notable 55% NH 3 conversion. Mechanistic investigations reveal that the enhanced catalytic activity arises from the synergistic interplay between light‐induced hot carriers and elevated temperatures during irradiation. Supported by density functional theory calculations, the findings elucidate the dual role of the catalyst. At lower temperatures, photo‐generated electrons in the Fe 3 O 4 phase serve to raise the energies of reaction intermediates, preventing the formation of a thermodynamic sink. Conversely, at higher temperatures, metallic Fe emerges as the predominant active phase, with thermal contributions prevailing. Overall, this work advances the understanding of the cooperative effects between light and heat in photo‐thermal systems, paving the way for innovative applications in sustainable energy conversion.",
@@ -3354,6 +3369,9 @@
    "Navoi State Mining and Technological University",
    "Azim Jurakulovich Khalilov"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-01-30",
   "doi": "10.15863/tas.2025.01.141.27",
@@ -3376,7 +3394,8 @@
    "AMMONIA SYNTHESIS"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "基于神经-模糊模型的数学建模用于氨合成过程的先进控制系统"
  },
  "10.20517/cs.2024.146": {
   "ab_check_v": 2,
