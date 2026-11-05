@@ -11412,42 +11412,6 @@
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "通过脉冲激光沉积制备的 GeO2:SnO2/Si 薄膜的氨气传感性能"
  },
- "10.2139/ssrn.7404325": {
-  "abstract": "Electrocatalytic nitrate reduction (NO₃RR) offers a promising route for ammonia synthesis, but is hindered by slow kinetics and competitive hydrogen evolution reaction (HER). Herein, ultrathin Cu‐doped Co₃O₄/reduced graphene oxide (Cu‐Co₃O₄/rGO) nanosheets are prepared through the morphology and electronic structure modulation for efficient NO₃RR performance. Combined experiments and DFT computations disclose that Cu doping induces 2D nanosheet morphology, up-modulates the d‐band center to optimize the adsorption strengthen of reactants and key intermediates, and constructs Cu‐Co tandem sites for cascade catalysis, while rGO improves the composite conductivity. The optimized catalyst exhibits a Faradaic efficiency of 98.5% at -0.7 V vs. RHE and an ammonia yield of 25.2 mg h-¹ mgcat-¹ at -1.0 V vs. RHE with high stability. The in‐situ electro‐generated ammonia acts directly as a base catalyst for chalcone synthesis with 75.9% conversion, constructing a waste‐to‐resource‐to‐value model integrating nitrate remediation and sustainable fine‐chemical synthesis.",
-  "authors": [
-   "Ling-Ling Shan",
-   "Jing-Jing Liang",
-   "Shao-Wei Bian"
-  ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "abstract",
-  "brief_v": 4,
-  "cross": false,
-  "date": "2026-09-03",
-  "doi": "10.2139/ssrn.7404325",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.2139/ssrn.7404325",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 9,
-  "source": "SSRN",
-  "tier": "background",
-  "title": "Morphology and Electronic Structure Modulation of Cu-Doped Co₃O₄/rGO Nanosheets for Efficient Electrocatalytic Nitrate-to-Ammonia Upcycling and Onsite Chalcone Synthesis",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.2139/ssrn.7404325",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "ammonia synthesis"
-  ],
-  "zh_brief": "通过Cu掺杂调控形貌和电子结构构建Cu-Co串联位点，优化了反应物和中间体的吸附强度，所得催化剂在-1.0 V vs. RHE下氨产率为25.2 mg h-¹ mgcat-¹，原位生成的氨直接作为查尔酮合成的催化剂。",
-  "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及碳材料",
-  "zh_title": "Cu掺杂Co₃O₄/rGO纳米片的形貌与电子结构调控用于高效电催化硝酸盐-氨升级与原位查尔酮合成"
- },
  "10.2139/ssrn.7417057": {
   "abstract": "Cross-linked polyethylene (XLPE) possesses outstanding properties—including durability, chemical inertness, and resistance to flow at elevated temperatures—yet its permanent cross-linked network poses substantial challenges for sustainable end-of-life management. Here we demonstrate the rapid upcycling of waste XLPE cable insulation into graphene within 10 s via flash Joule heating (FJH) using an inexpensive (~$120) commercial arc welder. We reveal that FJH behavior is governed by the combined effects of the bulk electrical resistance of the feedstock and conductive-pathway homogeneity, both of which are strongly influenced by XLPE particle size. Specifically, XLPE scraps with particle sizes below 1000 μm promote the formation of uniform conductive pathways while maintaining favorable bulk resistance (15‒50 Ω), thus enabling complete FJH and producing higher-quality graphene. Raman spectroscopy confirms that graphene produced by complete FJH exhibits I2D/IG ratios ≥ 2 and is nearly defect-free in selected regions, and that the ground graphene products show average I2D/IG ratios of 0.80–1.12. In contrast, even at a favorable bulk resistance of ~50 Ω, XLPE scraps with particle sizes above 1000 μm predominantly undergo localized FJH because of less homogeneous conductive pathways, yielding lower-quality graphene with average I2D/IG ratios of 0.46–0.60. A comparison with a low-density polyethylene (LDPE) control further demonstrates that the permanent cross-linking network preserves the feedstock architecture and conductive pathways, enabling complete FJH, whereas melting of LDPE disrupts these pathways, resulting in lower-quality graphene. These findings establish a processing-parameter framework for upcycling thermoset waste and lay the foundation for its scalable valorization.",
   "authors": [
@@ -12982,6 +12946,50 @@
   "zh_method": "光驱动",
   "zh_obj": "制氨路线未明确",
   "zh_title": "通过改变锌比例优化 TiO2 光催化剂用于降解有机染料亚甲基蓝"
+ },
+ "10.68890/gaurj.5002.05": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-05",
+   "Semantic Scholar": "2026-11-05"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-05",
+  "abstract": "",
+  "authors": [
+   "N Shiva",
+   "K. M. Patel",
+   "K. V. Rabari"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-09-10",
+  "doi": "10.68890/gaurj.5002.05",
+  "first_seen": "2026-11-05T18:46:52Z",
+  "id": "10.68890/gaurj.5002.05",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Gujarat Agricultural Universities Research Journal",
+  "tier": "background",
+  "title": "Nitrogen management for improving productivity, nutrient uptake and economics of sesame (Sesamum indicum L.) under North Gujarat conditions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.68890/gaurj.5002.05",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "氮素管理对提高芝麻（Sesamum indicum L.）在北古吉拉特条件下的生产力、养分吸收和经济性的影响"
  },
  "url:https://hdl.handle.net/10902/41240": {
   "abstract": "La descarbonización del sector energético y de la industria química requiere desarrollar combustibles y materias primas obtenidos a partir de recursos renovables. En este contexto, el e-amoniaco constituye una alternativa al amoniaco convencional y un posible vector energético para aplicaciones difíciles de electrificar. Su producción integra el suministro renovable, el tratamiento de agua, la electrólisis, la separación de nitrógeno y el proceso Haber-Bosch, junto con sistemas de almacenamiento destinados a gestionar la variabilidad de la generación eólica y fotovoltaica. El objetivo general del trabajo es evaluar la competitividad económica y energética del e-amoniaco producido en una planta de referencia de 100.000 t de NH₃/año. Para ello, se han analizado diferentes configuraciones de producción, suministro eléctrico y almacenamiento, se han seleccionado las tecnologías con mejor comportamiento global y se han dimensionado las principales unidades. Finalmente, el coste de producción obtenido se compara con el de combustibles convencionales y otros vectores energéticos mediante el precio por kilogramo, el poder calorífico inferior y el coste por MWh. El parque eólico se sitúa en la zona marina NOR-2, frente a la Costa Ártabra (A Coruña), catalogada como zona de alto potencial para la eólica marina por los Planes de Ordenación del Espacio Marítimo (POEM), aprobados mediante el Real Decreto 150/2023. Para caracterizar el recurso se adopta un punto representativo situado a unos 34 km de la costa y 217 m de profundidad. La planta de producción de e-amoniaco y el parque fotovoltaico se ubican en el entorno portuario de Punta Langosteira (A Coruña), cuya proximidad e infraestructura facilitan la operación, el mantenimiento y la expedición del NH₃. La metodología se basa en la recopilación, clasificación y validación de los datos técnicos, energéticos y económicos proporcionados por 25 estudios científicos. Los valores se han adaptado a unidades y criterios comunes, mientras que los importes económicos se han actualizado a euros de diciembre de 2025. Además, se han obtenido perfiles horarios de generación eólica y fotovoltaica a partir de la API de datos meteorológicos Open-Meteo y de la base de datos ERA5, correspondientes al periodo 2020–2024. El funcionamiento de la planta se ha representado mediante una simulación horaria de programación lineal desarrollada en Python y resuelta con el software de optimización de código abierto HiGHS, que incorpora los balances energéticos, las capacidades de los equipos, la flexibilidad del proceso Haber-Bosch y la operación de los almacenamientos. La configuración seleccionada combina un parque de generación eólica offshore de 225 MW, otro de 100 MWp fotovoltaicos, un electrolizador alcalino de 160 MW, separación criogénica de nitrógeno, síntesis Haber-Bosch convencional, ósmosis inversa, 100 t útiles de almacenamiento de H₂ y un BESS de 20 MW/80 MWh. La planta presenta un consumo específico de 10,02 kWh/kg de N",
