@@ -815,6 +815,9 @@
    "Julian Beßner",
    "Timo Jacob"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02-25",
   "doi": "10.1002/chem.202500058",
@@ -842,8 +845,10 @@
   "why": [
    "Nitrogen Reduction Reaction"
   ],
+  "zh_brief": "本研究通过密度泛函理论（DFT）计算，研究了 CuFeO2（CFO）将 N₂ 转化为 NH₃ 的反应路径。重点关注最稳定的 (012) 表面取向，考察了原始 (012) 表面和相应的氧缺陷表面。为找到热力学稳定路径，考虑了包含四种不同反应路径的关联 Heyrovský 机理。反应中间体主要与表面的铁位点相互作用，通过肼的形成遵循远程交替反应路径。引入氧缺陷将反应机理转变为 Mars−van‐Krevelen 型机理，避免了肼的形成，而第一个加氢步骤的吉布斯自由能降低了 1.17 eV（从 2.17 eV 到 1.00 eV）。通过分析电荷密度分布，发现氧缺陷表面使 CFO 能够促进铁位点和反应中间体之间的反向电子捐赠，增加了中间体-表面相互作用。这表明通过在 CFO 中产生氧晶格缺陷，可以增强氮还原反应（NRR）的催化活性。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "理解 CuFeO2 光阴极上氮还原反应机理"
  },
  "10.1002/cphc.202400866": {
   "abstract": "Abstract Nitrogen reduction reaction (NRR) as a promising approach to ammonia synthesis has received much attention in recent years. Molybdenum disulfides (MoS 2 ), as one of the most potential candidates for NRR, are extensively investigated. However, the inert basal plane limits the application of MoS 2 . Herein, by using density functional theory (DFT) calculations, we constructed edge‐exposed MoS 2 and different kinds of basal plane defects, including anti‐site, sulfur vacancy and pore defects, to systematically investigate their influence on the NRR performance. The thermodynamically calculated results revealed that the NRR on edge‐exposed MoS 2 , anti‐site defects, sulfur vacancy with three sulfur atoms missing (S 3V ) and porous defect (D) exhibit great catalytic activity with low limiting potentials. The calculated limiting potentials are −0.43 and −0.47 V at armchair and zigzag edge MoS 2 , −0.42 and −0.44 V at anti‐site defects, −0.49 and −0.67 V at S 3V and D. However, by inspecting the thermodynamic properties of the hydrogen evolution reaction, we proposed that the zigzag‐end MoS 2 and anti‐site defects exhibit a better NRR selectivity compared to armchair‐end MoS 2 , S 3V and D. Electronic structure calculations reveals that the edge‐exposed and basal plane defective MoS 2 can improve the conductivity of the material by reducing the band gap. Donation‐backdonation mechanism can effectively promote the activation of nitrogen molecule. Our results pave the way to understanding the defective effects of the MoS 2 inertness plane for NRR and designing high‐performance NRR catalysts.",
@@ -4396,6 +4401,9 @@
    "Yijing Gao",
    "Weidong Zhu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02-13",
   "doi": "10.1021/acs.jpcc.4c07568",
@@ -4417,8 +4425,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "目前，通过直接 NO 还原的电化学合成 NH₃ 已成为哈伯-博施过程的替代方案。在这方面，开发新的高效催化剂及其已知机理对于提高合成性能至关重要。由于 OH 功能化的 MXenes（OH-MXenes）具有一些独特的表面结构，它们在 NO 还原反应（NORR）领域引起了广泛关注。本研究利用密度泛函理论（DFT）计算，考察了 33 种不同的 OH-MXenes 上的 NO 活化、NORR 活性和催化剂再生。研究发现，表面 H 原子是 NO 吸附的活性位点，并参与大多数 OH-MXenes 上的 NORR。此外，吉布斯自由能的计算结果表明，OH-MXenes 上的 NORR 是自发的，催化剂再生过程中的第三步氢化是决定步骤。此外，结合 OH-MXenes 数据与我们对 H-MXenes NORR 性能的先前研究，揭示在涉及表面 H 的系统中，| E v − E NO | ² / | E NO ",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "在 OH-MXenes 上通过一氧化氮电化学还原合成氨：一种通用描述符"
  },
  "10.1021/acs.jpcc.4c07596": {
   "ab_check_v": 2,
@@ -4907,6 +4917,9 @@
    "Stefano Mingolla",
    "Lorenzo Rosa"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-02-17",
   "doi": "10.1038/s43016-025-01125-y",
@@ -4928,8 +4941,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "氨基合成氮肥（N 肥料）对全球粮食安全至关重要。然而，其生产主要依赖化石燃料，是能源和碳密集型的，易受供应链中断的影响，影响 1.8 亿依赖进口肥料或天然气的人。本研究考察了全球 N 肥料供应链，并分析了特定条件下低碳氨生产路径的权衡。碳捕获和存储可减少整体排放高达 70%，但仍依赖天然气。电解和生物化学过程可最小化排放，但成本高 2–3 倍，且需要 100–300 倍更多的土地和水资源。分布式生产有潜力降低运输成本、排放、进口依赖和价格波动，提高全球南方的农业生产力，但需要政策支持。跨学科方法对于理解这些权衡和找到在最小化气候影响的同时养活增长人口的弹性方法至关重要。实现可持续农业需要全面理解氮肥生产，特别是氨。本研究表明，低碳方法（如碳捕获、电解和生物加工）可以减少排放，但面临成本、资源和依赖挑战。分布式生产可以降低排放、成本和进口依赖，提高全球南方的生产力，但需要政策支持。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "低碳氨生产对于弹性和可持续农业至关重要"
  },
  "10.1039/d4cc06595f": {
   "ab_try": "2026-10-29",
