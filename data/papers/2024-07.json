@@ -226,6 +226,9 @@
    "Giovanni Di Liberto",
    "Gianfranco Pacchioni"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1002/adts.202400536",
@@ -247,8 +250,10 @@
   "why": [
    "Nitrogen Reduction Reaction"
   ],
+  "zh_brief": "研究对象为单原子（SACs）和双原子（DACs）催化剂在电化学氮还原反应（NRR）中的应用，采用密度泛函理论（DFT）计算，发现DACs通常比SACs更活跃，但5d金属DACs可能因中间体结合力过强而降低活性，验证了DACs在NRR中并非总是优于SACs。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "从从头算热力学看电化学氮还原反应：单原子与双原子催化剂"
  },
  "10.1002/advs.202405188": {
   "abstract": "Abstract Nickel cobalt oxides (NCOs) are promising, non‐precious oxygen evolution reaction (OER) electrocatalysts. However, the stoichiometry‐dependent electrochemical behavior makes it crucial to understand the structure‐OER relationship. In this work, NCO thin film model systems are prepared using atomic layer deposition. In‐depth film characterization shows the phase transition from Ni‐rich rock‐salt films to Co‐rich spinel films. Electrochemical analysis in 1 m KOH reveals a synergistic effect between Co and Ni with optimal performance for the 30 at.% Co film after 500 CV cycles. Electrochemical activation correlates with film composition, specifically increasing activation is observed for more Ni‐rich films as its bulk transitions to the active (oxy)hydroxide phase. In parallel to this transition, the electrochemical surface area (ECSA) increases up to a factor 8. Using an original approach, the changes in ECSA are decoupled from intrinsic OER activity, leading to the conclusion that 70 at.% Co spinel phase NCO films are intrinsically the most active. The studies point to a chemical composition dependent OER mechanism: Co‐rich spinel films show instantly high activities, while the more sustainable Ni‐rich rock‐salt films require extended activation to increase the ECSA and OER performance. The results highlight the added value of working with model systems to disclose structure‐performance mechanisms.",
@@ -946,6 +951,9 @@
    "Mohsin A. Bhat",
    "Pravin Popinand Ingole"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-31",
   "doi": "10.1002/smll.202403319",
@@ -967,8 +975,10 @@
   "why": [
    "synthesis of Ammonia"
   ],
+  "zh_brief": "研究对象为介孔CuFe2O4@N-碳催化剂，关键方法为使用原位NH3形成观测和旋转圆盘电极测试，发现该催化剂具有增强的ENRR活性，并揭示了酸性介质中的传质和碱性介质中的表面吸附对ENRR的主要调节作用。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Fe/铁体系、碳材料"
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系、碳材料",
+  "zh_title": "通过具有丰富氧空位和M-N-C含量的介孔CuFe2O4@N-碳催化剂揭示活性位点以促进氮还原电合成氨"
  },
  "10.1002/smll.202403399": {
   "abstract": "Abstract Ammonia (NH 3 ) synthesis via the nitrate reduction reaction (NO 3 RR) offers a competitive strategy for nitrogen cycling and carbon neutrality; however, this is hindered by the poor NO 3 RR performance under high current density. Herein, it is shown that boron‐doped Ti 3 C 2 T x MXene nanosheets can highly efficiently catalyze the conversion of NO 3 RR‐to‐NH 3 at ambient conditions, showing a maximal NH 3 Faradic efficiency of 91% with a peak yield rate of 26.2 mgh −1 mg cat. −1 , and robust durability over ten consecutive cycles, all of them are comparable to the best‐reported results and exceed those of pristine Ti 3 C 2 T x MXene. More importantly, when tested in a flow cell, the designed catalyst delivers a current density of ‒1000 mA cm −2 at a low potential of ‒1.18 V versus the reversible hydrogen electrode and maintains a high NH 3 selectivity over a wide current density range. Besides, a Zn–nitrate battery with the catalyst as the cathode is assembled, which achieves a power density of 5.24 mW cm −2 and a yield rate of 1.15 mgh −1 mg cat. −1 . Theoretical simulations further demonstrate that the boron dopants can optimize the adsorption and activation of NO 3 RR intermediates, and reduce the potential‐determining step barrier, thus leading to an enhanced NH 3 selectivity.",
@@ -1198,18 +1208,18 @@
  },
  "10.1007/s10562-024-04772-1": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yijin Ma",
@@ -1249,18 +1259,18 @@
  },
  "10.1007/s10750-024-05626-y": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Scott L. Rollins",
@@ -1299,18 +1309,18 @@
  },
  "10.1007/s10853-024-09966-x": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Mingye Ren",
@@ -1351,18 +1361,18 @@
  },
  "10.1007/s10934-024-01652-2": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Tetsuo Umegaki",
@@ -1478,18 +1488,18 @@
  },
  "10.1016/j.apcatb.2024.123810": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Qiao Gou",
@@ -1591,18 +1601,18 @@
  },
  "10.1016/j.apcatb.2024.123862": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Zhijie Cui",
@@ -1783,18 +1793,18 @@
  },
  "10.1016/j.cattod.2024.114774": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Rongji Xu",
@@ -1885,18 +1895,18 @@
  },
  "10.1016/j.checat.2024.101054": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Tao Zhang",
@@ -1968,18 +1978,18 @@
  },
  "10.1016/j.electacta.2024.144348": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Shang-Cheng Yang",
@@ -2069,18 +2079,18 @@
  },
  "10.1016/j.enconman.2024.118429": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Zhihua Deng",
@@ -2162,18 +2172,18 @@
  },
  "10.1016/j.fuel.2024.131489": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Omar M. AlAmoudi",
@@ -2212,18 +2222,18 @@
  },
  "10.1016/j.fuel.2024.131543": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Shigang Li",
@@ -2312,18 +2322,18 @@
  },
  "10.1016/j.fuel.2024.131686": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yuhang Jing",
@@ -2334,6 +2344,9 @@
    "Enkang Fu",
    "Rui Xiao"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.fuel.2024.131686",
@@ -2356,22 +2369,23 @@
    "ammonia synthesis"
   ],
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "激活Ni-Co双金属MOF中的协同效应以增强等离子体辅助氨合成"
  },
  "10.1016/j.ijhydene.2024.06.024": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Hongliang Dai",
@@ -2384,6 +2398,9 @@
    "Weiqiang Fan",
    "Hongye Bai"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.ijhydene.2024.06.024",
@@ -2406,22 +2423,23 @@
    "nitrate to ammonia"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "使用Cu–CeO2固溶体高效电催化硝酸盐还原为氨"
  },
  "10.1016/j.ijhydene.2024.06.038": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Mamutjan Tursun",
@@ -2502,18 +2520,18 @@
  },
  "10.1016/j.ijhydene.2024.06.128": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Fengjuan Guo",
@@ -2650,18 +2668,18 @@
  },
  "10.1016/j.jallcom.2024.174489": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xianyong Guo",
@@ -2799,18 +2817,18 @@
  },
  "10.1016/j.jpowsour.2024.234621": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Liangqing Hu",
@@ -2853,18 +2871,18 @@
  },
  "10.1016/j.jpowsour.2024.234644": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Sajid Mahmood",
@@ -3006,18 +3024,18 @@
  },
  "10.1016/j.mattod.2024.05.007": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Thi Kim Cuong Phu",
@@ -3117,8 +3135,8 @@
   "ab_check_v": 2,
   "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -3126,7 +3144,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Shengyan Wang",
@@ -3315,8 +3333,8 @@
   "ab_check_v": 2,
   "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -3324,7 +3342,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Hongye Bai",
@@ -3366,8 +3384,8 @@
   "ab_check_v": 2,
   "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -3375,7 +3393,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Endi Huangluo",
@@ -3415,8 +3433,8 @@
   "ab_check_v": 2,
   "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -3424,7 +3442,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Thi Hong Chuong Nguyen",
@@ -5111,6 +5129,9 @@
    "Guangyi Liu",
    "Haibao Zhang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-25",
   "doi": "10.1088/1361-6463/ad5f3d",
@@ -5132,8 +5153,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为纳秒脉冲滑弧等离子体，关键方法为设计Laval喷嘴型滑弧等离子体反应器，通过示波器和OES表征不同电极间隙、脉冲电压和V_N2:V_H2对氨合成的影响，发现双极放电模式有利于提高等离子体氨合成的效率。",
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "纳秒脉冲滑弧等离子体用于氨合成：放电模式和振动温度的更好洞察"
  },
  "10.1088/1361-6528/ad64da": {
   "abstract": "Abstract Novel graphene-like nanomaterials with a non-zero bandgap are important for the design of gas sensors. The selectivity toward specific targets can be tuned by introducing appropriate functional groups on their surfaces. In this study, we use first-principles simulations, in the form of density functional theory (DFT), to investigate the covalent functionalization of a single-layer graphitized BC 6 N with azides to yield aziridine-functionalized adducts and explore their possible use to realize ammonia sensors. First, we determine the most favorable sites for physical adsorption and chemical reaction of methylnitrene, arising from the decomposition of methylazide, onto a BC 6 N monolayer. Then, we examine the thermodynamics of the [1 + 2]–cycloaddition reaction of various phenylnitrenes and perfluorinated phenylnitrenes para-substituted with (R = CO 2 H, SO 3 H) groups, demonstrating favorable energetics. We also monitor the effect of the functionalization on the electronic properties of the nanosheets via density of states and band structure analyses. Finally, we test four dBC 6 N to gBC 6 N substrates in the sensing of ammonia. We show that, thanks to their hydrogen bonding capabilities, the functionalized BC 6 N can selectively detect ammonia, with interaction energies varying from −0.54 eV to −1.37 eV, even in presence of competing gas such as CO 2 and H 2 O, as also confirmed by analyzing the change in the electronic properties and the values of recovery times near ambient temperature. Importantly, we model the conductance of a selected substrate alone and in presence of NH 3 to determine its effect on the integrated current, showing that humidity and coverage conditions should be properly tuned to use HO 2 C-functionalized BC 6 N-based nanomaterials to develop selective gas sensors for ammonia.",
@@ -5145,6 +5168,9 @@
    "Luca Sementa",
    "Noureddine Raouafi"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-29",
   "doi": "10.1088/1361-6528/ad64da",
@@ -5164,8 +5190,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究对象为单层石墨烯状BC6N纳米片，关键方法为使用DFT模拟研究其与叠氮化物的共价官能化，并测试其在氨传感中的选择性，发现官能化BC6N可通过氢键选择性检测氨。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及碳材料"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及碳材料",
+  "zh_title": "通过DFT建模对单层石墨烯状BC6N纳米片进行共价表面改性，以实现选择性氨传感"
  },
  "10.1093/nsr/nwae251": {
   "abstract": "ABSTRACT Single-cluster catalysts (SCCs) representing structurally well-defined metal clusters anchored on support tend to exhibit tunable catalytic performance for complex redox reactions in heterogeneous catalysis. Here we report a theoretical study on an SCC of Ru3@Mo2CO2 MXene for N2-to-NH3 thermal conversion. Our results show that Ru3@Mo2CO2 can effectively activate N2 and promotes its conversion to NH3 through an association mechanism, in which the rate-determining step of NH2* + H* → NH3* has a low energy barrier of 1.29 eV. Notably, with the assistance of Mo2CO2 support, the positively charged Ru3 cluster active site can effectively adsorb and activate N2, leading to 0.74 |e| charge transfer from Ru3@Mo2CO2 to the adsorbed N2. The supported Ru3 also acts as an electron reservoir to regulate the charge transfer for various intermediate steps of ammonia synthesis. Microkinetic analysis shows that the turnover frequency of the N2-to-NH3 conversion on Ru3@Mo2CO2 is as high as 1.45 × 10−2 s−1 site−1 at a selected thermodynamic condition of 48 bar and 700 K, the performance of which even surpasses that of the Ru B5 site and Fe3/θ-Al2O3(010) reported before. Our work provides a theoretical understanding of the high stability and catalytic mechanism of Ru3@Mo2CO2 and guidance for further designing and fabricating MXene-based metal SCCs for ammonia synthesis under mild conditions.",
@@ -5477,6 +5505,9 @@
    "Xuning Li",
    "Yanqiang Huang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-23",
   "doi": "10.21203/rs.3.rs-4394450/v1",
@@ -5496,23 +5527,25 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究对象为铁氮化物（Fe2.5N），关键方法为使用Fe2.5N作为氮源与醇反应合成胺，并展示了铁氮化物介体的化学链路径，该路径利用N2作为氮源合成辛胺，转移超过80%的氮到有机化合物。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系"
+  "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
+  "zh_title": "通过铁氮化物作为介体，从N2进行化学链合成胺"
  },
  "10.2139/ssrn.4885300": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "can sun",
@@ -5554,18 +5587,18 @@
  },
  "10.2139/ssrn.4891967": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Teresa Dias",
@@ -5603,18 +5636,18 @@
  },
  "10.2139/ssrn.4900035": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jialu Shi",
@@ -5921,6 +5954,9 @@
    "Tianhang Zhou",
    "Ning Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-13",
   "doi": "10.3390/molecules29143314",
@@ -5942,8 +5978,10 @@
   "why": [
    "producing ammonia"
   ],
+  "zh_brief": "研究对象为锚定在C2N单层上的三重过渡金属簇（M3-C2N）作为氮还原反应（NRR）电催化剂，采用密度泛函理论（DFT）研究，发现M3-C2N对N2具有吸附和活化能力，筛选出Co3-C2N、Cr3-C2N、Fe3-C2N和Ni3-C2N四种催化剂，其极限电位分别为-0.61 V、-0.67 V、-0.63 V和-0.66 V，优于Ru(0001)，并研究了其NRR机理和选择性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系",
+  "zh_title": "密度泛函理论研究锚定在C2N单层上的三重过渡金属簇用于氮还原反应"
  },
  "10.3390/molecules29153611": {
   "abstract": "Besides outstanding catalytic performance, the stability of nitrogen-doped carbon materials during storage is equally crucial for practical applications. Therefore, we conducted the first investigation into the stability of highly nitrogen-doped activated carbon (AC-NC-T) obtained by modifying activated carbon with CO2/NH3 in different storage media (air, vacuum and N2). The results of the catalysis of the oxygen reduction reaction and the activation of peroxymonosulfate for degrading bisphenol A by AC-NC-T show that the catalytic activity of AC-NC-T stored in air decays most prominently, while the performance attenuated only marginally when stored in vacuum and N2. The results from N2 adsorption isotherms, Raman spectroscopy, elemental and X-ray photoelectron spectroscopy indicate that the decline in catalytic activity is due to the presence of oxygen in the environment, causing a decrease in absolute contents of pyridinic N (N-6) and graphitic nitrogen (N-Q). After being stored in an air atmosphere for 28 days, the absolute contents of N-6 and N-Q in AC-NC-950 decreased by 19.3% and 12.1%, respectively. However, when stored in a vacuum or N2, the reduction in both was less than 7%. This study demonstrates that reducing oxygen concentration during storage is crucial for preserving high catalytic activity of nitrogen-containing carbon materials.",

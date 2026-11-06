@@ -59,6 +59,9 @@
    "Hao Zhang",
    "Zhi Li"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-07",
   "doi": "10.1002/adfm.202403535",
@@ -80,6 +83,7 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "通过轴向配位工程优化单铁原子催化剂，提高了电化学氮还原反应（NRR）性能。FePc 通过引入轴向氧配位策略，优化了局部电子分布，增强了 N 2 吸附和活化能力。所得 FePc‐O‐CP 在 0.1 m HCl 中表现出 59.72 µg h −1 mg −1 cat. 的 NH 3 产率率和 13.76% 的法拉第效率。DFT 计算表明，轴向氧配位抑制了 H + 吸附，增强了 N 2 吸附和活化，从而显著促进了 NH 3 生成。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及Fe/铁体系"
  },
@@ -89,6 +93,9 @@
    "Hanqing Yin",
    "Aijun Du"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.1002/adfm.202403718",
@@ -110,8 +117,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "固定地球丰富的氮元素到必需化合物中是人类面临的终极问题之一。电化学氮固定被认为是目前阶段替代哈伯-博施（HB）过程的潜在方法。然而，最近发现直接固定N2分子由于N2分子的稳定化学性质而值得怀疑。在这方面，更活泼的氮氧化物（NOx）物种作为氮源被提出来作为替代。由于NOx物种是废水中最普遍的污染物之一，因此也期望NOx还原可以将这些有害成分转化为有价值的产物，如氨。与其他化学反应一样，电化学NOx还原为氨（eNOxRA）的性能与催化剂的性能密切相关。以前，eNOxRA的催化剂设计主要基于过渡金属。直到最近，p-区元素在eNOxRA中的作用才被充分认识到。在本展望中，总结了含p-区催化剂在eNOxRA中的最新进展，具体讨论了p-区元素的作用。还介绍了几种策略来巧妙地研究p-区元素与NOx物种之间的相互作用。最后，提出了一些困境和潜在机会，以更全面地理解开发高效p-区电催化剂用于NOx RA。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "p-区元素在电化学NOx还原为氨催化中的新兴作用：理论视角"
  },
  "10.1002/adfm.202405179": {
   "abstract": "Abstract Electrochemical reduction of nitrate (NO 3 RR) holds great promise for environmentally friendly ammonia production. Tandem catalysis is a promising strategy for boosting the NO 3 RR and inhibiting side effects, but it is still challenged by lacking well‐designed catalysts to drive this catalytic process. Herein, the study develops the CuCo branched nanowires (CuCo NW) catalyst, which efficiently converts NO 3 − to NH 3 on Co (111) and Cu (111) crystal facets through a tandem catalysis mechanism. The in situ grown CuCo NW on Cu foam demonstrates a remarkable Faraday efficiency of 90.3% at 1.0 A cm −2 and maintains stable operation for 200 h at 100 and 200 mA cm −2 in a flow reactor. Density functional theory calculations suggest that the initial absorption and subsequent deoxygenation of *NO 3 on Co (111) leading to the formation of *NO 2 , followed by its transfer to Cu (111) and further conversion to *NH 3 , establish an optimal pathway by managing rate‐determining steps on individual surfaces for NO 3 RR. To showcase the practical application of the catalyst, the study further develops a scaling‐up prototype reactor for continuous ammonia production, realizing the gram‐level yield rate of 1474.09 mg h −1 and Faraday efficiency of 91.26% at practical‐level 20.0 A.",
@@ -130,6 +139,9 @@
    "Xiao Zhang",
    "Liang An"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-27",
   "doi": "10.1002/adfm.202405179",
@@ -151,6 +163,7 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "开发了一种 CuCo 分支纳米线（CuCo NW）催化剂，该催化剂通过串联催化机制有效地将 NO 3 − 转化为 NH 3，在 Co (111) 和 Cu (111) 晶面进行。在 Cu 泡沫上原位生长的 CuCo NW 在 1.0 A cm −2 下表现出 90.3% 的法拉第效率，并在 100 和 200 mA cm −2 下在流动反应器中稳定运行 200 小时。密度泛函理论计算表明，*NO 3 在 Co (111) 上的初始吸附和后续去氧化，形成 *NO 2，然后转移到 Cu (111) 并进一步转化为 *NH 3，通过管理各个表面上 NO 3 RR 的决速步骤，建立了一条最优途径。为了展示催化剂的实际应用，研究进一步开发了一个用于连续氨生产的规模化原型反应器，在实用水平的 20.0 A 下实现了 1474.09 mg h −1 的克级产率和 91.26% 的法拉第效率。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
@@ -205,6 +218,9 @@
    "Xiangmei Duan",
    "Jianping Yang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-28",
   "doi": "10.1002/adfm.202406917",
@@ -226,6 +242,7 @@
   "why": [
    "nitrate reduction"
   ],
+  "zh_brief": "研究设计了一种单原子合金（SAA）催化剂，其中原子分散的 Ru 位于二维 Ni 金属上（Ru 1 Ni），通过共催化金属-载体相互作用（CMSI）效应，表现出优异的硝酸盐电还原性能，硝酸盐转化率约为 93%，氮气选择性约为 99%。Ru 1 Ni SAA 实现了高达 11.1 mg L −1 h −1 cm −2 的硝酸盐去除能力，并具有 20 个循环的稳定性（每个循环 9 小时），超过大多数先前报道的工作。通过多种原位实验和理论模拟揭示了在 Ru 位点和 Ni 基底上协同促进硝酸盐活化和氮氧化物中间体的加速氢化。DFT 计算表明，与 Ni-Ni 相比，电子从基底 Ni 转移到 Ru，以及 NO 3 − 与 Ru-Ni 之间更强的相互作用。这项工作为合理设计具有 CMSI 调节的、高效的 NO 3 RR 电催化剂提供了一种稳健的方法，为废水处理和氮循环领域提供了新的见解。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系"
  },
@@ -277,6 +294,9 @@
    "Ashish Kumar",
    "Venkata Krishnan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-02",
   "doi": "10.1002/adsu.202400173",
@@ -298,8 +318,10 @@
   "why": [
    "synthesis of ammonia"
   ],
+  "zh_brief": "研究对象为光催化氮固定，关键方法为讨论实验方案中的陷阱和补救措施，主要结果为指出影响氨产率的关键因素和改进方法。",
   "zh_method": "光驱动",
-  "zh_obj": "光催化固氮"
+  "zh_obj": "光催化固氮",
+  "zh_title": "通过光催化氮固定实现可持续氨生产的实验方案：陷阱和补救措施"
  },
  "10.1002/advs.202309200": {
   "abstract": "Abstract Electrochemical synthesis of ammonia (NH 3 ) in aqueous electrolyte has long been suffered from poor nitrogen (N 2 ) supply owing to its low solubility and sluggish diffusion kinetics. Therefore, creating a N 2 rich microenvironment around catalyst surface may potentially improve the efficiency of nitrogen reduction reaction (NRR). Herein, a delicately designed N 2 filtering membrane consisted of polydimethylsiloxane is covered on catalyst surface via superspreading. Because this membrane let the dissolved N 2 molecules be accessible to the catalyst but block excess water, the designed N 2 rich microenvironment over catalyst leads to an optimized Faradaic efficiency of 39.4% and an NH 3 yield rate of 109.2 µg h −1 mg −1 , which is superior to those of the most report metal‐based catalysts for electrochemical NRR. This study offers alternative strategy for enhancing NRR performance.",
@@ -379,6 +401,9 @@
    "Xiaohong Xu",
    "Yang Liu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.1002/aenm.202400790",
@@ -400,8 +425,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "电化学NOx还原反应，包括硝酸盐和亚硝酸盐还原反应（NO3- RR和NO2- RR），已成为在环境条件下去除NO3-和NO2-以及合成铵（NH3）的潜在方法。然而，在催化剂中掺入和稳定硫掺杂剂以实现高效的NOx还原很少被探索，导致硫对NOx还原机制的影响尚不清楚。在此，通过原位电化学处理合成了硫掺杂的Cu2O（S-Cu2O）纳米针阵列。S-Cu2O催化剂在NO3- RR中具有优异的耐久性和对NH3的选择性，在-0.6 V RHE时达到高达94%的NH3法拉第效率，并且NH3产率高达1.06 mmol h-1 cm-2。在NO3- RR中，硫掺杂可以加速从NO2-到NH3的步骤，从而在NO2- RR和组装的Zn-NO2-电池设备中表现出优异的性能。密度泛函理论（DFT）计算表明，硫的存在可以增强*NO3吸附的初始步骤，降低*NHO中间体形成的反应能垒，并激活H2O解离过程。这项工作阐明了硫在",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "通过NOx还原在硫掺杂的氧化铜纳米针阵列上促进电化学氨合成"
  },
  "10.1002/aenm.202401390": {
   "abstract": "Abstract Single‐atom catalysts (SACs) exhibit excellent electrocatalytic performance in various catalytic reactions. However, the low metal loading (<1.0 wt.%) and the difficulty in precisely modulating their coordination configurations hinder the practical yield of target products and the understanding of actual reaction mechanisms. To overcome these obstacles, a series of strategies are proposed to design SACs with a precise coordination configuration and/or a high density of active sites. For an insightful and comprehensive understanding of these strategies, it is worth analyzing and categorizing them according to their intrinsic mechanisms and applicational perspectives. In this review, the synthesis strategies of precise and/or high‐density SACs are first summarized. Moreover, taking typical electrochemical processes, including oxygen reduction reaction, nitrogen reduction reaction, and carbon dioxide reduction reaction, metal–sulfur batteries, etc., as examples, the applications of these SACs are discussed, focusing on their advantages in enhancing the yield of target products, improving the efficiency of energy storage, and revealing the unique effects. Finally, the challenges and perspective of precise modulation and densification of metal sites for SACs are proposed. It is expected that this review can provide a useful reference for the design and preparation of high‐density and/or controllably coordinated SACs.",
@@ -412,6 +439,9 @@
    "Zhiyuan Sang",
    "Ji Liang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.1002/aenm.202401390",
@@ -433,8 +463,10 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "单原子催化剂（SACs）在各种催化反应中表现出优异的电催化性能，但金属负载量低（<1.0 wt.%）和难以精确调控其配位构型阻碍了目标产物的实际产率和实际反应机理的理解。为克服这些障碍，提出了一系列设计具有精确配位构型和/或高活性位点密度的SACs的策略。以氧还原反应、氮还原反应、二氧化碳还原反应、金属-硫电池等典型电化学过程为例，讨论了这些SACs的应用，重点关注它们在提高目标产物产率、提高储能效率以及揭示独特效应方面的优势。最后，提出了精确调控和致密化SACs中金属位点的挑战和前景。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "精确调控和致密化单原子催化剂中的金属位点用于能量存储和转换"
  },
  "10.1002/anie.202402841": {
   "abstract": "Abstract The controlled synthesis of metal nanomaterials with unconventional phases is of significant importance to develop high‐performance catalysts for various applications. However, it remains challenging to modulate the atomic arrangements of metal nanomaterials, especially the alloy nanostructures that involve different metals with distinct redox potentials. Here we report the general one‐pot synthesis of IrNi, IrRhNi and IrFeNi alloy nanobranches with unconventional hexagonal close‐packed (hcp) phase. Notably, the as‐synthesized hcp IrNi nanobranches demonstrate excellent catalytic performance towards electrochemical nitrite reduction reaction (NO 2 RR), with superior NH 3 Faradaic efficiency and yield rate of 98.2 % and 34.6 mg h −1 mg cat −1 (75.5 mg h −1 mg Ir −1 ) at 0 and −0.1 V (vs reversible hydrogen electrode), respectively. Ex/in situ characterizations and theoretical calculations reveal that the Ir−Ni interactions within hcp IrNi alloy improve electron transfer to benefit both nitrite activation and active hydrogen generation, leading to a stronger reaction trend of NO 2 RR by greatly reducing energy barriers of rate‐determining step.",
@@ -461,6 +493,9 @@
    "Lin Gu",
    "Zhanxi Fan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-24",
   "doi": "10.1002/anie.202402841",
@@ -482,8 +517,10 @@
   "why": [
    "Nitrite Reduction"
   ],
+  "zh_brief": "研究对象为 IrNi、IrRhNi 和 IrFeNi 合金纳米枝条，采用一锅法合成具有非常规六方密堆积 (hcp) 相的纳米材料。关键方法为电化学硝酸盐还原反应 (NO2RR) 的催化性能测试和原位/非原位表征及理论计算。结果显示，hcp IrNi 纳米枝条表现出优异的催化性能，氨的法拉第效率和产率分别为 98.2% 和 34.6 mg h−1 mg cat−1 (75.5 mg h−1 mg Ir−1) 在 0 和 −0.1 V (vs 可逆氢电极) 下。表征和计算表明，hcp IrNi 合金中的 Ir-Ni 相互作用改善了电子转移，有利于亚硝酸活化和活性氢生成，降低了反应决速步骤的能量势垒。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学亚硝酸盐还原"
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "控制合成非常规相合金纳米枝条用于高选择性电催化亚硝酸还原为氨"
  },
  "10.1002/anie.202405937": {
   "abstract": "Abstract Single‐atom nanozymes (SAzymes) with atomically dispersed active sites are potential substitutes for natural enzymes. A systematic study of its multiple functions can in‐depth understand SAzymes's nature, which remains elusive. Here, we develop a novel ultrafast synthesis of sputtered SAzymes by in situ bombarding‐embedding technique. Using this method, sputtered copper (Cu) SAzymes (CuSA) is developed with unreported unique planar Cu‐C 3 coordinated configuration. To enhance the tumor‐specific targeting, we employ a bioorthogonal approach to engineer CuSA, denoted as CuSACO. CuSACO not only exhibits minimal off‐target toxicity but also possesses exceptional ultrahigh catalase‐, oxidase‐, peroxidase‐like multienzyme activities, resulting in reactive oxygen species (ROS) storm generation for effective tumor destruction. Surprisingly, CuSACO can release Cu ions in the presence of glutathione (GSH) to induce cuproptosis, enhancing the tumor treatment efficacy. Notably, CuSACO′s remarkable photothermal properties enables precise photothermal therapy (PTT) on tumors. This, combined with nanozyme catalytic activities, cuproptosis and immunotherapy, efficiently inhibiting the growth of orthotopic breast tumors and gliomas, and lung metastasis. Our research highlights the potential of CuSACO as an innovative strategy to utilize multiple mechanism to enhance tumor therapeutic efficacy, broadening the exploration and development of enzyme‐like behavior and physiological mechanism of action of SAzymes.",
@@ -539,6 +576,9 @@
   "abstract": "In the original Figure 2g of this Research Article, yellow lines were introduced to label the measured XRD peaks. It was found that the XRD pattern could be indexed to PDF card 37-1492, thus a label 37-1492 was included in this graphic. The yellow lines were not meant to indicate the peak intensities. In the corrected Figure 2g (see below), the misleading yellow lines were removed, and in addition the corresponding crystal planes were included. The authors apologize for any inconvenience caused by this correction. This Corrigendum has no impact on the discussions and conclusions of the article. HRTEM images of a) 1T-MoS2 and b) 2H-MoS2 (blacklines are used for the calculation of atom intensity) .c) The atomic intensity of Mo and S in 1T- and 2H-MoS2 along with the lines indicated in Figure 2a and 2b, respectively. Mo 3d XPS spectra of d) 2H-MoS2 and e) 1T-MoS2. f) Raman spectra of 1T- and 2H-MoS2. g) XRD patterns of 1T- and 2H-MoS2. h) XANES spectra of the Mo K-edge of the as-prepared and standard samples. The inset is the enlarged XANES spectra of (h). i) k3-weighted Fourier transformed EXAFS spectra of the Mo K-edge of 1T- and 2H-MoS2.",
   "abstract_source": "OpenAlex",
   "authors": [],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-29",
   "doi": "10.1002/anie.202406375",
@@ -560,8 +600,10 @@
   "why": [
    "Nitrate-to-Ammonia"
   ],
+  "zh_brief": "在原始研究文章的图2g中，引入了黄色线条来标记测量的XRD峰。发现XRD图谱可以索引到PDF卡片37-1492，因此在图形中包含了标签37-1492。黄色线条并非意在表示峰强度。在更正的图2g（见下文）中，误导性的黄色线条被移除，并且还包含了相应的晶面。作者为由此更正造成的任何不便表示歉意。此勘误对文章的讨论和结论没有影响。1T-MoS2和2H-MoS2的HRTEM图像（黑线用于计算原子强度）。c) 沿图2a和2b中指示的线，1T-和2H-MoS2中Mo和S的原子强度。d) 2H-MoS2和e) 1T-MoS2的Mo 3d XPS光谱。f) 1T-和2H-MoS2的拉曼光谱。g) 1T-和2H-MoS2的XRD图谱。h) 所制备的和标准样品的Mo K-edge的XANES光谱。插入图是（h）的放大XANES光谱。i) 1T-和2H-MoS2的Mo K-edge的k3加权傅里叶变换EXAFS",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "关于钼二硫化物中活性氢行为的相调控及其在硝酸到氨电化学转换中的应用的更正"
  },
  "10.1002/anie.202406750": {
   "abstract": "Abstract Electrocatalytic reduction of nitrate to ammonia provides a green alternate to the Haber–Bosch method, yet it suffers from sluggish kinetics and a low yield rate. The nitrate reduction follows a tandem reaction of nitrate reduction to nitrite and subsequent nitrite hydrogenation to generate ammonia, and the ammonia Faraday efficiency (FE) is limited by the competitive hydrogen evolution reaction. Herein, we design a heterostructure catalyst to remedy the above issues, which consists of Ni nanosphere core and Ni(OH) 2 nanosheet shell (Ni/Ni(OH) 2 ). In situ Raman spectroscopy reveals Ni and Ni(OH) 2 are interconvertible according to the applied potential, facilitating the cascade nitrate reduction synergistically. Consequently, it attains superior electrocatalytic nitrate reduction performance with an ammonia FE of 98.50 % and a current density of 0.934 A cm −2 at −0.476 V versus reversible hydrogen electrode, and exhibits an average ammonia yield rate of 84.74 mg h −1 cm −2 during the 102‐hour stability test, which is highly superior to the reported catalysts tested under similar conditions. Density functional theory calculations corroborate the synergistic effect of Ni and Ni(OH) 2 in the tandem reaction of nitrate reduction. Moreover, the Ni/Ni(OH) 2 catalyst also possesses good capability for methanol oxidation and thus is used to establish a system coupling with nitrate reduction.",
@@ -582,6 +624,9 @@
    "Jiwei Ma",
    "Hongfei Cheng"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-28",
   "doi": "10.1002/anie.202406750",
@@ -603,6 +648,7 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "设计了一种异质结构催化剂，由 Ni 纳米球核和 Ni(OH) 2 纳米片壳（Ni/Ni(OH) 2）组成，用于串联硝酸盐还原以生产氨。原位拉曼光谱揭示 Ni 和 Ni(OH) 2 根据施加的电位相互转换，协同促进硝酸盐还原。该催化剂实现了优异的电催化硝酸盐还原性能，氨法拉第效率为 98.50%，在相对于可逆氢电极 -0.476 V 的电流密度为 0.934 A cm −2 下，102 小时稳定性测试期间平均氨产率率为 84.74 mg h −1 cm −2，远优于在相似条件下测试的报道催化剂。密度泛函理论计算证实了 Ni 和 Ni(OH) 2 在硝酸盐还原串联反应中的协同效应。此外，Ni/Ni(OH) 2 催化剂还具有良好的甲醇氧化能力，因此被用于建立与硝酸盐还原耦合的系统。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
  },
@@ -618,6 +664,9 @@
    "Xuefeng Zhu",
    "Weishen Yang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-22",
   "doi": "10.1002/cctc.202400185",
@@ -639,8 +688,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为 LaNi0.2Cu0.8O2.77 (LNC) 和 LaNi0.2Cu0.8O2.53 (LNC−Ar) 钙钛矿催化剂，用于电化学硝酸盐还原反应 (NO3RR)。结果显示，LNC−Ar 表现出优于 LNC 的性能，最大 NH4+ 产率为 11.49±1.20 mg h−1 cm−2，法拉第效率为 87.10±1.34% 在 0.5 M NO3− 中，且在长时间电解过程中保持功能稳定性。DFT 结果揭示，重构的 LaNi0.2Cu0.8O2 (LNCO2) 对 *NO3 的吸附能力最强，导致 NO3RR 性能更好。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "LaNi0.2Cu0.8O3−δ钙钛矿作为电催化氮氧化物电合成氨的催化剂"
  },
  "10.1002/cphc.202300991": {
   "abstract": "Abstract We conducted Density Functional Theory calculations to investigate a class of materials with the goal of enabling nitrogen activation and electrochemical ammonia production under ambient conditions. The source of protons at the anode could originate from either water splitting or H 2 , but our specific focus was on the cathode reaction, where nitrogen is reduced into ammonia. We examined the conventional associative mechanism, dissociative mechanism, and Mars‐van Krevelen mechanism on the (111) facets of the NaCl‐type structure found in early transition metal carbonitrides, including Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, Sc, Y, and W. We explored the catalytic activity by calculating the free energy of all intermediates along the reaction pathway and constructing free energy diagrams to identify the steps that determine the reaction‘s feasibility. Additionally, we closely examined the potential for catalyst poisoning within the electrochemical environment, considering the bias required to drive the reaction. Furthermore, we assessed the likelihood of catalyst decomposition and the potential for catalyst regeneration among the most intriguing carbonitrides. Our findings revealed that the only carbonitride catalyst considered here exhibiting both activity and stability, capable of self‐regeneration and nitrogen‐to‐ammonia activation, is NbCN with a low potential‐determining step energy of 0.58 eV. This material can facilitate ammonia formation via a mixed associative‐MvK mechanism. In contrast, other carbonitrides of this crystallographic orientation are likely to undergo decomposition, reverting to their parent metals under operational conditions.",
@@ -649,6 +700,9 @@
    "Egill Skulason",
    "Younes Abghoui"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.1002/cphc.202300991",
@@ -670,8 +724,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "通过密度泛函理论计算研究了一类材料，旨在实现环境条件下氮活化电化学氨生产。阳极质子的来源可能是水裂解或H2，但本研究重点关注阴极反应，其中氮还原成氨。考察了在NaCl型结构早期过渡金属碳氮化物（111）晶面上的传统关联机制、解离机制和Mars-van Krevelen机制。通过计算反应路径上所有中间物的自由能并构建自由能图来确定决定反应可行性的步骤。此外，还密切考察了电化学环境中的催化剂中毒可能性，考虑了驱动反应所需的偏置。此外，评估了最有趣的碳氮化物中催化剂分解和催化剂再生的可能性。研究发现，所考虑的唯一碳氮化物催化剂NbCN具有活性和稳定性，能够自再生和氮-氨活化，其决定步骤能量为0.58 eV。这种材料可以通过关联-MvK混合机制促进氨的形成。相比之下，其他这种晶体学取向的碳氮化物可能在操作条件下分解，还原为其母金属。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "在过渡金属碳氮化物的（111）晶面上环境条件下电化学氮还原制氨"
  },
  "10.1002/cptc.202300313": {
   "abstract": "Abstract Changes in farming techniques have facilitated the movement of nitrogen‐containing species, making converting nitrate into ammonia (fertilizer) highly desirable. Recently, we introduced a photosystem comprising NiO/Au plasmon/TiO 2 that can selectively convert nitrate to ammonia at neutral pH and room temperature using visible light in a photo‐electrochemical approach. The study evaluated the role of adding alcohol to the overall process activity and selectivity. Adding small quantities of alcohol to the electrolyte leads to changes in the catalytic behaviour, which cannot be attributed exclusively to improvement in counter‐electrode reaction kinetics. Analysis of product Faradaic efficiency and photo‐current measurements revealed that alcohols act as proton donors in nitrate/nitrite reduction, possibly through a concerted proton‐couple electron transfer mechanism. These initial findings offer new handles for nitrate reduction to ammonia efficacy at neutral pH. Ultimately, this opens up avenues for agricultural practices that recycle nutrients, improve process circularity, and reduce fertilizer costs, thus contributing to economic sustainability.",
@@ -680,6 +736,9 @@
    "Robert Bericat‐Vadell",
    "Jacinto Sá"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-26",
   "doi": "10.1002/cptc.202300313",
@@ -701,6 +760,7 @@
   "why": [
    "nitrate to ammonia"
   ],
+  "zh_brief": "评估了添加酒精对整体过程活性和选择性的作用。向电解液中添加少量酒精会导致催化行为的变化，这不能完全归因于对对电极反应动力学的改善。法拉第效率和光电流测量的分析表明，酒精在硝酸盐/亚硝酸盐还原中充当质子供体，可能是通过协同质子-电子转移机制。这些初步发现为在中性 pH 下将硝酸盐还原为氨的效率提供了新的处理方法。最终，这为农业实践中的养分回收、提高过程循环性和降低肥料成本开辟了途径，从而为经济可持续性做出了贡献。",
   "zh_method": "光驱动",
   "zh_obj": "光催化硝酸盐转化"
  },
@@ -717,6 +777,9 @@
    "Pu Hu",
    "Zaicheng Sun"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-29",
   "doi": "10.1002/ece2.39",
@@ -738,8 +801,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "作为世界上最大的化学产品之一，氨（NH3）在工业、农业生产和国防中发挥着至关重要的作用。在现代工业中，NH3主要通过高温高压的哈伯-博施（H-B）过程生产，该过程消耗大量能源并释放大量温室气体。环境条件下的电催化氮还原反应（NRR）已被广泛认为是许多固氮方法之一，可以使用可再生能源生产。然而，主要挑战是实现高NH3产率和法拉第效率，这归因于强N ≡ N键和严重的析氢反应。基于关键问题，本文讨论了过渡金属（TM）催化剂，包括合金、TM氧化物、TM硫化物、TM碳化物，以及调节电子结构、调节形貌和双金属协同效应对提高NRR性能的策略。此外，本文还总结了NH3检测方法和NRR过程中可靠的控制实验参数以获得准确的实验结果。最后，考虑了TM催化剂用于NRR的挑战和未来方向，强调了遵循给定原则时可供利用的机会。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "环境条件下过渡金属电催化剂用于有效氮还原反应的最新进展"
  },
  "10.1002/ejic.202400043": {
   "abstract": "Abstract Cobalt molybdenum nitrides can be obtained from the oxidic precursor by reaction with gaseous ammonia. Despite the large number of works regarding the catalytical properties of these compounds, there are relatively few reports about the initial transformation from oxide to nitride. In this work, the influence of the precursor structure on the active phase formation and catalytic properties of cobalt molybdenum nitrides is examined. Oxidic precursors were obtained by precipitation at different pH values controlled by the addition of aqueous ammonia. The parameters of the precipitation process affected the composition and properties of the materials. The ammonolysis of NH 4 Co 2 OH(MoO 4 ) 2 ⋅ H 2 O was investigated in situ with the use of X‐ray powder diffraction and thermogravimetry. The ammonia synthesis activity of the obtained catalysts was compared to the reference iron catalyst. The formation of the Co 3 Mo intermetallic phase was suggested as the factor governing high activity.",
@@ -829,6 +894,9 @@
    "Wayne Calder",
    "Tyler Hedge"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-03",
   "doi": "10.1002/saj2.20677",
@@ -848,8 +916,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究对象为氮肥施用对 NH3 和 N2O 排放及玉米产量的影响，关键方法为比较不同肥料 N-放置方式（撒播尿素、单槽注射尿素铵硝酸盐 [UAN]、双槽 UAN 注射）和 N-代谢抑制剂（加/不加脲酶和硝化抑制剂）的影响，主要结果为双槽 UAN 注射比撒播尿素减少 63% 的 NH3 排放，双抑制剂减少 57%-92%，双槽注射下 N2O 排放减少 43%，双槽 UAN 注射使玉米产量提高 12%-13%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "堆叠氮管理实践：结合双槽肥料注射与脲酶和硝化抑制剂提高产量并减少氨和氧化亚氮排放"
  },
  "10.1002/slct.202400482": {
   "abstract": "Abstract Promoting electrocatalytic ammonia oxidation reaction (AOR) holds the key to develop efficient direct ammonia fuel cells (DAFCs) and ammonia‐mediated hydrogen production (AMHP). Recent investigations indicated that Pt with the exposure of (100) facet has a moderate *N intermediate bonding strength, resulting in the highest AOR electrocatalytic activity among others. Therefore, maximizing the exposure of (100) planes with high active surface area is highly desired for efficient electrocatalysts. In this paper, Pt catalyst composed of directional alignment of nanoparticles around 50 nm (Pt‐100/C) were synthesized by hydrothermal method in the presence of KOH. The KOH concentration was found to modulate the one‐dimensional alignment of nanoparticles. The electrocatalyst showed the largest electrochemically active areas and the highest peak current density (3.14 mA cm −2 ), and the catalyst exhibited high stability after 500 cycles. A series of electrochemical tests and structural characterizations show that unique bead‐structured Pt combines the excellent activity of nanoparticles with the structural stability of nanowires. A scheme for “exchanging electrodes” has been proposed to solve the problem of catalyst poisoning caused by AOR in AMHP.",
@@ -861,6 +931,9 @@
    "Jun Zhang",
    "Yan Zhou"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-06",
   "doi": "10.1002/slct.202400482",
@@ -882,6 +955,7 @@
   "why": [
    "Electrocatalytic Ammonia"
   ],
+  "zh_brief": "通过水热法在 KOH 存在下合成了由约 50 nm 纳米颗粒定向排列组成的 Pt 催化剂 Pt‐100/C。KOH 浓度调控了纳米颗粒的一维排列。该催化剂表现出最大的电化学活性面积和 3.14 mA cm −2 的峰电流密度，经过 500 次循环后仍保持高稳定性。独特的珠状结构 Pt 结合了纳米颗粒的优异活性和纳米线的结构稳定性。提出“交换电极”方案解决 AMHP 中 AOR 导致的催化剂中毒问题。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "其他催化反应"
  },
@@ -898,6 +972,9 @@
    "Wei Ye",
    "Gao Li"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-15",
   "doi": "10.1002/smll.202400036",
@@ -917,8 +994,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "电催化将硝酸盐和二氧化碳在环境条件下转化为尿素，显示出作为传统尿素合成工艺的潜在替代品的前景，传统工艺具有高消耗和污染特征。本研究采用简便的_one_pot_方法制备了一种高效的 FeNC-Fe1N4 电催化剂，由原子分散的 Fe1N4 位点和金属铁簇（FeNC）组成，粒径为 4-7 nm。FeNC-Fe1N4 催化剂对从硝酸根阴离子（NO3-）和二氧化碳（CO2）合成尿素的电催化活性表现出色，在 -0.9 V（vs RHE）下尿素生产速率为 38.2 mmol gcat-1 h-1，在 -0.6 V（vs RHE）下法拉第效率为 66.5%。实验和理论结果均表明，金属铁簇和 Fe1N4 物种分别为 NO3- 和 CO2 的吸附和活化提供活性位点，Fe1N4 和金属铁簇之间的协同效应显着提高了尿素合成的电化学效率。总之，这项工作促进了基于铁的双活性位点电催化剂的合理设计和综合合成，促进了高",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "通过金属铁簇和单原子的协同效应增强硝酸和二氧化碳的电合成尿素"
  },
  "10.1002/smll.202401491": {
   "abstract": "Abstract The design and fabrication of a lithiophilic skeleton are highly important for constructing advanced Li metal anodes. In this work, a new lithiophilic skeleton is reported by planting metal sulfides (e.g., Ni 3 S 2 ) on vertical graphene (VG) via a facile ultrafast Joule heating (UJH) method, which facilitates the homogeneous distribution of lithiophilic sites on carbon cloth (CC) supported VG substrate with firm bonding. Ni 3 S 2 nanoparticles are homogeneously anchored on the optimized skeleton as CC/VG@Ni 3 S 2 , which ensures high conductivity and uniform deposition of Li metal with non‐dendrites. By means of systematic electrochemical characterizations, the symmetric cells coupled with CC/VG@Ni 3 S 2 deliver a steady long‐term cycle within 14 mV overpotential for 1800 h (900 cycles) at 1 mA cm −2 and 1 mAh cm −2 . Meanwhile, the designed CC/VG@Ni 3 S 2 ‐Li||LFP full cell shows notable electrochemical performance with a capacity retention of 92.44% at 0.5 C after 500 cycles and exceptional rate performance. This novel synthesis strategy for metal sulfides on hierarchical carbon‐based materials sheds new light on the development of high‐performance lithium metal batteries (LMBs).",
@@ -971,16 +1050,16 @@
  },
  "10.1007/s10562-024-04709-8": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Pengfei Xu",
@@ -990,6 +1069,9 @@
    "Jianfen Li",
    "Yun He"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-30",
   "doi": "10.1007/s10562-024-04709-8",
@@ -1012,7 +1094,8 @@
    "Ammonia Electrosynthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "非贵金属Fe/CeO2催化剂上高效的硝酸氨电合成"
  },
  "10.1007/s11085-024-10247-w": {
   "abstract": "Abstract The need for advanced materials that can meet application requirements at ultra-high temperatures in oxidizing environments is an area of active research. One challenge facing the high temperature materials community is the ability to conduct controlled ultra-high temperature oxidation tests with minimal to no contamination or reaction with the chamber. A unique resistive heating system (RHS) capable of achieving ultra-high temperatures (> 1700 °C) to enable such experimentation is described. A concern of such a system is the potential presence of thermal gradients in directions not reflective of actual material applications, e.g., the hottest region being in the center of the sample. Experimental results from the oxidation of ZrB 2 specimens at nominal temperatures of 1500°, 1700° and 1800 °C in low pO 2 (0.1–1% O 2 in Ar) environments are presented. Specimen thermal gradients generated during oxidation were evaluated using finite element analysis models. Thermal gradients on the order of the uncertainty in temperature measurements were calculated, confirming the RHS suitability for conducting ultra-high temperature oxidation exposures on ultra-high temperature ceramics.",
@@ -1106,16 +1189,16 @@
  },
  "10.1007/s11581-024-05578-2": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "C. R. Santhosh",
@@ -1125,6 +1208,9 @@
    "Sridevi Chigurupati",
    "Ravi Sankannavar"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.1007/s11581-024-05578-2",
@@ -1147,7 +1233,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电化学硝酸盐还原为氨的综述：进展、挑战和未来展望"
  },
  "10.1007/s11664-024-11167-w": {
   "ab_check_v": 2,
@@ -1211,6 +1298,9 @@
    "Chao‐Nan Cui",
    "Zhi‐Xun Luo"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-13",
   "doi": "10.1007/s12598-024-02680-2",
@@ -1232,21 +1322,23 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "在温和条件下催化还原氮气为氨仍然是一个吸引人的课题，目的是降低能耗。三原子金属簇已被证明是探索高效催化剂的理想模型，利用独特的几何/电子结构和协同活性位点。这里报道了在十七种双金属Nb2M（M = Sc至Cu，和Y至Ag）簇上N2活化和还原的研究。全面研究了氨固定的三个关键过程（即氮活化、加氢和氨脱附），并突出了三个优选系统（Nb2Ni、Nb2Rh和Nb2Pd）具有优异的催化性能。这些金属簇与N2之间的d-σ和d-π*轨道杂化被证明，并揭示了与N≡N键活化的内部关联。通过考察四个选择的Nb2M簇（M = Fe、Ni、Rh和Pd）上的氨合成，可以阐明在这些系统中远端路径比替代路径更有利。这项工作不仅阐明了双金属Nb2M簇上的N2还原，还指导了高效双金属催化剂的设计。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "在掺杂三原子簇Nb2M（M = Sc至Cu & Y至Ag）上还原氮气为氨"
  },
  "10.1007/s42823-024-00747-9": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xiantong Yu",
@@ -1259,6 +1351,9 @@
    "Gongheng Zhang",
    "Biaohua Chen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-24",
   "doi": "10.1007/s42823-024-00747-9",
@@ -1281,20 +1376,21 @@
    "ammonia decomposition"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢"
+  "zh_obj": "氨分解制氢",
+  "zh_title": "制备碳载镍催化剂用于增强氨分解的催化活性"
  },
  "10.1007/s42864-024-00275-z": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Zi-Yi Yang",
@@ -1307,6 +1403,9 @@
    "Yan-Zhen He",
    "Xiao-Hui Yang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-30",
   "doi": "10.1007/s42864-024-00275-z",
@@ -1329,7 +1428,8 @@
    "nitrate to ammonia"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "工程化CuMn普鲁士蓝类似物壳纳米盒用于高效的硝酸电化学还原为氨"
  },
  "10.1016/j.apcata.2024.119677": {
   "ab_check_v": 2,
@@ -1383,16 +1483,16 @@
  },
  "10.1016/j.apcata.2024.119695": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jiahua Zhang",
@@ -1400,6 +1500,9 @@
    "Dongsheng Lu",
    "Hua Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.apcata.2024.119695",
@@ -1422,20 +1525,21 @@
    "nitrate reduction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "Cu2+1O 和 Co3O4 的协同串联效应增强中性溶液中硝酸盐还原为氨的活性和选择性"
  },
  "10.1016/j.apcatb.2023.123670": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Kaiyi Chen",
@@ -1447,6 +1551,9 @@
    "Bo Bai",
    "Qizhao Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.apcatb.2023.123670",
@@ -1469,7 +1576,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "尖晶石覆盖的层状 MgO 增强了 BiVO4 光催化氨合成的性能"
  },
  "10.1016/j.apsusc.2024.159444": {
   "ab_check_v": 2,
@@ -1523,16 +1631,16 @@
  },
  "10.1016/j.apsusc.2024.159686": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xiayong Chen",
@@ -1541,6 +1649,9 @@
    "Bowen Huang",
    "Dingwang Yuan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.apsusc.2024.159686",
@@ -1563,20 +1674,21 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "高效 Ru 基海森勒合金用于氮还原反应：打破比例关系和调节电位决定步骤"
  },
  "10.1016/j.apsusc.2024.159715": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Bingxue Wang",
@@ -1584,6 +1696,9 @@
    "Qiang Fu",
    "Yuchen Ma"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.apsusc.2024.159715",
@@ -1606,20 +1721,21 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "夹层亚纳米反应器对氮还原反应电催化性能的限域效应影响"
  },
  "10.1016/j.cattod.2024.114662": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Liuliu Shi",
@@ -1631,6 +1747,9 @@
    "Guoru Li",
    "Biaohua Chen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.cattod.2024.114662",
@@ -1653,20 +1772,21 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "磷钼酸调节缺陷金属有机框架 UiO-66 用于电化学氮还原反应"
  },
  "10.1016/j.cclet.2023.108654": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xue Xin",
@@ -1679,6 +1799,9 @@
    "Fengwei Huo",
    "Wenjing Liu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.cclet.2023.108654",
@@ -1701,20 +1824,21 @@
    "electrocatalytic nitrogen reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "异相二氧化锆包覆金纳米颗粒用于提升电催化氮还原"
  },
  "10.1016/j.cclet.2023.109037": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Chaozheng He",
@@ -1722,6 +1846,9 @@
    "Ling Fu",
    "Wei Wei"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.cclet.2023.109037",
@@ -1744,20 +1871,21 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "一氧化氮辅助 2D MBene 上的氮还原反应：理论研究"
  },
  "10.1016/j.ccr.2024.215723": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Huijie Zhang",
@@ -1768,6 +1896,9 @@
    "Haiyan Wang",
    "Yong Hu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.ccr.2024.215723",
@@ -1790,7 +1921,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电催化硝酸盐还原制备氨的策略和应用"
  },
  "10.1016/j.cej.2024.150429": {
   "ab_check_v": 2,
@@ -1854,16 +1986,16 @@
  },
  "10.1016/j.cej.2024.150434": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jingrui Ye",
@@ -1874,6 +2006,9 @@
    "Guangyu He",
    "Haiqun Chen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.cej.2024.150434",
@@ -1896,7 +2031,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "在双金属磷化物催化剂中空位增强的质子偏好用于电化学氨合成和 Zn-NO3− 电池的能源供应"
  },
  "10.1016/j.cej.2024.150760": {
   "ab_check_v": 2,
@@ -1952,16 +2088,16 @@
  },
  "10.1016/j.cej.2024.150838": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Robin De Meyer",
@@ -1971,6 +2107,9 @@
    "Sara Bals",
    "Annemie Bogaerts"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.cej.2024.150838",
@@ -1993,20 +2132,21 @@
    "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "甲烷干重整"
+  "zh_obj": "甲烷干重整",
+  "zh_title": "等离子体放电特性在等离子体催化中的重要性：甲烷干法重整与氨合成"
  },
  "10.1016/j.cej.2024.151098": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Peng Yang",
@@ -2019,6 +2159,9 @@
    "Wenbo Tang",
    "Rui Xiao"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.cej.2024.151098",
@@ -2041,7 +2184,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "逐步锂介导的电化学氮还原机理洞察用于增强氨合成"
  },
  "10.1016/j.ceja.2024.100612": {
   "ab_check_v": 2,
@@ -2059,6 +2203,9 @@
    "Nasser D. Afify",
    "Martin B. Sweatman"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.ceja.2024.100612",
@@ -2078,8 +2225,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究对象为高硅沸石作为氨吸附剂在制冷应用中的适用性，关键方法为系统性的蒙特卡洛模拟，研究温度范围 -50 至 50°C，压力高达 4.0 bar，主要结果为高孔隙率沸石表现出良好的氨吸附性能，可实现大制冷容量和可调操作条件，具有优良的能效比（COP）",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "高硅沸石中氨吸附的蒙特卡洛模拟用于制冷应用"
  },
  "10.1016/j.ceramint.2024.01.427": {
   "ab_check_v": 2,
@@ -2188,21 +2337,24 @@
  },
  "10.1016/j.checat.2024.101003": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Samuel M. Bhutto",
    "Louise A. Berben"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.checat.2024.101003",
@@ -2225,20 +2377,21 @@
    "dinitrogen reduction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "电正性思考：使用电正性金属催化氮气还原"
  },
  "10.1016/j.desal.2024.117361": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Taoqin Chen",
@@ -2247,6 +2400,9 @@
    "Xianchun Tang",
    "Hongbin Chen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.desal.2024.117361",
@@ -2267,25 +2423,29 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "同时水软化和选择性氨氮回收自煤气化灰水使用一种创新的四室流电极电化学系统"
  },
  "10.1016/j.dyepig.2024.112025": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Hairong Du",
    "Xieraili Maimaitiyiming"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.dyepig.2024.112025",
@@ -2306,20 +2466,21 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及碳材料"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及碳材料",
+  "zh_title": "研究噻吩衍生物对排序半导体单壁碳纳米管与氨传感性能差异的影响"
  },
  "10.1016/j.electacta.2024.144124": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Kun Zhang",
@@ -2331,6 +2492,9 @@
    "Yingjie Yang",
    "Ye Chen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.electacta.2024.144124",
@@ -2353,26 +2517,30 @@
    "nitrate reduction"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "构建具有高活性位点三元合金 Cu-Ni-Co 催化剂以增强硝酸还原为氨的初始吸附过程"
  },
  "10.1016/j.fuel.2024.130910": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Rehab M. El-Maghraby",
    "Ahmed Y. Mohamed",
    "M.H.M. Hassanean"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.fuel.2024.130910",
@@ -2395,20 +2563,21 @@
    "ammonia production"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "利用机器学习提高氨生产装置的能效"
  },
  "10.1016/j.fuel.2024.131030": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Rashmi Singh",
@@ -2420,6 +2589,9 @@
    "TTH Le",
    "Thangavel Mathimani"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.fuel.2024.131030",
@@ -2442,7 +2614,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "集成氨合成进展及其技术经济分析、排放指数和对氢能 2.0 经济的贡献"
  },
  "10.1016/j.ijhydene.2024.03.349": {
   "ab_check_v": 2,
@@ -2493,16 +2666,16 @@
  },
  "10.1016/j.ijhydene.2024.04.079": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Baiqiang Zhang",
@@ -2514,6 +2687,9 @@
    "Nobusuke Kobayashi",
    "Bo Wu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.ijhydene.2024.04.079",
@@ -2536,20 +2712,21 @@
    "ammonia synthesis"
   ],
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "使用 DBD 放电等离子体辅助强化流化催化剂用于绿色氨合成"
  },
  "10.1016/j.ijhydene.2024.04.081": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Zhen Yao",
@@ -2558,6 +2735,9 @@
    "Bingke Yang",
    "Ziqiang He"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.ijhydene.2024.04.081",
@@ -2578,20 +2758,21 @@
   "watch": [],
   "why": [],
   "zh_method": "光驱动",
-  "zh_obj": "氨硼烷水解"
+  "zh_obj": "氨硼烷水解",
+  "zh_title": "金属催化与光催化耦合的高性能催化剂及其催化氨硼烷甲醇解制氢"
  },
  "10.1016/j.ijhydene.2024.04.197": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Ranlei Shao",
@@ -2603,6 +2784,9 @@
    "Xingxing Cheng",
    "Zhiqiang Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.ijhydene.2024.04.197",
@@ -2625,26 +2809,30 @@
    "ammonia decomposition"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢"
+  "zh_obj": "氨分解制氢",
+  "zh_title": "基于二氧化铈的催化剂用于低温高效氨分解制氢研究"
  },
  "10.1016/j.ijhydene.2024.04.275": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Kaori Omata",
    "Tomonori Nambu",
    "Hideo Yoshinaga"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.ijhydene.2024.04.275",
@@ -2667,7 +2855,8 @@
    "Ammonia decomposition"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢"
+  "zh_obj": "氨分解制氢",
+  "zh_title": "钒氧化物负载镍催化剂上氨分解制氢"
  },
  "10.1016/j.ijhydene.2024.04.344": {
   "ab_check_v": 2,
@@ -2725,16 +2914,16 @@
  },
  "10.1016/j.jcat.2024.115489": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Qibing Dong",
@@ -2748,6 +2937,9 @@
    "Fei Li",
    "Chuanyi Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jcat.2024.115489",
@@ -2770,7 +2962,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "调节 Bi2MoO6/Bi-MOF 表面氧空位浓度以提升光催化氨合成性能"
  },
  "10.1016/j.jcis.2024.01.195": {
   "ab_check_v": 2,
@@ -2797,6 +2990,9 @@
    "Xuping Sun",
    "Qingquan Kong"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jcis.2024.01.195",
@@ -2818,8 +3014,10 @@
   "why": [
    "nitrite reduction"
   ],
+  "zh_brief": "研究对象为亚硝酸到氨的电催化还原，采用水热合成和浸渍法制备了 Ru 掺杂的蜂窝状 NiMoO4 纳米片，负载在镍泡沫上，用于氨合成。在 -0.7 V 下，0.01Ru-NiMoO4/NF 的 NH3 产率为 20249.17 ± 637.42 μg h-1 cm-2，法拉第效率为 95.56 ± 0.72 %。通过 DFT 计算，验证了 Ru 掺杂 NiMoO4 上的氧空位对亚硝酸盐的有效吸附和活化，并确定了可能的反应路径。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学亚硝酸盐还原；涉及Ru/钌体系、Fe/铁体系"
+  "zh_obj": "电化学亚硝酸盐还原；涉及Ru/钌体系、Fe/铁体系",
+  "zh_title": "Ru 掺杂 NiMoO4 纳米阵列作为高效电催化剂将亚硝酸还原为氨"
  },
  "10.1016/j.jcis.2024.01.203": {
   "ab_check_v": 2,
@@ -2843,6 +3041,9 @@
    "Jingyuan Ge",
    "Jia Du"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jcis.2024.01.203",
@@ -2864,8 +3065,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为掺杂铈纳米棒的可见光驱动氨合成性能，通过简单的水热还原法制备了 Cu0/CuO 复合物掺杂的铈纳米棒。随着 Cu0/CuO 摩尔比的增加，氨合成速率呈现倒“V”形趋势，当摩尔比为 0.16 时，全光谱或可见光下的氨产率分别为 900 或 521 µmol·g-1·h-1，是原始样品的 8 倍。样品的吸收边向可见光波长移动，并具有适当的氨合成水平。",
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "通过引入 Cu0/CuO 复合物调制能带结构以改善可见光驱动氨合成性能"
  },
  "10.1016/j.jcis.2024.02.005": {
   "ab_check_v": 2,
@@ -2887,6 +3090,9 @@
    "Bingping Liu",
    "Shihai Yan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jcis.2024.02.005",
@@ -2908,21 +3114,23 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为 FeNiO4 催化剂通过电催化硝酸盐还原反应合成氨的性能，通过理论计算和实验合成研究了 Fe/Ni 比对 FeNiO4 性能的影响。理论计算显示 NH3 合成活性随 Fe/Ni 比变化呈现火山形趋势，实验合成验证了该趋势，并展示了不同 Fe/Ni 比下 FeNiO4 的形貌变化。随着 Fe/Ni 比的增加，FeNiO4 形貌从纳米片到海胆状结构、纳米线和纳米花。Fe2NiO4 在 -1.1 V 下具有最高的 NH3 产率 12.51 mg h-1 cm-2，法拉第效率为 95.97 %，且 FeNiO4 表现出良好的稳定性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "调节 Fe/Ni 比对 FeNiO4 形貌和氨合成中硝酸盐还原性能的影响"
  },
  "10.1016/j.jclepro.2024.142357": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Zhaohui Gu",
@@ -2931,6 +3139,9 @@
    "Nan Xie",
    "Kebo Ma"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jclepro.2024.142357",
@@ -2953,20 +3164,21 @@
    "ammonia production"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "绿色氨生产过程的火用和环境足迹分析"
  },
  "10.1016/j.jechem.2023.12.024": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xinying Zhao",
@@ -2978,6 +3190,9 @@
    "Tao Qian",
    "Chenglin Yan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jechem.2023.12.024",
@@ -3000,25 +3215,29 @@
    "nitrite reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "在环境条件下对硝酸盐/亚硝酸盐还原为氨的 thriving 电催化过程的全面理解"
  },
  "10.1016/j.jechem.2024.01.024": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Abhishek Umesh Shetty",
    "Ravi Sankannavar"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jechem.2024.01.024",
@@ -3041,20 +3260,21 @@
    "ammonia synthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "探索电催化氨合成中氮还原反应机理：一篇全面综述"
  },
  "10.1016/j.jeurceramsoc.2023.12.062": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yaotian Yan",
@@ -3067,6 +3287,9 @@
    "Jian Cao",
    "Junlei Qi"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.jeurceramsoc.2023.12.062",
@@ -3089,20 +3312,21 @@
    "high-temperature shock"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "通过超快速高温冲击对 C/C 复合材料表面选择性氧化以增强与金属的界面结合"
  },
  "10.1016/j.mcat.2024.114165": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jianuan Wen",
@@ -3111,6 +3335,9 @@
    "Wei Cai",
    "Hongxia Qu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.mcat.2024.114165",
@@ -3133,20 +3360,21 @@
    "nitrogen fixation"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "MoFe 双金属碳点对光催化氮固定的协同效应"
  },
  "10.1016/j.mseb.2024.117330": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Di Ma",
@@ -3160,6 +3388,9 @@
    "Panpan Zhou",
    "Weichun Ye"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.mseb.2024.117330",
@@ -3180,7 +3411,8 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨硼烷水解；涉及碳材料"
+  "zh_obj": "氨硼烷水解；涉及碳材料",
+  "zh_title": "高活性 CeO2-CuCo 纳米颗粒负载在空心 N 掺杂碳球上用于促进氨硼烷水解和串联 4-硝基苯酚还原反应"
  },
  "10.1016/j.renene.2024.120377": {
   "ab_check_v": 2,
@@ -3199,6 +3431,9 @@
    "Nicholas Salmon",
    "Rene Bañares-Alcántara"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.renene.2024.120377",
@@ -3220,8 +3455,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "绿色氨是一种有前景的零碳能源储存载体，尽管潮汐流能具有可预测的特性，但从未仅使用潮汐流能生产过绿色氨。结合具有相位差（潮汐相位）的潮汐流场可以促进这些场功率曲线之间的反相关性，从而实现更一致的功率输出。绿色氨生产受益于稳定和可预测的功率输入。本文旨在确定附近的潮汐场是否具有足够大的相位差（反相关性）以降低氨生产的成本。此外，从未充分利用或未利用的偏远和电网受限的潮汐流场生产绿色氨可能使这些场的可行性成为可能。本文是首次分析仅使用潮汐流能生产绿色氨，也是首次分析潮汐相位用于绿色燃料生产。本文介绍了两个英国案例研究，i) 爱尔兰海北通道和ii) 奥克尼。每个潮汐场都有相位差（例如，库利岛/艾斯利岛和格雷姆斯岛/北罗纳尔德里岛，相关系数分别为 0.17 和 −0.02），利用这种相位差降低了爱尔兰海和奥克尼的氨平准化成本，分别降低了 8% 和 12%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "利用潮汐流能的时间特性进行绿色氨生产"
  },
  "10.1016/j.scitotenv.2024.171963": {
   "ab_check_v": 2,
@@ -3247,6 +3484,9 @@
    "Xiaofang Shen",
    "Yuanzheng Zhai"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.scitotenv.2024.171963",
@@ -3268,21 +3508,23 @@
   "why": [
    "nitrate reduction"
   ],
+  "zh_brief": "大量研究集中在河岸带减少地下水硝酸盐污染的能力上。由于硝酸盐具有极高的氧化还原活性，天然存在的电子给体，如有机质和铁矿物，对于促进河岸带中的硝酸盐还原至关重要。本文研究了磁铁矿（一种铁矿物）和硝酸盐（沉积物中常见的共存体系）共存的情况，以研究不同 C/N 比下的硝酸盐还原特征，并评估微生物群落对这些设置的响应。此外，本文旨在利用这些信息作为基础，以检查营养条件对磁铁矿存在环境中的硝酸盐还原过程的影响。这些结果强调了有机质在促进反硝化作用（DNRA）和增强沉积物环境中硝酸盐还原与铁之间联系的重要性。在硝酸盐还原的后期阶段，低碳环境中氮固定是主要过程，而高碳环境则倾向于促进有机氮的分解。高通量测序分析揭示了 C/N 比与微生物群落组成变化之间的强关联，为关键功能微生物的显著变化提供了见解。在有机质稀缺的生态系统中，固氮细菌 Ralstonia 含量更高。相比之下，在富含有机质的设置中，可能产生",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实"
+  "zh_obj": "过程待核实",
+  "zh_title": "不同营养条件下微生物介导的磁铁矿存在河岸带硝酸盐还原的驱动机制"
  },
  "10.1016/j.surfin.2024.104265": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jinyi Sun",
@@ -3295,6 +3537,9 @@
    "Jingjing Yang",
    "Jing Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.surfin.2024.104265",
@@ -3317,20 +3562,21 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及碳材料"
+  "zh_obj": "电化学氮还原；涉及碳材料",
+  "zh_title": "金属有机框架衍生的氮化钒锚定在氮掺杂碳片上作为高效的氮还原反应电催化剂"
  },
  "10.1016/j.surfin.2024.104286": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Shuheng Hu",
@@ -3342,6 +3588,9 @@
    "Zimu Xu",
    "Cheng Cheng"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.surfin.2024.104286",
@@ -3370,20 +3619,21 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "快速等离子体制备的 CuO 纳米线用于高效的氨合成"
  },
  "10.1016/j.surfin.2024.104290": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Nitesh Dogra",
@@ -3392,6 +3642,9 @@
    "K.K. Sharma",
    "Sandeep Sharma"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/j.surfin.2024.104290",
@@ -3412,20 +3665,21 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "TiO2 装饰的 MXene 纳米片用于室温下高性能氨气传感"
  },
  "10.1016/s1872-2067(23)64640-6": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Guangtong Hai",
@@ -3433,6 +3687,9 @@
    "Xin Liu",
    "Xiubing Huang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/s1872-2067(23)64640-6",
@@ -3455,7 +3712,8 @@
    "reduction of nitrogen"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "氮还原为氨的电催化最新进展"
  },
  "10.1016/s1872-2067(23)64644-3": {
   "ab_check_v": 2,
@@ -3526,16 +3784,16 @@
  },
  "10.1016/s1872-2067(24)60032-x": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Mu-Lin Li",
@@ -3545,6 +3803,9 @@
    "Jin-Chao Dong",
    "Jian-Feng Li"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05",
   "doi": "10.1016/s1872-2067(24)60032-x",
@@ -3567,7 +3828,8 @@
    "Ammonia electrosynthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "过程待核实；涉及碳材料"
+  "zh_obj": "过程待核实；涉及碳材料",
+  "zh_title": "在碳载体上金属单原子催化剂上的氨电合成"
  },
  "10.1021/acs.energyfuels.4c00529": {
   "ab_check_v": 2,
@@ -3589,6 +3851,9 @@
    "Asheesh Kumar",
    "V. Sudarsan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-03",
   "doi": "10.1021/acs.energyfuels.4c00529",
@@ -3608,8 +3873,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究对象为利用金属有机框架 (MOF) 催化氨硼烷 (AB) 水解产生 H2，关键方法为通过溶剂热法合成系列 MOF，并利用优化的 Cu-MOF-74 催化剂，主要结果为该催化剂的活化能为 32.1 kJmol–1，TOF 为 26 min–1，并证实 O–H 键断裂为关键步骤，Cu-MOF-74 在水解 AB 过程中能显著吸收氨。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨硼烷水解"
+  "zh_obj": "氨硼烷水解",
+  "zh_title": "通过金属有机框架通过 O–H 键活化催化氨硼烷水解产生氢"
  },
  "10.1021/acs.energyfuels.4c00702": {
   "ab_check_v": 2,
@@ -3633,6 +3900,9 @@
    "Vesna Rakić",
    "Xuesen Du"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-09",
   "doi": "10.1021/acs.energyfuels.4c00702",
@@ -3654,8 +3924,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "等离子体催化氨合成技术具有显著的发展潜力，提高等离子体和催化剂之间的协同作用是具有挑战性的研究重点。然而，当前研究主要集中在高效催化剂配方设计，但缺乏催化剂载体材料筛选和反应器性能优化的研究。因此，本研究首先增强了反应器的氨合成能力，发现 5 cm 接地电极和中心等离子体催化（CPC）耦合是最佳系统配置。载体筛选测试表明，较高的介电性能和高度有序的互连孔隙对于实现高氨浓度生产至关重要。SBA-15（最佳材料）填充系统显示出最高的降低电场（122.97 Td），具有更多的高能电子和高达 3.93 eV 的平均电子能量。氨合成在 SBA-15 上的可能增强机制包括：（1）促进气相中进料气的激发解离过程和材料表面的活化过程；（2）使用有序的管状通道抑制等离子体诱导的逆反应的发生。通过调整流量，实现了高达 11737 ppm 的氨浓度，比空管高 4.58 倍。最高合成速率达到 5337 μmol/",
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "解锁高效的等离子体-催化剂氨合成：系统优化和催化剂载体筛选"
  },
  "10.1021/acs.inorgchem.4c01677": {
   "ab_check_v": 2,
@@ -3675,6 +3947,9 @@
    "Bo Xie",
    "Shengjie Xia"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-28",
   "doi": "10.1021/acs.inorgchem.4c01677",
@@ -3696,6 +3971,7 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "合成了具有不同 S 空位浓度（V S -MoS 2 ）的 MoS 2 纳米片，并用于光催化氮还原反应（pNRR），通过 DFT 计算探索了 S 空位提高 MoS 2 活性的机制。材料表征证实了在不同浓度下在 MoS 2 球簇结构上成功构建了 S 空位。实验结果表明，引入 S 空位显著提高了 pNRR 的活性，并随着空位数量的增加而显著提高，与光电性能的趋势一致。V S -MoS 2 -3 表现出最高的 pNRR 效率，是原始 MoS 2 的 3.5 倍，在使用三次后，活性仅下降了约 11%。DFT 计算结果表明，由 S 空位产生的暴露 Mo 原子改变了 MoS 2 表面的电荷分布，同时提供了丰富的 Mo 活性位点。同时，随着 S 空位的增加，带隙结构会变窄，有利于表面电荷的转移。此外，S 空位的增加，一方面，增强了 MoS 2 对 N 2 的吸附，减弱了 H 的吸附，提高了氮的选择性，有利",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确"
  },
@@ -3718,6 +3994,9 @@
    "Jing-Shuang Dang",
    "Jun Li"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-06",
   "doi": "10.1021/acs.jpclett.4c00711",
@@ -3739,6 +4018,7 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "研究了在电场刺激下 Cu 基单原子合金（SAA）和定向外部电场（OEEFs）促进氮还原反应（NRR）的协同催化策略。通过第一性原理计算研究了场强（ F ）依赖的反应路径。不同偶极诱导的中间体对电场的响应打破了原有的比例关系，有效调节了 NRR 的活性和产物选择性。以最活跃的 Os 1 Cu SAA 为例，在无 OEEF 时 NRR 的过电位（η）为 0.62 V，甚至高于竞争的析氢反应（HER）。负电场不仅降低了 η，还使 NRR 优先于 HER。在 F = −1.14 V/Å 时，η 降至 0.18 V，比无场状态低 70%。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -3765,6 +4045,9 @@
    "Changlu Shao",
    "Yichun Liu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.1021/acs.langmuir.4c01034",
@@ -3787,7 +4070,8 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "光驱动",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "协同工程Bi-铋基异质纳米纤维中的能带对齐和界面电场分布以提升可见光驱动光催化氨合成和抗生素去除"
  },
  "10.1021/acs.nanolett.4c01351": {
   "ab_check_v": 2,
@@ -3811,6 +4095,9 @@
    "Li Deng",
    "M. Danny Gu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-23",
   "doi": "10.1021/acs.nanolett.4c01351",
@@ -3830,8 +4117,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究对象为锂金属负极 (LMA) 的固体电解质界面 (SEI)，采用低温透射电子显微镜研究 LiNO3 添加剂在 25 和 50 °C 条件下对 SEI 调节的作用。结果显示，不含 LiNO3 添加剂的基线电解液中 LMA 循环稳定性差，源于富含 Li2CO3 的马赛克型 SEI。增加 LiNO3 含量和升高工作温度通过优先 LiNO3 分解形成双层或多层 SEI 结构，提高了循环性能，但可能增厚 SEI，导致初始库仑效率降低和过电位增加。最佳 SEI 具有多层结构，内层富含 Li2O，外层晶粒紧密堆积，最小化电解液分解或腐蚀。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "通过低温透射电子显微镜揭示硝酸锂介导的锂金属负极固体电解质界面"
  },
  "10.1021/acsami.4c00253": {
   "ab_check_v": 2,
@@ -3853,6 +4142,9 @@
    "Raghavan Ranganathan",
    "Kabeer Jasuja"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-02",
   "doi": "10.1021/acsami.4c00253",
@@ -3874,8 +4166,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "研究对象为 TiB2 纳米片，关键方法为纳米片制备和 DFT 计算，主要结果为在 -0.2 V vs RHE 下氨产率为 318 μg h–1 cm–2，法拉第效率为 57%。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "富空位的 TiB2 纳米片促进电化学氨合成"
  },
  "10.1021/acsami.4c02259": {
   "ab_check_v": 2,
@@ -3901,6 +4195,9 @@
    "Xiaoyong Yang",
    "Zhengzong Sun"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-06",
   "doi": "10.1021/acsami.4c02259",
@@ -3922,6 +4219,7 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "通过脉冲电沉积和边界偏析合成了 Re 原子掺杂的 Cu 位错边界（TBs）。Re 掺杂的 Cu TBs 表现出高效的氮还原反应（NRR）性能，其转换频率为 ∼5889 s –1，比纯 Cu TB 活性中心（∼7 s –1 ）高约 800 倍。理论计算表明，Re–Re 二聚体可以促进 NRR 并同步抑制析氢反应，使 Re 掺杂的 Cu TB 催化剂具有高 NRR 活性和选择性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原"
  },
@@ -3946,6 +4244,9 @@
    "Yongan Yang",
    "Xi Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-22",
   "doi": "10.1021/acsami.4c02716",
@@ -3967,8 +4268,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "研究对象为氮掺杂碳上的 Fe 单原子 (Fe1) 和三聚体 (Fe3) 催化剂，用于电催化氮还原反应 (NRR)。实验和 DFT 计算表明，与 Fe1 催化剂上 N2 的端基吸附相比，Fe3 催化剂上 N2 的侧基吸附增强了 N2 活化，反应遵循酶促途径，NRR 的自由能势垒降低。结果为 Fe3 催化剂 (NH3 产率 27.89 μg h−1 mg−1 cat.，法拉第效率 45.13%) 表现出优于 Fe1 催化剂 (10.98 μg h−1 mg−1 cat.，20.98%) 的性能。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Fe/铁体系、碳材料"
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系、碳材料",
+  "zh_title": "氮掺杂碳上的铁单原子或三聚体：哪种更好用于电催化氮还原反应？"
  },
  "10.1021/acsanm.4c01849": {
   "ab_check_v": 2,
@@ -3992,6 +4295,9 @@
    "Debao Wang",
    "Caixia Song"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-16",
   "doi": "10.1021/acsanm.4c01849",
@@ -4013,8 +4319,10 @@
   "why": [
    "Nitrate to Ammonia"
   ],
+  "zh_brief": "研究对象为 NiMoO4 纳米立方体作为硝酸盐还原为氨的电催化剂，使用深度共熔溶剂（DESs）作为合成介质。通过构建 Mo 和 Ni 双活性位点，Mo 促进 NO3- 吸附/关联，Ni 作为活性氢 (*H) 提供中心。优化样品在 -0.4 V 下具有优异的 NO3- 还原为 NH3 活性，氨氮选择性高达 96.94%，法拉第效率高达 96.13%。通过密度泛函理论（DFT）计算研究了催化 NO3- 还原为 NH3 的机理。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "调控活性氢吸附在双活性位点 NiMoO4 纳米立方体上用于硝酸盐还原为氨"
  },
  "10.1021/acsapm.4c00594": {
   "ab_check_v": 2,
@@ -4034,6 +4342,9 @@
    "Shubham Sharma",
    "Paritosh Mohanty"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-30",
   "doi": "10.1021/acsapm.4c00594",
@@ -4055,8 +4366,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "氮（N2）电还原为氨（NH3）在环境条件下被认为是哈伯-博施（H-B）过程的有前景的替代方案。由于氮还原反应（N2RR）的低法拉第效率（FE）和慢反应动力学，设计能够解决上述挑战的坚固催化剂非常重要。通过快速微波辅助方法合成的基于苯硼酸的富硼超交联聚合物（Poly-BBA）已被用作无金属电催化剂，用于高效的N2电还原为NH3。Poly-BBA的合成使用400 W功率在45 °C下进行30分钟，并在100 °C下老化30分钟。通过先进的分析技术成功合成了Poly-BBA。N2吸附分析显示具有分级多孔结构，比表面积BET为1080 m2 g–1，总孔容为0.7 cm3 g–1。Poly-BBA在0.05 M H2SO4溶液中在–0.5 V vs RHE时表现出对N2的选择性还原为NH3，FE为21.9%。合成材料中的硼导致电子密度的重新分布，并为N2分子的吸附和活化提供了缺电子位点。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
+  "zh_title": "基于富硼苯硼酸的超交联聚合物选择性电催化N2还原为氨"
  },
  "10.1021/acscatal.4c00879": {
   "ab_check_v": 2,
@@ -4080,6 +4393,9 @@
    "Chenglin Yan",
    "Jianmei Lu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-06",
   "doi": "10.1021/acscatal.4c00879",
@@ -4101,8 +4417,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "研究对象为电化学硝酸盐还原 (NO3RR) 体系，关键方法为通过杂原子合金化制备新型失配中熵合金 (MEA) 金属烯，并利用其调节活性中心的电荷分布，主要结果为 PdCuCo MEA 金属烯在酸性和碱性电解液中均实现近 100% 的 NH3 法拉第效率，以及 532.5 mg h–1 mg cat–1 的 NH3 产率率，并可将 6200 ppm 工业废水中的硝酸盐 99.7% 转化为饮用水级。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "在失配中熵合金金属烯上实现近 100% 法拉第效率的电催化硝酸盐还原为氨"
  },
  "10.1021/acscatal.4c02019": {
   "ab_try": "2026-10-29",
@@ -4223,6 +4541,9 @@
    "Tharamani C. Nagaiah",
    "Dinesh Shetty"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-02",
   "doi": "10.1021/acsenergylett.4c00707",
@@ -4244,8 +4565,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为 Ru-Tta-Dfp 共价有机框架催化剂，关键方法为催化剂设计和电解，主要结果为在 -0.4 V vs RHE 下硝酸盐到氨的法拉第效率为 93.93%，氨产率为 1.16 mg h–1 cm–2。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系",
+  "zh_title": "Covalent Organic Framework 双功能催化剂用于葡萄糖氧化反应偶联硝酸盐到氨电解"
  },
  "10.1021/acsenergylett.4c01100": {
   "ab_check_v": 2,
@@ -4318,6 +4641,9 @@
    "Xing Yang",
    "Ke Chu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-08",
   "doi": "10.1021/acsnano.4c01958",
@@ -4337,6 +4663,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "研究了一种 p 区单原子合金 Sb 1 Cu 作为 NO 2 – 电化学还原为 NH 3 的催化剂。理论计算和原位光谱测量表明，Sb 1 的引入不仅抑制了竞争性的析氢反应，还优化了 Sb 1 Cu 的 d 带中心和中间体吸附能，从而提高了 NO 2 – 转化为 NH 3 的质子化能学。在流动电池中，Sb 1 Cu 实现了 2529.4 μmol h –1 cm –2 的 NH 3 产率率和 95.9% 的 NH 3 法拉第效率，电流密度为 424.2 mA cm –2，电解 100 h 后仍保持高稳定性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原；涉及Fe/铁体系"
  },
@@ -4409,6 +4736,9 @@
    "Xin Gao",
    "Jin Zhang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-15",
   "doi": "10.1021/jacs.4c04985",
@@ -4430,8 +4760,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "以铜氮化物（Cu3N）锚定在新型图撑支撑（称为Cu3N/GDY）上的催化剂用于电催化硝酸盐还原产生氨。图撑吸收氢并使氮（N）空位在Cu3N中形成以快速硝酸盐还原反应（NO3RR）。此外，GDY和N空位形成的不同吸收位点使NO3RR具有优异的选择性和稳定性。值得注意的是，Cu3N/GDY催化剂在-0.9 V相对于可逆氢电极（RHE）使用0.1 M NO3-时，实现了高达35280 μg h-1 mgcat.-1的高氨产率（YNH3）和高法拉第效率（FE）为98.1%。使用电子顺磁共振（EPR）技术和原位X射线吸收精细结构（XAFS）光谱测量，可视化了Cu3N中的N空位形成和GDY介导的电催化NO3RR。这些发现表明GDY在可持续氨合成中的潜力，并突出了Cu3N/GDY作为催化剂的有效性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "图撑氮空位形成在铜氮化物中用于高效的氨合成"
  },
  "10.1021/jacsau.4c00194": {
   "ab_try": "2026-10-29",
@@ -4535,6 +4867,9 @@
    "Alessandro Parente",
    "Francesco Contino"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-16",
   "doi": "10.1038/s43016-024-00979-y",
@@ -4556,23 +4891,28 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "评估了在农场规模上使用太阳能农业光伏系统或电网电力进行低碳氨生产的成本竞争力，并与集中生产的化肥市场价格进行比较。分布式生产成本竞争力依赖于运输成本和供应链中断，到 2030 年，最多可达 96% 的全球氨需求可以实现成本竞争力。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "通用催化方法"
+  "zh_obj": "通用催化方法",
+  "zh_title": "具有成本竞争力的分布式氨肥生产可以增加粮食安全"
  },
  "10.1038/s43016-024-00991-2": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-16",
   "doi": "10.1038/s43016-024-00991-2",
@@ -4595,7 +4935,8 @@
    "ammonia production"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "小规模分布式氨生产到 2030 年可能实现成本竞争力"
  },
  "10.1038/s43246-024-00510-7": {
   "abstract": "Abstract The traditional Haber-Bosch process for ammonia production is energy-intensive and relies on harsh conditions. Plasmonic materials are considered a sustainable alternative to this process. In plasmonics, the ability to localize and enhance light fields beyond the diffraction limit offers a promising avenue for harnessing visible light for photocatalysis. Moreover, the integration of plasmonic metals with various catalysts presents a promising avenue to improve efficiency and selectivity. However, cost and stability challenges hinder large-scale applications. Researchers are actively exploring new materials, optimizing catalyst design, and improving stability to overcome these hurdles. This Review delves into the intricacies of plasmonic catalysis, including material design, co-catalyst selection, and the use of nanotechnologies for precise control of metal properties in plasmonic catalysis. It emphasizes understanding energy flow at material interfaces. Ultimately, the Review aims to establish a foundation for efficient nitrogen fixation through plasmonic photocatalysis, paving the way for a more sustainable future.",
@@ -4605,6 +4946,9 @@
    "Pooja Aggarwal",
    "Vishal Govind Rao"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-04",
   "doi": "10.1038/s43246-024-00510-7",
@@ -4626,21 +4970,23 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "研究对象为利用等离子体材料进行可持续氨生产，关键方法为利用等离子体金属增强可见光用于光催化，并优化催化剂设计，主要结果为通过等离子体光催化实现高效的氮固定，但成本和稳定性问题仍需解决。",
   "zh_method": "光驱动",
-  "zh_obj": "光催化固氮"
+  "zh_obj": "光催化固氮",
+  "zh_title": "等离子体化学用于可持续氨生产"
  },
  "10.1039/d4gc01422g": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "Magnesium single atoms derived from natural leaves for sustainable ammonia production.",
   "authors": [
    "Kanhai Kumar",
@@ -4654,6 +5000,9 @@
    "Abhishek Kumar Singh",
    "Karuna Kar Nanda"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-31",
   "doi": "10.1039/d4gc01422g",
@@ -4676,7 +5025,8 @@
    "ammonia production"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "从菠菜叶绿素提取物绿色合成镁单原子催化剂用于可持续电催化硝酸盐还原为氨"
  },
  "10.1039/d4nj01662a": {
   "abstract": "This study via the synthesis of in situ exsolved CoFe alloy NPs for use as NRR catalysts for electrochemical synthesis of ammonia. Good results have been obtained.",
@@ -4687,6 +5037,9 @@
    "Lingting Ye",
    "Kui Xie"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-17",
   "doi": "10.1039/d4nj01662a",
@@ -4708,8 +5061,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为原位析出 CoFe 合金纳米颗粒，用作电化学合成氨的 NRR 催化剂。通过合成方法获得良好的结果。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "覆盖钙钛矿的原位析出 CoFe 合金纳米颗粒用于增强氨合成"
  },
  "10.1039/d4nr01510j": {
   "ab_try": "2026-10-29",
@@ -4886,6 +5241,9 @@
   "authors": [
    "Jacob De Boer"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-16",
   "doi": "10.1071/ep23066",
@@ -4907,8 +5265,10 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "合成氨生产支持全球一半以上人口的食物生产。许多区域氨厂将所有氨转化为硝酸铵肥料，所有碳最终都转化为二氧化碳（CO2），使用天然气生产每吨氨释放约 2 吨 CO2。氨厂是高资本支出、长寿命资产，运行 40 多年。能源转型中，更换这些资产成本非常高，将严重影响粮食生产成本。此外，绿色能源高度可变，需要额外的供应侧资产来稳定能源供应。本文概述了一种减少 30%（也是 43% 情况）CO2 的转型方法，以延长这些资产的使用寿命，同时重用大部分工厂，并能够以最小的干扰打开/关闭绿色能源，以稳定运行。以一个典型的 750 吨/天氨蒸汽甲烷重整（SMR）工厂为例。该方法考虑添加和集成绿色电力和沼气以减少净报告 CO2 排放。二氧化碳的甲烷化已在几个项目中得到证明，并被认为是开发现有基于天然气的工厂转型路径的关键，延长其运行寿命并提高其与不同程度的可变绿色能源供应运行的灵活性。此外，尽管在本案例中使用合成",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "兆瓦级到甲烷——现有区域天然气氨厂减排转型的深度下降"
  },
  "10.1088/1361-6463/ad4717": {
   "abstract": "Abstract Ammonia is one of the most important industrial chemicals which is commonly used for producing fertilizers and cleaning solutions, as the refrigerant gas, and as the precursors for making various chemicals. With the goal of sustainable development, ammonia is also proposed as the clean fuel for decarbonized transportation. The current the Haber–Bosch process for ammonia synthesis has large footprint and operates under harsh conditions using fossil fuels as the feedstock, being recognized as the major carbon emission source. Accordingly, call for sustainable production of green ammonia using renewable energies is proposed. Ammonia synthesis assisted by nonthermal plasmas has emerged in recent years as a novel and mild electrified technology, which can potentially be coupled with intermittent renewable energies and green hydrogen. Although being promising, significant development is still needed to advance the technology towards practical applications at scales. Hence, this review comments the progression of key aspects of the plasma-assisted ammonia synthesis such as catalyst and reactor design, mechanistic understanding, and process parameters. The snapshot of the current developments and proposed perspectives hope to provide guidance for the future research efforts to drive the technology towards higher technology readiness levels.",
@@ -4920,6 +5280,9 @@
    "Huanhao Chen",
    "Xiaolei Fan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-16",
   "doi": "10.1088/1361-6463/ad4717",
@@ -4941,8 +5304,10 @@
   "why": [
    "Ammonia synthesis"
   ],
+  "zh_brief": "氨是最重要的工业化学品之一，通常用于生产肥料和清洁剂，作为制冷剂气体，以及作为制造各种化学品的前体。为了可持续发展，氨也被提议作为脱碳交通的清洁燃料。当前的哈伯-博施法合成氨占地面积大，在严苛条件下使用化石燃料作为原料，被认为是主要的碳排放源。因此，呼吁使用可再生能源进行绿色氨的可持续生产。近年来，非热等离子体辅助氨合成技术作为一种新型温和的电气化技术出现，有可能与间歇性可再生能源和绿色氢气相结合。尽管前景广阔，但仍需重大发展以推进该技术向实际应用规模迈进。因此，本综述评论了等离子体辅助氨合成的关键方面的进展，如催化剂和反应器设计、机理理解和工艺参数。当前发展的快照和提出的观点希望为未来的研究工作提供指导，推动该技术向更高的技术准备水平发展。",
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "非热等离子体催化合成氨：近期研究进展综述"
  },
  "10.1158/0008-5472.c.7234880": {
   "abstract": "<div>Abstract<p>Hepatocellular carcinoma (HCC) is a typical tumor that undergoes metabolic reprogramming, differing from normal liver tissue in glucose, lipid, nucleic acid, and amino acid metabolism. Although ammonia is a toxic metabolic by-product, it has also been recently recognized as a signaling molecule to activate lipid metabolism, and it can be a nitrogen source for biosynthesis to support tumorigenesis. In this study, we revealed that β-catenin activation increases ammonia production in HCC mainly by stimulating glutaminolysis. β-Catenin/LEF1 activated the transcription of the glutamate dehydrogenase GLUD1, which then promoted ammonia utilization to enhance the production of glutamate, aspartate, and proline as evidenced by <sup>15</sup>NH<sub>4</sub>Cl metabolic flux. β-Catenin/TCF4 induced the transcription of SLC4A11, an ammonia transporter, to excrete excess ammonia. SLC4A11 was upregulated in HCC tumor tissues, and high SLC4A11 expression was associated with poor prognosis and advanced disease stages. Loss of SLC4A11 induced HCC cell senescence <i>in vitro</i> by blocking ammonia excretion and reduced β-catenin–driven tumor growth <i>in vivo</i>. Furthermore, elevated levels of plasma ammonia promoted the progression of β-catenin mutant HCC, which was impeded by SLC4A11 deficiency. Downregulation of SLC4A11 led to ammonia accumulation in tumor interstitial fluid and decreased plasma ammonia levels in HCC with activated β-catenin. Altogether, this study indicates that β-catenin activation reprograms ammonia metabolism and that blocking ammonia excretion by targeting SLC4A11 could be a promising approach to induce senescence in β-catenin mutant HCC.</p>Significance:<p>Ammonia metabolism reprogramming mediated by aberrant activation of β-catenin induces resistance to senescence in HCC and can be targeted by inhibiting SLC4A11 as a potential therapy for β-catenin mutant liver cancer.</p></div>",
@@ -5049,6 +5414,9 @@
    "Jianmei Wang",
    "Hongyu Si"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-15",
   "doi": "10.15376/biores.19.3.4313-4334",
@@ -5070,26 +5438,31 @@
   "why": [
    "ammonia decomposition"
   ],
+  "zh_brief": "活性炭（AC）材料因其高比表面积、优异的导电性和可定制的官能团而被广泛用作催化剂载体。然而，增强负载在AC上的基于Ru的催化剂（Ru/AC）的氨分解活性仍然是一个挑战。在本研究中，商业AC被用作底物，葡萄糖和尿素被用作改性剂。具体而言，通过水热热解方法对AC的表面进行改性，导致成功地在原位进行氮（AC-GN）的共掺杂。实验结果表明，Ru/AC-GN在475 °C时的氢气生产速率比Ru/AC高46%，表明活性提高和稳定性提高。AC-GN的表征表明，氮掺杂主要发生在AC的外表面和大孔上，增加了载体的氮含量，特别是吡咯氮含量，同时保留了AC的原始结构和形态完整性。Ru的增强分散，结合改进的电子传输能力和金属与改性载体之间相互作用加强，被认为是增强Ru/AC-GN低温效力的关键因素。本文为大规模制备高效的氨分解催化剂提供了一种新方向。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢；涉及Ru/钌体系、碳材料"
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系、碳材料",
+  "zh_title": "通过分级多孔碳载体的氮掺杂增强基于Ru的催化剂的氨分解活性"
  },
  "10.2139/ssrn.4816860": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Alison Elizabeth Cox",
    "Cigdem Eskicioglu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-03",
   "doi": "10.2139/ssrn.4816860",
@@ -5110,7 +5483,8 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "从市政污泥水热液化水相中剥离氨用于厌氧共消化预处理和氨回收"
  },
  "10.2139/ssrn.4829272": {
   "abstract": "In this study, the enhancement of palladium-based catalysts’ resistance to toxicity was pursued through the synthesis of six catalysts, namely PdCu MOF1000, Pd MOF1000, Cu MOF1000, PdCu MOF500, Pd MOF500, and Cu MOF500, employing a hydrothermal method. The study delved into the catalytic reduction capabilities of these six catalysts with respect to nitrate (NO3-N), alongside exploring the impact of sodium sulfite on the catalytic activities of PdCu MOF1000, Pd MOF1000, and Cu MOF1000. Notably, at a NO3-N concentration of 50 mg/L, significant removal efficacy was observed for PdCu MOF1000, Pd MOF1000, and Cu MOF1000, with PdCu MOF1000 exhibiting a high nitrate removal rate of 97.8%. Upon the addition of 200 μM sodium sulfite to the system, the removal efficiency of PdCu MOF1000 was still high at 93.3%, while a reduction in the removal rate of NO3-N by Pd MOF1000 was observed. Quenching experiments confirmed the presence of hydrogen radicals (H*) in the reaction system, thereby facilitating the indirect-electrocatalytic reduction of nitrate . This observation suggests that catalysts containing Pd single atoms show promise in enhancing their resilience to toxicity.",
@@ -5121,6 +5495,9 @@
    "Xiaobin Zhou",
    "yinming fan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-15",
   "doi": "10.2139/ssrn.4829272",
@@ -5140,21 +5517,23 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "在本研究中，通过水热法合成了六个催化剂，即PdCu MOF1000、Pd MOF1000、Cu MOF1000、PdCu MOF500、Pd MOF500和Cu MOF500，以增强钯基催化剂的抗毒性。该研究深入探讨了这些六个催化剂对硝酸盐（NO3-N）的催化还原能力，并探索了亚硫酸钠对PdCu MOF1000、Pd MOF1000和Cu MOF1000催化活性的影响。值得注意的是，在NO3-N浓度为50 mg/L时，PdCu MOF1000、Pd MOF1000和Cu MOF1000表现出显著的去除效果，PdCu MOF1000表现出高达97.8%的高硝酸盐去除率。在系统中添加200 μM亚硫酸钠后，PdCu MOF1000的去除效率仍然很高，为93.3%，而Pd MOF1000的NO3-N去除率有所下降。淬灭实验证实了反应体系中存在氢自由基（H*），从而促进了硝酸盐的间接电催化还原。这",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "单原子钯对电催化硝酸盐氮还原毒性的影响"
  },
  "10.2139/ssrn.4832959": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "retry",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yaru Zhou",
@@ -5168,6 +5547,9 @@
    "Bo Wang",
    "Xiaolei Zhao"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-18",
   "doi": "10.2139/ssrn.4832959",
@@ -5190,7 +5572,8 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "结合液化天然气冷能利用的氨合成过程的可持续性分析基于碳和水足迹"
  },
  "10.2320/matertrans.mt-m2023212": {
   "ab_check_v": 2,
@@ -5248,6 +5631,9 @@
    "Alexander Miller",
    "Alan Goldman"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-21",
   "doi": "10.26434/chemrxiv-2024-2v9z2",
@@ -5269,8 +5655,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为硫醚-二膦配位体偶联的钼配合物 (PSP)MoCl3 (1-Cl3，PSP = 4,5-双(二异丙基膦基)-2,7-双叔丁基-9,9-二甲基-9H-噻吩)，作为 N2 还原催化的催化剂前体，进行实验/计算结合的机理研究。结果显示，1-Cl3 在 N2 气氛下与三个还原当量反应生成双核五氮钼配合物 [(PSP)Mo(N2)2](-N2)。电化学研究表明，1-Cl3 比 (PNP)MoCl3 (电位约低 0.4 eV) 更易还原。桥接氮配合物 2 没有迹象表明发生 N2 断裂形成钼氮化物。1-Cl3 在 N2 气氛下与两个还原当量反应，在碘化物存在下生成氮化物配合物 (PSP)Mo(N)(I)。DFT 计算表明，[(PSP)Mo(I)]2(N2) 可能是易 N2 断裂生成 (PSP)Mo(N)(I) 的中间体。将氮化配体转化为 NH3 的研究显示，如果考虑 H 原子的顺序添加到氮化物",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "配位体偶联钼配合物在二氮还原为氨中的关键步骤机理洞察：易还原的 PSP 钼配合物案例研究"
  },
  "10.26434/chemrxiv-2024-jqz3r": {
   "abstract": "We investigate the blocking layer formation of the trimethoxypropylsilane small molecule inhibi-tor (SMI), its blocking mechanisms, and all relevant blocking layer disintegration reactions on SiO2 in the area-selective atomic layer deposition of Al2O3 with density functional theory-based methods. The choice of amorphous silica (a-SiO2) surface models proves essential to obtain the correct SMI chemistry. We demonstrate that complete blocking of reactive sites is possible here and deduce an upper SMI density limit of the resulting blocking layer which is limited by Pauli repulsion. The SMI adsorption process can nevertheless leave unreacted silanol groups, which could be remedied by using a second monodentate SMI. The SMI layer is neither inert against common aluminum precursors nor the co-reactant water as our comprehensive analysis of the var-ious blocking layer disintegration reactions for different SMI layer densities shows. We report a new blocking mechanism of the SMI layer and propose to differentiate what is discussed as the ‘steric blocking’ effect into the known ‘adsorption prevention’ and the newly found ‘reactivity reduction’ effects. For trimethylaluminum (TMA) an additional favorable SMI layer decomposi-tion mechanism is found compared to the bulkier triethylaluminum (TEA) which could explain the lower selectivity of TMA found experimentally. Our computational work offers some princi-ples and ideas for future experiments to improve selectivity in AS-ALD processes.",
@@ -5315,6 +5703,9 @@
    "Meili Gong",
    "William Tarpeh"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-14",
   "doi": "10.26434/chemrxiv-2024-tlxz4",
@@ -5334,8 +5725,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "废水中的氮可以回收以防止负面的环境影响、人类健康和经济影响，并实现分布式化学制造。开发了新型柔性电化学剥离（FECS）用于可调的氨/铵（总氨氮，TAN）从尿液中回收为硫酸铵和水合氨。批量和连续实验表明，通过修改电化学电池操作频率、持续时间和施加电流，可以很容易地控制产物种类，而不会影响TAN去除。在连续实验中，FECS回收了氨溶液，其浓度与即用型清洁剂相似（1%和2%水合氨（w/w）或8.22和16.4 g/L TAN），以及更清洁的浓缩液（5%水合氨（w/w）或41.1 g/L TAN），以及硫酸铵溶液在5至18.4 g/L TAN之间，接近商业肥料浓度（28.4 g/L TAN）。除了修改施加电流外，未来的工艺工程和操作条件优化应降低能耗，提高回收效率，并提高FECS的经济可行性。研究结果将使电化学氮回收的开发和部署成为可能，在需要不同氨基产品的环境中，为将分布式化学制造与卫生系统相结",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "柔性电化学剥离用于废水氨回收具有实时产品可调性"
  },
  "10.31399/asm.cp.smst2024p0127": {
   "abstract": "Abstract Nitinol is an important material for medical implants due to its super elastic behaviour and since its mechanical properties mimic biological materials. The surface of nitinol implants is commonly covered with a thin titanium dioxide (TiO2) layer which acts both as a passivating layer to increase the corrosion resistance and as a barrier layer to address the toxicological concerns of long-term nickel release into the biological tissue. Even though nitinol undergoes a natural passivation when exposed to air, various thermal, chemical, and electrochemical surface finishing techniques are applied during manufacturing to replace the native oxide layer by uniform TiO2 layers of controlled thickness. The properties of these oxide layers depend on the surface finishing technique and the process parameters.",
@@ -5386,6 +5779,9 @@
    "Jin OoK Baeg",
    "Kanchan Sharma"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-21",
   "doi": "10.3233/mgc-240016",
@@ -5407,8 +5803,10 @@
   "why": [
    "reduction of nitrogen"
   ],
+  "zh_brief": "研究对象为 ADG/NiO 纳米复合材料，采用一锅化学法制备，通过改变石墨烯纤维结构调节能带间隙。该材料具有 2.68 eV 的合适能带间隙，高摩尔吸光率，良好的光稳定性和可重复使用性。在太阳光照射下，该复合材料表现出优异的光催化活性，将氮有效固定为氨，表观量子效率(AQE)为 0.64%，对亚甲基蓝(MB)和伊红-B的染料去除效率分别为 94.2% 和 86.41%，在 90 分钟内将其转化为无害的无机物质如 CO2 和 H2O。",
   "zh_method": "光驱动",
-  "zh_obj": "光催化固氮；涉及碳材料"
+  "zh_obj": "光催化固氮；涉及碳材料",
+  "zh_title": "ADG/NiO 纳米复合材料的能带工程及其在光催化还原氮和染料光氧化的应用"
  },
  "10.3311/ppch.22904": {
   "abstract": "The present paper investigates the energy efficiency of ammonia production by a freely oscillating microbubble placed in an infinite domain of liquid. The spherical bubble initially contains a mixture of nitrogen and hydrogen. The bubble is expanded from its equilibrium size to a specific maximum radius via an isothermal expansion. The work needed to expand the bubble is its potential energy calculated by the sum of the work done by the internal gas, the work needed to displace the mass of the surrounding liquid, and the work needed to increase the area of the bubble against the surface tension. During the radial pulsation of the freely oscillating bubble, the internal temperature can reach several thousands of degrees of Kelvin inducing chemical reactions. The chemical yield is computed by solving a set of ordinary differential equations describing the radial dynamics of the bubble (Keller—Miksis equations), the temporal evolution of the internal temperature (first law of thermodynamics), and the concentration of the chemical species (reaction mechanism). The control parameters during the simulations were the equilibrium bubble size, initial expansion ratio, ambient pressure, and the initial concentration ratio of nitrogen and hydrogen. In the best-case scenario, the energy requirement in terms of GJ/t is 6.8 times higher than the best available facility of the Haber—Bosch process (assuming that the hydrogen is produced via the electrolysis of water).",
@@ -5496,6 +5894,9 @@
    "Hamid Saeedipour",
    "Hiang Kwee Lee"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-10",
   "doi": "10.3390/inventions9030056",
@@ -5517,8 +5918,10 @@
   "why": [
    "NH3 decomposition"
   ],
+  "zh_brief": "本文提出利用氨（NH3）作为氢载体生产 H2 以解决氢（H2）作为能源来源的高存储和运输成本问题。氨的体积氢密度高于液态 H2，有望将运输成本降低 40%。该过程涉及 NH3 分解，利用燃气轮机排气产生的热量生产 H2 和氮（N2）。数值模拟用于设计和理解热回收 NH3 分解系统的行为。设计考虑了传质单元数和换热器效率的概念，实现热回收系统效率高达 91%。使用 ANSYS 商业模拟软件对 NH3 分解进行模拟，考虑了壁面反应、湍流流动和化学反应。参数如活化能和指前因子由使用镍丝进行 NH3 分解实验的研究提供。在 823 K 至 923 K 的温度范围内，通过镍基催化剂将 NH3 转化率提高到 94%，这是排气温度范围。考虑了各种因素以比较系统效率，包括 NH3 质量流量、操作表压、排气质量流量等。结果表明，在高于 800 K 的温度下，压力不会影响 NH3 的转化率，因此这种方法在压缩",
   "zh_method": "未交代供热方式",
-  "zh_obj": "过程待核实；涉及Ru/钌体系"
+  "zh_obj": "过程待核实；涉及Ru/钌体系",
+  "zh_title": "氢能有效热回收氨分解系统的数值模拟"
  },
  "10.3390/ma17102239": {
   "abstract": "The electrocatalytic nitrogen reduction reaction (NRR) for synthesizing ammonia holds promise as an alternative to the traditional high-energy-consuming Haber–Bosch method. Rational and accurate catalyst design is needed to overcome the challenge of activating N2 and to suppress the competitive hydrogen evolution reaction (HER). Single-atom catalysts have garnered widespread attention due to their 100% atom utilization efficiency and unique catalytic performance. In this context, we constructed theoretical models of metal single-atom catalysts supported on titanate nanosheets (M-TiNS). Initially, density functional theory (DFT) was employed to screen 12 single-atom catalysts for NRR- and HER-related barriers, leading to the identification of the theoretically optimal NRR catalyst, Ru-TiNS. Subsequently, experimental synthesis of the Ru-TiNS single-atom catalyst was successfully achieved, exhibiting excellent performance in catalyzing NRR, with the highest NH3 yield rate reaching 15.19 μmol mgcat−1 h−1 and a Faradaic efficiency (FE) of 15.3%. The combination of experimental results and theoretical calculations demonstrated the efficient catalytic ability of Ru sites, validating the effectiveness of the constructed theoretical screening process and providing a theoretical foundation for the design of efficient NRR catalysts.",
@@ -5528,6 +5931,9 @@
    "Yongan Yang",
    "Xi Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-09",
   "doi": "10.3390/ma17102239",
@@ -5549,8 +5955,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "电催化氮还原反应（NRR）用于合成氨，有望替代传统的耗能高的哈伯-博施方法。合理和准确的催化剂设计需要克服活化 N2 的挑战并抑制竞争的析氢反应（HER）。单原子催化剂由于其 100% 原子利用效率和独特的催化性能而受到广泛关注。在此背景下，我们构建了负载在钛酸纳米片（M-TiNS）上的金属单原子催化剂的理论模型。最初，使用密度泛函理论（DFT）筛选了 12 种与 NRR 和 HER 相关的障碍的单原子催化剂，确定了理论上最优的 NRR 催化剂 Ru-TiNS。随后，成功合成了 Ru-TiNS 单原子催化剂，在催化 NRR 方面表现出优异性能，最高 NH3 产率达到 15.19 μmol mgcat−1 h−1，法拉第效率（FE）为 15.3%。实验结果和理论计算的结合证明了 Ru 位点的有效催化能力，验证了构建的理论筛选过程的有效性，并为高效 NRR 催化剂的设计提供了理论基础。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Ru/钌体系、Fe/铁体系",
+  "zh_title": "通过理论筛选钛酸纳米片负载的单原子催化剂实现高效的电催化氨合成"
  },
  "10.3390/ma17102419": {
   "abstract": "The electrocatalytic production of ammonia has garnered considerable interest as a potentially sustainable technology for ammonia synthesis. Recently, non-metallic-doped materials have emerged as promising electrochemical catalysts for this purpose. This paper presents a comprehensive review of the latest research on non-metallic-doped materials for electrocatalytic ammonia production. Researchers have engineered a variety of materials, doped with non-metals such as nitrogen (N), boron (B), phosphorus (P), and sulfur (S), into different forms and structures to enhance their electrocatalytic activity and selectivity. A comparison among different non-metallic dopants reveals their distinct effects on the electrocatalytic performance for ammonia production. For instance, N-doping has shown enhanced activity owing to the introduction of nitrogen vacancies (NVs) and improved charge transfer kinetics. B-doping has demonstrated improved selectivity and stability, which is attributed to the formation of active sites and the suppression of competing reactions. P-doping has exhibited increased ammonia generation rates and Faradaic efficiencies, likely due to the modification of the electronic structure and surface properties. S-doping has shown potential for enhancing electrocatalytic performance, although further investigations are needed to elucidate the underlying mechanisms. These comparisons provide valuable insights for researchers to conduct in-depth studies focusing on specific non-metallic dopants, exploring their unique properties, and optimizing their performance for electrocatalytic ammonia production. However, we consider it a priority to provide insight into the recent progress made in non-metal-doped materials and their potential for enabling long-term and efficient electrochemical ammonia production. Additionally, this paper discusses the synthetic procedures used to produce non-metal-doped materials and highlights the advantages and disadvantages of each method. It also provides an in-depth analysis of the electrochemical performance of these materials, including their Faradaic efficiencies, ammonia yield rate, and selectivity. It examines the challenges and prospects of developing non-metallic-doped materials for electrocatalytic ammonia production and suggests future research directions.",
@@ -5560,6 +5968,9 @@
    "Krisztina Lászlód",
    "Ying Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-17",
   "doi": "10.3390/ma17102419",
@@ -5581,8 +5992,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "综述非金属掺杂材料在电催化氨生产中的应用。研究人员通过氮(N)、硼(B)、磷(P)和硫(S)等非金属掺杂，设计不同形式和结构的材料，增强电催化活性和选择性。N 掺杂因引入氮空位(NVs)和改善电荷转移动力学而提高活性；B 掺杂因形成活性位点和抑制竞争反应而提高选择性和稳定性；P 掺杂因电子结构和表面性质改性而增加氨生成速率和法拉第效率；S 掺杂显示出增强电催化性能的潜力，但需进一步研究其机理。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "非金属掺杂材料在氨生产电催化还原中的进展"
  },
  "10.3390/ma17102429": {
   "abstract": "Li-N2 batteries present a relatively novel approach to N2 immobilization, and an advanced N2/Li3N cycling method is introduced in this study. The low operating overpotential of metal–air batteries is quite favorable to their stable cycling performance, providing a prospect for the development of a new type of battery with extreme voltage. The battery system of Li-N2 uses N2 as the positive electrode, lithium metal as the negative electrode, and a conductive medium containing soluble lithium salts as the electrolyte. In accordance with its voltage-distribution trend, a variety of lithium-nitrogen molecule intermediates are produced during the discharge process. There is a lack of theoretical description of material changes at the microscopic level during the discharge process. In this paper, the first-principles approach is used to simulate and analyze possible material changes during the discharge process of Li-N2 batteries. The discharge process is simulated on a 4N-graphene anode substrate model, and simulations of its electrostatic potential, Density of States (DOS), HOMO (Highest Occupied Molecular Orbital) and LUMO (Lowest Unoccupied Molecular Orbital) aspects confirm that the experimentally found Li3N becomes the final stabilized product of the Li-N2 battery. It can also be seen in the density of states that graphene with adsorption of 4N transforms from semiconducting to metallic properties. In addition, the differential charge also indicates that the Li-N2 material has a strong adsorption effect on the substrate, which can play the dual role of electricity storage and nitrogen fixation.",
@@ -5595,6 +6008,9 @@
    "Hongtao Xue",
    "Fuling Tang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-18",
   "doi": "10.3390/ma17102429",
@@ -5616,8 +6032,10 @@
   "why": [
    "nitrogen fixation"
   ],
+  "zh_brief": "研究对象为锂氮电池，采用第一性原理方法模拟分析放电过程中的材料变化。在 4N-石墨烯负极模型上模拟放电过程，静电势、态密度(DOS)、最高占据分子轨道(HOMO)和最低未占据分子轨道(LUMO)分析表明实验发现的 Li3N 是 Li-N2 电池的最终稳定产物。吸附 4N 的石墨烯从半导体转变为金属特性。差分电荷分析表明 Li-N2 材料对基底的吸附作用强，可起到电存储和氮固定双重作用。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及碳材料"
+  "zh_obj": "电化学氮还原；涉及碳材料",
+  "zh_title": "锂氮电池放电产物及其稳定性的第一性原理研究"
  },
  "10.3390/ma17112540": {
   "abstract": "The excellent electrical properties of graphene have received widespread attention. However, the difficulty of electron transfer between layers still restricts the application of graphene composite materials to a large extent. Therefore, in this study, graphene/polyimide films were subjected to a Joule heating treatment to improve the electrical conductivity of the film by ~76.85%. After multiple Joule thermal cycle treatments, the conductivity of the graphene/polyimide film still gradually increased, but the increase in amplitude tended to slow down. Finally, after eight Joule heat treatments, the conductivity of the graphene/polyimide film was improved by ~93.94%. The Joule heating treatment caused the polyimide to undergo atomic rearrangement near the interface bonded to the graphene, forming a new crystalline phase favourable for electron transport with graphene as a template. Accordingly, a model of the bilayer capacitive microstructure of graphene/polyimide was proposed. The experiment suggests that the Joule heating treatment can effectively reduce the distance between graphene electrode plates in the bilayer capacitive micro-nanostructures of graphene/polyimide and greatly increases the number of charge carriers on the electrode plates. The TEM and WAXS characterisation results imply atomic structure changes at the graphene/polyimide bonding interface.",
@@ -5705,6 +6123,9 @@
    "Qing Yuan",
    "Jinsheng Zhao"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-11",
   "doi": "10.3390/molecules29102261",
@@ -5726,8 +6147,10 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "本研究探讨了模型 Cu2O 催化剂在硝酸根离子电催化氨合成中的电子依赖性活性来源。通过卤素元素（Cl、Br、I）掺杂调节 Cu2O 的电子状态和氧空位含量。电催化实验表明，氨的产率强烈依赖于 Cu2O 中的电子状态。随着 Cu2O 中电子状态缺陷的增加，氨合成性能先增加后减少。Cu2O/Br 在中等电子缺陷下表现出最高氨产率，为 11.4 g h−1 g−1（在 −1.0 V vs. RHE），表明最佳氨活性的变化模式与反应化学中的火山曲线现象一致。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "通过调节 Cu2O 的电子结构增强电催化氨合成的活性来源研究"
  },
  "10.3390/nano14110901": {
   "abstract": "In recent years, conductive polymer nanocomposites have gained significant attention due to their promising thermoresistive and Joule heating properties across a range of versatile applications, such as heating elements, smart materials, and thermistors. This paper presents an investigation of semi-crystalline polyvinylidene fluoride (PVDF) nanocomposites with 6 wt.% carbon-based nanofillers, namely graphene nanoplatelets (GNPs), multi-walled carbon nanotubes (MWCNTs), and a combination of GNPs and MWCNTs (hybrid). The influence of the mono- and hybrid fillers on the crystalline structure was analyzed by X-ray diffraction (XRD) and differential scanning calorimetry (DSC). It was found that the nanocomposites had increased amorphous fraction compared to the neat PVDF. Furthermore, nanocomposites enhanced the β phase of the PVDF by up to 12% mainly due to the presence of MWCNTs. The resistive properties of the nanocompositions were weakly affected by the temperature in the analyzed temperature range of 25–100 °C; nevertheless, the hybrid filler composites were proven to be more sensitive than the monofiller ones. The Joule heating effect was observed when 8 and 10 V were applied, and the compositions reached a self-regulating effect at around 100–150 s. In general, the inclusion in PVDF of nanofillers such as GNPs and MWCNTs, and especially their hybrid combinations, may be successfully used for tuning the self-regulated Joule heating properties of the nanocomposites.",
@@ -5776,6 +6199,9 @@
    "Arif Reza",
    "Lide Chen"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-09",
   "doi": "10.3390/nitrogen5020026",
@@ -5795,8 +6221,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "乳制品废水由于其丰富的营养物质含量，向废水中添加了大量氮。从原始液体乳制品废水（RLDM）中去除和回收氨氮（NH3-N）备受重视。本研究专注于真空热解吸-酸吸收（VTS-AA）工艺从 RLDM 中去除 NH3-N，并进行建模和优化。使用基于响应面方法（RSM）的中心复合设计（CCD）方法，优化了真空热解吸过程的关键操作参数，包括温度（50–70 °C）、pH（9–11）、真空压力（35–55 kPa）和处理时间（60–90 min）。在指定的参数下，温度为 69.9 °C、pH 为 10.5、真空压力为 53.5 kPa、处理时间为 64.2 min，NH3-N 去除效率达到 98.58 ± 1.05%，与模型预测非常接近。此外，回收的硫酸铵（(NH4)2SO4）与商业产品非常接近，证实了 VTS-AA 工艺在从 RLDM 中回收 NH3-N 方面的有效性。所采用技术的显著优势在于通过引入",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "使用真空热解吸和酸吸收工艺优化原始液体乳制品废水的氨氮去除和回收：基于响应面法的建模方法"
  },
  "10.33961/jecst.2023.01004": {
   "abstract": "<p>An unconventional fabrication technique of nanoelectrode was developed using atomic force microscopy (AFM) and hydrogel. Until now, the precise control of electroactive area down to a few nm<sup>2</sup> has always been an obstacle, which limits the wide application of nanoelectrodes. Here, the nanometer-sized contact between the boron-doped diamond (BDD) as conductive AFM tip and the agarose hydrogel as solid electrolyte was well governed by the feedback amplitude of oscillation in the non-contact mode of AFM. Consequently, this low-cost and feasible approach gives rise to new possibilities for the fabrication of nanoelectrodes. The electroactive area controlled by the set point of AFM was investigated by cyclic voltammetry (CV) of the ferrocenmethanol (FcMeOH) combined with quasi-solid agarose hydrogel as an electrolyte. Single copper (Cu) nanoparticle was deposited at the apex of the AFM tip using this platform whose electrocatalytic activity for nitrate reduction was then investigated by CV and Field Emission-Scanning Electron Microscopy (FE-SEM), respectively.</p>",
@@ -5805,6 +6233,9 @@
    "Thanh Duc Dinh",
    "Seongpil Hwang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-31",
   "doi": "10.33961/jecst.2023.01004",
@@ -5826,8 +6257,10 @@
   "why": [
    "nitrate reduction"
   ],
+  "zh_brief": "开发了一种使用原子力显微镜（AFM）和水凝胶的非传统纳米电极制造技术。通过AFM的非接触模式反馈振幅控制了导电性金刚石探针（BDD）与水凝胶电解质之间的纳米级接触。使用铁罗烷甲醇（FcMeOH）结合准固态琼脂糖水凝胶作为电解质，通过循环伏安法（CV）研究了由AFM设定点控制的电活性面积。在该平台上在AFM探针尖端沉积了单个铜（Cu）纳米颗粒，并分别通过CV和场发射扫描电子显微镜（FE-SEM）研究了其硝酸还原电催化活性。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "基于原子力显微镜探针的含水凝胶电解质的纳米电极及其在单纳米颗粒电化学中的应用"
  },
  "10.3866/pku.dxhx202312081": {
   "ab_check_v": 2,
@@ -5849,6 +6282,9 @@
    "Simin Fang",
    "Yuxi Wang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-05-17",
   "doi": "10.3866/pku.dxhx202312081",
@@ -5870,8 +6306,10 @@
   "why": [
    "Nitrate Reduction"
   ],
+  "zh_brief": "开发基于电催化还原硝酸盐合成氨的综合化学实验，填补该前沿科研成果在实验教学中的空白。实验设计包含基础知识-科学研究-实际应用一体化内容，涵盖铜基催化剂制备表征、性能探究及应用设计，帮助学生了解电催化研究进展，掌握基础知识与研究方法，培养创新意识和学以致用能力。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "基于电催化硝酸盐还原为氨的综合实验：铜基催化剂的合成、表征、性能探索及应用设计"
  },
  "10.53964/id.2024009": {
   "abstract": "Ammonia, being a vital chemical compound, has made substantial contributions to the progress of society. It addresses not only the issue of nitrogen fixation from the atmosphere but also helps alleviate the food crisis. Nevertheless, the conventional Haber-Bosch process for synthesizing ammonia is frequently associated with substantial greenhouse gas emissions and the consumption of fossil fuels. Consequently, in response to significant environmental challenges, the prospective trajectory for the synthetic ammonia sector involves the adoption of strategies such as carbon reduction, energy-efficient conversions, and the exploration of environmentally friendly and sustainable approaches to ammonia synthesis. Among the various methods for green ammonia synthesis, chemical looping ammonia synthesis (CLAS) technology is regarded as one of the most promising alternatives to conventional ammonia synthesis methods in the upcoming years. This can be attributed to the relatively mild operating conditions and the flexible and distributed characteristics of its processes. In this paper, the thermodynamic and kinetic properties of nitridation and ammoniation reactions were examined through the lens of CLAS. The design and regulation strategies of nitrogen carriers (NCs) are summarized based on various types of NCs. The process of CLAS was summarized in relation to various NCs. This paper serves as a foundational resource for the prospective advancement of the CLAS framework.",

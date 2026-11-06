@@ -2944,18 +2944,20 @@
  },
  "10.1016/j.jallcom.2024.175786": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "not_found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Crossref": "2026-11-06",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
+   "Crossref",
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xinming Wang",
@@ -3079,18 +3081,20 @@
  },
  "10.1016/j.jechem.2024.05.045": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "not_found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Crossref": "2026-11-06",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
+   "Crossref",
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Enduo Dai",
@@ -3226,18 +3230,20 @@
  },
  "10.1016/j.mcat.2024.114433": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "not_found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Crossref": "2026-11-06",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
+   "Crossref",
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yanbo Hua",
@@ -3385,18 +3391,20 @@
  },
  "10.1016/j.ssi.2024.116649": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "not_found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Crossref": "2026-11-06",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
+   "Crossref",
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Moe Okazaki",
@@ -3432,12 +3440,12 @@
  },
  "10.1016/j.surfin.2024.105022": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-04",
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Crossref",
@@ -3445,7 +3453,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Chun Wu",
@@ -3489,12 +3497,12 @@
  },
  "10.1016/j.susc.2024.122549": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-04",
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04",
-   "Semantic Scholar": "2026-11-02"
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
+   "Semantic Scholar": "2026-11-06"
   },
   "ab_sources_checked": [
    "Crossref",
@@ -3502,7 +3510,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Ming Meng",
@@ -4193,6 +4201,9 @@
    "Xi’an Chen",
    "Shun Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-04",
   "doi": "10.1021/acsnano.4c09247",
@@ -4214,8 +4225,10 @@
   "why": [
    "Nitrate Reduction"
   ],
+  "zh_brief": "针对环境硝酸盐积累问题，综述了VIII族元素催化剂在电化学硝酸盐还原反应中的应用，总结了单原子、双金属、氧化物、磷化物等催化剂的活性提升策略及氨回收工艺。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "高效电催化硝酸盐还原制氨：基于VIII族元素的催化剂"
  },
  "10.1021/acssuschemeng.4c05358": {
   "ab_check_v": 2,
