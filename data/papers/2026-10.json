@@ -14430,46 +14430,5 @@
   "zh_brief": "从韩国土壤中分离出一株新细菌KR4-4ᵀ，基于16S rRNA和92个核心基因的基因组分析将其鉴定为Neobacillus属新种。该菌株在15–45 °C、pH 6.0–8.0条件下生长，能利用铵盐、硝酸盐和亚硝酸盐作为氮源，去除效率分别为86.5%、69.35%和62.9%。在封闭烧瓶实验中，该菌株还能降低气态NH₃浓度，显示出在生物氨减排方面的潜力。",
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实"
- },
- "arxiv:2610.15798": {
-  "abstract": "Proton exchange membrane water electrolysis (PEMWE) is among the most promising techniques to provide hydrogen as both energy carrier and feedstock for the chemical industry, due to its compatibility with intermittent renewable electricity sources. However, a major bottleneck in scaling up PEMWE is the limited supply of the anode catalyst Ir. This work shows a novel approach to tailoring ionomer-free catalyst layers based on custom-made microporous substrates and two different atomic layer deposition (ALD) processes, both using Ir(EtCp)(CHD) precursor. Thermal ALD using O3 as counter-reactant yields mostly metallic Ir/IrOx and an electrode Ir loading of 0.21 mg/cm2. The PEMWE cell-level performance is comparable to a commercial catalyst-coated membrane anode despite 7x lower loading, and is maintained over an accelerated durability test equivalent to 600 h of intermittent operation. Moreover, using a low-loading ALD-made cathode, the total platinum group metal loading is only 0.24 mg/cm2. Plasma-enhanced ALD reduces the Ir loading to 0.04 mg/cm2 by tailoring the catalyst distribution, however, yields lower-activity IrO2. Finally, direct ALD catalyst deposition needs no ionomer-bearing ink. The anodes are therefore compatible with various membrane materials, as demonstrated in a CO2 electrolysis experiment with an anion exchange membrane.",
-  "authors": [
-   "Peter M. Piechulla",
-   "Iris Blommestein",
-   "Anne van Gerven",
-   "Henri Pelzer",
-   "Ezgi Demiröz",
-   "Jonas Englhard",
-   "Mingliang Chen",
-   "Julien Bachmann",
-   "J. Ruud van Ommen"
-  ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "abstract",
-  "cross": false,
-  "date": "2026-10-11",
-  "doi": "",
-  "first_seen": "2026-10-28T22:00:02Z",
-  "id": "arxiv:2610.15798",
-  "kind": "preprint",
-  "origin": "日常",
-  "score": 18,
-  "source": "arXiv",
-  "tier": "transferable",
-  "title": "Ionomer-free Iridium Anodes with Low Loading for Zero-gap Electrolyzers via Direct Atomic Layer Deposition",
-  "top": false,
-  "topics": [
-   "ald"
-  ],
-  "url": "https://arxiv.org/abs/2610.15798",
-  "via": "arXiv",
-  "watch": [],
-  "why": [
-   "Atomic Layer Deposit"
-  ],
-  "zh_brief": "针对质子交换膜水电解槽中铱催化剂供应受限的问题，利用定制微孔基底和两种原子层沉积（ALD）工艺制备了无离子膜铱阳极。热ALD工艺制备的电极铱负载量为0.21 mg/cm2，其性能与商业催化剂涂层膜相当，且在等效600小时间歇运行测试中保持稳定。此外，利用等离子增强ALD将铱负载进一步降低至0.04 mg/cm2，并验证了该阳极与多种膜材料的兼容性。",
-  "zh_method": "未交代供热方式",
-  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
-  "zh_title": "基于直接原子层沉积的无离子膜铱阳极"
  }
 }

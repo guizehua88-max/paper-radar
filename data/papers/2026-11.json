@@ -159,6 +159,53 @@
   "zh_obj": "光催化硝酸盐转化",
   "zh_title": "CoTCPP 修饰的 Bi₁₉S₂₇Br₃ 用于高效光催化硝酸盐还原为氨"
  },
+ "10.1002/aenm.71764": {
+  "abstract": "Proton exchange membrane water electrolysis (PEMWE) is among the most promising techniques to provide hydrogen as both energy carrier and feedstock for the chemical industry, due to its compatibility with intermittent renewable electricity sources. However, a major bottleneck in scaling up PEMWE is the limited supply of the anode catalyst Ir. This work shows a novel approach to tailoring ionomer-free catalyst layers based on custom-made microporous substrates and two different atomic layer deposition (ALD) processes, both using Ir(EtCp)(CHD) precursor. Thermal ALD using O3 as counter-reactant yields mostly metallic Ir/IrOx and an electrode Ir loading of 0.21 mg/cm2. The PEMWE cell-level performance is comparable to a commercial catalyst-coated membrane anode despite 7x lower loading, and is maintained over an accelerated durability test equivalent to 600 h of intermittent operation. Moreover, using a low-loading ALD-made cathode, the total platinum group metal loading is only 0.24 mg/cm2. Plasma-enhanced ALD reduces the Ir loading to 0.04 mg/cm2 by tailoring the catalyst distribution, however, yields lower-activity IrO2. Finally, direct ALD catalyst deposition needs no ionomer-bearing ink. The anodes are therefore compatible with various membrane materials, as demonstrated in a CO2 electrolysis experiment with an anion exchange membrane.",
+  "authors": [
+   "Peter M. Piechulla",
+   "Iris Blommestein",
+   "Anne van Gerven",
+   "Henri Pelzer",
+   "Ezgi Demiröz",
+   "Jonas Englhard",
+   "Mingliang Chen",
+   "Julien Bachmann",
+   "J. Ruud van Ommen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "cross": false,
+  "date": "2026-11-05",
+  "doi": "10.1002/aenm.71764",
+  "first_seen": "2026-10-28T22:00:02Z",
+  "id": "10.1002/aenm.71764",
+  "kind": "journal",
+  "origin": "日常",
+  "preprint": {
+   "id": "arxiv:2610.15798",
+   "source": "arXiv",
+   "url": "https://arxiv.org/abs/2610.15798"
+  },
+  "published_seen": "2026-11-06T17:58:53Z",
+  "score": 22,
+  "source": "Advanced Energy Materials",
+  "tier": "transferable",
+  "title": "Ionomer-free Iridium Anodes with Low Loading for Zero-gap Electrolyzers via Direct Atomic Layer Deposition",
+  "top": true,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1002/aenm.71764",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Atomic Layer Deposit"
+  ],
+  "zh_brief": "针对质子交换膜水电解槽中铱催化剂供应受限的问题，利用定制微孔基底和两种原子层沉积（ALD）工艺制备了无离子膜铱阳极。热ALD工艺制备的电极铱负载量为0.21 mg/cm2，其性能与商业催化剂涂层膜相当，且在等效600小时间歇运行测试中保持稳定。此外，利用等离子增强ALD将铱负载进一步降低至0.04 mg/cm2，并验证了该阳极与多种膜材料的兼容性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "基于直接原子层沉积的无离子膜铱阳极"
+ },
  "10.1002/aenm.71791": {
   "abstract": "Light irradiation dynamically generates oxygen vacancies at Ni/CeO 2 interfaces, forming Ce–Ov–Ni motifs that promote NH 3 adsorption and N–H activation while directing hydrogen intermediates to Ni sites. Vacancy-induced electronic modulation weakens H 2 adsorption, accelerates hydrogen release, mitigates hydrogen poisoning, and enables efficient low-temperature photothermal NH 3 -to-H 2 conversion. ABSTRACT NH 3 is an attractive hydrogen carrier, but efficient H 2 release is hindered by N–H bond cleavage and hydrogen poisoning. Herein, we develop Ni nanoparticle-supported CeO 2 (Ni/CeO 2 ) for low-temperature photothermal NH 3 decomposition. Light irradiation is accompanied by the dynamic generation of oxygen vacancies on CeO 2 , which couple with adjacent Ni sites to form Ce–Ov–Ni motifs, indicating that illumination can regulate the catalyst surface state beyond its thermal contribution. Experiments and DFT calculations indicate that these interfaces create differentiated local environments for NH 3 activation and product evolution. Oxygen-vacancy-associated sites favor NH 3 adsorption, N–H bond activation, and N-containing intermediates, whereas adjacent Ni sites accommodate H migration and recombination. Moreover, vacancy-induced electronic modulation weakens H 2 adsorption on Ni, thereby facilitating H 2 release. Such site differentiation and facilitated hydrogen removal reduce the competitive occupation of active sites by N- and H-containing species and contribute to the resistance to hydrogen poisoning. Under photothermal conditions, 10 wt.% Ni/CeO 2 achieves 96.3% NH 3 conversion at 450°C, versus 42.5% under thermal catalysis, and maintains >95% conversion at a GHSV of 18,000 mL·gcat −1 ·h −1 . It delivers 20.09 mmol·gcat −1 ·min −1 H 2 with 50 h stability. This work demonstrates light-induced oxygen-vacancy–metal interfaces for efficient, hydrogen-poisoning-resistant NH 3 -to-H 2 conversion.",
   "authors": [
@@ -451,6 +498,43 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "氨气门控脲基腙光异构化实现氢键有机框架中的顺序固态光学响应"
  },
+ "10.1002/cctc.71144": {
+  "abstract": "ABSTRACT Nitric oxide (NO), a major atmospheric pollutant emitted from fossil‐fuel combustion and industrial processes, poses serious risks to both ecosystems and human health. At the same time, ammonia (NH 3 ) is an essential chemical feedstock and energy carrier, although its conventional production relies on energy‐intensive Haber–Bosch synthesis. Compared with nitrogen reduction, nitric oxide reduction reaction (NORR) benefits from the intrinsic reactivity and higher solubility of NO molecules. However, achieving efficient and selective NO‐to‐NH 3 conversion remains challenging due to complex reaction pathways, competitive hydrogen evolution, and limited NO availability under ppm‐scale dilute feeds relevant to practical environments. In this review, we provide an overview of recent progress in NORR, covering mechanistic understanding, catalyst design, electrolyte engineering, and reactor optimization. Particular attention is given to strategies for regulating the interfacial microenvironment and improving performance under environmentally relevant ppm‐scale NO conditions. Finally, we discuss the major obstacles that still hinder practical implementation and outline future directions for developing efficient and scalable NORR systems for realistic NO remediation and sustainable NH 3 electrosynthesis.",
+  "authors": [
+   "Zi‐Han Zhang",
+   "Bei Wu",
+   "Wan‐Ying Luo",
+   "Yao‐Yin Lou"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1002/cctc.71144",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1002/cctc.71144",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "ChemCatChem",
+  "tier": "background",
+  "title": "Electrocatalytic Dilute Nitric Oxide Reduction to Ammonia: From Interfacial Regulation to Reactor Engineering",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/cctc.71144",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Haber-Bosch"
+  ],
+  "zh_brief": "一氧化氮（NO）是化石燃料燃烧和工业过程中排放的主要大气污染物，对生态系统和人类健康构成严重风险。同时，氨（NH3）是一种重要的化学原料和能源载体，尽管其传统生产依赖于能耗高的哈伯-博施合成。与氮还原相比，一氧化氮还原反应（NORR）受益于 NO 分子的固有反应性和更高的溶解度。然而，由于复杂的反应路径、竞争性的析氢反应以及在实际环境中与 ppm 尺度稀释原料相关的有限 NO 可用性，实现高效和选择性的 NO 到 NH3 转化仍然具有挑战性。在本综述中，我们概述了 NORR 的最新进展，涵盖了机理理解、催化剂设计、电解质工程和反应器优化。特别关注调节界面微环境和在环境相关的 ppm 尺度 NO 条件下提高性能的策略。最后，我们讨论了仍然阻碍实际应用的主要障碍，并概述了开发高效和可扩展的 NORR 系统以实现实际 NO 治理和可持续 NH3 电合成的未来方向。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "电催化稀硝酸氧化物还原到氨：从界面调控到反应器工程"
+ },
  "10.1002/chem.71875": {
   "abstract": "ABSTRACT The production of hydrogen from chemical hydrides has garnered significant interest as a sustainable method for producing clean energy. The hydrolysis of ammonia borane (NH 3 BH 3 , AB) under mild reaction conditions was assessed in this work using a highly active Ru–Ni alloy catalyst supported on CeO 2 . As‐synthesized Ru–Ni/CeO 2 with different metal contents was used as a heterogeneous catalyst for the mild hydrolytic dehydrogenation of AB. At 298 K, the optimal catalyst is Ru 0.5 Ni 1.25 /CeO 2 , which demonstrated exceptional catalytic activity with a TOF value of 1226.0 mol H2 min − 1 . The calculated apparent activation energy was 37.5 kJ mol −1 , which is even lower than that of the majority of noble‐metal‐based catalysts for AB dehydrogenation. Strong electronic interactions and synergistic effects between Ru and Ni led to the formation of a bimetallic alloy structure with increased catalytic activity when Ni was incorporated into Ru. The dispersion and stability of the nanoparticles were enhanced by CeO 2 ’s strong metal–support interactions, and high oxygen storage capacity, which made it an efficient support. Additionally, after several catalytic cycles, the catalyst showed exceptional structural stability with little activity loss. This study demonstrates the potential of Ru–Ni/CeO 2 as an economical and effective catalyst for applications involving the production of hydrogen.",
   "authors": [
@@ -720,6 +804,46 @@
   "zh_obj": "等离子体制氨",
   "zh_title": "调控沸石酸度以调节动态NH3吸附-解吸以增强等离子体催化氨合成"
  },
+ "10.1016/j.aqrep.2026.103903": {
+  "abstract": "Isochrysis zhanjiangensis is crucial in the breeding of bivalves larval as an artificially cultivated feed microalga. To investigate their roles in algal–bacterial interactions, we isolated and identified two phycospheric bacterial strains, Halomonas piezotolerans and Alteromonas abrolhosensis, from I. zhanjiangensis and examined their effects on algal growth and ammonia nitrogen removal in aquaculture systems. The results indicated that both bacterial strains promoted the growth of I. zhanjiangensis; however, the effect of A. abrolhosensis was more pronounced. At a concentration of 108 cfu/mL, the A. abrolhosensis treatment group reached a cell density of 1.082 × 107 cells/mL on day 10, significantly higher than the control group by 16.26% (p 0.05). Furthermore, H. piezotolerans enhanced soluble protein synthesis at low concentrations. In ammonia nitrogen removal experiments, H. piezotolerans showed superior and stable activity, while A. abrolhosensis also promoted nitrogen reduction. The qPCR validation revealed upregulation of nirB and nosZ genes in H. piezotolerans, and enhanced expression of nirB, glnG, glnL, and glnA genes in A. abrolhosensis, confirming their ammonia nitrogen removal potential. This study demonstrates that phycospheric bacteria isolated from I. zhanjiangensis promote algal growth and facilitate ammonia nitrogen removal during bivalves larval rearing. These results provide new insights into bacteria–algae interactions and indicate practical implications for enhancing algal productivity and maintaining environmental stability in hatchery systems.",
+  "authors": [
+   "Jin Huang",
+   "Jian Liang",
+   "Huiru Liu",
+   "Shuang Liang",
+   "Yongren Li",
+   "Limei Chen",
+   "Xiaoyu Wang",
+   "Zhixiong Zhou",
+   "Yongjun Guo"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1016/j.aqrep.2026.103903",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1016/j.aqrep.2026.103903",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Aquaculture Reports",
+  "tier": "uncertain",
+  "title": "Role of phycospheric bacteria: Promoting the growth of Isochrysis zhanjiangensis and ammonia nitrogen removal in rearing water",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.aqrep.2026.103903",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "从 Isochrysis zhanjiangensis 中分离并鉴定了两种球藻细菌菌株 Halomonas piezotolerans 和 Alteromonas abrolhosensis，研究了它们对藻类生长和养殖系统中文氨氮去除的影响。结果显示，两种细菌菌株都促进了 I. zhanjiangensis 的生长，其中 A. abrolhosensis 的效果更显著。在 108 cfu/mL 浓度下，A. abrolhosensis 处理组在第 10 天达到 1.082 × 107 cells/mL 的细胞密度，比对照组高 16.26%。此外，H. piezotolerans 在低浓度下增强了可溶性蛋白合成。在氨氮去除实验中，H. piezotolerans 表现出优异和稳定的活性，而 A. abrolhosensis 也促进了氮还原。qPCR 验证显示，H. piezotolerans",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "球藻细菌的作用：促进 Isochrysis zhanjiangensis 的生长和养殖水中氨氮去除"
+ },
  "10.1016/j.cattod.2026.116060": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -821,6 +945,46 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "MXenes 和它们的异质结构用于电化学氮还原：通往绿色氨合成的一条途径"
  },
+ "10.1016/j.cej.2026.183530": {
+  "abstract": "",
+  "authors": [
+   "Nicole Carina Neumann",
+   "Lena Klaas",
+   "Dorottya Kriechbaumer",
+   "Bruno Lachmann",
+   "Fabio Pierno",
+   "Dorothea Kaunzner",
+   "Mathias Pein",
+   "Martin Roeb"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.183530",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1016/j.cej.2026.183530",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Engineering Journal",
+  "tier": "background",
+  "title": "A sustainable path towards nitrogen purification for ammonia production: Experimental demonstration of thermochemical air separation in a packed-bed reactor",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.183530",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "一条可持续的氮纯化途径用于氨生产：填充床反应器中热化学空气分离的实验验证"
+ },
  "10.1016/j.cej.2026.183777": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -871,6 +1035,55 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "Fe诱导的MoB2局部配位重构用于选择性硝酸盐-氨电合成"
+ },
+ "10.1016/j.cej.2026.183893": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-06"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-06",
+  "abstract": "",
+  "authors": [
+   "Xiaoyuan Sang",
+   "Shikai Liu",
+   "Eswaramoorthi Thirugnanasambandam",
+   "Huimin Jiang",
+   "Liyan Zhou",
+   "Ziping Jin",
+   "Jiapeng Chen",
+   "Jianjian Lin"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-01",
+  "doi": "10.1016/j.cej.2026.183893",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1016/j.cej.2026.183893",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Chemical Engineering Journal",
+  "tier": "transferable",
+  "title": "FJH-assisted construction of 3D graphene conductive networks for synergistically enhancing cycling stability and high-rate performance of lithium iron phosphate",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.183893",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "FJH"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "闪蒸焦耳热辅助构建三维石墨烯导电网络以协同增强磷酸铁锂的循环稳定性和高倍率性能"
  },
  "10.1016/j.checir.2026.100204": {
   "ab_check_v": 2,
@@ -1451,6 +1664,91 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "通过 Cu 掺杂工程化 LaCoO3 纳米纤维的电子结构以实现高效电催化合成氨"
  },
+ "10.1016/j.jhazmat.2026.144152": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-06",
+  "abstract": "",
+  "authors": [
+   "Yaqi Yang",
+   "Shiyu Chen",
+   "Jiameng Gong",
+   "Lanlan Li",
+   "Chengfeng Li",
+   "Qiaoling Li"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jhazmat.2026.144152",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1016/j.jhazmat.2026.144152",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Hazardous Materials",
+  "tier": "background",
+  "title": "Interlayer Single-Metal-Atom Coordinated Porous Boron Nitride: Triggering p-d-p Orbital Hybridization for Efficient Electrocatalytic Nitrate to Ammonia Reduction.",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jhazmat.2026.144152",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate to Ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "层间单金属原子配位多孔氮化硼：触发 p-d-p 轨道杂化以实现高效的电催化硝酸盐到氨还原"
+ },
+ "10.1016/j.jiec.2026.11.006": {
+  "abstract": "",
+  "authors": [
+   "Sergio Fernández-Velayos",
+   "Alberto París-Rodrigo",
+   "Jorge Sánchez-Marcos",
+   "Eva Mazarío"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jiec.2026.11.006",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1016/j.jiec.2026.11.006",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Journal of Industrial and Engineering Chemistry",
+  "tier": "transferable",
+  "title": "Pulsed magnetic induction heating for catalyst regeneration in continuous Fixed-Bed Reactors: Extending operational stability in antibiotic removal",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jiec.2026.11.006",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "induction heating"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "脉冲磁感应加热用于连续固定床反应器中的催化剂再生：延长抗生素去除的操作稳定性"
+ },
  "10.1016/j.matlet.2026.141936": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -1767,6 +2065,46 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "界面协同触发的内在串联催化用于高效电化学硝酸盐还原为氨"
  },
+ "10.1021/acsanm.6c04063": {
+  "abstract": "Abstract Electrocatalytic nitrate reduction (NO3RR) offers a “two birds with one stone” strategy by simultaneously removing pollutants and producing value-added ammonia (NH3). However, its multiple electron- and proton-transfer steps require catalysts with both high activity and selectivity. Copper (Cu) is widely regarded as one of the most promising NO3RR electrocatalysts due to its low cost and relatively high activity, yet its ammonia yield rate is usually constrained by sluggish nitrite conversion kinetics. Herein, a series of Cu-based catalysts with distinct oxidation states and crystallinity were derived from Cu-based metal−organic framework nanosheets (Cu-MOF NSs) by adjusting the pyrolysis conditions, and their NO3RR performance in alkaline media was evaluated. The low-crystallinity copper oxide catalyst (CuO-1) achieved the highest NH3 yield rate of 11.5 mg cm−2 h−1 at −0.8 V vs reversible hydrogen electrode (RHE), significantly outperforming the metallic Cu catalyst (Cu@NC), the highly crystalline CuO catalyst (CuO-2), and most previously reported catalysts. Mechanistic investigations suggest that CuO-1 undergoes partial reduction during the reaction to generate Cu0/Cu+ species, which may serve as key active species promoting ammonia production by enhancing active hydrogen generation. Finally, NH4Cl was recovered through acid absorption and rotary evaporation, demonstrating a practical route for converting NO3− pollutants into valuable NH3 products.",
+  "authors": [
+   "Yu Fan",
+   "Zhenyang Meng",
+   "Jiarui Zhang",
+   "Xianghui Jiang",
+   "Wei Cui",
+   "Yecan Pi",
+   "Huan Pang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1021/acsanm.6c04063",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1021/acsanm.6c04063",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Applied Nano Materials",
+  "tier": "background",
+  "title": "Metal−Organic Framework Nanosheet-Derived CuO for Efficient Electrochemical Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acsanm.6c04063",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "电催化硝酸盐还原 (NO3RR) 通过同时去除污染物和生产有价值的氨 (NH3) 提供了一种“一石二鸟”的策略。然而，其多电子和质子转移步骤需要具有高活性和选择性的催化剂。铜 (Cu) 由于其低成本和相对较高的活性，被广泛认为是 NO3RR 电催化剂中最有希望的之一，但其氨产率通常受到亚硝酸转化动力学缓慢的限制。在此，通过调整热解条件，从基于铜的金属-有机框架纳米片 (Cu-MOF NSs) 衍生了一系列具有不同氧化态和结晶度的铜基催化剂，并评估了它们在碱性介质中的 NO3RR 性能。低结晶度氧化铜催化剂 (CuO-1) 在 -0.8 V vs 可逆氢电极 (RHE) 下实现了 11.5 mg cm−2 h−1 的最高 NH3 产率，显著优于金属铜催化剂 (Cu@NC)、高结晶度氧化铜催化剂 (CuO-2) 和大多数先前报道的催化剂。机理研究表明，CuO-1 在反应过程中部分还原以产生 C",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "金属-有机框架纳米片衍生的 CuO 用于高效电化学硝酸盐还原为氨"
+ },
  "10.1021/acsanm.6c05096": {
   "abstract": "Abstract Ammonia (NH3) is a representative reducing toxic gas whose rapid, low-concentration detection is important in constant-temperature, constant-humidity environments such as semiconductor cleanrooms, yet existing NH3 sensors often suffer from high operating temperatures or slow response/recovery kinetics. Fibrous phosphorus (FP), a layered allotrope of elemental phosphorus with a parallel tubular structure, is an appealing sensing candidate, but its efficient preparation and gas-sensing potential remain underexplored. Here, we report an iodine-assisted chemical vapor transport method that enables gram-scale synthesis of FP within 5 h with a yield exceeding 99%, without the need for precise temperature-gradient control. The key is the iodine-mediated cleavage of P4 cages and the directed assembly of active phosphorus fragments into tubular FP. Taking advantage of the weak interlayer van der Waals interactions, high-quality FP nanoribbons (FP-NRs) with an average width of ∼50 nm, an average length of ∼6 μm, and aspect ratios exceeding 150 for ∼60% of the ribbons are obtained by 60 min of ice-bath exfoliation. The FP-NRs sensor exhibits a high response of 826% toward 100 ppm NH3 at room temperature, with response/recovery times of 31/7 s under the 90% criterion, and remains responsive at 2 ppm NH3 (response 69.8%). When all tested gases are compared at the same concentration, the response to NH3 is significantly higher than that to the interfering gases. Combined DFT calculations and in situ FTIR/Raman measurements reveal that NH3 adsorption on FP is dominated by physical adsorption (adsorption energy −0.26 eV; Bader charge transfer ∼0.02 e), which accounts for the high sensitivity, selectivity, and fast recovery. This work provides a scalable route to FP nanoribbons and demonstrates their potential for practical room-temperature NH3 sensing.",
   "authors": [
@@ -2065,6 +2403,80 @@
   "zh_obj": "氨分解制氢",
   "zh_title": "高效率和高耐久性的Ga掺杂Ni/Al2O3催化剂通过界面Ga3+增强低温氨分解"
  },
+ "10.1038/s41893-026-01981-x": {
+  "abstract": "Synthesis of valuable ammonia through photocatalytic reduction of nitrogen is a promising sustainable route, but its efficiency remains limited. This work shows that coupling the reaction with solar-driven interfacial evaporation can substantially improve ammonia yield, concentration and purity.",
+  "authors": [
+   "Bowen Lv",
+   "Xinfei Fan",
+   "Yuanlu Xu",
+   "Yanbin Xin",
+   "Chengwen Song",
+   "Yanming Liu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1038/s41893-026-01981-x",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1038/s41893-026-01981-x",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Nature Sustainability",
+  "tier": "background",
+  "title": "Photocatalytic nitrogen reduction to high-concentration ammonia via interfacial evaporation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1038/s41893-026-01981-x",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Photocatalytic nitrogen reduction"
+  ],
+  "zh_brief": "通过光催化还原氮合成有价值的氨是一种可持续的途径，但其效率仍然有限。本研究表明，将反应与太阳能驱动的界面蒸发相结合可以显著提高氨的产率、浓度和纯度。",
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "通过界面蒸发进行光催化氮还原以获得高浓度氨"
+ },
+ "10.1038/s41893-026-01982-w": {
+  "abstract": "Photocatalytic nitrogen fixation can make ammonia from nitrogen and water under mild conditions, but slow nitrogen delivery and product build-up limit output. Now, a floating solar interface couples nitrogen reduction with evaporation, greatly speeding up ammonia formation and concentrating a high-purity product in the condensate.",
+  "authors": [
+   "Shuai Guo",
+   "Hui Ying Yang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1038/s41893-026-01982-w",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1038/s41893-026-01982-w",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Nature Sustainability",
+  "tier": "background",
+  "title": "Making ammonia at the water’s edge",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1038/s41893-026-01982-w",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen fixation"
+  ],
+  "zh_brief": "光催化氮固定可以在温和条件下将氮和水转化为氨，但氮传递缓慢和产物积累限制了产量。现在，一个浮动的太阳能界面将氮还原与蒸发耦合，大大加快了氨的形成，并在冷凝水中集中了高纯度的产物。",
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "在水边制氨"
+ },
  "10.1039/d6cc05336j": {
   "abstract": "In this paper, we construct Cu islands on NiFe nanocone arrays for the electroreduction of nitrate to ammonia. The integration of tandem catalysis heterointerfaces, geometric architecture, and photothermal effects synergistically...",
   "authors": [
@@ -2190,6 +2602,47 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "超越哈伯-博施过程：高效电催化合成氨电催化剂的设计"
+ },
+ "10.1039/d6ta06914b": {
+  "abstract": "This study employed a straightforward hydrothermal method to successfully co-precipitate CuCoAl layered double hydroxide (LDH). By varying the Cu:Co molar ratio, LDH nanosheets approximately 200 nm in size were obtained,...",
+  "authors": [
+   "Yang Wang",
+   "ＹＵＡＮ ＷＡＮＧ",
+   "Cuilian Sun",
+   "Tianxing Wu",
+   "Xiujing Xing",
+   "Wei Xiong",
+   "Dezhong Yu",
+   "Hao Li"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1039/d6ta06914b",
+  "first_seen": "2026-11-06T17:58:53Z",
+  "id": "10.1039/d6ta06914b",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "CuCo Bimetallic Synergy: Layered Double Hydroxides for Efficient Ammonia Production from Electrocatalytic Nitrite Reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6ta06914b",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Production"
+  ],
+  "zh_brief": "本研究采用简单的水热法成功共沉淀 CuCoAl 层状双氢氧化物（LDH）。通过改变 Cu:Co 摩尔比，获得了约 200 nm 的 LDH 纳米片。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "CuCo 双金属协同：层状双氢氧化物用于高效的电催化亚硝酸还原制氨"
  },
  "10.1039/d6ta07160k": {
   "abstract": "The electrochemical reduction of nitrite (NO 2 − ) to ammonia offers a compelling route to synergistically remediate nitrite-polluted wastewater and produce value-added NH 3 . However, its practical viability is constrained by the scarcity...",
