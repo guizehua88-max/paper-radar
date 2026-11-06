@@ -872,6 +872,50 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "Fe诱导的MoB2局部配位重构用于选择性硝酸盐-氨电合成"
  },
+ "10.1016/j.checir.2026.100204": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-06"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-06",
+  "abstract": "Combining catalytic sites with complementary functions has emerged as an appealing strategy for electrochemical nitrate reduction to ammonia. In Cell Reports Physical Science , Noor et al. demonstrate that complementary catalytic functions alone are insufficient to achieve synergistic nitrate reduction, highlighting the critical roles of active-site stability and spatial organization.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "Yang Liu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.checir.2026.100204",
+  "first_seen": "2026-11-06T03:24:56Z",
+  "id": "10.1016/j.checir.2026.100204",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Chem Circularity",
+  "tier": "background",
+  "title": "When catalytic partners fail to cooperate",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.checir.2026.100204",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_brief": "将具有互补功能的催化位点结合起来的策略已成为电化学硝酸盐还原为氨的一种吸引人的策略。在 Cell Reports Physical Science 中，Noor 等人证明，仅具有互补催化功能不足以实现协同硝酸盐还原，突出了活性位点稳定性和空间组织的关键作用。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "当催化伙伴无法合作时"
+ },
  "10.1016/j.ecmx.2026.102431": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -1015,6 +1059,53 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "通过太阳能生物质一体化实现连续氨生产：年度4E性能和经济可行性"
+ },
+ "10.1016/j.isci.2026.118154": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-06",
+  "abstract": "",
+  "authors": [
+   "Li Shang",
+   "Can Li",
+   "Sui Zhang",
+   "Kangwen Qiu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.isci.2026.118154",
+  "first_seen": "2026-11-06T03:24:56Z",
+  "id": "10.1016/j.isci.2026.118154",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "iScience",
+  "tier": "background",
+  "title": "Highly twinned cobalt selenide with abundant selenium vacancies for efficient nitrogen reduction reaction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.isci.2026.118154",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen reduction reaction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "具有丰富硒空位的孪晶钴硒化物用于高效的氮还原反应"
  },
  "10.1016/j.jacomc.2026.100312": {
   "ab_check_v": 2,
@@ -1512,6 +1603,41 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "用于硝酸根电还原制氨的双原子催化剂：从反应机理到规模化生产"
  },
+ "10.1016/j.proci.2026.106741": {
+  "abstract": "This study assesses the Incompletely Stirred Reactor Network (ISRN) approach in terms of accuracy in capturing the scalar distributions in an ammonia-fuelled staged combustor employing various degrees of NH 3 partial cracking, characterised by the molar ammonia decomposition ratio (DR). Underlying solutions from Large Eddy Simulation with Conditional Moment Closure (LES-CMC) with D R = 0.25 for 10 bar and D R = 0.50 for 5 bar are used to explore the behaviour of the combustor at varying D R at the range 0.1 < DR < 0.9 at constant pressure without repeating the CFD simulation. The basic hypothesis is that the mixing field does not change significantly as the fuel changes, which enables the exploration of parameter spaces with a single reference LES-CMC simulation. The ISRN model accurately predicts temperature and NOx distributions across the full range of D R tested, showing good agreement with both LES-CMC and experiment. The sensitivity to the chemical mechanism is also explored and it is found that NOx is predicted similarly from all schemes tested. The results suggest that ISRN can be used as a low-order model for ammonia combustor emissions, which facilitates the design process and provides insights to the flame structure as operating parameters change. Novelty and significance statement: This work demonstrates the first application of the combined framework of Large Eddy Simulation-Conditional Moment Closure (LES-CMC) with Incompletely Stirred Reactor Network (ISRN) modelling approach to predict NOx emission in an ammonia-fuelled laboratory-scale high pressure (10 bar) gas turbine combustor. ISRN is a computationally efficient, low-order model that incorporates detailed chemistry, mixture fraction spatial inhomogeneities, and chemistry evolution as a function of space. Using LES-CMC as a high-fidelity reference CFD solution, ISRN explores the operating parameter space, in this case, the NH 3 decomposition ratio at the fuel inlet, while maintaining agreement with experimental and LES-CMC predictions. The approach also allows a quick evaluation of the impact of the chemical mechanism used on NOx formation without having to repeat expensive CFD calculations.",
+  "authors": [
+   "B. Harikrishnan",
+   "Epaminondas Mastorakos"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-04",
+  "doi": "10.1016/j.proci.2026.106741",
+  "first_seen": "2026-11-06T03:24:56Z",
+  "id": "10.1016/j.proci.2026.106741",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Proceedings of the Combustion Institute",
+  "tier": "background",
+  "title": "Modelling emissions from ammonia combustors with the Incompletely Stirred Reactor Network method",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.proci.2026.106741",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_brief": "本研究评估了不完全搅拌反应器网络（ISRN）方法在捕获氨燃料分级燃烧器中不同 NH₃ 部分裂解程度（由摩尔氨分解比 DR 表征）的标量分布方面的准确性。使用大涡模拟与条件矩闭合（LES-CMC）的底层解，其中 DR = 0.25 对于 10 bar 和 DR = 0.50 对于 5 bar，在恒定压力下探索燃烧器在 0.1 < DR < 0.9 范围内不同 DR 的行为，而无需重复 CFD 模拟。基本假设是混合场在燃料变化时不会发生显著变化，这使人们能够使用单个参考 LES-CMC 模拟探索参数空间。ISRN 模型准确地预测了在整个 DR 测试范围内温度和 NOx 分布，与 LES-CMC 和实验结果均具有良好的吻合度。还探索了对化学机制的敏感性，发现所有测试方案都预测了相似的 NOx。结果表明，ISRN 可用作氨燃烧器排放的低阶模型，这有助于设计过程，并提供关于火焰结构随操作参数变化的见",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "使用不完全搅拌反应器网络方法模拟氨燃烧器排放"
+ },
  "10.1016/j.surfin.2026.111204": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -1598,6 +1724,48 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "用于促进电催化硝酸盐还原制氨的三元 CuCo2S4 结构重构"
+ },
+ "10.1021/acsami.6c18993": {
+  "abstract": "Abstract Electrochemical nitrate reduction reaction (NO3RR) has emerged as a sustainable circular-economy approach that enables simultaneous remediation of nitrate-contaminated wastewater and green ammonia synthesis. However, practical implementation of NO3RR is severely hindered by complicated multi-proton-electron transfer processes, undesirable nitrite accumulation, and competing hydrogen evolution reactions. While bimetallic heterostructured tandem catalysts hold great potential to address these issues, conventional spatially separated dual-site configurations still suffer from sluggish intermediate relay, mismatched reaction kinetics, and uncontrollable nitrite desorption. Herein, we fabricate a nanoparticle-assembled needle-like CuO/Co3O4 heterostructure and propose an interfacial synergy-triggered intrinsic tandem catalysis strategy. The optimized CuO/Co3O4 (1:1) delivers an NH3 yield of 1.06 ± 0.07 mmol h–1 mg–1 (0.53 ± 0.035 mmol h–1 cm–2) at –0.9 V vs RHE and a maximum Faradaic efficiency of 95.57 ± 1.15% at –0.8 V vs RHE, superior to monometallic counterparts and physical mixtures. Heterointerfaces modulate intermediate (*NO3, *NO2, *H) adsorption and boost in situ active-hydrogen production to match cascade reaction kinetics. Combined operando characterizations and density functional theory calculations demonstrate that the heterointerface efficiently suppresses excessive *NO2 desorption, strengthens nitrite intermediate trapping, and enriches surface-active hydrogen species, resolving the kinetic mismatch that plagues traditional dual-site catalytic systems. This work establishes an interface-dominated pathway for the design of high-efficiency intrinsic tandem catalysts, breaking through the performance bottleneck of conventional simple phase-mixing strategies.",
+  "authors": [
+   "Haoyu Qiu",
+   "Xinfa Zhang",
+   "Xiaoyang Yang",
+   "Wei Jiang",
+   "Zhenqiang Yuan",
+   "Pan Chu",
+   "Jiafeng Wan",
+   "Duanhui Si",
+   "Fangwei Ma"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1021/acsami.6c18993",
+  "first_seen": "2026-11-06T03:24:56Z",
+  "id": "10.1021/acsami.6c18993",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Applied Materials & Interfaces",
+  "tier": "background",
+  "title": "Interfacial Synergy Triggered Intrinsic Tandem Catalysis for High-Efficiency Electrochemical Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acsami.6c18993",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "电化学硝酸盐还原反应（NO3RR）作为一种可持续的循环经济方法，能够同时修复硝酸盐污染的废水和绿色氨合成。然而，NO3RR 的实际应用受到复杂的质子-电子转移过程、不希望的亚硝酸盐积累和竞争性析氢反应的严重阻碍。双金属异质结构串联催化剂具有巨大的潜力来解决这些问题，但传统的空间分离双位点配置仍然存在中间体传递缓慢、反应动力学不匹配和亚硝酸盐脱附不可控的问题。本研究中，我们制备了纳米颗粒组装的针状 CuO/Co3O4 异质结构，并提出了一种界面协同触发的内在串联催化策略。优化的 CuO/Co3O4 (1:1) 在 –0.9 V vs RHE 下提供 NH3 收率为 1.06 ± 0.07 mmol h–1 mg–1 (0.53 ± 0.035 mmol h–1 cm–2)，在 –0.8 V vs RHE 下最大法拉第效率为 95.57 ± 1.15%，优于单金属对应物和物理混合物。异质界面调",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "界面协同触发的内在串联催化用于高效电化学硝酸盐还原为氨"
  },
  "10.1021/acsanm.6c05096": {
   "abstract": "Abstract Ammonia (NH3) is a representative reducing toxic gas whose rapid, low-concentration detection is important in constant-temperature, constant-humidity environments such as semiconductor cleanrooms, yet existing NH3 sensors often suffer from high operating temperatures or slow response/recovery kinetics. Fibrous phosphorus (FP), a layered allotrope of elemental phosphorus with a parallel tubular structure, is an appealing sensing candidate, but its efficient preparation and gas-sensing potential remain underexplored. Here, we report an iodine-assisted chemical vapor transport method that enables gram-scale synthesis of FP within 5 h with a yield exceeding 99%, without the need for precise temperature-gradient control. The key is the iodine-mediated cleavage of P4 cages and the directed assembly of active phosphorus fragments into tubular FP. Taking advantage of the weak interlayer van der Waals interactions, high-quality FP nanoribbons (FP-NRs) with an average width of ∼50 nm, an average length of ∼6 μm, and aspect ratios exceeding 150 for ∼60% of the ribbons are obtained by 60 min of ice-bath exfoliation. The FP-NRs sensor exhibits a high response of 826% toward 100 ppm NH3 at room temperature, with response/recovery times of 31/7 s under the 90% criterion, and remains responsive at 2 ppm NH3 (response 69.8%). When all tested gases are compared at the same concentration, the response to NH3 is significantly higher than that to the interfering gases. Combined DFT calculations and in situ FTIR/Raman measurements reveal that NH3 adsorption on FP is dominated by physical adsorption (adsorption energy −0.26 eV; Bader charge transfer ∼0.02 e), which accounts for the high sensitivity, selectivity, and fast recovery. This work provides a scalable route to FP nanoribbons and demonstrates their potential for practical room-temperature NH3 sensing.",
@@ -2155,6 +2323,48 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨硼烷水解",
   "zh_title": "极端条件下从氨硼烷 (BH 3 NH 3 ) 形成立方 BN"
+ },
+ "10.1117/12.3123214": {
+  "abstract": "Atomic layer deposition (ALD) TiO₂ thin films are widely used in optoelectronics, photocatalysis, and biomedical applications. However, their intrinsic absorption and defect-induced absorption limit their application in high-power laser optics. Annealing is an important post-treatment method to modulate the optical properties and reduce absorption. In this work, ALD-TiO₂ thin films were annealed in O₂ atmosphere at different temperatures. The effects of annealing temperature on the optical constants, surface morphology, crystal structure, and impurity states were systematically investigated using spectroscopic ellipsometry, atomic force microscopy (AFM), X-ray diffraction(XRD), Fourier-transform infrared spectroscopy(FTIR), and X-ray photoelectron spectroscopy (XPS). This work provides theoretical and experimental guidance for the preparation of low-absorption, high laser-damage-resistant ALD-TiO₂ optical films through post-annealing treatment.",
+  "authors": [
+   "Junhui Die",
+   "Bingcheng Xiong",
+   "Zhao Qiao",
+   "Liang Lv",
+   "Guorui Zhou",
+   "Fumin Qiu",
+   "Yunti Pu",
+   "Xianhua Chen",
+   "Mingxiao Zhang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.1117/12.3123214",
+  "first_seen": "2026-11-06T03:24:56Z",
+  "id": "10.1117/12.3123214",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Twenty-First National Conference on Laser Technology and Optoelectronics",
+  "tier": "transferable",
+  "title": "Effect of annealing on the properties of TiO2 film prepared by atom layer deposition",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1117/12.3123214",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Atomic layer deposit"
+  ],
+  "zh_brief": "原子层沉积法制备的 TiO₂ 薄膜在光电子、光催化和生物医学应用中广泛使用，但其固有的吸收和缺陷诱导吸收限制了它们在高功率激光光学中的应用。退火是一种重要的后处理方法，用于调节光学性能并减少吸收。本研究中，在不同温度下将原子层沉积法制备的 TiO₂ 薄膜在 O₂ 气氛中退火，并使用光谱椭偏仪、原子力显微镜（AFM）、X 射线衍射（XRD）、傅里叶变换红外光谱（FTIR）和 X 射线光电子能谱（XPS）系统地研究了退火温度对光学常数、表面形貌、晶体结构和杂质状态的影响。这项工作为通过后退火处理制备低吸收、高激光损伤耐受性的原子层沉积 TiO₂ 光学薄膜提供了理论和实验指导。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "通用催化方法；涉及原子层沉积",
+  "zh_title": "原子层沉积制备的 TiO2 薄膜退火对其性能的影响"
  },
  "10.1149/1945-7111/aebcb9": {
   "abstract": "Abstract Electrocatalytic reduction reaction of nitrate to ammonia (NO3RR) has emerged as a promising strategy that couples nitrate pollutant remediation with sustainable NH3 production. Practical nitrate-containing industrial wastewater usually presents a wide pH distribution range, which puts forward an urgent requirement for pH-adaptive NO₃RR catalysts with high ammonia selectivity. Conventional NO3RR catalysts fail to deliver high NH3 Faradaic efficiency under extreme acidic or alkaline conditions, mainly due to uncontrollable competitive adsorption of hydrogen intermediates on active sites. Herein, we report a ruthenium-decorated copper foam catalyst (RuCuF@PUS) fabricated via a facile two-step electrodeposition method, which achieves exceptional NO3RR performance across a wide pH window of 1-12. The interconnected porous framework enables efficient mass transfer, while the precisely designed dual active sites endow Cu with strong nitrate adsorption and activation capability, and Ru with accelerated sequential hydrogenation kinetics. In acidic condition, the catalyst achieves a remarkable ammonia yield rate of 457.56 µmol/h·cm2 at −0.4 V vs. RHE, with a peak Faradaic efficiency of 90.96%. Furthermore, a proof-of-concept alkaline-acidic hybrid Zn–NO3 battery assembled with the RuCuF@PUS cathode and real nitrate-containing wastewater as electrolyte achieves an open-circuit voltage of 1.29 V and a peak power density of 25.93 mW/cm2.",
