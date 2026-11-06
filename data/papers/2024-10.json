@@ -338,6 +338,9 @@
    "Jianli Hu",
    "Yuhe Tian"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-18",
   "doi": "10.1002/aic.18621",
@@ -359,8 +362,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究对象为微波辅助的氨生产反应器设计，使用 46 组实验数据。关键方法是结合神经网络和合成少数类过采样技术来量化该过程的非线性输入输出关系。对于离散操作条件下的氨浓度预测，该方法平均准确率达到 96.1%，优于其他机器学习方法（如支持向量回归 84.2%）。该方法还用于连续优化，确定最佳合成条件为 597.37 K、0.55 MPa、进料流量 1.67 ×10 −3 m 3 /s kg 和氢氮比 1，与实验观察结果一致。该数据驱动模型能够将该反应器与现有的氨生产基础设施集成，并与传统技术进行基准比较。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "使用有限实验数据辅助的机器学习过程设计：以微波辅助的氨合成为例"
  },
  "10.1002/anie.202409484": {
   "abstract": "Abstract Utilizing hot carriers for efficient plasmon‐mediated chemical reactions (PMCRs) to convert solar energy into secondary energy is one of the most feasible solutions to the global environmental and energy crisis. Finding a plasmonic heterogeneous nanostructure with a more efficient and reasonable hot carrier transport path without affecting the intrinsic plasmonic properties is still a major challenge that urgently needs to be solved in this field. Herein, the mechanism by which plasmon‐promoted interatomic hot electron redistribution on the surface of Au 3 Cu alloy nanoparticles promotes the electrocatalytic nitrogen reduction reaction (ENRR) is successfully clarified. The localized surface plasmon resonance (LSPR) effect can boost the transfer of plasmon hot electrons from Au atoms to Cu atoms, trigger the interatomic electron regulation of Au 3 Cu alloy nanoparticles, enhance the desorption of ammonia molecules, and increase the ammonia yield by approximately 93.9 %. This work provides an important reference for rationally designing and utilizing the LSPR effect to efficiently regulate the distribution and mechanism of plasmon hot carriers on the surface of heterogeneous alloy nanostructures.",
@@ -415,6 +420,9 @@
    "Hyungjun Kim",
    "Byungha Shin"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-22",
   "doi": "10.1002/anie.202411909",
@@ -436,8 +444,10 @@
   "why": [
    "Haber-Bosch"
   ],
+  "zh_brief": "锂介导的氮还原反应 (Li-NRR) 为哈伯-博施工艺提供了一种可行的替代方案用于氨生产。然而，乙醇作为 Li-NRR 中常见的质子载体表现出电化学不稳定性，导致在阳极氧化或在阴极形成副产物。本研究用离子液体 (ILs)，特别是四丁基磷氯化物 (TBPCl) 和四丁基铵氯化物 (TBACl)，替代酒精质子载体，以检验阳离子中心原子与相邻碳原子之间的电负性差异如何影响催化性能。结果表明，切换四烷基型 IL 中的中心原子显着提高了性能，特别是从磷到铵阳离子 IL 的转换导致 Faradaic 效率 (FE) 增加 1.45 倍。此外，确定了电解质中最佳 IL 浓度以最大化氨产率。TBACl 特别表现出增强的氨生产和操作稳定性，在 10 mA/cm 2 和 10 atm 条件下，实现氨产率率为 13.60 nmol/cm 2 /s，FE 为 39.5%，操作稳定性超过 12 小时。这项研究强调了",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原；涉及Fe/铁体系"
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
+  "zh_title": "通过修饰四烷基型离子液体的中心原子增强锂介导的氮还原"
  },
  "10.1002/anie.202413369": {
   "abstract": "Abstract The rational design of carbon‐supported transition metal single‐atom catalysts necessitates precise atomic positioning within the precursor. However, structural collapse during pyrolysis can occlude single atoms, posing significant challenges in controlling both their utilization and coordination environment. Herein, we present a surface atom adsorption‐flash heating (FH) strategy, which ensures that the pre‐designed carbon nanofiber structure remains intact during heating, preventing unforeseen collapse effects and enabling the formation of metal atoms in nano‐environments with either tetra‐nitrogen or penta‐nitrogen coordination at different flash heating temperatures. Theoretical calculations and in situ Raman spectroscopy reveal that penta‐nitrogen coordinated cobalt atoms (Co‐N 5 ) promote a lower energy pathway for oxygen reduction and oxygen evolution reactions compared to the commonly formed Co‐N 4 sites. This strategy ensures that Co‐N 5 sites are fully exposed on the surface, achieving exceptionally high atomic utilization. The turnover frequency (65.33 s −1 ) is 47.4 times higher than that of 20 % Pt/C under alkaline conditions. The porous, flexible carbon nanofibers significantly enhance zinc‐air battery performance, with a high peak power density (273.8 mW cm −2 ), large specific capacity (784.2 mAh g −1 ), and long‐term cycling stability over 600 h. Additionally, the flexible fiber‐shaped zinc‐air battery can power wearable devices, demonstrating significant potential in flexible electronics applications.",
@@ -1277,16 +1287,16 @@
  },
  "10.1007/s11426-024-2137-5": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jun Li",
@@ -1325,16 +1335,16 @@
  },
  "10.1007/s11664-024-11506-x": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Zakaria M. Ali",
@@ -1373,8 +1383,8 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-10-31",
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1383,7 +1393,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Ziyue Zeng",
@@ -1475,8 +1485,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1484,7 +1494,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yanfei Zheng",
@@ -1531,8 +1541,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1540,7 +1550,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xiang Li",
@@ -1634,8 +1644,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1643,7 +1653,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Chang-Hyun Cho",
@@ -1805,8 +1815,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1814,7 +1824,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Richard J. Ciora",
@@ -1902,16 +1912,16 @@
  },
  "10.1016/j.cej.2024.154925": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yajie Shu",
@@ -2483,8 +2493,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2492,7 +2502,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Ahmad K. Sleiti",
@@ -2531,8 +2541,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2540,7 +2550,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Tom Degnan"
@@ -2575,16 +2585,16 @@
  },
  "10.1016/j.fuel.2024.132463": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Cheng Hou",
@@ -2882,7 +2892,7 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-04",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2890,7 +2900,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Hui Liufu",
@@ -3022,8 +3032,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3031,7 +3041,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jiaying Zang",
@@ -3164,8 +3174,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3173,7 +3183,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yixiao Zhang",
@@ -3271,8 +3281,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3280,7 +3290,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xindong Zhu",
@@ -3327,8 +3337,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -3336,7 +3346,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Mengyue Yuan",
@@ -4143,6 +4153,9 @@
    "Jeong Woo Han",
    "Kijung Yong"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-10-23",
   "doi": "10.1021/acsenergylett.4c02626",
@@ -4164,8 +4177,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "本研究提出一种空间位阻衍生电解质 (STE) 生成富含 Li+ 阴离子的溶剂化结构以增强锂介导的氮还原反应 (Li-NRR)，Li-NRR 是一种有前景的电化学绿色氨合成方法。STE 应用于四氢呋喃 (THF) 溶剂中 α-质子的甲基化，溶解锂盐，导致 Li+ 弱溶剂化并生成阴离子富溶剂化结构。所得阴离子衍生固体电解质界面具有薄而均匀的无机性质，提高了 Li-NRR 过程的选择性、能量效率 (EE) 和稳定性。此外，阴离子富溶剂化表现出抗还原稳定性和抑制电解质分解。因此，STE 实现了 Faradaic 效率 NH3 产率率的两倍增加（65.8% 和 90.8 nmol cm –2 s –1，分别比 THF-单一电解质 (35.7% 和 49.3 nmol cm –2 s –1) 高），同时将 EE 提高了一倍。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "空间位阻衍生锂离子溶剂化增强锂介导的氮还原"
  },
  "10.1021/acsnano.4c09247": {
   "ab_try": "2026-10-29",
@@ -4612,8 +4627,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -4621,7 +4636,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Seongmin Jin",
@@ -4822,16 +4837,16 @@
  },
  "10.1039/d4ee02874k": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "This work describes the theory-guided design and experimental validation of a barium-doped cobalt catalyst for ammonia decomposition.",
   "authors": [
    "Alexander Gunnarson",
@@ -5419,16 +5434,16 @@
  },
  "10.2139/ssrn.4975185": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-04"
+   "OpenAlex": "2026-11-06"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Weili Zhou",
@@ -5473,8 +5488,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -5482,7 +5497,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Botagoz Zhakisheva",

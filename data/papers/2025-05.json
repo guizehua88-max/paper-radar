@@ -1778,8 +1778,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1787,7 +1787,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Xuechen Zhou",
@@ -1891,8 +1891,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -1900,7 +1900,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Rucha Railkar",
@@ -2670,8 +2670,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2679,7 +2679,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Jingwei Du",
@@ -2987,8 +2987,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-10-31",
-   "OpenAlex": "2026-11-04",
+   "Europe PMC": "2026-11-06",
+   "OpenAlex": "2026-11-06",
    "Semantic Scholar": "2026-10-31"
   },
   "ab_sources_checked": [
@@ -2996,7 +2996,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-04",
+  "ab_try": "2026-11-06",
   "abstract": "",
   "authors": [
    "Yu Zhang",
@@ -6215,6 +6215,9 @@
    "Hilary Costello",
    "Christine F. Braban"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2025-05-15",
   "doi": "10.5194/egusphere-egu25-298",
@@ -6234,8 +6237,10 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "比较了五种氨气传感器（四种电化学和一种化学电阻式）与Picarro G2103在苏格兰Whim Bog为期一个月的测试结果。当地环境氨气浓度约为1-2 ppb。研究指出商用传感器在低浓度检测、响应时间和抗干扰能力方面存在挑战，且缺乏户外使用的维护指南。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "氨气微型传感器：它们是否已准备好用于户外环境？"
  },
  "10.54254/2755-2721/2025.gl23557": {
   "abstract": "Investigating the regulatory mechanism of electron spin in the electrocatalytic nitrogen reduction reaction (NRR) is of great significance for advancing the development of efficient electrocatalysts. As one of the most promising green technologies for ammonia production, electrochemical nitrogen fixation offers high Faradaic efficiency and favorable ammonia yield. However, its large-scale application is still hindered by the limited availability of catalysts with high activity, selectivity, and stability. As an intrinsic property of electrons, spin regulation during the reaction process can significantly enhance catalytic performance. This review first summarizes recent progress in electrocatalytic NRR, highlighting its advantages as a novel route for sustainable ammonia synthesis while addressing the current technical challenges. The generation conditions and influencing factors of electron spin are systematically discussed, followed by an overview of common spin regulation strategies, including internal structural tuning of materials and external physical field modulation. Representative studies are introduced to illustrate the application of spin effects in related scientific domains. By focusing on two key bottlenecks in the NRR process—namely, the activation of nitrogen molecules and the stabilization of reaction intermediates—this review further explores the potential of electron spin regulation to enhance catalytic activity and stability. Finally, the future development trends and application prospects of spin effects in electrocatalytic NRR are discussed. This work aims to deepen the understanding of spin regulation mechanisms and provide theoretical guidance for the rational design of next-generation high-performance electrocatalysts.",
