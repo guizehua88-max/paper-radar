@@ -2357,6 +2357,9 @@
    "Manyi Yang",
    "Michele Parrinello"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-01-10",
   "doi": "10.1021/acscatal.3c05376",
@@ -2378,8 +2381,10 @@
   "why": [
    "Ammonia Decomposition"
   ],
+  "zh_brief": "Li2NH 被证明是氨分解的很有前景的催化剂。通过大量 ab-initio 质量模拟解释了这种不寻常催化剂的作用。在复杂的情景中，表面动力学和结构无序在与反应氨分子的相互作用下发挥了关键作用。非化学计量锂胺 Li(2-x)(NH2)x(NH)(1-x) 的催化性能优于纯锂胺。受这些发现的启发，作者继续模拟非化学计量化合物上的氨分解。作者将反应性增强归因于组分无序进一步增强了催化剂最表层层的波动，加强了我们对这一催化过程的动力学图景的理解。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨分解制氢"
+  "zh_obj": "氨分解制氢",
+  "zh_title": "结构无序如何影响多相催化剂？以非化学计量锂胺为例的氨分解"
  },
  "10.1021/acsnano.3c07703": {
   "ab_try": "2026-10-29",
@@ -3680,6 +3685,9 @@
    "Halina Pawlak-Kruczek",
    "Lukasz Niedzwiecki"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-01-06",
   "doi": "10.3390/catal14010040",
@@ -3701,8 +3709,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "等离子体技术的进步与计算流体动力学（CFD）模型的利用密切相关，这些模型在工业规模等离子体反应器的设计和优化中发挥着关键作用。本综述全面概括了等离子体反应器设计的演变格局，包括流体动力学、化学动力学、传热和辐射能。通过使用 FLUENT、Python、MATLAB 和 Abaqus 等工具，CFD 技术揭示了湍流、多相流和物种传输的复杂性。等离子体行为方程，包括离子和电子密度、电场和复合反应，以整体方式呈现。基于精确数学公式和计算策略的非热等离子体反应器建模进一步得到机器学习算法集成预测建模和优化的支持。从生物质气化到复杂的化学反应，本综述强调了等离子体混合建模在重塑各种工业过程中的多功能潜力。在等离子体催化领域，建模和模拟方法为变革性进步铺平了道路。涵盖反应器配置、动力学途径、氢气生产、废物资源化和更远领域，本综述提供了等离子体催化的多维度全景视图。微动力学建模和催化剂设计成为优化 CO",
   "zh_method": "等离子体驱动",
-  "zh_obj": "等离子体制氨"
+  "zh_obj": "等离子体制氨",
+  "zh_title": "开创未来：计算流体动力学与机器学习融合革新等离子体催化和非热等离子体反应器设计的前沿综述"
  },
  "10.3390/catal14020104": {
   "abstract": "We report an investigation of catalyst performance for the decomposition of ammonia under industrially relevant conditions (high temperatures of up to 800 °C and an elevated pressure of 5 bar) with further emphasis on their stability at high reaction temperatures. The catalysts were applied and tested as coatings in 500 µm wide channels of microreactors. Nickel-based catalysts were studied and compared to a ruthenium-based catalyst supported on SiO2. The effect of the support on the catalytic performance was investigated, and CeO2-supported nickel catalysts were found to exhibit the highest activity. Promoters were applied to increase the NH3 decomposition activity of the Ni/CeO2 catalysts. The addition of cesium led to a slight reduction in activity, while lanthanum, calcium, and barium doping resulted in increased activity. In particular, the barium-doped Ni/CeO2 catalyst showed very high ammonia conversion and closed the activity gap with respect to ruthenium catalysts at reactor temperatures of 650 °C and higher. The hydrogen production rates achieved in this work were compared to values in the literature and were shown to exceed values found earlier for both nickel- and ruthenium-based catalysts. Furthermore, the ruthenium-based catalysts under investigation were rapidly deactivated at 700 °C, while the nickel-based catalysts did not show deactivation after 220 h on time on stream at 700 °C.",
