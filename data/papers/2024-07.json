@@ -483,6 +483,9 @@
    "Yoshiaki Tanabe",
    "Yoshiaki Nishibayashi"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-11",
   "doi": "10.1002/anie.202406404",
@@ -504,8 +507,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "研究利用明确定义的分子过渡金属络合物作为催化剂，在环境条件下通过化学还原剂和质子源将 N2 转化为 NH3，发现 N2-裂解途径和质子耦合电子转移的参与对高催化活性非常有效。",
   "zh_method": "光驱动",
-  "zh_obj": "光催化固氮"
+  "zh_obj": "光催化固氮",
+  "zh_title": "在环境或温和反应条件下使用明确定义的分子催化剂催化氮固定"
  },
  "10.1002/anie.202408382": {
   "abstract": "Abstract Electrochemical nitrate reduction reaction (NO 3 RR) is a promising approach to achieve remediation of nitrate‐polluted wastewater and sustainable production of ammonia. However, it is still restricted by the low activity, selectivity and Faraday efficiency for ammonia synthesis. Herein, we propose an effective strategy to modulate the electrolyte microenvironment in electrical double layer (EDL) by mediating alkali metal cations in the electrolyte to enhance the NO 3 RR performance. Taking bulk Cu as a model catalyst, the experimental study reveals that the NO 3 − ‐to‐NH 3 performance in different electrolytes follows the trend Li + <Cs + <Na + <K + . Theoretical studies illustrate that the proton transport rate in NO 3 RR and the activity of the rate‐determining step (NO 3 − to NO 2 − ) increase in the order Li + <Cs + <Na + <K + . The cation effects are also general for two typical nanostructured catalysts including copper/cuprous oxide and nickel phosphides, achieving near‐100 % Faradaic efficiency and over 99 % conversion of NO 3 − to NH 3 . Furthermore, we demonstrate that NO 3 − can be converted to high‐purity NH 4 Cl by copper/cuprous oxide catalyst in K + ‐containing electrolyte.",
@@ -2447,6 +2452,9 @@
    "Chao Wu",
    "Caihong Wang"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.ijhydene.2024.06.038",
@@ -2469,7 +2477,8 @@
    "nitrate reduction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "筛选基于 WS2 的单原子催化剂用于电催化硝酸盐还原制氨"
  },
  "10.1016/j.ijhydene.2024.06.041": {
   "ab_check_v": 2,
@@ -2494,6 +2503,9 @@
    "Iolanda Gargiulo",
    "Fausto Gallucci"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.ijhydene.2024.06.041",
@@ -2515,8 +2527,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "利用 Aspen plus v14 模拟工具，研究将 Ru 催化剂集成到选择性透过 NH3 的无机膜催化膜反应器中的性能，发现膜反应器使系统效率提高约 8%，使用 SOEC 技术时效率提升约 15%。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系"
+  "zh_obj": "N₂/H₂气相合成氨；涉及Ru/钌体系",
+  "zh_title": "膜反应器的制氨工艺：技术经济研究"
  },
  "10.1016/j.ijhydene.2024.06.128": {
   "ab_check_v": 2,
@@ -2539,6 +2553,9 @@
    "Xiaoyan Deng",
    "Hongtao Gao"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.ijhydene.2024.06.128",
@@ -2561,7 +2578,8 @@
    "nitrogen reduction reaction"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "锚定 Mn 二聚体的双过渡金属二硫化物单层：用于高效氮还原反应的有前景的电催化剂"
  },
  "10.1016/j.ijoes.2024.100585": {
   "ab_check_v": 2,
@@ -2791,6 +2809,9 @@
    "Nigel Graham",
    "Wenzheng Yu"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07",
   "doi": "10.1016/j.jhazmat.2024.134522",
@@ -2812,8 +2833,10 @@
   "why": [
    "ammonia synthesis"
   ],
+  "zh_brief": "提出一种脉冲电合成技术，在 Cu2O@Pd 电极上优化 *NO 中间体的吸附，在优化脉冲条件下实现了 81.2% 的 NH3-N 法拉第效率和 1.08 mg h-1 cm-2 的产率。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "析氢反应"
+  "zh_obj": "析氢反应",
+  "zh_title": "脉冲电催化在 Cu2O@Pd 串联催化剂上实现低浓度硝酸盐向氨的有效转化"
  },
  "10.1016/j.jpowsour.2024.234621": {
   "ab_check_v": 2,
@@ -5050,6 +5073,9 @@
    "Vaclav Svorcik",
    "Oleksiy Lyutakov"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2024-07-11",
   "doi": "10.1039/d4ta03350g",
@@ -5071,8 +5097,10 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "利用等离子体活性 Au 光栅装饰的 gC3N4@MoS2 异质体系和等离子体活性纳米颗粒，实现了光电化学氮还原制氨。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "通过等离子体活性 Au 光栅装饰的 gC3N4@MoS2 异质体系和等离子体活性纳米颗粒增强光电化学氮还原制氨"
  },
  "10.1039/d4tc01867b": {
   "abstract": "Aluminum nitride (AlN) is a semiconductor with a very wide band gap and a potential dielectric material. Deposition of thin AlN films is routinely done by several techniques, including atomic layer deposition (ALD). In this study, we deposited AlN using ALD with trimethylaluminum (TMA) as the Al precursor and ammonia (NH3) with and without plasma activation as the N precursor in the temperature range from 100 to 400 °C while monitoring the surface reactions using mass spectrometry. Our results, combined with recent quantum chemical modelling, suggest that the surface chemistry of the deposition process is chemisorption of TMA followed by reductive elimination of the methyl groups to render mono methyl aluminum species. The NH3 chemisorption is done by ligand exchange to form CH4 and an -NH2 terminated surface.",
