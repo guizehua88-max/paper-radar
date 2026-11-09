@@ -1430,11 +1430,11 @@
  },
  "10.1016/j.apcatb.2024.124173": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -1443,7 +1443,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Xiaoyue Chen",
@@ -1588,11 +1588,11 @@
  },
  "10.1016/j.apsusc.2024.160519": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
    "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -1601,8 +1601,9 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
-  "abstract": "",
+  "ab_try": "2026-11-09",
+  "abstract": "Developing efficient catalysts for nitrogen reduction reaction is a meaningful yet challenging endeavor. Here, we employ machine learning to screen for efficient Heusler alloy catalysts (X2YZ). We incorporate classification tasks into the graph neural network to differentiate between adsorbates and adsorption sites, thereby improving the network's ability to recognize adsorption configurations and enhance its predictive accuracy of adsorption energy simultaneously. Following training on an adsorption dataset of 6000 density-functional theory calculations, our model can predict the adsorption energies of critical adsorbates (N2, NNH, NH, NH2, H) with a mean absolute error of 0.1 eV. Through a multi-criteria screening, we identified a series of Ru-based Heusler catalysts with low limiting potentials and the ability to suppress hydrogen evolution reactions. For example, Ru2HfTl exhibits a low limiting potential of -0.32 V. Statistical analysis reveals that the average d-electron of X and Y elements, along with the group number of Z element, can assess the catalyst activity of Heusler alloys. Furthermore, we discover that the unique geometric structure of four-fold hollow sites on the (110) surface of Heusler alloy can facilitate N2 activation and alter the potential determining step of NRR.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Jing Zhou",
    "Xiayong Chen",
@@ -1613,7 +1614,7 @@
    "Dingwang Yuan"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2024-10",
@@ -1636,8 +1637,9 @@
   "why": [
    "nitrogen reduction reaction"
   ],
+  "zh_brief": "研究对象为Heusler合金催化剂（X2YZ），关键方法为将分类任务融入图神经网络以区分吸附物和吸附位点，提高网络识别吸附构型和吸附能预测的准确性。基于6000个密度泛函理论计算的吸附数据集训练后，模型对N2、NNH、NH、NH2、H等关键吸附物的吸附能预测平均绝对误差为0.1 eV。通过多标准筛选，发现了一系列Ru基Heusler催化剂具有低极限电势且能抑制析氢反应，如Ru2HfTl的极限电势为-0.32 V。统计分析显示X和Y元素的d电子平均数及Z元素的族号可评估Heusler合金的催化剂活性。此外，Heusler合金（110）表面的四重空位独特的几何结构可促进N2活化并改变氮还原反应的电位决定步骤。",
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确",
+  "zh_obj": "析氢反应；涉及Ru/钌体系",
   "zh_title": "基于图神经网络的机器学习加速筛选Heusler合金用于氮还原反应"
  },
  "10.1016/j.carbon.2024.119542": {
@@ -1694,11 +1696,11 @@
  },
  "10.1016/j.cej.2024.154593": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -1707,7 +1709,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Erhan Onat",
@@ -1750,11 +1752,11 @@
  },
  "10.1016/j.cej.2024.154644": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -1763,7 +1765,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Jae Hyung Kim",
@@ -1957,11 +1959,11 @@
  },
  "10.1016/j.cej.2024.155108": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -1970,7 +1972,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Jianyue Yan",
@@ -2016,11 +2018,11 @@
  },
  "10.1016/j.cej.2024.155124": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2029,7 +2031,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Wenhua Guo",
@@ -2068,11 +2070,11 @@
  },
  "10.1016/j.cej.2024.155354": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2081,7 +2083,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Jingrui Ye",
@@ -2125,11 +2127,11 @@
  },
  "10.1016/j.cej.2024.155735": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2138,7 +2140,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Lijuan Dai",
@@ -2229,11 +2231,11 @@
  },
  "10.1016/j.ceramint.2024.07.049": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2242,7 +2244,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Weiwen Wang",
@@ -2283,11 +2285,11 @@
  },
  "10.1016/j.ces.2024.120378": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2296,7 +2298,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Qiang Ru",
@@ -2334,11 +2336,11 @@
  },
  "10.1016/j.chempr.2024.07.006": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2347,7 +2349,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Huimin Liu",
@@ -2386,11 +2388,11 @@
  },
  "10.1016/j.colsurfa.2024.134583": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2399,7 +2401,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Huaping Xiong",
@@ -2440,11 +2442,11 @@
  },
  "10.1016/j.comptc.2024.114817": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2453,7 +2455,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Qiang Xu",
@@ -2634,11 +2636,11 @@
  },
  "10.1016/j.ijhydene.2024.08.383": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2647,7 +2649,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Opeyemi Ogunniyan",
@@ -2739,11 +2741,11 @@
  },
  "10.1016/j.ijhydene.2024.08.458": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2752,7 +2754,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Dilek Kilinc"
@@ -2785,11 +2787,11 @@
  },
  "10.1016/j.ijhydene.2024.09.127": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2798,7 +2800,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "K. Adeli",
@@ -2838,11 +2840,11 @@
  },
  "10.1016/j.ijhydene.2024.09.178": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -2851,7 +2853,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Shaofeng Gong",
@@ -3598,11 +3600,11 @@
  },
  "10.1016/s1872-2067(24)60114-2": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-02",
-   "OpenAlex": "2026-11-02",
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
    "Semantic Scholar": "2026-11-02"
   },
   "ab_sources_checked": [
@@ -3611,7 +3613,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-02",
+  "ab_try": "2026-11-09",
   "abstract": "",
   "authors": [
    "Ziyuan Xiu",
