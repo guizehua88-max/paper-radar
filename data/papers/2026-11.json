@@ -370,6 +370,46 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "用于持久连续锂介导氨电合成的还原稳定电解质的弱溶剂工程"
  },
+ "10.1002/anie.2045143": {
+  "abstract": "Porphyrin–polyimide COFs enable one-pot oxygen reduction coupled ammoximation of cyclic ketones. Photoinduced electron transfer activates O 2 at imide carbonyl sites, generating *OOH that directly oxidizes NH 4 + to NH 2 OH, which then condenses with ketones. IMCOF-1 delivers cyclohexanone oxime at 18.55 mmol g − 1 h − 1 , avoiding H 2 O 2 accumulation and enabling a single-COF cascade. ABSTRACT Photocatalytic oxygen reduction over covalent organic frameworks (COFs) has been extensively studied for H 2 O 2 production, but the in situ utilization of oxygen reduction reaction (ORR) intermediates in chemical synthesis remains underexplored. Herein, two porphyrin-based polyimide COFs, IMCOF-1 and IMCOF-2, are reported as photocatalysts for the one-pot ORR-coupled ammoximation of cyclic ketones using O 2 and NH 4 OAc. Under light irradiation, IMCOF-1 achieves a cyclohexanone oxime formation rate of 18.55 mmol g −1 h −1 and is effective for several other cyclic ketones. Mechanistic investigations reveal that photoinduced electron transfer from the porphyrin units to the electron-deficient imide moieties promotes charge separation and activates O 2 at the carbonyl sites. The resulting surface-bound *OOH intermediates are proposed to participate in ammonia oxidation and subsequent NH 2 OH formation, which then condenses with cyclic ketones to yield the corresponding oximes. In contrast to stepwise systems that first accumulate H 2 O 2 before ammoximation, the present one-pot strategy enables the in situ utilization of oxygen-derived reactive intermediates without requiring substantial bulk H 2 O 2 pre-accumulation, eliminating the need for H 2 O 2 isolation, storage, and transport, thereby improving safety and atom economy while maintaining high selectivity. This work demonstrates the potential of directly harnessing ORR-derived intermediates for the light-driven synthesis of value-added nitrogen-containing chemicals.",
+  "authors": [
+   "Jiali Li",
+   "Ruipeng Li",
+   "Chuanbao Jiao",
+   "Jiashuai Teng",
+   "Xueshan Xing",
+   "Hui Li",
+   "Yujie Wang",
+   "Qianrong Fang",
+   "Jian Liu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-08",
+  "doi": "10.1002/anie.2045143",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1002/anie.2045143",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Angewandte Chemie",
+  "tier": "uncertain",
+  "title": "A Single‐COF Photocatalytic System for One‐Pot Oxygen Reduction Coupled Ammoximation of Cyclic Ketones",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.2045143",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [],
+  "zh_brief": "报道了两种基于卟啉的聚酰亚胺 COFs（IMCOF-1 和 IMCOF-2）作为光催化剂，用于环酮的一锅氧还原耦合肟化反应。光诱导电子转移在酰亚胺羰基位点活化 O2，生成的 *OOH 直接氧化 NH4+ 为 NH2OH，进而与酮缩合生成肟。IMCOF-1 在光照射下实现了 18.55 mmol g−1 h−1 的环己酮肟生成速率，避免了 H2O2 积累。",
+  "zh_method": "光驱动",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "单-COF光催化系统用于一锅氧还原耦合环酮肟化"
+ },
  "10.1002/anie.2196422": {
   "abstract": "An electron bridge strategy is developed to regulate charge polarization in Pd 1 and Ni 1 dual single-atom sites, promoting CO 2 reduction, nitrate reduction, and C–N coupling simultaneously. The resulting catalyst achieves efficient urea electrosynthesis with high activity and record durability over 1700 h. ABSTRACT Urea electrosynthesis from carbon dioxide and nitrates powered by green electricity is a zero-carbon route for urea production. Simultaneously achieving high activity and long-term stability is a prerequisite for the industrialization of urea electrosynthesis. In this study, we propose an electron bridge strategy based on a Pd 1 and Ni 1 dual single-atom alloy to boost the electrocatalytic activity and durability for urea electrosynthesis. The single-atom Ni 1 sites act as electron bridges to promote charge transfer from Cu to Pd 1 sites, leading to charge-polarized Pd–Cu sites, which upshift the d-band center and improve oxidation resistance of the catalyst. Consequently, the Pd 1 and Ni 1 dual single-atom sites simultaneously accelerates both carbon dioxide reduction and nitrates reduction half-reactions, while facilitating the first C–N coupling step. The Pd 1 and Ni 1 dual single-atom alloys deliver a urea yield rate of 541.6 mmol g cat −1 h −1 with a urea Faradaic efficiency of 57.3%. Remarkably, this catalyst achieves a record durability of 1700 h at a current density of 40 mA cm −2 . This work provides new insights into the synergistic catalysis of complex multi-molecule reactions through cooperative multiple active sites.",
   "authors": [
@@ -818,6 +858,52 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "用于硝酸盐到氨转化的尖晶石氧化物基电催化剂：催化剂设计与动态表面重构"
+ },
+ "10.1007/s40820-026-02359-6": {
+  "abstract": "Abstract Electrochemical nitrate reduction (NO 3 − RR) offers a route to couple wastewater remediation with green ammonia (NH 3 ) synthesis, but remains kinetically and mechanistically challenging under high-current-density operation. Herein, an N-doped carbon-encapsulated NiCo alloy catalyst (NiCo@NC) is derived from a NiCo-ZB precursor supported on conductive carbon black. The cathodic NO 3 − RR over NiCo@NC achieves an NH 3 yield rate of 187 mol h −1 g cat −1 with 95% Faradaic efficiency (FE) at −0.6 V RHE in an H-type cell and sustains ~92% FE at 2.0 A cm −2 under a cell voltage of 3.3 V in a membrane–electrode assembly. Pairing this cathodic NO 3 − RR with anodic methanol oxidation to formate enables simultaneous NH 3 and formate production at 2.1 A cm −2 under a cell voltage of 2.8 V, while maintaining NH 3 and formate FEs above 90% and 96%, respectively. In situ Fourier transform infrared and operando X-ray absorption fine structure spectra reveal preferential *NO stabilization and reversible Co valence/coordination, while theoretical calculations disclose interfacial charge polarization between NiCo alloy core and N-doped carbon shell, fabricating dual sites, comprising electron-deficient graphitic carbon and electron-rich pyridinic-N domains, that accelerate water dissociation/proton supply and lower the barrier of the rate-determining *NO → *NOH step. These insights establish alloy@NC interface regulation as a general strategy for high-rate NO 3 − RR.",
+  "authors": [
+   "Qizhi Hu",
+   "Siyu Zhu",
+   "Biao Meng",
+   "Mingdong Sun",
+   "Ming Wang",
+   "Xiaoling Liu",
+   "Shibo Xi",
+   "Xiao Chi",
+   "Xiaojiang Yu",
+   "Jing Wu",
+   "Yu Zhou",
+   "Yizhong Huang",
+   "Jun Wang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1007/s40820-026-02359-6",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1007/s40820-026-02359-6",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Nano-Micro Letters",
+  "tier": "background",
+  "title": "Interfacial Electronic Regulation in N-Doped Carbon-Encapsulated NiCo Alloy Enables High-Current Nitrate-to-Ammonia Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s40820-026-02359-6",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_brief": "研究对象为电化学硝酸盐还原 (NO 3 − RR) 体系，制备氮掺杂碳包覆 NiCo 合金催化剂 (NiCo@NC)。在 H 型电池中，NiCo@NC 在 –0.6 V RHE 下实现 187 mol h −1 g cat −1 的氨产率，95% 法拉第效率 (FE)，在 3.3 V 电池电压下，膜电极组件中 2.0 A cm −2 下维持 ~92% FE。阴极 NO 3 − RR 与阳极甲醇氧化联产氨和甲酸盐，在 2.8 V 电池电压下 2.1 A cm −2 下氨和甲酸盐 FE 分别高于 90% 和 96%。原位傅里叶变换红外光谱和原位 X 射线吸收精细结构光谱揭示 *NO 优先稳定和钴价态/配位的可逆性，理论计算披露 NiCo 合金核与氮掺杂碳壳之间的界面电荷极化，构建电子贫乏的石墨碳和电子丰富的吡啶氮区域组成的双位点，加速水裂解/质子供应，降低 *NO → *NOH 决速步骤的势垒",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
+  "zh_title": "界面电子调控：氮掺杂碳包覆 NiCo 合金实现高电流硝酸盐至氨电合成"
  },
  "10.1016/j.apcatb.2026.127729": {
   "ab_check_v": 2,
@@ -1282,6 +1368,44 @@
   "zh_obj": "过程待核实",
   "zh_title": "闪蒸焦耳热辅助构建三维石墨烯导电网络以协同增强磷酸铁锂的循环稳定性和高倍率性能"
  },
+ "10.1016/j.cej.2026.184066": {
+  "abstract": "",
+  "authors": [
+   "Zixuan Li",
+   "Chengze Yu",
+   "Mingxiao Li",
+   "Bing Deng",
+   "Beidou Xi",
+   "Jiaqi Hou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.184066",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1016/j.cej.2026.184066",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Chemical Engineering Journal",
+  "tier": "transferable",
+  "title": "Flash joule heating for solid waste valorization and environmental remediation: From reactor design to sustainability",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.184066",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "joule heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "闪蒸焦耳热用于固体废物增值与环境修复：从反应器设计到可持续性"
+ },
  "10.1016/j.ceramint.2026.11.043": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -1481,6 +1605,57 @@
   "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
   "zh_title": "太阳能化学链过程中用于生产与存储氢气和氨气的可回收金属载体候选物的筛选"
  },
+ "10.1016/j.foodchem.2026.151910": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-09",
+   "OpenAlex": "2026-11-09",
+   "Semantic Scholar": "2026-11-09"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-09",
+  "abstract": "",
+  "authors": [
+   "Jiyuan Shi",
+   "Dan Huo",
+   "Xin Tian",
+   "Qingqing Jian",
+   "Fengshan Zhang",
+   "Guigan Fang",
+   "Chuanling Si",
+   "Qiulin Yang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.foodchem.2026.151910",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1016/j.foodchem.2026.151910",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Food Chemistry",
+  "tier": "background",
+  "title": "A multi-functional antibacterial film based on lignocellulose nanofibril and sodium alginate: ammonia sensing and fresh shrimp preservation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.foodchem.2026.151910",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "基于木质纤维素纳米纤维和海藻酸钠的多功能抗菌膜：氨传感和新鲜虾保鲜"
+ },
  "10.1016/j.fub.2026.100225": {
   "abstract": "Ammonia-mediated energy storage system offers a promising approach to bridging intermittent renewable electricity generation and dispatchable power supply through an integrated electricity–ammonia–electricity cycle. In this system, renewable electricity is first converted into ammonia via power-to-ammonia (P2A) conversion, stored and transported as a chemical energy carrier, and then reconverted into electricity via ammonia-to-power (A2P) technologies. This review discusses the ammonia-mediated energy storage system from an electrochemical perspective, covering both P2A and A2P conversions. For P2A, renewable hydrogen-assisted Haber–Bosch synthesis is considered the most technologically mature route for practical deployment, while emerging electrochemical nitrogen and nitrate reduction pathways are examined in terms of their potential and limitations. For A2P, indirect configurations coupling ammonia cracking with hydrogen fuel cells are compared with ammonia-fed solid oxide fuel cells (NH₃-SOFCs) and anion exchange membrane direct ammonia fuel cells (AEM-DAFCs). The current progress, technical barriers, and system-level implications of these routes for renewable electricity conversion and storage are analyzed. We conclude that ammonia-mediated energy storage is unlikely to rely on a single technology pathway. Instead, its practical deployment will depend on continued advances in both P2A and A2P technologies, followed by system optimization for efficient, durable, and dispatchable renewable electricity storage.",
   "authors": [
@@ -1667,6 +1842,44 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "具有丰富硒空位的孪晶钴硒化物用于高效的氮还原反应"
+ },
+ "10.1016/j.jaap.2026.108241": {
+  "abstract": "",
+  "authors": [
+   "Mingfan Zhang",
+   "Tong Xu",
+   "Dikun Hong",
+   "Yao Zhang",
+   "Shuai Ning",
+   "Chunbo Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jaap.2026.108241",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1016/j.jaap.2026.108241",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Journal of Analytical and Applied Pyrolysis",
+  "tier": "transferable",
+  "title": "Carbon Evolution during Flash Joule Heating of Waste Tire Rubber: Methane Preservation versus Graphene Reconstruction",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jaap.2026.108241",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_title": "废轮胎橡胶闪蒸焦耳加热过程中的碳演化：甲烷保存与石墨烯重构"
  },
  "10.1016/j.jacomc.2026.100312": {
   "ab_check_v": 2,
@@ -2301,6 +2514,45 @@
   "zh_obj": "氨分解制氢",
   "zh_title": "使用不完全搅拌反应器网络方法模拟氨燃烧器排放"
  },
+ "10.1016/j.surfcoat.2026.134133": {
+  "abstract": "",
+  "authors": [
+   "Junren Xiang",
+   "Mingxuan Wang",
+   "Xiao Liu",
+   "Wenqing Wang",
+   "Jiahao Chen",
+   "Bin Shan",
+   "Rong Chen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.surfcoat.2026.134133",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1016/j.surfcoat.2026.134133",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Surface and Coatings Technology",
+  "tier": "transferable",
+  "title": "Baffle-induced deagglomeration enables uniform nanoparticle coating in rotary atomic layer deposition",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1016/j.surfcoat.2026.134133",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "挡板诱导的解团聚实现旋转原子层沉积中的均匀纳米颗粒涂层"
+ },
  "10.1016/j.surfin.2026.111204": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -2669,6 +2921,50 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "生物炭铵氮吸附的可解释机器学习：解耦合成与操作驱动因素及量化最优设计规则"
+ },
+ "10.1021/acssuschemeng.6c09970": {
+  "abstract": "Abstract Electrocatalytic ammonia oxidation (AOR) offers an energy-efficient route to carbon-free hydrogen production but is constrained by sluggish multielectron-transfer kinetics and adsorbate evolution mechanism (AEM) scaling relationships. Here, electrodeposition yielded a nickel-foam-supported bimetallic FeCuN catalyst (FeCuN-BH), followed by high-temperature hydrogenation to introduce abundant lattice nitrogen vacancies (FeCuN-AH). The rationally engineered FeCuN-AH architecture demonstrates superior AOR performance, requiring an exceptionally low applied potential of 0.61 V vs the saturated calomel electrode (SCE) to reach 50 mA cm–2, together with an apparent Tafel slope of 934.7 mV dec–1, substantially lower than the 2408 mV dec–1 measured for FeCuN-BH, and stable operation over 50 h. Comprehensive density functional theory (DFT) calculations elucidate a lattice nitrogen vacancy-mediated dual-site synergistic mechanism (LNVM-MSM). The incorporated nitrogen vacancies not only serve as preferential active centers for ammonia adsorption but also drastically reduce the kinetic energy barrier of the rate-determining step (RDS, *NH2 to *NH) from 2.04 eV on pristine copper sites down to 0.90 eV. Furthermore, these defect sites induce local electronic redistribution and modify intermediate adsorption energetics. By circumventing conventional scaling limitations, this defect-driven dual-site structure provides a robust and scalable framework for designing active, durable electrocatalysts for sustainable hydrogen extraction and advanced energy-conversion devices.",
+  "authors": [
+   "Rongtian Jiang",
+   "Zhipin Xu",
+   "Xin Yao",
+   "Dashuai Wang",
+   "Hui Zeng",
+   "Junhui Liang",
+   "Huayu Chen",
+   "Dilshod Nematov",
+   "Saidjafar Murodzoda",
+   "Yang Hou",
+   "Da Chen"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1021/acssuschemeng.6c09970",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1021/acssuschemeng.6c09970",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Sustainable Chemistry & Engineering",
+  "tier": "background",
+  "title": "Defect-Driven Bimetallic Modulation: Accelerating Electrocatalytic Ammonia Oxidation Kinetics via a Nitrogen-Deficient FeCuN-Derived Architecture",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acssuschemeng.6c09970",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Electrocatalytic Ammonia"
+  ],
+  "zh_brief": "研究对象为电催化氨氧化 (AOR) 体系，采用电沉积法制备镍泡沫支持的双金属 FeCuN 催化剂 (FeCuN-BH)，再经高温氢化引入丰富的晶格氮空位 (FeCuN-AH)。FeCuN-AH 架构表现出优异的 AOR 性能，在饱和甘汞电极 (SCE) 下 0.61 V 的极低施加电位下达到 50 mA cm–2，表观 Tafel 斜率为 934.7 mV dec–1，远低于 FeCuN-BH 的 2408 mV dec–1，且稳定运行 50 h。DFT 计算阐明晶格氮空位介导的双位点协同机制 (LNVM-MSM)，氮空位作为氨吸附的优选活性中心，并将决速步骤 (*NH2 到 *NH) 的动能垒从铜位点的 2.04 eV 降低至 0.90 eV。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "化学链/晶格氮循环制氨",
+  "zh_title": "缺陷驱动双金属调制：通过氮缺陷 FeCuN 衍生架构加速电催化氨氧化动力学"
  },
  "10.1021/jacs.6c14152": {
   "abstract": "Abstract Plasmonic photocatalysis can enhance conventional chemical transformations, but macroscale kinetic metrics, such as overall reaction rates and apparent activation barriers, are insufficient to identify the specific elementary steps modulated by hot carriers, limiting precise control over catalytic reactivity and selectivity. Here, we apply a spectrokinetic strategy based on in situ diffuse reflectance infrared Fourier transform spectroscopy (DRIFTS) to resolve elementary-step energetics in NH3 decomposition over CuRu alloy antenna–reactor catalysts. CuRu and Na-modified CuRu show different relative sensitivities to heating and illumination, providing a paired system for tracking how kinetic control is redistributed under thermal and plasmonic conditions. Temporal in situ DRIFTS and Arrhenius analysis identify site-dependent adsorbed N2 (*N2) intermediates and reveal a sequential migration–desorption pathway for *N2 removal. Thermal kinetic analysis shows that Na enhances thermocatalytic activity, despite strengthening *N2 binding and increasing the *N2 desorption barrier at terrace sites, while DFT calculations suggest that this enhancement is consistent with a reduced interfacial N–N coupling barrier. Under illumination, CuRu exhibits a nearly three-orders-of-magnitude light-specific rate enhancement, accompanied by decreases of 0.75 and 0.28 eV in the activation barriers for terrace *N2 desorption and interfacial *N2 migration, respectively, relative to dark thermal conditions. Comparing CuRu and CuRu–Na shows that illumination affects interfacial *N2 migration more selectively than terrace *N2 desorption, identifying interfacial *N2 removal as a site-sensitive step in plasmon-promoted active-site regeneration. These findings connect plasmonic excitation with site-dependent surface dynamics and elementary-step energetics, providing a framework for understanding how light redirects kinetic control in multistep catalysis.",
@@ -3169,6 +3465,42 @@
   "zh_obj": "电化学亚硝酸盐还原",
   "zh_title": "CuCo 双金属协同：层状双氢氧化物用于高效的电催化亚硝酸还原制氨"
  },
+ "10.1039/d6ta07010h": {
+  "abstract": "Oriented, crystalline hematite is grown on sapphire by atomic layer deposition (ALD) at temperatures as low as 200 °C. Growth on ALD Ga 2 O 3 on sapphire also produces hematite with complex refractive indices characteristic of crystalline hematite.",
+  "authors": [
+   "Alex B. F. Martinson",
+   "Ashley R. Bielinski",
+   "Asare Dua"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1039/d6ta07010h",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.1039/d6ta07010h",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "transferable",
+  "title": "Nucleation, orientation, and optical properties of ultrathin iron oxide grown by atomic layer deposition",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1039/d6ta07010h",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_brief": "在 200 °C 的低温下，原子层沉积（ALD）在蓝宝石上生长了取向的结晶赤铁矿，在 ALD Ga2O3 蓝宝石衬底上生长的赤铁矿也表现出结晶赤铁矿的特征复折射率。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及Fe/铁体系、原子层沉积",
+  "zh_title": "原子层沉积生长的超薄氧化铁的成核、取向和光学性质"
+ },
  "10.1039/d6ta07160k": {
   "abstract": "The electrochemical reduction of nitrite (NO 2 − ) to ammonia offers a compelling route to synergistically remediate nitrite-polluted wastewater and produce value-added NH 3 . However, its practical viability is constrained by the scarcity...",
   "authors": [
@@ -3453,6 +3785,42 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "利用焚烧过程中原位非催化还原氮氧化物处理石化 VOCs"
+ },
+ "10.21203/rs.3.rs-11191906/v1": {
+  "abstract": "Abstract Carbon allotropes span molecular to extended architectures, with dimensional-ity playing a central role in determining their electronic structure and chemical reactivity. Inspired by the unique electronic characteristics of carbenes and the functional diversity of carbon allotropes, we computationally design a previously unexplored zero-dimensional carbon dicarbene allotrope (CDCA) at the ωB97XD/Def2-TZVP level. CDCA is composed exclusively of carbon atoms and incorporates two electronically communicating carbene centres within a cyclic molecular framework. Density-of-states analysis and ab initio molecular dynamics simulations are employed to characterize its electronic structure, reactive sites, and structural stability. The singlet state is substantially more stable than the triplet state, while the carbon framework remains structurally stable during the investigated finite-temperature dynamics. CDCA exhibits pronounced reactivity toward SO 2 , SO 3 , NO, NO 2 , CO, CO 2 , and H 2 O through interactions involving its two carbene centres. Most notably, the two-centre architecture enables orientation-dependent activation of molecular nitrogen: interaction of N 2 with both carbene centres promotes N–N bond cleavage, whereas single-centre interaction yields an intact N 2 adduct. Subsequent stepwise hydrogenation of the activated nitrogen species provides a calculated pathway toward NH 3 formation. These results establish CDCA as a distinct zero-dimensional, carbon-only molecular architecture in which intrinsic carbene reactivity is integrated into a carbon allotrope, providing a new conceptual framework for small-molecule activation and the exploration of carbon-only systems for nitrogen chemistry.",
+  "authors": [
+   "Rahul das",
+   "Purnendu Mahata",
+   "Arijit Bag"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.21203/rs.3.rs-11191906/v1",
+  "first_seen": "2026-11-09T21:27:10Z",
+  "id": "10.21203/rs.3.rs-11191906/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 28,
+  "source": "Research Square",
+  "tier": "direct",
+  "title": "Carbon Di-carbene Allotrope as a Zero- Dimensional Carbon Platform for Small-Molecule Activation and Nitrogen-to-Ammonia Conversion",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.21203/rs.3.rs-11191906/v1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrogen-to-Ammonia"
+  ],
+  "zh_brief": "基于卡宾独特的电子特性和碳同素异形体的功能多样性，研究者在 ωB97XD/Def2-TZVP 水平上计算设计了一种此前未探索的零维碳二卡宾同素异形体（CDCA）。密度态分析和从头算分子动力学模拟表明 CDCA 对 SO2、NO、CO2 等小分子具有显著反应性，且能通过双中心构型促进 N2 的取向依赖性活化与 N–N 键断裂，最终提供了一条计算出的 NH3 形成路径。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应",
+  "zh_title": "碳二卡宾同素异形体作为零维碳平台用于小分子活化与氮气转化为氨"
  },
  "10.26434/chemrxiv-2024-p1txk/v2": {
   "abstract": "Coupling block copolymer self-assembly with ultrafast Joule heating enables second-scale crystallization of ordered mesoporous oxides while preserving long-range mesoscopic order. Using this strategy, we synthesize long-range ordered mesoporous magnesium-aluminum oxide frameworks at low magnesium contents exhibiting defect spinel-related nanocrystalline structures. Ex situ isothermal holds at 1000 to 1155 °C reveal rapid crystallite enlargement followed by a plateau in apparent crystallite size. In pure γ-alumina, this early saturation, together with retention of the ordered mesostructure, is consistent with geometrically constrained crystallite growth. Magnesium incorporation enables further crystallite enlargement before saturation, yielding larger defect-spinel-related domains while retaining long-range mesoscopic order. We further demonstrate the incorporation of in situ crystallized platinum nanoparticles within the ordered magnesium-aluminum oxide framework and their activity for methylcyclohexane dehydrogenation at 350 °C. These results demonstrate that ultrafast Joule heating can access distinct crystallization trajectories in compositionally modified mesoporous oxides that are precluded by mesostructural collapse during conventional furnace heating.",
