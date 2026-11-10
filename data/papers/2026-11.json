@@ -1,4 +1,47 @@
 {
+ "10.1002/adem.71392": {
+  "abstract": "Mixed antimony chalcogenides (Sb 2 E 3 , E = S, Se) as solar light absorbers offer bandgap tunability with favorable optical and electrical properties. However, depositing continuous films of thickness adjusted to the high optical absorption coefficients (<100 nm) has been challenging due to the favored formation of crystalline needles. Atomic layer deposition (ALD) as an ideally conformal deposition method is suited to addressing this challenge, but in the case of Sb 2 Se 3 , nucleation chemistry effects can render the substrate inert. Using tris(dimethylamido)antimony (Sb(NMe 2 ) 3 ) and bis(trimethylsilyl)selenide ((Me 3 Si) 2 Se) as precursors, we demonstrate that undesirable silylation of surface hydroxyl groups can be minimized by a pretreatment with Sb(NMe 2 ) 3 . The near‐saturation of nucleation sites on a metal oxide surface is demonstrated by scanning transmission electron microscopy and X‐ray reflectometry. Density functional theory highlights the importance of thermodynamics for surface inhibition and reactivation. The insight gained is applied to establishing a Sb 2 Se 3 ALD process which delivers smooth, continuous, ultrathin (<50 nm) films even after thermal annealing and crystallization. Such films are successfully incorporated into functional solar cells. Unraveling the details of nucleation chemistry for the specific case of Sb 2 Se 3 ALD also provides a perspective on adjusting chemical bonding at the interface between an oxide and a heavier chalcogenide.",
+  "authors": [
+   "Pei‐Chun Liao",
+   "Klaus Götz",
+   "Johannes Will",
+   "Mingjan Wu",
+   "Martin Dierner",
+   "Patrick Duchstein",
+   "Dirk Zahn",
+   "Tobias Unruh",
+   "Erdmann Spiecker",
+   "Julien Bachmann"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-10",
+  "doi": "10.1002/adem.71392",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1002/adem.71392",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Advanced Engineering Materials",
+  "tier": "transferable",
+  "title": "Adjusting Nucleation Chemistry for the Atomic Layer Deposition of Antimony Selenide on Metal Oxide Surfaces",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1002/adem.71392",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Atomic Layer Deposit"
+  ],
+  "zh_brief": "利用三(二甲氨基)锑预处理金属氧化物表面，最小化表面羟基的 undesirable 硅化，实现了锑化硒原子层沉积的近饱和成核位点。密度泛函理论揭示了表面抑制和再活化的热力学重要性。该方法制备了光滑、连续的超薄(<50 nm)锑化硒薄膜，并成功应用于功能太阳能电池。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "调整金属氧化物表面锑化硒原子层沉积的成核化学"
+ },
  "10.1002/adfm.79405": {
   "abstract": "Dual FeCo and FeNi alloy nanoparticles are exsolved from a multi-doped Fe-based perovskite anode for high-performance direct ammonia solid oxide fuel cells. The dual-alloy surface coordinates electronic structure modulation and nanoparticle morphology control, providing abundant reaction sites and complementary catalytic functions for NH 3 decomposition, NH x dehydrogenation, and N 2 removal. Consequently, the R-LSBMFCN anode delivers efficient NH 3 utilization, suppressed anode polarization, and stable direct ammonia solid oxide fuel cell operation. ABSTRACT Direct ammonia solid oxide fuel cells (DA-SOFCs) offer an integrated route for carbon-free power generation by coupling in situ ammonia decomposition with electrochemical hydrogen oxidation. However, anode catalysts must simultaneously achieve rapid NH 3 decomposition, efficient electrochemical charge transfer, and long-term resistance to nitridation and particle coarsening. Here, we report an Fe-based perovskite multi-doped with Co and Ni, La 0.6 Sr 0.2 Ba 0.2 Mn 0.2 Fe 0.6 Co 0.1 Ni 0.1 O 3 (P-LSBMFCN), as a precursor for dual-alloy exsolved DA-SOFC anodes. Upon H 2 reduction, P-LSBMFCN transforms into a Ruddlesden-Popper (RP) layered oxide decorated with highly dispersed FeCo and FeNi alloy nanoparticles (R-LSBMFCN). Co and Ni multi-doping directs the reduction-induced nucleation and alloying pathway, reducing the average nanoparticle size from 129.3 nm for the Fe-only reference to 48.3 nm for R-LSBMFCN while increasing nanoparticle density. The resulting dual-alloy architecture provides abundant accessible active sites and electronically tuned metal surfaces, accelerating NH 3 activation, NH x intermediate conversion, and N recombination/desorption. Consequently, R-LSBMFCN exhibits the lowest apparent activation energy, nearly complete NH 3 conversion at high temperature, and maximum power densities of 1.638 and 1.386 W cm −2 under H 2 and NH 3 at 800°C, respectively, with stable operation for 200 h under NH 3 . This work demonstrates multi-doping-induced dual-alloy exsolution as an effective strategy for durable DA-SOFC anodes.",
   "authors": [
@@ -804,6 +847,50 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "原位重构核壳 Fe-MOF@Cu 作为串联电催化剂将硝酸电还原为氨"
+ },
+ "10.1007/s11814-026-00878-x": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-10"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-10",
+  "abstract": "",
+  "authors": [
+   "ChangJin Han",
+   "Jae Min Park",
+   "Do Heui Kim"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1007/s11814-026-00878-x",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1007/s11814-026-00878-x",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Korean Journal of Chemical Engineering",
+  "tier": "background",
+  "title": "Mechanochemical Synthesis of Ru/γ-Al2O3 Catalysts: Influence of Ru Precursor and Milling Parameters on Structure–Activity Correlation for NH3 Decomposition",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s11814-026-00878-x",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "NH3 Decomposition"
+  ],
+  "zh_method": "机械力驱动",
+  "zh_obj": "机械化学制氨；涉及Ru/钌体系",
+  "zh_title": "机械化学合成Ru/γ-Al2O3催化剂：Ru前驱体和研磨参数对NH3分解结构-活性相关性的影响"
  },
  "10.1007/s13391-026-00672-1": {
   "ab_check_v": 2,
@@ -1763,6 +1850,38 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "氨分解制氢",
   "zh_title": "氨介导储能：电化学途径"
+ },
+ "10.1016/j.fuel.2026.142094": {
+  "abstract": "",
+  "authors": [
+   "Mengbo Wu",
+   "Qingrong Zheng"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-10",
+  "doi": "10.1016/j.fuel.2026.142094",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1016/j.fuel.2026.142094",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Fuel",
+  "tier": "background",
+  "title": "Synergistic effect of AlH3 catalysis and ZIF-8 nanoconfinement on ammonia borane dehydrogenation for onboard applications: by DFT calculations and experiments",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.fuel.2026.142094",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解",
+  "zh_title": "AlH3催化和ZIF-8纳米受限对车载应用氨硼烷脱氢的协同效应：DFT计算与实验"
  },
  "10.1016/j.ijhydene.2026.158417": {
   "ab_check_v": 2,
@@ -2748,6 +2867,46 @@
   "zh_obj": "电化学氮还原；涉及碳材料",
   "zh_title": "基于石墨烯的配对单空位双金属协同电化学氮还原的第一性原理机制洞察"
  },
+ "10.1021/acs.inorgchem.6c03968": {
+  "abstract": "Abstract The addition of [Au(acac)(PMe3)] (acac = acetylacetonate) to orotic acid affords the mononuclear complex [Au(N-orotate)(PMe3)] (1) and the dinuclear species [{Au(PMe3)}2(μ-O,N-orotate)] (2), with the crystal structures of two polymorphs of complex 2 fully elucidated by X-ray diffraction studies. Remarkably, complex 1 undergoes ultrasound-induced supramolecular self-assembly in water to form a robust Au(I) hydrometallogel (1-hyd), whereas 2 lacks the capacity to gelate due to coordination-induced suppression of intermolecular hydrogen bonding. The hydrometallogel acts as both a soft template and an in situ gold precursor, enabling the formation of densely packed, belt-like assemblies of plasmonic Au nanoparticles (1-hyd-Au NPs) upon mild and short thermal treatment. These anisotropic nanoarrays display strong interparticle coupling, yielding a broad, red-shifted localized surface plasmon resonance (LSPR) absorption centered at ca. 650 nm with substantial NIR absorption. Under 808 nm excitation, the system exhibits efficient photothermal conversion accompanied by the generation of localized plasmonic hot spots. Exploiting this dual activation mode, 1-hyd-Au NPs photocatalyse the methanolysis of ammonia-borane, delivering significantly enhanced H2 release relative to purely thermal conditions. The results demonstrate that hydrometallogel-templated Au assemblies provide an effective and modular platform for NIR-driven plasmonic catalysis, integrating supramolecular templating with strong light-matter interactions to boost the dehydrogenation of chemical hydrogen carriers.",
+  "authors": [
+   "Ainhoa Rodríguez-Gobernado",
+   "Daniel Blasco",
+   "Sonia Moreno",
+   "Hippolyte Amaveda",
+   "Mario Mora",
+   "M. Elena Olmos",
+   "José M. López-de-Luzuriaga",
+   "Miguel Monge",
+   "María Rodríguez-Castillo"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-10",
+  "doi": "10.1021/acs.inorgchem.6c03968",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1021/acs.inorgchem.6c03968",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Inorganic Chemistry",
+  "tier": "uncertain",
+  "title": "Hydrometallogel-Templated, Plasmonic Au Nanoparticle Assemblies for NIR-Activated H2 Release from Ammonia-Borane",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.inorgchem.6c03968",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "超声诱导金(I)水金属凝胶自组装形成软模板和金前驱体，经热处理生成密集排列的带状等离激元金纳米粒子组装体。该组装体在808 nm激发下表现出高效光热转换和局域表面等离激元共振吸收。利用此双激活模式，组装体催化氨硼烷甲醇解，显著增强释氢效率。",
+  "zh_method": "光驱动",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "水金属凝胶模板化、等离激元金纳米粒子组装用于氨硼烷近红外激活释氢"
+ },
  "10.1021/acs.inorgchem.6c04345": {
   "abstract": "Abstract Electrocatalytic nitrite (NO2–) reduction to hydroxylamine (NH2OH) under ambient conditions is regarded as a sustainable way to simultaneously enable pollutant abatement and value-added chemical synthesis; however, the intrinsically sluggish kinetics and competing over-reduction to ammonia necessitate the rational exploration of robust electrocatalytic systems. Herein, we report the anchoring of zinc phthalocyanine (ZnPc) molecules onto bamboo-like nitrogen-doped carbon nanotubes encapsulating metallic cobalt nanoparticles (Co-NCNT) for selectively converting NO2– to NH2OH. The resulting ZnPc/Co-NCNT electrocatalyst achieves a considerable NH2OH yield of 0.25 mmol h–1 mgcat–1 and a high Faradaic efficiency of 64.32% at −0.3 V vs RHE, significantly outperforming its monocomponent counterparts. Mechanistic investigations reveal that the Co-NCNT facilitates charge transfer and lowers the water dissociation barrier, securing efficient active hydrogen (*H) supply to drive the hydrogenation processes. Furthermore, the practical viability of this system is demonstrated by constructing a Zn–NO2– battery, which concurrently generates NH2OH while delivering a peak power density of 7.22 mW cm–2. This study underscores the efficacy of synergistically integrating molecular catalysts with functional carriers for selective NO2– electroreduction to NH2OH.",
   "authors": [
@@ -2823,6 +2982,51 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨硼烷水解；涉及碳材料",
   "zh_title": "氨硼烷催化水解：氢气生产与利用的集成本科实验"
+ },
+ "10.1021/acs.jpclett.6c03171": {
+  "abstract": "Abstract Ambient ammonia synthesis is important for carbon neutrality. Tribo-electro-catalysis, which converts mechanical friction into chemical driving force through contact electrification and charge transfer, offers a route for nitrogen (N2) fixation. However, inefficient utilization of friction-induced charges and insufficient N2 activation remain major challenges. Herein, acid-etching defect engineering regulates the surface and electronic structures of lead telluride (PbTe) for N2 fixation. The catalyst etched for 90 min exhibits the enhanced activity under dark ambient conditions, delivering ammonium (NH4+) production rates of 258.98 and 329.60 μmol L–1·g–1·h–1 without and with 10 vol % methanol, respectively. Analyses reveal that etching reconstructs the surface, generates defect sites, facilitates N2 adsorption and activation, and promotes friction-induced charge utilization. Excessive etching decreases activity. Charge-trapping and electron paramagnetic resonance measurements support the role of friction-induced negative charges, establishing defect-mediated charge regulation as an effective strategy for sustainable ammonia synthesis.",
+  "authors": [
+   "Hongda Zhu",
+   "Zheng Wu",
+   "Luohong Zhang",
+   "Siqi Hong",
+   "Huijuan Li",
+   "Huilin You",
+   "Shuangzhe Lu",
+   "Zixuan Cheng",
+   "Gangqiang Zhu",
+   "Qingping Wang",
+   "Zhenxiang Cheng",
+   "Yanmin Jia"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1021/acs.jpclett.6c03171",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1021/acs.jpclett.6c03171",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "The Journal of Physical Chemistry Letters",
+  "tier": "direct",
+  "title": "Acid-Etched Lead Telluride with Defect-Regulated Surfaces Enables Efficient Mechanical-Energy-Driven Nitrogen Fixation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.jpclett.6c03171",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "通过酸蚀缺陷工程调控铅碲的表面和电子结构，实现了暗环境下的氮固定。经90分钟酸蚀的催化剂在无甲醇和含10%甲醇条件下，NH4+产率分别为258.98和329.60 μmol L–1·g–1·h–1。研究表明酸蚀重构表面并生成缺陷位点，促进N2吸附活化及摩擦诱导电荷利用。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "酸蚀缺陷调控表面的铅碲用于高效机械能驱动氮固定"
  },
  "10.1021/acsami.6c16760": {
   "abstract": "Abstract Electrocatalytic nitrate reduction to ammonia (NO3RR) represents a promising strategy for sustainable ammonia synthesis while simultaneously addressing nitrate pollution in wastewater. However, the irreversible structural reconstruction commonly observed in catalysts during NO3RR obscures the true active sites and complicates mechanistic understanding. In this study, flower-like CuCo2S4 nanocrystals synthesized via a hot-injection method serve as a model ternary sulfide system to systematically probe reconstruction dynamics and identify active phases under operating conditions. Experimental characterizations reveal that CuCo2S4 gradually evolves into Cu-Co(OH)2/Co9S8 through electrochemical reconstruction. This reconstructed catalyst exhibits excellent NO3RR performance, achieving an average Faradaic efficiency of 97.3%, an ammonia production rate of 363.1 μmol h–1 mg–1, and remarkable cycling stability. In situ FTIR spectra indicate that Cu incorporation promotes the conversion of *NO2 and accelerates subsequent hydrogenation steps. Density functional theory calculations further demonstrate that Cu doping facilitates *NH3 desorption and optimizes the balance between NO3– adsorption and *NH3 release. This work systematically deciphers the reconstruction pathway of sulfide catalysts during NO3RR, offering fundamental insights into electrocatalyst reconstruction mechanisms and providing a design strategy for high-performance ammonia-production electrocatalysts.",
@@ -3071,6 +3275,45 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "生物炭铵氮吸附的可解释机器学习：解耦合成与操作驱动因素及量化最优设计规则"
+ },
+ "10.1021/acssuschemeng.6c03827": {
+  "abstract": "Abstract Ammonia synthesis based on steam methane reforming (SMR) is characterized by intensive energy consumption and high carbon emissions. To address these limitations, novel processes integrating gasification and carbon capture technologies were proposed for converting waste tires into blue ammonia. Detailed safety, techno-economic, and life cycle assessments were conducted to evaluate comprehensive performance. Machine learning-driven multiobjective operation optimization was carried out for reducing levelized cost of ammonia (LCOA) while enhancing safety and sustainability scores based on safe-and-sustainable-by-design framework. Our results highlight the critical role of artificial neural networks in achieving efficient optimization. Additionally, the quantitative impacts of integrating various renewable energy sources were investigated. The results showed the conventional gasification (CG) integrating methyldiethanolamine (MDEA)-based carbon capture alternative achieved the optimal LCOA at 358.1 $/ton in current electricity scenario. A peak environmental sustainability score of 0.443 was achieved, outperforming traditional SMR integrating MDEA-based carbon capture pathway by 13.04%. The safest process is CG integrating monoethanolamine-based carbon capture. Under the renewable scenario, the LCA results highlighted the critical role of renewable energy integration in enhancing the environmental sustainability of waste tires-to-ammonia processes, especially achieving a 0.344 increase in environmental sustainability score with onshore wind electricity at a lower LCOA of 406.0 $/ton in plasma gasification integrating MDEA-based alternative.",
+  "authors": [
+   "Jingyuan Liu",
+   "Jianzhao Zhou",
+   "Qiming Qian",
+   "Sheng Yang",
+   "Chang He",
+   "Jingzheng Ren"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-10",
+  "doi": "10.1021/acssuschemeng.6c03827",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1021/acssuschemeng.6c03827",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "ACS Sustainable Chemistry & Engineering",
+  "tier": "background",
+  "title": "Converting Waste Tires into Blue Ammonia: Safe and Sustainable Process Design, Multiobjective Optimization and Comprehensive Assessment",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acssuschemeng.6c03827",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia synthesis"
+  ],
+  "zh_brief": "提出将废轮胎气化与碳捕集技术结合的工艺设计用于合成蓝色氨。基于安全可持续设计框架，利用机器学习进行多目标操作优化。在当前电力情景下，传统气化结合MDEA碳捕集的LCOA为358.1 $/吨，环境可持续性评分达0.443，优于传统SMR工艺。",
+  "zh_method": "等离子体驱动",
+  "zh_obj": "等离子体制氨",
+  "zh_title": "将废轮胎转化为蓝色氨：安全可持续工艺设计、多目标优化与综合评估"
  },
  "10.1021/acssuschemeng.6c09970": {
   "abstract": "Abstract Electrocatalytic ammonia oxidation (AOR) offers an energy-efficient route to carbon-free hydrogen production but is constrained by sluggish multielectron-transfer kinetics and adsorbate evolution mechanism (AEM) scaling relationships. Here, electrodeposition yielded a nickel-foam-supported bimetallic FeCuN catalyst (FeCuN-BH), followed by high-temperature hydrogenation to introduce abundant lattice nitrogen vacancies (FeCuN-AH). The rationally engineered FeCuN-AH architecture demonstrates superior AOR performance, requiring an exceptionally low applied potential of 0.61 V vs the saturated calomel electrode (SCE) to reach 50 mA cm–2, together with an apparent Tafel slope of 934.7 mV dec–1, substantially lower than the 2408 mV dec–1 measured for FeCuN-BH, and stable operation over 50 h. Comprehensive density functional theory (DFT) calculations elucidate a lattice nitrogen vacancy-mediated dual-site synergistic mechanism (LNVM-MSM). The incorporated nitrogen vacancies not only serve as preferential active centers for ammonia adsorption but also drastically reduce the kinetic energy barrier of the rate-determining step (RDS, *NH2 to *NH) from 2.04 eV on pristine copper sites down to 0.90 eV. Furthermore, these defect sites induce local electronic redistribution and modify intermediate adsorption energetics. By circumventing conventional scaling limitations, this defect-driven dual-site structure provides a robust and scalable framework for designing active, durable electrocatalysts for sustainable hydrogen extraction and advanced energy-conversion devices.",
@@ -3729,6 +3972,33 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原",
   "zh_title": "用于增强电催化亚硝酸盐制氨的高熵空心氧化物球"
+ },
+ "10.1080/00963402.2026.2745433": {
+  "abstract": "",
+  "authors": [
+   "Marc Abrahams"
+  ],
+  "cross": false,
+  "date": "2026-11-02",
+  "doi": "10.1080/00963402.2026.2745433",
+  "first_seen": "2026-11-10T18:41:20Z",
+  "id": "10.1080/00963402.2026.2745433",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Bulletin of the Atomic Scientists",
+  "tier": "background",
+  "title": "Opinion: Why the annual Ig Nobel Prize ceremony is now in Europe",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1080/00963402.2026.2745433",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "通用催化方法"
  },
  "10.1080/29984475.2026.2748636": {
   "ab_check_v": 2,
