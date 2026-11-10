@@ -1471,6 +1471,41 @@
   "zh_obj": "过程待核实",
   "zh_title": "快速焦耳热烧结对 SiC 陶瓷致密化和晶粒生长的影响"
  },
+ "10.1016/j.ceramint.2026.11.084": {
+  "abstract": "",
+  "authors": [
+   "Jian-Fu Tang",
+   "Yu-Shrng Hsiao",
+   "Yen-Han Lai",
+   "Chung-Yuan Yang",
+   "Cheng-Liang Hsu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.ceramint.2026.11.084",
+  "first_seen": "2026-11-10T04:37:10Z",
+  "id": "10.1016/j.ceramint.2026.11.084",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Ceramics International",
+  "tier": "background",
+  "title": "Low-MXene-loading ZnO/Ti3C2Tx nanocomposites for highly selective room-temperature ammonia sensing",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ceramint.2026.11.084",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "低 MXene 负载 ZnO/Ti3C2Tx 纳米复合材料用于高选择性室温氨气传感"
+ },
  "10.1016/j.ces.2026.125572": {
   "ab_check_v": 2,
   "ab_result": "not_found",
@@ -1808,6 +1843,42 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "通过太阳能生物质一体化实现连续氨生产：年度4E性能和经济可行性"
+ },
+ "10.1016/j.ijhydene.2026.158547": {
+  "abstract": "",
+  "authors": [
+   "Sameer Khan",
+   "Swati Singh",
+   "Tan Mingwu",
+   "Kyriaki Polychronopoulou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1016/j.ijhydene.2026.158547",
+  "first_seen": "2026-11-10T04:37:10Z",
+  "id": "10.1016/j.ijhydene.2026.158547",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Descriptor-Guided Design of Ruthenium Catalysts for Ammonia Synthesis and Decomposition: From Promoters to Interfaces",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158547",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "用于氨合成与分解的钌催化剂的描述符引导设计：从助剂到界面"
  },
  "10.1016/j.isci.2026.118154": {
   "ab_check_v": 2,
@@ -3432,6 +3503,47 @@
   "zh_method": "反应阶段焦耳/电阻供热",
   "zh_obj": "通用催化方法",
   "zh_title": "用于高效焦耳加热催化的 MOF 结构金属@碳核壳杂化物"
+ },
+ "10.1039/d6qi01755j": {
+  "abstract": "The electrocatalytic nitrate reduction reaction (NO3–RR) has emerged as a promising strategy for green ammonia synthesis. However, developing robust catalysts with high activity and selectivity remains a significant challenge. Here,...",
+  "authors": [
+   "Ning Wang",
+   "Qian Wang",
+   "Zhongcan Wang",
+   "Mingqi Zhang",
+   "Shipeng Wu",
+   "Qinghu Tang",
+   "Qiu-E Cao",
+   "Wenhao Fang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-10",
+  "doi": "10.1039/d6qi01755j",
+  "first_seen": "2026-11-10T04:37:10Z",
+  "id": "10.1039/d6qi01755j",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Inorganic Chemistry Frontiers",
+  "tier": "background",
+  "title": "Cu–Co electronic synergy in Cu-doped CoCO3 enabling high-performance electrocatalytic nitrate reduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6qi01755j",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "Cu 掺杂 CoCO3 利用了 Cu–Co 电子协同效应，实现了电催化硝酸根还原反应的高活性与高选择性。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "Cu–Co 电子协同效应在 Cu 掺杂 CoCO3 中实现高性能电催化硝酸根还原制氨"
  },
  "10.1039/d6ta06451e": {
   "abstract": "In spite of considerable work to produce ammonia using technologies beyond the energyintensive and costly Haber-Bosch process, finding efficient and earth-abundant catalysts for electrocatalytic nitrogen reduction reaction (NRR) remains a...",
