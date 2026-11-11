@@ -848,6 +848,33 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "原位重构核壳 Fe-MOF@Cu 作为串联电催化剂将硝酸电还原为氨"
  },
+ "10.1007/s10854-026-18858-6": {
+  "abstract": "",
+  "authors": [
+   "Enes Nayman"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1007/s10854-026-18858-6",
+  "first_seen": "2026-11-11T02:45:15Z",
+  "id": "10.1007/s10854-026-18858-6",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Materials Science: Materials in Electronics",
+  "tier": "background",
+  "title": "Ammonia gas sensing and electromagnetic shielding characteristics of Ni-doped ZnO and Zn-doped NiO thin films deposited on PES fabrics via sol–gel method",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s10854-026-18858-6",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
  "10.1007/s11814-026-00878-x": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -1105,6 +1132,39 @@
   "zh_method": "等离子体驱动",
   "zh_obj": "等离子体制氨",
   "zh_title": "调控沸石酸度以调节动态NH3吸附-解吸以增强等离子体催化氨合成"
+ },
+ "10.1016/j.apcatb.2026.127780": {
+  "abstract": "",
+  "authors": [
+   "Xia Zhang",
+   "Jiaxin Han",
+   "Tiemei Li",
+   "Guifen Zhu",
+   "Jing Fan"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.apcatb.2026.127780",
+  "first_seen": "2026-11-11T02:45:15Z",
+  "id": "10.1016/j.apcatb.2026.127780",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Catalysis B: Environment and Energy",
+  "tier": "background",
+  "title": "APTES-mediated Fe-N coordination modulates electronic structure of Fe single-atom for selective photocatalytic nitrate reduction to N2",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apcatb.2026.127780",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
  },
  "10.1016/j.apenergy.2026.129211": {
   "ab_check_v": 2,
@@ -4473,6 +4533,45 @@
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "多尺度建模与工业验证：用于氨厂水煤气变换反应器的 COMSOL Multiphysics"
  },
+ "10.3389/fpls.2026.2010688": {
+  "abstract": "Introduction Spatial variability in crop nitrogen (N) status limits the effectiveness of uniform fertilization in tobacco, yet remotely sensed spectral signals cannot be directly translated into crop N demand. This study developed a physiology-informed unmanned aerial vehicle (UAV) multispectral framework linking leaf dry matter (LDM), leaf N concentration (LNC), the leaf nitrogen nutrition index (NNIleaf), and variable N management. Methods Field experiments involving seven N application rates (0–150 kg N ha −1 ) were conducted in Yunnan, China, during 2023–2024. A critical leaf-N relationship was established using ln(LDM) and LNC. Multispectral vegetation indices were screened using Pearson correlation analysis and recursive feature elimination. Partial least squares regression (PLSR), random forest (RF), and extreme gradient boosting (XGBoost) were compared for estimating ln(LDM) and LNC, from which NNIleaf was subsequently derived. Results The four seasonal critical points obtained in 2023 were described by N c,leaf = −3.156[ln(LDM)] 2 + 32.800ln(LDM) − 25.20 (R 2 = 0.992; RMSE = 0.978 mg g −1 ). XGBoost provided the best overall performance. In the independent 2024 validation, R² values for ln(LDM), LNC, and NNIleaf were 0.826, 0.783, and 0.832, respectively, with an NRMSE of 5.51% for NNIleaf. The fitted N-response relationship identified 82.5 kg N ha −1 as the NNIleaf-defined physiological N baseline (Nphys), corresponding to the lowest total N rate at which fitted NNIleaf reached 1. In a production-scale cross-year demonstration, the NNIleaf-based strategy recommended an average of 97.12 kg N ha −1 and was associated with slightly lower N input, 3.18% higher yield, and a 2.77-percentage-point reduction in yield coefficient of variation relative to conventional management. Discussion The framework provides a physiologically interpretable link between multispectral traits, leaf N sufficiency, and spatial N recommendations. Wider validation of the critical-N relationship and same-year fertilizer comparisons remain necessary.",
+  "authors": [
+   "Jizhong Yang",
+   "Chuixin Lou",
+   "Shaorong Yang",
+   "Wenbiao Wu",
+   "Lin Peng",
+   "Xiangqi Xu",
+   "Xiaohe Gu",
+   "Bangshun Liao",
+   "Baoyuan Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-06",
+  "doi": "10.3389/fpls.2026.2010688",
+  "first_seen": "2026-11-11T02:45:15Z",
+  "id": "10.3389/fpls.2026.2010688",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Frontiers in Plant Science",
+  "tier": "background",
+  "title": "Physiology-informed UAV multispectral estimation of tobacco leaf nitrogen nutrition index for variable nitrogen management",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3389/fpls.2026.2010688",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "该研究建立了基于无人机多光谱框架的烟草叶片干物质、氮浓度及氮营养指数估算模型，通过2023–2024年田间实验筛选关键关系，在2024年独立验证中R²达到0.826，并推荐了97.12 kg N ha−1的平均施氮量以优化产量和变异性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
  "10.3390/molecules31213938": {
   "abstract": "The development of sustainable fuels and hydrogen carriers is essential for a carbon-neutral energy future. Ammonia (NH3) is a promising energy vector, yet its synthesis remains dependent on the energy-intensive Haber–Bosch process, while nitrogen oxides (NOx) persist as major atmospheric pollutants. In this work, spin-polarized density functional theory (DFT) calculations at the MPWB1K/def2SVP level are used to investigate the capture and reduction of NO and NO2 within a rigid covalent organic framework (M1). Nucleus-Independent Chemical Shift (NICS) analysis reveals a strongly aromatic shielding character (NICS = −10.8) that provides a unique electronic environment, while electrostatic potential (ESP) mapping illustrates local electron density. Confinement within the framework suppresses competing pathways that preferentially favor the pathway toward NH3 and H2O. Activation barriers are significantly reduced, driven by charge transfer that weakens N–O bonds. The rigid covalent organic framework remains structurally stable throughout the process. These findings demonstrate a viable strategy for converting atmospheric pollutants into valuable energy carriers under moderate thermal activation.",
   "authors": [
@@ -4761,5 +4860,41 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）；涉及Fe/铁体系",
   "zh_title": "为氨耐受氢传感工程化双金属电子泵铂基析氢反应催化剂"
+ },
+ "10.64898/2026.11.09.763769": {
+  "abstract": "Landfill leachate can contain high concentrations of ammonia and organic nitrogen requiring treatment before discharge. Sequencing batch reactors (SBRs) promote biological nitrogen removal through alternating aerobic and anoxic conditions, but taxonomic profiling alone cannot resolve how nitrogen transformation and competing retention pathways are distributed across microbial communities. This study applied gene-resolved metagenomics to a sludge sample collected from a UK landfill leachate SBR. Nitrogen-metabolism genes were linked to contig-level taxonomic assignments and metagenome-assembled genome bins to examine nitrification, denitrification, dissimilatory nitrate reduction to ammonium (DNRA), and assimilatory nitrate reduction (ANR). Nitrogen-transformation potential was partitioned across dominant and minor taxa. Nitrospirota and Pseudomonadota were the most abundant classified phyla, whereas Actinomycetota represented only 4% of the community but included Actinomycetes, which showed the highest within-taxon proportion of nitrogen metabolism associated genes. amoABC was assigned only to Nitrosomonas and Nitrososphaerota, whereas denitrification genes were more widely distributed but frequently occurred as partial pathways. nosZ was detected only in the minor phyla Chloroflexota, Acidobacteriota and Myxococcota. DNRA and ANR-associated genes occurred across multiple lineages; nirA in Nitrospira and DNRA-associated nirBD elsewhere within Nitrospirota suggested nitrifier-associated lineages may also encode nitrogen retention potential. Gene-resolved metagenomics identified candidate low-abundance contributors, restricted distributions of genes associated with ammonia oxidation and nitrous oxide reduction, and nitrogen-retention potential not apparent from taxonomic composition alone. Because the study examined DNA-level potential in a single sludge sample, expression, reactor chemistry and longitudinal data are needed to establish pathway activity and operational relevance.",
+  "authors": [
+   "Samuel Rattray",
+   "Lynsay Blake",
+   "Nicola Ingrey",
+   "Iain MacArthur"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-10",
+  "doi": "10.64898/2026.11.09.763769",
+  "first_seen": "2026-11-11T02:45:15Z",
+  "id": "10.64898/2026.11.09.763769",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 6,
+  "source": "预印本",
+  "tier": "background",
+  "title": "Gene-resolved metagenomics reveals partitioned nitrogen transformation potential in a landfill leachate sequencing batch reactor microbiome",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.64898/2026.11.09.763769",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_brief": "该研究利用基因解析宏基因组学分析了垃圾渗滤液序批式反应器微生物组，发现Nitrospirota和Pseudomonadota是优势菌门，而Nitrospira和Pseudomonas等属在氮转化基因分布上具有显著差异，揭示了低丰度贡献者及氮保留潜力。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应"
  }
 }
