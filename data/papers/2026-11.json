@@ -1582,8 +1582,8 @@
    "Mathias Pein",
    "Martin Roeb"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11",
@@ -1606,6 +1606,7 @@
   "why": [
    "ammonia production"
   ],
+  "zh_brief": "针对绿色氨生产中缺乏氮气来源的问题，提出了一种集成ASU预纯化的SrFeO3热化学氧化还原循环。在6.5 kg填充床反应器中实现了450 °C的运行，获得高达0.35 kg/s的纯氮流量，解决了催化剂中毒问题。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "一条可持续的氮纯化途径用于氨生产：填充床反应器中热化学空气分离的实验验证"
@@ -1665,14 +1666,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-11",
+   "OpenAlex": "2026-11-11"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-11",
   "abstract": "",
   "authors": [
    "Xiaoyuan Sang",
@@ -1968,12 +1969,28 @@
   "zh_title": "当催化伙伴无法合作时"
  },
  "10.1016/j.comptc.2026.116140": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-11",
+   "Europe PMC": "2026-11-11",
+   "OpenAlex": "2026-11-11"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-11",
   "abstract": "",
   "authors": [
    "Naveen Kosar",
    "Tariq Mahmood",
    "Abdulaziz A. Al-Saadi"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.comptc.2026.116140",
@@ -1996,7 +2013,8 @@
    "Ammonia production"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "通过过渡金属修饰的磷化硼纳米笼单原子催化剂进行N2还原生产氨"
  },
  "10.1016/j.ecmx.2026.102431": {
   "ab_check_v": 2,
@@ -2344,7 +2362,7 @@
    "Kyriaki Polychronopoulou"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11-09",
@@ -2367,6 +2385,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "综述了钌催化剂在氨合成与分解中的性能，基于电子、几何、界面和动态性质建立了描述符框架。文章评估了碱金属、碱土金属和稀土助剂对钌电子结构和吸附能的影响，并讨论了氧空位和金属-载体相互作用对界面反应活性的调控作用。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "用于氨合成与分解的钌催化剂的描述符引导设计：从助剂到界面"
@@ -2924,15 +2943,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-11",
+   "OpenAlex": "2026-11-11"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-11",
   "abstract": "",
   "authors": [
    "Zichun Wang",
