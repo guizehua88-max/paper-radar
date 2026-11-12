@@ -42,6 +42,47 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "调整金属氧化物表面锑化硒原子层沉积的成核化学"
  },
+ "10.1002/adfm.78748": {
+  "abstract": "NaNO 3 -DMSO reorganizes the local ion-association environment of a carbonate electrolyte by coupling Na + with PF 6 − while retaining reducible nitrate near the reaction interface. This dual-ion chemistry directs SEI formation toward a uniform LiF/NaF–N-rich interphase, enabling rapid Li + transport, suppressed side reactions, and durable cycling of Si/C anodes. ABSTRACT Silicon-carbon anodes offer high capacity for lithium-ion batteries, yet their cycling stability is limited by repeated solid-electrolyte-interphase (SEI) rupture during drastic volume changes. Herein, we introduce a NaNO 3 -DMSO additive into a conventional LiPF 6 /carbonate electrolyte to construct a durable LiF/NaF–N-rich interphase on a porous silicon-carbon composite (Si@pSC) through a dual-ion cooperative mechanism. We reveal that DMSO enables NaNO 3 incorporation while preserving the carbonate-rich Li + primary solvation sheath, with Na + strongly associating with PF 6 − and NO 3 − undergoing early interfacial reduction to seed nitrogen-containing inorganic species. This dual-ion synergy reconstructs the conventional carbonate-containing SEI by incorporating LiF/NaF nanocrystalline domains and nitrate-derived N-containing species, thereby limiting persistent parasitic interfacial reactions while providing accelerated Li + transport pathways. Consequently, the optimized electrolyte enables Si@pSC half-cells to deliver 365 mAh g −1 after 1000 cycles at 1 A g −1 , LFP||Si@pSC full cells retain 85.6% capacity after 1000 cycles at 2 C, and NCM811||Si@pSC full cells retain 95.4% capacity after 500 cycles at 2 C. Theoretical calculations further reveal that Na incorporation expands the fluoride lattice framework and lowers the Li + migration barrier from 0.56 to 0.42 eV. This dual-ion interphase reconstruction strategy offers a practical pathway toward durable Si-based anodes.",
+  "authors": [
+   "Xiaoxiao Pan",
+   "Kun Tian",
+   "Shuxin Zhuang",
+   "Liang Pang",
+   "Jiamin Zhu",
+   "Wubin Qi",
+   "Chen Liu",
+   "Yang Li",
+   "Zhuan Li",
+   "Peng Xiao"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-11",
+  "doi": "10.1002/adfm.78748",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1002/adfm.78748",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Dual‐Ion Reconstruction of a LiF/NaF–N‐Rich Hybrid Interphase for Durable Silicon‐Carbon Anodes",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.78748",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "将 NaNO 3 -DMSO 添加剂引入 LiPF 6 /碳酸盐电解质中，通过双离子协同机制在多孔硅-碳复合材料（Si@pSC）上构建耐久的 LiF/NaF–氮富集界面。DMSO 使 NaNO 3 融入的同时保留了富含 Li + 的碳酸盐初级溶剂化鞘，Na + 与 PF 6 − 强烈结合，NO 3 − 发生早期界面还原以播种含氮无机物种。这种双离子协同重建了含碳酸盐的传统 SEI，通过掺入 LiF/NaF 纳米晶体域和硝酸盐衍生的含氮物种，限制了持续的寄生界面反应，同时提供了加速 Li + 运输的途径。优化电解质使 Si@pSC 半电池在 1 A g −1 下循环 1000 次后容量为 365 mAh g −1 ，LFP||Si@pSC 全电池在 2 C 下循环 1000 次后容量保持率为 85.6% ，NCM811||Si@pSC 全电池在 2 C 下循环 500 次后容量保持率为 95",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "LiF/NaF–氮富集混合界面双离子重建用于耐久性硅-碳负极"
+ },
  "10.1002/adfm.78759": {
   "abstract": "A graphene-supported 2D metal–organic network stabilizes highly reactive Fe(I)-N 4 single sites through Co-induced charge redistribution. Combined experiments and theory reveal Fe(I) formation, oxygen-driven oxidation, and O 2 activation mechanisms, offering a strategy to access low-valent iron centers relevant to catalytic and biological processes. ABSTRACT Stabilization of low-valent iron centers in atomically defined coordination environments remains a major challenge in the design of reactive metal–organic materials. Here, we report the rational stabilization of Fe(I)-N 4 single sites in a graphene-supported, two-dimensional metal–organic network assembled from FeTPyP tectons and Co coordination nodes. We find that nitrogen tetra-coordination in this specific bidimensional metal–organic network allows the stabilization of iron in the +1 oxidation state. Using state-of-the-art experimental techniques, complemented by theoretical calculations, we reveal that Co coordination induces charge redistribution across the network and reduces the porphyrinic Fe center from Fe(II) toward Fe(I). The latter species is highly reactive: even in ultra-high vacuum, residual oxygen-containing species oxidize the Fe center. O 2 activation occurs instead at near-ambient pressure, yielding the common Fe(II) species, as supported by dedicated theoretical models. These results demonstrate a coordination-network strategy to stabilize Fe(I) centers, which are believed to play a relevant role in a number of key reactions, including the biological synthesis of ammonia from N 2 .",
   "authors": [
@@ -124,6 +165,46 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "光热异质结构上铜单原子用于双场驱动硝酸盐制氨"
+ },
+ "10.1002/adfm.78813": {
+  "abstract": "Sulfur-regulated Sn@SnO x interfaces enable durable cyclohexanone oxime electrosynthesis through dual interfacial modulation. Cathodic potential-driven sulfur leaching buffers interfacial •OH, suppressing SnO x overgrowth and maintaining dynamically stable Sn@SnO x interfaces. Residual sulfur promotes water activation and *H generation, accelerating NO 2 − hydrogenation to NH 2 OH and subsequent oximation with cyclohexanone. ABSTRACT Electrocatalytic oxime synthesis from NO x and carbonyl compounds offers a sustainable alternative to conventional routes but remains limited by poor *NH 2 OH control and catalyst instability. Herein, we report a sulfur-decorated Sn@SnO x dendritic catalyst for efficient cyclohexanone oxime electrosynthesis from nitrite and cyclohexanone. Under operating conditions, the catalyst undergoes an adaptive reconstruction, where the cathodic potential-driven sulfur leaching triggers a buffered hydroxyl radical (•OH) microenvironment and suppresses •OH-mediated SnO x overgrowth, preserving dynamically stable Sn@SnO x interfaces. Meanwhile, residual sulfur could modulate the Sn@SnO x electronic structure, promoting water activation and *H generation to accelerate NO 2 − hydrogenation toward the key *NH 2 OH intermediate for subsequent oximation. At −1.0 V versus reversible hydrogen electrode, the reconstructed catalyst achieves an optimal Faradaic efficiency of 84.4%, with a yield of 87.1% and a yeild rate of 1.48 mmol h −1 cm −2 . This work establishes sulfur-mediated interfacial regulation as an effective strategy to reconcile activity and durability in Sn-based catalysts for NO x -to-oxime conversion.",
+  "authors": [
+   "Xiaolong Yu",
+   "Yunju Li",
+   "Yunan Wang",
+   "Yihang Xu",
+   "Jin Xi",
+   "Jong‐Min Lee",
+   "Hongjing Wang",
+   "Liang Wang",
+   "You Xu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-11",
+  "doi": "10.1002/adfm.78813",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1002/adfm.78813",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Sulfur‐Regulated Adaptive Reconstruction of Sn@SnOx Interfaces via Inducing Buffered Hydroxyl Radical Microenvironment for Enhanced Oxime Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.78813",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "硫调控 Sn@SnO x 界面通过双界面调制实现耐久的环己酮肟电合成。阴极电位驱动的硫浸出缓冲界面 •OH ，抑制 SnO x 过生长并保持动态稳定的 Sn@SnO x 界面。残留硫促进水活化并 *H 生成，加速 NO 2 − 加氢至 NH 2 OH 并随后的环己酮肟化。在可逆氢电极电位 -1.0 V 下，重建催化剂实现最优法拉第效率 84.4% ，产率为 87.1% ，产率速率为 1.48 mmol h −1 cm −2 。这项工作建立了硫介导的界面调控作为 Sn 基催化剂在 NO x 至肟转化中协调活性和耐久性的有效策略。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "硫调控 Sn@SnO x 界面的自适应重建通过诱导缓冲羟基自由基微环境增强肟电合成"
  },
  "10.1002/adfm.78831": {
   "abstract": "This work reports a Co-NO/C catalyst featuring Co 3 O 4 and Co 4 N sites that synergistically activate nitrate for electrocatalytic reduction to ammonia (NH 3 ). Co 3 O 4 sites adsorb and activate NO 3 − , while Co 4 N sites provide active hydrogen (H * ). The system achieves high NH 3 selectivity and efficiency, demonstrating scalable nitrate remediation and ammonia recovery in a Zn–NO 3 − battery and MEA reactor. ABSTRACT Electrocatalytic nitrate reduction to ammonia (eNO 3 RA) represents an emerging strategy for coupling nitrate remediation with nitrogen recovery and value-added ammonia production, but it remains challenging to simultaneously promote nitrate activation and downstream hydrogenation. Herein, we report a Co -NO/C catalyst featuring Co 3 O 4 /Co 4 N tandem catalysis sites embedded in a conductive carbon matrix. Structural and spectroscopic analyses suggest that Co 3 O 4 sites mainly favor nitrate adsorption/activation, whereas Co 4 N sites facilitate interfacial active-hydrogen generation. In an H-type cell, Co-NO/C delivers high NH 3 selectivity over a broad potential window and reaches a Faradaic efficiency of 99.7% at −0.6 V vs. RHE, with an NH 3 yield rate of 62.4 mg h −1 mg cat. −1 . Online differential electrochemical mass spectrometry (DEMS), 15 N isotopic labeling, in situ attenuated total reflection Fourier-transform infrared spectroscopy (ATR-FTIR), in situ electrochemical impedance spectroscopy (EIS), and spatially resolved scanning vibrating probe (SVP) measurements collectively support a stepwise nitrate-to-ammonia pathway involving sequential adsorption, deoxygenation, and hydrogenation of NO x -derived intermediates. Density functional theory (DFT) calculations and molecular dynamics (MD) simulations further indicate spontaneous nitrate adsorption on Co 3 O 4 and favorable H * formation on Co 4 N sites. Device demonstrations in Zn–NO 3 − batteries and a membrane electrode assembly (MEA) reactor further suggest the practical promise of this tandem-site design for eNO 3 RA.",
@@ -284,6 +365,52 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮；涉及Fe/铁体系",
   "zh_title": "超声工程化低配位Mn位点在Fe-MOF中促进电荷分离用于无牺牲剂的光催化N2还原"
+ },
+ "10.1002/adma.75146": {
+  "abstract": "This work reduces the high energy consumption of electrocatalytic nitrate reduction to ammonia by coupling the hydrazine oxidation reaction (HzOR) with the nitrate reduction reaction (NO 3 RR). The electrocatalyst design introduces P vacancies into CoP to form an atomic-scale electric field, which enhances the activity and selectivity of both HzOR and NO 3 RR, thereby ensuring a high ammonia yield. ABSTRACT Electrochemical nitrate-to-ammonia conversion holds great promise for sustainable nitrogen fixation, yet its industrial‑level current density operation is limited by cathodic active hydrogen (*H) supply shortage and high energy consumption caused by anodic oxygen evolution reaction (OER). Here, we develop a bifunctional CoP electrocatalyst with engineered phosphorus vacancies that generate atomic-scale electric fields to enrich interfacial water molecules via enhanced hydrogen-bonding interactions, alleviating local water scarcity caused by double-layer compression under high nitrate concentrations and promoting *H generation for nitrate reduction reaction (NO 3 RR). Meanwhile, we replace OER with the thermodynamically favorable hydrazine oxidation reaction (HzOR), and the electrocatalyst promotes *OH adsorption to facilitate hydrazine dehydrogenation in HzOR. The resulting NO 3 RR||HzOR electrolyzer delivers an ammonia yield of 49.64 mg h −1 cm −2 at 500 mA cm −2 with a cell voltage of 0.962 V, and enables self-powered ammonia production at 0.769 g L −1 h −1 without external energy input. This work reveals atomic-scale electric field engineering as an effective strategy to modulate interfacial microenvironment for high-performance, low-energy ammonia electrosynthesis.",
+  "authors": [
+   "Kang Ji",
+   "Jing Wang",
+   "Jingyu Wu",
+   "Wanlong Bai",
+   "Chao Yi",
+   "Hongjing Wang",
+   "Junyue Yin",
+   "Wenrui Jin",
+   "Ziyu Guo",
+   "Zhaoyang Xing",
+   "Changgeng Song",
+   "Zhiyu Yang",
+   "Yi‐Ming Yan"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-11",
+  "doi": "10.1002/adma.75146",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1002/adma.75146",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Advanced Materials",
+  "tier": "background",
+  "title": "Locally Water‐Rich Interfacial Microenvironment Enables Self‐Powered High‐Current Ammonia Electrosynthesis",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adma.75146",
+  "via": "RSS·Advanced Materials",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "通过将肼氧化反应与硝酸盐还原反应耦合，降低了电催化硝酸盐还原至氨的高能耗。电催化剂设计将磷空位引入钴磷中形成原子级电场，增强了肼氧化反应和硝酸盐还原反应的活性和选择性，从而确保了高氨产率。电解槽在500 mA cm −2 和 0.962 V 的电池电压下提供 49.64 mg h −1 cm −2 的氨产率，并实现 0.769 g L −1 h −1 的自驱动氨生产，无需外部能量输入。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "局部富水界面微环境使自驱动高电流氨电合成成为可能"
  },
  "10.1002/adsc.70858": {
   "abstract": "Photocatalytic nitrate reduction to ammonia holds dual significance for nitrogen‐containing wastewater remediation and green ammonia synthesis. However, single‐component semiconductor photocatalysts are generally hampered by severe photogenerated charge recombination, insufficient spectral response, and poor substrate activation. Herein, cobalt porphyrin (CoTCPP) was in situ anchored onto the surface of Bi 19 S 27 Br 3 nanorods via a solvothermal method to construct CoTCPP/Bi 19 S 27 Br 3 photocatalysts featuring strong interfacial coupling. X‐ray photoelectron spectroscopy (XPS) analysis reveals a distinct interfacial electronic coupling between CoTCPP and Bi 19 S 27 Br 3 . This strong interfacial coupling synergistically enhances photocatalytic performance by facilitating rapid capture and efficient interfacial transfer of photogenerated electrons to effectively suppress charge carrier recombination, significantly broadening the near‐infrared (NIR) light response range, and strengthening the electrostatic adsorption of NO 3 − on the catalyst surface to accelerate the selective generation of NH 3 . The optimized 1.5CoTCPP/Bi 19 S 27 Br 3 achieved an NH 3 production rate of 1230.81 μmol·g −1 ·h −1 , approximately 5‐fold higher than that of pristine Bi 19 S 27 Br 3 . In situ Fourier transform infrared spectroscopy confirmed the stepwise deoxygenation–hydrogenation reduction pathway of NO 3 − → *NO 3 → *NO 2 → *NO → *NHOH → *NH 2 OH → NH 3 . This work provides an effective strategy for constructing interfacially coupled photocatalytic systems toward efficient nitrate reduction to ammonia.",
@@ -2399,6 +2526,45 @@
   "zh_obj": "氨硼烷水解",
   "zh_title": "AlH3催化和ZIF-8纳米受限对车载应用氨硼烷脱氢的协同效应：DFT计算与实验"
  },
+ "10.1016/j.fuel.2026.142128": {
+  "abstract": "",
+  "authors": [
+   "Wenlong Lv",
+   "Xiaojing Wei",
+   "Haiyan Song",
+   "Yanan Feng",
+   "Zhuhe Zhai",
+   "Shengqiang Chen",
+   "Xianggen Chen",
+   "Yafei Zhao",
+   "Bing Zhang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-12",
+  "doi": "10.1016/j.fuel.2026.142128",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1016/j.fuel.2026.142128",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Fuel",
+  "tier": "background",
+  "title": "Poplar catkin-derived porous carbon for enhanced ammonia borane thermal dehydrogenation via synergistic nanoconfinement and surface anchoring",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.fuel.2026.142128",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨硼烷水解；涉及碳材料",
+  "zh_title": "柳树花毛刺衍生的多孔碳通过协同纳米限域和表面锚定增强氨硼烷热脱氢"
+ },
  "10.1016/j.ijhydene.2026.158417": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -3493,6 +3659,43 @@
   "zh_obj": "电化学氮还原；涉及碳材料",
   "zh_title": "基于石墨烯的配对单空位双金属协同电化学氮还原的第一性原理机制洞察"
  },
+ "10.1016/j.watres.2026.127329": {
+  "abstract": "",
+  "authors": [
+   "Cong Chen",
+   "Yuyang Li",
+   "Zhongbo Zhou",
+   "Siyu Li",
+   "Lulu Chou",
+   "Le Han",
+   "Liang Shen"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.watres.2026.127329",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1016/j.watres.2026.127329",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Water Research",
+  "tier": "background",
+  "title": "Root Mucilage-Inspired Hydrogel Composite Membranes Enable High-Efficacy Ammonia Recovery",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.watres.2026.127329",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "受根粘液启发的水凝胶复合膜实现高效率氨回收"
+ },
  "10.1021/acs.est.6c07061": {
   "abstract": "Abstract Land-based enhanced rock weathering (ERW)─applying ground silicate rock to soils─is being explored for sequestration of CO2 from the atmosphere, with impacts beyond carbon storage. Weathering of basalt releases base cations increasing alkalinity and soil pH, which we hypothesized would reduce N2O emissions. Repeated applications of basalt to a heavily fertilized annual Zea mays and Glycine max rotation (maize and soybean) and the low-fertilized perennial bioenergy grass Miscanthus x giganteus (miscanthus) in Illinois raised soil pH from 6.6 to 7.1 in maize/soybean and from 5.4 to 6.3 in miscanthus and consistently reduced annual N2O emissions by 16–40% over 7 growing seasons. Although not statistically significant for any given crop, our results indicate an emerging trend of increased N leaching (23% pooled across crops and years), suggesting a potential shift in N loss from the atmosphere to groundwater. Crop yields increased or remained unchanged, indicating enhanced weathering is compatible with conventional farming practices. Regional land model simulations show that ERW deployment across the US Corn Belt could reduce soil N2O emissions by 11% under a moderate deployment pathway and by 24% under a more intensive deployment pathway. The effects of enhanced weathering extend beyond CO2 sequestration and may benefit both greenhouse gas mitigation and bioenergy crop production, with a potential trade-off of increased N mobility in fertile, organic matter-rich US Midwestern soils.",
   "authors": [
@@ -4261,6 +4464,44 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "电解质和催化剂在 CuRu 正电位硝酸盐到氨电还原中协同控制质子供应"
  },
+ "10.1021/jacs.6c16282": {
+  "abstract": "Abstract The electrolyte and applied potential are known to impact a catalyst’s structure and performance, yet the role of reaction intermediates and products in driving surface evolution remains largely unexplored. Here, using electrochemical atomic force microscopy, we show that the dynamic restructuring of copper (Cu) surfaces during nitrate reduction reaction (NO3RR) directly correlates with the rate and selectivity of ammonia (NH3) formation. At moderate overpotentials, where nitrite formation dominates, lateral expansion of Cu terraces is observed, whereas rapid NH3 formation at higher cathodic potentials induces Cu adislands enriched in low-coordinated step sites, revealing distinct restructuring pathways that accompany the transition from nitrite- to ammonia-selective NO3RR. These transformations are rationalized by an NH3-mediated Cu dissolution-redeposition mechanism. Our results identify reaction products as active modulators of catalyst surface structure, establishing a framework for understanding reaction-driven catalyst restructuring and enabling in situ control of catalyst surfaces through the interfacial reaction environment.",
+  "authors": [
+   "Yujie Peng",
+   "Mael Brule",
+   "Yawei Zhou",
+   "Beatriz Roldan Cuenya",
+   "Christopher S. Kley"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-12",
+  "doi": "10.1021/jacs.6c16282",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1021/jacs.6c16282",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Journal of the American Chemical Society",
+  "tier": "background",
+  "title": "Ammonia-Driven Nanoscale Surface Restructuring of Copper Catalysts during Nitrate Reduction Reaction",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.6c16282",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_brief": "研究铜催化剂在硝酸盐还原反应中的表面重构，发现动态重构与氨形成速率和选择性直接相关。在中等过电位下，观察到铜台地的横向扩展，而在高阴极电位下快速形成氨时，观察到富集在低配位台阶位点的铜吸附岛，揭示了从亚硝酸盐到氨选择性的硝酸盐还原反应的转换过程中不同的重构途径。这些转变通过氨介导的铜溶解-再沉积机制得到解释。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "在硝酸盐还原反应期间铜催化剂的纳米级表面重构受氨驱动"
+ },
  "10.1021/jacs.6c16802": {
   "abstract": "Abstract Electrocatalytic nitrate reduction offers a sustainable route for ammonia (NH3) synthesis, yet its efficiency is limited by sluggish N–O bond cleavage, incomplete NOx hydrogenation, and competing hydrogen evolution reaction. However, how catalyst structural engineering regulates the interfacial microenvironment remains unclear, despite its critical importance for constructing efficient catalysts. Here, we report a Cu3Ru7 catalyst with abundant Cu–Ru interfaces, where interface-induced water reorganization enables efficient NH3 production. The Cu3Ru7 catalyst exhibits an impressive NH3 formation rate of 19.7 mmol h–1 cm–2 at 5 A cm–2 in a membrane electrode assembly (MEA) electrolyzer and remains stable at 2 A cm–2 with an NH3 Faradaic efficiency of ∼86% for 500 h. A scale-up demonstration using a 100 cm2 MEA electrolyzer affords an NH3 formation rate up to 1.5 mol h–1 at 400 A. The in situ attenuated total reflectance surface-enhanced infrared absorption spectroscopy (ATR-SEIRAS) reveals that Cu3Ru7 catalyst establishes a moderate interfacial hydrogen-bond network, which creates a water-mediated interfacial micro environment that facilitates NOx deoxygenation and subsequent NHx formation. Ab initio molecular dynamics (AIMD) simulations further reveal that the Cu–Ru interface stabilizes the dissociating oxygen atom through a persistent and dynamically connected hydrogen-bond network, thereby facilitating sequential NO3– → NO2 → NO conversion. Meanwhile, the surrounding Cu matrix attenuates the excessive *H accumulation characteristic of Ru, suppressing the hydrogen evolution reaction. This work establishes Cu–Ru interface-induced interfacial water reorganization as a strategy for improving electrocatalytic nitrate reduction performance.",
   "authors": [
@@ -4396,6 +4637,40 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢",
   "zh_title": "高效率和高耐久性的Ga掺杂Ni/Al2O3催化剂通过界面Ga3+增强低温氨分解"
+ },
+ "10.1038/s41467-026-79171-8": {
+  "abstract": "Partitioning experiments and Fe-rich sediments show V was removed from Archean– Paleoproterozoic seawater more efficiently than Mo, enriching seawater in Mo relative to V and helping explain the early evolution of Mo-based nitrogenase.",
+  "authors": [
+   "Weiduo Hao"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-12",
+  "doi": "10.1038/s41467-026-79171-8",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1038/s41467-026-79171-8",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 32,
+  "source": "Nature Communications",
+  "tier": "direct",
+  "title": "Evolution of the molybdenum and vanadium cycles through time and their impact on ancient nitrogen fixation",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1038/s41467-026-79171-8",
+  "via": "RSS·Nature Communications",
+  "watch": [],
+  "why": [
+   "nitrogen fixation"
+  ],
+  "zh_brief": "研究对象为古代-古元古代海水中的钼和钒循环，通过分区实验和富铁沉积物研究，发现钒比钼更有效地从海水中去除，使海水中的钼相对于钒富集，有助于解释早期基于钼的固氮的演化。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "通过时间和钼与钒循环及其对古代固氮的影响"
  },
  "10.1038/s41893-026-01981-x": {
   "abstract": "Synthesis of valuable ammonia through photocatalytic reduction of nitrogen is a promising sustainable route, but its efficiency remains limited. This work shows that coupling the reaction with solar-driven interfacial evaporation can substantially improve ammonia yield, concentration and purity.",
@@ -4864,6 +5139,54 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "通过氢键网络门控的活性氢泵增强硝酸盐电还原为氨"
+ },
+ "10.1080/00103624.2026.2762883": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12",
+   "Semantic Scholar": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-12",
+  "abstract": "",
+  "authors": [
+   "Meenakshi Gupta",
+   "Brinder Singh",
+   "Vivek Bhagat",
+   "Banti",
+   "Dhamni Patyal"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-11",
+  "doi": "10.1080/00103624.2026.2762883",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1080/00103624.2026.2762883",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Communications in Soil Science and Plant Analysis",
+  "tier": "background",
+  "title": "Effects of Integrated Nitrogen Management on Productivity, Profitability and Nitrogen Use Efficiency of Little Millet Cultivars ( Panicum sumatrense L.) Under Rainfed Conditions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1080/00103624.2026.2762883",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "集成氮管理对雨养条件下小米品种（ Panicum sumatrense L.）的产量、盈利能力和氮利用效率的影响"
  },
  "10.1080/00219592.2026.2750603": {
   "ab_check_v": 2,

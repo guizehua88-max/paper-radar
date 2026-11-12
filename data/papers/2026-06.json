@@ -6619,6 +6619,41 @@
   "zh_obj": "电化学氮还原；涉及Fe/铁体系",
   "zh_title": "用于生物启发光电化学氨合成的亚纳米级动态集成催化系统"
  },
+ "10.1145/3838323.3838398": {
+  "abstract": "The integration of renewable energy with chemical production represents a strategic pathway for deep decarbonization of hard-to-abate industrial sectors. This paper presents a comprehensive five-layer progressive optimization framework for green-electricity-driven ammonia (PtA) parks, systematically addressing uncertainty quantification, high-dimensional scheduling, multi-objective trade-offs, energy storage coordination, and long-term policy evolution. The park under study integrates 40 MW wind turbines, 64 MW photovoltaic arrays, alkaline and PEM electrolyzers (10 MW each), and an ammonia synthesis unit. In Layer 1, Polynomial Chaos Expansion (PCE) with Hermite basis functions achieves spectral-accuracy uncertainty propagation, with Sobol sensitivity decomposition identifying wind power uncertainty as the dominant contributor (54%) to self-consumption rate variance. In Layer 2, the Kepler Optimization Algorithm (KOA, 2023) solves a 48-dimensional mixed-integer nonlinear programming problem, achieving an optimal ammonia cost of 4,321.3 CNY/ton—outperforming PSO by approximately 21-fold in solution quality. In Layer 3, MOEA/D with Chebyshev decomposition generates the complete Pareto frontier between cost minimization and renewable self-consumption maximization, with COPRAS-based decision-making recommending a 64.1% self-consumption anchor. In Layer 4, the Runge-Kutta Optimizer (RUN) solves a bilevel storage planning problem, revealing that electrolyzer capacity bottlenecks—rather than storage deficits—fundamentally constrain renewable curtailment reduction. In Layer 5, Quantum Evolutionary Game Theory (QEGT) models the strategic co-evolution of power generators, ammonia producers, and grid operators, rigorously proving (1,1,1) as the globally evolutionarily stable strategy (ESS) and identifying subsidy intensity \\(S \\approx 2.5\\)–3.0 CNY/kWh as the cost-effectiveness optimal range. The proposed framework forms a closed-loop methodology from uncertainty-aware system diagnosis to policy-informed strategic planning, with generalizability to broader Power-to-X applications.",
+  "authors": [
+   "Shi Zheng",
+   "Wenhan Shi"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-06-12",
+  "doi": "10.1145/3838323.3838398",
+  "first_seen": "2026-11-12T18:57:08Z",
+  "id": "10.1145/3838323.3838398",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Proceedings of the 2026 2nd International Conference on Digital Society and Intelligent Computing",
+  "tier": "background",
+  "title": "A Five-Layer Progressive Optimization Framework for Green-Electricity-Driven Ammonia Parks: From Uncertainty Quantification to Policy Evolution Analysis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1145/3838323.3838398",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "研究绿色电力驱动氨厂的全面五层渐进优化框架，系统地解决了不确定性量化、高维调度、多目标权衡、储能协调和长期政策演变问题。研究整合了 40 MW 风力涡轮机、64 MW 光伏阵列、碱性电解器和 PEM 电解器（各 10 MW）以及氨合成单元。在第一层，使用多项式混沌展开（PCE）与赫米特基函数实现光谱精度不确定性传播，Sobol 敏感性分解确定风力不确定性是自消耗率方差的主要贡献者（54%）。在第二层，使用开普勒优化算法（KOA, 2023）解决 48 维混合整数非线性规划问题，实现 4,321.3 CNY/吨的最优氨成本，比 PSO 在解质量上高约 21 倍。在第三层，MOEA/D 与切比雪夫分解生成成本最小化和可再生自消耗最大化之间的完整帕累托前沿，基于 COPRAS 的决策推荐 64.1% 的自消耗锚点。在第四层，使用龙格-库塔优化器（RUN）解决双层存储规划问题，揭示电解器容量瓶颈而",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "用于绿色电力驱动氨厂的五层渐进优化框架：从不确定性量化到政策演变分析"
+ },
  "10.1360/csb-2026-0253": {
   "ab_check_v": 2,
   "ab_result": "found",

@@ -355,11 +355,21 @@
    "push": [
     "serverchan:ok"
    ]
+  },
+  {
+   "at": "2026-11-12T18:57:08Z",
+   "errors": {
+    "补摘要": "部分请求失败（其余正常）：Semantic Scholar"
+   },
+   "new": 9,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-12T03:47:41Z",
+  "at": "2026-11-12T18:57:08Z",
   "push": [
    "serverchan:ok"
   ],
@@ -368,7 +378,7 @@
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1122
+    "n": 1133
    },
    "OpenAlex": {
     "calls": 12,
@@ -380,19 +390,19 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 95
+    "n": 125
    },
    "RSS · Advanced Functional Materials": {
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 300
+    "n": 379
    },
    "RSS · Advanced Materials": {
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 223
+    "n": 311
    },
    "RSS · Angewandte Chemie": {
     "calls": 1,
@@ -404,7 +414,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 60
+    "n": 45
    },
    "RSS · Communications Chemistry": {
     "calls": 1,
@@ -506,17 +516,17 @@
     "calls": 1,
     "err": "部分请求失败（其余正常）：Semantic Scholar",
     "fails": 0,
-    "n": 99
+    "n": 155
    }
   },
-  "中文简介": "新写 8 篇",
-  "新增相关": 12,
+  "中文简介": "新写 9 篇",
+  "新增相关": 9,
   "模式": "日常",
-  "补摘要": "99/489",
-  "达到推送标准": 2
+  "补摘要": "155/482",
+  "达到推送标准": 1
  },
- "last_push_at": "2026-11-12T03:47:41Z",
- "last_run": "2026-11-12T03:47:41Z",
+ "last_push_at": "2026-11-12T18:57:08Z",
+ "last_run": "2026-11-12T18:57:08Z",
  "rebackfill": {
   "done": [
    "2024-01",
