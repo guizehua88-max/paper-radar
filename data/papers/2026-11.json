@@ -1057,12 +1057,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
+   "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "ChangJin Han",
@@ -1201,14 +1203,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Yushan Chen",
@@ -1253,11 +1255,11 @@
  },
  "10.1016/j.apcatb.2026.127755": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
    "Europe PMC": "2026-11-05",
-   "OpenAlex": "2026-11-05",
+   "OpenAlex": "2026-11-12",
    "Semantic Scholar": "2026-11-05"
   },
   "ab_sources_checked": [
@@ -1266,8 +1268,9 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-05",
-  "abstract": "",
+  "ab_try": "2026-11-12",
+  "abstract": "Ammonia adsorption-desorption plays a pivotal role in plasma-catalytic ammonia synthesis, yet the influence of catalyst acidity on regulating this dynamic process remains poorly understood. Here, we investigate the effect of zeolite acidity on plasma-catalytic NH 3 synthesis by systematically tuning the acid-site distribution of zeolite 4 A through cation exchange. Among the catalysts examined, Ni/Ca-4A achieved an NH 3 synthesis rate of 8858.2 μmol g -1 h -1 at a specific energy input (SEI) of 12 kJ L -1 and an N 2 /H 2 ratio of 2:1, more than ten times higher than that of unmodified zeolite 4 A. Comprehensive catalyst characterization, plasma diagnostics and in situ NH 3 monitoring reveal that catalyst performance is governed by the dynamic adsorption-desorption behavior of NH 3 under plasma conditions. Ca-exchanged 4 A possesses a high concentration of plasma-accessible acid sites, defined as acid sites with NH 3 desorption temperatures within the local reaction temperature range (~210-275 o C) measured in the discharge region during plasma-catalytic ammonia synthesis, enabling transient NH 3 storage and controlled release. This dynamic process enhances NH 3 formation while mitigating plasma induced NH 3 decomposition. In contrast, unmodified 4 A is dominated by stronger acid sites that retain NH 3 excessively, hindering desorption and limiting catalytic activity, particularly at low specific energy inputs. Furthermore, Ni promotes H 2 activation, while plasma-accessible acid sites continuously regulate NH 3 storage and release, resulting in a synergistic enhancement of ammonia synthesis performance. Within the investigated zeolite catalyst series, the concentration and distribution of plasma-accessible acid sites serve as a useful descriptor for understanding NH 3 adsorption–desorption dynamics and catalytic performance under the investigated plasma conditions, providing mechanistic insights to guide the rational design of efficient catalysts for plasma-catalytic ammonia synthesis.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Weitao Wang",
    "Chunqiang Lu",
@@ -1283,8 +1286,8 @@
    "Christian Hulteberg",
    "Xin Tu"
   ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11",
@@ -1307,11 +1310,25 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "研究对象为等离子体催化氨合成，关键方法为通过阳离子交换系统调整沸石 4 A 的酸位点分布，主要结果为 Ni/Ca-4A 在 SEI 为 12 kJ L-1 和 N2/H2 比为 2:1 时实现 8858.2 μmol g-1 h-1 的 NH3 合成速率，比未改性的沸石 4 A 高十倍以上。",
   "zh_method": "等离子体驱动",
   "zh_obj": "等离子体制氨",
   "zh_title": "调控沸石酸度以调节动态NH3吸附-解吸以增强等离子体催化氨合成"
  },
  "10.1016/j.apcatb.2026.127779": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-12",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Shiqi Wang",
@@ -1495,15 +1512,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-04",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Jae Min Park",
@@ -1547,15 +1564,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Parnapalle Ravi",
@@ -1652,15 +1669,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Jingya Ding",
@@ -1803,6 +1820,19 @@
   "zh_title": "闪蒸焦耳热用于固体废物增值与环境修复：从反应器设计到可持续性"
  },
  "10.1016/j.cej.2026.184096": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-12",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Gyeongmin Ko",
@@ -1814,6 +1844,9 @@
    "Joonhee Kang",
    "Hyung Chul Yoon"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.cej.2026.184096",
@@ -1836,22 +1869,23 @@
    "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确；涉及Ru/钌体系"
+  "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
+  "zh_title": "在碳掺杂的 MgO 上促进金属 Ru 活性位点用于高效的氨合成"
  },
  "10.1016/j.ceramint.2026.11.043": {
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-08",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Chaofan He",
@@ -2173,6 +2207,19 @@
   "zh_title": "绿色氢气和氨气供应链优化模型的系统与关键综述"
  },
  "10.1016/j.foodchem.2026.151726": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-12",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Mengmeng Guo",
@@ -2357,15 +2404,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Cecilia Pistolesi",
@@ -2406,15 +2453,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Mohammad Hossein Jahangir",
@@ -2605,11 +2652,11 @@
  },
  "10.1016/j.jacomc.2026.100312": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
-   "Europe PMC": "2026-11-05",
-   "OpenAlex": "2026-11-05",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12",
    "Semantic Scholar": "2026-11-05"
   },
   "ab_sources_checked": [
@@ -2618,7 +2665,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-05",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Serdar Akbayrak",
@@ -2655,15 +2702,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Yufeng Jiang",
@@ -2801,6 +2848,19 @@
   "zh_title": "Cu掺杂Co₃O₄/rGO纳米片的形貌与电子结构调控用于高效电催化硝酸盐-氨升级与原位查尔酮合成"
  },
  "10.1016/j.jece.2026.125928": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-12",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Jing Zhang",
@@ -2810,6 +2870,9 @@
    "Yeqiong Huang",
    "Chuhan Xing"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.jece.2026.125928",
@@ -2830,22 +2893,23 @@
   "watch": [],
   "why": [],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系"
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "三金属 Co-Cu-Fe 位点的界面电子重构使硝酸电还原选择性地生成氨"
  },
  "10.1016/j.jechem.2026.10.046": {
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-04",
-   "Europe PMC": "2026-11-04",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Qirui Li",
@@ -2890,6 +2954,19 @@
   "zh_title": "调节Fe-Co双原子催化剂的d-d轨道杂化重新配置氮还原路径以实现高效的氨电合成"
  },
  "10.1016/j.jechem.2026.11.001": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-12",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Xin Lin",
@@ -2906,6 +2983,9 @@
    "Jianchun Jiang",
    "Zhifeng Zheng"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.jechem.2026.11.001",
@@ -2928,7 +3008,8 @@
    "Joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控"
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "闪蒸焦耳热驱动的 NiCoFe 中熵合金的制备具有 Mn 尾部定制的局部配位用于高效的氢生产和生物燃料升级"
  },
  "10.1016/j.jenvman.2026.131297": {
   "abstract": "With cumulative spent lithium-ion battery (LIB) waste projected to exceed 11 million tonnes by 2030, rapid and low-carbon regeneration technologies are increasingly important for securing secondary resources. Joule heating provides heating and cooling rates of 103-105 K s-1 and millisecond-to-second thermal exposure, enabling impurity removal, lattice reconstruction and non-equilibrium defect regulation while limiting prolonged diffusion and side reactions. This review critically synthesizes Joule heating-enabled recycling, regeneration and upcycling of spent LIB anodes and cathodes, together with the underlying mechanisms, industrial barriers and environmental implications. Representative graphite-regeneration studies report >99% removal of Li and transition metal contaminants using only 0.1 M HCl, with regenerated or upcycled graphite delivering approximately 351-459 mAh·g-1. For cathodes, Joule heating direct regeneration restored spent LiCoO2 from 103.9 to 133 mAh·g-1 within 8 s. Quantitative TEA and LCA further indicate that representative graphite regeneration routes require approximately 1.05-15.38 MJ kg-1 and cost $1.48-5.79 kg-1, with greenhouse gas (GHG) reductions of up to 98% depending on the comparator and system boundary. Joule heating assisted cathode recycling has reported 72-82% lower GHG emissions than conventional benchmarks. However, most demonstrations remain at laboratory or gram scale. This review identifies spent graphite regeneration as the most immediately deployable field and cathode direct regeneration as a high-value but more feedstock-sensitive target, while emphasizing adaptive process control, transparent LCA/TEA boundaries and responsible scale-up as priorities for industrial translation.",
@@ -2975,15 +3056,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
-   "Europe PMC": "2026-11-03",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Bingyan Shi",
@@ -3024,17 +3105,18 @@
  },
  "10.1016/j.jhazmat.2026.144152": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-06",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
-  "abstract": "",
+  "ab_try": "2026-11-12",
+  "abstract": "Electrocatalytic nitrate reduction reaction (NO 3 RR) represents a sustainable paradigm for simultaneous environmental remediation and green NH 3 production. While single-atom catalysts (SACs) exhibit immense promise for NO 3 RR, precisely manipulating their localized orbital interactions to decode the underlying structure-activity relationships remains a critical challenge. Herein, using density functional theory (DFT) calculations, we designed a series of interlayer single-metal-atom coordinated porous boron nitride (IC-M/p-BN) acting as efficient electrocatalysts for NO 3 RR. Interlayer metal confinement triggers robust interfacial p-d-p orbital hybridization, establishing an efficient electron relay that empowers surface-exposed non-metallic B sites to act as direct catalytic centers while effectively suppressing the competing HER, NRR and toxic NO/NO 2 byproducts. Crucially, this interfacial charge transfer drives a dynamic B sp 2 -to-sp 3 reconfiguration, facilitating optimal NO 3 - activation. Benefiting from this mechanism, IC-Co/p-BN and IC-Ni/p-BN deliver outstanding NO 3 RR activity (limiting potentials of -0.51 and -0.50 V vs. RHE), significantly outperforming their conventional h-BN counterparts. Furthermore, machine learning analysis identifies the work function as the fundamental descriptor governing NO 3 - adsorption, revealing the interfacial catalytic mechanism. Our work not only offers a robust design strategy for high-efficiency 2D confined SACs but also provides deeper insights into the dynamic NO 3 - -to-NH 3 conversion mechanism at non-metallic interfaces.",
+  "abstract_source": "Europe PMC",
   "authors": [
    "Yaqi Yang",
    "Shiyu Chen",
@@ -3044,7 +3126,7 @@
    "Qiaoling Li"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11",
@@ -3065,8 +3147,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "Nitrate to Ammonia"
+   "NRR"
   ],
+  "zh_brief": "研究对象为电催化硝酸还原反应 (NO3 RR)，关键方法为使用密度泛函理论 (DFT) 计算，设计了层间单金属原子配位多孔氮化硼 (IC-M/p-BN) 作为高效的 NO3 RR 电催化剂，主要结果为 IC-Co/p-BN 和 IC-Ni/p-BN 实现 -0.51 和 -0.50 V vs. RHE 的 NO3 RR 活性，显著优于传统的 h-BN 对应物。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "层间单金属原子配位多孔氮化硼：触发 p-d-p 轨道杂化以实现高效的电催化硝酸盐到氨还原"
@@ -3178,15 +3261,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-01",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Chenkun Li",
@@ -3229,14 +3312,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Shuo Zhang",
@@ -3369,14 +3452,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-03",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Anand Mohan Verma",
@@ -4783,12 +4866,28 @@
   "zh_title": "通过氢键网络门控的活性氢泵增强硝酸盐电还原为氨"
  },
  "10.1080/00219592.2026.2750603": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-12",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Koki Ito",
    "Souta Miyamoto",
    "Katsuaki Tanabe"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11-11",
   "doi": "10.1080/00219592.2026.2750603",
@@ -4811,7 +4910,8 @@
    "Ammonia Synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "替代模型选择和实际指南用于化学过程设计中的约束贝叶斯优化：来自氨合成模拟的见解"
  },
  "10.1080/00963402.2026.2745433": {
   "ab_check_v": 2,
@@ -4905,11 +5005,11 @@
  },
  "10.1103/3s5d-ys4b": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
-   "Europe PMC": "2026-11-05",
-   "OpenAlex": "2026-11-05",
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12",
    "Semantic Scholar": "2026-11-05"
   },
   "ab_sources_checked": [
@@ -4918,7 +5018,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-05",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "D. Murayama",
@@ -5562,14 +5662,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Rosanna Margalef Marti",
@@ -5610,14 +5710,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Bastien Redon",
@@ -5660,15 +5760,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10"
+   "Europe PMC": "2026-11-12",
+   "OpenAlex": "2026-11-12"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-12",
   "abstract": "",
   "authors": [
    "Victoria Mills",
