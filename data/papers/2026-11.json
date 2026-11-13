@@ -1136,6 +1136,47 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "原位重构核壳 Fe-MOF@Cu 作为串联电催化剂将硝酸电还原为氨"
  },
+ "10.1002/smtd.71203": {
+  "abstract": "ABSTRACT The electrochemical synthesis of ammonia through nitrogen reduction (ENRR) is hindered by N 2 inertness and competing hydrogen evolution reaction (HER). Phosphorene, despite its promise, inherently lacks the eletron‐backdonation capability for effective N 2 activation. Herein, we present a water‐free hydrogen bubble electroetching strategy to simultaneously exfoliate and engineer black phosphorus into defect‐rich porous phosphorene (D‐BP ene ) with abundant in‐plane phosphorus vacancies for ENRR catalysis. Four‐dimensional scanning transmission electron microscopy resolves distorted hexagonal rings where pairs of P atoms from the upper and lower sub‐layers show mutually perpendicular orientations. D‐BP ene exhibits superior electrocatalytic nitrogen reduction reaction performance, achieving a high NH 3 yield of 14.94 µg h −1 mg cat −1 at −0.05 V versus RHE and a Faradaic efficiency of 35.51% at 0 V versus RHE that corresponds to an ultralow overpotential of 92 mV, outperforming most metal‐free catalysts, while remaining stable for over 36 h. Density functional theory calculations reveal that phosphorus vacancies act as Lewis acid sites, reducing the energy barrier for the potential‐determining step from 2.012 to 1.387 eV via strengthened σ‐donation and π‐backdonation, while increasing the HER kinetic barrier by inhibiting *H desorption. This work presents an effective synthetic route to vacancy‐engineered two‐dimensional materials with potential applications extending beyond nitrogen fixation.",
+  "authors": [
+   "Peisen Zhao",
+   "Jun Man",
+   "Qingqing Ye",
+   "Wansheng Hao",
+   "Jiarui Zhang",
+   "Yong Ning",
+   "Meiling Dou",
+   "Feng Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1002/smtd.71203",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1002/smtd.71203",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Small Methods",
+  "tier": "background",
+  "title": "Hydrogen Bubble Engineering of Lewis Acid Sites in Phosphorene for Efficient Nitrogen Reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/smtd.71203",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "synthesis of ammonia"
+  ],
+  "zh_brief": "采用无水氢气泡电刻蚀策略剥离并制备富含缺陷的磷烯，利用磷空位作为路易斯酸位点，增强σ供体和π反供体作用，降低决速步能垒。该催化剂在超低过电位92 mV下实现了14.94 µg h−1 mg cat−1的氨产率和35.51%的法拉第效率，且稳定性超过36小时。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "磷烯路易斯酸位点氢气泡工程用于高效氮还原"
+ },
  "10.1007/s10854-026-18858-6": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -1179,6 +1220,52 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "PES织物上通过溶胶-凝胶法制备的Ni掺杂ZnO和Zn掺杂NiO薄膜的氨气传感与电磁屏蔽特性"
+ },
+ "10.1007/s11426-026-3877-8": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-13",
+   "OpenAlex": "2026-11-13",
+   "Semantic Scholar": "2026-11-13"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-13",
+  "abstract": "",
+  "authors": [
+   "Zhenhao Wang",
+   "Qianji Gao",
+   "Liqi Shi",
+   "Jieshan Qiu",
+   "Shaofeng Li"
+  ],
+  "cross": false,
+  "date": "2026-11-09",
+  "doi": "10.1007/s11426-026-3877-8",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1007/s11426-026-3877-8",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Science China Chemistry",
+  "tier": "background",
+  "title": "Electrolyte-additive engineering for lithium-mediated nitrogen reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s11426-026-3877-8",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "lithium-mediated nitrogen"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原"
  },
  "10.1007/s11814-026-00878-x": {
   "ab_check_v": 2,
@@ -2387,6 +2474,43 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "绿色氢气和氨气供应链优化模型的系统与关键综述"
  },
+ "10.1016/j.enchem.2026.100214": {
+  "abstract": "",
+  "authors": [
+   "Dan-Dan Wang",
+   "Xiao-Li Wang",
+   "Yu-Fei Long",
+   "Xiong He",
+   "Bingnan Wang",
+   "Xiao-Min Li",
+   "Siqi Zhao",
+   "Kui Li",
+   "Xing Lu"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.enchem.2026.100214",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1016/j.enchem.2026.100214",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "EnergyChem",
+  "tier": "background",
+  "title": "Fluorine-mediated dual coordination regulation of Cu nanoclusters for nitrate-to-ammonia electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.enchem.2026.100214",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate-to-ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1016/j.foodchem.2026.151726": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -2885,6 +3009,39 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "废轮胎橡胶闪蒸焦耳加热过程中的碳演化：甲烷保存与石墨烯重构"
  },
+ "10.1016/j.jaap.2026.108257": {
+  "abstract": "",
+  "authors": [
+   "Kangyao Sun",
+   "Ziling Wang",
+   "Hao Wang",
+   "Xin Niu",
+   "Shuping Zhang"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jaap.2026.108257",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1016/j.jaap.2026.108257",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Journal of Analytical and Applied Pyrolysis",
+  "tier": "transferable",
+  "title": "Flash joule heating-assisted co-pyrolysis of biomass and plastic for graphitic carbon production",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jaap.2026.108257",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "joule heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控；涉及碳材料"
+ },
  "10.1016/j.jacomc.2026.100312": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -3286,6 +3443,44 @@
   "zh_obj": "过程待核实；涉及碳材料",
   "zh_title": "用于废旧锂离子电池的直接再生：进展、优势与未来展望"
  },
+ "10.1016/j.jes.2026.105893": {
+  "abstract": "",
+  "authors": [
+   "Meznah M. Alanazi",
+   "Rabia Nawaz",
+   "Ali Bahadur",
+   "Adeeb Shehzad",
+   "Shahid Iqbal",
+   "Sajid Mahmood",
+   "Shaimaa A.M. Abdelmohsen",
+   "Badriah Albarzan",
+   "Jawza S. Alotaibi",
+   "Nouf Musaad Alayfan"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jes.2026.105893",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1016/j.jes.2026.105893",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "Journal of Environmental Sciences",
+  "tier": "direct",
+  "title": "Role of single-atom catalysts and tailored defects in relation to novel approaches to ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jes.2026.105893",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.1016/j.jhazmat.2026.144099": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -3441,6 +3636,39 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应",
   "zh_title": "脉冲磁感应加热用于连续固定床反应器中的催化剂再生：延长抗生素去除的操作稳定性"
+ },
+ "10.1016/j.jmst.2026.10.083": {
+  "abstract": "",
+  "authors": [
+   "Laiji Xu",
+   "Zhenlin Mo",
+   "Wei Guo",
+   "Jiangzhou Qin",
+   "Baojun Liu"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jmst.2026.10.083",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1016/j.jmst.2026.10.083",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Materials Science & Technology",
+  "tier": "background",
+  "title": "Optimizing nitrogen-intermediate affinity and hydrogenation processes via a cobalt single-atom-enhanced Cu-Cu2O rectifying heterointerface for ammonia electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jmst.2026.10.083",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia electrosynthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "其他催化反应"
  },
  "10.1016/j.matlet.2026.141936": {
   "ab_check_v": 2,
@@ -3729,6 +3957,60 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原；涉及碳材料",
   "zh_title": "基于石墨烯的配对单空位双金属协同电化学氮还原的第一性原理机制洞察"
+ },
+ "10.1016/j.surfin.2026.111298": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-13",
+   "OpenAlex": "2026-11-13",
+   "Semantic Scholar": "2026-11-13"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-13",
+  "abstract": "",
+  "authors": [
+   "Yaoqi Zhang",
+   "Bohan Kong",
+   "Rufeng Zhang",
+   "Huijun Lin",
+   "Jiayi Wang",
+   "Ming Xu",
+   "Xuefeng Ren",
+   "Anmin Liu",
+   "Chong Peng"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.surfin.2026.111298",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1016/j.surfin.2026.111298",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Surfaces and Interfaces",
+  "tier": "background",
+  "title": "Electrocatalytic Nitrate Reduction to Ammonia: An In-depth Investigation from Copper-based Material Modification to Mechanism Study",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.surfin.2026.111298",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电催化硝酸盐还原为氨：从铜基材料改性到机理研究的深入探究"
  },
  "10.1016/j.watres.2026.127329": {
   "ab_check_v": 2,
@@ -4266,6 +4548,47 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "温和条件下单原子铼和钌纳米团簇协同催化合成氨"
+ },
+ "10.1021/acsenergylett.6c02646": {
+  "abstract": "Abstract Lithium-mediated nitrogen reduction (LiNRR) produces ammonia at ambient pressure and temperature, and gas diffusion electrodes (GDEs) have advanced its production rate by intensifying nitrogen availability. However, the mass transport of lithium, nitrogen, and proton donor within the GDE and how the balance of their fluxes governs LiNRR performance remain underexplored. Here, we spatiotemporally varied the balance of species fluxes in a LiNRR GDE by dynamically modulating the pressure difference across the electrode, which altered the position of the gas/electrolyte interface. We found that decoupling the pressures applied during the plating and resting steps of pulsed electrolysis leads to higher ammonia production rates compared to the corresponding static pressure conditions. Decoupled pressure modulation enables even lithium plating during electrolysis and fast transport of nitrogen and proton donor during subsequent ammonia formation steps. This strategy may unlock a new design space for LiNRR by dynamically optimizing the reaction interface.",
+  "authors": [
+   "Gang San Lee",
+   "Justin C. Bui",
+   "Michael A. Yusov",
+   "Spencer P. Delgado-Kukuczka",
+   "Ali R. Sial",
+   "Florian M. Grass",
+   "Evan V. Miu",
+   "Karthish Manthiram"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1021/acsenergylett.6c02646",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1021/acsenergylett.6c02646",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Energy Letters",
+  "tier": "background",
+  "title": "Tuning Mass Transport through Pressure Modulation for Lithium-Mediated Nitrogen Reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acsenergylett.6c02646",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "通过动态调节气体扩散电极两侧的压力差，改变气液界面位置，从而调控锂、氮和质子供体的通量平衡。研究发现，在脉冲电解的沉积和休止步骤中解耦压力，能提高氨产率，并实现电解过程中的锂沉积及后续氨生成步骤中氮和质子供体的快速传输。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "通过压力调制调控锂介导氮还原中的质量传输"
  },
  "10.1021/acsestwater.6c01131": {
   "abstract": "Abstract Predicting the ammonium nitrogen (NH4+-N) adsorption capacity of biochar is challenged by coupled, nonlinear interactions among operational variables, pyrolysis synthesis parameters, and intrinsic material properties. A unified data set comprising 425 literature-reported adsorption records from 18 studies was compiled, and preprocessing (KNN imputation and Z-score standardization) was fitted exclusively on the training subset to prevent data leakage. Among seven machine learning algorithms benchmarked with Bayesian optimization and 5-fold cross-validation, XGBoost achieved the highest test-set coefficient of determination (R2) of 0.901 and root-mean-square error of 0.555 mg g–1. TreeSHAP analysis quantitatively decoupled three driver groups, adsorption operational parameters (53.3%), biochar physicochemical properties (38.2%), and pyrolysis synthesis parameters (8.5%), and identified initial concentration, biochar oxygen content, and adsorbent dosage as the dominant variables, with oxygen content exhibiting a unimodal relationship with adsorption capacity. Partial dependence plots were further utilized to reveal nonlinear response behaviors and determine data-coverage-validated optimal operation and design windows for key variables. A graphical user interface was developed to estimate equilibrium adsorption capacity, reducing reliance on extensive laboratory trials.",
@@ -4997,6 +5320,40 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "制氨路线未明确"
  },
+ "10.1039/d6se00020g": {
+  "abstract": "As more commercial players are seriously starting to decarbonize their operations, ammonia is emerging as a promising clean energy carrier. Its current large-scale production infrastructure, high energy density, and mild...",
+  "authors": [
+   "Zakaria Hsain",
+   "Abhi Karkamkar"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1039/d6se00020g",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1039/d6se00020g",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "Sustainable Energy & Fuels",
+  "tier": "direct",
+  "title": "Emerging Pathways for Clean Ammonia Production and Direct Utilization",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6se00020g",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Production"
+  ],
+  "zh_brief": "随着更多商业参与者开始脱碳，氨作为一种有前景的清洁能源载体正在兴起。其现有的大规模生产基础设施、高能量密度和温和的反应条件使其成为能源领域的重要选择。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
+ },
  "10.1039/d6ta06451e": {
   "abstract": "In spite of considerable work to produce ammonia using technologies beyond the energyintensive and costly Haber-Bosch process, finding efficient and earth-abundant catalysts for electrocatalytic nitrogen reduction reaction (NRR) remains a...",
   "authors": [
@@ -5368,6 +5725,60 @@
   "zh_obj": "通用催化方法",
   "zh_title": "观点：为什么年度诺贝尔奖荒诞奖颁奖典礼现在在欧洲"
  },
+ "10.1080/09593330.2026.2759892": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-13",
+   "OpenAlex": "2026-11-13",
+   "Semantic Scholar": "2026-11-13"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-13",
+  "abstract": "",
+  "authors": [
+   "Xianyuan Xu",
+   "Yucan Luo",
+   "Dengsheng Ma",
+   "Peiyuan Zheng",
+   "Cheng Chi",
+   "Jingru Hu",
+   "Lei Qin",
+   "Bisheng Li",
+   "Cui Lai"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1080/09593330.2026.2759892",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.1080/09593330.2026.2759892",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Environmental Technology",
+  "tier": "background",
+  "title": "Strong metal–support interaction-engineered Cu/LaO x interfaces for selective electrocatalytic nitrate reduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1080/09593330.2026.2759892",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "强金属-载体相互作用工程化的 Cu/LaO x 界面用于选择性电催化硝酸盐还原为氨"
+ },
  "10.1080/29984475.2026.2748636": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -5539,6 +5950,40 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系",
   "zh_title": "铀修饰铜泡沫上 pH 通用电催化硝酸盐到氨还原"
+ },
+ "10.17185/duepublico/88455": {
+  "abstract": "The electrochemical nitrogen reduction reaction (NRR) offers a sustainable route to ammonia synthesis under ambient conditions; however, its practical realization is fundamentally limited by the competing hydrogen evolution reaction (HER), which dominates under the same cathodic potential window. Molybdenum-based MXenes have emerged as a promising catalyst class due to their tunable surface chemistry and intrinsic electronic flexibility, yet a mechanistic understanding of how NRR and HER compete on these surfaces has remained incomplete. This thesis addresses this challenge using a density functional theory (DFT) framework to resolve catalytic behavior under electrochemical conditions and to identify the fundamental origin of selectivity. The work is structured around four complementary strategies for modulating the surface structure and chemistry of Mo-based MXenes to control the competition between the NRR and the HER. Two strategies involve chemical surface engineering through nitrogen- and fluorine-containing terminations, one exploits lattice strain, and the fourth employs potential-induced surface reconstruction. First, chemical modulation reveals that introducing a nitrogen-rich environment around the active site — experimentally accessible via molten-salt synthesis — enhances nitrogen activation while suppressing hydrogen adsorption, thereby reversing the catalytic selectivity from HER-dominated to NRR-dominated. Second, mixed *F/*O/*OH surface configurations arising from HF-based MXene synthesis are systematically investigated, demonstrating that variations in surface composition strongly influence catalytic behavior, with mixed fluorine-, oxygen-, and hydroxyl-terminated surfaces providing the most favorable balance between NRR activity and HER suppression. Third, strain engineering tunes the electronic structure of Mo2C(0001): tensile strain stabilizes nitrogen adsorption and promotes NRR, whereas compressive strain enhances hydrogen adsorption and favors HER, with the work function emerging as a robust descriptor to rationalize these trends. Fourth, moving beyond static modifications, potential-induced surface reconstruction demonstrates that molybdenum-based MXenes can form single-atom-like centers under anodic polarization. Upon applying a subsequent cathodic potential pulse, these in-situ-generated sites become catalytically active and steer the reaction selectively toward ammonia formation — a dynamic modulation strategy fundamentally distinct from the previous three. To ensure that these trends are described on a consistent thermodynamic basis, the accuracy of the underlying free-energy landscape is further examined. Standard DFT introduces systematic errors in the treatment of gas-phase reference molecules such as N2, H2, and NH3; these propagate across the entire reaction network. A statistical gas-phase correction framework is therefore developed that goes beyond the standard implementation in the community, advancing thermodynamically consistent free-energy diagrams and improving the reliability of activity descriptors and selectivity predictions. This thesis demonstrates that selectivity on Mo-based MXene surfaces sensitively depends on surface coverage, active sites, and potential-dependent changes in the surface structure. The findings provide a unified thermodynamic framework for evaluating NRR–HER competition, identify stable surface terminations under operating conditions, and derive electronic design principles linking termination chemistry, strain, and reconstruction to catalytic performance. The methodologies developed here are transferable to other electrocatalytic systems and offer a foundation for sustainable catalyst design across a range of energy-relevant reactions.",
+  "authors": [
+   "Diwakar Singh"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-12",
+  "doi": "10.17185/duepublico/88455",
+  "first_seen": "2026-11-13T18:31:35Z",
+  "id": "10.17185/duepublico/88455",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "DuEPublico (University of Duisburg-Essen)",
+  "tier": "background",
+  "title": "Atomic-scale insights into Mo-based MXenes for controlling selectivity in competing nitrogen reduction and hydrogen evolution reactions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.17185/duepublico/88455",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "利用密度泛函理论框架研究钼基MXene表面结构调控策略，发现氮富集环境可增强氮活化并抑制氢吸附，从而逆转催化选择性。研究表明，混合氟、氧和羟基表面配置能提供NRR活性和HER抑制的最佳平衡，且晶格应变和电势诱导表面重构也能有效调控反应选择性。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "基于钼基MXene控制竞争性氮还原与析氢反应选择性的原子尺度洞察"
  },
  "10.2118/235635-ms": {
   "abstract": "Abstract Green ammonia projects face increasing challenges in progressing from conceptual development toward bankable execution, requiring coordinated development across technology, infrastructure, safety assurance, and commercial pathways. This paper presents the outcome of an ongoing front-end development program for a compact floating green ammonia FPSO-type facility. It discusses how mature technologies can be selected for floating applications, modularized, marinized, and integrated with safety-led design to support a scalable and bankable infrastructure model. The development incorporates contributions from the project developer, the design and fabrication contractor, and an independent classification and technical assurance partner. Market-driven design considerations include renewable power availability, geographical location, export route, and potential offtake markets. The technical scope includes approximately 500 MW renewable power intake, high-voltage distribution, hydrogen production, nitrogen generation, ammonia synthesis, refrigerated storage, utilities, marine systems, and offloading interfaces. Safety studies comprise HAZID, layout review, safety screening, and coarse quantitative risk assessment covering hydrogen and ammonia major accident hazards, including hydrogen accumulation and explosion risk, ammonia toxic dispersion, compact layout constraints, marine offloading interfaces, and nearshore risk exposure. The paper demonstrates how technical readiness, commercial readiness, and safety and regulatory readiness can be matured together to progress the concept beyond Approval in Principle toward an execution-ready project definition.",
