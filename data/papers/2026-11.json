@@ -1012,6 +1012,42 @@
   "zh_obj": "氨硼烷水解；涉及Ru/钌体系",
   "zh_title": "负载于氧化铈上用于氨硼烷水解协同效应的 RuNi 双金属纳米颗粒催化剂"
  },
+ "10.1002/cphc.70624": {
+  "abstract": "Electrochemical reduction of nitric oxide (NO) to ammonia (NH 3 ) integrates pollutant abatement with green chemical synthesis. Using density functional theory with the computational hydrogen electrode model, we investigate NO electroreduction on a boron‐doped GeS 2 monolayer (B@S‐GeS 2 ) containing complementary Ge and B active centers. At the Ge site, the distal pathway operates as the minimum‐energy pathway under gas‐ and aqueous‐phase conditions, achieving a barrier‐free limiting potential ( U L = 0 V vs. RHE) driven by early N─O bond cleavage following double O‐end protonation. Conversely, the electron‐deficient B site exhibits stronger NO binding ( E ads = −2.14 eV). Although strong postcleavage N stabilization yields U L = −0.218 V, implicit solvation stabilizes polar intermediates, establishing a near‐degenerate dual‐pathway mechanism (Δ U L = 0.027 V). Both sites intrinsically suppress the hydrogen evolution reaction via severe H overbinding (Δ G H = −0.93 to −1.57 eV) and competitive NO adsorption. Additionally, competing N 2 O/N 2 formation pathways are kinetically and thermodynamically disfavored (Δ G PDS = +0.61 to +2.19 eV). Outperforming benchmark 2D catalysts, B@S‐GeS 2 presents a highly selective, dual‐site platform for ambient NO‐to‐NH 3 valorization.",
+  "authors": [
+   "Venkata Surya Kumar Choutipalli",
+   "Naga Venkateswara Rao Nulakani",
+   "Ramachandran Sathees Kumar",
+   "Muthupandi Senthilkumar",
+   "V. Subramanian"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-12",
+  "doi": "10.1002/cphc.70624",
+  "first_seen": "2026-11-14T17:09:43Z",
+  "id": "10.1002/cphc.70624",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "ChemPhysChem",
+  "tier": "background",
+  "title": "Early N─O Bond Cleavage Unlocks Barrier‐Free Nitric Oxide Electroreduction to Ammonia on B‐Doped GeS 2 Monolayer: A Comprehensive Density Functional Theory Study",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/cphc.70624",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [],
+  "zh_brief": "利用计算氢电极模型，研究了含互补 Ge 和 B 活性中心的硼掺杂 GeS2 单层（B@S-GeS2）上的 NO 电还原。在 Ge 位点，早期 N─O 键断裂和双 O 端质子化驱动了无障碍极限电位（UL = 0 V vs. RHE）。B 位点表现出强 NO 结合能（E ads = −2.14 eV），且两种位点均通过严重 H 过结合抑制析氢反应。B@S-GeS2 表现出优于基准 2D 催化剂的性能，是环境友好的 NO-到-NH3 转化平台。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "早期 N─O 键断裂解锁 B 掺杂 GeS2 单层上无障碍一氧化氮电还原合成氨：综合密度泛函理论研究"
+ },
  "10.1002/cssc.71193": {
   "abstract": "LiNi 0.8 Co 0.1 Mn 0.1 O 2 (NCM811) cathode material has attracted considerable attention because of its potential to achieve substantially higher energy densities, but the practical deployment of NCM811 remains hindered by severe interfacial and structural degradation during repeated cycling. Atomic layer deposition (ALD) was employed in this study to construct an amorphous Li─Si─O (LSO) coating layer with different thicknesses on the surface of NCM811 cathode materials, and their effects on the structural characteristics, interfacial properties, and electrochemical performance were systematically investigated. Among all the samples, 50 LSO@NCM811 exhibits the best electrochemical performance, retaining a discharge capacity of 115.96 mAh g −1 after 500 cycles at 1 C under a cutoff voltage of 4.3 V. By constructing a stable and ionically conductive interfacial protective layer, the LSO coating achieves the synergistic optimization of interfacial stability, structural stability, and electrochemical kinetics, thereby markedly enhancing the electrochemical performance of NCM811 cathode materials. This work provides important insights into interfacial engineering design for high‐nickel layered cathode materials of lithium‐ion batteries.",
   "authors": [
@@ -1685,6 +1721,45 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "与煤制氢和电制氢生产集成的低碳氨合成系统的技术经济优化"
  },
+ "10.1016/j.apsusc.2026.168935": {
+  "abstract": "The reduction of nitric oxide (NO) is a powerful method for eliminating the pollutant NO and a feasible route for synthesizing ammonia (NH 3 ) at ambient temperature, a promise to replace the energy-consuming Haber-Bosch process. However, the design of efficient catalysts with low cost and high activity to boost the complex electron transfer process is significantly challenging. Herein, we applied state-of-the-art density functional theory (DFT) calculations for the first time to investigate NO reduction on black-phosphorus-like two-dimensional monochalcogenides GeSe and SnSe, respectively. The strong bonding state between the catalyst and the adsorbate is attributed to the activation of NO, favouring NO-side adsorption and the substantial reduction to NH 3 . The catalysts are highly efficient for nitric oxide reduction reaction (NORR), as evidenced by the low limiting potentials of −0.19 and −0.11 V, respectively. Moreover, the formation of by-products (N 2 O and N 2 ) and the hydrogen evolution reaction (HER) are strongly suppressed, indicating the selective formation of NH 3 . This work is a promising strategy for designing practical and economical NORR electrocatalysts and an effective method to solve the problem of NO environmental pollution.",
+  "authors": [
+   "Md Tarikal Nasir",
+   "Yun Han",
+   "Qingchao Fang",
+   "Dimuthu Wijethunge",
+   "Xiuwen Zhou",
+   "Aijun Du"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.apsusc.2026.168935",
+  "first_seen": "2026-11-14T17:09:43Z",
+  "id": "10.1016/j.apsusc.2026.168935",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Applied Surface Science",
+  "tier": "background",
+  "title": "Electrocatalytic nitric oxide reduction to ammonia on black-phosphorus-type two-dimensional monochalcogenides",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apsusc.2026.168935",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "synthesizing ammonia"
+  ],
+  "zh_brief": "利用先进的密度泛函理论（DFT）计算首次研究了黑磷型二维单硫族化合物 GeSe 和 SnSe 上的 NO 还原反应。结果表明，催化剂与吸附物之间存在强键合状态，有利于 NO 侧吸附及还原为 NH3。该催化剂对 NO 还原反应（NORR）表现出高效率，极限电位分别为 −0.19 V 和 −0.11 V，且副产物（N2O 和 N2）及析氢反应（HER）受到强烈抑制。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "黑磷型二维单硫族化合物上电催化一氧化氮还原合成氨"
+ },
  "10.1016/j.apsusc.2026.168949": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -2200,6 +2275,44 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "过程待核实",
   "zh_title": "原子层沉积 SnxFe2-xO3 光电极：基于 Box-Behnken 设计优化的用于增强光电催化去除磺胺甲恶唑"
+ },
+ "10.1016/j.cej.2026.184270": {
+  "abstract": "",
+  "authors": [
+   "Yani Dong",
+   "Jiaxin Liu",
+   "Li Chen",
+   "Tuo Guo",
+   "Guangmin Ren",
+   "Qingjie Guo"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.184270",
+  "first_seen": "2026-11-14T17:09:43Z",
+  "id": "10.1016/j.cej.2026.184270",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Engineering Journal",
+  "tier": "background",
+  "title": "Synergistic V4+/V5+–Fe2+/Fe3+ dual redox sites and oxygen vacancies in FeVO4 decouple N2 activation from H2O dissociation for efficient photocatalytic ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.184270",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "FeVO4 中协同的 V4+/V5+–Fe2+/Fe3+ 双氧化还原位点与氧空位解耦 N2 活化与 H2O 解离以实现高效光催化氨合成"
  },
  "10.1016/j.ceramint.2026.11.043": {
   "ab_check_v": 2,
@@ -4741,6 +4854,46 @@
   "zh_brief": "利用原子层沉积在40 °C低温下对PMMA亚微米球进行纳米级ZnO涂层，研究ZnO的成核与生长机制。结果显示ZnO呈多晶颗粒状，在低循环ALD下形成纳米粒子涂层，高循环ALD下形成连续纳米薄膜。涂覆后PMMA在280–400 nm紫外区的反射率从约95%降至19%，平均可见光反射率保持在93%以上。",
   "zh_method": "未交代供热方式",
   "zh_obj": "材料制备/结构调控；涉及原子层沉积"
+ },
+ "10.1021/acscatal.6c04945": {
+  "abstract": "Abstract Electrocatalytic nitrate reduction (e-NO3– RR) to ammonia offers an effective pathway for environmental remediation and clean energy production. However, its efficiency is often constrained by sluggish multi-electron/proton transfer and mismatched intermediate adsorption. Herein, we report a bioinspired multi-metallic cobalt copper molybdate (CCM) catalyst that overcomes these limitations through a relay-type catalytic mechanism enabled by spatially distinct metal centers. In this architecture, Cu, Co, and Mo sites cooperatively orchestrate intermediate stabilization and proton activation in successive reaction steps, thereby facilitating an efficient cascade conversion of nitrate to ammonia. As a result, the optimized CCM catalyst achieves an ammonia yield rate of 2.6 mmol h–1 cm–2 and a Faradaic efficiency up to 92%. Combined experimental and theoretical analyses identify the synergistic interplay among the multiple metal active centers as the mechanistic basis for the enhanced nitrate-to-ammonia performance. Beyond half-cell evaluation, integration of the CCM catalyst into a Zn-NO3– battery delivers an output voltage of 1.34 V and a power density of 4.1 mW cm–2, demonstrating its viability for coupled ammonia synthesis and energy generation. This study identifies multi-metallic relay catalysis as an effective strategy for efficient electrocatalytic nitrate-to-ammonia conversion.",
+  "authors": [
+   "Kajal Sharma",
+   "Rostislav Langer",
+   "Daina D.A. Buelvas",
+   "Vinicius T. Santana",
+   "Radek Zbořil",
+   "Michal Otyepka",
+   "Martin Pumera"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1021/acscatal.6c04945",
+  "first_seen": "2026-11-14T17:09:43Z",
+  "id": "10.1021/acscatal.6c04945",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "ACS Catalysis",
+  "tier": "background",
+  "title": "Bioinspired Multi-metallic Relay Catalyst for Efficient Nitrate Reduction and Zn-NO3– Battery Performance",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acscatal.6c04945",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "研究报道了一种受生物启发的多金属钴铜钼酸盐（CCM）催化剂，通过空间分离的金属位点实现接力催化机制。该催化剂协同稳定中间体并活化质子，实现硝酸盐到氨的高效级联转化，氨产率达到 2.6 mmol h–1 cm–2，法拉第效率高达 92%。将 CCM 催化剂集成到 Zn-NO3– 电池中，输出电压为 1.34 V，功率密度为 4.1 mW cm–2。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "受生物启发的多金属接力催化剂用于高效硝酸盐还原及 Zn-NO3– 电池性能"
  },
  "10.1021/acscatal.6c07178": {
   "abstract": "Abstract The development of high-efficiency NH3 synthesis catalysts under mild conditions is urgently required to alleviate the excessive energy consumption and carbon emissions in traditional Haber–Bosch processes. Although Ru-based catalysts show considerable potential, their catalytic activity is often severely constrained by hydrogen poisoning caused by strong H2 adsorption. Herein, we report the fabrication of a Ba/0.1Re–Ru/AC catalyst through the strategic integration of single-atom Re species into a conventional Ba/Ru/AC framework. Notably, the Ba/0.1Re–Ru/AC catalyst exhibits a high NH3 synthesis rate of 65.1 mmol g–1 h–1 at 400 °C and 1 MPa. Mechanistic investigations reveal that single-atom Re species function as a supplementary active site for H2 adsorption and activation. The incorporation of Re also facilitates H-spillover over the catalyst surface, which effectively alleviates the competitive adsorption between H2 and N2 on Ru sites and consequently mitigates hydrogen poisoning on Ru nanoclusters. Concurrently, the incorporation of single-atom Re modulates the defect density of the support and promotes the creation of additional strong Lewis basic sites. These structural changes induce a strong electronic metal–support interaction (EMSI) effect, which specifically tunes the electronic structure of the Ru nanoclusters. This synergistic interplay between single-atom Re sites and Ru nanoclusters establishes a compelling paradigm for the rational design of highly efficient NH3 synthesis catalysts.",
