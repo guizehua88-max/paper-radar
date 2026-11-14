@@ -1182,15 +1182,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-11",
-   "Europe PMC": "2026-11-11",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Enes Nayman"
@@ -1243,6 +1243,9 @@
    "Jieshan Qiu",
    "Shaofeng Li"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11-09",
   "doi": "10.1007/s11426-026-3877-8",
@@ -1265,20 +1268,21 @@
    "lithium-mediated nitrogen"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学氮还原"
+  "zh_obj": "电化学氮还原",
+  "zh_title": "锂介导的氮还原的电解质添加剂工程"
  },
  "10.1007/s11814-026-00878-x": {
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "ChangJin Han",
@@ -1315,11 +1319,11 @@
  },
  "10.1007/s13391-026-00672-1": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-07",
-   "Europe PMC": "2026-11-07",
-   "OpenAlex": "2026-11-07",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-07"
   },
   "ab_sources_checked": [
@@ -1328,7 +1332,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-07",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Seonghyeon Park",
@@ -1417,14 +1421,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Yushan Chen",
@@ -1531,18 +1535,18 @@
  },
  "10.1016/j.apcatb.2026.127779": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Shiqi Wang",
@@ -1583,15 +1587,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-11",
-   "Europe PMC": "2026-11-11",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Xia Zhang",
@@ -1630,11 +1634,11 @@
  },
  "10.1016/j.apenergy.2026.129211": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-07",
-   "Europe PMC": "2026-11-07",
-   "OpenAlex": "2026-11-07",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-07"
   },
   "ab_sources_checked": [
@@ -1643,7 +1647,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-07",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Ruizhe Wang",
@@ -1682,6 +1686,19 @@
   "zh_title": "与煤制氢和电制氢生产集成的低碳氨合成系统的技术经济优化"
  },
  "10.1016/j.apsusc.2026.168949": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-14",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Hyekyung Kim",
@@ -1766,15 +1783,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-04",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Jae Min Park",
@@ -1818,15 +1835,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Parnapalle Ravi",
@@ -1923,15 +1940,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Jingya Ding",
@@ -2189,15 +2206,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-08",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Chaofan He",
@@ -2286,11 +2303,11 @@
  },
  "10.1016/j.ces.2026.125572": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-07",
-   "Europe PMC": "2026-11-07",
-   "OpenAlex": "2026-11-07",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-07"
   },
   "ab_sources_checked": [
@@ -2299,7 +2316,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-07",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Hongping Yan",
@@ -2392,14 +2409,14 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-11",
    "Europe PMC": "2026-11-11",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Naveen Kosar",
@@ -2596,6 +2613,9 @@
    "Kui Li",
    "Xing Lu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.enchem.2026.100214",
@@ -2618,22 +2638,23 @@
    "nitrate-to-ammonia"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "电化学硝酸盐还原"
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "氟介导的 Cu 纳米簇双重配位调控用于硝酸盐到氨的电合成"
  },
  "10.1016/j.foodchem.2026.151726": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Mengmeng Guo",
@@ -2678,7 +2699,7 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-11",
    "Europe PMC": "2026-11-11",
-   "OpenAlex": "2026-11-12",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-09"
   },
   "ab_sources_checked": [
@@ -2687,7 +2708,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Jiyuan Shi",
@@ -2873,14 +2894,14 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Cecilia Pistolesi",
@@ -2922,14 +2943,14 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Mohammad Hossein Jahangir",
@@ -3142,6 +3163,9 @@
    "Xin Niu",
    "Shuping Zhang"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.jaap.2026.108257",
@@ -3164,15 +3188,16 @@
    "joule heat"
   ],
   "zh_method": "焦耳热用于制备",
-  "zh_obj": "材料制备/结构调控；涉及碳材料"
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_title": "闪蒸焦耳热辅助的生物质和塑料共热解制备石墨碳"
  },
  "10.1016/j.jacomc.2026.100312": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-05"
   },
   "ab_sources_checked": [
@@ -3181,7 +3206,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Serdar Akbayrak",
@@ -3219,14 +3244,14 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Yufeng Jiang",
@@ -3365,18 +3390,18 @@
  },
  "10.1016/j.jece.2026.125928": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Jing Zhang",
@@ -3418,14 +3443,14 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-04",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Qirui Li",
@@ -3648,6 +3673,9 @@
    "Jawza S. Alotaibi",
    "Nouf Musaad Alayfan"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.jes.2026.105893",
@@ -3670,7 +3698,8 @@
    "ammonia synthesis"
   ],
   "zh_method": "未交代供热方式",
-  "zh_obj": "制氨路线未明确"
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "单原子催化剂和定制缺陷在新型氨合成方法中的关系"
  },
  "10.1016/j.jhazmat.2026.144099": {
   "ab_check_v": 2,
@@ -3678,14 +3707,14 @@
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Bingyan Shi",
@@ -3852,6 +3881,9 @@
    "Jiangzhou Qin",
    "Baojun Liu"
   ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.jmst.2026.10.083",
@@ -3874,7 +3906,8 @@
    "ammonia electrosynthesis"
   ],
   "zh_method": "电化学驱动，不等于床层焦耳热",
-  "zh_obj": "其他催化反应"
+  "zh_obj": "其他催化反应",
+  "zh_title": "通过钴单原子增强的 Cu-Cu2O 矩阵异质界面优化氮中间体亲和力和加氢过程用于氨电合成"
  },
  "10.1016/j.matlet.2026.141936": {
   "ab_check_v": 2,
@@ -3934,15 +3967,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-01",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Chenkun Li",
@@ -3985,14 +4018,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Shuo Zhang",
@@ -4126,13 +4159,13 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Anand Mohan Verma",
@@ -5831,10 +5864,10 @@
  },
  "10.1080/00103624.2026.2762883": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-12"
   },
   "ab_sources_checked": [
@@ -5842,8 +5875,9 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-12",
-  "abstract": "",
+  "ab_try": "2026-11-14",
+  "abstract": "Despite its importance as a climate-resilient nutri-cereal, little millet has received limited attention with respect to nitrogen management and nitrogen use efficiency (NUE) studies. Excessive reliance on inorganic fertilizers often leads to poor nitrogen utilization, whereas integrated application of organic and inorganic nitrogen sources may improve nitrogen uptake and crop productivity. Therefore, a field experiment was conducted during the kharif seasons of 2023 and 2024 at the Research Farm of Advanced Center for Rainfed Agriculture, Rakh Dhiansar, Sher-e-Kashmir University of Agricultural Sciences and Technology of Jammu to evaluate the effect of cultivars and nitrogen management practices on growth, yield, nitrogen uptake and NUE of little millet. The experiment was laid out in randomized complete block design with factorial arrangement and replicated thrice, comprising three cultivars and six nitrogen treatments. Among cultivars, BL 6 (V2) recorded significantly higher growth parameters, yield attributes, grain yield, straw yield, nitrogen uptake and NUE over GPUL 6 (V1) and the local variety (V3). Among nitrogen treatments, integrated application of 10 kg ha−1 N through farmyard manure (FYM) + 30 kg ha−1 N through urea (N6) recorded significantly higher growth, yield attributes, grain yield, straw yield, nitrogen uptake, agronomic efficiency and recovery efficiency than all other treatments except 40 kg ha−1 N through urea (N2), with which it was statistically at par. However, N2 recorded the highest benefit-cost ratio. Simple linear regression revealed positive relationships of grain yield with grains per panicle (R2 = 0.99) and total nitrogen uptake (R2 = 0.93) showing the highest coefficients of determination. The results indicated that integrated application of FYM and urea improved nitrogen uptake and NUE while sustaining productivity of little millet.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Meenakshi Gupta",
    "Brinder Singh",
@@ -5852,7 +5886,7 @@
    "Dhamni Patyal"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11-11",
@@ -5873,32 +5907,34 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "对小米品种（ Panicum sumatrense L.）在雨养条件下的生长、产量、氮吸收和氮利用效率（NUE）进行了研究。实验包括三种品种和六种氮管理处理。BL 6 (V2) 品种在生长参数、产量属性、谷粒产量、秸秆产量、氮吸收和 NUE 方面显著高于 GPUL 6 (V1) 和当地品种（V3）。氮处理中，10 kg ha−1 的厩肥（FYM）+ 30 kg ha−1 的尿素（N6）显著高于其他处理，除了 40 kg ha−1 的尿素（N2），两者在统计学上相当。N2 的成本效益比最高。谷粒产量与每穗粒数（R2 = 0.99）和总氮吸收（R2 = 0.93）呈正相关，系数最高。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "集成氮管理对雨养条件下小米品种（ Panicum sumatrense L.）的产量、盈利能力和氮利用效率的影响"
  },
  "10.1080/00219592.2026.2750603": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
    "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
-  "abstract": "",
+  "ab_try": "2026-11-14",
+  "abstract": "Constrained Bayesian optimization (BO) is a promising approach for optimizing chemical processes under limited evaluation budgets. In this study, BO was applied to an ammonia production process, and three surrogate models—Gaussian process regression (GPR), random forest (RF), and Bayesian linear regression (BLR)—were systematically compared. GPR achieved the highest optimization performance in terms of best-observed profit, whereas RF provided superior robustness with consistent identification of feasible solutions. BLR showed balanced performance with lower computational cost. Sensitivity analysis revealed that system behavior is governed by a small subset of variables, indicating low effective dimensionality. This structural property explains the strong performance of GPR. In addition, the relative performance of surrogate models was found to depend on economic conditions and optimization settings, as changes in dominant variables altered model suitability. Quantitatively, GPR achieved an average best-observed profit 10.4% and 5.2% higher than RF and BLR, respectively; RF identified 40.3% more feasible solutions than GPR; and BLR required only approximately 1/13 and 1/319 of the BO computation times required by GPR and RF, respectively. These results suggest that surrogate model selection in constrained BO should be adapted to problem structure and computational requirements, rather than relying on a single model.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Koki Ito",
    "Souta Miyamoto",
    "Katsuaki Tanabe"
   ],
   "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11-11",
@@ -5921,6 +5957,7 @@
   "why": [
    "Ammonia Synthesis"
   ],
+  "zh_brief": "将贝叶斯优化（BO）应用于氨生产过程，并系统地比较了三种替代模型：高斯过程回归（GPR）、随机森林（RF）和贝叶斯线性回归（BLR）。GPR 在最佳观测利润方面实现了最高优化性能，RF 提供了更强的鲁棒性，始终识别出可行的解决方案。BLR 表现出平衡的性能，计算成本较低。敏感性分析表明，系统行为受一小部分变量控制，表明有效维度较低。这一结构特性解释了 GPR 的强大性能。此外，替代模型的相对性能取决于经济条件和优化设置，因为主导变量的变化改变了模型的适用性。定量地，GPR 的平均最佳观测利润比 RF 和 BLR 分别高 10.4% 和 5.2%；RF 识别了 40.3% 更多可行的解决方案，BLR 仅需 GPR 和 RF 的 BO 计算时间的 1/13 和 1/319。这些结果表明，在约束 BO 中选择替代模型应根据问题结构和计算需求进行调整，而不是依赖单一模型。",
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "替代模型选择和实际指南用于化学过程设计中的约束贝叶斯优化：来自氨合成模拟的见解"
@@ -6071,11 +6108,11 @@
  },
  "10.1103/3s5d-ys4b": {
   "ab_check_v": 2,
-  "ab_result": "retry",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-05",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-05"
   },
   "ab_sources_checked": [
@@ -6084,7 +6121,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "D. Murayama",
@@ -6762,14 +6799,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Rosanna Margalef Marti",
@@ -6810,14 +6847,14 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Bastien Redon",
@@ -6860,15 +6897,15 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-02",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12"
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14"
   },
   "ab_sources_checked": [
    "Crossref",
    "Europe PMC",
    "OpenAlex"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Victoria Mills",
