@@ -2065,8 +2065,8 @@
   "ab_check_v": 2,
   "ab_result": "partial",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-13",
-   "OpenAlex": "2026-11-13",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-13"
   },
   "ab_sources_checked": [
@@ -2074,7 +2074,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-13",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Xiaoyuan Sang",
@@ -2172,8 +2172,8 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
-   "Europe PMC": "2026-11-13",
-   "OpenAlex": "2026-11-13",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-13"
   },
   "ab_sources_checked": [
@@ -2182,7 +2182,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-13",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Gyeongmin Ko",
@@ -2277,6 +2277,21 @@
   "zh_title": "原子层沉积 SnxFe2-xO3 光电极：基于 Box-Behnken 设计优化的用于增强光电催化去除磺胺甲恶唑"
  },
  "10.1016/j.cej.2026.184270": {
+  "ab_check_v": 2,
+  "ab_result": "not_found",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-14",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
+   "Semantic Scholar": "2026-11-14"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Yani Dong",
@@ -3662,8 +3677,8 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
-   "Europe PMC": "2026-11-13",
-   "OpenAlex": "2026-11-13",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-13"
   },
   "ab_sources_checked": [
@@ -3672,7 +3687,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-13",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Xin Lin",
@@ -4027,8 +4042,8 @@
   "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-03",
-   "Europe PMC": "2026-11-13",
-   "OpenAlex": "2026-11-13",
+   "Europe PMC": "2026-11-14",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-13"
   },
   "ab_sources_checked": [
@@ -4037,7 +4052,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-13",
+  "ab_try": "2026-11-14",
   "abstract": "",
   "authors": [
    "Zichun Wang",
@@ -6163,10 +6178,10 @@
  },
  "10.1080/09593330.2026.2759892": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-13",
-   "OpenAlex": "2026-11-13",
+   "OpenAlex": "2026-11-14",
    "Semantic Scholar": "2026-11-13"
   },
   "ab_sources_checked": [
@@ -6174,8 +6189,9 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-13",
-  "abstract": "",
+  "ab_try": "2026-11-14",
+  "abstract": "Electrocatalytic nitrate reduction offers a promising route for removing nitrate contaminants from water while recovering nitrogen as ammonia, but its practical efficiency is limited by sluggish nitrate activation and competing hydrogen evolution. Herein, we report a strong metal–support interaction-engineered Cu/LaOx catalyst for selective nitrate-to-ammonia conversion. The optimized Cu/LaOx interface was constructed by regulating the Cu/LaOx ratio, where LaOx partially encapsulates Cu sites and induces interfacial La–O–Cu bonding, oxygen vacancies, and electronic redistribution around Cu centres. These interfacial features enhance nitrate adsorption, accelerate deoxygenation, and facilitate subsequent hydrogenation steps. As a result, the optimized 1:1Cu/LaOx-3DOMC catalyst achieves a high ammonia yield rate of 0.8961 mmol h−1 cm−2 and a Faradaic efficiency of 94.5% at −0.64 V versus reversible hydrogen electrode, markedly outperforming the LaOx-free Cu catalyst. Electrochemical analysis further reveal enhanced nitrate reduction current response, increased electrochemically active surface area, and reduced charge-transfer resistance. In situ Fourier transform infrared spectroscopy and density functional theory calculations confirm that Cu/LaOx interfacial coupling promotes *H-assisted nitrate deoxygenation and *NO hydrogenation while suppressing the competing hydrogen evolution reaction. This work demonstrates that strong metal–support interaction engineering is an effective strategy for coupling electrocatalytic nitrate removal with nitrogen resource recovery from contaminated water.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Xianyuan Xu",
    "Yucan Luo",
@@ -6188,7 +6204,7 @@
    "Cui Lai"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11-13",
@@ -6209,8 +6225,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "nitrate-to-ammonia"
   ],
+  "zh_brief": "通过调控 Cu/LaOx 比例构建优化的 Cu/LaOx 界面，LaOx 部分包覆 Cu 位点并诱导界面 La-O-Cu 键合、氧空位及电子重分布。该催化剂在 -0.64 V vs RHE 下实现 0.8961 mmol h−1 cm−2 的氨产率和 94.5% 的法拉第效率，显著优于无 LaOx 的 Cu 催化剂。原位 FTIR 和 DFT 计算证实界面耦合促进了 *H 辅助硝酸盐脱氧和 *NO 氢化，同时抑制了析氢反应。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "强金属-载体相互作用工程化的 Cu/LaO x 界面用于选择性电催化硝酸盐还原为氨"
