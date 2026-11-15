@@ -2382,6 +2382,45 @@
   "zh_obj": "光催化固氮",
   "zh_title": "FeVO4 中协同的 V4+/V5+–Fe2+/Fe3+ 双氧化还原位点与氧空位解耦 N2 活化与 H2O 解离以实现高效光催化氨合成"
  },
+ "10.1016/j.cej.2026.184294": {
+  "abstract": "",
+  "authors": [
+   "Christian Di Stasi",
+   "Esther Frecha",
+   "Jaime López-de los Ríos",
+   "Pilar Ferrer",
+   "Matthijs A. van Spronsen",
+   "Isabel Suelves",
+   "José Luis Pinilla"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.184294",
+  "first_seen": "2026-11-15T17:44:04Z",
+  "id": "10.1016/j.cej.2026.184294",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Engineering Journal",
+  "tier": "background",
+  "title": "Unraveling the role of ceria in ammonia decomposition over carbon nanofibers-supported Ru catalyst",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.184294",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系、碳材料",
+  "zh_title": "揭示碳纳米纤维负载Ru催化剂氨分解中氧化铈的作用"
+ },
  "10.1016/j.ceramint.2026.11.043": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -4248,6 +4287,59 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "MN4 掺杂 C54 富勒烯作为电催化氮还原反应单原子催化剂的 DFT 筛选"
  },
+ "10.1016/j.mcat.2026.116480": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-15",
+   "OpenAlex": "2026-11-15",
+   "Semantic Scholar": "2026-11-15"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-15",
+  "abstract": "",
+  "authors": [
+   "Jianyu Li",
+   "Yong Chen",
+   "Kaihao Fan",
+   "Yingying Jin",
+   "Yugang Ma",
+   "Mengying Liang",
+   "Xuesong Liu",
+   "Hongfeng Chen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-15",
+  "doi": "10.1016/j.mcat.2026.116480",
+  "first_seen": "2026-11-15T17:44:04Z",
+  "id": "10.1016/j.mcat.2026.116480",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Molecular Catalysis",
+  "tier": "background",
+  "title": "Ultra-low Ru doping triggers Ni/CeO2 synergy for superior low-temperature ammonia decomposition to hydrogen",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.mcat.2026.116480",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系",
+  "zh_title": "超低Ru掺杂触发Ni/CeO2协同作用实现低温氨分解制氢"
+ },
  "10.1016/j.mser.2026.101327": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -5635,6 +5727,38 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "通过时间和钼与钒循环及其对古代固氮的影响"
+ },
+ "10.1038/s41467-026-79620-4": {
+  "abstract": "Electrochemical conversion of nitrate-rich wastewater to valuable ammonium salts is promising. We report a phosphorus-mediated reverse hydrogen spillover mechanism that synchronizes nitrate-reduction and sulfate-oxidation kinetics, enabling direct electrosynthesis of ammonium persulfate.",
+  "authors": [
+   "Yaobin Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-15",
+  "doi": "10.1038/s41467-026-79620-4",
+  "first_seen": "2026-11-15T17:44:04Z",
+  "id": "10.1038/s41467-026-79620-4",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Nature Communications",
+  "tier": "background",
+  "title": "Phosphorus-mediated reverse hydrogen spillover enables rate-matched nitrate-sulfate paired electrolysis for ammonium persulfate synthesis",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1038/s41467-026-79620-4",
+  "via": "RSS·Nature Communications",
+  "watch": [],
+  "why": [],
+  "zh_brief": "针对含硝酸盐废水，研究提出一种磷介导的反向氢溢流机制，通过同步硝酸盐还原与硫酸氧化的动力学，实现过硫酸铵的直接电合成。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "磷介导的反向氢溢流实现硝酸盐-硫酸盐配对电解速率匹配以合成过硫酸铵"
  },
  "10.1038/s41893-026-01981-x": {
   "abstract": "Synthesis of valuable ammonia through photocatalytic reduction of nitrogen is a promising sustainable route, but its efficiency remains limited. This work shows that coupling the reaction with solar-driven interfacial evaporation can substantially improve ammonia yield, concentration and purity.",
