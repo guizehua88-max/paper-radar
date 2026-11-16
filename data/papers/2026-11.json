@@ -366,6 +366,47 @@
   "zh_obj": "光催化固氮；涉及Fe/铁体系",
   "zh_title": "超声工程化低配位Mn位点在Fe-MOF中促进电荷分离用于无牺牲剂的光催化N2还原"
  },
+ "10.1002/adfm.79671": {
+  "abstract": "ABSTRACT Large‐scale green hydrogen production via renewable energy‐driven exchange membrane water electrolysis is highly dependent on the development of high‐performance and low‐cost electrocatalysts. Traditional catalyst synthesis strategies suffer from lengthy fabrication procedures, limited structural modulation capability, and poor scalability for industrial deployment. As an emerging and transformative synthesis technology, rapid Joule heating (RJH) features transient ultra‐high temperatures, ultrafast heating/cooling rates, and direct energy input modes, enabling the construction of non‐equilibrium catalyst architectures with outstanding time and energy efficiency. Herein, this review comprehensively elaborates on the versatile and high‐efficiency applications of RJH in fabricating advanced electrocatalysts for proton and anion exchange membrane water electrolysis. We first systematically illustrate the fundamental working principles, typical reactor configurations, and unique synthesis superiority of the RJH technique. On this basis, we thoroughly summarize the state‐of‐the‐art RJH‐synthesized electrocatalysts toward the hydrogen evolution reaction (HER) and oxygen evolution reaction (OER), covering atomic‐level catalysts, alloy catalysts, transition‐metal X‐ides, as well as defect‐ and interface‐engineered catalytic materials. Furthermore, special emphasis is placed on the advances in RJH‐assisted high‐throughput catalyst screening and roll‐to‐roll scalable manufacturing. Finally, the current challenges restricting the RJH‐based synthesis of water electrolysis catalysts are highlighted, and prospective research directions for future development are proposed.",
+  "authors": [
+   "Wei Yan",
+   "Huamei Sun",
+   "Zhiwen Xu",
+   "Hanyang Cheng",
+   "Yi Kong",
+   "Yawen Tang",
+   "Rongtao Zhu",
+   "Gengtao Fu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1002/adfm.79671",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1002/adfm.79671",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Advanced Functional Materials",
+  "tier": "transferable",
+  "title": "From Lab to Industrial Scale‐Up: Rapid Joule Heating Synthesis of Electrocatalysts Towards Water Electrolysis",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79671",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_brief": "综述了快速焦耳加热技术在构建质子交换膜和阴离子交换膜水电解电催化剂中的应用。文章系统阐述了RJH技术的基本原理、反应器配置及其在合成原子级催化剂、合金催化剂、过渡金属X-ides以及缺陷和界面工程催化材料方面的优势，特别强调了高通量筛选和卷对卷可扩展制造方面的进展。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "析氢反应",
+  "zh_title": "从实验室到工业规模放大：用于水电解的快速焦耳加热合成电催化剂"
+ },
  "10.1002/adma.75146": {
   "abstract": "This work reduces the high energy consumption of electrocatalytic nitrate reduction to ammonia by coupling the hydrazine oxidation reaction (HzOR) with the nitrate reduction reaction (NO 3 RR). The electrocatalyst design introduces P vacancies into CoP to form an atomic-scale electric field, which enhances the activity and selectivity of both HzOR and NO 3 RR, thereby ensuring a high ammonia yield. ABSTRACT Electrochemical nitrate-to-ammonia conversion holds great promise for sustainable nitrogen fixation, yet its industrial‑level current density operation is limited by cathodic active hydrogen (*H) supply shortage and high energy consumption caused by anodic oxygen evolution reaction (OER). Here, we develop a bifunctional CoP electrocatalyst with engineered phosphorus vacancies that generate atomic-scale electric fields to enrich interfacial water molecules via enhanced hydrogen-bonding interactions, alleviating local water scarcity caused by double-layer compression under high nitrate concentrations and promoting *H generation for nitrate reduction reaction (NO 3 RR). Meanwhile, we replace OER with the thermodynamically favorable hydrazine oxidation reaction (HzOR), and the electrocatalyst promotes *OH adsorption to facilitate hydrazine dehydrogenation in HzOR. The resulting NO 3 RR||HzOR electrolyzer delivers an ammonia yield of 49.64 mg h −1 cm −2 at 500 mA cm −2 with a cell voltage of 0.962 V, and enables self-powered ammonia production at 0.769 g L −1 h −1 without external energy input. This work reveals atomic-scale electric field engineering as an effective strategy to modulate interfacial microenvironment for high-performance, low-energy ammonia electrosynthesis.",
   "authors": [
@@ -747,6 +788,46 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "电子桥增强电荷极化实现高效和超长稳定尿素电合成"
  },
+ "10.1002/anie.2640104": {
+  "abstract": "ABSTRACT Constructing artificial metalloenzymes with precisely positioned metal centers and tailored second‐sphere microenvironments remains challenging in replicating the hierarchical catalytic functions of natural enzymes. Here, we report a cofactor‐inspired second‐sphere engineering strategy to construct an artificial nanozyme, CuS 1 /CN, featuring atomically defined [3Cu−1S] motifs selectively anchored to ultrasmall Cu clusters (∼0.73 nm) within a mesoporous nitrogen‐doped carbon framework. This architecture establishes enzyme‐like catalytic compartmentalization without compromising active‐site accessibility: exposed Cu sites mimic nitrate reductase for nitrate activation and water dissociation, while adjacent [3Cu−1S] motifs function as cofactor‐like centers that orchestrate interfacial hydration, facilitating proton‐coupled electron transfer and hydrogen relay during downstream hydrogenation. The engineered second‐sphere microenvironment overcomes the intrinsic *NO 2 ‐to‐*NO 2 H bottleneck and shifts the rate‐determining step to *NH 2 O‐to‐*NH 2 OH conversion with a substantially reduced energy barrier. Consequently, CuS 1 /CN enables highly efficient and selective ammonia electrosynthesis under neutral conditions at industrially relevant current densities with long‐term stability. Its integration into a Zn−NO 3 − battery further enables simultaneous nitrate conversion and electricity generation. This work establishes cofactor‐inspired second‐sphere engineering as a general strategy for designing artificial enzymes with programmable catalytic microenvironments beyond conventional active‐site engineering.",
+  "authors": [
+   "Yi Zhong",
+   "Doufeng Wang",
+   "Haiyi Yang",
+   "Xiaojie Chen",
+   "Fuzhan Song",
+   "Jian‐Ke Sun",
+   "Xinchun Yang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1002/anie.2640104",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1002/anie.2640104",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 13,
+  "source": "Angewandte Chemie International Edition",
+  "tier": "background",
+  "title": "Cofactor‐Inspired Second‐Sphere Engineering of Artificial Metalloenzymes for Neutral Ammonia Synthesis",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.2640104",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "报道了一种辅因子启发的第二球工程策略，构建了具有原子级定义[3Cu-1S]基序的CuS1/CN仿生纳米酶。该材料在介孔氮掺杂碳框架内锚定超小Cu簇，通过暴露的Cu位点模拟硝酸盐还原酶进行硝酸盐活化，邻近的[3Cu-1S]基序作为辅因子中心促进界面水合和质子耦合电子转移。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料",
+  "zh_title": "辅因子启发的第二球工程构建用于中性氨合成的仿生金属酶"
+ },
  "10.1002/anie.3751410": {
   "abstract": "Nitro functional group was incorporated into NiFe-MOF ligands near metal sites, which undergo a simple and direct oxidation to NO 3 − and subsequently anchored on the reconstructed γ-NiFeOOH phase. The anchored NO 3 − not only forms a robust Cl − -repelling interface but also activates lattice oxygen to drive the efficient lattice-oxygen-mediated pathway for active and durable seawater electrolysis. ABSTRACT Chloride ions (Cl − )-induced corrosion severely limits the practical implementation of direct seawater electrolysis. Although oxyanion incorporation can mitigate Cl − poisoning, existing approaches offer limited control over oxyanion generation and retention during catalyst reconstruction. Herein, we report a MOF-based ligand-engineering strategy that enables defined oxyanion incorporation into reconstructed metal oxyhydroxides for active and durable seawater electrolysis. Nitro- (NO 2 ) functionalized ligands are incorporated into a NiFe-MOF precursor, where the NO 2 group undergo a simple and direct oxidation to nitrate (NO 3 − ) during electrochemical reconstruction, enabling well-defined NO 3 − regulation of the reconstructed γ-NiFeOOH phase. The anchored NO 3 − not only forms a robust Cl − -repelling interface but also activates lattice oxygen to drive a mechanistic transition from an adsorbate evolution mechanism to a more efficient lattice-oxygen-mediated pathway. The designed catalyst achieves excellent oxygen evolution reaction performance in alkaline seawater, requiring an overpotential of only 230 mV to reach a current density of 500 mA cm −2 , outperforming its NO 3 − -free counterpart. It also exhibits high durability, operating for over 4000 h at 1.5 A cm −2 with an ultralow degradation rate of 1.8 µV h −1 . Furthermore, a kilowatt-level alkaline seawater electrolyzer equipped with the designed electrode operates stably for over 1100 h under industrially relevant conditions.",
   "authors": [
@@ -978,6 +1059,43 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "电催化稀硝酸氧化物还原到氨：从界面调控到反应器工程"
+ },
+ "10.1002/cctc.71167": {
+  "abstract": "ABSTRACT MgO‐supported Co catalysts with Co/Co+Mg ratios of 5–20 at.% were investigated for ammonia decomposition, combining catalytic testing with quasi‐in situ and operando characterization, including x‐ray powder diffraction, total scattering/PDF analysis, x‐ray photoelectron spectroscopy (XPS), and x‐ray absorption spectroscopy (XAS). The initial phase composition strongly determines the activation pathway and, subsequently, the catalytic performance. The calcined pre‐catalysts consist of Mg 1−x Co x O solid solution and, at higher Co loadings, an additional spinel‐type oxide phase assigned to MgCo 2 O 4 and/or Co 3 O 4 . In situ diffraction, operando PDF, and XAFS reveal that the spinel‐type species are readily reduced to metallic Co during activation at 800°C, whereas Co 2+ species stabilized in the solid solution require higher temperatures for complete reduction. Quasi‐in situ XPS after reduction at 650°C probes only limited metallic Co formation, highlighting the importance of high‐temperature activation. The catalytic activity increases with Co loading and correlates with the amount of metallic Co generated during activation rather than with Co concentration alone. The most active 20% Co/MgO catalyst achieved 88% NH 3 conversion at 550°C and remained stable over 60 h. These results establish a structure–property relationship for Co/MgO catalysts and highlight the key properties in designing efficient noble metal‐free catalysts for ammonia decomposition.",
+  "authors": [
+   "Christos Sidiropoulos",
+   "Jan Ternieden",
+   "Sebastian Leiting",
+   "Claudia Weidenthaler"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1002/cctc.71167",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1002/cctc.71167",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ChemCatChem",
+  "tier": "background",
+  "title": "Structure–Property Relationship of Cobalt‐Based Catalysts for Ammonia Decomposition: Operando X‐Ray Studies",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/cctc.71167",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_brief": "研究了负载在MgO上的Co催化剂（Co/Co+Mg比例为5-20 at.%），结合催化测试与原位表征。研究发现初始相组成决定了活化路径，在800°C活化时，尖晶石物种易还原为金属Co，而固溶体中的Co2+需要更高温度。20% Co/MgO催化剂在550°C下实现了88%的NH3转化率和60小时稳定性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "氨分解钴基催化剂的结构-性能关系：原位X射线研究"
  },
  "10.1002/chem.71875": {
   "abstract": "ABSTRACT The production of hydrogen from chemical hydrides has garnered significant interest as a sustainable method for producing clean energy. The hydrolysis of ammonia borane (NH 3 BH 3 , AB) under mild reaction conditions was assessed in this work using a highly active Ru–Ni alloy catalyst supported on CeO 2 . As‐synthesized Ru–Ni/CeO 2 with different metal contents was used as a heterogeneous catalyst for the mild hydrolytic dehydrogenation of AB. At 298 K, the optimal catalyst is Ru 0.5 Ni 1.25 /CeO 2 , which demonstrated exceptional catalytic activity with a TOF value of 1226.0 mol H2 min − 1 . The calculated apparent activation energy was 37.5 kJ mol −1 , which is even lower than that of the majority of noble‐metal‐based catalysts for AB dehydrogenation. Strong electronic interactions and synergistic effects between Ru and Ni led to the formation of a bimetallic alloy structure with increased catalytic activity when Ni was incorporated into Ru. The dispersion and stability of the nanoparticles were enhanced by CeO 2 ’s strong metal–support interactions, and high oxygen storage capacity, which made it an efficient support. Additionally, after several catalytic cycles, the catalyst showed exceptional structural stability with little activity loss. This study demonstrates the potential of Ru–Ni/CeO 2 as an economical and effective catalyst for applications involving the production of hydrogen.",
@@ -1310,6 +1428,51 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "锂介导的氮还原的电解质添加剂工程"
+ },
+ "10.1007/s11581-026-07612-x": {
+  "abstract": "",
+  "authors": [
+   "Jianlin Liang",
+   "Quanqiang Yuan",
+   "Yuanjie Qin",
+   "Zhe Luo",
+   "Haorong Quan",
+   "Na Liu",
+   "Ting Li",
+   "Bingkun Zang",
+   "Xuting Mo",
+   "Xucai Yin",
+   "Kelei Huang",
+   "Zhangfa Tong",
+   "Yang Ren"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1007/s11581-026-07612-x",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1007/s11581-026-07612-x",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Ionics",
+  "tier": "transferable",
+  "title": "Confined intercalation and non-equilibrium joule heating conversion synergistically constructing SiOx@C composite for lithium storage",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1007/s11581-026-07612-x",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "joule heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "过程待核实",
+  "zh_title": "受限插层与非平衡焦耳加热转化协同构建用于锂存储的 SiOx@C 复合材料"
  },
  "10.1007/s11814-026-00878-x": {
   "ab_check_v": 2,
@@ -3413,6 +3576,40 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "用于氨合成与分解的钌催化剂的描述符引导设计：从助剂到界面"
  },
+ "10.1016/j.ijhydene.2026.158579": {
+  "abstract": "",
+  "authors": [
+   "Wasim Ullah Khan",
+   "Adriana Marinoiu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1016/j.ijhydene.2026.158579",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1016/j.ijhydene.2026.158579",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Ammonia Decomposition as a Hydrogen Carrier Technology: Advances in Catalyst Development",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158579",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "氨分解作为氢载体技术：催化剂开发的进展"
+ },
  "10.1016/j.isci.2026.118154": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -4397,6 +4594,43 @@
   "zh_obj": "其他催化反应",
   "zh_title": "通过钴单原子增强的 Cu-Cu2O 矩阵异质界面优化氮中间体亲和力和加氢过程用于氨电合成"
  },
+ "10.1016/j.jpowsour.2026.241904": {
+  "abstract": "",
+  "authors": [
+   "Yibing Liu",
+   "Yuxuan Wu",
+   "Ying Wang",
+   "Peng Yu",
+   "Lei Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1016/j.jpowsour.2026.241904",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1016/j.jpowsour.2026.241904",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Power Sources",
+  "tier": "background",
+  "title": "Multi-site structural engineering for enhanced nitrate-to-ammonia electroreduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jpowsour.2026.241904",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate-to-ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "多位点结构工程增强硝酸盐到氨的电还原"
+ },
  "10.1016/j.matlet.2026.141936": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -4609,6 +4843,59 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "用于硝酸根电还原制氨的双原子催化剂：从反应机理到规模化生产"
+ },
+ "10.1016/j.mtchem.2026.104161": {
+  "abstract": "Coupling block copolymer self-assembly with ultrafast Joule heating enables second-scale crystallization of ordered mesoporous oxides while preserving long-range mesoscopic order. Using this strategy, we synthesize long-range ordered mesoporous magnesium-aluminum oxide frameworks at low magnesium contents exhibiting defect spinel-related nanocrystalline structures. Ex situ isothermal holds at 1000 to 1155 °C reveal rapid crystallite enlargement followed by a plateau in apparent crystallite size. In pure γ-alumina, this early saturation, together with retention of the ordered mesostructure, is consistent with geometrically constrained crystallite growth. Magnesium incorporation enables further crystallite enlargement before saturation, yielding larger defect-spinel-related domains while retaining long-range mesoscopic order. We further demonstrate the incorporation of in situ crystallized platinum nanoparticles within the ordered magnesium-aluminum oxide framework and their activity for methylcyclohexane dehydrogenation at 350 °C. These results demonstrate that ultrafast Joule heating can access distinct crystallization trajectories in compositionally modified mesoporous oxides that are precluded by mesostructural collapse during conventional furnace heating.",
+  "authors": [
+   "Leyan Wang",
+   "Qihang Chen",
+   "Hossein Akhoundzadeh",
+   "Yong Quan Yeo",
+   "Geok Leng Seah",
+   "Yee Yan Tay",
+   "Teddy Salim",
+   "Pio J.S. Buenconsejo",
+   "Edward W. Corcoran",
+   "Adam K. Usadi",
+   "Jonathan M. McConnachie",
+   "David T. Moore",
+   "Zhong Chen",
+   "Rong Xu",
+   "Kwan W. Tan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1016/j.mtchem.2026.104161",
+  "first_seen": "2026-11-02T20:48:05Z",
+  "id": "10.1016/j.mtchem.2026.104161",
+  "kind": "journal",
+  "origin": "日常",
+  "preprint": {
+   "id": "10.26434/chemrxiv-2024-p1txk/v2",
+   "source": "ChemRxiv",
+   "url": "https://doi.org/10.26434/chemrxiv-2024-p1txk/v2"
+  },
+  "published_seen": "2026-11-16T21:03:07Z",
+  "score": 18,
+  "source": "Materials Today Chemistry",
+  "tier": "transferable",
+  "title": "Joule Heating Induced Structural Evolution of Ordered Mesoporous Mg-Al Spinel-Related Oxides",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.mtchem.2026.104161",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_brief": "利用超快闪蒸焦耳热耦合自组装策略，在保留长程介观有序的同时实现了有序介孔氧化物的秒级结晶。研究在低镁含量下合成了具有缺陷尖晶石相关纳米晶结构的有序介孔镁铝氧化物框架，并发现镁的掺入能显著促进晶粒生长。此外，该研究展示了铂纳米颗粒在框架内的原位结晶及其在350 °C下对甲基环己烷脱氢的活性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应"
  },
  "10.1016/j.proci.2026.106741": {
   "abstract": "This study assesses the Incompletely Stirred Reactor Network (ISRN) approach in terms of accuracy in capturing the scalar distributions in an ammonia-fuelled staged combustor employing various degrees of NH 3 partial cracking, characterised by the molar ammonia decomposition ratio (DR). Underlying solutions from Large Eddy Simulation with Conditional Moment Closure (LES-CMC) with D R = 0.25 for 10 bar and D R = 0.50 for 5 bar are used to explore the behaviour of the combustor at varying D R at the range 0.1 < DR < 0.9 at constant pressure without repeating the CFD simulation. The basic hypothesis is that the mixing field does not change significantly as the fuel changes, which enables the exploration of parameter spaces with a single reference LES-CMC simulation. The ISRN model accurately predicts temperature and NOx distributions across the full range of D R tested, showing good agreement with both LES-CMC and experiment. The sensitivity to the chemical mechanism is also explored and it is found that NOx is predicted similarly from all schemes tested. The results suggest that ISRN can be used as a low-order model for ammonia combustor emissions, which facilitates the design process and provides insights to the flame structure as operating parameters change. Novelty and significance statement: This work demonstrates the first application of the combined framework of Large Eddy Simulation-Conditional Moment Closure (LES-CMC) with Incompletely Stirred Reactor Network (ISRN) modelling approach to predict NOx emission in an ammonia-fuelled laboratory-scale high pressure (10 bar) gas turbine combustor. ISRN is a computationally efficient, low-order model that incorporates detailed chemistry, mixture fraction spatial inhomogeneities, and chemistry evolution as a function of space. Using LES-CMC as a high-fidelity reference CFD solution, ISRN explores the operating parameter space, in this case, the NH 3 decomposition ratio at the fuel inlet, while maintaining agreement with experimental and LES-CMC predictions. The approach also allows a quick evaluation of the impact of the chemical mechanism used on NOx formation without having to repeat expensive CFD calculations.",
@@ -6446,6 +6733,42 @@
   "zh_obj": "电化学亚硝酸盐还原",
   "zh_title": "用于增强电催化亚硝酸盐制氨的高熵空心氧化物球"
  },
+ "10.1039/d6ta07318b": {
+  "abstract": "Electrochemical ammonia oxidation reaction (AOR) on noble and non-noble metal-based anodes often leads to non-selective N-containing products like N2, N2O, and NOx. Herein, Schafarzikite-type FeSb2O4, prepared under mild hydrothermal conditions,...",
+  "authors": [
+   "Deepak Kumar Sahu",
+   "Hirak Kumar Basak",
+   "Pralok K. Samanta",
+   "Asit Dutta",
+   "Biswarup Chakraborty"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1039/d6ta07318b",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.1039/d6ta07318b",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "Nitrate Electrosynthesison Cation-Vacancy-Rich FeSb2O4 Microrods via Controlled Ammonia Dehydrogenation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6ta07318b",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "在温和水热条件下制备Schafarzikite型FeSb2O4微棒，利用其丰富的阳离子空位促进氨脱氢反应，从而高效电合成硝酸盐。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "通过受控氨脱氢在富阳离子空位FeSb2O4微棒上电合成硝酸盐"
+ },
  "10.1039/d6ta07397b": {
   "abstract": "Ammonia is a critical bulk commodity chemical for sustaining the growing global population. Despite the maturity of the traditional Haber-Bosch ammonia synthesis process, its heavy fossil fuel dependence and high...",
   "authors": [
@@ -7043,53 +7366,6 @@
   "zh_obj": "其他催化反应",
   "zh_title": "碳二卡宾同素异形体作为零维碳平台用于小分子活化与氮气转化为氨"
  },
- "10.26434/chemrxiv-2024-p1txk/v2": {
-  "abstract": "Coupling block copolymer self-assembly with ultrafast Joule heating enables second-scale crystallization of ordered mesoporous oxides while preserving long-range mesoscopic order. Using this strategy, we synthesize long-range ordered mesoporous magnesium-aluminum oxide frameworks at low magnesium contents exhibiting defect spinel-related nanocrystalline structures. Ex situ isothermal holds at 1000 to 1155 °C reveal rapid crystallite enlargement followed by a plateau in apparent crystallite size. In pure γ-alumina, this early saturation, together with retention of the ordered mesostructure, is consistent with geometrically constrained crystallite growth. Magnesium incorporation enables further crystallite enlargement before saturation, yielding larger defect-spinel-related domains while retaining long-range mesoscopic order. We further demonstrate the incorporation of in situ crystallized platinum nanoparticles within the ordered magnesium-aluminum oxide framework and their activity for methylcyclohexane dehydrogenation at 350 °C. These results demonstrate that ultrafast Joule heating can access distinct crystallization trajectories in compositionally modified mesoporous oxides that are precluded by mesostructural collapse during conventional furnace heating.",
-  "authors": [
-   "Leyan Wang",
-   "Qihang Chen",
-   "Hossein Akhoundzadeh",
-   "Yong Quan Yeo",
-   "Geok Leng Seah",
-   "Yee Yan Tay",
-   "Teddy Salim",
-   "Pio Buenconsejo",
-   "Edward Corcoran",
-   "Adam Usadi",
-   "Jonathan McConnachie",
-   "David Moore",
-   "Zhong Chen",
-   "Rong Xu",
-   "Kwan W. Tan"
-  ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "abstract",
-  "brief_v": 4,
-  "cross": false,
-  "date": "2026-11-02",
-  "doi": "10.26434/chemrxiv-2024-p1txk/v2",
-  "first_seen": "2026-11-02T20:48:05Z",
-  "id": "10.26434/chemrxiv-2024-p1txk/v2",
-  "kind": "preprint",
-  "origin": "日常",
-  "score": 18,
-  "source": "ChemRxiv",
-  "tier": "transferable",
-  "title": "Joule Heating Induced Structural Evolution of Ordered Mesoporous Mg-Al Spinel-Related Oxides",
-  "top": false,
-  "topics": [
-   "joule"
-  ],
-  "url": "https://doi.org/10.26434/chemrxiv-2024-p1txk/v2",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Joule Heat"
-  ],
-  "zh_brief": "利用超快闪蒸焦耳热耦合自组装策略，在保留长程介观有序的同时实现了有序介孔氧化物的秒级结晶。研究在低镁含量下合成了具有缺陷尖晶石相关纳米晶结构的有序介孔镁铝氧化物框架，并发现镁的掺入能显著促进晶粒生长。此外，该研究展示了铂纳米颗粒在框架内的原位结晶及其在350 °C下对甲基环己烷脱氢的活性。",
-  "zh_method": "未交代供热方式",
-  "zh_obj": "其他催化反应"
- },
  "10.26434/chemrxiv.15011542/v1": {
   "abstract": "This study compares the alternating-magnetic-field (AMF) heating of Fe3O4-, MnFe2O4-, MgFe2O4-, and SrFe12O19-targeted nanoparticle preparations and of their sequentially silica-modified, aminated, Aufunctionalized, and PEG-treated forms. The compositions are identified by their nominal synthesis precursors. Temperature–time curves and the times required to reach 42 °C were measured in water and in nominally 1% agar phantoms under identical induction-generator settings (132 kHz; 5 kW rated output). Among the untreated preparations, the Mg-labeled series reached 42 °C fastest (145 s in water and 187 s in agar), whereas the Srlabeled series was the slowest (222 and 293 s, respectively). For the Mg-labeled particles, increasing the concentration from 2.5 to 10 mg mL 1 shortened the time to 42 °C from 394 to 77 s in water and from 381 to 112 - s in agar. In water, the aminated Mn-, Mg-, and Sr-labeled samples heated fastest within their respective surfacetreatment series (139, 124, and 209 s), whereas the unmodified Fe-labeled core was fastest within the Fe series (171 s). The PEG-treated specimens exhibited the longest times in all four water-based series. FTIR, SEM, and EDX analyses characterized the successive surface-treatment stages, including the detection of Au after functionalization. Together, these findings clarify how precursor-defined ferrite composition, concentration, surface treatment, and surrounding medium influence magnetic heating under matched apparatus conditions.",
   "authors": [
@@ -7160,6 +7436,83 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "通过废水氨太阳能电化学剥离生产分布式肥料的技经与地空评估"
+ },
+ "10.26434/chemrxiv.15012231/v1": {
+  "abstract": "Single-atom catalysts (SACs) are built from a small set of sites, most often a metal held by four nitrogens, while enzymes run hydrogen evolution, O2 and CO2 reduction and N2 fixation on single metals in many different first coordination shells. Here we mine that diversity. SACred, an automated pipeline built and run with AI agents, reduces every transition-metal site of the Protein Data Bank (PDB) to its first coordination shell, turns the recurring shells into candidate SAC sites and screens them in a funnel: each shell is mapped onto a single or double vacancy in graphene, screened with GFN2-xTB calibrated per metal against DFT, refined with PBE-D3 DFT for hydrogen adsorption (∆GH), formation energy (Ef) and dissolution potential (Udiss), simulated at 1,500 K with a fine-tuned MACE force field and checked against the literature by agents. From 291,977 metal sites in 53,868 PDB entries the pipeline builds 1,155 graphene sites for xTB and 123 for DFT. We validate each stage. Extraction agrees with the PDB’s own metal–ligand annotation (precision 0.98, recall 0.94). The mapping keeps all donors for 98 % of the sites but distorts single-vacancy geometries. In a prospective test, sites picked by calibrated xTB reached |∆GH| ≤ 0.3 eV in DFT in 67 % of cases, against 39 % for sites picked from enzyme knowledge alone and 44 % for a random sample from the xTB window (p = 0.06 and 0.07), and the whole xTB stage cost about 400 core-hours, as much as four to five",
+  "authors": [
+   "Frederic Schubert",
+   "Anna Silvestrova"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-15",
+  "doi": "10.26434/chemrxiv.15012231/v1",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.26434/chemrxiv.15012231/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 9,
+  "source": "ChemRxiv",
+  "tier": "uncertain",
+  "title": "SACred: mining the Protein Data Bank for single-atom catalyst sites",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.26434/chemrxiv.15012231/v1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "N2 fixation"
+  ],
+  "zh_brief": "开发了一种名为SACred的自动化AI管道，用于从蛋白质数据库中筛选潜在的金属单原子位点。该工具将过渡金属位点映射到石墨烯的单或双空位上，利用GFN2-xTB和PBE-D3 DFT方法筛选氢吸附能、形成能和溶解电位，最终从291,977个位点中筛选出1,155个候选位点。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "析氢反应",
+  "zh_title": "SACred：从蛋白质数据库挖掘单原子催化剂位点"
+ },
+ "10.26434/chemrxiv.15012256/v1": {
+  "abstract": "Achieving selective nitrate-to-ammonia electrosynthesis requires more than accelerating nitrate activation: the catalyst must sustain eight-electron reduction while preventing premature intermediate release and competing hydrogen evolution. Yet controlling these competing processes through the molecular architecture surrounding well-defined metal centers remains challenging. Here, we report the first application of gold nanocluster covalent organic frameworks (COFs) to electrocatalytic nitrate-to-ammonia conversion, establishing reticular connectivity as a strategy for programming catalytic electronic environments. Four crystalline frameworks (KIN-1–KIN-4) were constructed from a common pyrazolate-bridged Au3 cluster and structurally differentiated organic linkers. Despite preserving predominantly Au(I) centers, the frameworks exhibit distinct frontier electronic-state distributions, pore architectures, and electrochemical selectivities. The triformylphloroglucinol-linked KIN-2 delivers a near-unity ammonia Faradaic efficiency of 99.5% at −0.70 V versus the reversible hydrogen electrode, with an ammonia productivity of 0.75 mg h-1 cm-2 and only 0.8% Faradaic efficiency toward nitrite. Isotopic labeling verifies nitrate-derived ammonia formation, while in situ attenuated total reflectance surfaceenhanced infrared absorption spectroscopy and differential electrochemical mass spectrometry reveal evolving reactionassociated signatures. Density functional theory identifies preferential *NO hydrogenation through *NHO rather than NOH, with respective uphill free-energy increments of 0.66 and 1.36 eV, alongside unfavorable hydrogen adsorption (ΔGH* = +1.62 eV). These findings demonstrate that reticular construction can differentiate reaction energetics without changing the metal’s formal oxidation state, offering a molecular design principle for directing multielectron electrocatalysis toward desired products.",
+  "authors": [
+   "Tsukasa Irie",
+   "Hayato Orui",
+   "Bindhya Krishna R",
+   "Sourav Ghosh",
+   "Tasuku Hamaguchi",
+   "Koji Yonekura",
+   "Ranjit Thapa",
+   "Saikat Das",
+   "Yuichi Negishi"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.26434/chemrxiv.15012256/v1",
+  "first_seen": "2026-11-16T21:03:07Z",
+  "id": "10.26434/chemrxiv.15012256/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 9,
+  "source": "ChemRxiv",
+  "tier": "background",
+  "title": "Reticular Programming of Gold Nanocluster Electronic States Enables Near-Unity Faradaic Efficiency in Nitrate-to-Ammonia Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.26434/chemrxiv.15012256/v1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_brief": "利用金纳米团簇共价有机框架构建四种晶体框架，通过网状连接编程催化电子环境。KIN-2在-0.70 V下实现99.5%的法拉第效率和0.75 mg h-1 cm-2的氨产率，仅0.8%的法拉第效率生成亚硝酸盐。理论计算表明优先通过*NHO氢化实现硝酸盐还原。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "金纳米团簇电子态的网状编程实现硝酸盐到氨电合成近100%的法拉第效率"
  },
  "10.26599/nr.2026.94909308": {
   "abstract": "Abstract The electrocatalytic reduction of nitric oxide (NO) to ammonia (NH3) offers a sustainable, low-temperature alternative to the energy and carbon-intensive Haber-Bosch process, simultaneously facilitating green NH3 synthesis and environmental remediation under ambient conditions. This study reports the development of a metal-organic framework (MOF)-derived, hierarchically engineered hollow polyhedral CoP/Ni2P bimetallic phosphide catalyst with high activity toward the nitric oxide reduction reaction (NORR) in both neutral and acidic media. Importantly, the catalytic activity is significantly improved in acidic conditions with an NH3 yield of 68.28 μmol∙cm-2∙h-1 and Faradaic efficiency (FE) of 65.4% at −1.05 V vs reversible hydrogen electrode (vs. RHE). The acid-enhanced performance highlights the important role of proton concentration in the NO hydrogenation steps. In addition, the CoP/Ni2P-based gas diffusion cathode in a Zn-NO battery system serves as a concentration-universal energy conversion platform that achieves high open circuit potentials of 1.56 V (neutral) and 2.00 V (acidic) with peak power densities of 2.39 mW∙cm-2 and 3.34 mW∙cm-2, respectively. Through density functional theory calculations, it is revealed that the built-in electric field-induced optimization of the d-band center at the CoP/Ni2P heterogeneous interface is determined by charge rearrangement towards Fermi level alignment. The width and shape of the d-band are correlated with the position of its center, which in turn tunes the adsorption free energies of key reaction intermediates. This study demonstrates the viability of integrating environmental pollutant remediation with sustainable ammonia production and concurrent power generation within a unified electrochemical cell and establishes MOF-derived bimetallic phosphides as a novel class of efficient NORR electrocatalysts.",
