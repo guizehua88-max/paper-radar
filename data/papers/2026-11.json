@@ -245,6 +245,89 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
+ "10.1002/adfm.78855": {
+  "abstract": "Ultrafast FJH anchors ultralow-loading PtRu alloy nanoclusters on defect-rich MoO x , where alloying and MoO x -mediated EMSI create an electron-deficient interface that balances water activation and intermediate conversion. The catalyst reorganizes alkaline interfacial water into a surface-coupled, hydrogen-bond-connected hydration layer, enabling fast HER kinetics, high noble-metal utilization, and durable AEMWE operation under practical electrolyzer conditions. ABSTRACT Renewable-powered water electrolysis is pivotal to sustainable hydrogen production, yet the alkaline hydrogen evolution reaction (HER) remains kinetically sluggish at high current densities. This limitation stems not only from the extra water-dissociation step, but also from an unfavorable interfacial water microenvironment that hampers charge transport—challenges that become even more pronounced at ultralow noble-metal loadings. Herein, an ultralow-loading PtRu alloy nanocluster catalyst on heterophase MoO x (PtRu/MoO x ) synthesized by ultrafast flash Joule heating (FJH) is reported. This nonequilibrium thermal shock drives PtRu alloying, preserves a defect-rich interface, and establishes a pronounced electronic metal-support interaction (EMSI) that renders the alloy surface electron-deficient. Operando spectroscopy and density functional theory (DFT) calculations reveal that this electron-deficient surface strengthens water adsorption, balances water dissociation with intermediate conversion, and promotes the evolution of interfacial water from isolated, cation-dominated motifs into a surface-coupled, hydrogen-bond-connected network. Consequently, PtRu/MoO x requires only 56.15 mV to reach 100 mA cm −2 in 1 M KOH; as the cathode in an anion exchange membrane water electrolyzer, it achieves 1.836 V at 1.0 A cm −2 and operates stably for over 2000 h at 0.5 A cm −2 . This work provides a viable strategy for ultralow-loading cathodes by synergistically coupling alloying-governed reaction energetics with interfacial-water microenvironment engineering.",
+  "authors": [
+   "Zhaoran Yuan",
+   "Jintao Gu",
+   "Lijuan Zhu",
+   "Jilong Xu",
+   "Haihua Luo",
+   "Jinheng Hu",
+   "Jun Hu",
+   "Bingbao Mei",
+   "Hui Zhang",
+   "Peiyu Ma",
+   "Xin Li",
+   "Jiawei Ge",
+   "Xian Wang",
+   "Yifan Ye"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1002/adfm.78855",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1002/adfm.78855",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Advanced Functional Materials",
+  "tier": "transferable",
+  "title": "PtRu Alloying‐Mediated Reconstruction of Adsorption‐Conversion Landscape and Interfacial Water for Durable Alkaline Hydrogen Evolution",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1002/adfm.78855",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_brief": "利用超快闪蒸焦耳热在缺陷丰富的 MoOx 上锚定超低负载量的 PtRu 合金纳米团簇，建立了电子缺乏的界面以平衡水分解与中间体转化。该催化剂将碱性界面水重排为表面耦合的氢键连接水合层，在 1 M KOH 中仅需 56.15 mV 过电位即可达到 100 mA cm-2，并在阴极交换膜水电解器中实现了 1.836 V 的性能。",
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "析氢反应",
+  "zh_title": "PtRu 合金介导的吸附-转化景观与界面水重构以实现耐用的碱性析氢"
+ },
+ "10.1002/adfm.78950": {
+  "abstract": "The electrochemical potential window strategy allows to selectively boost C−N coupling to urea and inhibits the over-hydrogenation of intermediates, which is realized on a multi-site NbCo 3 intermetallic compound through imposing a dynamic strain effect on intermediates. ABSTRACT Electrochemical co-reduction of nitrogen (N 2 ) and carbon dioxide (CO 2 ) under ambient conditions offers a sustainable route for urea synthesis, while this desirable pathway suffers from selectivity challenge because of an inferior competition with numerous parallel reactions. Available strategy to selectively boost urea electrosynthesis and suppress the competitive reactions is absent, because they share the same intermediates which are limited by the well-established scaling relations. Herein, we design a multi-site NbCo 3 intermetallic compound, which imposes a dynamic strain effect on intermediates to break the scaling relations, achieving to gather radical intermediates to participate in C−N coupling while preventing their further protonation. Based on constant potential density functional theory (CP-DFT) computations, an electrochemical potential window is evolved that NbCo 3 (001) obtains a prior selectivity toward urea electrosynthesis when the electrode potential is below −0.25 V versus the reversible hydrogen electrode (RHE). This work provides an available strategy to improve the catalytic selectivity of urea electrosynthesis, which accelerates the development of highly efficient catalysts.",
+  "authors": [
+   "Tian‐Yi Dai",
+   "Tong‐Hui Wang",
+   "Qing Jiang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1002/adfm.78950",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1002/adfm.78950",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Breaking Scaling Relations to Achieve an Electrochemical Potential Window Strategy for Highly Selective Urea Electrosynthesis From N2 and CO2",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.78950",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [
+   "reduction of nitrogen"
+  ],
+  "zh_brief": "研究者在室温下利用多位点 NbCo3 金属间化合物，通过施加动态应变效应打破标度关系，实现了 N2 和 CO2 共还原的高选择性尿素合成。基于恒电位密度泛函理论计算，当电极电位低于 -0.25 V vs RHE 时，NbCo3 (001) 表现出对尿素合成的优先选择性。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "打破标度关系以实现从 N2 和 CO2 高选择性电合成尿素的电化学电位窗口策略"
+ },
  "10.1002/adfm.79405": {
   "abstract": "Dual FeCo and FeNi alloy nanoparticles are exsolved from a multi-doped Fe-based perovskite anode for high-performance direct ammonia solid oxide fuel cells. The dual-alloy surface coordinates electronic structure modulation and nanoparticle morphology control, providing abundant reaction sites and complementary catalytic functions for NH 3 decomposition, NH x dehydrogenation, and N 2 removal. Consequently, the R-LSBMFCN anode delivers efficient NH 3 utilization, suppressed anode polarization, and stable direct ammonia solid oxide fuel cell operation. ABSTRACT Direct ammonia solid oxide fuel cells (DA-SOFCs) offer an integrated route for carbon-free power generation by coupling in situ ammonia decomposition with electrochemical hydrogen oxidation. However, anode catalysts must simultaneously achieve rapid NH 3 decomposition, efficient electrochemical charge transfer, and long-term resistance to nitridation and particle coarsening. Here, we report an Fe-based perovskite multi-doped with Co and Ni, La 0.6 Sr 0.2 Ba 0.2 Mn 0.2 Fe 0.6 Co 0.1 Ni 0.1 O 3 (P-LSBMFCN), as a precursor for dual-alloy exsolved DA-SOFC anodes. Upon H 2 reduction, P-LSBMFCN transforms into a Ruddlesden-Popper (RP) layered oxide decorated with highly dispersed FeCo and FeNi alloy nanoparticles (R-LSBMFCN). Co and Ni multi-doping directs the reduction-induced nucleation and alloying pathway, reducing the average nanoparticle size from 129.3 nm for the Fe-only reference to 48.3 nm for R-LSBMFCN while increasing nanoparticle density. The resulting dual-alloy architecture provides abundant accessible active sites and electronically tuned metal surfaces, accelerating NH 3 activation, NH x intermediate conversion, and N recombination/desorption. Consequently, R-LSBMFCN exhibits the lowest apparent activation energy, nearly complete NH 3 conversion at high temperature, and maximum power densities of 1.638 and 1.386 W cm −2 under H 2 and NH 3 at 800°C, respectively, with stable operation for 200 h under NH 3 . This work demonstrates multi-doping-induced dual-alloy exsolution as an effective strategy for durable DA-SOFC anodes.",
   "authors": [
@@ -406,6 +489,48 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "析氢反应",
   "zh_title": "从实验室到工业规模放大：用于水电解的快速焦耳加热合成电催化剂"
+ },
+ "10.1002/adfm.79686": {
+  "abstract": "ABSTRACT Selective electrochemical reduction of nitrate to ammonia under ambient conditions is promising yet hindered by a kinetic mismatch between nitrate activation and the supply of active hydrogen required for successive hydrogenation of oxygenated intermediates. Here, we show that tuning the Cu support environment at a carbon‐confined interface effectively boosts the catalytic performance of iron phthalocyanine (FePc). Partial extraction of Cu nanocubes (e‐Cu) within N‐doped carbon (NC) reduces Cu─Cu coordination and increases porosity, driving a stronger electronic interaction with subsequent FePc incorporation. The optimized FePc/e‐Cu@NC catalyst achieves an exceptional NH 3 yield rate of 8.75 mg h −1 mg cat −1 with a Faradaic efficiency of 94.6% at −0.6 V vs. the reversible hydrogen electrode in 0.5 M K 2 SO 4 containing 0.1 M KNO 3 , with sustained performance over 30 consecutive 1 h cycles. Mechanistic studies, including nitrite‐feed kinetics, spin trapping, in situ spectroscopy, and density functional theory (DFT) calculations, link the improved performance to enhanced reactive‐hydrogen availability and more favorable deoxygenation energetics at the FePc–Cu interface. This work establishes the support coordination environment as a critical descriptor for tandem electrocatalysis, offering a support‐engineering strategy for molecular–metal interfaces.",
+  "authors": [
+   "Zilin Li",
+   "Yueying Chu",
+   "Xiting Yue",
+   "Yung‐Kang Peng",
+   "Muchun Xu",
+   "Tian Tian",
+   "Ruiqi Cheng",
+   "Honglei Zhang",
+   "Guangchao Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-17",
+  "doi": "10.1002/adfm.79686",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1002/adfm.79686",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Carbon‐Confined Iron Phthalocyanine–Copper Interfaces Promote Selective Nitrate‐to‐Ammonia Conversion",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79686",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_brief": "研究利用碳限制界面调控铜载体环境，通过部分提取氮掺杂碳中的立方体铜纳米颗粒，增强与铁酞菁的电子相互作用。优化后的催化剂在0.5 M K2SO4含0.1 M KNO3溶液中，于-0.6 V电位下实现了8.75 mg h−1 mg cat−1的氨产率和94.6%的法拉第效率，并持续稳定30次循环。机理研究结合动力学、自旋捕获、原位光谱和DFT计算，证实性能提升源于界面处活性氢可用性和脱氧能垒的改善。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
+  "zh_title": "碳限制铁酞菁-铜界面促进选择性硝酸盐-氨转化"
  },
  "10.1002/adma.75146": {
   "abstract": "This work reduces the high energy consumption of electrocatalytic nitrate reduction to ammonia by coupling the hydrazine oxidation reaction (HzOR) with the nitrate reduction reaction (NO 3 RR). The electrocatalyst design introduces P vacancies into CoP to form an atomic-scale electric field, which enhances the activity and selectivity of both HzOR and NO 3 RR, thereby ensuring a high ammonia yield. ABSTRACT Electrochemical nitrate-to-ammonia conversion holds great promise for sustainable nitrogen fixation, yet its industrial‑level current density operation is limited by cathodic active hydrogen (*H) supply shortage and high energy consumption caused by anodic oxygen evolution reaction (OER). Here, we develop a bifunctional CoP electrocatalyst with engineered phosphorus vacancies that generate atomic-scale electric fields to enrich interfacial water molecules via enhanced hydrogen-bonding interactions, alleviating local water scarcity caused by double-layer compression under high nitrate concentrations and promoting *H generation for nitrate reduction reaction (NO 3 RR). Meanwhile, we replace OER with the thermodynamically favorable hydrazine oxidation reaction (HzOR), and the electrocatalyst promotes *OH adsorption to facilitate hydrazine dehydrogenation in HzOR. The resulting NO 3 RR||HzOR electrolyzer delivers an ammonia yield of 49.64 mg h −1 cm −2 at 500 mA cm −2 with a cell voltage of 0.962 V, and enables self-powered ammonia production at 0.769 g L −1 h −1 without external energy input. This work reveals atomic-scale electric field engineering as an effective strategy to modulate interfacial microenvironment for high-performance, low-energy ammonia electrosynthesis.",
@@ -708,6 +833,47 @@
   "zh_obj": "过程待核实",
   "zh_title": "分级焦耳加热反应器中选择性聚烯烃转化为乙烯"
  },
+ "10.1002/anie.1519163": {
+  "abstract": "Electrostatic focusing within a copper-halide cluster directs reactive hydrogen toward nitrate-bound sites, enabling selective nitrate reduction to ammonia across pH 1–13. A localized electrostatic potential minimum favors nitrate hydrogenation while limiting competing hydrogen evolution. ABSTRACT Achieving pH-universal electroreduction of nitrate to ammonia remains a fundamental obstacle for practical nitrate remediation in aqueous environments. The central challenge is to achieve efficient utilization of the scarce reactive hydrogen (*H) under alkaline conditions while preventing *H recombination that promotes hydrogen evolution in acidic media. Herein, electrostatic focusing is introduced to regulate the directional delivery of *H toward nitrate-bound sites through the electrostatic potential (ESP) landscape established upon nitrate coordination. A copper-halide cluster catalyst achieves selective nitrate electroreduction across pH 1–13, delivering NH 3 Faradaic efficiencies (FE) of 92.9%–100%. Electrochemical, spectroscopic, and density functional theory (DFT) analyses reveal that nitrate binding generates a single, localized ESP minimum at the nitrate oxygen, which biases *H delivery toward productive hydrogenation. Moreover, quantitative correlations between ESP extrema and pH-dependent onset potentials indicate that an appropriately moderated ESP magnitude promotes proton-sensitive hydrogenation kinetics. This work establishes electrostatic focusing as a viable strategy for achieving pH-universal and selective nitrate electroreduction.",
+  "authors": [
+   "Xiao‐Hui Liu",
+   "Xia Liang",
+   "Wen‐Jie Zhang",
+   "Jiang‐Kun Guo",
+   "Hai‐Yang Yu",
+   "Bao‐Ying Feng",
+   "Can Xue",
+   "Xian‐Tai Zhou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1002/anie.1519163",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1002/anie.1519163",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Angewandte Chemie",
+  "tier": "background",
+  "title": "Electrostatic Focusing Enables Directed Active Hydrogen Delivery for pH‐Universal Nitrate Electroreduction",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.1519163",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [
+   "nitrate to ammonia"
+  ],
+  "zh_brief": "铜卤化物簇催化剂通过静电聚焦将活性氢定向传递至硝酸盐结合位点，实现了pH 1–13范围内硝酸盐选择性还原为氨。硝酸盐结合产生的局部静电势最小值促进了硝酸盐氢化，抑制了析氢竞争反应，法拉第效率高达92.9%–100%。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "静电聚焦实现pH通用硝酸盐电还原的定向活性氢传递"
+ },
  "10.1002/anie.1880547": {
   "abstract": "ABSTRACT Continuous lithium‐mediated nitrogen reduction reaction (Li‐NRR), which integrates anodic hydrogen oxidation with cathodic nitrogen fixation, opens a viable pathway for ambient ammonia synthesis. Nevertheless, its long‐term and efficient operation remains tremendously challenging due to severe solvent issues including polymerization, volatilization, and reductive decomposition. Here, we fundamentally uncover the intrinsic reductive decomposition mechanism of solvent molecules in ion–solvent complex‐dominated electrolytes, and develop a weak‐solvent modulation strategy to significantly enhance the reduction stability of solvent frameworks toward durable and efficient Li‐NRR operation. The optimized weakly solvating electrolyte attenuates solvent molecule distortion by Li + and promotes the formation of an anion‑enriched solvation sheath and a nanocrystalline LiF‑rich solid electrolyte interphase (SEI). Such a functional SEI layer effectively suppresses solvent decomposition on the cathode and constructs a fast Li + transport network via abundant surface pathways and grain boundaries, which synergistically improves Li plating kinetics and nitrogen fixation efficiency, as well as stability. Benefiting from these optimizations, we achieve stable and continuous N 2 electroreduction over 300 h. Meanwhile, the system delivers a high NH 3 Faradaic efficiency of 69.5% and an improved energy efficiency up to 23.2%. This work provides an effective molecular design strategy that significantly enhances the energy efficiency and stability of Li‐NRR.",
   "authors": [
@@ -830,6 +996,51 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "电子桥增强电荷极化实现高效和超长稳定尿素电合成"
+ },
+ "10.1002/anie.2390339": {
+  "abstract": "An In–Bi catalyst is developed for efficient electrochemical synthesis of glycine via C–N coupling of oxalic acid and nitrate. Oxophilic In sites act as an “active hydrogen pump” to accelerate H 2 O dissociation and supply *H, while the Bi matrix promotes glyoxylic acid oxime (GAO) adsorption. The synergistic effect enables a glycine Faradaic efficiency of 83.3% and an industrial-level current density of 361.3 mA cm −2 . ABSTRACT Direct electrochemical C–N coupling of abundant carbon and nitrogen feedstocks offers a sustainable route to glycine synthesis, yet achieving high efficiency remains challenging. Here, we develop an In–Bi catalyst by incorporating oxophilic indium (In) into a bismuth (Bi) matrix. During the co-reduction of oxalic acid and NO 3 − , the In–Bi catalyst delivers an exceptional Faradaic efficiency toward glycine (FE Glycine ) of 83.3% with an industrial-level current density of 361.3 mA cm −2 , together with a glycine production rate of 4.3 mol h −1 g cat. −1 . It outperforms pristine Bi and previously reported state-of-the-art catalysts. Large-scale glycine electrosynthesis is further demonstrated over a 10 cm 2 In–Bi electrode, achieving a total current of 1.5 A with FE Glycine of 68.5% and yielding 1.4 g of glycine in 6 h. Mechanistically, oxalic acid and NO 3 − first form glyoxylic acid oxime (GAO). Subsequently, In sites act as an “active hydrogen pump” to accelerate H 2 O dissociation, providing abundant surface-active hydrogen (*H) for efficient GAO hydrogenation to glycine. Meanwhile, the incorporation of In modulates the electronic structure of the Bi matrix, enhancing GAO adsorption and electron transfer. The synergistic regulation of *H supply and electronic structure accelerates the conversion of GAO to glycine, resulting in superior performance of In–Bi.",
+  "authors": [
+   "Jiankang Liu",
+   "Hengan Wang",
+   "Zhonghua Wu",
+   "Zongren Song",
+   "Zhongnan Ling",
+   "Shuming Zhou",
+   "Shiju Yu",
+   "Mingxin Gao",
+   "Yanjia Wang",
+   "Xiaoxue Ma",
+   "Dawei Fang",
+   "Xueqing Xing",
+   "Xinchen Kang",
+   "Buxing Han"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1002/anie.2390339",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1002/anie.2390339",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Angewandte Chemie",
+  "tier": "background",
+  "title": "Enhanced Electrochemical C–N Coupling for Glycine Synthesis via an Active Hydrogen Pump",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.2390339",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [],
+  "zh_brief": "开发了一种In–Bi催化剂用于通过草酸和硝酸盐的电化学C–N偶联高效合成甘氨酸。氧化亚铟位点作为“活性氢泵”加速H2O解离并供应*H，铋基体促进草酰酸肟吸附。协同效应实现了83.3%的甘氨酸法拉第效率和361.3 mA cm−2的工业级电流密度。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "通过活性氢泵增强甘氨酸合成的电化学C–N偶联"
  },
  "10.1002/anie.2640104": {
   "abstract": "ABSTRACT Constructing artificial metalloenzymes with precisely positioned metal centers and tailored second‐sphere microenvironments remains challenging in replicating the hierarchical catalytic functions of natural enzymes. Here, we report a cofactor‐inspired second‐sphere engineering strategy to construct an artificial nanozyme, CuS 1 /CN, featuring atomically defined [3Cu−1S] motifs selectively anchored to ultrasmall Cu clusters (∼0.73 nm) within a mesoporous nitrogen‐doped carbon framework. This architecture establishes enzyme‐like catalytic compartmentalization without compromising active‐site accessibility: exposed Cu sites mimic nitrate reductase for nitrate activation and water dissociation, while adjacent [3Cu−1S] motifs function as cofactor‐like centers that orchestrate interfacial hydration, facilitating proton‐coupled electron transfer and hydrogen relay during downstream hydrogenation. The engineered second‐sphere microenvironment overcomes the intrinsic *NO 2 ‐to‐*NO 2 H bottleneck and shifts the rate‐determining step to *NH 2 O‐to‐*NH 2 OH conversion with a substantially reduced energy barrier. Consequently, CuS 1 /CN enables highly efficient and selective ammonia electrosynthesis under neutral conditions at industrially relevant current densities with long‐term stability. Its integration into a Zn−NO 3 − battery further enables simultaneous nitrate conversion and electricity generation. This work establishes cofactor‐inspired second‐sphere engineering as a general strategy for designing artificial enzymes with programmable catalytic microenvironments beyond conventional active‐site engineering.",
@@ -1901,6 +2112,56 @@
   "zh_obj": "过程待核实",
   "zh_title": "APTES介导的Fe-N配位调控Fe单原子选择性光催化还原硝酸盐至N2的电子结构"
  },
+ "10.1016/j.apcatb.2026.127791": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-17"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-17",
+  "abstract": "",
+  "authors": [
+   "Zhipeng Pei",
+   "Yaqi Liu",
+   "Peilin Huang",
+   "Fei He",
+   "Jiacheng Li",
+   "Yitingyu Zhou",
+   "Jie Wang",
+   "Yuhao Zhao",
+   "Gang Zhou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.1016/j.apcatb.2026.127791",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1016/j.apcatb.2026.127791",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Catalysis B: Environmental",
+  "tier": "background",
+  "title": "Dynamic self-healing metal-organic frameworks for efficient electrocatalytic nitrate to ammonia conversion",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apcatb.2026.127791",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "nitrate to ammonia"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "用于高效电催化硝酸盐-氨转化的动态自修复金属有机框架"
+ },
  "10.1016/j.apenergy.2026.129211": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -2779,6 +3040,104 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢；涉及Ru/钌体系、碳材料",
   "zh_title": "揭示碳纳米纤维负载Ru催化剂氨分解中氧化铈的作用"
+ },
+ "10.1016/j.cej.2026.184314": {
+  "abstract": "Electrocatalytic nitrate reduction to ammonia proceeds through sequential NO3-→NO2- and NO2-→NH3 transformations, which consume two and six electrons, respectively. Under galvanostatic operation, the fixed total electron flux constrains these coupled steps; however, how their relative kinetics regulate intermediate accumulation and ammonia production remains insufficiently understood. Here, a series of CuxMoy bimetallic electrodes was prepared by electrochemical co-deposition to investigate this relationship. Time-dependent concentration profiles of NO3-, NO2-, and NH3 were fitted using a sequential two-step kinetic model to quantify the apparent kinetics of nitrite formation and consumption. The analysis shows that k1 governs the supply of nitrite, whereas k2 determines its consumption and thereby regulates product distribution. Efficient ammonia production requires matching these two processes: rapid nitrate reduction alone leads to nitrite accumulation when subsequent conversion is insufficient, whereas inadequate nitrate activation limits the intermediate supply for ammonia formation. The optimized Cu0.05Mo0.10 electrode achieved a Faradaic efficiency of 96.9% and an ammonia production rate of 0.33 mmol cm-2 h-1 at 80 mA·cm-2 in 1 M KOH containing 0.05 M NO3-. Material characterization and density functional theory calculations indicate that Cu facilitates nitrate adsorption, while Mo modulates the adsorption of key hydrogenation intermediates. This work establishes a galvanostatic kinetic framework that connects catalyst composition, two-step reaction kinetics, and the use of a finite electron supply in nitrate-to-ammonia conversion.",
+  "authors": [
+   "Weijia Li",
+   "Chijian Lin",
+   "Jiancheng He",
+   "Changzheng Lin",
+   "Hao Xu",
+   "Jiangtao Feng",
+   "Bo Hou",
+   "Mingtao Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.184314",
+  "first_seen": "2026-10-29T08:07:55Z",
+  "id": "10.1016/j.cej.2026.184314",
+  "kind": "journal",
+  "origin": "回填",
+  "preprint": {
+   "id": "10.2139/ssrn.7552551",
+   "source": "SSRN",
+   "url": "https://doi.org/10.2139/ssrn.7552551"
+  },
+  "published_seen": "2026-11-17T19:51:54Z",
+  "score": 9,
+  "source": "Chemical Engineering Journal",
+  "tier": "background",
+  "title": "Unveiling the Kinetic Matching Relation in CuxMoy Bimetallic Catalysts for Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.184314",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "通过电化学共沉积制备了一系列Cu_xMo_y双金属电极，利用顺序双步动力学模型拟合NO3-、NO2-和NH3的时间依赖性浓度分布，量化了亚硝酸盐生成与消耗的动力学。优化后的Cu0.05Mo0.10电极在80 mA·cm-2下实现了96.9%的法拉第效率和0.33 mmol cm-2 h-1的产氨率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "揭示用于硝酸盐还原制氨的Cu_xMo_y双金属催化剂的动力学匹配关系"
+ },
+ "10.1016/j.cej.2026.184388": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-17",
+  "abstract": "",
+  "authors": [
+   "Jianping Xue",
+   "Bolang Cheng",
+   "Danyao Qu",
+   "Bohao Liu",
+   "Jinyong Hu",
+   "Han Jin",
+   "Weiwei Wu",
+   "Yong Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.184388",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1016/j.cej.2026.184388",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Chemical Engineering Journal",
+  "tier": "background",
+  "title": "Molecular spacer-enabled interlayer adsorption in MXene for ultrasensitive room-temperature trace ammonia sensing",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.184388",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "MXene中分子间隔层介导的层间吸附用于超灵敏室温痕量氨传感"
  },
  "10.1016/j.ceramint.2026.11.043": {
   "ab_check_v": 2,
@@ -3686,6 +4045,42 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "用于氨合成与分解的钌催化剂的描述符引导设计：从助剂到界面"
  },
+ "10.1016/j.ijhydene.2026.158571": {
+  "abstract": "This study presents a techno-economic optimization of green ammonia (NH 3 ) production in Kenya and Tunisia. In each country, two renewable energy (RE) locations are assessed for an ammonia plant linked to an export opportunity: one site with the most favorable renewable resources and one located near the demand site. The better renewable potential offsets the higher transmission cost associated with longer distances, leading to Levelized Cost of Ammonia (LCOA) of 1258 €/t NH3 and 1542 €/t NH3 at the resource-optimal sites compared with 1350 €/t NH3 and 1601 €/t NH3 for RE generation near the demand site in Kenya and Tunisia, respectively. The results strongly depend on the weighted average cost of capital (WACC), transmission distance, and power line cost. Locating ammonia synthesis at the RE site and transporting ammonia to the demand site may further reduce LCOA.",
+  "authors": [
+   "Johann Fetköter",
+   "Benedikt Häckner",
+   "Lukas Jansen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.1016/j.ijhydene.2026.158571",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1016/j.ijhydene.2026.158571",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Levelized Cost of Renewable Ammonia in Kenya and Tunisia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158571",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "本研究对肯尼亚和突尼斯的绿色氨生产进行了技术经济优化，评估了两个可再生能源位置。在资源最优站点，氨的平准化成本分别为1258 €/t NH3和1542 €/t NH3，而靠近需求端的站点成本分别为1350 €/t NH3和1601 €/t NH3。结果表明，LCOA强烈依赖于加权平均资本成本、传输距离和输电线路成本，将合成厂建在可再生能源站点并运输氨可进一步降低成本。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "肯尼亚和突尼斯可再生氨的平准化成本"
+ },
  "10.1016/j.ijhydene.2026.158579": {
   "ab_check_v": 2,
   "ab_result": "not_found",
@@ -3702,7 +4097,7 @@
    "Semantic Scholar"
   ],
   "ab_try": "2026-11-16",
-  "abstract": "",
+  "abstract": "Ammonia decomposition represents a critical pathway for clean hydrogen production in the transition toward sustainable energy systems. As a hydrogen carrier, ammonia possesses exceptional advantages including high energy density and hydrogen content, ease of liquefaction, low cost, and widespread availability. This review systematically evaluates both noble and non-noble metal-based catalysts for ammonia decomposition reactions, examining kinetic characteristics, reaction mechanisms, and major factors influencing catalytic behavior. The review systematically evaluates how synthesis techniques, metal loading, support morphology, promoter type, and operating conditions interact across various catalyst systems. Key findings show that non-precious metal catalysts offer comparable activity to ruthenium-based systems while enabling cost-effective scale-up, making them critical for advancing practical ammonia decomposition technology. Finally, the review highlights the growing role of artificial intelligence-driven catalyst design and techno-economic evaluation in bridging the gap between laboratory-scale catalyst development and industrial implementation of ammonia decomposition technology.",
   "authors": [
    "Wasim Ullah Khan",
    "Adriana Marinoiu"
@@ -3989,6 +4384,44 @@
   "zh_obj": "氨硼烷水解",
   "zh_title": "通过选择性表面还原构建CoNi合金/高熵氧化物异质结用于快速可见光驱动氨硼烷甲醇解"
  },
+ "10.1016/j.jcat.2026.117293": {
+  "abstract": "",
+  "authors": [
+   "Rami Jubeili",
+   "Sawyer d’Entremont",
+   "Wyatt Schnare",
+   "Natascha Miederhoff",
+   "M. Andrea Ortiz Medrano",
+   "D. Chester Upham"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jcat.2026.117293",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1016/j.jcat.2026.117293",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Catalysis",
+  "tier": "background",
+  "title": "Stabilizing step-edge-rich ruthenium nanoparticles via SiO2 encapsulation for hydrogen generation from ammonia decomposition",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jcat.2026.117293",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系",
+  "zh_title": "通过SiO2包封稳定富含阶梯边缘的钌纳米颗粒用于氨分解制氢"
+ },
  "10.1016/j.jcis.2026.141853": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -4138,6 +4571,57 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "四元合金铜-镍-钴-锌中的协同驱动电子调制用于增强电催化硝酸盐至氨的生产"
+ },
+ "10.1016/j.jcis.2026.142024": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-17",
+  "abstract": "",
+  "authors": [
+   "Axin Lu",
+   "Xiaobo Ma",
+   "Rui Su",
+   "Xuezhi Li",
+   "Ying Han",
+   "Chao Hu",
+   "Shujiang Ding",
+   "Jieshan Qiu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jcis.2026.142024",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1016/j.jcis.2026.142024",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Colloid and Interface Science",
+  "tier": "background",
+  "title": "Engineering surface-exposed iron single-atom sites in porous carbon via molten salt templating for nitrate electroreduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jcis.2026.142024",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
+  "zh_title": "通过熔盐模板工程化多孔碳中表面暴露的铁单原子位点用于硝酸盐电还原制氨"
  },
  "10.1016/j.jece.2026.125928": {
   "ab_check_v": 2,
@@ -4298,6 +4782,54 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "锂介导的氮还原反应中的质子管理"
+ },
+ "10.1016/j.jechem.2026.10.085": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-17",
+  "abstract": "",
+  "authors": [
+   "Xinqi Wang",
+   "Anxin Lin",
+   "Tingting Lian",
+   "Liang-Xin Ding",
+   "Gao-Feng Chen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jechem.2026.10.085",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1016/j.jechem.2026.10.085",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Energy Chemistry",
+  "tier": "uncertain",
+  "title": "Towards high-energy-efficiency metal-mediated nitrogen reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jechem.2026.10.085",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "迈向高能量效率的金属介导的氮还原"
  },
  "10.1016/j.jechem.2026.11.001": {
   "ab_check_v": 2,
@@ -6749,6 +7281,46 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "Cu–Co 电子协同效应在 Cu 掺杂 CoCO3 中实现高性能电催化硝酸根还原制氨"
  },
+ "10.1039/d6qi02224c": {
+  "abstract": "NO 3 RR requires coordinated nitrate activation, nitrite reduction, and hydrogenation. This review highlights the roles of working-state evolution, catalytic-function regulation, and system-level optimization in selective and stable NH 3 synthesis.",
+  "authors": [
+   "Junxin Lan",
+   "Shuyun Yan",
+   "Haojun Sun",
+   "Fuda Chen",
+   "Xingkun Fu",
+   "Yanjun Xue",
+   "Shaowen Wu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-17",
+  "doi": "10.1039/d6qi02224c",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.1039/d6qi02224c",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Inorganic Chemistry Frontiers",
+  "tier": "background",
+  "title": "Dynamic active sites and multidimensional regulation in electrocatalytic nitrate reduction for ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6qi02224c",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "综述了电催化硝酸盐还原合成氨过程中工作态演变、催化功能调控和系统级优化在选择性及稳定氨合成中的作用。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "电催化硝酸盐还原合成氨中的动态活性位点和多维调控"
+ },
  "10.1039/d6ra07025f": {
   "abstract": "A new method was developed for green ammonia production by integrating ultrasound-assisted nitrogen activation and electrochemical NO x reduction to NH 3 .",
   "authors": [
@@ -7491,6 +8063,90 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "基于钼基MXene控制竞争性氮还原与析氢反应选择性的原子尺度洞察"
  },
+ "10.20517/energymater.2026.252": {
+  "abstract": "Regulating Pt-support electronic coupling is crucial for improving the activity, durability, and Pt utilization of hydrogen evolution reaction (HER) electrocatalysts. However, the weak electronic interaction between Pt nanoparticles and conventional carbon supports in commercial platinum-on-carbon (Pt/C) limits further performance enhancement. Herein, we report a two-dimensional Sn nanosheet-supported Pt nanoparticle catalyst (Pt/Sn NSs) constructed by liquid-phase exfoliation and atomic layer deposition. Structural and surface chemical analyses reveal pronounced interfacial electronic coupling between Pt nanoparticles and the Sn-based support. Combined with density functional theory calculations, the results demonstrate Sn-to-Pt interfacial charge redistribution and enhanced Pt stabilization on Sn nanosheets. Benefiting from this strengthened Pt-support electronic interaction, Pt/Sn NSs exhibit superior HER performance compared to commercial Pt/C in both acidic and alkaline media, requiring only 28 mV in 0.5 M H2SO4 and 37 mV in 1.0 M KOH to reach 10 mA cm-2, with Tafel slopes of 13.5 and 35.7 mV dec-1, respectively. The calculations further show support-induced modulation of the Pt electronic structure, a more nearly thermoneutral H* adsorption state, and more favorable reaction thermodynamics for the key HER steps. This work demonstrates that electronically interactive Sn nanosheets provide an effective support-engineering platform for regulating Pt-based HER electrocatalysis.",
+  "authors": [
+   "Yifan Huang",
+   "Hailin Jiao",
+   "Bowen Bai",
+   "Lin Zhao",
+   "Li Liu",
+   "Tao Yu",
+   "Futang Li",
+   "Min Zhao",
+   "Jingkun Wang",
+   "Quan Bai",
+   "Jin Li",
+   "Xuesong Leng"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-17",
+  "doi": "10.20517/energymater.2026.252",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.20517/energymater.2026.252",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Energy Materials",
+  "tier": "transferable",
+  "title": "Electronically active Sn nanosheets enable Sn-to-Pt interfacial charge redistribution for acidic and alkaline hydrogen evolution",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.20517/energymater.2026.252",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_brief": "通过液相剥离和原子层沉积构建了二维 Sn 纳米片负载的 Pt 纳米颗粒催化剂，利用密度泛函理论计算证实了 Sn 到 Pt 的界面电荷重分布和 Pt 的稳定增强。该催化剂在 0.5 M H2SO4 和 1.0 M KOH 中仅需 28 mV 和 37 mV 的过电位即可达到 10 mA cm-2，表现出优于商用 Pt/C 的析氢性能。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "析氢反应；涉及碳材料、原子层沉积",
+  "zh_title": "具有电子活性的 Sn 纳米片实现 Sn 到 Pt 的界面电荷重分布以用于酸性和碱性析氢"
+ },
+ "10.20944/preprints202611.1550.v1": {
+  "abstract": "The bulk and surface properties of cobalt metal-containing solids used as heterogeneous catalysts are summarized. Data on bulk cobalt (nano)particles, Raney cobalt catalysts, and cobalt supported on alumina, silica, titania, ceria, zirconia, magnesia, zinc oxide, zeolites, and other oxidic carriers, as well as on carbon-based materials, are described and discussed. The practical industrial applications as well as the potential applications proposed in the literature for such materials are critically discussed. In particular, the application of cobalt metal-based catalysts for hydrogenation of carbon oxides (including the Fischer-Tropsch process), the steam reforming of hydrocarbons and oxygenated compounds, the hydrogenations and dehydrogenations of hydrocarbons, oxygenated compounds and nitrogenated compounds (including ammonia synthesis and decomposition) are reviewed and discussed. The applicability of these ferromagnetic materials as a substitute for substitutes for the more expensive noble metal-based catalysts for many technologies is, as well as the potential application of Co and Co-Ni and Co-Fe alloy catalysts for magnetic induction heated endothermic reactions, such as natural gas steam reforming and alkane dehydrogenations, are underlined. Similarly, these magnetic catalysts can be applied to liquid phase slurry reactions with magnetic catalyst separation.",
+  "authors": [
+   "Guido Busca",
+   "Elena Spennati",
+   "Paola Riani",
+   "Gabriella Garbarino"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.20944/preprints202611.1550.v1",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.20944/preprints202611.1550.v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 15,
+  "source": "Preprints.org",
+  "tier": "transferable",
+  "title": "Cobalt Metal-Based Solid Catalytic Materials: Properties and Industrial Applications",
+  "top": false,
+  "topics": [
+   "nh3",
+   "joule"
+  ],
+  "url": "https://doi.org/10.20944/preprints202611.1550.v1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis",
+   "magnetic induction heat"
+  ],
+  "zh_brief": "综述了钴金属基固体催化剂的体相与表面性质，涵盖纳米颗粒、雷尼钴及钴负载于氧化铝、二氧化硅、二氧化钛、氧化铈、氧化锆、氧化镁、氧化锌、沸石等载体及碳基材料上的数据。文章讨论了其在碳氧化物加氢（包括费托合成）、烃类及含氧化合物蒸汽重整、烃类及含氧化合物与含氮化合物的加氢与脱氢（包括氨合成与分解）中的应用，并强调了这些铁磁材料作为昂贵贵金属催化剂替代品的潜力，以及用于磁感应加热吸热反应（如天然气蒸汽重整和烷烃脱氢）的应用前景。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
+  "zh_title": "基于钴金属的固体催化材料：性质与工业应用"
+ },
  "10.2118/235635-ms": {
   "abstract": "Abstract Green ammonia projects face increasing challenges in progressing from conceptual development toward bankable execution, requiring coordinated development across technology, infrastructure, safety assurance, and commercial pathways. This paper presents the outcome of an ongoing front-end development program for a compact floating green ammonia FPSO-type facility. It discusses how mature technologies can be selected for floating applications, modularized, marinized, and integrated with safety-led design to support a scalable and bankable infrastructure model. The development incorporates contributions from the project developer, the design and fabrication contractor, and an independent classification and technical assurance partner. Market-driven design considerations include renewable power availability, geographical location, export route, and potential offtake markets. The technical scope includes approximately 500 MW renewable power intake, high-voltage distribution, hydrogen production, nitrogen generation, ammonia synthesis, refrigerated storage, utilities, marine systems, and offloading interfaces. Safety studies comprise HAZID, layout review, safety screening, and coarse quantitative risk assessment covering hydrogen and ammonia major accident hazards, including hydrogen accumulation and explosion risk, ammonia toxic dispersion, compact layout constraints, marine offloading interfaces, and nearshore risk exposure. The paper demonstrates how technical readiness, commercial readiness, and safety and regulatory readiness can be matured together to progress the concept beyond Approval in Principle toward an execution-ready project definition.",
   "authors": [
@@ -7750,6 +8406,102 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "金纳米团簇电子态的网状编程实现硝酸盐到氨电合成近100%的法拉第效率"
  },
+ "10.26434/chemrxiv.15012258/v1": {
+  "abstract": "The oxygen evolution reaction (OER) limits the efficiency of alkaline water electrolysis, and the rational design of non-precious-metal anodes requires an understanding of how a dopant modifies an oxide surface. Although atomically dispersed catalysts (ADCs) offer high intrinsic activity, precise synthesis and characterization of their local active sites remain challenging. Surface doping provides a tractable alternative for probing intrinsic activity and correlating it with the dopant coordination environment. Here we use plasma-enhanced atomic layer deposition (PE-ALD) to deposit sub-monolayer doses of Fe and Co on ultrathin SnNiOx films grown on fluorine-doped tin oxide (FTO). We vary the Fe and Co dopant coordination environment using oxidizing (O2) or reducing (H2) plasma as an independent variable on the dopant deposition step. In the PE-ALD surface doping step, the host chemistry is held fixed, and the",
+  "authors": [
+   "Ina Østrøm",
+   "Marco Favaro",
+   "Jhair P. Prada",
+   "Nicholas M. Bedford",
+   "B. Koch",
+   "Luís Henrique da Silveira Lacerda",
+   "Patrick Burr",
+   "Bram Hoex"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.26434/chemrxiv.15012258/v1",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.26434/chemrxiv.15012258/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 15,
+  "source": "ChemRxiv",
+  "tier": "transferable",
+  "title": "Plasma-Enhanced Surface Doping SnNiOx Nanofilms for Water Oxidation",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.26434/chemrxiv.15012258/v1",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_brief": "利用等离子增强原子层沉积在氟掺杂氧化锡基底上沉积亚单层剂量的 Fe 和 Co，通过氧化或还原等离子体调控掺杂剂的配位环境。研究揭示了掺杂对氧化物表面性质的影响，为理解非贵金属阳极的构效关系提供了有效途径。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应；涉及Fe/铁体系、原子层沉积",
+  "zh_title": "用于析氧反应的等离子增强表面掺杂 SnNiOx 纳米薄膜"
+ },
+ "10.26434/chemrxiv.15012292/v1": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-17",
+  "abstract": "",
+  "authors": [
+   "Sébastien Paloc",
+   "Linda De Marchi",
+   "Eachann Assendjee",
+   "Luca Demonti",
+   "Nicolas Casaretto",
+   "Iker del Rosal",
+   "Laurent Maron",
+   "Gregory Danoun",
+   "Thomas Simler",
+   "Grégory Nocton"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-16",
+  "doi": "10.26434/chemrxiv.15012292/v1",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.26434/chemrxiv.15012292/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 28,
+  "source": "ChemRxiv",
+  "tier": "direct",
+  "title": "Uranium Hydride Complexes for Dinitrogen Activation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.26434/chemrxiv.15012292/v1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Dinitrogen Activation"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "用于活化二氮的铀氢化物配合物"
+ },
  "10.26599/nr.2026.94909308": {
   "abstract": "Abstract The electrocatalytic reduction of nitric oxide (NO) to ammonia (NH3) offers a sustainable, low-temperature alternative to the energy and carbon-intensive Haber-Bosch process, simultaneously facilitating green NH3 synthesis and environmental remediation under ambient conditions. This study reports the development of a metal-organic framework (MOF)-derived, hierarchically engineered hollow polyhedral CoP/Ni2P bimetallic phosphide catalyst with high activity toward the nitric oxide reduction reaction (NORR) in both neutral and acidic media. Importantly, the catalytic activity is significantly improved in acidic conditions with an NH3 yield of 68.28 μmol∙cm-2∙h-1 and Faradaic efficiency (FE) of 65.4% at −1.05 V vs reversible hydrogen electrode (vs. RHE). The acid-enhanced performance highlights the important role of proton concentration in the NO hydrogenation steps. In addition, the CoP/Ni2P-based gas diffusion cathode in a Zn-NO battery system serves as a concentration-universal energy conversion platform that achieves high open circuit potentials of 1.56 V (neutral) and 2.00 V (acidic) with peak power densities of 2.39 mW∙cm-2 and 3.34 mW∙cm-2, respectively. Through density functional theory calculations, it is revealed that the built-in electric field-induced optimization of the d-band center at the CoP/Ni2P heterogeneous interface is determined by charge rearrangement towards Fermi level alignment. The width and shape of the d-band are correlated with the position of its center, which in turn tunes the adsorption free energies of key reaction intermediates. This study demonstrates the viability of integrating environmental pollutant remediation with sustainable ammonia production and concurrent power generation within a unified electrochemical cell and establishes MOF-derived bimetallic phosphides as a novel class of efficient NORR electrocatalysts.",
   "authors": [
@@ -7867,6 +8619,48 @@
   "zh_brief": "该研究建立了基于无人机多光谱框架的烟草叶片干物质、氮浓度及氮营养指数估算模型，通过2023–2024年田间实验筛选关键关系，在2024年独立验证中R²达到0.826，并推荐了97.12 kg N ha−1的平均施氮量以优化产量和变异性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.3390/catal16111024": {
+  "abstract": "Ammonia decomposition enables point-of-use hydrogen supply and therefore offers a practical route to avoid many of the storage and transport constraints of molecular hydrogen. Herein, Ni catalysts loaded on HZSM-5, γ-Al2O3, Al2O3-ZrO2, and SiO2 were synthesized by incipient wetness impregnation and examined by complementary characterization methods to relate catalyst structure to ammonia decomposition behavior. Among the investigated materials, Ni/SiO2 delivered the best performance, reaching 78.1% NH3 conversion and an H2 generation rate of 41.9 mmol·min−1·gNi−1 at 550 °C. Varying the Ni content from 5 to 20 wt.% further showed that higher loading increases overall NH3 conversion, while the activity normalized to Ni mass decreases because larger Ni particles are formed at elevated loadings. These results indicate that catalytic output is jointly controlled by the population of accessible metallic Ni sites, the dispersion state of Ni species, and the inherent reactivity of the exposed Ni centers. The findings highlight how support characteristics and metal–support interactions regulate Ni-based ammonia decomposition catalysts and provide design principles for inexpensive, efficient catalysts for decentralized hydrogen production.",
+  "authors": [
+   "Yiran Wu",
+   "Jingying Guan",
+   "Zengrui Zhao",
+   "Lixia Bao",
+   "Daxin Shi",
+   "Hansheng Li",
+   "Qin Wu",
+   "Kangcheng Chen",
+   "Yaoyuan Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-17",
+  "doi": "10.3390/catal16111024",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.3390/catal16111024",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Catalysts",
+  "tier": "background",
+  "title": "Support- and Size-Dependent Performance of Ni Catalysts for Ammonia Decomposition to Hydrogen",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/catal16111024",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_brief": "通过浸渍法制备了负载于HZSM-5、γ-Al2O3、Al2O3-ZrO2和SiO2上的Ni催化剂。Ni/SiO2表现出最佳性能，在550 °C下达到78.1%的NH3转化率和41.9 mmol·min−1·gNi−1的H2生成率。提高Ni负载量会增加总转化率，但归一化活性降低，因为形成了更大的Ni颗粒。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "氨分解制氢中Ni催化剂的载体和尺寸依赖性能"
  },
  "10.3390/molecules31213938": {
   "abstract": "The development of sustainable fuels and hydrogen carriers is essential for a carbon-neutral energy future. Ammonia (NH3) is a promising energy vector, yet its synthesis remains dependent on the energy-intensive Haber–Bosch process, while nitrogen oxides (NOx) persist as major atmospheric pollutants. In this work, spin-polarized density functional theory (DFT) calculations at the MPWB1K/def2SVP level are used to investigate the capture and reduction of NO and NO2 within a rigid covalent organic framework (M1). Nucleus-Independent Chemical Shift (NICS) analysis reveals a strongly aromatic shielding character (NICS = −10.8) that provides a unique electronic environment, while electrostatic potential (ESP) mapping illustrates local electron density. Confinement within the framework suppresses competing pathways that preferentially favor the pathway toward NH3 and H2O. Activation barriers are significantly reduced, driven by charge transfer that weakens N–O bonds. The rigid covalent organic framework remains structurally stable throughout the process. These findings demonstrate a viable strategy for converting atmospheric pollutants into valuable energy carriers under moderate thermal activation.",
@@ -8195,6 +8989,86 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "废水滤液电解制氨过程中的氢循环"
+ },
+ "10.54254/2755-2721/2027.39136": {
+  "abstract": "Non-thermal plasma (NTP) offers a promising route for electrifying chemical processes by enabling the activation of stable molecules under relatively mild conditions. However, evaluating the plasma process only by conversion or product yield may mask the substantial energy losses associated with power supply, electron excitation, molecular activation, and gas heating. This review examines energy efficiency in NTP-assisted CO 2 splitting and ammonia synthesis as two representative model systems to investigate the energy efficiency in NTP-assisted chemical conversion. For CO 2 splitting, different plasma discharges are compared in terms of CO 2 conversion, specific energy input and energy efficiency. For ammonia synthesis, the effects of discharge mode, reactor configuration, catalyst properties and suppression of NH 3 decomposition on energy yield are evaluated. Across both systems, higher conversion or product yield does not necessarily correspond to more efficient energy utilisation. Instead, the energy performance is dominated by the coupling between electrical energy deposition, molecular activation, plasma-surface interaction, and inhibition of non-productive pathways such as gas heating, recombination, and product decomposition. This comparison further highlights the need for consistent system boundaries and energy-accounting protocols, particularly when distinguishing plasma-level efficiency from overall process efficiency. Future development should therefore move beyond single-parameter optimisation towards integrated, full-chain energy management to guide the rational design and scale-up of energy-efficient plasma chemical processes.",
+  "authors": [
+   "Yueyao Zhao"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-17",
+  "doi": "10.54254/2755-2721/2027.39136",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.54254/2755-2721/2027.39136",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied and Computational Engineering",
+  "tier": "background",
+  "title": "Towards Energy-Efficient Non-thermal Plasma Chemistry: Lessons from CO 2 Splitting and Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.54254/2755-2721/2027.39136",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "本文综述了非热等离子体辅助CO2裂解和氨合成两个代表性体系中的能量效率问题。研究发现，仅通过转化率或产率评估等离子体过程会掩盖电源、电子激发、分子激活和气体加热带来的巨大能量损失。能量性能取决于电沉积、分子激活、等离子体-表面相互作用及非生产性路径抑制之间的耦合。",
+  "zh_method": "等离子体驱动",
+  "zh_obj": "等离子体制氨",
+  "zh_title": "迈向节能非热等离子体化学：来自CO2裂解和氨合成的启示"
+ },
+ "10.55092/aimat20260014": {
+  "abstract": "Electrocatalytic nitrate reduction to ammonia (NO₃RR) offers a transformative route for pollutant remediation and green synthesis, yet rational catalyst design remains challenging. We combined density functional theory (DFT) with machine learning (ML) to study TM@M₂CO₂ systems (M = Mo, W, and Cr; TM = 3d–5d metals). Of the 150 models, 16 passed screening for stability (formation energy and dissolution potential) and selectivity (suppression of the hydrogen evolution reaction, HER). Their limiting potentials (UL) were −0.38 V for CuI@Mo₂CO₂ and −0.45 V for RuII@W₂CO₂. These two systems are the most promising NO₃RR candidates among the systems studied. Mechanistic and kinetic analyses confirmed that both catalysts can activate nitrate effectively and exhibit lower barriers for the potential-determining step than for HER. Feature-importance and Shapley Additive Explanations (SHAP) analyses identified the average TM–O bond length (LTM–O), nitrate adsorption free energy (ΔG*NO₃), and TM electronegativity (χP) as influential descriptors, revealing a nonmonotonic association between (LTM–O) and the predicted limiting potential. This work identifies two theoretically promising catalyst candidates and quantifies descriptor importance, offering a data-driven framework for the rational design of MXene-based single-atom catalysts.",
+  "authors": [
+   "Jing Xu",
+   "Yuqi Qiu",
+   "Wenxi Han",
+   "Jinghao Zhang",
+   "Yuan Li",
+   "Xueru Wang",
+   "Jifa Fu",
+   "Wenxuan An",
+   "Zhanchi Zhao",
+   "Xiaojie Liu",
+   "Guang Zhao",
+   "Yong Liu",
+   "Lianming Zhao"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-13",
+  "doi": "10.55092/aimat20260014",
+  "first_seen": "2026-11-17T19:51:54Z",
+  "id": "10.55092/aimat20260014",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "AI & Materials",
+  "tier": "background",
+  "title": "Unraveling the activity origin of M₂CO₂ MXene-supported single-atom catalysts for nitrate electroreduction: a combined DFT and machine learning study",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.55092/aimat20260014",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_brief": "结合密度泛函理论和机器学习研究了TM@M₂CO₂体系（M = Mo, W, Cr; TM = 3d–5d金属）的硝酸盐电还原制氨活性。筛选出16个稳定且抑制析氢反应的模型，其中CuI@Mo₂CO₂和RuII@W₂CO₂的极限电位分别为-0.38 V和-0.45 V。特征重要性和SHAP分析确定了平均TM-O键长、硝酸盐吸附自由能和TM电负性为关键描述符，揭示了TM-O键长与预测极限电位之间的非线性关系。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "揭示M₂CO₂ MXene负载单原子催化剂硝酸盐电还原活性起源：结合DFT和机器学习研究"
  },
  "10.64509/jdi.14.173": {
   "abstract": "Electrochemical hydrogen sensors are attractive for hydrogen detection owing to their high sensitivity, rapid response, and low energy consumption, offering great potential for safety monitoring in complex environments. However, the anodic HOR catalysts are highly susceptible to poisoning by interfering species such as ammonia, posing a critical challenge to the development of robust hydrogen sensors for ammonia-containing environments. Since binary transition metal elements are promising for further optimizing the HOR performance of platinum compared to single transition metals, metal salts with different combinations were dispersed on XC-72 by rotary evaporation here. After wet impregnation, FeCo-Pt, FeMn-Pt, CoMn-Pt, and Fe-Pt, were obtained by heat treatment under H2/Ar mixed gas. In this strategy, Fe and Co form an FeCo alloy during heat treatment. Compared to single-element doping, the alloyed transition metal acted as “dual-metal electron pump” further optimizes the electronic structure of Pt, thereby constructing a highly efficient composite catalyst system. This effective regulation of the electronic structure significantly enhances the electron transfer capability of Pt, ultimately achieving simultaneous improvements in the catalyst’s HOR activity and ammonia resistance, thereby enabling efficient hydrogen sensing with strong resistance to disturbance.",
