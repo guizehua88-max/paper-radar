@@ -2298,18 +2298,20 @@
  },
  "10.1016/j.ccr.2026.218760": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "not_found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-15",
-   "OpenAlex": "2026-11-15",
-   "Semantic Scholar": "2026-11-15"
+   "Crossref": "2026-11-17",
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
   },
   "ab_sources_checked": [
+   "Crossref",
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-15",
+  "ab_try": "2026-11-17",
   "abstract": "",
   "authors": [
    "Hao Liang",
@@ -2832,12 +2834,12 @@
  },
  "10.1016/j.ceramint.2026.11.084": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-10",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10",
-   "Semantic Scholar": "2026-11-10"
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
   },
   "ab_sources_checked": [
    "Crossref",
@@ -2845,7 +2847,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-17",
   "abstract": "",
   "authors": [
    "Jian-Fu Tang",
@@ -3432,12 +3434,12 @@
  },
  "10.1016/j.fuel.2026.142094": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "partial",
   "ab_source_checked_at": {
    "Crossref": "2026-11-10",
-   "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10",
-   "Semantic Scholar": "2026-11-10"
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
   },
   "ab_sources_checked": [
    "Crossref",
@@ -3445,7 +3447,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-10",
+  "ab_try": "2026-11-17",
   "abstract": "",
   "authors": [
    "Mengbo Wu",
@@ -4399,19 +4401,20 @@
  },
  "10.1016/j.jes.2026.105892": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Europe PMC": "2026-11-15",
-   "OpenAlex": "2026-11-15",
-   "Semantic Scholar": "2026-11-15"
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
   },
   "ab_sources_checked": [
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-15",
-  "abstract": "",
+  "ab_try": "2026-11-17",
+  "abstract": "The electrochemical reduction of nitrate to ammonia (eNITRR) presents a potential solution to two of the most persistent environmental and chemical engineering problems of recent age: the remediation of nitrate-rich water and the generation of ammonia in a sustainable and eco-friendly manner. Despite the seeming potential of this technology to provide a dual solution to these problems, the selectivity of the process has been largely ignored in the scientific literature. Through a review of the scientific literature on the topic of eNITRR, we present the first analysis of this “selectivity trap” phenomenon. Across all known catalyst systems, no system has yet been able to achieve both higher ammonia selectivities (±90 %) and current densities (±2 × 10 2 mA/cm). The six mechanistic origins of the trap are identified as being HER acceleration, mass transport limitations, finite active site density, intermediate poisoning, catalyst restructuring, and potential-dependent shifts in reaction pathways. Four strategies for escaping the trap are evaluated: improving mass transport, catalyst design, operating dynamics, and electrolyte engineering. A benchmarking framework for the different approaches to escaping the trap is proposed, including a figure of merit ( j × F E N H 3 ) and a multi-dimensional scoring model. A roadmap for escaping the trap utilizes the discussed strategies for achieving high rates and high selectivity. Finally, the focus of the field should shift from discovering new catalysts that exhibit high selectivity for the manufacturing of NH 3 from NO 3 − to finding catalysts and reactors that enable both high rates and high selectivity of NH 3 production.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Anum Bilal",
    "Ali Bahadur",
@@ -4423,7 +4426,7 @@
    "Shahid Iqbal"
   ],
   "brief_by": "glm-4.7-flash",
-  "brief_from": "title",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11",
@@ -4444,8 +4447,9 @@
   "via": "Crossref",
   "watch": [],
   "why": [
-   "nitrate reduction"
+   "nitrate to ammonia"
   ],
+  "zh_brief": "该研究分析了电化学硝酸盐还原制氨过程中的“选择性陷阱”现象，指出目前尚无系统能同时实现高氨选择性（±90%）和高电流密度（±2 × 10^2 mA/cm²）。文章提出了六种陷阱机理及四种逃逸策略，并建立了基准框架。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "电化学硝酸盐还原制氨的选择性陷阱：高 NH3 选择性为何伴随低电流密度以及逃离策略"
@@ -4823,6 +4827,21 @@
   "zh_title": "利用闪蒸焦耳热从玉米秸秆快速合成 B/N 共掺杂多孔碳用于锌离子混合电容器"
  },
  "10.1016/j.matlet.2026.142005": {
+  "ab_check_v": 2,
+  "ab_result": "not_found",
+  "ab_source_checked_at": {
+   "Crossref": "2026-11-17",
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
+  },
+  "ab_sources_checked": [
+   "Crossref",
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-17",
   "abstract": "",
   "authors": [
    "Huiming Ning",
@@ -4915,18 +4934,20 @@
  },
  "10.1016/j.mcat.2026.116480": {
   "ab_check_v": 2,
-  "ab_result": "partial",
+  "ab_result": "not_found",
   "ab_source_checked_at": {
-   "Europe PMC": "2026-11-15",
-   "OpenAlex": "2026-11-15",
-   "Semantic Scholar": "2026-11-15"
+   "Crossref": "2026-11-17",
+   "Europe PMC": "2026-11-17",
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
   },
   "ab_sources_checked": [
+   "Crossref",
    "Europe PMC",
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-15",
+  "ab_try": "2026-11-17",
   "abstract": "",
   "authors": [
    "Jianyu Li",
@@ -6608,6 +6629,9 @@
    "Zhifeng Xin",
    "Zhipeng Chen"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11-17",
   "doi": "10.1039/d6nr03611b",
@@ -6629,6 +6653,7 @@
   "why": [
    "NH3 synthesis"
   ],
+  "zh_brief": "该研究通过工程化 CuSn-Co3O4 异质结界面的 p-d 轨道杂化，用于协同电催化硝酸盐还原制氨。结果表明，该策略显著提升了反应动力学，实现了高效的硝酸盐到氨的转化。",
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原"
  },
@@ -7159,12 +7184,12 @@
  },
  "10.1080/00963402.2026.2745433": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-11-10",
    "Europe PMC": "2026-11-10",
-   "OpenAlex": "2026-11-10",
-   "Semantic Scholar": "2026-11-10"
+   "OpenAlex": "2026-11-17",
+   "Semantic Scholar": "2026-11-17"
   },
   "ab_sources_checked": [
    "Crossref",
@@ -7172,8 +7197,9 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-10",
-  "abstract": "",
+  "ab_try": "2026-11-17",
+  "abstract": "Science and scientists in the United States are under massive, sustained attack by a small number of high‑ranking government officials. To keep from being severely or even fatally damaged, some people and some entities have moved to other countries. One of the tiniest examples is the Ig Nobel Prize ceremony, which brings attention to research so surprising that it makes people laugh, then think. After 35 years in the United States, the organizers moved the 36th First Annual Ig Nobel Prize to Zurich, Switzerland. Ig Nobel founder Marc Abrahams explains the reasoning behind the move.",
+  "abstract_source": "OpenAlex",
   "authors": [
    "Marc Abrahams"
   ],
