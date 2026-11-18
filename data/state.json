@@ -458,11 +458,22 @@
    "push": [
     "serverchan:ok"
    ]
+  },
+  {
+   "at": "2026-11-18T04:15:36Z",
+   "errors": {
+    "OpenAlex": "本次停用：HTTP 429（日常检索第 3 次）",
+    "补摘要": "部分请求失败（其余正常）：Semantic Scholar"
+   },
+   "new": 2,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-17T19:51:54Z",
+  "at": "2026-11-18T04:15:36Z",
   "push": [
    "serverchan:ok"
   ],
@@ -474,10 +485,10 @@
     "n": 1108
    },
    "OpenAlex": {
-    "calls": 12,
-    "err": "",
-    "fails": 0,
-    "n": 18
+    "calls": 3,
+    "err": "本次停用：HTTP 429（日常检索第 3 次）",
+    "fails": 1,
+    "n": 11
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
@@ -609,17 +620,17 @@
     "calls": 1,
     "err": "部分请求失败（其余正常）：Semantic Scholar",
     "fails": 0,
-    "n": 236
+    "n": 2
    }
   },
-  "中文简介": "新写 19 篇",
-  "新增相关": 19,
+  "中文简介": "新写 1 篇",
+  "新增相关": 2,
   "模式": "日常",
-  "补摘要": "236/543",
+  "补摘要": "2/200",
   "达到推送标准": 1
  },
- "last_push_at": "2026-11-17T19:51:54Z",
- "last_run": "2026-11-17T19:51:54Z",
+ "last_push_at": "2026-11-18T04:15:36Z",
+ "last_run": "2026-11-18T04:15:36Z",
  "rebackfill": {
   "done": [
    "2024-01",

@@ -4690,6 +4690,46 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "三金属 Co-Cu-Fe 位点的界面电子重构使硝酸电还原选择性地生成氨"
  },
+ "10.1016/j.jece.2026.125979": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-18"
+  },
+  "ab_sources_checked": [
+   "Europe PMC"
+  ],
+  "ab_try": "2026-11-18",
+  "abstract": "",
+  "authors": [
+   "Mohamed Attia",
+   "Mahmoud Basseem I. Mohamed",
+   "Mohamed A. Hegazy",
+   "Mohamed M. Ghobashy",
+   "Farag Abdelha"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jece.2026.125979",
+  "first_seen": "2026-11-18T04:15:36Z",
+  "id": "10.1016/j.jece.2026.125979",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Environmental Chemical Engineering",
+  "tier": "background",
+  "title": "UV-Curable Fluorescein-Modified Polymer Coating for Smartphone-Based Dual-Mode Optical Ammonia Sensing",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jece.2026.125979",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
  "10.1016/j.jechem.2026.10.046": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -6855,6 +6895,43 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Ru/钌体系",
   "zh_title": "Cu–Ru 界面重排界面水以实现高效硝酸盐到氨的电合成"
+ },
+ "10.1021/jacs.6c17476": {
+  "abstract": "Abstract Ammonia is a vital compound for the future, with significant potential in energy applications, such as hydrogen-powered vehicles, and in agriculture as a key ingredient in fertilizers essential for food production. Traditionally, ammonia has been synthesized via the Haber-Bosch process using an iron catalyst, which requires high temperatures (400 to 500 °C) and pressures (about 200 atm), leading to a substantial carbon footprint and energy costs. Ruthenium is a promising alternative catalyst due to its higher intrinsic catalytic activity, allowing for ammonia synthesis under milder conditions. This paper presents a detailed Density Functional Theory (DFT) study of the elementary steps involved in ammonia production across five distinct facets: Ru(0001), Ru(10–10), Ru(11–20), Ru(11–21), and Ru(10–11). Using vibrational frequency analysis, we applied zero-point energy (ZPE), enthalpic, and entropic corrections at 80 °C. We also examined the competition with the hydrogen evolution reaction. Ultimately, we find that the step-edge coordination of the Ru(11–21) surface offers the most favorable thermodynamic pathway for NH3 formation and the most efficient catalytic performance. Nudged elastic band calculations on Ru(11–21) show that hydrogenation mediated by coadsorbed water has low barriers and that NH3 desorption is the most demanding step. Further, the Ru(11–21) surface favors water dissociation, while H2 evolution on the clean surface is uphill by 0.5 eV in free energy.",
+  "authors": [
+   "Shrish Goel",
+   "Tridip Das",
+   "Prabhat Prakash",
+   "William A. Goddard III"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-18",
+  "doi": "10.1021/jacs.6c17476",
+  "first_seen": "2026-11-18T04:15:36Z",
+  "id": "10.1021/jacs.6c17476",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 32,
+  "source": "Journal of the American Chemical Society",
+  "tier": "direct",
+  "title": "Mechanisms of Ammonia Synthesis over Ru Low- and High-Index Surfaces Based on Density Functional Theory Calculations",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.6c17476",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "研究对象为 Ru(0001)、Ru(10–10)、Ru(11–20)、Ru(11–21) 和 Ru(10–11) 五种不同晶面的氨合成过程。采用密度泛函理论（DFT）计算了氨合成的基元步骤，并结合振动频率分析、零点能（ZPE）、焓变和熵变校正，在 80 °C 下研究了反应路径。研究发现 Ru(11–21) 表面的边角配位对氨合成具有最有利的热力学路径和最高催化活性，氢化反应通过共吸附水的介导具有低能垒，而氨的脱附是最高能垒步骤。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "析氢反应",
+  "zh_title": "基于密度泛函理论计算的 Ru 低和高指数表面合成氨的机理"
  },
  "10.1021/jacs.6c20417": {
   "abstract": "Abstract Electrocatalytic nitrate reduction to ammonia is often constrained by the proton-coupled hydrogenation of adsorbed nitrite (*NO2), a step commonly accelerated through hydrogen spillover and local reactive-hydrogen (*H) supply. This hydrogen-centered view, however, treats *NO2 largely as a passive intermediate and overlooks whether its migration can reconstruct the interfacial hydrogen-bond-network environment required for downstream hydrogenation. Here, we show that directional *NO2 spillover couples site-specific intermediate transport with interfacial hydrogen-bond-network reorganization. In a Cu–Ag dual-site model interface, nitrate activation and *NO2 formation occur preferentially on the Cu sites, whereas migrated *NO2 species are stabilized and hydrogenated on the Ag-associated sites. In situ spectroscopy, kinetic isotope measurements, distribution-of-relaxation-time analysis, and theoretical simulations reveal that this Cu-to-Ag relay enriches K+-associated interfacial water, reinforces hydrogen-bond connectivity, and facilitates *H delivery for *NO2 hydrogenation. The optimized CuAg N-doped carbon (CuAg–N-C) achieves near-unity Faradaic efficiency (FE) for NH3 with a yield rate of 411.8 mmol g–1 h–1 and retains 83% FE at 1 A cm–2 in a flow cell. The catalyst further retains substantial nitrate-to-ammonia recovery in simulated and authentic industrial water matrices. More broadly, this work establishes *NO2 spillover as a dynamic interfacial mechanism linking intermediate transport, water-network organization, and proton-coupled nitrogen conversion, providing a framework for sustaining molecular-scale selectivity under chemically complex reaction environments.",
