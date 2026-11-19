@@ -4151,11 +4151,11 @@
  },
  "10.1016/j.fuel.2026.142128": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "retry",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12",
+   "Europe PMC": "2026-11-19",
+   "OpenAlex": "2026-11-19",
    "Semantic Scholar": "2026-11-12"
   },
   "ab_sources_checked": [
@@ -4164,7 +4164,7 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-12",
+  "ab_try": "2026-11-19",
   "abstract": "",
   "authors": [
    "Wenlong Lv",
@@ -5074,6 +5074,9 @@
    "Mohamed M. Ghobashy",
    "Farag Abdelha"
   ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
   "cross": false,
   "date": "2026-11",
   "doi": "10.1016/j.jece.2026.125979",
@@ -5094,7 +5097,8 @@
   "watch": [],
   "why": [],
   "zh_method": "未交代供热方式",
-  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "用于智能手机双模光学氨气传感的UV固化荧光素改性聚合物涂层"
  },
  "10.1016/j.jechem.2026.10.046": {
   "ab_check_v": 2,
@@ -6338,11 +6342,11 @@
  },
  "10.1016/j.watres.2026.127329": {
   "ab_check_v": 2,
-  "ab_result": "not_found",
+  "ab_result": "found",
   "ab_source_checked_at": {
    "Crossref": "2026-11-12",
-   "Europe PMC": "2026-11-12",
-   "OpenAlex": "2026-11-12",
+   "Europe PMC": "2026-11-19",
+   "OpenAlex": "2026-11-19",
    "Semantic Scholar": "2026-11-12"
   },
   "ab_sources_checked": [
@@ -6351,8 +6355,9 @@
    "OpenAlex",
    "Semantic Scholar"
   ],
-  "ab_try": "2026-11-12",
-  "abstract": "",
+  "ab_try": "2026-11-19",
+  "abstract": "Ammonia recovery from wastewater via membrane stripping is a compelling route for pollution control and nutrient recycling, yet its deployment is hindered by a trade-off between permeation flux and fouling resistance. Inspired by plant root mucilage, which enriches and transports nutrients from soil to roots, we present a polyvinylidene fluoride (PVDF) membrane coated with a mucilage-like hydrogel layer for ammonia (NH 3 ) recovery. This biomimetic coating, fabricated from chitosan (CS) and sodium alginate (SA), mimics functional traits of root mucilage. Abundant polar groups in the hydrogel layer promote NH 3 partitioning and localized NH 3 enrichment, thereby improving interfacial NH 3 supply, while the highly hydrated network facilitates NH 3 diffusion at a rate comparable to that in bulk solution. Together, these features offset the transport penalty imposed by the dense hydrogel layer. Concurrently, this coating enhances antifouling performance through a smoother surface, sub-nanometre size sieving, hydration shielding, and Donnan exclusion. In a 180-h real-digestate test, the PVDF@CS/SA membrane maintained an NH 3 flux comparable to that of the pristine PVDF membrane, yet showed a lower fouling-induced flux decline (7% vs. 56%). This work provides a new paradigm for developing advanced antifouling membranes that overcome the permeation flux-fouling resistance trade-off.",
+  "abstract_source": "Europe PMC",
   "authors": [
    "Cong Chen",
    "Yuyang Li",
@@ -6362,8 +6367,8 @@
    "Le Han",
    "Liang Shen"
   ],
-  "brief_by": "glm-4-flash-250414",
-  "brief_from": "title",
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
   "brief_v": 4,
   "cross": false,
   "date": "2026-11",
@@ -6384,6 +6389,7 @@
   "via": "Crossref",
   "watch": [],
   "why": [],
+  "zh_brief": "受植物根粘液启发，研究制备了聚偏氟乙烯膜表面的仿生粘液状水凝胶涂层用于氨回收。该涂层由壳聚糖和海藻酸钠制成，通过极性基团促进氨富集和扩散，并利用光滑表面、亚纳米级筛分和Donnan排斥增强抗污染性能。在180小时真实消化液测试中，该膜保持了与原始PVDF膜相当的氨通量，但污染导致的通量下降仅为7% vs 56%。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "受根粘液启发的水凝胶复合膜实现高效率氨回收"
