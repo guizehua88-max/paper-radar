@@ -9818,5 +9818,43 @@
   "zh_brief": "该研究利用基因解析宏基因组学分析了垃圾渗滤液序批式反应器微生物组，发现Nitrospirota和Pseudomonadota是优势菌门，而Nitrospira和Pseudomonas等属在氮转化基因分布上具有显著差异，揭示了低丰度贡献者及氮保留潜力。",
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应"
+ },
+ "arxiv:2611.24909": {
+  "abstract": "Synthesis of ammonia is of critical importance to applications in energy, industrial chemistry, and especially agriculture, and is accomplished industrially using the carbon- and energy-intensive Haber-Bosch process. η-carbide-type nitrides such as Co3Mo3N have gained attention in recent years as alternative ammonia synthesis catalysts with the potential to lower these energy demands. Co3Mo3N is experimentally observed to undergo a reversible phase transition from Co3Mo3N to Co6Mo6N, offering a chemical looping-based NH3 synthesis route that has not been fully explored. In this work, we present a first-principles exploration of phase change in the Co3Mo3N/Co6Mo6N system as a prototype η-carbide-type nitride and fit a cluster expansion to predict the energy of Co3Mo3Nx systems. We use our results to identify the phase energy difference as a useful screening criterion for the phase change process. We then apply this methodology to screen a broad range of η-carbide-type nitrides that combine group 4-6 transition metals with Cr, Fe, Co, Ni, or Zn. We report strong periodic trends in phase energy difference, which increases with decreasing period and group number of the group 4-6 transition metal and with distance from group 9 for the other metal. We identify Co3W3N, Fe3W3N, and several quaternary nitrides as promising candidates for NH3 synthesis via a phase change mechanism.",
+  "authors": [
+   "Luka H. Mikek",
+   "Nicholas D. Humphrey",
+   "Andrea Ambrosini",
+   "Matthew D. Witman",
+   "Dallas R. Trinkle"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-18",
+  "doi": "",
+  "first_seen": "2026-11-19T04:09:15Z",
+  "id": "arxiv:2611.24909",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 28,
+  "source": "arXiv",
+  "tier": "direct",
+  "title": "Prediction and Screening of $η$-carbide-type Nitrides for Ammonia Synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://arxiv.org/abs/2611.24909",
+  "via": "arXiv",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_brief": "基于第一性原理研究 Co3Mo3N/Co6Mo6N 系统的相变，拟合团簇展开模型预测 Co3Mo3Nx 能量。以此筛选了包含第4-6族过渡金属与 Cr、Fe、Co、Ni 或 Zn 的 η-碳化物型氮化物，发现 Co3W3N、Fe3W3N 和多种四元氮化物是相变机制合成氨的潜在候选者。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "化学链/晶格氮循环制氨；涉及Fe/铁体系",
+  "zh_title": "用于氨合成的 η-碳化物型氮化物的预测与筛选"
  }
 }

@@ -479,11 +479,22 @@
    "push": [
     "serverchan:ok"
    ]
+  },
+  {
+   "at": "2026-11-19T04:09:15Z",
+   "errors": {
+    "OpenAlex": "本次停用：HTTP 429（日常检索第 1 次）",
+    "补摘要": "部分请求失败（其余正常）：Semantic Scholar"
+   },
+   "new": 1,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-18T19:24:37Z",
+  "at": "2026-11-19T04:09:15Z",
   "push": [
    "serverchan:ok"
   ],
@@ -492,13 +503,13 @@
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1107
+    "n": 1189
    },
    "OpenAlex": {
-    "calls": 12,
-    "err": "",
-    "fails": 0,
-    "n": 25
+    "calls": 1,
+    "err": "本次停用：HTTP 429（日常检索第 1 次）",
+    "fails": 1,
+    "n": 0
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
@@ -618,29 +629,29 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 81
+    "n": 44
    },
    "arXiv": {
     "calls": 3,
     "err": "",
     "fails": 0,
-    "n": 0
+    "n": 1
    },
    "补摘要": {
     "calls": 1,
-    "err": "部分请求失败（其余正常）：Semantic Scholar、Europe PMC",
+    "err": "部分请求失败（其余正常）：Semantic Scholar",
     "fails": 0,
-    "n": 201
+    "n": 16
    }
   },
-  "中文简介": "新写 13 篇",
-  "新增相关": 13,
+  "中文简介": "新写 1 篇",
+  "新增相关": 1,
   "模式": "日常",
-  "补摘要": "201/503",
+  "补摘要": "16/300",
   "达到推送标准": 1
  },
- "last_push_at": "2026-11-18T19:24:37Z",
- "last_run": "2026-11-18T19:24:37Z",
+ "last_push_at": "2026-11-19T04:09:15Z",
+ "last_run": "2026-11-19T04:09:15Z",
  "rebackfill": {
   "done": [
    "2024-01",
