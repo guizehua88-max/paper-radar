@@ -3610,6 +3610,39 @@
   "zh_obj": "其他催化反应",
   "zh_title": "非水相氢氧化促进可持续锂介导的氨电合成"
  },
+ "10.1016/j.checat.2026.101927": {
+  "abstract": "",
+  "authors": [
+   "Jennifer Strunk"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.checat.2026.101927",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1016/j.checat.2026.101927",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chem Catalysis",
+  "tier": "background",
+  "title": "Innovative active sites based on frustrated Lewis pairs for photocatalytic ammonia synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.checat.2026.101927",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "光驱动",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "基于 frustrated Lewis pairs 的创新活性位点用于光催化合成氨"
+ },
  "10.1016/j.checir.2026.100204": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -3703,6 +3736,54 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "通过过渡金属修饰的磷化硼纳米笼单原子催化剂进行N2还原生产氨"
+ },
+ "10.1016/j.comptc.2026.116150": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-19",
+   "OpenAlex": "2026-11-19"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-19",
+  "abstract": "",
+  "authors": [
+   "Linzi Liu",
+   "Xinkai Zhou",
+   "Dan Li",
+   "Wenfeng Shen",
+   "Ran Liu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.comptc.2026.116150",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1016/j.comptc.2026.116150",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Computational and Theoretical Chemistry",
+  "tier": "background",
+  "title": "First-principles screening of single-atom catalysts anchored on monolayer NbSe2 for electrocatalytic nitrogen reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.comptc.2026.116150",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "electrocatalytic nitrogen reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "基于单层 NbSe2 锚定单原子催化剂的电催化氮还原的第一性原理筛选"
  },
  "10.1016/j.ecmx.2026.102431": {
   "ab_check_v": 2,
@@ -4695,6 +4776,54 @@
   "zh_method": "光驱动",
   "zh_obj": "氨硼烷水解",
   "zh_title": "通过选择性表面还原构建CoNi合金/高熵氧化物异质结用于快速可见光驱动氨硼烷甲醇解"
+ },
+ "10.1016/j.jallcom.2026.192596": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-19",
+   "OpenAlex": "2026-11-19"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-19",
+  "abstract": "",
+  "authors": [
+   "Xinchun Gao",
+   "Maoyu Sun",
+   "Lijing Wang",
+   "Hongju Zhai",
+   "Mingyue Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jallcom.2026.192596",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1016/j.jallcom.2026.192596",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Alloys and Compounds",
+  "tier": "background",
+  "title": "Facile Fabrication of 0D/1D CPB/ZnO Type‑II Heterojunction toward Efficient Photocatalytic N2 Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jallcom.2026.192596",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "N2 Reduction"
+  ],
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "0D/1D CPB/ZnO II型异质结的简便制备及其在高效光催化N2还原合成氨中的应用"
  },
  "10.1016/j.jcat.2026.117293": {
   "ab_check_v": 2,
@@ -7639,6 +7768,48 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "磷介导的反向氢溢流实现硝酸盐-硫酸盐配对电解速率匹配以合成过硫酸铵"
  },
+ "10.1038/s41596-026-01468-1": {
+  "abstract": "",
+  "authors": [
+   "Liqi Shi",
+   "Zhongshuo Zhang",
+   "Shengliang Zhai",
+   "Fanglong Li",
+   "Weiyi Wang",
+   "Yanru Wang",
+   "Songxi He",
+   "Jie Zeng",
+   "Ib Chorkendorff",
+   "Shaofeng Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-19",
+  "doi": "10.1038/s41596-026-01468-1",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1038/s41596-026-01468-1",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Nature Protocols",
+  "tier": "background",
+  "title": "Ammonia electrosynthesis from nitrogen and hydrogen",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1038/s41596-026-01468-1",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia electrosynthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "过程待核实",
+  "zh_title": "氮气和氢气电合成氨"
+ },
  "10.1038/s41893-026-01981-x": {
   "abstract": "Synthesis of valuable ammonia through photocatalytic reduction of nitrogen is a promising sustainable route, but its efficiency remains limited. This work shows that coupling the reaction with solar-driven interfacial evaporation can substantially improve ammonia yield, concentration and purity.",
   "authors": [
@@ -8256,6 +8427,49 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "通过氢键网络门控的活性氢泵增强硝酸盐电还原为氨"
  },
+ "10.1039/d6ta07821d": {
+  "abstract": "Thermocatalytic ammonia decomposition reaction (ADR) is fundamentally constrained by scaling relationships between N–H activation and N2 formation arising from metal–nitrogen interactions. Although nitrogen-doped catalysts show enhanced performance, whether specific nitrogen...",
+  "authors": [
+   "Rongtian Jiang",
+   "Liu Hongming",
+   "Junhui Liang",
+   "Dashuai Wang",
+   "Huayu Chen",
+   "Dilshod Nematov",
+   "Saidjafar Murodzoda",
+   "Liuqi Wang",
+   "Yang Hou",
+   "Da Chen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-19",
+  "doi": "10.1039/d6ta07821d",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1039/d6ta07821d",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Materials Chemistry A",
+  "tier": "background",
+  "title": "Decoupling Reaction Pathway Modulation and Electronic Regulation through Nitrogen Configuration Engineering for Enhanced Ammonia Decomposition",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1039/d6ta07821d",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_brief": "本文研究了通过氮配置工程解耦反应路径调节与电子调控以增强氨分解反应（ADR）。针对热催化氨分解反应中由金属-氮相互作用引起的N-H活化与N2形成之间的标度关系限制，探讨了特定氮掺杂催化剂的性能。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "通过氮配置工程解耦反应路径调节与电子调控以增强氨分解"
+ },
  "10.1080/00103624.2026.2762883": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -8555,6 +8769,50 @@
   "zh_obj": "氨硼烷水解",
   "zh_title": "极端条件下从氨硼烷 (BH 3 NH 3 ) 形成立方 BN"
  },
+ "10.1116/6.0005815": {
+  "abstract": "Plasma-enhanced atomic layer deposition (PEALD) enables the growth of crystalline films of atomically precise thickness at reduced temperatures through the utilization of reactive and energetic plasma species. However, the mechanisms by which plasma-generated species influence nanoscale surface evolution during growth remain poorly understood. Here, we correlate the real-time evolution of nanoscale island morphology, including nucleation, coarsening, and coalescence, with the fluxes of reactive and energetic plasma species during PEALD growth. Grazing-incidence small-angle X-ray scattering was used as a nondestructive, surface-sensitive technique to monitor morphological evolution in real time, combined with plasma diagnostics to quantify reactive species and ion fluxes. We find that increasing reactive nitrogen flux accelerates the onset of island formation, while increasing ion flux promotes island coalescence and coarsening. These observations demonstrate how reactive species and ion fluxes modify nucleation, coalescence, and coarsening during PEALD growth. Furthermore, controlling reactive and energetic plasma species provides a means for tailoring surface processes and optimizing material properties during low-temperature thin-film growth.",
+  "authors": [
+   "Henry H. Chuang",
+   "Neeraj Nepal",
+   "David R. Boris",
+   "Scooter D. Johnson",
+   "Virginia R. Anderson",
+   "Alexander C. Kozen",
+   "Zachary R. Robinson",
+   "Scott G. Walton",
+   "Charles R. Eddy",
+   "Karl F. Ludwig",
+   "Jeffrey M. Woodward"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-19",
+  "doi": "10.1116/6.0005815",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1116/6.0005815",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Journal of Vacuum Science & Technology A",
+  "tier": "transferable",
+  "title": "Understanding the influence of plasma conditions on morphological evolution during plasma-enhanced atomic layer deposition of InN using in situ synchrotron x-ray scattering",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1116/6.0005815",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_brief": "本文利用原位掠入射小角X射线散射结合等离子体诊断，研究了等离子体增强原子层沉积InN过程中等离子体条件对纳米级岛状形貌演化的影响。研究发现增加反应性氮气通量加速了成核，而增加离子通量促进了岛状结构的合并与粗化。通过控制反应性和高能等离子体物种，可以调节表面过程并优化低温薄膜生长的材料性能。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积",
+  "zh_title": "利用原位同步辐射X射线散射理解等离子体增强原子层沉积InN过程中等离子体条件对形貌演化的影响"
+ },
  "10.1117/12.3123214": {
   "abstract": "Atomic layer deposition (ALD) TiO₂ thin films are widely used in optoelectronics, photocatalysis, and biomedical applications. However, their intrinsic absorption and defect-induced absorption limit their application in high-power laser optics. Annealing is an important post-treatment method to modulate the optical properties and reduce absorption. In this work, ALD-TiO₂ thin films were annealed in O₂ atmosphere at different temperatures. The effects of annealing temperature on the optical constants, surface morphology, crystal structure, and impurity states were systematically investigated using spectroscopic ellipsometry, atomic force microscopy (AFM), X-ray diffraction(XRD), Fourier-transform infrared spectroscopy(FTIR), and X-ray photoelectron spectroscopy (XPS). This work provides theoretical and experimental guidance for the preparation of low-absorption, high laser-damage-resistant ALD-TiO₂ optical films through post-annealing treatment.",
   "authors": [
@@ -8665,6 +8923,43 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "基于钼基MXene控制竞争性氮还原与析氢反应选择性的原子尺度洞察"
+ },
+ "10.18686/cest965": {
+  "abstract": "Green ammonia is increasingly considered a low-carbon energy carrier for industrial demand centers. This study compares end-to-end supply chains from Casablanca (Morocco), Mejillones (Chile), and NEOM Oxagon (Saudi Arabia) to Brunsbüttel, Germany. The system boundary distinguishes renewable electricity, ammonia conversion (electrolysis, nitrogen separation, and Haber–Bosch synthesis), refrigerated storage, terminal handling, distance-based maritime freight, and route-specific charges. The assessment combines harmonized cost accounting, deterministic operating-condition stress tests, and screening-level probabilistic uncertainty analysis. Under the baseline assumptions, delivered costs are 1,178.93 USD/t NH₃ for Morocco, 1,242.13 USD/t NH₃ for Saudi Arabia/NEOM, and 1,341.63 USD/t NH₃ for Chile. The embedded desalination contributions are 1.60, 2.88, and 3.04 USD/t NH₃, respectively, and remain below 0.4% of the corresponding conversion benchmarks. A one-at-a-time ±20% sensitivity analysis identifies conversion cost as the dominant absolute cost driver, whereas freight differentiates route resilience. A 50,000-draw Monte Carlo screening analysis yields conditional P5–P95 delivered-cost intervals of 1,036.05–1,321.84 USD/t NH₃ for Morocco, 1,098.37–1,385.33 USD/t NH₃ for Saudi Arabia/NEOM, and 1,193.24–1,490.47 USD/t NH₃ for Chile. Conversion cost dominates the uncertainty ranking (Spearman ρ = 0.986–0.995). Under the adopted assumptions, the Casablanca route has the lowest delivered cost and the least exposure to maritime logistics among the three assessed routes. These findings remain conditional on the selected cost benchmarks and uncertainty bounds.",
+  "authors": [
+   "Asmaa Khourdifi",
+   "Yassine Eddouh",
+   "Rabie El Otmani",
+   "Khalid Kandoussi"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-18",
+  "doi": "10.18686/cest965",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.18686/cest965",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Clean Energy Science and Technology",
+  "tier": "background",
+  "title": "Delivered-cost competitiveness of green ammonia imports to Germany: An end-to-end techno-economic assessment of supply chains from Morocco, Chile, and Saudi Arabia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.18686/cest965",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "Haber-Bosch"
+  ],
+  "zh_brief": "该研究评估了从摩洛哥卡萨布兰卡、智利梅希利诺斯和沙特阿拉伯 NEOM Oxagon 到德国 Brunsbüttel 的绿色氨供应链的端到端成本。通过确定性操作条件压力测试和蒙特卡洛不确定性分析，得出基准假设下的交付成本分别为 1,178.93 USD/t NH₃、1,242.13 USD/t NH₃ 和 1,341.63 USD/t NH₃。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "N₂/H₂气相合成氨",
+  "zh_title": "绿色氨进口到德国的交付成本竞争力：来自摩洛哥、智利和沙特阿拉伯的端到端技术经济评估"
  },
  "10.20517/energymater.2026.252": {
   "abstract": "Regulating Pt-support electronic coupling is crucial for improving the activity, durability, and Pt utilization of hydrogen evolution reaction (HER) electrocatalysts. However, the weak electronic interaction between Pt nanoparticles and conventional carbon supports in commercial platinum-on-carbon (Pt/C) limits further performance enhancement. Herein, we report a two-dimensional Sn nanosheet-supported Pt nanoparticle catalyst (Pt/Sn NSs) constructed by liquid-phase exfoliation and atomic layer deposition. Structural and surface chemical analyses reveal pronounced interfacial electronic coupling between Pt nanoparticles and the Sn-based support. Combined with density functional theory calculations, the results demonstrate Sn-to-Pt interfacial charge redistribution and enhanced Pt stabilization on Sn nanosheets. Benefiting from this strengthened Pt-support electronic interaction, Pt/Sn NSs exhibit superior HER performance compared to commercial Pt/C in both acidic and alkaline media, requiring only 28 mV in 0.5 M H2SO4 and 37 mV in 1.0 M KOH to reach 10 mA cm-2, with Tafel slopes of 13.5 and 35.7 mV dec-1, respectively. The calculations further show support-induced modulation of the Pt electronic structure, a more nearly thermoneutral H* adsorption state, and more favorable reaction thermodynamics for the key HER steps. This work demonstrates that electronically interactive Sn nanosheets provide an effective support-engineering platform for regulating Pt-based HER electrocatalysis.",
@@ -8860,6 +9155,40 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应",
   "zh_title": "碳二卡宾同素异形体作为零维碳平台用于小分子活化与氮气转化为氨"
+ },
+ "10.25394/pgs.35031661": {
+  "abstract": "High-entropy alloys (HEAs) have emerged as promising heterogeneous catalysts because their surfaces present an enormous variety of local atomic environments, which may allow individual sites to escape the scaling relationships that limit conventional metals and ordered alloys. This same diversity of adsorption environments, however, makes HEA surfaces difficult to model. A single well-defined surface can be described with a modest number of density functional theory (DFT) calculations, but a disordered multi-element surface requires characterizing a statistical ensemble of site types. Existing computational treatments of such surfaces rest on assumptions that have not been systematically tested. These are that the surface composition mirrors the bulk, that descriptors such as scaling relationships remain valid, and that activity can be inferred from a single average binding-energy descriptor. The rational design of HEA catalysts therefore requires a modeling approach that evaluates these assumptions explicitly. This dissertation develops a first-principles framework that links surface structure, thermodynamic stability, and site-resolved kinetics for disordered alloy catalysts. Disordered CoMo, a bimetallic system that is active for ammonia synthesis and decomposition, serves as a two-element analog of HEAs, and ammonia decomposition serves as the probe reaction.The first part of the thesis addresses the molecular structure and stability of disordered alloy surfaces. While the bulk structures of HEAs are generally understood to consist of crystalline lattices with a random distribution of elements among lattice sites, far less is known about their surface structures, which control catalytic properties. DFT calculations were combined with a custom lattice-matching algorithm to explore the stability of a large number of CoMo surface compositions and configurations, including both pseudomorphic and non-pseudomorphic (Moiré-pattern) structures built on a special quasirandom bulk substrate. Canonical and mixed grand canonical surface phase diagrams show that thermodynamically stable surface compositions can differ significantly from the corresponding bulk compositions. Non-pseudomorphic structures, which reduce the magnitude of strain fields near the surface, are often more stable than pseudomorphic patterns of the same composition, highlighting the relevance of Moiré-type reconstructions on disordered alloy surfaces. These insights into the interplay between surface composition, structure, and stability lay the groundwork for understanding more complex multi-element systems and for a systematic evaluation of HEA catalytic properties.The second part translates these structural insights into predictions of catalytic activity and addresses the poorly understood theoretical basis for the exceptional performance of HEA catalysts in ammonia decomposition. A first-principles framework that integrates surface phase diagrams, activation barrier estimates, and multi-site microkinetic modeling is developed to predict ammonia decomposition activity on disordered CoMo. The mixed grand canonical surface phase diagrams, extended to include the adsorption of nitrogen and other ammonia decomposition intermediates, identify thermodynamically stable surface configurations under operando conditions. A Brønsted–Evans–Polanyi (BEP) relationship for the rate-determining N₂ recombinative desorption step, established from approximately 100 nudged elastic band calculations across diverse local environments, enables activation barriers to be estimated across the full configurational ensemble without exhaustive transition-state searches. Free energy diagrams at 500 °C show that selected CoMo configurations achieve nitrogen desorption barriers comparable to or lower than those on the Ru(0001) benchmark. To connect these energetics to rates, a multi-site microkinetic framework is introduced that computes site-pair turnover frequencies as a function of NH₃ conversion. Ensemble-averaged CoMo activity exceeds that of Ru(0001) under the same conditions. Comparing the full ensemble with the thermodynamically stable (convex hull) surfaces shows that the stable surfaces exhibit lower nitrogen coverage. Their activity therefore falls behind the full ensemble at high conversion as turnover flux concentrates onto fewer, higher-barrier site pairs. The configurational and energetic diversity of the disordered CoMo surface therefore contributes to its kinetic advantage over Ru, and the approach offers a transferable methodology for computational screening of HEA catalysts.The third part tests whether descriptor-based screening can be transferred to disordered surfaces. Scaling relationships between the adsorption energies of N, NH, and NH₂ were examined on disordered CoMo surfaces and on a five-element Co₃₅Mo₃₅Fe₁₀Ni₁₀Cu₁₀ alloy, and a graph-based algorithm was used to define progressively stricter criteria for two intermediates sharing an active site. When each intermediate occupies its own most stable site, the correlations are weak (R² = 0.67 for N–NH and 0.50 for N–NH₂), and the slopes depart from bond-order-conservation values. Matching sites through the second coordination shell improves the correlation, but the N–NH slope remains too steep on both CoMo and the five-element alloy, which indicates that the deviation is a general feature of HEA surfaces. The conventional scaling slope between N and NH binding energies is recovered only when both intermediates are forced onto on-top sites, which are 1 to 3 eV less stable than hollow sites and are not populated under reaction conditions. Scaling therefore loses most of its predictive value on these surfaces. The weak coupling between intermediates also suggests that disordered alloys naturally provide the site diversity needed to tune the binding of the rate-limiting intermediate independently. As an alternative descriptor, the surface nitrogen binding energy was correlated with the bulk formation energy of the corresponding metal nitrides, using data from Materials Project and Catalysis Hub. Because these quantities are already tabulated for thousands of materials, the correlation enabled a survey of compositional space far larger than explicit surface calculations could cover. The correlation identified Fe, Mn, and Sn as promising additions to HEA compositions for ammonia chemistry, and experimental collaborators have begun incorporating Mn into their alloys.Finally, this work outlines how the framework can be extended toward true multi-component HEAs. The main challenges are the comparison of computed and measured kinetics, the treatment of adsorbate-adsorbate interactions, and the combinatorial growth of local environments with each added element. As a first step toward surrogate-accelerated sampling, a graph neural network (ACE-GCN) was trained on 11,443 CoMo adsorbate calculations, predicting adsorption energies with a mean absolute error of 0.08 eV on the test set. Coupling machine-learned interatomic potentials with active learning is proposed to make higher-order compositional spaces tractable. In sum, this dissertation establishes a transferable, physics-based methodology that spans structure, thermodynamics, scaling behavior, and multi-site kinetics and enables the rational design and computational screening of disordered alloy and high-entropy alloy catalysts.",
+  "authors": [
+   "Zühal Çakır"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-18",
+  "doi": "10.25394/pgs.35031661",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.25394/pgs.35031661",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Purdue",
+  "tier": "background",
+  "title": "FIRST-PRINCIPLES ANALYSIS OF AMMONIA DECOMPOSITION ON DISORDERED COMO ALLOYS",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.25394/pgs.35031661",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "针对无序合金表面难以建模的问题，该研究建立了连接表面结构、热力学稳定性和位点分辨动力学的第一性原理框架。以无序 CoMo 合金为研究对象，利用密度泛函理论计算分析了氨分解反应，评估了表面组成、标度关系和平均结合能描述符等假设的有效性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系、Fe/铁体系",
+  "zh_title": "无序 CoMo 合金上氨分解的第一性原理分析"
  },
  "10.26434/chemrxiv.15011542/v1": {
   "abstract": "This study compares the alternating-magnetic-field (AMF) heating of Fe3O4-, MnFe2O4-, MgFe2O4-, and SrFe12O19-targeted nanoparticle preparations and of their sequentially silica-modified, aminated, Aufunctionalized, and PEG-treated forms. The compositions are identified by their nominal synthesis precursors. Temperature–time curves and the times required to reach 42 °C were measured in water and in nominally 1% agar phantoms under identical induction-generator settings (132 kHz; 5 kW rated output). Among the untreated preparations, the Mg-labeled series reached 42 °C fastest (145 s in water and 187 s in agar), whereas the Srlabeled series was the slowest (222 and 293 s, respectively). For the Mg-labeled particles, increasing the concentration from 2.5 to 10 mg mL 1 shortened the time to 42 °C from 394 to 77 s in water and from 381 to 112 - s in agar. In water, the aminated Mn-, Mg-, and Sr-labeled samples heated fastest within their respective surfacetreatment series (139, 124, and 209 s), whereas the unmodified Fe-labeled core was fastest within the Fe series (171 s). The PEG-treated specimens exhibited the longest times in all four water-based series. FTIR, SEM, and EDX analyses characterized the successive surface-treatment stages, including the detection of Au after functionalization. Together, these findings clarify how precursor-defined ferrite composition, concentration, surface treatment, and surrounding medium influence magnetic heating under matched apparatus conditions.",

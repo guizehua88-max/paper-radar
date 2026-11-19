@@ -10777,6 +10777,41 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "基于数字孪生技术的智能风电-光伏-氢-氨一体化工厂的设计与实现"
  },
+ "10.1109/icaira72375.2026.11768557": {
+  "abstract": "Induction heating is an efficient, contactless, and controllable thermal-processing technique used in industrial applications like metal hardening, brazing, melting, welding, fluid heating, and concrete curing and also domestic cooking. The performance of an induction-heating system depends strongly on the power-converter configuration used to generate high-frequency current in the induction coil. Resonant converters are widely adopted because they enable soft switching, reduce switching losses, improve power density, and provide effective control of coil power. This paper presents a literature review of resonant converter configurations for induction-heating applications. Series-resonant, parallel-resonant, LLC, LLLC, current-source, matrix, quasi-resonant, multiphase, and direct AC–AC configurations are reviewed and compared. The study evaluates the topologies according to switching frequency, power-control capability, soft-switching performance, input-current quality, load flexibility, implementation complexity, and industrial suitability. The review indicates that series-resonant converters remain attractive for simple single-load systems, whereas LLC and LLLC converters offer improved regulation and efficiency over a wider operating range. Direct AC–AC and matrix-resonant converters can reduce conversion stages but require more complex bidirectional switching and commutation strategies. Wide-bandgap devices, model-predictive control, variable-inductor techniques, multiphase operation, and high-order current-source resonant structures are emerging as important research directions. Finally, recommendations are proposed for selecting resonant converter configurations for industrial induction-heating systems GaN based AI applications for Induction Heating are the future.",
+  "authors": [
+   "Thalanki Venkata Sai Kalyani",
+   "B. Srikanth Goud"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-09",
+  "doi": "10.1109/icaira72375.2026.11768557",
+  "first_seen": "2026-11-19T19:29:32Z",
+  "id": "10.1109/icaira72375.2026.11768557",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "2026 International Conference on Artificial Intelligence Research and Application (ICAIRA)",
+  "tier": "transferable",
+  "title": "Resonant Converter Configurations for Induction Heating Applications: A Comparative Review",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1109/icaira72375.2026.11768557",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Induction Heating"
+  ],
+  "zh_brief": "本文综述了感应加热系统中谐振变换器的配置，包括串联谐振、并联谐振、LLC、LLLC、电流源、矩阵、准谐振、多相和直接交流-交流配置。研究评估了这些拓扑结构在开关频率、功率控制能力、软开关性能等方面的表现，指出串联谐振变换器适用于简单单负载系统，而LLC和LLLC在更宽的运行范围内提供更好的调节和效率。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "感应加热应用的谐振变换器配置：比较综述"
+ },
  "10.1109/icem68283.2026.11757488": {
   "ab_check_v": 2,
   "ab_result": "found",
