@@ -11513,6 +11513,40 @@
   "zh_obj": "通用催化方法",
   "zh_title": "粮食安全、硝酸盐资本主义与哈伯-博施革命"
  },
+ "10.1115/pvp2026-183208": {
+  "abstract": "Abstract This paper focuses on the end sealing structure of the ammonia converter, the key reactor in ammonia synthesis plants. In past projects, the sealing structure of ammonia converters typically used flat cover with a double-conical gasket, which is bolted to the shell end forging for compression sealing. However, as project scales have continuously increased, the diameter of ammonia converters has also grown accordingly. When the diameter exceeds 3000 mm, the most established double- conical gasket with flat cover structure becomes unsuitable. This is because the required flat cover material becomes excessively thick, which will make performance assurance extremely difficult, and there is limited proven operational experience with such ultra-thick flat cover materials. Also the manufacturing of this flat cover becomes very difficult. In such cases, a flange with a double-conical gasket combined with a spherical head (hemispherical head) can be considered as an alternative to the flat cover structure. During the design of this structure, the flange is a non-standard component, its structural parameters must be redesigned. This study compares data from some ammonia converters of flat cover with flange structure. Through Finite Element Analysis (FEA) stress calculations, the stress and deformation results of two different sealing structures for a DN3100mm converter are verified. Ultimately, it is determined that for ammonia converters exceeding DN3000, priority consideration should be given to changing from a flat cover sealing structure to a flange and spherical head sealing structure. Furthermore, suggested control indicators for key design parameters are provided, offering a valuable reference for the design of such end sealing structures in ammonia converters.",
+  "authors": [
+   "Jie Liu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-07-19",
+  "doi": "10.1115/pvp2026-183208",
+  "first_seen": "2026-11-20T03:57:35Z",
+  "id": "10.1115/pvp2026-183208",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Volume 4: Fluid-Structure Interaction; High Pressure Technology",
+  "tier": "uncertain",
+  "title": "Design of High-Pressure Sealing Structure of End Closure for Large Diameter Ammonia Converter",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1115/pvp2026-183208",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "本文研究氨合成厂关键反应器氨转化器的端部密封结构。传统密封结构使用平盖加双锥形垫圈，但直径超过3000 mm时，平盖材料厚度过大导致性能保证困难且缺乏成熟操作经验。文章提出采用法兰加双锥形垫圈结合球形头（半球形头）作为替代方案，通过有限元分析（FEA）对比了DN3100mm转化器两种密封结构的应力变形结果，确定直径超过DN3000的氨转化器应优先考虑从平盖密封结构改为法兰和球形头密封结构，并提供了关键设计参数的控制指标建议。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "大型氨转化器端部密封结构的高压密封结构设计"
+ },
  "10.1126/sciadv.aef1430": {
   "abstract": "Van der Waals (vdW) epitaxy can integrate lattice-mismatched crystals with atomically sharp, pristine interfaces. However, translating this concept to atomic layer deposition (ALD), a standard for low-temperature, layer-by-layer growth, remains challenging because precursors adsorb transiently on chemically inert vdW basal planes, leading to physisorption-limited nucleation and poor crystalline ordering. Here, we introduce diffusion-steered epitaxial ALD (Epi-ALD), redefining vdW surfaces as programmable kinetic-thermodynamic landscapes and demonstrate highly crystalline tellurium at 150°C. Epi-ALD couples surface-potential-encoded physisorption with long-range diffusion to promote ordered nucleation and epitaxial alignment. This \"soft\" pathway enables strain-free tellurium epitaxy with a pristine vdW gap (∼1.4 angstrom) despite lattice mismatch (>3.6%) and generalizes across multiple vdW templates. Retaining hallmark advantages of ALD including scalability and uniformity, we further program in-plane orientation through vdW symmetry engineering to achieve quasi-single-crystalline tellurium films with pronounced anisotropy and a chiral anomaly signature. Our work establishes a universal, low-thermal-budget approach for integrating vdW materials and expands the scope of epitaxy within the ALD paradigm.",
   "authors": [
