@@ -532,6 +532,47 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
   "zh_title": "碳限制铁酞菁-铜界面促进选择性硝酸盐-氨转化"
  },
+ "10.1002/adfm.79722": {
+  "abstract": "For lithium-sulfur batteries, cyanuric chloride (CC) combines weak Li-ion coordination with electrophilic carbon-chlorine chemistry in one compact molecule. By following concentrations from 0 to 0.10 M across the electrolyte, both electrode interphases, and a pouch cell, the study identifies 0.05 M (Optm-CC) as the most favorable of the four tested formulations. The selected electrolyte supports 300 pouch-cell cycles at approximately 8 mg Sulfur cm −2 and 5 µL mg Sulfur −1 . ABSTRACT Practical lithium-sulfur (Li-S) batteries require control of dissolved polysulfides, sulfur-conversion kinetics, and lithium-metal anodes under high sulfur loading and limited electrolyte. Dissolved molecular additives can influence all three processes, but their effects depend on concentration. Here, cyanuric chloride (CC) is examined from 0 to 0.10 M as an aprotic chlorotriazine additive with three ring-nitrogen sites and three carbon-chlorine centers. Spectroscopy suggests that 0.05 M (Optm-CC) enhances nitrate (NO 3 − ) and bis(trifluoromethanesulfonyl)imide (TFSI − ) anions’ participation in Li-ion solvation. This concentration reduces polysulfide crossover, enriches the sulfur-cathode interphase with inorganic and triazine-associated products, and promotes an inorganic-rich, Cl-containing interphase at the lithium-metal anode. As a result, these changes lower cyclic-voltammetry peak separation to 0.191 V, raise the apparent Li|Li exchange-current density to 0.203 mA cm −2 , support Li|Li symmetric-cell cycling for over 1100 cycles, deliver 560 mAh g Sulfur −1 at 10C, and sustain 3000 Li-S cycles. Increasing the CC concentration to 0.10 M (Conc-CC) produces a larger spectroscopic shift, but the apparent Li-ion transference number and lithium-electrode polarization deteriorate. Furthermore, a pouch cell operated at 8 mg Sulfur cm −2 and 5 µL mg Sulfur − 1 retains 72.73% of its stabilized capacity after 300 cycles. Among the tested formulations, 0.05 M best balances coordination, interphase chemistry, and electrochemical performance.",
+  "authors": [
+   "Ryanda Enggar Anugrah Ardhi",
+   "Satyanarayana K. Konavarapu",
+   "Farris Hilmyafif Elli",
+   "Jawon Ha",
+   "Vidhurathan Soundararajan",
+   "Hyunjoon Yoo",
+   "Hyunsoo Kim",
+   "Iyan Subiyanto",
+   "Jeong Won Kim",
+   "Il‐Kwon Oh"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-20",
+  "doi": "10.1002/adfm.79722",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1002/adfm.79722",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Concentration‐Dependent Li‐Ion Solvation and Dual‐Interphase Regulation by Cyanuric Chloride in Lithium‐Sulfur Batteries",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79722",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "研究对象为氰尿酸氯（CC）作为添加剂，关键方法为研究不同浓度（0–0.10 M）对电解质、电极界面和软包电池的影响。主要结果为0.05 M（Optm-CC）增强硝酸根（NO 3 − ）和双（三氟甲磺酰）亚胺（TFSI − ）阴离子的Li-离子溶剂化，降低多硫化物穿梭，丰富硫正极界面，促进锂金属负极界面富无机和三嗪相关产物。这些变化降低了循环伏安法峰分离（0.191 V），提高了表观Li|Li交换电流密度（0.203 mA cm −2 ），支持Li|Li对称电池循环超过1100次，在10C下提供560 mAh g Sulfur −1，并支持3000次Li-S循环。增加CC浓度到0.10 M（Conc-CC）产生更大的光谱偏移，但表观Li-离子迁移数和锂电极极化恶化。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "氰尿酸氯在锂硫电池中浓度依赖的Li-离子溶剂化和双界面调节"
+ },
  "10.1002/adfm.79752": {
   "abstract": "ABSTRACT Acidic nitrate electroreduction is hindered by intense proton competition, parasitic hydrogen evolution, and rapid degradation of Cu‐based catalysts, limiting direct treatment of industrial nitrate effluents. Here, a siloxane‐armored Cu/Cu 2 In bimetallic aerogel (Cu/Cu 2 In@Si) is developed to integrate nitrate activation, regulated hydrogen transfer, and interfacial stabilization within an integrated catalytic system. The interconnected aerogel exposes Cu/Cu 2 In heterointerfaces for nitrate adsorption and conversion, while a 2–8 nm siloxane layer mitigates proton attack without sacrificing electrolyte accessibility. In pH 1 electrolyte containing 100 ppm NO 3 − ‐N, Cu/Cu 2 In@Si achieves 90.83% nitrate removal and 96.41% N 2 selectivity at −1.4 V versus SCE, retaining over 80% removal after 40 cycles with an average N 2 selectivity above 97%. Operando measurements and DFT identify complementary roles: Cu‐derived sites support nitrate adsorption and early N–O cleavage, whereas Cu 2 In‐containing domains provide accessible * H, and the heterointerface most strongly stabilizes * NOH for subsequent deoxygenation to * N. Meanwhile, the siloxane network shields the heterointerface from excessive proton attack, thereby suppressing hydrogen evolution, metal dissolution, and Cu reconstruction. This work establishes proton‐shielded heterointerfaces for direct, durable denitrification of acidic wastewater without neutralization pretreatment.",
   "authors": [
@@ -570,6 +611,46 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "硅氧烷介导的质子屏蔽在 Cu/Cu2In 气凝胶中用于酸性电催化硝酸盐还原"
+ },
+ "10.1002/adfm.79753": {
+  "abstract": "The Proton Dynamic Confluence Effect″ (PDCE) in Co 2 P/Cu/LaPO 4 heterojunction synchronizes *H flux via source-storage-sink architecture. This delivers 135.04 mg h − 1 cm − 2 NH 3 (94.9% FE), 99.85% removal from real wastewater with profit, advancing design to flux management. ABSTRACT Fertilizer-plant rinse wastewater is high-concentration, low-flow, sparsely distributed point-source nitrate pollution, with nitrate-nitrogen reaching thousands of ppm. Renewable-energy-driven electrochemical nitrate reduction (NO 3 RR) can convert nitrate into ammonia, but limited by flux imbalance between generation and consumption of active hydrogen (*H). Conventional catalysts cannot match *H supply and demand, causing hydrogen evolution or intermediate accumulation. We propose a Proton Dynamic Confluence Effect (PDCE) and design Co 2 P/Cu/LaPO 4 ternary heterojunction. Co 2 P supplies *H via water dissociation; surface PO 4 3 − on LaPO 4 acts as a dynamic proton buffer through reversible protonation (PO 4 3 − ⇌ HPO 4 2 − ); Cu is the consumption sink, activating nitrate and facilitating hydrogenation. This creates self-synchronized source–storage–sink *H flux. In alkaline media, it achieves a maximum ammonia yield rate of 135.04 mg h − 1 cm − 2 and 94.9% Faradaic efficiency at −0.8 V vs. RHE. In situ spectroscopy captures reversible PO 4 3 − protonation and fast-in–fast-out intermediate kinetics; kinetic isotope and quenching experiments confirm a low-free-energy-change PCET process. In real fertilizer-plant wastewater (initial NO 3 − -N 3221 ppm) over 120 h operation, it achieves 99.85% nitrate removal, 35.15 g ammonia, and >90% Faradaic efficiency. PDCE shifts catalyst design from active-site optimization to intermediate flux management, offering a universal strategy for electrocatalytic upgrading of fertilizer-plant nitrate wastewater into ammonia.",
+  "authors": [
+   "Zhenlin Mo",
+   "Jiangzhou Qin",
+   "Wei Guo",
+   "Shuqin Zhang",
+   "Fali Hou",
+   "Shaoqi Zhou",
+   "Baojun Liu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-20",
+  "doi": "10.1002/adfm.79753",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1002/adfm.79753",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Proton Dynamic Confluence Effect Enables Self‐Synchronized *H Source‐Storage‐Sink for Electrocatalytic Nitrate‐to‐Ammonia from Fertilizer Wastewater",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79753",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [
+   "Nitrate-to-Ammonia"
+  ],
+  "zh_brief": "研究对象为Co 2 P/Cu/LaPO 4三元异质结，关键方法为利用质子动态汇聚效应（PDCE）设计源-存储-汇架构同步*H通量，通过水裂解产生*H，LaPO 4表面PO 4 3 −作为动态质子缓冲，Cu作为消耗汇。主要结果为在碱性介质中，最大氨产率可达135.04 mg h − 1 cm − 2，法拉第效率为94.9%，在真实化肥厂废水中运行120小时，硝酸盐去除率达99.85%，氨产量为35.15 g，法拉第效率>90%。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "质子动态汇聚效应使*H源-存储-汇自同步用于从化肥废水电催化硝酸盐到氨的转化"
  },
  "10.1002/adma.74881": {
   "abstract": "Pulsed electrolysis makes nitrate reduction from a conventional steady-state process into a dynamically tunable interfacial reaction. Periodic modulation of the applied potential and/or current restores catalyst activity, enriches interfacial nitrate, regulates key intermediate generation and conversion, and alleviates mass-transfer limitations. Beyond ammonia synthesis, this strategy opens opportunities for producing value-added nitrogen-containing chemicals. ABSTRACT Electrocatalytic nitrate (NO 3 − ) reduction reaction (eNO 3 RR) offers a promising route for NO 3 − pollution control and nitrogen resource recovery. However, under conventional potentiostatic electrolysis, limited product selectivity and catalyst deactivation still hinder its practical application. Pulsed electrolysis provides a new strategy to dynamically regulate the complex interfacial reaction processes in eNO 3 RR. Nevertheless, its effectiveness strongly depends on rational parameter design, as inappropriate pulse settings may increase energy consumption and induce undesired catalyst structural evolution. More importantly, the relationship between pulse parameters and interfacial reaction mechanisms remains unclear. Thereby, current parameter optimization lacks generalizable design principles. In this review, we summarize recent advances in pulsed electrolysis for eNO 3 RR, focusing on its mechanistic roles in dynamic catalyst reconstruction, interfacial microenvironment regulation, and reaction pathway modulation. We then outline design considerations for key pulse parameters and analyze their effects on catalyst stability, mass transport, Faradaic efficiency, and product selectivity. We further discuss the potential of pulsed strategies for value-added C─N coupling transformations. Finally, we examine the key challenges facing pulsed eNO 3 RR in energy efficiency, stability, and practical scale-up. This review aims to provide mechanistic insights and design guidance for pulsed eNO 3 RR systems and to support their transition from laboratory studies toward sustainable practical applications.",
@@ -1185,6 +1266,50 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "静电聚焦实现pH通用硝酸盐电还原的定向活性氢传递"
+ },
+ "10.1002/anie.1697885": {
+  "abstract": "Active-site reconstruction during electrocatalysis is often unpredictable and difficult to be controlled. By combining pH- and potential-dependent thermodynamic analysis with experimental validation, electrolyte anions are identified as programmable axial ligands that can redefine Fe─N─C active sites. It is identified that nitrate coordination delivers enhanced ORR activity across a broad pH range, establishing a strategy for electrolyte-guided active-site programming. ABSTRACT Precise control over active site coordination is essential for advancing electrocatalysis, yet remains challenging due to insufficient understanding of how operating environments, particularly electrolyte anions, reshape local structure, and coordination. Here, we combine grand canonical ensemble calculations with experimental validations to investigate five representative anions (F − , Cl − , Br − , NO 3 − , and H 2 PO 4 − ) across a range of pH and potential conditions. Using Fe─N─C single-atom catalysts and oxygen reduction reaction (ORR) as a prototypical system, we reveal the adaptive evolution of active site coordination: Anions act as axial ligands that modulate the electronic structure of active sites and enable pH-dependent regulation of catalytic activity. Specifically, NO 3 − serves as the most effective axial ligand for enhancing catalytic activity across the entire pH range. Electrochemical measurements show enhanced ORR activity, and spectroscopic characterizations directly reveal axial NO 3 coordination upon introducing NO 3 − , supporting the theoretical predictions. Based on these insights, we propose an adaptive framework for electrolyte-guided active site programming, which enables the selection of proper anion ligand with optimal catalytic activity under specific working conditions. This work bridges mechanistic modeling and experimental design, precisely constructing the active center for enhanced electrocatalytic activity.",
+  "authors": [
+   "Shaojie Jing",
+   "Junfeng Mou",
+   "Zhouhao Zhu",
+   "Wencai Liu",
+   "Chaogang Ban",
+   "Yucui Xiang",
+   "Jing Fan",
+   "Zhiping Zeng",
+   "Hui Yin",
+   "Lu Xia",
+   "Jiangping Ma",
+   "Li‐Yong Gan",
+   "Xiaoyuan Zhou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-20",
+  "doi": "10.1002/anie.1697885",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1002/anie.1697885",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Angewandte Chemie",
+  "tier": "background",
+  "title": "Adaptive Active Site Programming via Electrolyte Engineering Toward Enhanced Catalytic Activity",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.1697885",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [],
+  "zh_brief": "结合热力学分析与实验验证，提出电解质阴离子作为可编程轴向配体来重定义Fe─N─C活性位点。研究发现NO3-作为轴向配体能增强全pH范围的ORR活性，Fe─N─C单原子催化剂在引入NO3-后表现出增强的ORR性能，并直接证实了轴向NO3-配位的形成。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "通过电解质工程实现自适应活性位点编程以增强催化活性"
  },
  "10.1002/anie.1880547": {
   "abstract": "ABSTRACT Continuous lithium‐mediated nitrogen reduction reaction (Li‐NRR), which integrates anodic hydrogen oxidation with cathodic nitrogen fixation, opens a viable pathway for ambient ammonia synthesis. Nevertheless, its long‐term and efficient operation remains tremendously challenging due to severe solvent issues including polymerization, volatilization, and reductive decomposition. Here, we fundamentally uncover the intrinsic reductive decomposition mechanism of solvent molecules in ion–solvent complex‐dominated electrolytes, and develop a weak‐solvent modulation strategy to significantly enhance the reduction stability of solvent frameworks toward durable and efficient Li‐NRR operation. The optimized weakly solvating electrolyte attenuates solvent molecule distortion by Li + and promotes the formation of an anion‑enriched solvation sheath and a nanocrystalline LiF‑rich solid electrolyte interphase (SEI). Such a functional SEI layer effectively suppresses solvent decomposition on the cathode and constructs a fast Li + transport network via abundant surface pathways and grain boundaries, which synergistically improves Li plating kinetics and nitrogen fixation efficiency, as well as stability. Benefiting from these optimizations, we achieve stable and continuous N 2 electroreduction over 300 h. Meanwhile, the system delivers a high NH 3 Faradaic efficiency of 69.5% and an improved energy efficiency up to 23.2%. This work provides an effective molecular design strategy that significantly enhances the energy efficiency and stability of Li‐NRR.",
@@ -2657,6 +2782,45 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "与煤制氢和电制氢生产集成的低碳氨合成系统的技术经济优化"
  },
+ "10.1016/j.applthermaleng.2026.134057": {
+  "abstract": "",
+  "authors": [
+   "Jiaming Ning",
+   "Dongtai Yang",
+   "Zhenxiao Xia",
+   "Yu Gu",
+   "Wei Han",
+   "Lin Gao",
+   "Song He"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-21",
+  "doi": "10.1016/j.applthermaleng.2026.134057",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1016/j.applthermaleng.2026.134057",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Thermal Engineering",
+  "tier": "background",
+  "title": "Green ammonia cracking integrated with coal gasification for syngas production with flexible H2/CO adjustment and employment for methanol synthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.applthermaleng.2026.134057",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia cracking"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "集成煤造气与绿氨裂解生产合成气及用于甲醇合成的灵活H2/CO调节"
+ },
  "10.1016/j.apsusc.2026.168935": {
   "abstract": "The reduction of nitric oxide (NO) is a powerful method for eliminating the pollutant NO and a feasible route for synthesizing ammonia (NH 3 ) at ambient temperature, a promise to replace the energy-consuming Haber-Bosch process. However, the design of efficient catalysts with low cost and high activity to boost the complex electron transfer process is significantly challenging. Herein, we applied state-of-the-art density functional theory (DFT) calculations for the first time to investigate NO reduction on black-phosphorus-like two-dimensional monochalcogenides GeSe and SnSe, respectively. The strong bonding state between the catalyst and the adsorbate is attributed to the activation of NO, favouring NO-side adsorption and the substantial reduction to NH 3 . The catalysts are highly efficient for nitric oxide reduction reaction (NORR), as evidenced by the low limiting potentials of −0.19 and −0.11 V, respectively. Moreover, the formation of by-products (N 2 O and N 2 ) and the hydrogen evolution reaction (HER) are strongly suppressed, indicating the selective formation of NH 3 . This work is a promising strategy for designing practical and economical NORR electrocatalysts and an effective method to solve the problem of NO environmental pollution.",
   "authors": [
@@ -3839,6 +4003,41 @@
   "zh_obj": "制氨路线未明确；涉及Ru/钌体系",
   "zh_title": "基于 Ce-Ru-Si 电子协同作用的 CeRuSi 金属间化合物上氨合成的混合机理"
  },
+ "10.1016/j.ces.2026.125678": {
+  "abstract": "",
+  "authors": [
+   "Luxuan Huang",
+   "Jingyao Liu",
+   "Zhong-min Su"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.ces.2026.125678",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1016/j.ces.2026.125678",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Engineering Science",
+  "tier": "background",
+  "title": "Metal-dependent ligand effects in 2,2′-bipyridine-coordinated single-atom catalysts on g-C3N4 for electrocatalytic nitrogen reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ces.2026.125678",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "electrocatalytic nitrogen reduction"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原",
+  "zh_title": "g-C3N4上2,2'-联吡啶配位单原子催化剂中金属依赖的配体效应"
+ },
  "10.1016/j.checat.2026.101910": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -4080,6 +4279,53 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "基于单层 NbSe2 锚定单原子催化剂的电催化氮还原的第一性原理筛选"
+ },
+ "10.1016/j.csite.2026.108747": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-21"
+  },
+  "ab_sources_checked": [
+   "OpenAlex"
+  ],
+  "ab_try": "2026-11-21",
+  "abstract": "The synergistic interactions between coal and lignocellulosic biomass are significantly affected by the presence of fiber components and alkali metal species derived from the biomass portion. However, previous studies have primarily focused on investigating these effects under low heating rate conditions such as those in thermogravimetric analysis (0.1-200 K/min), while studies under high heating rate conditions are limited. In this study, the ignition delay times of both the volatiles (IDT) and the residual chars (IDT-CHAR) were adopted as two pivotal ignition characteristics. The aim was to clarify how the fiber components and alkali metals inherent to biomass modulate the synergistic interactions between coal and lignocellulosic biomass during co-combustion under rapid heating rates of 10 4 –10 5 K/s. High-speed imaging within a Hencken flat-flame burner (FFB) was employed to characterize the ignition dynamics of multicomponent fuel blends, comprising biomass-coal, fiber components-coal, and cellulose-coal-alkali metals systems. The results indicated that the synergistic interactions between bituminous coal and cellulose during devolatilization facilitated both volatiles and chars ignition of the coal-biomass blends. The catalytic effect of alkali metals on the coal-cellulose synergy was found to be dependent on the cellulose proportion within the blends. At cellulose blending levels of 50% and 75%, sufficient cellulose availability allows alkali metals to positively modulate the synergistic interactions. Conversely, at a lower cellulose blending ratio of 25%, the observed synergistic interactions on both the volatiles and the chars ignition are plausibly attributed to the cellulose-coal interactions, whereas the contribution from alkali metals becomes negligible at this blending level.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "Shusen Wang",
+   "Qiang Zhang",
+   "Yuegang Liu",
+   "Mengting Xu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-20",
+  "doi": "10.1016/j.csite.2026.108747",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1016/j.csite.2026.108747",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Case Studies in Thermal Engineering",
+  "tier": "transferable",
+  "title": "Roles of fiber components and alkali metals in the synergistic interactions between lignocellulosic biomass and coal under rapid heating conditions",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.csite.2026.108747",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "rapid heating"
+  ],
+  "zh_brief": "研究快速加热速率下木质纤维素生物质与煤的协同燃烧特性，采用高速成像表征多组分燃料混合物的点火动力学。结果表明，在50%和75%纤维素掺混比例下，碱金属能正向调节协同作用；而在25%比例下，协同效应主要归因于纤维素与煤的相互作用，碱金属贡献可忽略。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "快速加热条件下木质纤维素生物质与煤中纤维组分及碱金属的协同作用"
  },
  "10.1016/j.ecmx.2026.102431": {
   "ab_check_v": 2,
@@ -5536,6 +5782,41 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
   "zh_title": "通过熔盐模板工程化多孔碳中表面暴露的铁单原子位点用于硝酸盐电还原制氨"
  },
+ "10.1016/j.jcis.2026.142051": {
+  "abstract": "",
+  "authors": [
+   "Gaoming Jin",
+   "Xu Peng",
+   "Yun Tong"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jcis.2026.142051",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1016/j.jcis.2026.142051",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Colloid and Interface Science",
+  "tier": "background",
+  "title": "Ru-accelerated kinetics of heterogeneous catalyst for energy-efficient ammonia electrosynthesis coupled with ethanol oxidation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jcis.2026.142051",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia electrosynthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "其他催化反应；涉及Ru/钌体系",
+  "zh_title": "Ru加速耦合乙醇氧化制氨的异相催化剂的动力学"
+ },
  "10.1016/j.jece.2026.125928": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -6318,6 +6599,57 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "多位点结构工程增强硝酸盐到氨的电还原"
+ },
+ "10.1016/j.jwpe.2026.111278": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "Europe PMC": "2026-11-21",
+   "OpenAlex": "2026-11-21",
+   "Semantic Scholar": "2026-11-21"
+  },
+  "ab_sources_checked": [
+   "Europe PMC",
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-21",
+  "abstract": "",
+  "authors": [
+   "Yaling Peng",
+   "Yinfeng Yang",
+   "Xiaolin Lu",
+   "Yanan Luo",
+   "Shangyu Lin",
+   "Qunliang Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-21",
+  "doi": "10.1016/j.jwpe.2026.111278",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1016/j.jwpe.2026.111278",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Water Process Engineering",
+  "tier": "background",
+  "title": "Hydroxylamine remodels microbial networks to enhance dissimilatory nitrate reduction to ammonium (DNRA) for nitrogen conservation in composting",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jwpe.2026.111278",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "羟胺重塑微生物网络以增强好氧堆肥中反硝化还原为铵的DNRA过程"
  },
  "10.1016/j.matlet.2026.141936": {
   "ab_check_v": 2,
@@ -7370,6 +7702,45 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "在 Mo2C MXene 上 Cu-Fe 双原子位的阳极表面工程用于高效的电化学硝酸盐至氨转化"
+ },
+ "10.1021/acsami.6c16420": {
+  "abstract": "Solar-driven photocatalytic nitrogen reduction represents a promising and environmentally benign approach for ammonia synthesis. However, developing efficient photocatalysts capable of converting nitrogen to ammonia under ambient conditions remains a significant challenge. Porphyrin compounds exhibit excellent photosensitive properties with strong absorption across both the ultraviolet and visible regions of the solar spectrum, while phenothiazine offers unique optoelectronic activity. In this study, we integrated these two motifs and synthesized a series of novel metal-free covalent organic frameworks (COFs) by structural modification of the phenothiazine linker with a methyl group and with oxygen-containing functional groups. All three frameworks are active for N2 photoreduction under visible light, and the activity depends systematically on the linker: the sulfone-functionalized COF-3 reaches 109.6 ± 3.6 μmol g–1 h–1 (1866.2 ± 60.7 μg h–1 gcat–1), outperforming both the unmodified (COF-1) and the methyl-modified (COF-2) frameworks. Mechanistic analysis and theoretical calculations revealed that the introduced oxygen atoms facilitate the separation and transport of photogenerated electrons within the framework. This work shows that rational molecular-level pre-design and fine-tuning of the linker can profoundly influence the structural and optoelectronic properties of COF-based photocatalysts, enabling superior activity without the need for metallic elements or co-catalysts.",
+  "authors": [
+   "Xin Wang",
+   "Xinhao Li",
+   "Zichao Gao",
+   "Abing Guo",
+   "Zhengkun Ji",
+   "Weijun Yang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-23",
+  "doi": "10.1021/acsami.6c16420",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.1021/acsami.6c16420",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ACS Applied Materials & Interfaces",
+  "tier": "background",
+  "title": "Porphyrin-Phenothiazine-Based Covalent Organic Frameworks for Enhanced Photocatalytic Nitrogen Fixation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acsami.6c16420",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "研究对象为金属-free共价有机框架（COFs），关键方法为通过甲基化和含氧官能团对吩噻嗪连接体进行结构修饰合成COFs，并使用可见光进行N2光还原。主要结果为含磺酰基的COF-3在可见光下的活性最高，达到109.6 ± 3.6 μmol g–1 h–1（1866.2 ± 60.7 μg h–1 gcat–1），优于未修饰和甲基化的COFs。机理分析和理论计算表明引入的氧原子促进了框架内光生电子的分离和传输。",
+  "zh_method": "光驱动",
+  "zh_obj": "光催化固氮",
+  "zh_title": "基于卟啉-吩噻嗪的共价有机框架用于增强光催化氮固定"
  },
  "10.1021/acsami.6c16760": {
   "abstract": "Abstract Electrocatalytic nitrate reduction to ammonia (NO3RR) represents a promising strategy for sustainable ammonia synthesis while simultaneously addressing nitrate pollution in wastewater. However, the irreversible structural reconstruction commonly observed in catalysts during NO3RR obscures the true active sites and complicates mechanistic understanding. In this study, flower-like CuCo2S4 nanocrystals synthesized via a hot-injection method serve as a model ternary sulfide system to systematically probe reconstruction dynamics and identify active phases under operating conditions. Experimental characterizations reveal that CuCo2S4 gradually evolves into Cu-Co(OH)2/Co9S8 through electrochemical reconstruction. This reconstructed catalyst exhibits excellent NO3RR performance, achieving an average Faradaic efficiency of 97.3%, an ammonia production rate of 363.1 μmol h–1 mg–1, and remarkable cycling stability. In situ FTIR spectra indicate that Cu incorporation promotes the conversion of *NO2 and accelerates subsequent hydrogenation steps. Density functional theory calculations further demonstrate that Cu doping facilitates *NH3 desorption and optimizes the balance between NO3– adsorption and *NH3 release. This work systematically deciphers the reconstruction pathway of sulfide catalysts during NO3RR, offering fundamental insights into electrocatalyst reconstruction mechanisms and providing a design strategy for high-performance ammonia-production electrocatalysts.",
@@ -10663,6 +11034,40 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "废水滤液电解制氨过程中的氢循环"
+ },
+ "10.48565/bonndoc-1031": {
+  "abstract": "The development of sustainable electrocatalytic systems for small-molecule activation represents a promising strategy for addressing challenges associated with greenhouse gas emissions, nitrogen pollution, and fossil-fuel-dependent chemical synthesis. Molecular electrocatalysts are particularly attractive in this context due to their well-defined and tuneable active sites, enabling detailed investigation of structure-activity relationships and catalytic mechanisms. This thesis explores the design, mechanistic understanding, and application of molecular transition metal catalysts for electrochemical CO2 reduction, nitrate reduction, dinitrogen activation, and electrochemical C-N bond formation. The first part of this work demonstrates that cobalt terpyridine complexes modified with perfluorinated alkyl side chains can self-assemble at gas-liquid-solid interfaces on gas diffusion electrodes, enabling highly selective electrochemical CO2 reduction to methane. Mechanistic investigations using in situ spectroscopy and proton inventory studies reveal the importance of hydrophobic catalytic microenvironments and proton-shuttling pyridine units in promoting multi-electron reduction pathways. The thesis further investigates electrochemical C-N bond formation from CO2 and nitrate using mono-terpyridine nickel complexes in both homogeneous and heterogenized configurations. A homogeneous mono-hydroxy terpyridine nickel catalyst enabled selective formamide production with, while mechanistic studies involving in situ spectroscopy and computational modelling provided insight into the coupling pathways between carbon- and nitrogen-derived intermediates. Subsequent heterogenization of terpyridine nickel catalysts demonstrated how ligand functionalization and immobilization influence catalytic activity, selectivity, and stability, while also revealing important electronic effects. To further expand molecular nitrogen activation chemistry, a palladium membrane reactor coupled with a mono-terpyridine nickel catalyst was developed for electrochemical ammonia synthesis from dinitrogen. This enabled selective ammonia production while suppressing competing hydrogen evolution. Combined electrochemical, spectroscopic, and computational studies revealed the formation of catalytically relevant Ni-H intermediates generated through hydrogen transfer from the palladium membrane. Finally, a copper bipyridine chloride complex was investigated as a molecular electrocatalyst for nitrate and organonitro reduction. The catalyst achieved near-quantitative Faradaic efficiencies for ammonia production from nitrate and selectively reduced nitroaromatic compounds to aniline derivatives. In situ spectroscopy revealed mechanistic pathways involving sequential N-O bond cleavage and proton-coupled electron transfer through nitrite, nitric oxide, and hydroxylamine intermediates. This thesis establishes molecular catalyst design principles for sustainable electrocatalytic small-molecule conversion. Through catalyst synthesis, electrochemistry, in situ spectroscopy, and mechanistic analysis, this work demonstrates how ligand environment, catalyst microenvironment, proton transfer pathways, and catalyst immobilization can be rationally engineered to control catalytic selectivity and activity across a range electrochemical transformations.",
+  "authors": [
+   "Morgan McKee"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-20",
+  "doi": "10.48565/bonndoc-1031",
+  "first_seen": "2026-11-21T17:58:24Z",
+  "id": "10.48565/bonndoc-1031",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "bonndoc (University of Bonn)",
+  "tier": "background",
+  "title": "Translation of molecular catalysts into highly functional interfaces for small molecule activation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.48565/bonndoc-1031",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "研究对象为分子过渡金属催化剂，关键方法为设计、机理理解和应用钴和镍的terpyridine配合物进行电化学CO2还原、硝酸盐还原、氮气活化和电化学C-N键形成。主要结果为钴terpyridine配合物在气-液-固界面自组装，实现高选择性CO2还原为甲烷；镍terpyridine配合物在均相和异质化配置中实现选择性甲酰胺生产；机理研究揭示了疏水催化微环境和质子转移吡啶单元的重要性。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "将分子催化剂转化为用于小分子活化的高功能界面"
  },
  "10.5281/zenodo.24315502": {
   "abstract": "The rapid expansion of renewable electricity has renewed interest in hydrogen as a versatile energy carrier. However, large scale deployment remains constrained by challenges associated with hydrogen storage and transport. Consequently, alternative energy carriers capable of storing hydrogen in chemically bound form are attracting increasing attention. Ammonia (NH3) is one of the most promising candidates owing to its high hydrogen content, established infrastructure for storage and transport, relatively simple liquefaction, and potential for reconversion to hydrogen or direct use as a fuel. These features make ammonia attractive for both international energy trade and decentralised energy systems, where locally produced ammonia can link renewable electricity generation with distributed energy demand. Today, ammonia is produced almost exclusively through the Haber Bosch process, which relies on fossil based hydrogen and operates at high temperatures and pressures. This process is energy intensive, carbon intensive, and most suitable for large scale continuous production. Furthermore, ammonia synthesis is thermodynamically limited, requiring extensive recycling and severe operating conditions to achieve high yields. Membrane reactors offer an attractive alternative by integrating reaction and separation within a single unit. Continuous removal of ammonia shifts the reaction equilibrium, enabling higher conversions at milder conditions while reducing energy consumption and CO2 emissions. Their modular design also makes them well suited for decentralised ammonia production coupled to renewable electricity and electrolytic hydrogen. This thesis investigates membrane reactor technology for ammonia synthesis across multiple scales, from membrane material development and reactor proof of concept to scale up and techno economic assessment. Chapter 1 introduces the energy transition context, the role of hydrogen and ammonia as energy carriers, and the limitations of conventional Haber Bosch synthesis. It presents membrane reactors as a promising route toward intensified and decentralised ammonia production. Chapter 2 develops a non isothermal one dimensional packed bed membrane reactor (PBMR) model integrating in situ ammonia removal through NH3 selective membranes and sweep gas operation. Parametric studies identify membrane performance targets and optimal operating conditions. The results demonstrate that membrane reactors can significantly exceed the performance of conventional packed bed reactors under milder operating conditions. Carbon molecular sieve (CMS) membranes are identified as particularly promising candidates. Chapter 3 investigates phenolic resin derived, metal doped CMS membranes for ammonia separation. Membranes are fabricated and characterised experimentally, while gas transport is analysed through a model combining molecular sieving, surface diffusion, and Knudsen diffusion. Higher carbonisation temperatures promote stronger molecular sieving, whereas suitable metal dopants enhance ammonia surface diffusion. Copper doped membranes carbonised at intermediate temperatures show the most promising performance. Although target separation performance is not yet achieved, the work provides valuable mechanistic understanding and validated modelling tools for future membrane optimisation. Chapter 4 presents a structured catalyst membrane reactor (SCMR) in which a Cu CMS membrane is integrated into catalyst coated triply periodic minimal surface supports. Experimental studies evaluate the effects of temperature, pressure, feed composition, space velocity, and sweep gas operation. The SCMR achieves hydrogen conversions above the equilibrium limit of the corresponding non membrane reactor and demonstrates comparable performance at lower temperatures. Comparison of Gyroid and body centred cubic structures confirms the feasibility of the concept and highlights sweep gas operation as an effective strategy for improving performance. Chapter 5 develops a fully two dimensional non isothermal PBMR model to investigate concentration polarisation and radial transport limitations during scale up. The model reveals conditions under which one dimensional descriptions become inaccurate and explains why conventional Sherwood correlations fail under coupled reaction and permeation. The resulting correlations provide practical guidance for reactor design and scaling while improving the predictive capability of simplified reactor models. Chapter 6 extends the SCMR concept toward experimental scale up using larger structured catalyst supports and increased membrane area. Experiments show that catalyst performance is maintained during scale up and that membrane integration consistently enhances ammonia production. Increasing membrane surface area strengthens equilibrium shifting and improves reactor performance, demonstrating the scalability of the concept. Chapter 7 evaluates membrane reactor technology at process scale through a techno economic assessment comparing PBMR and conventional packed bed reactor configurations. Both systems are optimised within complete process flowsheets. A key innovation is the replacement of conventional ammonia condensation by adsorption based separation using Zeolite 13X. The optimised PBMR achieves a lower levelized cost of ammonia together with higher hydrogen conversion and energy efficiency. Hydrogen price is identified as the most influential economic parameter, while adsorption based separation proves crucial for improving competitiveness. Finally, Chapter 8 summarises the main conclusions and outlines directions for future research. Overall, the results demonstrate the potential of membrane reactors to overcome thermodynamic limitations in ammonia synthesis, enable operation at milder conditions, and support decentralised renewable ammonia production. While further improvements in membrane performance are required, the combined material, reactor, scale up, and techno economic studies establish a strong foundation for the future development of membrane reactor based ammonia synthesis technologies.",
