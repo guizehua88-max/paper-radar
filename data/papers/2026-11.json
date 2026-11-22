@@ -3281,6 +3281,59 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "用于羟基胺和肟衍生物的氮氧化物电催化还原：选择性机理与催化设计"
  },
+ "10.1016/j.ccr.2026.218766": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-22",
+   "Semantic Scholar": "2026-11-22"
+  },
+  "ab_sources_checked": [
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-22",
+  "abstract": "Photocatalysis offers an ecological route for renewable fuel generation and environmental remediation. Conventional photocatalysts limited their efficiency by inefficient light utilization, rapid charge recombination, and low atomic sites utilization during the reaction. Rare-earth single-atom photocatalysts (RESAP) have emerged as promising materials, due to their unique 4f electronic configurations and desirable coordination environment. The tunable coordination environments enable effective regulation of charge transfer and surface reactions. The fundamental characteristics, design strategies and photocatalytic properties and uses of RESAP are outlined in this paper. Vacancy/defect engineering, coordination-environment management, heterojunction building, light absorption, charge separation, and interfacial electron transport are all given special attention. The role of RE single atoms in hydrogen evolution, CO 2 photoreduction, nitrogen fixation and pollutant degradation are reviewed. The effects of RE species, coordination structures, defects and metal support interactions on photocatalytic performance are also highlighted. Finally, current challenges involving single-atom stability, structural characterization, mechanistic understanding and practical scalability are summarized. Future opportunities for developing efficient RESAP for solar-energy conversion and environmental remediation are presented at the end of this study.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "Gaurav Sharma",
+   "Pankaj Sharma",
+   "Jinhu Zhi",
+   "Tongtong Wang",
+   "Sahil Rana",
+   "Jayati Sharma",
+   "Xinlu Bai",
+   "Runze Wang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-17",
+  "doi": "10.1016/j.ccr.2026.218766",
+  "first_seen": "2026-11-22T03:06:14Z",
+  "id": "10.1016/j.ccr.2026.218766",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Coordination Chemistry Reviews",
+  "tier": "background",
+  "title": "Rare-earth engineered single-atom photocatalysts for solar energy applications and environmental remediation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ccr.2026.218766",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrogen fixation"
+  ],
+  "zh_brief": "稀土单原子光催化剂（RESAP）因其独特的4f电子配置和理想的配位环境，在光催化领域展现出巨大潜力。本文概述了RESAP的基本特性、设计策略、光催化性能和应用，重点关注空位/缺陷工程、配位环境管理、异质结构建、光吸收、电荷分离和界面电子传输。文章还回顾了稀土单原子在析氢、CO2光还原、氮固定和污染物降解中的作用，以及稀土种类、配位结构、缺陷和金属-载体相互作用对光催化性能的影响。最后总结了当前面临的单原子稳定性、结构表征、机理理解和实际可扩展性等挑战，并展望了开发高效RESAP用于太阳能转换和环境修复的未来机遇。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "析氢反应",
+  "zh_title": "稀土工程单原子光催化剂用于太阳能应用和环境修复"
+ },
  "10.1016/j.cej.2026.183530": {
   "ab_check_v": 2,
   "ab_result": "not_found",
@@ -5146,6 +5199,43 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢",
   "zh_title": "氨分解作为氢载体技术：催化剂开发的进展"
+ },
+ "10.1016/j.ijhydene.2026.158725": {
+  "abstract": "",
+  "authors": [
+   "Chenglong Yu",
+   "Ruizhuo Chen",
+   "Susu Jiang",
+   "Jin Liu",
+   "Xinbo Zhu"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-21",
+  "doi": "10.1016/j.ijhydene.2026.158725",
+  "first_seen": "2026-11-22T03:06:14Z",
+  "id": "10.1016/j.ijhydene.2026.158725",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Plasma-Catalytic Ammonia Synthesis over Nanoflower Structure Ni-Doped CoOx Catalyst Under Near-Ambient Conditions",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158725",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Synthesis"
+  ],
+  "zh_method": "等离子体驱动",
+  "zh_obj": "等离子体制氨",
+  "zh_title": "在近环境条件下纳米花结构Ni掺杂CoOx催化剂上的等离子体催化氨合成"
  },
  "10.1016/j.inoche.2026.117958": {
   "ab_check_v": 2,
