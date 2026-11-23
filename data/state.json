@@ -563,24 +563,34 @@
    },
    "new": 1,
    "push": []
+  },
+  {
+   "at": "2026-11-23T22:40:32Z",
+   "errors": {},
+   "new": 6,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-23T03:41:51Z",
-  "push": [],
+  "at": "2026-11-23T22:40:32Z",
+  "push": [
+   "serverchan:ok"
+  ],
   "sources": {
    "Crossref": {
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1152
+    "n": 1131
    },
    "OpenAlex": {
     "calls": 12,
     "err": "",
     "fails": 0,
-    "n": 19
+    "n": 21
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
@@ -622,7 +632,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 66
+    "n": 67
    },
    "RSS · Nature": {
     "calls": 1,
@@ -710,19 +720,19 @@
    },
    "补摘要": {
     "calls": 1,
-    "err": "部分请求失败（其余正常）：Semantic Scholar",
+    "err": "",
     "fails": 0,
-    "n": 251
+    "n": 237
    }
   },
-  "中文简介": "新写 1 篇",
-  "新增相关": 1,
+  "中文简介": "新写 6 篇",
+  "新增相关": 6,
   "模式": "日常",
-  "补摘要": "251/528",
-  "达到推送标准": 0
+  "补摘要": "237/525",
+  "达到推送标准": 1
  },
- "last_push_at": "2026-11-21T17:58:24Z",
- "last_run": "2026-11-23T03:41:51Z",
+ "last_push_at": "2026-11-23T22:40:32Z",
+ "last_run": "2026-11-23T22:40:32Z",
  "rebackfill": {
   "done": [
    "2024-01",

@@ -923,6 +923,43 @@
   "zh_obj": "材料制备/结构调控；涉及碳材料",
   "zh_title": "痕量金属辅助闪蒸合成用于快速充电石墨负极"
  },
+ "10.1002/admt.71490": {
+  "abstract": "ABSTRACT Realizing well‐defined 3D micro‐architectures with integrated nanomaterials while maintaining structural integrity and reliable electrical interfacing remains a critical challenge in microdevice engineering. Here, we report a 3D carbon‐based microdevice consisting of a carbon nanotube/graphene nanoplatelet (CNT/GNP) network integrated with surface‐normal electrodes, fabricated via a paraffin‐assisted intaglio strategy, to enhance electrical performance and tunability for Joule heating applications. Selective removal of the sacrificial paraffin matrix enhances electrical conductivity, and incorporation of GNPs at an optimized content suppresses network shrinkage, yielding a stable and continuous carbon network. The surface‐normal electrodes provide contact along the trench sidewalls, and devices with this configuration exhibit lower total resistance than corresponding devices with conventional in‐plane electrodes. Varying the line width within a fixed footprint changes both the conduction length and the number of parallel conductive paths, enabling systematic tuning of the device resistance over a wide range and a design‐level trade‐off between operating voltage and effective thermal resistance. The resulting micro‐Joule heater reaches 147°C at a low voltage of 1.8 V, maintaining long‐term stability and mechanical robustness, and demonstrates wearable compatibility at ∼40°C under 1.5 V battery operation. This work establishes a versatile, low‐voltage platform for application‐tailored thermal management in compact microdevice configurations.",
+  "authors": [
+   "Seokwon Joo",
+   "Yang‐Hu Park",
+   "Yoon‐Kyu Song",
+   "Ju‐Hyung Kim"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-23",
+  "doi": "10.1002/admt.71490",
+  "first_seen": "2026-11-23T22:40:32Z",
+  "id": "10.1002/admt.71490",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Advanced Materials Technologies",
+  "tier": "transferable",
+  "title": "Three‐Dimensional Carbon‐Based Microdevices With Surface‐Normal Electrodes for Tunable Low‐Voltage Joule Heating",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1002/admt.71490",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_brief": "利用石蜡辅助雕刻策略构建了由碳纳米管/石墨烯纳米片网络与表面法向电极集成的三维碳基微器件。通过选择性去除牺牲石蜡基质并优化石墨烯含量，获得了稳定的连续碳网络。该器件利用表面法向电极接触沟槽侧壁，在1.8 V低电压下达到147°C，并在1.5 V下实现约40°C的可穿戴兼容性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "具有表面法向电极的三维碳基微器件用于可调低电压焦耳加热"
+ },
  "10.1002/adsc.70858": {
   "abstract": "Photocatalytic nitrate reduction to ammonia holds dual significance for nitrogen‐containing wastewater remediation and green ammonia synthesis. However, single‐component semiconductor photocatalysts are generally hampered by severe photogenerated charge recombination, insufficient spectral response, and poor substrate activation. Herein, cobalt porphyrin (CoTCPP) was in situ anchored onto the surface of Bi 19 S 27 Br 3 nanorods via a solvothermal method to construct CoTCPP/Bi 19 S 27 Br 3 photocatalysts featuring strong interfacial coupling. X‐ray photoelectron spectroscopy (XPS) analysis reveals a distinct interfacial electronic coupling between CoTCPP and Bi 19 S 27 Br 3 . This strong interfacial coupling synergistically enhances photocatalytic performance by facilitating rapid capture and efficient interfacial transfer of photogenerated electrons to effectively suppress charge carrier recombination, significantly broadening the near‐infrared (NIR) light response range, and strengthening the electrostatic adsorption of NO 3 − on the catalyst surface to accelerate the selective generation of NH 3 . The optimized 1.5CoTCPP/Bi 19 S 27 Br 3 achieved an NH 3 production rate of 1230.81 μmol·g −1 ·h −1 , approximately 5‐fold higher than that of pristine Bi 19 S 27 Br 3 . In situ Fourier transform infrared spectroscopy confirmed the stepwise deoxygenation–hydrogenation reduction pathway of NO 3 − → *NO 3 → *NO 2 → *NO → *NHOH → *NH 2 OH → NH 3 . This work provides an effective strategy for constructing interfacially coupled photocatalytic systems toward efficient nitrate reduction to ammonia.",
   "authors": [
@@ -1558,6 +1595,52 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "配体定向硝酸盐掺入重建羟基氧化物用于耐海水电解"
+ },
+ "10.1002/anie.3995081": {
+  "abstract": "We report a confinement-enhanced electrocatalytic route for acetaldoxime synthesis from CO and NO 3 − via C–N coupling. By encapsulating ultrasmall Cu nanoparticles into SBA-15, the sluggish C–C dimerization is kinetically matched with rapid NO 3 − reduction, favoring the oximation pathway and achieving a production rate of 255.1 mmol g cat. − 1 h − 1 with an 8.2% Faradaic efficiency, enabling sustainable co-upcycling of carbon and nitrogen wastes. ABSTRACT Aldoximes are vital feedstocks in the fields of medicine, agriculture, and industry, yet their conventional synthesis suffers from high environmental costs and carbon footprints. Here, we report a direct electrocatalytic route to acetaldoxime via CO and NO 3 − co-reduction. The C–N coupling efficiency in this process hinges on the kinetic match between CO reduction and NO 3 − reduction. Acetaldoxime synthesis exemplifies this challenge: sluggish C–C dimerization contrasts with rapid NO 3 − RR, leading to over-reduction of nitrogen species to NH 3 . We hypothesized that a confinement strategy could selectively promote C–C dimerization and enrich acetaldehyde intermediate, thereby facilitating oximation. Ultrasmall Cu nanoparticles were encapsulated within SBA-15 mesopores to selectively accelerate the dimerization step. Combined operando Raman and in situ differential electrochemical mass spectrometry reveal that the confined Cu lowers the overpotential for the key C 2 intermediate to align with that for NH 2 OH generation, enabling efficient C–N coupling to acetaldoxime. The optimized Cu@SBA-15 catalyst achieves an acetaldoxime production rate of 255.1 mmol g cat. − 1 h − 1 (partial current density: 24.6 mA cm − 2 ). This work establishes a sustainable pathway toward aldoximes, aligning with green chemistry principles while expanding the toolbox for electrocatalytic C–N bond formation.",
+  "authors": [
+   "Rongxing Qiu",
+   "Jiaran Li",
+   "Ke Chen",
+   "Dan Wu",
+   "Peng Qiu",
+   "Siyu Yang",
+   "Qiuhong Min",
+   "Zhuo Wang",
+   "Long Liao",
+   "Zixi Huang",
+   "Jian Jin",
+   "Chundong Wang",
+   "Yuanjie Pang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-22",
+  "doi": "10.1002/anie.3995081",
+  "first_seen": "2026-11-23T22:40:32Z",
+  "id": "10.1002/anie.3995081",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Angewandte Chemie",
+  "tier": "background",
+  "title": "Confinement Enables Direct Electrosynthesis of Acetaldoxime From CO and Nitrate",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.3995081",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [
+   "reduction of nitrogen"
+  ],
+  "zh_brief": "通过将超小铜纳米颗粒封装在SBA-15中，实现了CO和NO3-通过C-N偶联直接电合成乙醛肟。限制策略促进了C-C二聚化并富集乙醛中间体，优化后的Cu@SBA-15催化剂在部分电流密度24.6 mA cm-2下实现了255.1 mmol g cat-1 h-1的产率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "限制效应促进CO和硝酸盐直接电合成乙醛肟"
  },
  "10.1002/anie.4875918": {
   "abstract": "Magnetically induced reactive carbon capture (RCC) was demonstrated for the first time with ferromagnetic multifunction materials (MFMs) capable of adsorbing CO 2 and converting it to methane via rapid temperature swing powered by magnetic induction heating. These MFMs exhibited no activity under conventional heating, establishing magnetic reduction as a key enabling step. Application of induction heating to RCC can dramatically improve productivity by shortening cycle time and establishing a new power-to-X paradigm. ABSTRACT Thermochemical reactive carbon capture (tRCC) offers a direct pathway to convert dilute CO 2 into valuable fuels and chemicals. However, the scalability of tRCC is hindered by the thermal inertia of conventional reactors, which limits reactor throughput. Here, we report the first demonstration of magnetically induced reactive carbon capture (mRCC), utilizing high-frequency alternating magnetic fields to drive rapid heating (200–400°C/min) of alkali-impregnated ferromagnetic catalysts. Operating as multi-function materials (MFMs), these sorbent–catalysts achieve high temperatures in minutes rather than hours, capturing and selectively converting dilute CO 2 into methane. Surprisingly, the optimal Na/NiFe exhibited stable CH 4 productivity under mRCC but was rendered inactive under equivalent conventional heating. Utilizing a novel magnetically programmed reduction (MPR) technique alongside in situ DRIFTS and STEM-EELS, we reveal that contact heating under reducing conditions drives phase segregation and alkali migration, eliminating the material's CO 2 capture capability. In contrast, localized magnetic heating preserves the functionality of the alkali capture sites while creating a reactive surface hydrogen pool. These findings show that magnetic induction does not merely accelerate heating but fundamentally alters the local catalyst–sorbent environment. Ultimately, this work establishes critical design principles for induction-heated catalysis and advances mRCC as a scalable power-to-X strategy for rapid carbon valorization.",
@@ -4384,6 +4467,43 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "当催化伙伴无法合作时"
  },
+ "10.1016/j.cherd.2026.11.052": {
+  "abstract": "",
+  "authors": [
+   "Mengxia Ji",
+   "Yong Shu",
+   "Jian Zhang",
+   "Shaopeng Gong",
+   "Hua Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cherd.2026.11.052",
+  "first_seen": "2026-11-23T22:40:32Z",
+  "id": "10.1016/j.cherd.2026.11.052",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Chemical Engineering Research and Design",
+  "tier": "background",
+  "title": "Pore-to-reactor assessment of exhaust-assisted ammonia cracking using boundary-compatible transport closures",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.cherd.2026.11.052",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia cracking"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "利用边界兼容输运闭合的排气辅助氨裂解孔到反应器评估"
+ },
  "10.1016/j.comptc.2026.116140": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -5787,6 +5907,46 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢；涉及Ru/钌体系",
   "zh_title": "通过SiO2包封稳定富含阶梯边缘的钌纳米颗粒用于氨分解制氢"
+ },
+ "10.1016/j.jcat.2026.117323": {
+  "abstract": "",
+  "authors": [
+   "Huan Wang",
+   "Jianqiang Zhu",
+   "Sen Chen",
+   "Lishi Jiao",
+   "Ming Zhang",
+   "Guannan Gong",
+   "Weimin Hou",
+   "Jian Qi"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jcat.2026.117323",
+  "first_seen": "2026-11-23T22:40:32Z",
+  "id": "10.1016/j.jcat.2026.117323",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Catalysis",
+  "tier": "background",
+  "title": "Steering active hydrogen for efficient electrocatalytic ammonia synthesis from nitrate reduction: a multidimensional strategic review",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jcat.2026.117323",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "引导活性氢用于硝酸盐还原制氨的多维战略综述"
  },
  "10.1016/j.jcis.2026.141853": {
   "ab_check_v": 2,
@@ -7956,6 +8116,46 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "酸蚀缺陷调控表面的铅碲用于高效机械能驱动氮固定"
+ },
+ "10.1021/acs.jpclett.6c03406": {
+  "abstract": "Abstract Understanding how nanoscale curvature regulates orbital interactions at single-atom sites is essential for rational electrocatalyst design. Here, we combined density functional theory, orbital-resolved bonding analysis, and pH-dependent microkinetic modeling to investigate nitrate reduction on Cu single atoms embedded in carbon nanotubes with systematically varied curvature. Increasing curvature induces local structural distortion, shifts the Cu d-band center, and strengthens *NH2 adsorption. Orbital-resolved crystal orbital Hamilton population analysis reveals that Cu 4s-N 2s interactions provide the dominant bonding contribution, while curvature selectively redistributes Cu 4s/3d-N 2p hybridization channels. High curvature promotes stronger multiorbital coupling, whereas reduced curvature favors more localized orbital contributions and weaker Cu-*NH2 bonding. Microkinetic volcano analysis further predicts enhanced nitrate reduction activity under alkaline conditions, with high-curvature catalysts approaching the optimal adsorption regime while exhibiting suppressed hydrogen evolution. These findings establish an orbital-level understanding of curvature-dependent single-atom electrocatalysis.",
+  "authors": [
+   "Ruirui Ren",
+   "Mingyue Li",
+   "Yuhang Wang",
+   "Qiang Wang",
+   "Huitao Fan",
+   "Bo Li",
+   "Hao Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-23",
+  "doi": "10.1021/acs.jpclett.6c03406",
+  "first_seen": "2026-11-23T22:40:32Z",
+  "id": "10.1021/acs.jpclett.6c03406",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "The Journal of Physical Chemistry Letters",
+  "tier": "background",
+  "title": "Curvature-Induced Orbital-Selective Hybridization Governs Nitrate Reduction on Cu Single-Atom Catalysts",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.jpclett.6c03406",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_brief": "结合密度泛函理论、轨道分辨键合分析和pH依赖微观动力学模型，研究了嵌入碳纳米管中曲率可调的Cu单原子上的硝酸盐还原。高曲率诱导局部结构畸变并增强*NH2吸附，轨道分析显示Cu 4s-N 2s相互作用占主导。高曲率催化剂在碱性条件下表现出增强的硝酸盐还原活性和抑制的析氢反应。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料",
+  "zh_title": "曲率诱导轨道选择性杂化调控Cu单原子催化剂上的硝酸盐还原"
  },
  "10.1021/acsaem.6c02993": {
   "abstract": "Abstract The rational design of electrocatalysts requires precise control over active-site structure and surface chemistry. Here, we report a Cu–Fe dual-atom catalyst supported on Mo2C MXene and show that controlled electrochemical anodic treatment effectively tunes the surface chemical environment to enhance nitrate reduction to ammonia. Structural and spectroscopic analyses reveal that mild anodic treatment induces lattice expansion and redistributes oxygen-containing surface functionalities while preserving the MXene framework. High annular dark-field scanning transmission electron microscopy and X-ray absorption spectroscopy (XAS) confirm neighboring Cu–Fe sites embedded within the Mo2C structure, whereas XPS indicates the formation of a more oxygen-rich surface environment around the metal centers after treatment. These modifications highlight the synergistic interplay between dual-site cooperativity and MXene surface chemistry. Consequently, the optimized CuFe/Mo2C-ox catalyst achieves a Faradaic efficiency of 98% for ammonia production at –0.5 V vs a reversible hydrogen electrode (RHE) and an NH3 yield rate of 0.6 mg h–1cm–2 at –0.7 V vs RHE, outperforming previously reported MXene-based single-atom catalysts. Operando ATR-FTIR measurements reveal the presence of NOx and NHx intermediates, consistent with previously proposed hydrogenation pathways toward ammonia formation. This work demonstrates that tailoring the local surface environment of MXene-supported dual-atom catalysts is an effective strategy for boosting nitrate-to-ammonia conversion.",
@@ -11394,6 +11594,44 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "N₂/H₂气相合成氨",
   "zh_title": "膜反应器技术在氨合成中的发展研究"
+ },
+ "10.53941/echem.2026.100014": {
+  "abstract": "Electrocatalytic nitrate reduction to ammonia (NO3RR) provides a promising route for sustainable ammonia production under ambient conditions. However, the multi-step proton-coupled electron transfer process is often limited by the sluggish activation of NO3− and the subsequent hydrogenation of nitrogen-containing intermediates. Herein, Ag nanoparticles supported on Co(OH)2 nanowires are constructed by an electrodepositing strategy, and the metal-support interaction is modulated to simultaneously optimize NO3− adsorption and water dissociation for achieving high energy efficiency at a range of potentials. In Situ characterization reveals that Co(OH)2 promotes the initial reduction of NO3− to NO2−, whereas the uniformly distributed Ag nanoparticles enhance the formation of reactive hydrogen (*H), thereby accelerating the subsequent hydrogenation of nitrogen-containing intermediates. The resulting interfacial synergy significantly improves the overall NO3RR kinetics and ammonia production. The Ag/Co(OH)2 catalyst delivers an ammonia Faradaic efficiency of 96.35% at −0.4 V vs. RHE and maintains an FE above 80% over a broad potential range from 0.1 to −0.7 V vs. RHE. This work demonstrates an effective strategy for integrating nitrate activation and hydrogenation sites and provides mechanistic insights into the rational design of heterostructured catalysts for multi-step electrochemical reduction reactions.",
+  "authors": [
+   "Lili Zhang",
+   "Yifan Li",
+   "Qian Bai",
+   "Runmin Li",
+   "Huishan Shang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-20",
+  "doi": "10.53941/echem.2026.100014",
+  "first_seen": "2026-11-23T22:40:32Z",
+  "id": "10.53941/echem.2026.100014",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "eChem",
+  "tier": "background",
+  "title": "Ag Nanoparticle-Decorated Co(OH)2 Nanowires for Efficient Electrocatalytic Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.53941/echem.2026.100014",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "采用电沉积策略构建了Ag纳米颗粒负载的Co(OH)2纳米线，通过调节金属-载体相互作用优化了NO3-吸附和水解离。原位表征显示Co(OH)2促进NO3-还原为NO2-，而Ag纳米颗粒增强活性氢*H形成，加速氮中间体氢化。该催化剂在-0.4 V vs RHE下氨法拉第效率达96.35%。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "Ag纳米颗粒修饰Co(OH)2纳米线用于高效电催化硝酸盐还原制氨"
  },
  "10.54254/2755-2721/2027.39136": {
   "abstract": "Non-thermal plasma (NTP) offers a promising route for electrifying chemical processes by enabling the activation of stable molecules under relatively mild conditions. However, evaluating the plasma process only by conversion or product yield may mask the substantial energy losses associated with power supply, electron excitation, molecular activation, and gas heating. This review examines energy efficiency in NTP-assisted CO 2 splitting and ammonia synthesis as two representative model systems to investigate the energy efficiency in NTP-assisted chemical conversion. For CO 2 splitting, different plasma discharges are compared in terms of CO 2 conversion, specific energy input and energy efficiency. For ammonia synthesis, the effects of discharge mode, reactor configuration, catalyst properties and suppression of NH 3 decomposition on energy yield are evaluated. Across both systems, higher conversion or product yield does not necessarily correspond to more efficient energy utilisation. Instead, the energy performance is dominated by the coupling between electrical energy deposition, molecular activation, plasma-surface interaction, and inhibition of non-productive pathways such as gas heating, recombination, and product decomposition. This comparison further highlights the need for consistent system boundaries and energy-accounting protocols, particularly when distinguishing plasma-level efficiency from overall process efficiency. Future development should therefore move beyond single-parameter optimisation towards integrated, full-chain energy management to guide the rational design and scale-up of energy-efficient plasma chemical processes.",
