@@ -3269,6 +3269,44 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "氨基酸与葡萄糖相互作用对生物质氨生产的影响：ReaxFF-MD 与机器学习的集成"
  },
+ "10.1016/j.biortech.2026.136332": {
+  "abstract": "",
+  "authors": [
+   "Dandan Yan",
+   "Xinyi Wu",
+   "Xiangshan Zeng",
+   "Changhui Hu",
+   "Jinlai Yuan",
+   "Yafei Yang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.biortech.2026.136332",
+  "first_seen": "2026-11-24T06:57:23Z",
+  "id": "10.1016/j.biortech.2026.136332",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Bioresource Technology",
+  "tier": "background",
+  "title": "Mechanisms of iron-mediated nitrogen removal under contrasting carbon-to-nitrogen ratios: Enhanced nitrate reduction and potential coupling with ammonium oxidation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.biortech.2026.136332",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应",
+  "zh_title": "不同碳氮比下铁介导的脱氮机理：增强硝酸盐还原与与铵氧化耦合的潜力"
+ },
  "10.1016/j.cattod.2026.116060": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -4323,6 +4361,46 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "g-C3N4上2,2'-联吡啶配位单原子催化剂中金属依赖的配体效应"
  },
+ "10.1016/j.ces.2026.125694": {
+  "abstract": "",
+  "authors": [
+   "Guoqing Cui",
+   "Wenhan Wang",
+   "Wenxiang Zhang",
+   "Yingjie Lou",
+   "Qian Song",
+   "Xuejie Wang",
+   "Chunming Xu",
+   "Guiyuan Jiang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.ces.2026.125694",
+  "first_seen": "2026-11-24T06:57:23Z",
+  "id": "10.1016/j.ces.2026.125694",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Chemical Engineering Science",
+  "tier": "transferable",
+  "title": "Highly active and stable Ptδ+ sites on Pt/TiO2 catalysts for efficient methylcyclohexane dehydrogenation by in-situ Joule heating catalysis",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.ces.2026.125694",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "其他催化反应",
+  "zh_title": "原位焦耳热催化高效甲基环己烷脱氢用Pt/TiO2催化剂上高活性且稳定的Ptδ+位点"
+ },
  "10.1016/j.checat.2026.101910": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -4857,6 +4935,49 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "氟介导的 Cu 纳米簇双重配位调控用于硝酸盐到氨的电合成"
+ },
+ "10.1016/j.est.2026.125896": {
+  "abstract": "",
+  "authors": [
+   "Mengge Xing",
+   "Hao Zhang",
+   "Qi Zhang",
+   "Liangyuan Cheng",
+   "Yuan Feng",
+   "Longhao Rao",
+   "Lingyan Zhao",
+   "Xuanpeng Wang",
+   "Xiong Qian",
+   "Shidong Li",
+   "Jiashen Meng"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.1016/j.est.2026.125896",
+  "first_seen": "2026-11-24T06:57:23Z",
+  "id": "10.1016/j.est.2026.125896",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Energy Storage",
+  "tier": "background",
+  "title": "Interfacial reconstruction of spent graphite anodes through polydopamine coating and flash Joule heating for fast and stable lithium storage",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.est.2026.125896",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控；涉及碳材料",
+  "zh_title": "通过聚多巴胺涂层和闪蒸焦耳热对废旧石墨阳极进行界面重构用于快速且稳定的锂存储"
  },
  "10.1016/j.foodchem.2026.151726": {
   "ab_check_v": 2,
@@ -7627,6 +7748,43 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢",
   "zh_title": "使用不完全搅拌反应器网络方法模拟氨燃烧器排放"
+ },
+ "10.1016/j.seppur.2026.141004": {
+  "abstract": "",
+  "authors": [
+   "Areebah Siddiqui",
+   "Bilal Kazmi",
+   "Muhammad Shahid",
+   "Syed Ali Ammar Taqvi",
+   "Salman Raza Naqvi"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.seppur.2026.141004",
+  "first_seen": "2026-11-24T06:57:23Z",
+  "id": "10.1016/j.seppur.2026.141004",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "Separation and Purification Technology",
+  "tier": "direct",
+  "title": "Surrogate-assisted optimization of gasifier syngas purification and ammonia production from co-gasified waste",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.seppur.2026.141004",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "共气化废料制合成气净化与氨生产的代理辅助优化"
  },
  "10.1016/j.seta.2026.105594": {
   "abstract": "Dynamic electricity emission signals can guide flexible Power-to-X (PtX) operation, but electricity-side emission reductions do not directly determine the carbon intensity (CI) of products sold after storage and conversion. This study assesses that relationship in a grid-connected hydrogen, ammonia, and methanol plant modeled for Spain in 2024. Three forecast-based day-ahead signals (an average emission factor and two marginal emission factor proxies) are applied separately in rolling-horizon mixed-integer quadratically constrained scheduling. An ex-post carbon balance propagates CO 2 burdens from electricity and direct process emissions through production, storage, downstream synthesis, ammonia cracking, and final withdrawal. Relative to cost-minimizing operation, the central emission-capped schedules reduce signal-matched annual grid emissions by 5.4–23.8%, with operating cost increases of 0.8–2.2%. Annual sold product CI decreases by 5.6–24.1% for hydrogen, 5.4–17.9% for ammonia, and 3.0–24.3% for methanol. Despite the lower annual CI, emission-capped scheduling produced higher hourly CI than the matched cost-minimizing baseline in 22.1–45.7% of withdrawal hours across the nine product–signal comparisons. Additionally, changing NH 3 and MeOH storage capacities altered the magnitude and hourly distribution of sold product CI despite similar annual grid emission reductions. These findings distinguish electricity-side emission performance and temporal matching from the CI of products delivered after storage and conversion.",
