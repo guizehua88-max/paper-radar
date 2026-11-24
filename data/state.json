@@ -42,18 +42,6 @@
  "cloud_imported": "2026-10-28T22:01:44Z",
  "history": [
   {
-   "at": "2026-10-28T22:00:02Z",
-   "errors": {
-    "RSS · ACS Catalysis (ASAP)": "FetchError: HTTP 403 @ https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=accacs",
-    "RSS · Energy & Environmental Science": "FetchError: URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)> @ https://feeds.rsc.org/rs",
-    "RSS · JACS (ASAP)": "FetchError: HTTP 403 @ https://pubs.acs.org/action/showFeed?type=axatoc&feed=rss&jc=jacsat"
-   },
-   "new": 164,
-   "push": [
-    "no-channel"
-   ]
-  },
-  {
    "at": "2026-10-28T22:22:15Z",
    "errors": {},
    "new": 17,
@@ -581,11 +569,21 @@
    "push": [
     "serverchan:ok"
    ]
+  },
+  {
+   "at": "2026-11-24T21:13:24Z",
+   "errors": {
+    "补摘要": "部分请求失败（其余正常）：Europe PMC"
+   },
+   "new": 12,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-24T06:57:23Z",
+  "at": "2026-11-24T21:13:24Z",
   "push": [
    "serverchan:ok"
   ],
@@ -594,13 +592,13 @@
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1088
+    "n": 1091
    },
    "OpenAlex": {
     "calls": 12,
     "err": "",
     "fails": 0,
-    "n": 12
+    "n": 14
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
@@ -630,7 +628,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 50
+    "n": 51
    },
    "RSS · Communications Chemistry": {
     "calls": 1,
@@ -730,19 +728,19 @@
    },
    "补摘要": {
     "calls": 1,
-    "err": "部分请求失败（其余正常）：Semantic Scholar、Europe PMC",
+    "err": "部分请求失败（其余正常）：Europe PMC",
     "fails": 0,
-    "n": 207
+    "n": 215
    }
   },
-  "中文简介": "新写 4 篇",
-  "新增相关": 4,
+  "中文简介": "新写 10 篇",
+  "新增相关": 12,
   "模式": "日常",
-  "补摘要": "207/529",
-  "达到推送标准": 2
+  "补摘要": "215/531",
+  "达到推送标准": 3
  },
- "last_push_at": "2026-11-24T06:57:23Z",
- "last_run": "2026-11-24T06:57:23Z",
+ "last_push_at": "2026-11-24T21:13:24Z",
+ "last_run": "2026-11-24T21:13:24Z",
  "rebackfill": {
   "done": [
    "2024-01",

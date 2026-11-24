@@ -652,6 +652,45 @@
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "质子动态汇聚效应使*H源-存储-汇自同步用于从化肥废水电催化硝酸盐到氨的转化"
  },
+ "10.1002/adfm.79871": {
+  "abstract": "ABSTRACT The inherent poor conductivity and limited active sites of conventional metal‐organic frameworks (MOFs) severely constrain their application in chemiresistive gas sensing. Herein, we overcome these limitations by developing a two‐dimensional conductive MOF (2D c‐MOF), Mg 3 (HITP) 2 (HITP = 2,3,6,7,10,11‐hexaaminotriphenylene), featuring a unique interlayer misalignment and a high density of defect sites. This unique architecture is achieved through a synthetic strategy that leverages the competitive coordination between acetate (CH 3 COO − ) and HITP ligands toward Mg 2+ ions. The resulting material exhibits exceptional room‐temperature NH 3 sensing performance, delivering a high sensitivity to ppm‐level NH 3 , outstanding selectivity ( S NH3 /S gas >50), rapid response/recovery kinetics (12/20 s), and remarkable long‐term stability. The enhanced performance is attributed to the synergistic effect of abundant reactive sites and high carrier mobility. This work establishes a rational design paradigm for conductive MOFs, expanding their potential toward next‐generation flexible electronics, photodetectors, and field‐effect transistors.",
+  "authors": [
+   "Rui Zhang",
+   "Yuan Ren",
+   "Zejun Han",
+   "Jiawei Wu",
+   "Jingjing Wang",
+   "Qiongfeng Shi",
+   "Wei Zhang",
+   "Li Tao"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.1002/adfm.79871",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1002/adfm.79871",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Defect‐Engineered 2D Conductive Metal–Organic Frameworks with Interlayer Dislocations for Rapid and Selective Room‐Temperature Ammonia Sensing",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79871",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "通过利用乙酸根和 HITP 配体对 Mg2+ 离子的竞争配位策略，开发了一种具有独特层间错位和高密度缺陷位点的二维导电 MOF (Mg3(HITP)2)。该材料在室温下表现出卓越的 NH3 传感性能，对 ppm 级 NH3 具有高灵敏度、优异的选择性 (S_NH3/S_gas >50)、快速的响应/恢复动力学 (12/20 s) 和卓越的长期稳定性。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "具有层间位错的缺陷工程 2D 导电金属有机框架用于快速且选择性的室温氨气传感"
+ },
  "10.1002/adma.74881": {
   "abstract": "Pulsed electrolysis makes nitrate reduction from a conventional steady-state process into a dynamically tunable interfacial reaction. Periodic modulation of the applied potential and/or current restores catalyst activity, enriches interfacial nitrate, regulates key intermediate generation and conversion, and alleviates mass-transfer limitations. Beyond ammonia synthesis, this strategy opens opportunities for producing value-added nitrogen-containing chemicals. ABSTRACT Electrocatalytic nitrate (NO 3 − ) reduction reaction (eNO 3 RR) offers a promising route for NO 3 − pollution control and nitrogen resource recovery. However, under conventional potentiostatic electrolysis, limited product selectivity and catalyst deactivation still hinder its practical application. Pulsed electrolysis provides a new strategy to dynamically regulate the complex interfacial reaction processes in eNO 3 RR. Nevertheless, its effectiveness strongly depends on rational parameter design, as inappropriate pulse settings may increase energy consumption and induce undesired catalyst structural evolution. More importantly, the relationship between pulse parameters and interfacial reaction mechanisms remains unclear. Thereby, current parameter optimization lacks generalizable design principles. In this review, we summarize recent advances in pulsed electrolysis for eNO 3 RR, focusing on its mechanistic roles in dynamic catalyst reconstruction, interfacial microenvironment regulation, and reaction pathway modulation. We then outline design considerations for key pulse parameters and analyze their effects on catalyst stability, mass transport, Faradaic efficiency, and product selectivity. We further discuss the potential of pulsed strategies for value-added C─N coupling transformations. Finally, we examine the key challenges facing pulsed eNO 3 RR in energy efficiency, stability, and practical scale-up. This review aims to provide mechanistic insights and design guidance for pulsed eNO 3 RR systems and to support their transition from laboratory studies toward sustainable practical applications.",
   "authors": [
@@ -1556,6 +1595,46 @@
   "zh_obj": "电化学硝酸盐还原；涉及碳材料",
   "zh_title": "辅因子启发的第二球工程构建用于中性氨合成的仿生金属酶"
  },
+ "10.1002/anie.3194380": {
+  "abstract": "Spin and charge engineering of a BiCuMn nanoalloy catalyst enables industrial-scale glycine electrosynthesis from nitrate and glyoxylic acid. Bi–Cu accelerates nitrate-to-*NO conversion via d-p hybridization, while Mn-mediated spin regulation promotes neighboring Bi-*NO hydrogenation and subsequent C–N coupling, delivering high selectivity, productivity, and long-term stability. ABSTRACT Electrocatalytic C–N coupling provides a sustainable route for α-amino acids, yet its practicality is limited by poor selectivity and durability at industrially relevant current densities. Here, we report a Bi-based nanoalloy catalyst with atomically dispersed Cu and Mn (BiCuMn@C) for industrial-level glycine electrosynthesis. Experimental and theoretical results reveal that Cu modulates the electronic structure of Bi sites via d - p hybridization, enhancing the adsorption/activation of nitrogen-containing species, while spin-polarized electrons from Mn are delivered to adjacent *NO intermediates, promoting their hydrogenation to *NHO on the pathway to NH 2 OH. This spin-charge engineering disrupts the intrinsic scaling relationship between *NO and *NHO adsorption, enabling simultaneous enhancement of activity and selectivity. As a result, BiCuMn@C achieves a glycine Faradaic efficiency of 78.9% at a current density of 533.1 mA cm −2 , corresponding to a yield rate of 1569 µmol h −1 cm −2 , and extends to the efficient synthesis of five additional amino acids. In a membrane-electrode assembly (MEA) electrolyzer, the catalyst sustains stable operation for over 1000 h with a cumulative glycine production exceeding 1 mol. This work achieves one of the best overall performances reported to date and provides practical design guidance for the industrially relevant electrosynthesis of α-amino acids.",
+  "authors": [
+   "Yufeng Li",
+   "Can Wang",
+   "Baipeng Yin",
+   "Bojun Shi",
+   "Hengan Wang",
+   "Botao Zhang",
+   "Yantao Yang",
+   "Jianmin Gu",
+   "Xinchen Kang",
+   "Chuang Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-23",
+  "doi": "10.1002/anie.3194380",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1002/anie.3194380",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Angewandte Chemie",
+  "tier": "background",
+  "title": "Spin and Charge Engineering of a BiCuMn Nanoalloy Catalyst for Industrial‐Scale Electrosynthesis of Glycine",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.3194380",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [],
+  "zh_brief": "通过 BiCuMn 纳米合金催化剂的旋量和电荷工程，实现了从硝酸盐和草酸合成甘氨酸的工业级电合成。Cu 通过 d-p 杂化加速硝酸盐到 *NO 的转化，Mn 介导的自旋调节促进邻近 *NO 的氢化及后续 C-N 偶联。该催化剂在 533.1 mA cm−2 电流密度下实现了 78.9% 的法拉第效率，产率为 1569 µmol h−1 cm−2，并在膜电极组件电解槽中稳定运行超过 1000 小时，累计产甘氨酸超过 1 mol。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
+ },
  "10.1002/anie.3751410": {
   "abstract": "Nitro functional group was incorporated into NiFe-MOF ligands near metal sites, which undergo a simple and direct oxidation to NO 3 − and subsequently anchored on the reconstructed γ-NiFeOOH phase. The anchored NO 3 − not only forms a robust Cl − -repelling interface but also activates lattice oxygen to drive the efficient lattice-oxygen-mediated pathway for active and durable seawater electrolysis. ABSTRACT Chloride ions (Cl − )-induced corrosion severely limits the practical implementation of direct seawater electrolysis. Although oxyanion incorporation can mitigate Cl − poisoning, existing approaches offer limited control over oxyanion generation and retention during catalyst reconstruction. Herein, we report a MOF-based ligand-engineering strategy that enables defined oxyanion incorporation into reconstructed metal oxyhydroxides for active and durable seawater electrolysis. Nitro- (NO 2 ) functionalized ligands are incorporated into a NiFe-MOF precursor, where the NO 2 group undergo a simple and direct oxidation to nitrate (NO 3 − ) during electrochemical reconstruction, enabling well-defined NO 3 − regulation of the reconstructed γ-NiFeOOH phase. The anchored NO 3 − not only forms a robust Cl − -repelling interface but also activates lattice oxygen to drive a mechanistic transition from an adsorbate evolution mechanism to a more efficient lattice-oxygen-mediated pathway. The designed catalyst achieves excellent oxygen evolution reaction performance in alkaline seawater, requiring an overpotential of only 230 mV to reach a current density of 500 mA cm −2 , outperforming its NO 3 − -free counterpart. It also exhibits high durability, operating for over 4000 h at 1.5 A cm −2 with an ultralow degradation rate of 1.8 µV h −1 . Furthermore, a kilowatt-level alkaline seawater electrolyzer equipped with the designed electrode operates stably for over 1100 h under industrially relevant conditions.",
   "authors": [
@@ -1595,6 +1674,46 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "配体定向硝酸盐掺入重建羟基氧化物用于耐海水电解"
+ },
+ "10.1002/anie.3767017": {
+  "abstract": "Coupled copper and bicarbonate sites establish a locally anchored hydration network that sustains interfacial water and hydrogen bond connectivity against the cathodic double layer, thereby lowering proton transfer barriers and enabling diverse electrocatalytic hydrogenation pathways. ABSTRACT Electrolyte anions are generally considered passive spectators at cathodically polarized interfaces, where electrostatic exclusion and strong solvation limit their access to catalytic sites. Here we establish anion-site coupling as a strategy to program interfacial hydration and accelerate near-neutral electrocatalytic hydrogenation. Molecularly defined Cu 2+ sites coordinated by hexahydroxytriphenylene on oxidized carbon black provide accessible coordination motifs that selectively couple with oxygen-containing anions. Among HCO 3 − , CO 3 2− , and SO 4 2− , bicarbonate forms Cu 2+ ─HCO 3 − coupled sites that locally anchor water at the catalyst interface, replenishing otherwise depleted hydration regions and restoring hydrogen-bond connectivity for proton transfer. This reconstructed hydration microenvironment accelerates proton-coupled hydrogenation across chemically distinct substrates, enabling selective conversion of furfural to furfuryl alcohol, quinoline to tetrahydroquinoline, and nitrate to ammonia. In-situ spectroscopy and theoretical analysis collectively reveal that anion coordination simultaneously restructures the local Cu coordination environment and interfacial water network, thereby lowering the kinetic barrier for proton-coupled electron transfer. These findings establish coordinating anions as active molecular components of catalytic interfaces and introduce anion-site coupling as a general strategy for programming interfacial hydration and proton-transfer pathways in electrocatalytic synthesis.",
+  "authors": [
+   "Chengdong Yang",
+   "Yun Gao",
+   "Yueqing Wang",
+   "Xinxin Shu",
+   "Jizhen Ma",
+   "Yi Wang",
+   "Ning Zhang",
+   "Jintao Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-23",
+  "doi": "10.1002/anie.3767017",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1002/anie.3767017",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 10,
+  "source": "Angewandte Chemie",
+  "tier": "background",
+  "title": "Anion‐Site Coupling Programs Interfacial Hydration for Electrocatalytic Hydrogenation",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/anie.3767017",
+  "via": "RSS·Angewandte Chemie",
+  "watch": [],
+  "why": [
+   "nitrate to ammonia"
+  ],
+  "zh_brief": "通过阴离子-位点耦合策略，利用六羟基三苯基配体修饰的 Cu2+ 位点与碳酸氢根（HCO3−）形成耦合位点，在界面处锚定水分子并重建氢键网络。这种策略降低了质子转移能垒，促进了呋喃甲醛、喹啉和硝酸盐的电催化氢化反应。原位光谱和理论分析表明，阴离子配位同时重构了局部 Cu 配位环境和界面水网络，实现了对质子耦合电子转移动力学的加速。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料"
  },
  "10.1002/anie.3995081": {
   "abstract": "We report a confinement-enhanced electrocatalytic route for acetaldoxime synthesis from CO and NO 3 − via C–N coupling. By encapsulating ultrasmall Cu nanoparticles into SBA-15, the sluggish C–C dimerization is kinetically matched with rapid NO 3 − reduction, favoring the oximation pathway and achieving a production rate of 255.1 mmol g cat. − 1 h − 1 with an 8.2% Faradaic efficiency, enabling sustainable co-upcycling of carbon and nitrogen wastes. ABSTRACT Aldoximes are vital feedstocks in the fields of medicine, agriculture, and industry, yet their conventional synthesis suffers from high environmental costs and carbon footprints. Here, we report a direct electrocatalytic route to acetaldoxime via CO and NO 3 − co-reduction. The C–N coupling efficiency in this process hinges on the kinetic match between CO reduction and NO 3 − reduction. Acetaldoxime synthesis exemplifies this challenge: sluggish C–C dimerization contrasts with rapid NO 3 − RR, leading to over-reduction of nitrogen species to NH 3 . We hypothesized that a confinement strategy could selectively promote C–C dimerization and enrich acetaldehyde intermediate, thereby facilitating oximation. Ultrasmall Cu nanoparticles were encapsulated within SBA-15 mesopores to selectively accelerate the dimerization step. Combined operando Raman and in situ differential electrochemical mass spectrometry reveal that the confined Cu lowers the overpotential for the key C 2 intermediate to align with that for NH 2 OH generation, enabling efficient C–N coupling to acetaldoxime. The optimized Cu@SBA-15 catalyst achieves an acetaldoxime production rate of 255.1 mmol g cat. − 1 h − 1 (partial current density: 24.6 mA cm − 2 ). This work establishes a sustainable pathway toward aldoximes, aligning with green chemistry principles while expanding the toolbox for electrocatalytic C–N bond formation.",
@@ -2922,6 +3041,45 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学氮还原",
   "zh_title": "在模型钴磷化物催化剂上，氢溢流介导的活性氢可及性用于电化学氮还原"
+ },
+ "10.1016/j.apcatb.2026.127841": {
+  "abstract": "",
+  "authors": [
+   "Wensheng Gao",
+   "Kefeng Xie",
+   "Yongchao Liu",
+   "Hong Zhang",
+   "Jing Du",
+   "Zelong Li",
+   "Can Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.apcatb.2026.127841",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.apcatb.2026.127841",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Catalysis B: Environment and Energy",
+  "tier": "background",
+  "title": "Atomically Coupled Co–MnO Interfaces Accelerate Tandem Nitrate Reduction to Ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apcatb.2026.127841",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Nitrate Reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "原子耦合 Co–MnO 界面加速串联硝酸盐还原制氨"
  },
  "10.1016/j.apenergy.2026.129211": {
   "ab_check_v": 2,
@@ -5381,6 +5539,58 @@
   "zh_obj": "氨硼烷水解；涉及碳材料",
   "zh_title": "柳树花毛刺衍生的多孔碳通过协同纳米限域和表面锚定增强氨硼烷热脱氢"
  },
+ "10.1016/j.fuel.2026.142280": {
+  "ab_check_v": 2,
+  "ab_result": "partial",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-24",
+   "Semantic Scholar": "2026-11-24"
+  },
+  "ab_sources_checked": [
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-24",
+  "abstract": "",
+  "authors": [
+   "Yihan Zheng",
+   "Jiawei Lu",
+   "Abdul Hameed",
+   "Shengkai Dai",
+   "Guangliang Wang",
+   "Guoliang Chen",
+   "Faisal Shahzad",
+   "Muhammad Imran Asghar",
+   "Muhammad Rafique",
+   "Hangbin Zheng",
+   "Yong Shuai",
+   "Bo Wang",
+   "Lifeng Li"
+  ],
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.1016/j.fuel.2026.142280",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.fuel.2026.142280",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 28,
+  "source": "Fuel",
+  "tier": "direct",
+  "title": "Unveiling the reaction conditions and structural design of Co3Mo3N for efficient chemical looping ammonia production",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.fuel.2026.142280",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "化学链/晶格氮循环制氨"
+ },
  "10.1016/j.ijhydene.2026.158417": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -5619,6 +5829,37 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨分解制氢",
   "zh_title": "氨分解作为氢载体技术：催化剂开发的进展"
+ },
+ "10.1016/j.ijhydene.2026.158665": {
+  "abstract": "",
+  "authors": [
+   "Viacheslav Papkov",
+   "Leonid Tartakovsky",
+   "Dmitry Pashchenko"
+  ],
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.1016/j.ijhydene.2026.158665",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.ijhydene.2026.158665",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "TPMS-based reformer for ammonia decomposition: Effect of Ni/Al2O3 catalyst thickness on heat and mass transfer for Schwarz-P topology",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158665",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢"
  },
  "10.1016/j.ijhydene.2026.158725": {
   "ab_check_v": 2,
@@ -6448,6 +6689,55 @@
   "zh_obj": "其他催化反应；涉及Ru/钌体系",
   "zh_title": "Ru加速耦合乙醇氧化制氨的异相催化剂的动力学"
  },
+ "10.1016/j.jcis.2026.142059": {
+  "ab_check_v": 2,
+  "ab_result": "retry",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-24",
+   "Semantic Scholar": "2026-11-24"
+  },
+  "ab_sources_checked": [
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-24",
+  "abstract": "",
+  "authors": [
+   "Donglin Zhao",
+   "Yuan Zhang",
+   "Xue Bai",
+   "Song Wu",
+   "Yun Zhang",
+   "Guangyin Fan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jcis.2026.142059",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.jcis.2026.142059",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Colloid and Interface Science",
+  "tier": "background",
+  "title": "Cobalt-doped nickel hydroxides enabling energy-efficient ammonia electrosynthesis via sulfion oxidation reaction coupling and zinc-nitrite battery",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.jcis.2026.142059",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia electrosynthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "钴掺杂氢氧化镍通过硫化物氧化反应耦合锌-亚硝酸盐电池实现节能氨电合成"
+ },
  "10.1016/j.jece.2026.125928": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -7078,6 +7368,43 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "层间单金属原子配位多孔氮化硼：触发 p-d-p 轨道杂化以实现高效的电催化硝酸盐到氨还原"
  },
+ "10.1016/j.jhazmat.2026.144333": {
+  "abstract": "",
+  "authors": [
+   "Siqi Jiang",
+   "Bonan Liu",
+   "Tanzila Anjum",
+   "Yue Lu",
+   "Aimin Li"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jhazmat.2026.144333",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.jhazmat.2026.144333",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Hazardous Materials",
+  "tier": "background",
+  "title": "Bypassing Pre-Calcination: Ultra-Fast Co-Vitrification of Spent LiFePO4 and Fly Ash under Flash Joule Heating",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jhazmat.2026.144333",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "绕过预煅烧：闪蒸焦耳热下废 LiFePO4 和飞灰的超快速钴玻璃化"
+ },
  "10.1016/j.jiec.2026.11.006": {
   "ab_check_v": 2,
   "ab_result": "found",
@@ -7287,6 +7614,54 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "过程待核实",
   "zh_title": "羟胺重塑微生物网络以增强好氧堆肥中反硝化还原为铵的DNRA过程"
+ },
+ "10.1016/j.matdes.2026.117561": {
+  "ab_check_v": 2,
+  "ab_result": "found",
+  "ab_source_checked_at": {
+   "OpenAlex": "2026-11-24",
+   "Semantic Scholar": "2026-11-24"
+  },
+  "ab_sources_checked": [
+   "OpenAlex",
+   "Semantic Scholar"
+  ],
+  "ab_try": "2026-11-24",
+  "abstract": "An important aspect of advanced sintering processes is to enable the creation of complex, hierarchically structured solids. Polymer-fueled Flash Annealing (PFA) exploits the heat of locally confined explosion reactions at the interface between polymers and metal oxide (nano)particles or particle-based green bodies. For the explosive combustion of polyvinyl alcohol (PVA)-based formulations the ignition temperatures depend on the nature of the metal oxide and range between T = 230 °C (MgO) to T = 410 °C (ZnO). The instantaneous heat release at the interface of the polymer coated green bodies leads to estimated local temperatures in the range of the metal oxides’ melting points (e.g. MgO, T m = 2800 °C). In addition to efficient debinding, PFA enables the spatially organized fusion and sintering of the grains in the green bodies’ surface region that previously has been in contact with the polymer fuel. Choice of the polymer (e.g. polyvinyl alcohol (PVA), polyvinyl pyrrolidone (PVP) or polysac-charides (starch)) and polymer concentration provide control over the temperature flashes and related temperature gradients at the interface, which reach into the first micrometers of the evolving porous particle network. On this basis a simple and energy efficient way to generate hierarchically structured ceramic objects with gradients in the particle and pore size distribution becomes feasible.",
+  "abstract_source": "OpenAlex",
+  "authors": [
+   "Hasan Razouq",
+   "Kerstin Neuhauser",
+   "Thomas Berger",
+   "Oliver Diwald"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.matdes.2026.117561",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.matdes.2026.117561",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Materials & Design",
+  "tier": "transferable",
+  "title": "Polymer-fueled flash annealing of ceramic powders and green bodies",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.matdes.2026.117561",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "flash annealing"
+  ],
+  "zh_brief": "利用聚合物燃料闪蒸退火（PFA）技术，通过聚合物与金属氧化物纳米颗粒界面处的局部受限爆炸反应释放热量，实现了陶瓷粉末和生坯的烧结。该过程在聚合物涂层生坯界面产生瞬时热释放，局部温度可达金属氧化物熔点（如 MgO 为 2800 °C），并实现了颗粒的融合与烧结。通过选择聚合物（如 PVA、PVP）和浓度，可控制界面处的温度突跃和梯度，从而制备出具有颗粒和孔隙尺寸分布梯度的多孔陶瓷结构。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
  },
  "10.1016/j.matlet.2026.141936": {
   "ab_check_v": 2,
@@ -7840,6 +8215,43 @@
   "zh_obj": "制氨路线未明确",
   "zh_title": "共气化废料制合成气净化与氨生产的代理辅助优化"
  },
+ "10.1016/j.seppur.2026.141054": {
+  "abstract": "",
+  "authors": [
+   "Rui Wang",
+   "Zehua Wang",
+   "Weijia Li",
+   "Jiangtao Feng",
+   "Wei Yan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.seppur.2026.141054",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1016/j.seppur.2026.141054",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Separation and Purification Technology",
+  "tier": "background",
+  "title": "In-situ reconstruction Cu2O/Cu active interface from CuO nanosheets for efficient electro-reduction of nitrate to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.seppur.2026.141054",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrate to ammonia"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "原位重构 Cu2O/Cu 活性界面用于高效电还原硝酸盐制氨"
+ },
  "10.1016/j.seta.2026.105594": {
   "abstract": "Dynamic electricity emission signals can guide flexible Power-to-X (PtX) operation, but electricity-side emission reductions do not directly determine the carbon intensity (CI) of products sold after storage and conversion. This study assesses that relationship in a grid-connected hydrogen, ammonia, and methanol plant modeled for Spain in 2024. Three forecast-based day-ahead signals (an average emission factor and two marginal emission factor proxies) are applied separately in rolling-horizon mixed-integer quadratically constrained scheduling. An ex-post carbon balance propagates CO 2 burdens from electricity and direct process emissions through production, storage, downstream synthesis, ammonia cracking, and final withdrawal. Relative to cost-minimizing operation, the central emission-capped schedules reduce signal-matched annual grid emissions by 5.4–23.8%, with operating cost increases of 0.8–2.2%. Annual sold product CI decreases by 5.6–24.1% for hydrogen, 5.4–17.9% for ammonia, and 3.0–24.3% for methanol. Despite the lower annual CI, emission-capped scheduling produced higher hourly CI than the matched cost-minimizing baseline in 22.1–45.7% of withdrawal hours across the nine product–signal comparisons. Additionally, changing NH 3 and MeOH storage capacities altered the magnitude and hourly distribution of sold product CI despite similar annual grid emission reductions. These findings distinguish electricity-side emission performance and temporal matching from the CI of products delivered after storage and conversion.",
   "authors": [
@@ -8233,6 +8645,46 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学亚硝酸盐还原；涉及碳材料",
   "zh_title": "将 Co-包覆的氮掺杂碳纳米管与 Zn 菁菁：加速羟胺电合成的水解动力学"
+ },
+ "10.1021/acs.inorgchem.6c04940": {
+  "abstract": "Abstract Sluggish N2 activation and competing hydrogen evolution continue to limit electrochemical nitrogen reduction (ENRR). The chemically active P framework of black phosphorus (BP) provides a platform for constructing metal–P interfaces with tunable electronic structures. Here, few-layer BP supports with differentiated surface states were prepared by incorporating Co during electrochemical exfoliation, followed by Fe electrodeposition under identical conditions. The optimized catalyst exhibited smaller and more uniformly distributed Fe nanoclusters and the strongest Fe–P electronic coupling within the series. It delivered an NH3 yield rate of 10.30 ± 0.20 μg h–1 cm–2 and a Faradaic efficiency of 9.66 ± 0.41% at −0.40 V (vs RHE). The spectroscopic results were consistent with electron transfer from Fe to P and the formation of relatively electron-deficient Fe and electron-enriched P environments. These findings demonstrate that controlling the initial state of BP can regulate Fe nanocluster assembly and Fe–P interfacial electronic coupling, providing a strategy for BP-based ENRR catalyst design.",
+  "authors": [
+   "Qiuju Tao",
+   "Jin Wan",
+   "Chuanzhen Feng",
+   "Kaiwen Bo",
+   "Qi Lan",
+   "Huijuan Zhang",
+   "Yu Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.1021/acs.inorgchem.6c04940",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1021/acs.inorgchem.6c04940",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Inorganic Chemistry",
+  "tier": "background",
+  "title": "Interfacial Electronic Coupling of Iron Nanoclusters on Cobalt-Modified Black Phosphorus for Electrocatalytic Nitrogen Reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acs.inorgchem.6c04940",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Electrocatalytic Nitrogen Reduction"
+  ],
+  "zh_brief": "通过电化学剥离制备了具有不同表面状态的少层黑磷，随后在相同条件下电沉积铁纳米团簇。优化后的催化剂表现出最强的 Fe–P 界面电子耦合，在 −0.40 V 下实现了 10.30 ± 0.20 μg h–1 cm–2 的 NH3 产率速率和 9.66 ± 0.41% 的法拉第效率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学氮还原；涉及Fe/铁体系",
+  "zh_title": "铁纳米团簇在钴改性黑磷上的界面电子耦合用于电催化氮还原"
  },
  "10.1021/acs.jchemed.6c01163": {
   "abstract": "Abstract Ammonia borane (NH3BH3, AB) is a chemical hydrogen storage material with high hydrogen content, low molecular weight, and good stability. Herein, an undergraduate laboratory experiment was designed for students in materials science, chemical engineering, energy science, and related disciplines to demonstrate H2 production from AB hydrolysis and its application. A Pd/C nanocomposite was employed as a catalyst in the experiment that integrates kinetic analysis with practical utilization. Students first recorded H2-production curves and determined key parameters of turnover frequency and activation energy and then used the generated H2 to power a small fuel-cell car. The entire experiment was completed within approximately 4 h. Through this experiment, students may develop essential experimental skills and gain a systematic understanding of H2 generation from AB hydrolysis and its applications.",
@@ -8885,6 +9337,44 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "生物炭铵氮吸附的可解释机器学习：解耦合成与操作驱动因素及量化最优设计规则"
+ },
+ "10.1021/acsomega.6c10112": {
+  "abstract": "Abstract The building sector represents approximately 37% of global CO2 emissions. Therefore, there is a critical need to find alternative insulation materials for the building sector. Indeed, given the materials typically used for insulation, their manufacturing relies on industrial processes that are highly energy-intensive and consume nonrenewable resources. Biobased materials, such as cellulose low-density foams, have significant potential due to their high porosity, hygrometric transpiration, and thermal insulation. However, they remain highly sensitive to water and lack good fire behavior. This study therefore focuses on improving the properties of cellulose foams through an Al2O3 treatment obtained via atomic layer deposition (ALD) in a pilot-scale reactor. It has been demonstrated that this treatment functionalizes the surface of the fiber in the entire foam, imparts good hydrophobicity with a water contact angle (WCA) of 130° even two years after treatment, does not alter its hygroscopic properties, and provides fire protection. Fire reaction tests using a pyrolysis combustion flow calorimeter (PCFC) and cone calorimeter demonstrated the impact of ALD coating on fire ignition. Furthermore, alumina proved equally effective in limiting heat transfer and smoldering. Thus, just a few nanometers of an Al2O3 layer around the fibers in the foam could drastically improve the behavior of cellulose foams when exposed to water and fire, which is in high demand in the field of construction using biobased materials.",
+  "authors": [
+   "Chloé Parisi",
+   "Loïc Dumazert",
+   "Rodolphe Sonnier",
+   "Erwan Gicquel",
+   "Elisabeth Blanquet",
+   "Julien Bras"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.1021/acsomega.6c10112",
+  "first_seen": "2026-11-24T21:13:24Z",
+  "id": "10.1021/acsomega.6c10112",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "ACS Omega",
+  "tier": "transferable",
+  "title": "Atomic Layer Deposition on Large-Scale Industrial Low-Density Cellulosic Foam for Water Repellency and Fire Protection",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.1021/acsomega.6c10112",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Atomic Layer Deposit"
+  ],
+  "zh_brief": "针对建筑保温材料对生物基纤维素低密度泡沫进行原子层沉积（ALD）处理，以改善其疏水性和防火性能。研究表明，Al2O3 层在纤维表面形成疏水层，使水接触角达到 130°，且两年后仍保持良好疏水性，同时不改变其吸湿性能。PCFC 和锥形量热仪测试显示，ALD 涂层显著降低了引燃温度，并有效限制了热传递和阴燃，证明了纳米级 Al2O3 层对纤维素泡沫耐水和耐火性能的显著提升。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.1021/acssensors.6c04300": {
   "abstract": "Abstract Atomically dispersed noble-metal sensitizers offer an effective means of enhancing semiconductor metal oxide gas sensors, yet a single type of atomic noble-metal site is often insufficient to optimize both gas adsorption and catalytic oxidation. Here, atomically dispersed Pt and Pd sites are co-engineered on mesoporous SnO2 nanospheres to establish a cascade adsorption–oxidation pathway for enhanced NH3 sensing. The Pt/Pd–SnO2 sensor exhibits 4.1-, 6.2-, and 26-fold higher NH3 sensitivity than Pt–SnO2, Pd–SnO2, and mesoporous SnO2, respectively, with a calculated detection limit of 100 ppb and a response time of approximately 2 s. In situ spectroscopy, temperature-programmed desorption, and density functional theory calculations reveal that Pd-associated defect motifs promote the adsorption of NH3 and O2, whereas Pt–O–Sn motifs facilitate the subsequent oxidation of adsorbed NH3-derived species. The coexistence of atomically dispersed Pt and Pd dual-sensitizers therefore couples enhanced adsorption with accelerated catalytic oxidation, providing an atomic-scale noble-metal engineering strategy for high-performance gas sensing.",
