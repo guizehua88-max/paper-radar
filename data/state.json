@@ -42,14 +42,6 @@
  "cloud_imported": "2026-10-28T22:01:44Z",
  "history": [
   {
-   "at": "2026-10-29T02:24:38Z",
-   "errors": {},
-   "new": 4,
-   "push": [
-    "no-channel"
-   ]
-  },
-  {
    "at": "2026-10-29T05:19:11Z",
    "errors": {},
    "new": 0,
@@ -579,24 +571,36 @@
    },
    "new": 2,
    "push": []
+  },
+  {
+   "at": "2026-11-25T20:29:02Z",
+   "errors": {
+    "补摘要": "部分请求失败（其余正常）：Semantic Scholar"
+   },
+   "new": 9,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-25T05:25:39Z",
-  "push": [],
+  "at": "2026-11-25T20:29:02Z",
+  "push": [
+   "serverchan:ok"
+  ],
   "sources": {
    "Crossref": {
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1014
+    "n": 1044
    },
    "OpenAlex": {
     "calls": 12,
     "err": "",
     "fails": 0,
-    "n": 8
+    "n": 16
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
@@ -620,7 +624,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 203
+    "n": 166
    },
    "RSS · Chem": {
     "calls": 1,
@@ -638,7 +642,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 67
+    "n": 68
    },
    "RSS · Nature": {
     "calls": 1,
@@ -716,7 +720,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 88
+    "n": 44
    },
    "arXiv": {
     "calls": 3,
@@ -726,19 +730,19 @@
    },
    "补摘要": {
     "calls": 1,
-    "err": "部分请求失败（其余正常）：Semantic Scholar、Europe PMC",
+    "err": "部分请求失败（其余正常）：Semantic Scholar",
     "fails": 0,
-    "n": 183
+    "n": 121
    }
   },
-  "中文简介": "新写 2 篇",
-  "新增相关": 2,
+  "中文简介": "新写 9 篇",
+  "新增相关": 9,
   "模式": "日常",
-  "补摘要": "183/494",
-  "达到推送标准": 0
+  "补摘要": "121/449",
+  "达到推送标准": 2
  },
- "last_push_at": "2026-11-24T21:13:24Z",
- "last_run": "2026-11-25T05:25:39Z",
+ "last_push_at": "2026-11-25T20:29:02Z",
+ "last_run": "2026-11-25T20:29:02Z",
  "rebackfill": {
   "done": [
    "2024-01",
