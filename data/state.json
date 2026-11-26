@@ -42,14 +42,6 @@
  "cloud_imported": "2026-10-28T22:01:44Z",
  "history": [
   {
-   "at": "2026-10-29T07:55:24Z",
-   "errors": {},
-   "new": 15,
-   "push": [
-    "serverchan:ok"
-   ]
-  },
-  {
    "at": "2026-10-29T08:04:46Z",
    "errors": {
     "补摘要": "Europe PMC 失败 FetchError: HTTP 503 @ https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3850%2Fesrel202"
@@ -581,30 +573,40 @@
    },
    "new": 3,
    "push": []
+  },
+  {
+   "at": "2026-11-26T20:11:43Z",
+   "errors": {},
+   "new": 15,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-26T04:59:04Z",
-  "push": [],
+  "at": "2026-11-26T20:11:43Z",
+  "push": [
+   "serverchan:ok"
+  ],
   "sources": {
    "Crossref": {
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1076
+    "n": 1132
    },
    "OpenAlex": {
     "calls": 12,
     "err": "",
     "fails": 0,
-    "n": 12
+    "n": 17
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 166
+    "n": 209
    },
    "RSS · Advanced Functional Materials": {
     "calls": 1,
@@ -616,7 +618,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 468
+    "n": 549
    },
    "RSS · Angewandte Chemie": {
     "calls": 1,
@@ -628,7 +630,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 51
+    "n": 52
    },
    "RSS · Communications Chemistry": {
     "calls": 1,
@@ -712,7 +714,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 35
+    "n": 36
    },
    "RSS · Science Advances": {
     "calls": 1,
@@ -728,19 +730,19 @@
    },
    "补摘要": {
     "calls": 1,
-    "err": "部分请求失败（其余正常）：Semantic Scholar",
+    "err": "",
     "fails": 0,
-    "n": 96
+    "n": 159
    }
   },
-  "中文简介": "新写 3 篇",
-  "新增相关": 3,
+  "中文简介": "新写 13 篇",
+  "新增相关": 15,
   "模式": "日常",
-  "补摘要": "96/475",
-  "达到推送标准": 0
+  "补摘要": "159/476",
+  "达到推送标准": 3
  },
- "last_push_at": "2026-11-25T20:29:02Z",
- "last_run": "2026-11-26T04:59:04Z",
+ "last_push_at": "2026-11-26T20:11:43Z",
+ "last_run": "2026-11-26T20:11:43Z",
  "rebackfill": {
   "done": [
    "2024-01",

@@ -6997,40 +6997,6 @@
   "zh_obj": "材料制备/结构调控",
   "zh_title": "感应加热 CO2 辅助和催化剂工程实现毫米级垂直碳纳米管阵列的制备及宽带光学吸收"
  },
- "10.2139/ssrn.6759615": {
-  "abstract": "The widespread deployment of renewable energy requires scalable, distributed storage solutions capable of aligning intermittent generation with continuous demand. Green ammonia is a promising energy vector, yet its production relies on the Haber Bosch process, the epitome of industrial economies of scale. This work provides a rigorous, scale-resolved assessment of where conventional ammonia synthesis ceases to be technically and economically viable. A 2-dimensional pseudo-homogeneous packed-bed model is developed to quantify the influence of radial heat losses across production scales. The analysis reveals that the assumption of adiabatic reactor operation, ubiquitous in the literature, fails below 100 tonnes per day, where conductive heat losses become comparable to reaction enthalpy. At intermediate scales, this loss necessitates additional reactor beds, while at very small scales (1 tonne per day), conventional reactor designs fail thermally. To address this, a novel variably insulated reactor concept is introduced, enabling controlled radial heat dissipation to maintain optimal reaction trajectories. This redesign reduces reactor volume and capital cost by 35–65% relative to adiabatic assumptions at scales between 1-50 tonnes per day. In addition, a comprehensive economic evaluation of the whole ammonia production process demonstrates that economies of scale fail below 100 tonnes per day, driven primarily by compression and equipment costs. Even under favourable hydrogen pricing, plants below approximately 50 tonnes per day remain economically infeasible. This study establishes the technical and economic limits of small-scale Haber Bosch synthesis and identifies targeted reactor innovations and alternative low-pressure process routes as essential for realising distributed green ammonia production.",
-  "authors": [
-   "Cameron Mumtaz-Wong",
-   "Laura Torrente-Murciano"
-  ],
-  "brief_by": "glm-4.7-flash",
-  "brief_from": "abstract",
-  "cross": false,
-  "date": "2026-05-13",
-  "doi": "10.2139/ssrn.6759615",
-  "first_seen": "2026-10-28T22:02:07Z",
-  "id": "10.2139/ssrn.6759615",
-  "kind": "preprint",
-  "origin": "回填",
-  "score": 28,
-  "source": "SSRN",
-  "tier": "direct",
-  "title": "Ammonia synthesis at small scales: reactor redesign opportunities and the breakdown of economies of scale in the Haber Bosch process",
-  "top": false,
-  "topics": [
-   "nh3"
-  ],
-  "url": "https://doi.org/10.2139/ssrn.6759615",
-  "via": "Crossref",
-  "watch": [],
-  "why": [
-   "Ammonia synthesis"
-  ],
-  "zh_brief": "通过二维拟均相固定床模型分析发现，低于 100 吨/天时绝热反应器假设失效，热损失变得显著。引入可变绝热反应器概念可减少 35–65% 的反应器体积和资本成本，但经济分析表明规模经济在 100 吨/天以下失效，低于约 50 吨/天的工厂在经济上不可行。",
-  "zh_method": "未交代供热方式",
-  "zh_obj": "N₂/H₂气相合成氨",
-  "zh_title": "小规模氨合成：反应器设计机遇与哈伯-博施过程规模经济的失效"
- },
  "10.2139/ssrn.6787625": {
   "abstract": "Photocatalytic N2 fixation represents a promising route for sustainable NH3 synthesis, where efficiency depends on light absorption, charges separation, and active sites. Hydrogen tungsten bronze HxWO3 (HWO) offers distinct advantages for N2 fixation due to its broad UV vis NIR light absorption and abundant oxygen vacancies. Nevertheless, structural instability arising from lattice hydrogen extraction during catalysis severely restricts its application. Herein, we design and demonstrate the hydrogen extraction and insertion dynamic system (Ru/HWO) achieves stable and efficient photocatalytic N2 fixation. During the reaction, the release of lattice hydrogen from HWO accelerates the nitrogen reduction reaction. Active hydrogen species generated at efficient water-dissociation sites on Ru spill over onto HWO, replenishing the lattice hydrogen and thereby establishing an efficient dynamic hydrogen cycle. Benefitting from the unique mechanism, an excellent NH3 synthesis performance of 228.5 μmol g−1 h−1 is achieved, along with the full-spectrum light utilization. This study not only confirms a new lattice-hydrogen-mediated photocatalytic N2 reduction pathway, but also paves a new way for the rational design of efficient and stable hydrogen tungsten bronze photocatalytic systems.",
   "authors": [
