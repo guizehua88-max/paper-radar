@@ -5711,6 +5711,40 @@
   "zh_obj": "化学链/晶格氮循环制氨",
   "zh_title": "揭示 Co3Mo3N 用于高效化学链氨合成的反应条件与结构设计"
  },
+ "10.1016/j.fuel.2026.142344": {
+  "abstract": "",
+  "authors": [
+   "Özgür Aydın",
+   "Krystian Machaj"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-25",
+  "doi": "10.1016/j.fuel.2026.142344",
+  "first_seen": "2026-11-26T04:59:04Z",
+  "id": "10.1016/j.fuel.2026.142344",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Fuel",
+  "tier": "background",
+  "title": "Role of ammonia decomposition rate modeling in predicting coupled chemical, electrochemical, and thermal behavior in ammonia-utilizing solid oxide fuel cells",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.fuel.2026.142344",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia decomposition"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "氨分解速率建模在预测氨利用固体氧化物燃料电池中耦合化学、电化学和热行为中的作用"
+ },
  "10.1016/j.fuel.2026.142377": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -12263,6 +12297,45 @@
   "zh_brief": "该研究建立了基于无人机多光谱框架的烟草叶片干物质、氮浓度及氮营养指数估算模型，通过2023–2024年田间实验筛选关键关系，在2024年独立验证中R²达到0.826，并推荐了97.12 kg N ha−1的平均施氮量以优化产量和变异性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）"
+ },
+ "10.3390/app162311618": {
+  "abstract": "Driven by global net-zero goals, the integrated electricity–hydrogen–ammonia system provides a pathway for coordinating renewable energy utilization with green chemical production. To address dynamic mismatch and control heterogeneity between electrical and chemical units, this paper presents a coupled multi-energy model and a multi-timescale scheduling strategy. First, nonlinear electrolyzer conversion, part-load ammonia auxiliary consumption and equipment degradation costs are incorporated into the hydrogen–electricity hybrid storage model. Then, a two-stage optimization architecture is designed: day-ahead mixed-integer programming for unit commitment, and intra-day CNN-LSTM dynamic rolling optimization. Finally, grid-connected and off-grid tests using normalized public load and photovoltaic profiles examine the coordinated operation of the system. Results show that all four grid-connected cases meet the daily ammonia delivery requirement of 200 kg, with operating margins ranging from −491.84 to 859.68 CNY/day. The three four-hour off-grid cases maintain ammonia production without load shedding under the tested conditions. These findings provide an operational reference for integrating renewable energy with green ammonia synthesis.",
+  "authors": [
+   "Zhengjian Chen",
+   "Shihao Zhu",
+   "Fulin Fan",
+   "Jingran Zhang",
+   "Jiang Qin",
+   "Kai Song"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-24",
+  "doi": "10.3390/app162311618",
+  "first_seen": "2026-11-26T04:59:04Z",
+  "id": "10.3390/app162311618",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Sciences",
+  "tier": "background",
+  "title": "Multi-Timescale Coordinated Optimization of an Integrated Electricity–Hydrogen–Ammonia Production System with Hybrid Hydrogen-Electricity Energy Storage",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.3390/app162311618",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "为解决电化学与化学单元间的动态不匹配和控制异质性，本文提出耦合多能模型和多时间尺度调度策略。研究将非线性电解槽转化、部分负荷氨辅助消耗和设备降解成本纳入氢电混合储能模型，设计了日前混合整数规划和日内CNN-LSTM动态滚动优化架构。结果表明，四种并网案例均满足每日200 kg的氨输送要求，运行余幅在-491.84至859.68 CNY/天之间，三种四小时离网案例在测试条件下均能维持氨生产且无拉闸限电。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确",
+  "zh_title": "混合氢电储能的电力-氢-氨一体化生产系统多时间尺度协同优化"
  },
  "10.3390/catal16111024": {
   "abstract": "Ammonia decomposition enables point-of-use hydrogen supply and therefore offers a practical route to avoid many of the storage and transport constraints of molecular hydrogen. Herein, Ni catalysts loaded on HZSM-5, γ-Al2O3, Al2O3-ZrO2, and SiO2 were synthesized by incipient wetness impregnation and examined by complementary characterization methods to relate catalyst structure to ammonia decomposition behavior. Among the investigated materials, Ni/SiO2 delivered the best performance, reaching 78.1% NH3 conversion and an H2 generation rate of 41.9 mmol·min−1·gNi−1 at 550 °C. Varying the Ni content from 5 to 20 wt.% further showed that higher loading increases overall NH3 conversion, while the activity normalized to Ni mass decreases because larger Ni particles are formed at elevated loadings. These results indicate that catalytic output is jointly controlled by the population of accessible metallic Ni sites, the dispersion state of Ni species, and the inherent reactivity of the exposed Ni centers. The findings highlight how support characteristics and metal–support interactions regulate Ni-based ammonia decomposition catalysts and provide design principles for inexpensive, efficient catalysts for decentralized hydrogen production.",
