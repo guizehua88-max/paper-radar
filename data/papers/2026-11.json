@@ -3190,6 +3190,45 @@
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "用于高效电催化硝酸盐-氨转化的动态自修复金属有机框架"
  },
+ "10.1016/j.apcatb.2026.127809": {
+  "abstract": "",
+  "authors": [
+   "Qinxin Ding",
+   "Xiaoyu Zhang",
+   "Yuhan Qian",
+   "Han Lu",
+   "Jiayi Wang",
+   "Zhen Chen",
+   "Bihua Hu",
+   "Jiaxiang Guo",
+   "Yu Chen",
+   "Xin Wang",
+   "Zhongwei Chen"
+  ],
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.apcatb.2026.127809",
+  "first_seen": "2026-11-27T04:59:50Z",
+  "id": "10.1016/j.apcatb.2026.127809",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Catalysis B: Environment and Energy",
+  "tier": "background",
+  "title": "Engineering atomic-scale tandem sites and electronic redistribution for efficient nitrite reduction to ammonia",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apcatb.2026.127809",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "nitrite reduction"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实"
+ },
  "10.1016/j.apcatb.2026.127818": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -12767,6 +12806,48 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "制氨路线未明确；涉及Fe/铁体系",
   "zh_title": "双功能空心CoP/Ni2P多面体用于电催化NO到氨的转化和可充电Zn-NO电池"
+ },
+ "10.26599/nr.2026.94909346": {
+  "abstract": "Abstract Engineering the cleavage of water molecules to efficiently generate adsorbed hydrogen atoms (H*) effectively resolves the proton deficiency encountered during the nitrate reduction reaction (NO3-RR) under neutral pH conditions and low concentration nitrate. Nevertheless, achieving precise regulation of the balance between the generation of H* and the adsorption of H* still presents significant challenges. Herein, we design a zinc-doped CuCo2O4 nanoneedles on carbon fiber cloth (CF). The optimal Zn-CuCo2O4/CF electrocatalyst achieves a Faradaic efficiency of 97.1% (-0.4 V vs. RHE, 100 mg N L-1 nitrate wastewater) and an ammonia production rate of 4079.1 µg h-1 cm-2. These performance metrics surpass those of most transition metal-based catalysts reported to date. In-situ characterization and theoretical calculations revealed that Zn-induced defects promote the adsorption of both NO3- and H*, while suppressing the bonding of H*. As a result, a confined microenvironment enriched with NO3- and H+ is created, which facilitates the fast hydrogenation of the adsorbed *NO intermediate and maintains high catalytic activity for the NO3-RR. This work proposes a defect engineering strategy for high-performance NO3-RR electrocatalysts through a targeted balance between the generation and adsorption of H*.",
+  "authors": [
+   "Yue Wang",
+   "Yu Ge",
+   "Yiding Yan",
+   "Tinglin Ma",
+   "Li He",
+   "Xuefei Li",
+   "Weiwei Lei",
+   "Weiben Yang",
+   "Xin Li",
+   "Jinghai Yang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-21",
+  "doi": "10.26599/nr.2026.94909346",
+  "first_seen": "2026-11-27T04:59:50Z",
+  "id": "10.26599/nr.2026.94909346",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Nano Research",
+  "tier": "background",
+  "title": "Zn-doped CuCo 2 O 4 with abundant oxygen vacancies for high-efficiency nitrate reduction to ammonia: synergistic modulation of H* intermediates",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.26599/nr.2026.94909346",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "设计了一种在碳纤维布上的锌掺杂 CuCo2O4 纳米针，通过原位表征和理论计算揭示 Zn 引入的缺陷促进 NO3- 和 H* 的吸附并抑制 H* 键合，从而在 100 mg N L-1 硝酸盐废水中实现 97.1% 的法拉第效率和 4079.1 µg h-1 cm-2 的产氨率。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原"
  },
  "10.3389/fceng.2026.1966277": {
   "abstract": "The high temperature water-gas shift (HT-WGS) reaction is a central conversion step in ammonia production since it boosts the hydrogen yield and reduces the carbon monoxide content in the synthesis gas mixture before subsequent purification and ammonia synthesis. The industrial reactor was analyzed numerically with COMSOL Multiphysics 6.2. A three-dimensional model was created by combining momentum transport, heat transfer, multicomponent species transport, heterogeneous reaction kinetics, and intraparticle diffusion in porous Fe-Cr catalyst pellets under realistic adiabatic plant operating conditions. The novelty of the approach lies in combining industrial plant validation with simultaneous representation of reactor scale transport and pellet -scale diffusion-reaction processes. The model predictions were compared with the measured axial temperature profile and outlet gas composition obtained from the industrial plant. The model accurately predicted plant data with MAE = 3.50 K, R 2 = 0.950 (temperatures), and MAPE = 5.30% (outlet content). The validated model was used to examine velocity, temperature, pressure, gas-composition, gas–pellet concentration, and intraparticle concentration profiles. A parametric analysis was performed to evaluate the effects of inlet temperature and steam-to-CO ratio on CO conversion. The pressure profile demonstrated an approximately linear decrease across the catalyst bed, dropping from 30 to 28.35 bar. The mole fractions of CO and H 2 O dropped along the reactive bed, while CO 2 and H 2 rose. Increasing the inlet temperature enhanced CO conversion from about 38.5% at 618 K to around 71% at 653–658 K, while increasing the steam-to-CO ratio from 4.0 to 6.0 improved anticipated conversion from approximately 50%–70%. The validated model is a valuable tool for assessing the operation of industrial HT-WGS reactors in ammonia producing facilities.",
