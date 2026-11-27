@@ -328,6 +328,126 @@
   "zh_obj": "电化学氮还原",
   "zh_title": "打破标度关系以实现从 N2 和 CO2 高选择性电合成尿素的电化学电位窗口策略"
  },
+ "10.1002/adfm.79078": {
+  "abstract": "Fe-doped Ni 2 P nanosheet arrays are developed as an active hydrogen flux regulator for electrocatalytic CO 2 / NO 3 − co-reduction toward urea synthesis. The electron-deficient Fe sites promote CO 2 activation and *CO stabilization, while electron-enriched Ni sites facilitate nitrate hydrogenation and *NH 2 accumulation. The synergistic regulation synchronizes *CO/*NH 2 supply, accelerates C–N coupling, and suppresses parasitic hydrogen evolution, enabling efficient urea electrosynthesis in both H-cell and membrane electrode assembly configurations. ABSTRACT Electrocatalytic CO 2 /NO 3 − co-reduction offers a sustainable route to urea synthesis but remains constrained by mismatched carbon/nitrogen intermediate supply and uncontrolled competition between substrate hydrogenation and the hydrogen evolution reaction (HER). Here, interfacial active-hydrogen flux regulation is proposed as a design principle that matches *H generation with directional consumption within the C–N coupling network and is realized in Fe-doped Ni 2 P nanosheet arrays. The metal-phosphorus framework buffers and delivers *H, sustaining hydrogenation while suppressing futile recombination into H 2 . Fe incorporation simultaneously constructs electronically dichotomous microdomains: electron-deficient Fe sites activate CO 2 and stabilize *CO, whereas the electron-enriched Ni sites drive NO 3 − hydrogenation toward *NH 2 . Such synergistic regulation synchronizes *CO/*NH 2 supply with timely *H utilization, redirecting interfacial hydrogen from a competing HER precursor into a productive coupling resource. Operando spectroscopy and theoretical calculations corroborate enhanced precursor formation, a lowered C–N coupling barrier, and thermodynamic preference for substrate hydrogenation over HER. Fe-Ni 2 P delivers a urea Faradaic efficiency of 65.84% and a yield rate of 1820.31 µg h −1 cm −2 at −0.4 V vs. RHE in an H-cell, reaching 3688.91 µg h −1 cm −2 at 1.6 V in a membrane electrode assembly with a 50.69% Faradaic efficiency, offering a transferable design strategy for multi-reactant C–N coupling electrocatalysis.",
+  "authors": [
+   "Pengyue Shan",
+   "Weimian Zhang",
+   "Chao Song",
+   "Haoliang Huang",
+   "Kaiyang Xu",
+   "Zhipeng Yu",
+   "Chenyue Zhang",
+   "Liyuan Zeng",
+   "Hang Cui",
+   "Yang Zhao",
+   "Laihong Shen",
+   "Lifeng Liu"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-26",
+  "doi": "10.1002/adfm.79078",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1002/adfm.79078",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "A Phosphide Active‐Hydrogen Valve: Redirecting Interfacial Hydrogen from Hydrogen Evolution into C–N Coupling for Efficient Urea Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79078",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "Fe 掺杂 Ni2P 纳米片阵列作为活性氢流调节剂用于电催化 CO2/NO3- 共还原合成尿素。电子缺陷 Fe 位点促进 CO2 活化和 *CO 稳定，富电子 Ni 位点促进硝酸盐氢化和 *NH2 积累。协同调节同步了 *CO/*NH2 供应，加速 C–N 偶联并抑制析氢副反应，在 H-cell 和膜电极组件配置下均实现了高效尿素合成。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "磷化物活性氢阀门：将界面氢从析氢反应重定向至 C–N 偶联以实现高效尿素电合成"
+ },
+ "10.1002/adfm.79089": {
+  "abstract": "The edge-rich NiCo nitrate hydroxide reconstructs at an ultralow onset potential of 1.26 V vs. RHE into a high-valence phase capable of activating inert lattice oxygen. This mechanism alleviates steric hindrance and cuts reaction energy barriers for HMF oxidation, enabling ampere-level FDCA generation with near-quantitative Faradaic efficiency and stable 100-h operation in an AEM electrolyzer. ABSTRACT Electrocatalytic oxidation of 5-hydroxymethylfurfural (HMF) to 2,5-furandicarboxylic acid (FDCA) offers a sustainable route for biomass valorization, yet maintaining high Faradaic efficiencies (FE) at industrially-relevant current densities remains challenging. Here, we report a rationally engineered nickel-cobalt nitrate hydroxide with an edge-rich and through-pore structure, which rapidly reconstructs at exceptionally low potentials into an active NiCoOOH phase enriched with high-valence metal sites. Combining isotope labeling experiments, molecular probe studies, and first-principles calculations reveals that these high-valence metal sites activate otherwise inert lattice oxygen to form reactive oxygen intermediates ( * O lat -O • ). These intermediates significantly reduce steric hindrance in the transition state, thereby lowering the activation barriers for O─H and C─H bond cleavage during the oxidation of HMF. This breakthrough enables the catalyst to achieve ampere-level current densities of 1520 mA·cm −2 at 1.60 V vs. RHE, while maintaining a near-quantitative FE FDCA of 97.7 ± 0.7% even at 1000 mA·cm −2 . Practical applicability is demonstrated in an anion-exchange membrane electrolyzer, which operates stably for 100 h with single-pass FDCA yields exceeding 98%. These findings establish the potential of lattice oxygen activation as a foundational design strategy for developing high-performance electrocatalysts tailored to industrial-scale biomass refineries.",
+  "authors": [
+   "Jiansong Wang",
+   "Rui Chen",
+   "Yipu Xu",
+   "Chang Wang",
+   "Liu‐Liu Shen",
+   "Gui‐Rong Zhang",
+   "Donghai Mei"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-26",
+  "doi": "10.1002/adfm.79089",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1002/adfm.79089",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Low‐Potential Generation of High‐Valence Metal Sites Activates Lattice Oxygen for Ampere‐Level 5‐Hydroxymethylfurfural Electrooxidation",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79089",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "边缘丰富的镍钴硝酸氢氧化物在极低电位下重构为富含高价金属位点的 NiCoOOH 相，激活晶格氧形成活性氧中间体，降低了反应能垒，在阴离子交换膜电解槽中实现了安培级电流密度和稳定的100小时运行。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
+  "zh_title": "低电位生成高价金属位点激活晶格氧实现安培级5-羟甲基糠醛电氧化"
+ },
+ "10.1002/adfm.79113": {
+  "abstract": "A defective UiO-66 framework is excavated to create local cavities for in situ confinement of Cu 3 molecular clusters. The resulting catalyst enables efficient nitrite-to-ammonia electroreduction with 98.7% Faradaic efficiency and maintains stable performance over 300 h of continuous operation. ABSTRACT Heterogenizing molecular catalysts requires the simultaneous preservation of structural precision, active-site accessibility, and long-term stability. To address the limited capacity of robust small-pore frameworks for molecular clusters and the susceptibility of large-pore hosts to guest leaching and structural degradation, we propose a “Framework Excavation” strategy. This strategy selectively creates local enlargements within the microporous framework to generate sufficient space for the in situ formation of metal clusters, while the retained narrow channels kinetically confine the as-formed clusters and allow substrates to pass through the pores to fully access the highly exposed cluster sites. As a demonstration, chemically stable UiO-66 was engineered with missing-Zr 6 -node defects and employed as a host for the ship-in-a-bottle assembly of Cu 3 molecular clusters, yielding Cu 3 @UiO-66-Exc. In electrocatalytic nitrite reduction, Cu 3 @UiO-66-Exc achieves an NH 3 Faradaic efficiency of 98.7% and a yield rate of 19.21 mg cm −2 h −1 , with stable performance over 300 h of cumulative electrolysis. Mechanistic studies, including DMPO-H spin-trapping, in situ infrared spectroscopy and theoretical computations, reveal that the confined Cu 3 architecture promotes active-hydrogen generation and successive hydrogenation of nitrogen-containing intermediates. This work establishes a catalyst support design principle that enables the in situ generation, long-term retention, and high site accessibility of molecular clusters within a robust microporous framework.",
+  "authors": [
+   "Zhaoling Li",
+   "Kangning Zhou",
+   "Fengdan Ruan",
+   "Ailijiang Tuerdi",
+   "Xiao Liu",
+   "Fangfang Pan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-26",
+  "doi": "10.1002/adfm.79113",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1002/adfm.79113",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Framework Excavation of UiO‐66 for In Situ Confined Cu3 Cluster Assembly Toward Nitrite Electroreduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79113",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [
+   "nitrite reduction"
+  ],
+  "zh_brief": "通过挖掘 UiO-66 框架产生局部空腔以原位限制 Cu3 分子团簇，该催化剂在300小时连续运行中保持了98.7%的法拉第效率和稳定的性能，揭示了受限 Cu3 构型促进活性氢生成和中间体氢化的机理。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "UiO-66 框架挖掘用于原位受限 Cu3 团簇组装实现硝酸盐电还原"
+ },
  "10.1002/adfm.79405": {
   "abstract": "Dual FeCo and FeNi alloy nanoparticles are exsolved from a multi-doped Fe-based perovskite anode for high-performance direct ammonia solid oxide fuel cells. The dual-alloy surface coordinates electronic structure modulation and nanoparticle morphology control, providing abundant reaction sites and complementary catalytic functions for NH 3 decomposition, NH x dehydrogenation, and N 2 removal. Consequently, the R-LSBMFCN anode delivers efficient NH 3 utilization, suppressed anode polarization, and stable direct ammonia solid oxide fuel cell operation. ABSTRACT Direct ammonia solid oxide fuel cells (DA-SOFCs) offer an integrated route for carbon-free power generation by coupling in situ ammonia decomposition with electrochemical hydrogen oxidation. However, anode catalysts must simultaneously achieve rapid NH 3 decomposition, efficient electrochemical charge transfer, and long-term resistance to nitridation and particle coarsening. Here, we report an Fe-based perovskite multi-doped with Co and Ni, La 0.6 Sr 0.2 Ba 0.2 Mn 0.2 Fe 0.6 Co 0.1 Ni 0.1 O 3 (P-LSBMFCN), as a precursor for dual-alloy exsolved DA-SOFC anodes. Upon H 2 reduction, P-LSBMFCN transforms into a Ruddlesden-Popper (RP) layered oxide decorated with highly dispersed FeCo and FeNi alloy nanoparticles (R-LSBMFCN). Co and Ni multi-doping directs the reduction-induced nucleation and alloying pathway, reducing the average nanoparticle size from 129.3 nm for the Fe-only reference to 48.3 nm for R-LSBMFCN while increasing nanoparticle density. The resulting dual-alloy architecture provides abundant accessible active sites and electronically tuned metal surfaces, accelerating NH 3 activation, NH x intermediate conversion, and N recombination/desorption. Consequently, R-LSBMFCN exhibits the lowest apparent activation energy, nearly complete NH 3 conversion at high temperature, and maximum power densities of 1.638 and 1.386 W cm −2 under H 2 and NH 3 at 800°C, respectively, with stable operation for 200 h under NH 3 . This work demonstrates multi-doping-induced dual-alloy exsolution as an effective strategy for durable DA-SOFC anodes.",
   "authors": [
@@ -2302,6 +2422,127 @@
   "zh_obj": "材料制备/结构调控；涉及原子层沉积",
   "zh_title": "原子层沉积的LSO涂层稳定界面并提高高镍NCM811正极材料的电化学性能"
  },
+ "10.1002/cssc.71251": {
+  "abstract": "Transitioning toward a sustainable nitrogen circular economy requires innovative strategies for N 2 activation alongside the conversion and utilization of N 1 compounds. This joint special collection in ChemSusChem and ChemCatChem showcases recent advances in catalytic materials, electrified processes, and reactor technologies for sustainable nitrogen management. Key themes include electrified and decentralized ammonia synthesis, ammonia decomposition for CO x ‐free hydrogen production, and the valorization of waste nitrogen streams. By integrating catalyst design, reactor engineering, and process intensification, the research featured here outlines promising pathways toward a resilient, carbon‐neutral nitrogen economy.",
+  "authors": [
+   "Yizhi Xiang",
+   "Jennifer Strunk"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1002/cssc.71251",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1002/cssc.71251",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ChemSusChem",
+  "tier": "background",
+  "title": "Beyond Haber–Bosch: Catalyzing the Nitrogen Circular Economy",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/cssc.71251",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "该综述探讨了实现可持续氮循环经济的策略，重点介绍了用于可持续氮管理的催化材料、电化学过程和反应器技术，包括电化学和分散式氨合成、氨分解制氢以及废氮流体的增值利用。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "超越哈伯-博施：催化氮循环经济"
+ },
+ "10.1002/cssc.71262": {
+  "abstract": "Ammonia decomposition reaction is one of the main pillars of carbon‐free energy storage strategies using renewable materials and energy resources. However, the full potential of NH 3 as an energy carrier has been largely limited by the high energy requirements and complexity of thermocatalytic systems. In this study, a rational, step‐by‐step design and fabrication of iron wool‐based catalytic systems induced by magnetic induction heating have been developed and demonstrated. Iron wool, a cheap and abundant material, achieved >99% conversion at a temperature of 520 °C, a gas hourly space velocity (GHSV) of 18,000 mL g −1 h −1 , and specific energy consumption (SEC) of 1.45 kWh/mol H 2 . The formation and propagation of iron nitride species led to structural degradation and reorganization of the iron wool, diminishing its heating efficiency and its catalytic performance during cyclic operations. Mixing iron wool with SiRAlOx‐supported Ni led to full ammonia decomposition at an elevated GHSV of 30,000 mL g −1 h −1 after only ca. 6 min for temperatures below 470 °C. Furthermore, using SiRAlOx‐supported Ru (1.5–3.3 wt% Ru) resulted in a decreased SEC of 0.73 kWh/mol H 2 while the catalytic stability was largely maintained, as evidenced by a 4%–13% temperature drop.",
+  "authors": [
+   "Farzan Shabani",
+   "Georgiana Maties",
+   "Sourav Ghosh",
+   "Jordan Santiago Martinez",
+   "Thibault Ourlin",
+   "Angélique Gillet",
+   "Katerina Soulantica",
+   "Pierre Fau",
+   "Lise‐Marie Lacroix",
+   "Bruno Chaudret"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1002/cssc.71262",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1002/cssc.71262",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 21,
+  "source": "ChemSusChem",
+  "tier": "transferable",
+  "title": "Energy‐Efficient, High‐Performance Ammonia Decomposition Over Iron Wool Under Magnetic Induction Heating",
+  "top": false,
+  "topics": [
+   "nh3",
+   "joule"
+  ],
+  "url": "https://doi.org/10.1002/cssc.71262",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition",
+   "Induction Heating"
+  ],
+  "zh_brief": "研究基于磁感应加热的铁羊毛催化体系，在 520 °C 和 GHSV 18,000 mL g−1 h−1 下实现 >99% NH3 转化，比能耗 1.45 kWh/mol H2。将铁羊毛与 SiRAlOx 载体负载的 Ni 混合，在 470 °C 以下 6 分钟内实现 GHSV 30,000 mL g−1 h−1 的完全分解。使用负载 1.5–3.3 wt% Ru 的催化剂，比能耗降至 0.73 kWh/mol H2，且稳定性保持良好，运行 4%–13% 的温度下降。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系、Fe/铁体系"
+ },
+ "10.1002/cssc.71264": {
+  "abstract": "Electrocatalytic nitrate reduction reaction (eNO 3 RR) can sustainably convert nitrate pollutants in wastewater into high‐value ammonia, realizing decentralized green ammonia production and nitrogenous wastewater treatment. Heteroatom doping effectively modulates the electronic structure, intermediate adsorption energy, and interfacial microenvironment of electrocatalysts to boost eNO 3 RR performance. Nevertheless, rational design and application of doped catalysts require full knowledge of available strategies, reaction mechanisms, and structure–activity relations. This review systematically examines recent advances in heteroatom‐doped electrocatalysts for eNO 3 RR from three aspects: (i) doping strategies, including thermal treatment, hydrothermal synthesis, electrodeposition, and multistep doping, are comparatively evaluated in terms of regulatory precision, scalability, and applicable scope; (ii) doping features, covering single‐element doping and multicomponent co‐doping, are summarized in terms of Faradaic efficiency, NH 3 yield, current density, stability, and concentration adaptability; and (iii) doping functions are elucidated in terms of electronic structure regulation, intermediate adsorption and reaction pathway optimization, and active hydrogen supply‐demand balance, with particular attention to reconstruction‐induced dopant retention, migration, leaching, and redistribution and to distinguishing the initial structure from the actual active phase. Finally, future directions combining catalyst surface engineering and reactor design are proposed to address poor mass transfer at low nitrate concentration and stability issues under industrial current densities.",
+  "authors": [
+   "Chong Ma",
+   "Qing Zhang",
+   "Tian Song",
+   "Jinse Chen",
+   "Jing‐Jing Lv",
+   "Shun Wang",
+   "Huile Jin",
+   "Hailong Zhang",
+   "Zheng‐Jun Wang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1002/cssc.71264",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1002/cssc.71264",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "ChemSusChem",
+  "tier": "background",
+  "title": "Heteroatom‐Modulated Electrocatalysts for Sustainable Nitrate‐to‐Ammonia Conversion",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/cssc.71264",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia production"
+  ],
+  "zh_brief": "该综述系统考察了用于电催化硝酸盐还原反应的杂原子掺杂电催化剂，从掺杂策略、掺杂特征和掺杂功能三个方面进行了评估，并提出了结合催化剂表面工程和反应器设计以解决传质和稳定性问题的未来方向。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "杂原子调节电催化剂用于可持续硝酸盐制氨转化"
+ },
  "10.1002/elt2.70075": {
   "abstract": "ABSTRACT The photochemical reduction of nitrogen offers an environmentally friendly approach for ammonia synthesis, providing an alternative to the energy‐intensive and emission‐heavy Haber–Bosch process. Despite its promise, the process is impeded by slow nitrogen activation and excessive hydrogen evolution. To overcome these limitations, we present a tandem nickel phthalocyanine (NiPc)/CNT‐P&Cu‐BCN photocatalyst, engineered with an organic–organic heterojunction for enhanced nitrogen conversion. This system integrates boron‐doped (B), nitrogen‐deficient (N) carbon nitride (CN), modified via Cu–Cu coordination and phosphorus doping through sodium borohydride‐assisted thermal treatment, with hydrogen‐bonded, ultrathin NiPc nanosheets. This novel design yields a record ammonia production rate of 915.4 μmol g −1 h −1 under visible light, a remarkable 16‐fold increase compared to traditional BCN materials. The improvement is attributed to precise bandgap engineering; boron doping and nitrogen vacancies adjust the electronic structure, while the synergistic effects of Cu, P, and CNT enhance charge transfer dynamics. The ultrathin NiPc framework introduces atomically dispersed active sites, whereas a Z‐scheme‐driven charge separation mechanism facilitates efficient electron movement. This work, by integrating defect engineering, heterojunction design, and single‐atom catalysis, contributes to the advancement of photocatalytic nitrogen fixation, offering a scalable pathway for sustainable ammonia production. The results underscore the importance of multi‐component synergy in overcoming kinetic barriers, opening new avenues for energy‐efficient alternatives to conventional synthesis methods.",
   "authors": [
@@ -2677,6 +2918,38 @@
   "zh_method": "焦耳热用于制备",
   "zh_obj": "过程待核实",
   "zh_title": "受限插层与非平衡焦耳加热转化协同构建用于锂存储的 SiOx@C 复合材料"
+ },
+ "10.1007/s11664-026-13347-2": {
+  "abstract": "",
+  "authors": [
+   "Hiritika",
+   "Aman Mahajan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1007/s11664-026-13347-2",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1007/s11664-026-13347-2",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Journal of Electronic Materials",
+  "tier": "background",
+  "title": "MoSe2@Polyaniline Nanocomposites for Highly Sensitive Room-Temperature Ammonia Gas Sensing",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1007/s11664-026-13347-2",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "用于高灵敏度室温氨气传感的 MoSe2@聚苯胺纳米复合材料"
  },
  "10.1007/s11814-026-00878-x": {
   "ab_check_v": 2,
@@ -3457,6 +3730,42 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "制氨路线未明确",
   "zh_title": "与煤制氢和电制氢生产集成的低碳氨合成系统的技术经济优化"
+ },
+ "10.1016/j.apenergy.2026.129318": {
+  "abstract": "",
+  "authors": [
+   "Yixin Liu",
+   "Shulong Huang",
+   "Bo Zhao",
+   "Yuxuan Zhang",
+   "Hongkun Lv",
+   "Li Guo",
+   "Da Lin",
+   "Chengshan Wang"
+  ],
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1016/j.apenergy.2026.129318",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1016/j.apenergy.2026.129318",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Applied Energy",
+  "tier": "background",
+  "title": "A dispatchable region-driven robust planning method for flexible green ammonia synthesis system",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.apenergy.2026.129318",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确"
  },
  "10.1016/j.applthermaleng.2026.134057": {
   "ab_check_v": 2,
@@ -4798,6 +5107,40 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原",
   "zh_title": "废弃PET的自催化升级转化为功能MOFs用于高效的硝酸盐电还原制氨"
+ },
+ "10.1016/j.cej.2026.184746": {
+  "abstract": "Electrified high-temperature reactors can supply heat to endothermic processes using low-carbon electricity and reduce combustion-related CO 2 emissions. This work develops an electrothermal framework bidirectionally coupling reactor-scale heat transfer with spatially resolved electrical heating in multilayer ceramic composite tubes. A geometry-resolved three-dimensional electrical finite-element model (FEM) and a reduced-order model (ROM) describe Joule heat release in the wall-embedded metallic heater. The ROM represents the heater geometry through an effective one-dimensional current path and transfers heat release to the reactor model in a power-conservative manner. Beyond computational efficiency, the ROM provides a physical interpretation of electrothermal coupling by separating geometry-defined heat input from its temperature-dependent modification. At constant heater power, local resistivity increases are partly compensated by the global reduction in current, so spatial redistribution depends on local heater temperature relative to a resistance-weighted effective temperature. For Aluchrom Y Hf, weak temperature dependence of resistivity and partial compensation of local and global electrical effects limit spatial heat redistribution. Different electrical operating modes modify total heater power and local heat release. The framework was applied to an experimentally realized ceramic composite tube reactor under high-temperature inert nitrogen operation. The thermal model was validated against measured axial capillary temperatures. The calculated heater resistance captures the measured temperature-dependent increase, with an average underprediction of approximately 2%. The ROM reproduces the dominant FEM heat-input distribution while accelerating coupled calculations by a factor of 7.5–15. The framework provides a physically interpretable basis for analyzing electrothermal coupling and designing tailored spatial heat-input distributions in Joule-heated ceramic composite tubes.",
+  "authors": [
+   "Daniel Kleschew",
+   "Ulrich Nieken"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.cej.2026.184746",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1016/j.cej.2026.184746",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Chemical Engineering Journal",
+  "tier": "transferable",
+  "title": "Electrothermal coupling in Joule-heated ceramic composite tubes: Reduced-order modeling and experimental assessment",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.cej.2026.184746",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule-heat"
+  ],
+  "zh_brief": "开发了一种耦合反应器尺度传热与多层陶瓷复合管空间电加热的电热框架，建立了三维有限元模型和一维降阶模型。模型分析了 Aluchrom Y Hf 在恒定功率下局部电阻增加与电流全局减少的补偿效应，并验证了其在高温氮气环境下的轴向毛细管温度测量结果，计算电阻与测量值平均偏差约 2%。",
+  "zh_method": "反应阶段焦耳/电阻供热",
+  "zh_obj": "过程待核实"
  },
  "10.1016/j.ceramint.2026.11.043": {
   "ab_check_v": 2,
@@ -8171,6 +8514,49 @@
   "zh_obj": "其他催化反应",
   "zh_title": "脉冲磁感应加热用于连续固定床反应器中的催化剂再生：延长抗生素去除的操作稳定性"
  },
+ "10.1016/j.jmrt.2026.11.331": {
+  "abstract": "Al2O3–Y3Al5O12 (Al2O3–YAG) eutectic ceramic with a three-dimensionally continuous interpenetrating network structure was successfully fabricated via a rapidly heated combustion synthesis chemical furnace. The effects of combustion agent mass on the microstructural evolution and solidification behavior of Al2O3–YAG eutectic ceramics were systematically investigated. The results indicate that the combustion agent mass determines the undercooling degree, melt viscosity and solidification velocity, thereby regulating the eutectic morphology from conventional ”Chinese script” structure to uniform cellular structure. When the combustion agent mass is 180 g, the inter-lamellar spacing of Al2O3–YAG eutectic reaches 1.19 μm, and the growth rate of Al2O3–YAG eutectic is up to 70.62 μm/s. Meanwhile, the Al2O3–YAG eutectic ceramic achieves excellent comprehensive mechanical properties, with a Vickers hardness of 21.58 GPa and a fracture toughness of 3.36 MPa·m1/2. This is attributed to the ultra-fine homogeneous microstructure and multiple synergistic toughening mechanisms, including crack deflection, crack bridging and crack arrest. This work demonstrates that the combustion synthesis rapid heating method is an efficient approach to fabricate high-performance Al2O3–YAG eutectic ceramics, providing a feasible strategy for rapid preparation of fine-structured high-temperature structural ceramics.",
+  "authors": [
+   "Aiyang Wang",
+   "Li Zhu",
+   "Man Xu",
+   "Weimin Wang"
+  ],
+  "brief_by": "glm-4-flash-250414",
+  "brief_from": "abstract",
+  "brief_v": 3,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jmrt.2026.11.331",
+  "first_seen": "2026-10-28T22:02:07Z",
+  "id": "10.1016/j.jmrt.2026.11.331",
+  "kind": "journal",
+  "origin": "回填",
+  "preprint": {
+   "id": "10.2139/ssrn.6983090",
+   "source": "SSRN",
+   "url": "https://doi.org/10.2139/ssrn.6983090"
+  },
+  "published_seen": "2026-11-27T19:58:12Z",
+  "score": 18,
+  "source": "Journal of Materials Research and Technology",
+  "tier": "transferable",
+  "title": "Effect of combustion agent mass on the microstructure of Al2O3–YAG eutectic ceramic fabricated by rapid heating of combustion synthesis chemical furnace",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jmrt.2026.11.331",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "rapid heating"
+  ],
+  "zh_brief": "Al2O3–Y3Al5O12 (Al2O3–YAG) 共晶陶瓷通过快速加热的燃烧合成化学炉成功制备。系统地研究了燃烧剂质量对 Al2O3–YAG 共晶陶瓷微观结构演变和凝固行为的影响。结果表明，燃烧剂质量决定了过冷度、熔体粘度和凝固速度，从而调节共晶形貌从传统的“汉字”结构到均匀的蜂窝结构。当燃烧剂质量为 180 g 时，Al2O3–YAG 共晶的层间间距达到 1.19 μm，Al2O3–YAG 共晶的生长速率高达 70.62 μm/s。同时，Al2O3–YAG 共晶陶瓷具有优异的综合力学性能，维氏硬度为 21.58 GPa，断裂韧性为 3.36 MPa·m1/2。这归因于超细均匀的微观结构和多种协同增韧机制，包括裂纹偏转、裂纹桥接和裂纹阻滞。这项工作表明，燃烧合成快速加热方法是一种制备高性能 Al2O3–YAG 共晶陶瓷的有效方法，为快速制备细结构高温结构陶瓷提供了一种可行策略。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "燃烧剂质量对燃烧合成化学炉快速加热制备的 Al2O3–YAG 共晶陶瓷微观结构的影响"
+ },
  "10.1016/j.jmst.2026.10.083": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -10263,6 +10649,43 @@
   "zh_obj": "电化学氮还原；涉及碳材料",
   "zh_title": "Mo,S 掺杂石墨烯上氮还原反应的理论研究"
  },
+ "10.1021/acssensors.6c03315": {
+  "abstract": "Abstract Developing highly sensitive and compact sensing platforms for continuous trace ammonia (NH3) monitoring is critical for environmental monitoring, occupational safety, personal exposure assessment, and non-invasive diagnosis. Herein, we demonstrate a composition-engineering strategy for regulating NH3 adsorption and gravimetric sensing performance using bimetallic nickel–cobalt layered double hydroxides (NixCoy LDHs) integrated with micro quartz tuning fork (MQTF) sensors. A series of NixCoy LDHs with precisely controlled molar ratios (Ni2Co1, Ni1Co1, and Ni1Co2) were successfully synthesized via a facile solvothermal route using 2-methylimidazole linkers. Structural characterizations revealed a composition-dependent evolution of morphology and surface properties, leading to distinct NH3 adsorption behaviors. Among the investigated compositions, the Ni1Co1 LDH exhibited the highest frequency shift (∼1200 mHz), a sensitivity of –529.63 mHz·ppm–1, and an ultralow detection limit of 17.2 ppb, together with moderate selectivity and stability over 50 days. In contrast, the Ni-rich Ni2Co1 composition achieved the fastest response time (54 s), whereas the Co-rich Ni1Co2 exhibited the shortest recovery time (63 s), which reveals a composition-dependent trade-off between sensing sensitivity and adsorption–desorption kinetics. These findings establish structure–composition–performance relationships in bimetallic LDHs and demonstrate composition engineering as a rational strategy for designing high-performance gravimetric gas sensors.",
+  "authors": [
+   "Yingman Bian",
+   "Jiahui Yuan",
+   "Anirban Goswami",
+   "Parashu Kharel",
+   "Amirhossein Amjad",
+   "Xiaojun Xian"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1021/acssensors.6c03315",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1021/acssensors.6c03315",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "ACS Sensors",
+  "tier": "background",
+  "title": "Compositional Engineering of Ni–Co Layered Double Hydroxides for Ultrasensitive Gravimetric Ammonia Sensing",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/acssensors.6c03315",
+  "via": "Crossref",
+  "watch": [],
+  "why": [],
+  "zh_brief": "研究通过溶剂热法合成了具有精确摩尔比的 Ni1Co1、Ni2Co1 和 Ni1Co2 层状双氢氧化物，发现 Ni1Co1 LDH 具有最高的频率偏移、灵敏度和最低检测限，揭示了组分工程在调节吸附和传感性能中的作用。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
+  "zh_title": "镍-钴层状双氢氧化物组分工程用于超灵敏质量型氨气传感"
+ },
  "10.1021/acssensors.6c04300": {
   "abstract": "Abstract Atomically dispersed noble-metal sensitizers offer an effective means of enhancing semiconductor metal oxide gas sensors, yet a single type of atomic noble-metal site is often insufficient to optimize both gas adsorption and catalytic oxidation. Here, atomically dispersed Pt and Pd sites are co-engineered on mesoporous SnO2 nanospheres to establish a cascade adsorption–oxidation pathway for enhanced NH3 sensing. The Pt/Pd–SnO2 sensor exhibits 4.1-, 6.2-, and 26-fold higher NH3 sensitivity than Pt–SnO2, Pd–SnO2, and mesoporous SnO2, respectively, with a calculated detection limit of 100 ppb and a response time of approximately 2 s. In situ spectroscopy, temperature-programmed desorption, and density functional theory calculations reveal that Pd-associated defect motifs promote the adsorption of NH3 and O2, whereas Pt–O–Sn motifs facilitate the subsequent oxidation of adsorbed NH3-derived species. The coexistence of atomically dispersed Pt and Pd dual-sensitizers therefore couples enhanced adsorption with accelerated catalytic oxidation, providing an atomic-scale noble-metal engineering strategy for high-performance gas sensing.",
   "authors": [
@@ -10706,6 +11129,45 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
   "zh_title": "方向性亚硝酸根溢流与界面氢键网络耦合用于安培级硝酸盐至氨的电合成"
+ },
+ "10.1021/jacs.6c20466": {
+  "abstract": "Abstract Rational design of stable active sites from earth-abundant elements is essential for replacing precious metals and advancing low-temperature ammonia decomposition for hydrogen delivery. Early 3d transition metals are attractive because of their abundance and low cost, yet their strong nitrogen binding often hinders catalytic turnover. Here, we report a novel oxynitride, Ba6Mn2N6O, in which lattice oxygen coordinates with Ba to stabilize an active barium manganese nitride framework comprising isolated [MnN3]δ− units and electron-confined Ba6 cavities. These Ba6 cavities promote NH3 adsorption and activation, lattice nitrogen enables N–N coupling, and redox-active Mn centers mediate electron transfer from N to H. This cooperative mechanism enables MgO-supported Ba6Mn2N6O to outperform leading nonprecious-metal catalysts and many Ru-based catalysts at 450 °C, while reducing transition-metal costs by 2–4 orders of magnitude relative to Co and Ru. This work demonstrates the potential of rationally engineered, earth-abundant active sites to migrate the reliance on Ru and advance ammonia as a global-scale hydrogen carrier.",
+  "authors": [
+   "Qing Guo",
+   "Shiyao Wang",
+   "Jiang Li",
+   "Hideo Hosono",
+   "Masaaki Kitano"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1021/jacs.6c20466",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.1021/jacs.6c20466",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 21,
+  "source": "Journal of the American Chemical Society",
+  "tier": "background",
+  "title": "Oxygen-Stabilized Barium Manganese Nitride Framework Enables Low-Temperature Ammonia Decomposition",
+  "top": true,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1021/jacs.6c20466",
+  "via": "Crossref",
+  "watch": [
+   "Hideo Hosono"
+  ],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_brief": "报道了一种新型氧氮化物 Ba6Mn2N6O，其中晶格氧稳定了包含孤立 [MnN3]δ− 单元和电子受限 Ba6 空腔的钡锰氮化物框架。该框架在 450 °C 下催化性能优于许多 Ru 基催化剂，且过渡金属成本比 Co 和 Ru 低 2–4 个数量级。MgO 支撑的 Ba6Mn2N6O 在 450 °C 下实现了高效 NH3 分解。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢；涉及Ru/钌体系"
  },
  "10.1021/photonsci.6c00065": {
   "abstract": "Abstract This work presents the design, implementation, and validation of a custom-built in situ atomic layer deposition (ALD) reactor developed at the ALBA Synchrotron Light Source (Cerdanyola del Vallès, Spain), enabling direct integration with synchrotron X-ray beamlines. A modular configuration allows the ALD reactor to be deployed at two ALBA Synchrotron beamlines: NCD-SWEET beamline (BL11) for Grazing Incidence Small Angle X-ray Scattering (GISAXS) and NOTOS beamline (BL16) for X-ray Absorption Spectroscopy (XAS), requiring only minimal reconfiguration. The reactor performance was validated by in situ deposition of TiO2 thin films using titanium tetraisopropoxide (TTIP) and H2O as the precursor and co-reactant, respectively, with a growth per cycle (GPC) of 0.17 Å·cycle–1 at 150 °C. This system was chosen for its low growth rate, as a demanding test of detection sensitivity. In situ GISAXS revealed the continuous evolution of film morphology and near-surface electron density over 1000 ALD cycles, while in situ X-ray absorption near-edge structure (XANES) quantitatively resolved three kinetically distinct growth regimes: prenucleation, nucleation development, and steady-state growth. The complementarity of the two techniques provides a comprehensive picture of ALD growth dynamics that neither technique could deliver independently, demonstrating the potential of the ALD system presented here for in situ multi-technique characterization of a broad range of ALD processes.",
@@ -12781,6 +13243,47 @@
   "zh_obj": "过程待核实",
   "zh_title": "用于活化二氮的铀氢化物配合物"
  },
+ "10.26434/chemrxiv.15012818/v1": {
+  "abstract": "Collective dynamical organization regulates essential functions across living and engineered systems, from coordinating tissue development [1] and clearing mucus from airways [2] to synchronizing electrical power grids [3]. In heterogeneous catalysis, underpinning modern chemical manufacturing, experimentally established examples remain scarce, with self-sustained oscillations in CO oxidation as the archetypal example[4, 5]. Harnessing the temporal organization of chemical reactions enhances catalytic activity and chemoselectivity [6, 7], yet whether apparently steady catalytic reactions conceal more general forms of collective dynamical organization remains unresolved. Conventional characterization predominantly captures ensemble-and time-averaged responses, reinforcing theoretical descriptions based on steady-state approximations that leave such organization unaccounted for[8–10]. To access this hidden information, we introduce photonstatistical spectroscopy (PSS), which distinguishes fluctuations associated with catalytic processes from those expected from photon-counting noise[11, 12], revealing chemically specific dynamical information beyond conventional measurements. Applied to CO oxidation over Pt, PSS recovers known oscillatory behaviour [4, 5] while uncovering additional temporal organization in apparently featureless signals. Mechanistic analysis indicates preferential sensitivity to a reactive fraction of CO* at CO*–O* boundaries and identifies signatures of coupled, otherwise unobserved surface processes. We then apply PSS to ammonia synthesis over a commercial iron-based catalyst at 100 bar, resolving previously unobserved, chemically specific dynamical organization that persists even after macroscopic steady state is reached during 100 h of operation. Combining operando infrared and quick X-ray absorption spectroscopy reveals dynamical contributions consistent with NHx* intermediates and changes in the local structure of the catalyst, demonstrating the applicability of PSS across spectroscopic techniques. Our findings reveal that macroscopic steady state does not preclude organized microscopic dynamics and establish a means of connecting this hidden temporal organization to reactive species and catalyst environments, opening new avenues for understanding and ultimately controlling catalytic function and, more broadly, nonequilibrium processes.",
+  "authors": [
+   "Denis V. Leybo",
+   "Tal Rosner",
+   "Zhiyue Wang",
+   "Anatoly Bekkerman",
+   "Valérie Briois",
+   "Yaniv Romano",
+   "Anatoly I. Frenkel",
+   "Florian Meirer",
+   "Charlotte Vogt"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-26",
+  "doi": "10.26434/chemrxiv.15012818/v1",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.26434/chemrxiv.15012818/v1",
+  "kind": "preprint",
+  "origin": "日常",
+  "score": 9,
+  "source": "ChemRxiv",
+  "tier": "uncertain",
+  "title": "Revealing hidden dynamics in steady-state heterogeneous catalysis through photon-statistical spectroscopy",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.26434/chemrxiv.15012818/v1",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "引入光子统计光谱学（PSS）来区分催化过程与光子计数噪声，揭示了 CO 氧化和氨合成中隐藏的集体动力学组织。在 100 bar 下对商业铁基催化剂进行氨合成研究，PSS 在 100 小时运行后宏观稳态仍能解析出未观察到的化学特异性动力学组织。",
+  "zh_method": "未交代供热方式",
+  "zh_obj": "制氨路线未明确；涉及Fe/铁体系"
+ },
  "10.26599/nr.2026.94909308": {
   "abstract": "Abstract The electrocatalytic reduction of nitric oxide (NO) to ammonia (NH3) offers a sustainable, low-temperature alternative to the energy and carbon-intensive Haber-Bosch process, simultaneously facilitating green NH3 synthesis and environmental remediation under ambient conditions. This study reports the development of a metal-organic framework (MOF)-derived, hierarchically engineered hollow polyhedral CoP/Ni2P bimetallic phosphide catalyst with high activity toward the nitric oxide reduction reaction (NORR) in both neutral and acidic media. Importantly, the catalytic activity is significantly improved in acidic conditions with an NH3 yield of 68.28 μmol∙cm-2∙h-1 and Faradaic efficiency (FE) of 65.4% at −1.05 V vs reversible hydrogen electrode (vs. RHE). The acid-enhanced performance highlights the important role of proton concentration in the NO hydrogenation steps. In addition, the CoP/Ni2P-based gas diffusion cathode in a Zn-NO battery system serves as a concentration-universal energy conversion platform that achieves high open circuit potentials of 1.56 V (neutral) and 2.00 V (acidic) with peak power densities of 2.39 mW∙cm-2 and 3.34 mW∙cm-2, respectively. Through density functional theory calculations, it is revealed that the built-in electric field-induced optimization of the d-band center at the CoP/Ni2P heterogeneous interface is determined by charge rearrangement towards Fermi level alignment. The width and shape of the d-band are correlated with the position of its center, which in turn tunes the adsorption free energies of key reaction intermediates. This study demonstrates the viability of integrating environmental pollutant remediation with sustainable ammonia production and concurrent power generation within a unified electrochemical cell and establishes MOF-derived bimetallic phosphides as a novel class of efficient NORR electrocatalysts.",
   "authors": [
@@ -13254,6 +13757,41 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨相关分离/检测/资源系统（非制氨反应证据）",
   "zh_title": "巴拿马水稻生产中用于氮管理的本土促生长细菌多性状筛选与时间生长响应"
+ },
+ "10.3390/photonics13121116": {
+  "abstract": "CuFe2O4/TiO2 Janus hollow nanofibers (CT JHNFs) were prepared by combining electrospinning with atomic layer deposition (ALD) for visible-light (Vis)-assisted peroxymonosulfate (PMS) activation. Their ordered Janus interface and hollow one-dimensional architecture enhanced light harvesting, charge separation, interfacial electron transfer, and mass transfer during tetracycline hydrochloride (TCH) degradation while suppressing metal-ion leaching. Under visible-light/PMS conditions, CT JHNFs exhibited an apparent first-order rate constant (kapp) approximately 2.0, 4.7, and 23.4 times those of mixed CuFe2O4/TiO2 nanofibers, CuFe2O4, and TiO2, respectively. Comparisons among the CT JHNFs/Vis/PMS, CT JHNFs/Vis, and CT JHNFs/PMS systems showed that the heterojunction promoted both photogenerated charge separation and interfacial electron transfer for PMS activation. Specifically, the built-in electric field at the continuous CuFe2O4/TiO2 Janus interface drove photogenerated electrons from CuFe2O4 toward TiO2, where PMS acted as an electron acceptor and was reduced to generate reactive oxygen species. Radical-quenching and electron spin resonance analyses confirmed that SO4∙−, ·OH, and O2∙− contributed to TCH degradation. Moreover, the self-supporting macroscopic structure and excellent mechanical stability enabled facile catalyst recovery and reuse, supporting its potential application in water treatment.",
+  "authors": [
+   "Jiayu Xin",
+   "Chaohan Han",
+   "Jikai Yang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-26",
+  "doi": "10.3390/photonics13121116",
+  "first_seen": "2026-11-27T19:58:12Z",
+  "id": "10.3390/photonics13121116",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Photonics",
+  "tier": "transferable",
+  "title": "Interface-Directed Charge Transfer in Ordered CuFe2O4/TiO2 Janus Hollow Nanofibers for Visible-Light-Assisted PMS Activation",
+  "top": false,
+  "topics": [
+   "ald"
+  ],
+  "url": "https://doi.org/10.3390/photonics13121116",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "atomic layer deposit"
+  ],
+  "zh_brief": "通过静电纺丝结合原子层沉积制备了有序 CuFe2O4/TiO2 Janus 中空纳米纤维，用于可见光辅助过一硫酸盐（PMS）活化降解四环素。有序 Janus 界面和一维中空结构显著增强了光捕获、电荷分离和界面电子转移，降解速率常数 kapp 分别是混合纳米纤维、CuFe2O4 和 TiO2 的 2.0、4.7 和 23.4 倍。",
+  "zh_method": "电场辅助，未证实焦耳供热",
+  "zh_obj": "材料制备/结构调控；涉及原子层沉积"
  },
  "10.3390/pr14213539": {
   "abstract": "Joule heating coupled with porous media offers rapid in situ heat generation and a more uniform temperature distribution for DRM reactions, whereas the strong coupling of structural and operating parameters renders conventional trial-and-error optimization inefficient and costly. To tackle this challenge, a multi-physics numerical model for a centrally resistively heated DRM reactor is constructed by coupling Joule heating, flow and heat transfer, multicomponent species transport, and apparent reaction kinetics. A fully connected feedforward neural network (FC-FNN) surrogate model is further established to enable rapid prediction of reactor performance. Seven critical input variables are selected, including reaction temperature, gas hourly space velocity (GHSV), etc., and 9216 simulation samples are generated via numerical simulations for surrogate model training and parametric analysis. The results demonstrate that the Bayesian-optimized FC-FNN model exhibits high predictive accuracy for the core reactor performance metrics, achieving coefficients of determination (R2) above 0.960 for CH4 conversion, CO2 conversion, energy efficiency, and the H2/CO molar ratio. Subsequently, an unknown-constrained alternating Bayesian optimization (UCA-BO) algorithm is adopted to maximize the average reactant conversion under the constraints of H2/CO molar ratio ≥ 0.9 and bed-temperature non-uniformity ≤ 5%. Under the optimized operating conditions, the average reactant conversion reaches 94.12%, accompanied by a H2/CO molar ratio of 0.98, a bed-temperature non-uniformity of 4.53%, and a system energy efficiency of 74.83%. Posterior verification with the trained surrogate model gives slightly lower values (91.28%, 0.91, 4.86%, and 72.36%), all of which remain within the imposed constraints, confirming feasibility. Overall, the proposed integrated framework of numerical simulation, surrogate modeling, and Bayesian optimization enables efficient parameter screening and comprehensive performance optimization of resistively heated porous-media DRM systems, providing a methodological basis for the structural design and operating-parameter optimization of related reactor systems.",
