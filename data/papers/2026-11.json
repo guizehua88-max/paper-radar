@@ -448,6 +448,87 @@
   "zh_obj": "电化学亚硝酸盐还原",
   "zh_title": "UiO-66 框架挖掘用于原位受限 Cu3 团簇组装实现硝酸盐电还原"
  },
+ "10.1002/adfm.79123": {
+  "abstract": "A Cu 6.26 Sn 5 /Sn heterostructured aerogel, co-guided by phase diagrams and density functional theory, achieves highly selective hydroxylamine electrosynthesis from nitrite, wherein the Cu 6.26 Sn 5 phase concentrates interfacial nitrite while the Sn skeleton drives the reduction of nitrite and boosts * NH 2 OH desorption. It displays a 79.7% cyclohexanone oxime Faradaic efficiency, a 0.731 mmol h −1 cm −2 yield rate, outstanding durability and solar-driven electrolysis feasibility. ABSTRACT Electrosynthesizing hydroxylamine (NH 2 OH) from nitrite (NO 2 − ) promises a green alternative to the hazardous Raschig process, yet catalyst development is trapped in a persistent selectivity–activity dilemma. Excessively strong adsorption of intermediates on the catalyst drives the over‑reduction of * NH 2 OH to ammonia, whereas overly weak adsorption depletes the interfacial reactant supply and yields to the competing hydrogen evolution reaction. Herein, guided by binary phase diagrams and density functional theory calculations, we report a one-step co-reduction strategy for the general synthesis of 3D intermetallic/metal heterostructured aerogels with freely tunable components—bypassing the sacrificial templates required by conventional methods. The resultant aerogel comprises a porous Sn scaffold decorated with Cu 6.26 Sn 5 intermetallic nanoparticles that form stable heterointerfaces. With cyclohexanone trapping in 0.5 m Na 2 SO 4 , the Cu 10 Sn 90 heterostructured aerogel achieves a remarkable Faradaic efficiency of 79.7% and yield rate of 0.731 mmol h −1 cm −2 toward cyclohexanone oxime. Molecular dynamics simulations reveal that the Cu 6.26 Sn 5 phase accelerates interfacial NO 2 − accumulation and mass transport, whereas the Sn scaffold serves as the dominant active center to undergo the reduction of NO 2 − and boost * NH 2 OH desorption. This study delivers a novel material design strategy for heterostructured aerogels toward highly selective electroreduction of NO 2 − to NH 2 OH.",
+  "authors": [
+   "Wenjun Ning",
+   "Shitao Yang",
+   "Jiashu Chen",
+   "Boxuan Li",
+   "Guangping Zheng",
+   "Dongyang Lou",
+   "Wei Huang",
+   "Jing Yang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1002/adfm.79123",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1002/adfm.79123",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Phase Diagram and Theoretical Calculation Guided Rational Design of Cu6.26Sn5/Sn Heterostructured Aerogel for Hydroxylamine Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79123",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "基于相图和密度泛函理论指导，构建了 Cu6.26Sn5/Sn 异质结构气凝胶用于硝酸盐电合成羟胺。Cu6.26Sn5 相富集界面硝酸盐，Sn 骨架驱动硝酸盐还原并促进 *NH2OH 脱附。在 0.5 m Na2SO4 中，Cu10Sn90 异质结构气凝胶实现了 79.7% 的环己酮肟法拉第效率和 0.731 mmol h−1 cm−2 的产率。分子动力学模拟表明 Cu6.26Sn5 相加速界面 NO2− 积累和质量传输，而 Sn 骨架作为主导活性中心。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学亚硝酸盐还原",
+  "zh_title": "相图与理论计算指导的 Cu6.26Sn5/Sn 异质结构气凝胶用于羟胺电合成"
+ },
+ "10.1002/adfm.79138": {
+  "abstract": "It has been observed that the infiltration precursor pH and subsequently formed secondary phases both affect the polarization resistance of porous (La 0.6 Sr 0.4 ) 0.98 FeO 3-δ /Ce 0.9 Gd 0.1 O 2 (LSF/CGO) oxygen electrodes. The pH of the precursor solution surprisingly has a greater impact than the phases formed at low loading. Hence, the widely employed infiltration process should be considered a two-step process; see the ToC Figure. ABSTRACT Improving the performance of cobalt-free oxygen electrodes for intermediate-temperature operation (600°C–700°C) is a major challenge in realizing a cost-effective solid oxide technology. A recent model system study suggests that modifying surface acidity can enhance oxygen exchange rates. Inspired by these findings, this study investigates the impact of surface acidity on a technologically relevant electrode architecture. Infiltrating (La 0.6 Sr 0.4 ) 0.98 FeO 3-δ /Ce 0.9 Gd 0.1 O 2-δ (LSF/CGO) electrodes with nitrate precursors to form secondary surface phases of different acidity can result in a two-fold reduction in polarization resistance ( R p ). Basic oxides generally improve performance, while acidic ones hamper it; however, R p does not scale directly with Smith acidity. It is found that R p scales equally well with precursor solution pH and can be reduced threefold (1.07 → 0.36 Ω cm 2 ) under alkaline conditions. This demonstrates that the chemical environment during infiltration impacts electrode properties and raises the question of whether precursor pH or secondary phases formed during nitrate decomposition dominate the improved performance most. Surface-sensitive techniques and electronic-structure calculations probe the effect of high precursor pH. While several mechanisms may contribute, the benefits of a high pH treatment are likely related to preferential Sr leaching and redeposition during heat treatment, which modifies surface acidity and exposes subsurface layers.",
+  "authors": [
+   "Veronica Humlebæk Jensen",
+   "Sade Aw‐Ali",
+   "André Wark",
+   "Mohamad Khoshkalam",
+   "Adam Alemayehu",
+   "Roxy Lee",
+   "David N. Mueller",
+   "Stephen J. Skinner",
+   "Jan Knudsen",
+   "Ivano E. Castelli",
+   "Peter Vang Hendriksen"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-27",
+  "doi": "10.1002/adfm.79138",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1002/adfm.79138",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 6,
+  "source": "Advanced Functional Materials",
+  "tier": "background",
+  "title": "Enhanced Electrocatalytic Activity of Cobalt‐Free Oxygen Electrodes via Surface Modifications",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/adfm.79138",
+  "via": "RSS·Advanced Functional Materials",
+  "watch": [],
+  "why": [],
+  "zh_brief": "研究发现浸渍前驱体 pH 值及随后形成的次级相均影响多孔 (La0.6Sr0.4)0.98FeO3-δ/Ce0.9Gd0.1O2 (LSF/CGO) 氧电极的极化电阻。碱性条件下极化电阻可降低三倍（1.07 → 0.36 Ω cm2），表明浸渍过程中的化学环境对电极性能有显著影响。表面敏感技术和电子结构计算进一步揭示了高 pH 值前驱体的作用机制。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "通过表面修饰增强无钴氧电极的电催化活性"
+ },
  "10.1002/adfm.79405": {
   "abstract": "Dual FeCo and FeNi alloy nanoparticles are exsolved from a multi-doped Fe-based perovskite anode for high-performance direct ammonia solid oxide fuel cells. The dual-alloy surface coordinates electronic structure modulation and nanoparticle morphology control, providing abundant reaction sites and complementary catalytic functions for NH 3 decomposition, NH x dehydrogenation, and N 2 removal. Consequently, the R-LSBMFCN anode delivers efficient NH 3 utilization, suppressed anode polarization, and stable direct ammonia solid oxide fuel cell operation. ABSTRACT Direct ammonia solid oxide fuel cells (DA-SOFCs) offer an integrated route for carbon-free power generation by coupling in situ ammonia decomposition with electrochemical hydrogen oxidation. However, anode catalysts must simultaneously achieve rapid NH 3 decomposition, efficient electrochemical charge transfer, and long-term resistance to nitridation and particle coarsening. Here, we report an Fe-based perovskite multi-doped with Co and Ni, La 0.6 Sr 0.2 Ba 0.2 Mn 0.2 Fe 0.6 Co 0.1 Ni 0.1 O 3 (P-LSBMFCN), as a precursor for dual-alloy exsolved DA-SOFC anodes. Upon H 2 reduction, P-LSBMFCN transforms into a Ruddlesden-Popper (RP) layered oxide decorated with highly dispersed FeCo and FeNi alloy nanoparticles (R-LSBMFCN). Co and Ni multi-doping directs the reduction-induced nucleation and alloying pathway, reducing the average nanoparticle size from 129.3 nm for the Fe-only reference to 48.3 nm for R-LSBMFCN while increasing nanoparticle density. The resulting dual-alloy architecture provides abundant accessible active sites and electronically tuned metal surfaces, accelerating NH 3 activation, NH x intermediate conversion, and N recombination/desorption. Consequently, R-LSBMFCN exhibits the lowest apparent activation energy, nearly complete NH 3 conversion at high temperature, and maximum power densities of 1.638 and 1.386 W cm −2 under H 2 and NH 3 at 800°C, respectively, with stable operation for 200 h under NH 3 . This work demonstrates multi-doping-induced dual-alloy exsolution as an effective strategy for durable DA-SOFC anodes.",
   "authors": [
@@ -2340,6 +2421,46 @@
   "zh_obj": "氨硼烷水解；涉及Ru/钌体系",
   "zh_title": "负载于氧化铈上用于氨硼烷水解协同效应的 RuNi 双金属纳米颗粒催化剂"
  },
+ "10.1002/chem.71971": {
+  "abstract": "Hydrogen production via electrochemical water splitting is a promising solution to global energy and environmental challenges, yet it is hindered by sluggish reaction kinetics and complex catalyst systems. Herein, we report a facile Joule heating strategy to fabricate RuCo nanocluster alloys supported on vertical graphene nanosheets as efficient bifunctional electrocatalysts. Experimental characterizations confirm the uniform dispersion of RuCo nanoclusters and strong electronic interactions between Ru and Co, which accelerate the charge transfer and optimize the reaction kinetics. Specifically, it achieves remarkably low overpotentials of 48 and 188 mV at 10 mA cm-2 for HER and OER, respectively, alongside a robust stability over 1000 h. For overall water splitting, the RuCo catalyst requires a low cell voltage of 1.54 V at 10 mA cm-2, coupled with outstanding durability even at 100 mA cm-2. This work provides a versatile synthetic route for high-performance multi-metallic nanocluster catalysts, laying a solid foundation for constructing an efficient overall water splitting system.",
+  "authors": [
+   "Yongqi Li",
+   "Chen Li",
+   "Beirong Ye",
+   "Bingxue Zhang",
+   "Chong Tang",
+   "Xinhui Xia",
+   "Yongqi Zhang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-26",
+  "doi": "10.1002/chem.71971",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1002/chem.71971",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 15,
+  "source": "Chemistry - A European Journal",
+  "tier": "transferable",
+  "title": "RuCo Nanocluster Alloys Supported on Vertical Graphene Nanosheets: Rapid Synthesis and Application as Highly Effective Bifunctional Electrocatalysts for Overall Water Splitting",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1002/chem.71971",
+  "via": "OpenAlex",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_brief": "采用焦耳加热策略快速合成了负载于垂直石墨烯纳米片上的RuCo纳米团簇合金电催化剂。实验表征证实了RuCo纳米团簇的均匀分散及Ru与Co间的强电子相互作用，加速了电荷转移并优化了反应动力学。该催化剂在10 mA cm-2下HER和OER过电位分别为48 mV和188 mV，且稳定性超过1000小时；在全水分解中，10 mA cm-2下仅需1.54 V低电池电压。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "析氢反应",
+  "zh_title": "垂直石墨烯纳米片负载RuCo纳米团簇合金：快速合成及其作为高效双功能电催化剂用于全水分解的应用"
+ },
  "10.1002/cphc.70624": {
   "abstract": "Electrochemical reduction of nitric oxide (NO) to ammonia (NH 3 ) integrates pollutant abatement with green chemical synthesis. Using density functional theory with the computational hydrogen electrode model, we investigate NO electroreduction on a boron‐doped GeS 2 monolayer (B@S‐GeS 2 ) containing complementary Ge and B active centers. At the Ge site, the distal pathway operates as the minimum‐energy pathway under gas‐ and aqueous‐phase conditions, achieving a barrier‐free limiting potential ( U L = 0 V vs. RHE) driven by early N─O bond cleavage following double O‐end protonation. Conversely, the electron‐deficient B site exhibits stronger NO binding ( E ads = −2.14 eV). Although strong postcleavage N stabilization yields U L = −0.218 V, implicit solvation stabilizes polar intermediates, establishing a near‐degenerate dual‐pathway mechanism (Δ U L = 0.027 V). Both sites intrinsically suppress the hydrogen evolution reaction via severe H overbinding (Δ G H = −0.93 to −1.57 eV) and competitive NO adsorption. Additionally, competing N 2 O/N 2 formation pathways are kinetically and thermodynamically disfavored (Δ G PDS = +0.61 to +2.19 eV). Outperforming benchmark 2D catalysts, B@S‐GeS 2 presents a highly selective, dual‐site platform for ambient NO‐to‐NH 3 valorization.",
   "authors": [
@@ -2664,6 +2785,43 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系",
   "zh_title": "原位重构核壳 Fe-MOF@Cu 作为串联电催化剂将硝酸电还原为氨"
+ },
+ "10.1002/smll.76870": {
+  "abstract": "ABSTRACT Electrochemical nitrate‐to‐ammonia conversion (NitRR) enables sustainable green ammonia synthesis, yet its practical application is severely restricted by sluggish interfacial proton delivery, parasitic hydrogen evolution, and rigid reaction pathways dominated by hydroxylamine intermediates on spinel oxides. Rare‐earth single‐atom doping can modulate electronic and interfacial properties simultaneously, but triple synchronous regulation of electronic structure, interfacial hydrogen‐bond water networks, and intrinsic catalytic pathways remains largely unexploited. Herein, Pr single‐atom‐substituted Co 3 O 4 anchored on carbon nanotubes with in situ‐generated oxygen vacancies (Vo·) are constructed to form synergistic Pr SA ‐Vo· catalytic interfaces. Synchrotron X‐ray Absorption Spectroscopy, Operando Raman, and Differential Electrochemical Mass Spectrometry jointly validate dual electronic‐interfacial modulation: the Pr SA ‐Vo· coupling reshapes Co electronic configurations to activate nitrogen intermediates and reorganizes ordered water networks to accelerate proton transport. Most importantly, this co‐regulation fundamentally remodels the NitRR mechanism, switching it from *NH 2 OH routes to a thermodynamically favorable *N‐mediated dissociation pathway. Density‐functional‐theory and molecular‐dynamics simulations further confirm reduced rate‐determining barrier and optimized interfacial proton reservoirs. The catalyst achieves an NH 3 Faradaic efficiency of 97.70% and a yield rate of 12.52 mg h −1 cm −2 at −0.30 V, together with long‐term stability over 180 h at 100 mA cm −2 . This work establishes a favorable rare‐earth single‐atom defect co‐regulation paradigm for designing advanced electrocatalysts.",
+  "authors": [
+   "Yuting Deng",
+   "Yongjie Wang",
+   "Zhongqing Jiang",
+   "Zhong‐Jie Jiang"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-28",
+  "doi": "10.1002/smll.76870",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1002/smll.76870",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Small",
+  "tier": "background",
+  "title": "Dual Synergy of Pr Single Atoms and In Situ Oxygen Vacancies Enables Interfacial Water Reorganization and Pathway Switching Toward Efficient Nitrate‐to‐Ammonia Electrosynthesis",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1002/smll.76870",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_brief": "构建锚定在碳纳米管上具有原位生成氧空位的 Pr 单原子取代 Co3O4，形成协同 Pr SA-Vo·催化界面。同步辐射 X 射线吸收光谱、原位拉曼和差分电化学质谱证实了双重电子-界面调控：Pr SA-Vo·耦合重塑 Co 电子构型以活化氮中间体并重排有序水网络以加速质子传输。该协同调控从根本上重塑了 NitRR 机理，从 *NH2OH 路径切换至热力学有利的 *N 介导解离路径。该催化剂在 -0.30 V 下实现了 97.70% 的 NH3 法拉第效率和 12.52 mg h−1 cm−2 的产率，并在 100 mA cm−2 下实现了 180 h 的长期稳定性。",
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原；涉及碳材料",
+  "zh_title": "Pr 单原子与原位氧空位的双重协同作用实现界面水重排及硝酸盐-氨电合成路径切换"
  },
  "10.1002/smtd.71203": {
   "abstract": "ABSTRACT The electrochemical synthesis of ammonia through nitrogen reduction (ENRR) is hindered by N 2 inertness and competing hydrogen evolution reaction (HER). Phosphorene, despite its promise, inherently lacks the eletron‐backdonation capability for effective N 2 activation. Herein, we present a water‐free hydrogen bubble electroetching strategy to simultaneously exfoliate and engineer black phosphorus into defect‐rich porous phosphorene (D‐BP ene ) with abundant in‐plane phosphorus vacancies for ENRR catalysis. Four‐dimensional scanning transmission electron microscopy resolves distorted hexagonal rings where pairs of P atoms from the upper and lower sub‐layers show mutually perpendicular orientations. D‐BP ene exhibits superior electrocatalytic nitrogen reduction reaction performance, achieving a high NH 3 yield of 14.94 µg h −1 mg cat −1 at −0.05 V versus RHE and a Faradaic efficiency of 35.51% at 0 V versus RHE that corresponds to an ultralow overpotential of 92 mV, outperforming most metal‐free catalysts, while remaining stable for over 36 h. Density functional theory calculations reveal that phosphorus vacancies act as Lewis acid sites, reducing the energy barrier for the potential‐determining step from 2.012 to 1.387 eV via strengthened σ‐donation and π‐backdonation, while increasing the HER kinetic barrier by inhibiting *H desorption. This work presents an effective synthetic route to vacancy‐engineered two‐dimensional materials with potential applications extending beyond nitrogen fixation.",
@@ -3149,6 +3307,50 @@
   "zh_method": "电化学驱动，不等于床层焦耳热",
   "zh_obj": "电化学硝酸盐还原；涉及Fe/铁体系、碳材料",
   "zh_title": "界面电子调控：氮掺杂碳包覆 NiCo 合金实现高电流硝酸盐至氨电合成"
+ },
+ "10.1007/s42114-026-02194-8": {
+  "abstract": "",
+  "authors": [
+   "Junlei Qi",
+   "Meng Liu",
+   "Zhenguo Jiang",
+   "Zhenyu Ye",
+   "Yihong Liu",
+   "Liwu Liu",
+   "Hassaan A. Butt",
+   "Dmitry V. Krasnikov",
+   "Albert G. Nasibulin",
+   "Peixin Li",
+   "Jian Cao",
+   "Yaotian Yan"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-28",
+  "doi": "10.1007/s42114-026-02194-8",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1007/s42114-026-02194-8",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Advanced Composites and Hybrid Materials",
+  "tier": "transferable",
+  "title": "Transient localized joule heating beyond melting-point constraints for thermally conductive graphene/aluminum heterostructures",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1007/s42114-026-02194-8",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "joule heat"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "超越熔点限制的瞬态局域焦耳加热制备热导型石墨烯/铝异质结构"
  },
  "10.1016/b978-0-443-27509-8.00139-x": {
   "ab_check_v": 2,
@@ -6898,6 +7100,50 @@
   "zh_obj": "等离子体制氨",
   "zh_title": "在近环境条件下纳米花结构Ni掺杂CoOx催化剂上的等离子体催化氨合成"
  },
+ "10.1016/j.ijhydene.2026.158767": {
+  "abstract": "",
+  "authors": [
+   "Swati Singh",
+   "Louai Mahdi Maghrabi",
+   "Seok-Jin Kim",
+   "Cafer T. Yavuz",
+   "Tan Mingwu",
+   "Eswaravara Prasadarao Komarala",
+   "Messaoud Harfouche",
+   "Ondrej Malina",
+   "Aristides Bakandritsos",
+   "Nirpendra Singh",
+   "Victor Sabastian",
+   "Kyriaki Polychronopoulou"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-28",
+  "doi": "10.1016/j.ijhydene.2026.158767",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1016/j.ijhydene.2026.158767",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "International Journal of Hydrogen Energy",
+  "tier": "background",
+  "title": "Catalytic Synergy of Ru-Based Bimetallic Catalyst with Co or Mo for Enhanced NH3 Synthesis and Cracking",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.ijhydene.2026.158767",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "NH3 Synthesis"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "过程待核实",
+  "zh_title": "基于 Co 或 Mo 的双金属 Ru 基催化剂催化协同作用以增强 NH3 合成与裂解"
+ },
  "10.1016/j.inoche.2026.117958": {
   "ab_check_v": 2,
   "ab_result": "retry",
@@ -7255,6 +7501,46 @@
   "zh_method": "光驱动",
   "zh_obj": "光催化固氮",
   "zh_title": "0D/1D CPB/ZnO II型异质结的简便制备及其在高效光催化N2还原合成氨中的应用"
+ },
+ "10.1016/j.jallcom.2026.192778": {
+  "abstract": "",
+  "authors": [
+   "Xiaoying Yang",
+   "Jianmin Li",
+   "Liang Zhou",
+   "Xi Hu",
+   "Jianghua Pei",
+   "Yubin Wang",
+   "Jide Wang",
+   "Changyan Guo"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.jallcom.2026.192778",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1016/j.jallcom.2026.192778",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "Journal of Alloys and Compounds",
+  "tier": "transferable",
+  "title": "Flash Joule heating versus furnace calcination of waste-PET-derived MIL-125(Ti) into TiO2@C photocatalysts for CO2 cycloaddition",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1016/j.jallcom.2026.192778",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule heat"
+  ],
+  "zh_method": "焦耳热用于制备",
+  "zh_obj": "材料制备/结构调控",
+  "zh_title": "闪蒸焦耳热与炉煅烧制备废PET衍生的MIL-125(Ti)用于CO2环加成TiO2@C光催化剂的比较"
  },
  "10.1016/j.jcat.2026.117293": {
   "ab_check_v": 2,
@@ -9163,6 +9449,43 @@
   "zh_obj": "制氨路线未明确；涉及碳材料",
   "zh_title": "三嗪基石墨相氮化碳负载过渡金属单原子催化剂的理论筛选"
  },
+ "10.1016/j.memsci.2026.126479": {
+  "abstract": "",
+  "authors": [
+   "Nolan Kelley",
+   "John Braford",
+   "Jesse Hensley",
+   "J. Douglas Way",
+   "Colin A. Wolden"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11",
+  "doi": "10.1016/j.memsci.2026.126479",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1016/j.memsci.2026.126479",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Journal of Membrane Science",
+  "tier": "background",
+  "title": "Balancing Permeance and Catalyst Activity to Improve Hydrogen Production from Ammonia Decomposition in Catalytic Membrane Reactors",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.memsci.2026.126479",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Ammonia Decomposition"
+  ],
+  "zh_method": "未交代供热方式",
+  "zh_obj": "氨分解制氢",
+  "zh_title": "平衡渗透性与催化活性以提高催化膜反应器中氨分解制氢"
+ },
  "10.1016/j.mser.2026.101327": {
   "ab_check_v": 2,
   "ab_result": "partial",
@@ -9268,6 +9591,42 @@
   "zh_brief": "利用超快闪蒸焦耳热耦合自组装策略，在保留长程介观有序的同时实现了有序介孔氧化物的秒级结晶。研究在低镁含量下合成了具有缺陷尖晶石相关纳米晶结构的有序介孔镁铝氧化物框架，并发现镁的掺入能显著促进晶粒生长。此外，该研究展示了铂纳米颗粒在框架内的原位结晶及其在350 °C下对甲基环己烷脱氢的活性。",
   "zh_method": "未交代供热方式",
   "zh_obj": "其他催化反应"
+ },
+ "10.1016/j.mtsust.2026.101498": {
+  "abstract": "",
+  "authors": [
+   "Labeeb Ali",
+   "Abdulrahman Alraeesi",
+   "Belal Al-Zaitone",
+   "Mohammednoor Altarawneh"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "title",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-28",
+  "doi": "10.1016/j.mtsust.2026.101498",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1016/j.mtsust.2026.101498",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 9,
+  "source": "Materials Today Sustainability",
+  "tier": "background",
+  "title": "Perovskite oxides for electrochemical ammonia synthesis: Tuning electronic structure in nitrogen and nitrate reduction",
+  "top": false,
+  "topics": [
+   "nh3"
+  ],
+  "url": "https://doi.org/10.1016/j.mtsust.2026.101498",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "ammonia synthesis"
+  ],
+  "zh_method": "电化学驱动，不等于床层焦耳热",
+  "zh_obj": "电化学硝酸盐还原",
+  "zh_title": "用于电化学氨合成的钙钛矿氧化物：氮和硝酸盐还原中的电子结构调控"
  },
  "10.1016/j.proci.2026.106741": {
   "abstract": "This study assesses the Incompletely Stirred Reactor Network (ISRN) approach in terms of accuracy in capturing the scalar distributions in an ammonia-fuelled staged combustor employing various degrees of NH 3 partial cracking, characterised by the molar ammonia decomposition ratio (DR). Underlying solutions from Large Eddy Simulation with Conditional Moment Closure (LES-CMC) with D R = 0.25 for 10 bar and D R = 0.50 for 5 bar are used to explore the behaviour of the combustor at varying D R at the range 0.1 < DR < 0.9 at constant pressure without repeating the CFD simulation. The basic hypothesis is that the mixing field does not change significantly as the fuel changes, which enables the exploration of parameter spaces with a single reference LES-CMC simulation. The ISRN model accurately predicts temperature and NOx distributions across the full range of D R tested, showing good agreement with both LES-CMC and experiment. The sensitivity to the chemical mechanism is also explored and it is found that NOx is predicted similarly from all schemes tested. The results suggest that ISRN can be used as a low-order model for ammonia combustor emissions, which facilitates the design process and provides insights to the flame structure as operating parameters change. Novelty and significance statement: This work demonstrates the first application of the combined framework of Large Eddy Simulation-Conditional Moment Closure (LES-CMC) with Incompletely Stirred Reactor Network (ISRN) modelling approach to predict NOx emission in an ammonia-fuelled laboratory-scale high pressure (10 bar) gas turbine combustor. ISRN is a computationally efficient, low-order model that incorporates detailed chemistry, mixture fraction spatial inhomogeneities, and chemistry evolution as a function of space. Using LES-CMC as a high-fidelity reference CFD solution, ISRN explores the operating parameter space, in this case, the NH 3 decomposition ratio at the fuel inlet, while maintaining agreement with experimental and LES-CMC predictions. The approach also allows a quick evaluation of the impact of the chemical mechanism used on NOx formation without having to repeat expensive CFD calculations.",
@@ -12462,6 +12821,43 @@
   "zh_method": "未交代供热方式",
   "zh_obj": "氨硼烷水解",
   "zh_title": "极端条件下从氨硼烷 (BH 3 NH 3 ) 形成立方 BN"
+ },
+ "10.1111/ijac.70327": {
+  "abstract": "ABSTRACT Preparation and processing of various carbide ceramics are typically energy‐intensive processes involving high temperatures, inert atmospheres, and costly equipment. Recently, various chemical and metallurgical techniques have aimed to increase process efficiency and reduce production costs. Herein, we present the preparation of titanium carbide powder via a carbothermal reaction powered by Joule heating in a setup resembling flash sintering experiments. Porous and partially sintered TiC blocks can be readily synthesized in this configuration with minimal energy input (approximately 3.3 W·h per cycle). This is possible due to the use of soft graphite felt electrodes, which are typically used in ultrafast high‐temperature sintering (UHS). The process showed a certain degree of self‐regulation, as the reaction product has lower electrical conductivity; therefore, the current automatically decreases after the carbothermal reaction is completed. It must be stressed that this synthesis approach does not produce fully dense sintered compacts; rather, it provides a low‐cost and facile route for preparing partially sintered, porous carbide powder agglomerates that can be further processed.",
+  "authors": [
+   "Jakub Dědeček",
+   "Jan J. Hřebenář",
+   "Peter Minárik",
+   "Václav Tyrpekl"
+  ],
+  "brief_by": "glm-4.7-flash",
+  "brief_from": "abstract",
+  "brief_v": 4,
+  "cross": false,
+  "date": "2026-11-28",
+  "doi": "10.1111/ijac.70327",
+  "first_seen": "2026-11-28T18:58:34Z",
+  "id": "10.1111/ijac.70327",
+  "kind": "journal",
+  "origin": "日常",
+  "score": 18,
+  "source": "International Journal of Applied Ceramic Technology",
+  "tier": "transferable",
+  "title": "Carbothermal Reduction by Joule Heating: Graphite Felt Electrodes, Self‐Regulation, and Le Chatelier's Principle",
+  "top": false,
+  "topics": [
+   "joule"
+  ],
+  "url": "https://doi.org/10.1111/ijac.70327",
+  "via": "Crossref",
+  "watch": [],
+  "why": [
+   "Joule Heat"
+  ],
+  "zh_brief": "利用类似闪烧实验的装置，通过焦耳加热在石墨毡电极间进行碳热反应制备碳化钛粉末。该方法能耗低（约3.3 W·h/循环），利用软石墨毡电极实现了部分烧结多孔TiC块体的合成。反应产物电导率降低导致电流自动减小，表现出一定的自调节特性，提供了一种低成本制备部分烧结多孔碳化钛团聚体的简便途径。",
+  "zh_method": "反应阶段焦耳/电阻供热",
+  "zh_obj": "过程待核实；涉及碳材料",
+  "zh_title": "焦耳加热碳热还原：石墨毡电极、自调节与勒夏特列原理"
  },
  "10.1116/6.0005815": {
   "abstract": "Plasma-enhanced atomic layer deposition (PEALD) enables the growth of crystalline films of atomically precise thickness at reduced temperatures through the utilization of reactive and energetic plasma species. However, the mechanisms by which plasma-generated species influence nanoscale surface evolution during growth remain poorly understood. Here, we correlate the real-time evolution of nanoscale island morphology, including nucleation, coarsening, and coalescence, with the fluxes of reactive and energetic plasma species during PEALD growth. Grazing-incidence small-angle X-ray scattering was used as a nondestructive, surface-sensitive technique to monitor morphological evolution in real time, combined with plasma diagnostics to quantify reactive species and ion fluxes. We find that increasing reactive nitrogen flux accelerates the onset of island formation, while increasing ion flux promotes island coalescence and coarsening. These observations demonstrate how reactive species and ion fluxes modify nucleation, coalescence, and coarsening during PEALD growth. Furthermore, controlling reactive and energetic plasma species provides a means for tailoring surface processes and optimizing material properties during low-temperature thin-film growth.",

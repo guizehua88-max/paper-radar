@@ -42,12 +42,6 @@
  "cloud_imported": "2026-10-28T22:01:44Z",
  "history": [
   {
-   "at": "2026-10-29T20:55:03Z",
-   "errors": {},
-   "new": 0,
-   "push": []
-  },
-  {
    "at": "2026-10-30T02:34:47Z",
    "errors": {},
    "new": 2,
@@ -583,24 +577,36 @@
    },
    "new": 0,
    "push": []
+  },
+  {
+   "at": "2026-11-28T18:58:34Z",
+   "errors": {
+    "补摘要": "部分请求失败（其余正常）：Semantic Scholar"
+   },
+   "new": 10,
+   "push": [
+    "serverchan:ok"
+   ]
   }
  ],
  "initialized": true,
  "last_daily_status": {
-  "at": "2026-11-28T04:43:22Z",
-  "push": [],
+  "at": "2026-11-28T18:58:34Z",
+  "push": [
+   "serverchan:ok"
+  ],
   "sources": {
    "Crossref": {
     "calls": 20,
     "err": "",
     "fails": 0,
-    "n": 1110
+    "n": 1124
    },
    "OpenAlex": {
     "calls": 12,
     "err": "",
     "fails": 0,
-    "n": 20
+    "n": 28
    },
    "RSS · Advanced Energy Materials": {
     "calls": 1,
@@ -612,7 +618,7 @@
     "calls": 1,
     "err": "",
     "fails": 0,
-    "n": 619
+    "n": 699
    },
    "RSS · Advanced Materials": {
     "calls": 1,
@@ -730,19 +736,19 @@
    },
    "补摘要": {
     "calls": 1,
-    "err": "部分请求失败（其余正常）：Semantic Scholar、Europe PMC",
+    "err": "部分请求失败（其余正常）：Semantic Scholar",
     "fails": 0,
-    "n": 161
+    "n": 224
    }
   },
-  "中文简介": "新写 0 篇",
-  "新增相关": 0,
+  "中文简介": "新写 10 篇",
+  "新增相关": 10,
   "模式": "日常",
-  "补摘要": "161/501",
-  "达到推送标准": 0
+  "补摘要": "224/524",
+  "达到推送标准": 3
  },
- "last_push_at": "2026-11-27T19:58:12Z",
- "last_run": "2026-11-28T04:43:22Z",
+ "last_push_at": "2026-11-28T18:58:34Z",
+ "last_run": "2026-11-28T18:58:34Z",
  "rebackfill": {
   "done": [
    "2024-01",
